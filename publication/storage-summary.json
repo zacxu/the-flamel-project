@@ -589,5 +589,17 @@
     "repository": "zacxu/the-flamel-project",
     "release_assets_uploaded": false,
     "hosting_modified": false
+  },
+  "phase7": {
+    "status": "PENDING_PUBLICATION_ACCEPTANCE",
+    "git_selected_files": 5332,
+    "new_files": 24,
+    "declared_controls": 240,
+    "actual_modified_baseline_files": 17,
+    "research_archives_including_notices": 12,
+    "release_assets": 17,
+    "release_tag": "v0.1.0",
+    "release_uploaded_and_retrieved": false,
+    "hosting_changed": false
   }
 }

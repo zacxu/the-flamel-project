@@ -1,0 +1,25 @@
+# Private GitHub Release transport
+
+The source helper is scripts/github_publication/phase7/release_transport.py. It uses the ordinary GitHub CLI authenticated session or GH_TOKEN environment inherited from its caller. It does not retrieve credentials, embed them in URLs or files, echo process environments, print raw authentication errors, or use --clobber.
+
+The reviewed local scope is exactly seventeen assets: the twelve immutable Phase 4 archive/notice identities, flamel-website-v0.1.0.zip, flamel-predecessor-v0.1.0.zip, flamel-validation-v0.1.0.zip, flamel-release-v0.1.0.json and SHA256SUMS. The tag version substitutes consistently for later releases. Original private UPF archives are rejected by both original name and digest, including renamed copies.
+
+Transport modes:
+
+- preflight --manifest <external-transport-inventory.json>
+- upload-draft --manifest <inventory> --notes-file <file> --title <title> --receipt <new-outside-source.json>
+- publish --manifest <inventory> --receipt <new-outside-source.json>
+- download --manifest <inventory> --destination <new-outside-source-dir> --receipt <new-outside-source.json>
+- bootstrap --tag v0.1.0 --destination <new-outside-source-dir> [--source-commit <expected-full-SHA>] --receipt <new-outside-source.json>
+
+Pass --gh <path-to-gh> and optional --root <checkout> before the subcommand. Upload inventories are external local transport documents, with repository, tag, source_commit and assets rows containing name, bytes, sha256 and local_path. Source paths must be absolute, regular and match the asset filename. Local file bytes are rehashed before draft upload. No existing published release can be uploaded to. An existing draft is resumable only when every existing named asset matches its expected GitHub SHA-256, size and uploaded state. Unexpected or mismatched assets stop the operation; none are deleted or overwritten. Publication is a separate final operation after the exact complete asset set and tag commit pass.
+
+A fresh clone does not need the producer's local transport inventory. Bootstrap downloads the canonical record and checksum sidecar first using authenticated gh release download. The record must contain repository, tag, source_commit and assets with fifteen payload rows (name, bytes, sha256). SHA256SUMS must cover those fifteen payloads and the canonical record, excluding itself. The helper verifies the tag's actual commit, the twelve frozen research/notice identities, all seventeen API asset digests and the checksum relationship, then downloads and independently hashes every asset. Files are committed with atomic non-overwriting hard links; the destination must be new, outside source, and on a filesystem supporting hard links such as the tested NTFS volumes.
+
+The helper checks the repository is the intended private repository and requires push permission for draft upload or publication. Tag objects are resolved through a bounded chain and must identify the selected full source commit. GitHub's returned immutable flag is recorded; a normal tag/asset checksum policy is not falsely described as a platform-enforced immutable release unless that flag is actually true.
+
+Seventeen focused fixtures pass locally with no skips. They cover required notice/identity enforcement, renamed private archives, changed research bytes, path/label/wildcard rejection, duplicate/oversized assets, wrong repository/source/tag, malformed checksums, remote missing/extra/digest changes, matching partial drafts, published-release upload rejection, annotated-tag identity, all seventeen bootstrap downloads, missing record checksum, unpublished drafts and wrong expected source. Synthetic API downloads exercise actual bootstrap/file hashing without network writes or scientific execution.
+
+The bounded local auth probe used the existing normal Git Credential Manager protocol solely for this repository and confirmed private=true and push=true. Its private adapter and official CLI installation receipts live in the external Phase 7 audit root. No credential was written into source, receipts, command arguments, URLs or ordinary logs. Fresh users should install the official GitHub CLI, sign in normally with gh auth login, then run the source helper; no producer-specific credential adapter is required.
+
+Primary references: [CLI authentication](https://cli.github.com/manual/gh_auth_login), [release creation](https://cli.github.com/manual/gh_release_create), [asset upload](https://cli.github.com/manual/gh_release_upload), [authenticated release download](https://cli.github.com/manual/gh_release_download). The installed portable CLI is v2.103.3, with its ZIP and official checksum file independently SHA-256 verified and recorded under tools/GH_CLI_INSTALLATION.json in the external audit directory.

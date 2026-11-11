@@ -6,7 +6,7 @@ on:
     paths:
       - '.github/workflows/**'
       - 'scripts/github_publication/phase6/**'
-      - 'scripts/github_publication/verify_phase6.py'
+      - 'scripts/github_publication/verify_phase7.py'
   workflow_dispatch:
 
 permissions:

@@ -1,3 +1,5 @@
+> Current release work: [Phase 7](reports/GITHUB_PUBLICATION_PHASE7.md) and [release guide](RELEASE.md). The Phase 7 integrity overlay supersedes the current checkout gate; prior phase records remain historical.
+
 # Continuous integration
 
 The website is already hosted on InfinityFree. These workflows validate future changes and prepare verified update packages. They do not change the currently hosted site.
@@ -31,17 +33,19 @@ The previous initial-ci.yml is a manual historical audit of the fixed Phase 5 co
 
 The read-only saved-evidence audit checks retained inputs and payloads; it does not rerun historical experiments or claim a new scientific result. Optional external asset retrieval uses the scoped Phase 4 public selector, exact hashes and upstream policy. Actual permitted-asset upload and fresh release retrieval are Phase 7 work.
 
-Package verification enforces the selected source SHA, producing run, payload inventory, staged entry and hosting policy. The recorded source_tree and producer_workflow_commit fields are producer assertions in this phase, rather than separate independently authenticated claims. Phase 7 can strengthen release attestations.\n\nThe legacy website release validator requires the historical .cache/w6-previous-dist predecessor, which is intentionally absent from normal Git checkouts. CI package verification independently checks the current package and staged entry bytes. It does not label the unavailable predecessor/coexistence or fresh browser checks as passed. Phase 7 must supply the approved predecessor package and complete those release acceptance checks.
+Package verification enforces the selected source SHA, producing run, payload inventory, staged entry and hosting policy. The recorded source_tree and producer_workflow_commit fields are producer assertions in this phase, rather than separate independently authenticated claims. Phase 7 can strengthen release attestations.
+
+The legacy website release validator requires the historical .cache/w6-previous-dist predecessor, which is intentionally absent from normal Git checkouts. CI package verification independently checks the current package and staged entry bytes. It does not label the unavailable predecessor/coexistence or fresh browser checks as passed. Phase 7 must supply the approved predecessor package and complete those release acceptance checks.
 
 ## Integrity and review
 
 Run the current gate from a clean committed checkout:
 
 ~~~powershell
-python -I -B scripts/github_publication/verify_phase6.py --require-clean
+python -I -B scripts/github_publication/verify_phase7.py --require-clean
 ~~~
 
-Before committing, the same checker accepts --index. Supply --seal and --seal-sha256 with the independent recovery manifest to authenticate every selected byte. Without the external seal, current controls are compared to Git and explicitly reported as externally unsealed. The pinned Phase 5 baseline authenticates unchanged inputs.
+Before committing, the same checker accepts --index. Supply --seal and --seal-sha256 with the independent recovery manifest to authenticate every selected byte. Without the external seal, current controls are compared to Git and explicitly reported as externally unsealed. The pinned completed Phase 6 baseline authenticates unchanged inputs.
 
 Existing active application/research/publication source paths are explicitly enumerated as mutable controls so ordinary code edits can pass through normal pull requests. The baseline declaration field modified_frozen_input_paths includes these permitted source paths; it does not claim every listed file changed in this phase. actual_modified_baseline_paths records actual Phase 6 edits separately.
 

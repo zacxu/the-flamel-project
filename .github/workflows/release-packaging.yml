@@ -24,7 +24,7 @@ jobs:
   package:
     name: Build verified static package (manual)
     runs-on: windows-2025
-    timeout-minutes: 30
+    timeout-minutes: 40
     outputs:
       artifact_name: flamel-package-${{ inputs.source_commit }}
     env:
@@ -44,7 +44,7 @@ jobs:
       - name: Validate immutable published source
         shell: pwsh
         run: |
-          python -I -B controller/scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B controller/scripts/github_publication/verify_phase7.py --require-clean
           if ($LASTEXITCODE -ne 0) { throw 'Controller verification failed.' }
           python -I -B controller/scripts/github_publication/phase6/manual_ci.py resolve-source --root controller --source-commit "$env:SOURCE_COMMIT"
           if ($LASTEXITCODE -ne 0) { throw 'Source commit is outside permitted published/acceptance scope.' }
@@ -54,6 +54,15 @@ jobs:
           ref: ${{ inputs.source_commit }}
           path: candidate
           persist-credentials: false
+      - name: Retrieve exact predecessor support
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $support = Join-Path $env:RUNNER_TEMP 'flamel-package-support'
+          New-Item -ItemType Directory -Path $support | Out-Null
+          gh release download v0.1.0 --repo zacxu/the-flamel-project --pattern flamel-predecessor-v0.1.0.zip --dir $support
+          if ($LASTEXITCODE -ne 0) { throw 'Published predecessor support retrieval failed.' }
       - name: Build, package, guard and verify exact bytes
         shell: pwsh
         run: |
@@ -62,15 +71,15 @@ jobs:
             ToolchainRoot = (Join-Path $env:RUNNER_TEMP 'flamel-package-tools')
             OutputDirectory = (Join-Path $env:RUNNER_TEMP 'flamel-package')
             SourceCommit = $env:SOURCE_COMMIT
-            PythonExe = (Get-Command python -CommandType Application | Select-Object -First 1).Source
+            PredecessorArchive = (Join-Path $env:RUNNER_TEMP 'flamel-package-support/flamel-predecessor-v0.1.0.zip')
           }
-          & ./controller/scripts/github_publication/phase6/manual_package.ps1 @arguments
+          & ./controller/scripts/github_publication/phase7/prepare_release.ps1 @arguments
           if ($LASTEXITCODE -ne 0) { throw 'Package gate failed.' }
       - name: Verify workflow source remained unchanged
         if: always()
         shell: pwsh
         run: |
-          python -I -B controller/scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B controller/scripts/github_publication/verify_phase7.py --require-clean
           if ($LASTEXITCODE -ne 0) { throw 'Controller source changed.' }
       - name: Retain exact package and staging instructions
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
@@ -84,4 +93,4 @@ jobs:
       - name: Explain publication boundary
         shell: pwsh
         run: |
-          'Verified downloadable Actions package. NOT_DEPLOYED. No GitHub Release created. Phase 7 completes release acceptance; Phase 8 integrates hosting transport.' | Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY
+          'Verified downloadable Actions package. NOT_DEPLOYED. No GitHub Release created. Full Phase 7 release gates passed; Phase 8 integrates hosting transport.' | Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY

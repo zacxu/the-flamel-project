@@ -163,6 +163,8 @@ Existing download checks validate retained browser files; they do **not** establ
 
 **Completion condition:** another machine can retrieve, verify, and build the release using only the repository and declared assets.
 
+**Phase 7 status: IMPLEMENTING.** [Release guide](RELEASE.md) | [Completion report](reports/GITHUB_PUBLICATION_PHASE7.md). The selected source must pass CI, the full release gates and independent authenticated retrieval/build before completion. Existing hosting is unchanged.
+
 **8. Connect deployment to InfinityFree**
 
 Start with automated build, validation, and deployment-package preparation. Then automate upload once the account's supported transport has been verified. InfinityFree permits GitHub Actions uploads. [InfinityFree guidance](https://forum.infinityfree.com/t/using-github-actions-for-automatic-upload-to-infinityfree/111008).

@@ -43,7 +43,7 @@ jobs:
       - name: Verify source before website checks
         shell: pwsh
         run: |
-          python -I -B scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B scripts/github_publication/verify_phase7.py --require-clean
           if ($LASTEXITCODE -ne 0) { throw 'Source integrity failed' }
       - name: Python installer safety without scientific installation
         shell: pwsh
@@ -58,5 +58,5 @@ jobs:
         if: always()
         shell: pwsh
         run: |
-          python -I -B scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B scripts/github_publication/verify_phase7.py --require-clean
           if ($LASTEXITCODE -ne 0) { throw 'Source integrity changed' }

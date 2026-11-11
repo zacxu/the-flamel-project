@@ -1,3 +1,5 @@
+> Reproducible release: [Phase 7](../reports/GITHUB_PUBLICATION_PHASE7.md) | [Release guide](../RELEASE.md). Existing release availability is verified in the Phase 7 completion record; historical manifests below keep their original scope.
+
 # Publication storage decisions
 
 > Current CI implementation: [Phase 6](../reports/GITHUB_PUBLICATION_PHASE6.md) and [CI guide](../CI.md). The Phase 6 overlay pins the complete published Phase 5 baseline; current recovery seals remain independent of Git. The permitted-archive policy and existing hosting are unchanged.

@@ -1,3 +1,5 @@
+> Reproducible release: [Phase 7](reports/GITHUB_PUBLICATION_PHASE7.md) | [Release guide](RELEASE.md). Existing release availability is verified in the Phase 7 completion record; historical manifests below keep their original scope.
+
 > Phase 6 CI complete: [CI guide](CI.md) and [Phase 6 report](reports/GITHUB_PUBLICATION_PHASE6.md). Routine website/research checks preserve accepted evidence; manual workflows prepare verified packages. The live website remains hosted on InfinityFree.
 
 # Crystal discovery hackathon prototype

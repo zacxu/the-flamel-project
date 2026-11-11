@@ -46,7 +46,7 @@ jobs:
           python-version: '3.11.14'
       - name: Verify source and immutable source input
         run: |
-          python -I -B scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B scripts/github_publication/verify_phase7.py --require-clean
           python -I -B -c 'import os,re; assert re.fullmatch("[a-f0-9]{40}",os.environ["SOURCE_COMMIT"]), "Use an immutable full SHA"'
       - name: Verify successful same-repository producing run
         if: inputs.package_run_id != ''
@@ -73,7 +73,7 @@ jobs:
           producer="$PACKAGE_RUN_ID"
           if [ -z "$producer" ]; then producer="$GITHUB_RUN_ID"; fi
           python -I -B scripts/github_publication/phase6/manual_ci.py verify-package --package-dir "$RUNNER_TEMP/flamel-package" --source-commit "$SOURCE_COMMIT" --producer-run-id "$producer" --report "$RUNNER_TEMP/deployment-preparation.json"
-          python -I -B scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B scripts/github_publication/verify_phase7.py --require-clean
       - name: Retain validation receipt
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
