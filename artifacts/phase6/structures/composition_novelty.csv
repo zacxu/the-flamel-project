@@ -1,0 +1,7 @@
+formula,counts,mp_matching_composition_records,wbm_matching_composition_records,absent_from_both_pinned_snapshots,global_composition_novelty_established,generator_pretraining_OOD_established,DFT_confirmed_stability
+SnSrO2,"{""O"": 2, ""Sn"": 1, ""Sr"": 1}",0,0,True,False,False,False
+BaSnO2,"{""Ba"": 1, ""O"": 2, ""Sn"": 1}",0,0,True,False,False,False
+CaMg2O3,"{""Ca"": 1, ""Mg"": 2, ""O"": 3}",0,0,True,False,False,False
+Mg2SrO3,"{""Mg"": 2, ""O"": 3, ""Sr"": 1}",0,0,True,False,False,False
+Ca2ZnO3,"{""Ca"": 2, ""O"": 3, ""Zn"": 1}",0,0,True,False,False,False
+Ca2SrO3,"{""Ca"": 2, ""O"": 3, ""Sr"": 1}",0,0,True,False,False,False

@@ -1,0 +1,184 @@
+{
+  "phase": "Entry HTML cache fix",
+  "status": "live_entry_policy_verified_recovery_pending",
+  "recordedAt": "2026-10-22T18:56:04.944Z",
+  "deployed": true,
+  "uiBuildId": "ui-w6-351e6182d7af3a9d062d",
+  "url": "https://theflamelproject.42web.io/",
+  "cause": "The host supplied a 30-day max-age=2592000 cache lifetime for the mutable entry HTML, allowing linked visits to retain older application releases.",
+  "change": "Scoped no-store/no-cache entry headers with mod_expires disabled; optional cache-only recovery endpoint for pre-policy copies; original image adapter retained byte-for-byte.",
+  "configuration": {
+    "path": "website/deployment/cache-fix/.htaccess",
+    "bytes": 1278,
+    "sha256": "e359636d0af8ec4b82ca98bdc6144ce626d047b4e43215acf9c8b5612819118f"
+  },
+  "firstPolicyConfiguration": {
+    "path": "website/deployment/cache-fix/html-policy-first.htaccess",
+    "bytes": 712,
+    "sha256": "5b17e9c342127d39b4f373afabc6172dd9f47b58e3df135f781fac6d84ab5c45"
+  },
+  "recoveryDocument": {
+    "path": "website/deployment/cache-fix/refresh.html",
+    "bytes": 899,
+    "sha256": "e4b1f422c7d8469f972d21332422dd3ebe7ccc69b495ff97ef8e0732a6b763ce"
+  },
+  "rollbackConfiguration": {
+    "path": "website/deployment/cache-fix/previous-root.htaccess",
+    "bytes": 230,
+    "sha256": "383707b105ac4286f66595968d735aded9a3e5796f4d98bceac2588d0955d9fc"
+  },
+  "preservedImagePrefixBytes": 230,
+  "baseline": "website/deployment/cache-fix/BASELINE.json",
+  "checks": [
+    {
+      "path": "website/dist/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/CrystalViewer-BkPovndm.css",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/CrystalViewer-D6QrqYuJ.js",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/ReplayChart-Cu8ZDifc.css",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/ReplayChart-Dv-DkF9p.js",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/index-BI21S9xT.css",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/index-BiMRMsvf.js",
+      "unchanged": true
+    },
+    {
+      "path": "website/public/research/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/research/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "website/deployment/root-image-adapter/.htaccess",
+      "unchanged": true
+    },
+    {
+      "path": "website/src/generated/uiRelease.ts",
+      "unchanged": true
+    }
+  ],
+  "entryPolicy": {
+    "before": [
+      {
+        "path": "/",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/",
+        "cacheControl": "max-age=2592000, public, proxy-revalidate",
+        "expires": "Sat, 21 Nov 2026 18:50:41 GMT",
+        "pragma": null,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": false
+      },
+      {
+        "path": "/index.html",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/index.html",
+        "cacheControl": "max-age=2592000, public, proxy-revalidate",
+        "expires": "Sat, 21 Nov 2026 18:50:42 GMT",
+        "pragma": null,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": false
+      }
+    ],
+    "after": [
+      {
+        "path": "/",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/",
+        "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+        "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+        "pragma": "no-cache",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": true
+      },
+      {
+        "path": "/index.html",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/index.html",
+        "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+        "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+        "pragma": "no-cache",
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": true
+      }
+    ]
+  },
+  "immutableResponseSamples": [
+    {
+      "path": "/assets/index-BiMRMsvf.js",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/assets/index-BiMRMsvf.js",
+      "cacheControl": "max-age=2592000, public, proxy-revalidate, must-revalidate",
+      "expires": "Sat, 21 Nov 2026 18:51:22 GMT",
+      "pragma": null,
+      "contentType": "application/javascript",
+      "bytes": 464737,
+      "sha256": "dfd9ce683cc2bb3bf91a1bdc352b03280a454ba3ca2b7caeeb414556eeb0a68f",
+      "unchangedBytesAndHash": true
+    },
+    {
+      "path": "/research/manifest.json",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/research/manifest.json",
+      "cacheControl": "max-age=0",
+      "expires": "Thu, 22 Oct 2026 18:51:22 GMT",
+      "pragma": null,
+      "contentType": "application/json",
+      "bytes": 22605,
+      "sha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+      "frozenManifestUnchanged": true,
+      "unchangedBytesAndHash": true
+    },
+    {
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "cacheControl": "max-age=0",
+      "expires": "Thu, 22 Oct 2026 18:51:22 GMT",
+      "pragma": null,
+      "contentType": "image/png",
+      "bytes": 35124,
+      "sha256": "696b41195f25a4bac6e54757ca083f53cea3a451bbbda4c8ed70d7c95608c4a1",
+      "unchangedBytesAndHash": true
+    }
+  ],
+  "browserChecks": {
+    "homepageLink": "Root reported actual clicked link loaded current 351e UI.",
+    "crystalLabLink": "Root reported clicked link loaded current 351e UI and lattice-axis preset worked.",
+    "consoleErrors": [],
+    "recovery": "Pending separate final live probe from root; no recovery-support guarantee yet."
+  },
+  "futureDeployments": "Retain deployment/cache-fix/.htaccess as /htdocs/.htaccess, plus refresh.html if keeping recovery. root-image-adapter/.htaccess is the historical 230-byte image-only config and must not replace this current policy.",
+  "rollback": "Upload previous-root.htaccess as /htdocs/.htaccess; immutable files/entry/research remain unchanged. The recovery document can remain unused.",
+  "limits": "New headers cannot retroactively replace an already-cached document or an already-open application. Recovery endpoint browser support and final response verification remain pending; no build, research rerun, broad suite or physical-device certification."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "prior_selected_files": 5200,
+  "changed_before_final_metadata": [
+    "README.md",
+    "publication/README.md",
+    "publication/RETRIEVAL.md",
+    "publication/backup-paths.json",
+    "publication/generated-control-paths.json",
+    "publication/git-files.txt",
+    "publication/git-pathspec.nul",
+    "publication/storage-summary.json",
+    "requirements/GENERATOR_PORTABILITY.md",
+    "scripts/github_publication/verify_phase3.py"
+  ],
+  "only_declared_controls_changed": true,
+  "immutable_key_files": [
+    {
+      "path": "requirements/analysis-lock.txt",
+      "sha256": "675e605aa249a8ba66f69cd6f92e94f4680e3b975df5304f2d0dcf09d8025b4f"
+    },
+    {
+      "path": "requirements/generator-lock.txt",
+      "sha256": "6e5d83432f5e10ed8d54fb3a11a68db367b1ebd512ed86bb870afe25b767bc2f"
+    },
+    {
+      "path": "requirements/generator-portable.txt",
+      "sha256": "f8e5d69d03d5c400e9ae5c52b896d8ac1fb5330eb7989462d4fa7ce9a47918b6"
+    },
+    {
+      "path": "scripts/setup_environments.ps1",
+      "sha256": "89e0516f2bfccb943501e783b855e7d5241050728bbccd1814a2a493550ecf7f"
+    },
+    {
+      "path": "publication/artifacts.json",
+      "sha256": "afcd6f3ce400e68a075f7dc87bc5d08c8040a9042ae1669986ed25f8fc8dcc6b"
+    },
+    {
+      "path": "publication/pinned-upstreams.json",
+      "sha256": "26fdbca23a32868bfbb0d8f05e6c0617887ec5381f483d5e3ecdc0f9ecfe5e02"
+    },
+    {
+      "path": "publication/storage-policy.json",
+      "sha256": "4c5830d1e2ea29c9361810bbdc064ab758a863782849e3ac255204afead289da"
+    },
+    {
+      "path": "publication/git-input-files.json",
+      "sha256": "66018230feb1c1ca1198536f8824816720a88438cee90f2f2e8225b22bc09525"
+    },
+    {
+      "path": "publication/file-dispositions.jsonl.gz",
+      "sha256": "0b541e73b2461410a64343f2ec5f4a562a6c61540caddd8bf19a694c01995c22"
+    },
+    {
+      "path": "publication/SHA256SUMS",
+      "sha256": "7277d3b8e5855193f5572c839f0428b8291aafa2a2c74d9c373511becab93337"
+    }
+  ],
+  "scientific_inputs_and_website_source_unchanged": true,
+  "working_tree_path_reconciliation": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\WORKING_TREE_PATH_RECONCILIATION.json",
+  "reconciliation_missing_paths": 0,
+  "reconciliation_reparse_entries": 0
+}

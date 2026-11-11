@@ -1,0 +1,17 @@
+{"utc": "2026-10-21T17:44:38.317480+00:00", "event": "worker_started", "pid": 22012, "cpu_affinity": {"applied": true, "mask": "0xF", "requested_logical_cpus": 4}, "case": {"attempts": 8, "batch_size": 4, "batches": 2, "chemical_system": "Ca-Mg-O", "cohort": "default", "conditioning_formula": "CaMg2O3", "count_compatibility_witness": [{"element": "Ca", "multiplicity": 1, "wyckoff_letter": "a"}, {"element": "Mg", "multiplicity": 2, "wyckoff_letter": "i"}, {"element": "O", "multiplicity": 1, "wyckoff_letter": "b"}, {"element": "O", "multiplicity": 2, "wyckoff_letter": "i"}], "evaluated_formula": "CaMg2O3", "evaluated_n_atoms": 6, "exact_expanded_counts": {"Ca": 1, "Mg": 2, "O": 3}, "formula": "CaMg2O3", "formula_unit_scale": 1, "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)", "sampling_seed": 20262024, "spacegroup": 2, "spacegroup_symbol": "P-1"}}
+{"utc": "2026-10-21T17:44:50.210346+00:00", "event": "checkpoint_loaded", "parameter_count": 13836461, "initialization_load_seconds": 9.594559900000604, "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a", "backend": "cpu"}
+{"utc": "2026-10-21T17:44:50.279868+00:00", "event": "attempt_started", "candidate_id": "phase3_early_CaMg2O3_attempt_000", "attempt_id": 0, "batch_index": 0}
+{"utc": "2026-10-21T17:44:50.281158+00:00", "event": "attempt_started", "candidate_id": "phase3_early_CaMg2O3_attempt_001", "attempt_id": 1, "batch_index": 0}
+{"utc": "2026-10-21T17:44:50.281158+00:00", "event": "attempt_started", "candidate_id": "phase3_early_CaMg2O3_attempt_002", "attempt_id": 2, "batch_index": 0}
+{"utc": "2026-10-21T17:44:50.281158+00:00", "event": "attempt_started", "candidate_id": "phase3_early_CaMg2O3_attempt_003", "attempt_id": 3, "batch_index": 0}
+{"utc": "2026-10-21T17:45:17.491626+00:00", "event": "worker_failed", "error": "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Desktop\\bears\\scripts\\phase3_generate.py\", line 300, in main\n    try: return worker(out)\n                ^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\Desktop\\bears\\scripts\\phase3_generate.py\", line 211, in worker\n    event(out, \"batch_sampled\", **timings[-1], attempts=4)\nTypeError: event() got multiple values for argument 'kind'\n"}
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\bears\scripts\phase3_generate.py", line 348, in <module>
+    if __name__ == "__main__": sys.exit(main())
+                                        ^^^^^^
+  File "C:\Users\Admin\Desktop\bears\scripts\phase3_generate.py", line 300, in main
+    try: return worker(out)
+                ^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\bears\scripts\phase3_generate.py", line 211, in worker
+    event(out, "batch_sampled", **timings[-1], attempts=4)
+TypeError: event() got multiple values for argument 'kind'

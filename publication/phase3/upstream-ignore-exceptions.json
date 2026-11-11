@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scope": "exact files only; never force-add a directory",
+  "status": "ACTIVE_REVIEWED_EXACT_PATHS_ONLY_AFTER_PHASE3_CLEARANCE",
+  "source_manifest_sha256": "66018230feb1c1ca1198536f8824816720a88438cee90f2f2e8225b22bc09525",
+  "unchanged_nested_ignore_sha256": "def82801b533ea347b3d2361f684f3561aad1040c9f8bd21c1eb7ef1c40516ec",
+  "files": [
+    {
+      "path": "vendor/CrystalFormer/crystalformer/data/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/data/wyckoff_list.csv",
+      "bytes": 251743,
+      "sha256": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/data/wyckoff_symbols.csv",
+      "bytes": 12201,
+      "sha256": "035035df9fb581f1a0955da371feb1cdee8034d875b432405090254dfef43fd0",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    },
+    {
+      "path": "vendor/CrystalFormer/data/atoms.json",
+      "bytes": 274,
+      "sha256": "b47c05295398f4cd788a0629c19138e19a39a2cbedf2d8da7f6430c7b027aa2f",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    },
+    {
+      "path": "vendor/CrystalFormer/data/mini.csv",
+      "bytes": 36459,
+      "sha256": "dc19ddf49356db2d225a1c5d13b8fec1775d6d7324dd555974b1fbbd858f680b",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/analysis.ipynb",
+      "bytes": 614270,
+      "sha256": "9050fcfc3968cb52fabda751b866639b37ad1acf03488ea3525cf0c2c3877322",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/inspect_dataset.ipynb",
+      "bytes": 9343,
+      "sha256": "19eb37c39611a6c30025db2683468d2fd74837ed9fc49b77c2a9965006f3b58d",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/structure_visualization.ipynb",
+      "bytes": 181494,
+      "sha256": "64459408d4716281ab7c884dd34fc0031bba8374b8f29df6e940967f6ab30aef",
+      "reason": "original upstream source matched by unchanged vendored .gitignore; reviewed exact-path staging exception only"
+    }
+  ]
+}

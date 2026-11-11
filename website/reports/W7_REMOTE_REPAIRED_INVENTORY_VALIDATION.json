@@ -1,0 +1,1478 @@
+{
+  "schemaVersion": 1,
+  "phase": "W7",
+  "status": "failed",
+  "checkedAt": "2026-10-22T14:58:08.643172+00:00",
+  "scope": "Repaired File Manager UI inventory: fresh listings for all33 directly re-uploaded binary images override the three original affected directories. The other54 file names/sizes retain their original unaffected listing observations. Rounded-size checks do not establish remote byte hashes.",
+  "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "documentRoot": "/htdocs",
+  "inputRecords": [
+    {
+      "path": "reports/W7_REMOTE_LISTINGS.json",
+      "bytes": 21867,
+      "sha256": "112a1c92b5a1bb4e0359e8c4b6a7a0e47e6f46a9f76f9d3e65a39ac7c545caba"
+    },
+    {
+      "path": "reports/W7_REMOTE_REPAIRED_LISTINGS.json",
+      "bytes": 8078,
+      "sha256": "4231ab327d0f70d1bfc9af36a6f5e9275477b50101e75f85848f479a54db4202"
+    },
+    {
+      "path": "reports/W7_REMOTE_INVENTORY_VALIDATION.json",
+      "bytes": 77912,
+      "sha256": "1667ff18ab88ed45afc38121c5375b972e8e6ccc1c0585b6c4023f43565b89e8"
+    }
+  ],
+  "directoryListingsCombined": 13,
+  "freshRepairedDirectories": [
+    "/htdocs/research/releases/data-v1-2a138b7808f0d12c5151/figures",
+    "/htdocs/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures",
+    "/htdocs/ui/figures"
+  ],
+  "expectedNonIndexFiles": 87,
+  "presentNames": 87,
+  "matchingRoundedSizes": 72,
+  "freshBinaryImageObservations": 33,
+  "all33BinaryImagesHaveFreshListings": true,
+  "missingPaths": [],
+  "sizeMismatches": [
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "expectedBytes": 35124,
+      "namePresent": true,
+      "displayedSize": "37.54 KB",
+      "expectedDisplayInSameUnit": "34.3 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+        "text": "phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png\npng\n37.54 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+      "expectedBytes": 33290,
+      "namePresent": true,
+      "displayedSize": "35.26 KB",
+      "expectedDisplayInSameUnit": "32.51 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+        "text": "phase1_mgo_attempt_000--generated.d7731342174754fe.png\npng\n35.26 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+      "expectedBytes": 33238,
+      "namePresent": true,
+      "displayedSize": "35.32 KB",
+      "expectedDisplayInSameUnit": "32.46 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+        "text": "phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png\npng\n35.32 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+      "expectedBytes": 35748,
+      "namePresent": true,
+      "displayedSize": "38.29 KB",
+      "expectedDisplayInSameUnit": "34.91 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+        "text": "phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png\npng\n38.29 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+      "expectedBytes": 30145,
+      "namePresent": true,
+      "displayedSize": "32.23 KB",
+      "expectedDisplayInSameUnit": "29.44 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png\npng\n32.23 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+      "expectedBytes": 31096,
+      "namePresent": true,
+      "displayedSize": "33.5 KB",
+      "expectedDisplayInSameUnit": "30.37 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png\npng\n33.5 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+      "expectedBytes": 32079,
+      "namePresent": true,
+      "displayedSize": "34.36 KB",
+      "expectedDisplayInSameUnit": "31.33 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png\npng\n34.36 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+      "expectedBytes": 32720,
+      "namePresent": true,
+      "displayedSize": "35.13 KB",
+      "expectedDisplayInSameUnit": "31.95 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png\npng\n35.13 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+      "expectedBytes": 23224,
+      "namePresent": true,
+      "displayedSize": "24.66 KB",
+      "expectedDisplayInSameUnit": "22.68 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+        "text": "phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png\npng\n24.66 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+      "expectedBytes": 24998,
+      "namePresent": true,
+      "displayedSize": "26.5 KB",
+      "expectedDisplayInSameUnit": "24.41 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+        "text": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png\npng\n26.5 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+      "expectedBytes": 29682,
+      "namePresent": true,
+      "displayedSize": "31.83 KB",
+      "expectedDisplayInSameUnit": "28.99 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+        "text": "prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png\npng\n31.83 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+      "expectedBytes": 30284,
+      "namePresent": true,
+      "displayedSize": "32.51 KB",
+      "expectedDisplayInSameUnit": "29.57 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+        "text": "prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png\npng\n32.51 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+      "expectedBytes": 27102,
+      "namePresent": true,
+      "displayedSize": "28.9 KB",
+      "expectedDisplayInSameUnit": "26.47 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+        "text": "prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png\npng\n28.9 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+      "expectedBytes": 27906,
+      "namePresent": true,
+      "displayedSize": "29.96 KB",
+      "expectedDisplayInSameUnit": "27.25 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+        "text": "prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png\npng\n29.96 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+      "expectedBytes": 27096,
+      "namePresent": true,
+      "displayedSize": "28.95 KB",
+      "expectedDisplayInSameUnit": "26.46 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+        "text": "prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png\npng\n28.95 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    }
+  ],
+  "duplicatePaths": [],
+  "otherObservedPaths": [
+    "files for your website should be uploaded here!",
+    "index2.html"
+  ],
+  "originalFailureReportPreserved": true,
+  "roundingRule": "1024 bytes per KB, two decimal rounding with optional omitted zeroes; tolerance half a displayed hundredth-unit interval. Byte-unit values must match exactly.",
+  "remoteHashesVerified": false,
+  "files": [
+    {
+      "path": "assets/CrystalViewer-BEjZVKSn.css",
+      "expectedBytes": 2105,
+      "namePresent": true,
+      "displayedSize": "2.06 KB",
+      "expectedDisplayInSameUnit": "2.06 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "CrystalViewer-BEjZVKSn.css",
+        "text": "CrystalViewer-BEjZVKSn.css\ncss\n2.06 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "assets/CrystalViewer-CObIW-KU.js",
+      "expectedBytes": 567490,
+      "namePresent": true,
+      "displayedSize": "554.19 KB",
+      "expectedDisplayInSameUnit": "554.19 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "CrystalViewer-CObIW-KU.js",
+        "text": "CrystalViewer-CObIW-KU.js\njs\n554.19 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "assets/ReplayChart--t-2jcxz.js",
+      "expectedBytes": 374724,
+      "namePresent": true,
+      "displayedSize": "365.94 KB",
+      "expectedDisplayInSameUnit": "365.94 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "ReplayChart--t-2jcxz.js",
+        "text": "ReplayChart--t-2jcxz.js\njs\n365.94 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "assets/ReplayChart-Cu8ZDifc.css",
+      "expectedBytes": 1977,
+      "namePresent": true,
+      "displayedSize": "1.93 KB",
+      "expectedDisplayInSameUnit": "1.93 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "ReplayChart-Cu8ZDifc.css",
+        "text": "ReplayChart-Cu8ZDifc.css\ncss\n1.93 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "assets/index-C2FiRLoA.js",
+      "expectedBytes": 428395,
+      "namePresent": true,
+      "displayedSize": "418.35 KB",
+      "expectedDisplayInSameUnit": "418.35 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "index-C2FiRLoA.js",
+        "text": "index-C2FiRLoA.js\njs\n418.35 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "assets/index-qjnWrLjY.css",
+      "expectedBytes": 45913,
+      "namePresent": true,
+      "displayedSize": "44.84 KB",
+      "expectedDisplayInSameUnit": "44.84 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "index-qjnWrLjY.css",
+        "text": "index-qjnWrLjY.css\ncss\n44.84 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "release-manifests/ui-w6-62f633585edb6b4dab66.files.csv",
+      "expectedBytes": 17551,
+      "namePresent": true,
+      "displayedSize": "17.14 KB",
+      "expectedDisplayInSameUnit": "17.14 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "ui-w6-62f633585edb6b4dab66.files.csv",
+        "text": "ui-w6-62f633585edb6b4dab66.files.csv\ncsv\n17.14 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "release-manifests/ui-w6-62f633585edb6b4dab66.json",
+      "expectedBytes": 25919,
+      "namePresent": true,
+      "displayedSize": "25.31 KB",
+      "expectedDisplayInSameUnit": "25.31 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "ui-w6-62f633585edb6b4dab66.json",
+        "text": "ui-w6-62f633585edb6b4dab66.json\njson\n25.31 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/manifest.json",
+      "expectedBytes": 22605,
+      "namePresent": true,
+      "displayedSize": "22.08 KB",
+      "expectedDisplayInSameUnit": "22.08 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "manifest.json",
+        "text": "manifest.json\njson\n22.08 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/claims.5c3cf01b895935f0.json",
+      "expectedBytes": 5106,
+      "namePresent": true,
+      "displayedSize": "4.99 KB",
+      "expectedDisplayInSameUnit": "4.99 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "claims.5c3cf01b895935f0.json",
+        "text": "claims.5c3cf01b895935f0.json\njson\n4.99 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/dft.b680900fd8adafaf.json",
+      "expectedBytes": 156940,
+      "namePresent": true,
+      "displayedSize": "153.26 KB",
+      "expectedDisplayInSameUnit": "153.26 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "dft.b680900fd8adafaf.json",
+        "text": "dft.b680900fd8adafaf.json\njson\n153.26 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/generation.59e6ca927809464f.png",
+      "expectedBytes": 120046,
+      "namePresent": true,
+      "displayedSize": "117.23 KB",
+      "expectedDisplayInSameUnit": "117.23 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "generation.59e6ca927809464f.png",
+        "text": "generation.59e6ca927809464f.png\npng\n117.23 KB\nOct 22 09:54",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/model-energies.3fc676c6f4830fc7.png",
+      "expectedBytes": 128643,
+      "namePresent": true,
+      "displayedSize": "125.63 KB",
+      "expectedDisplayInSameUnit": "125.63 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "model-energies.3fc676c6f4830fc7.png",
+        "text": "model-energies.3fc676c6f4830fc7.png\npng\n125.63 KB\nOct 22 09:54",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/overview.34c36fc0a433966a.png",
+      "expectedBytes": 487608,
+      "namePresent": true,
+      "displayedSize": "476.18 KB",
+      "expectedDisplayInSameUnit": "476.18 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "overview.34c36fc0a433966a.png",
+        "text": "overview.34c36fc0a433966a.png\npng\n476.18 KB\nOct 22 09:54",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures.5aabdf89e40edca8.png",
+      "expectedBytes": 252401,
+      "namePresent": true,
+      "displayedSize": "246.49 KB",
+      "expectedDisplayInSameUnit": "246.49 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "structures.5aabdf89e40edca8.png",
+        "text": "structures.5aabdf89e40edca8.png\npng\n246.49 KB\nOct 22 09:54",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "expectedBytes": 35124,
+      "namePresent": true,
+      "displayedSize": "37.54 KB",
+      "expectedDisplayInSameUnit": "34.3 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+        "text": "phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png\npng\n37.54 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+      "expectedBytes": 33290,
+      "namePresent": true,
+      "displayedSize": "35.26 KB",
+      "expectedDisplayInSameUnit": "32.51 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+        "text": "phase1_mgo_attempt_000--generated.d7731342174754fe.png\npng\n35.26 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+      "expectedBytes": 33238,
+      "namePresent": true,
+      "displayedSize": "35.32 KB",
+      "expectedDisplayInSameUnit": "32.46 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+        "text": "phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png\npng\n35.32 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+      "expectedBytes": 35748,
+      "namePresent": true,
+      "displayedSize": "38.29 KB",
+      "expectedDisplayInSameUnit": "34.91 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+        "text": "phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png\npng\n38.29 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+      "expectedBytes": 30145,
+      "namePresent": true,
+      "displayedSize": "32.23 KB",
+      "expectedDisplayInSameUnit": "29.44 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png\npng\n32.23 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+      "expectedBytes": 31096,
+      "namePresent": true,
+      "displayedSize": "33.5 KB",
+      "expectedDisplayInSameUnit": "30.37 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png\npng\n33.5 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+      "expectedBytes": 32079,
+      "namePresent": true,
+      "displayedSize": "34.36 KB",
+      "expectedDisplayInSameUnit": "31.33 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png\npng\n34.36 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+      "expectedBytes": 32720,
+      "namePresent": true,
+      "displayedSize": "35.13 KB",
+      "expectedDisplayInSameUnit": "31.95 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png\npng\n35.13 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+      "expectedBytes": 23224,
+      "namePresent": true,
+      "displayedSize": "24.66 KB",
+      "expectedDisplayInSameUnit": "22.68 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+        "text": "phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png\npng\n24.66 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+      "expectedBytes": 24998,
+      "namePresent": true,
+      "displayedSize": "26.5 KB",
+      "expectedDisplayInSameUnit": "24.41 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+        "text": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png\npng\n26.5 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+      "expectedBytes": 29682,
+      "namePresent": true,
+      "displayedSize": "31.83 KB",
+      "expectedDisplayInSameUnit": "28.99 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+        "text": "prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png\npng\n31.83 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+      "expectedBytes": 30284,
+      "namePresent": true,
+      "displayedSize": "32.51 KB",
+      "expectedDisplayInSameUnit": "29.57 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+        "text": "prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png\npng\n32.51 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+      "expectedBytes": 27102,
+      "namePresent": true,
+      "displayedSize": "28.9 KB",
+      "expectedDisplayInSameUnit": "26.47 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+        "text": "prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png\npng\n28.9 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+      "expectedBytes": 27906,
+      "namePresent": true,
+      "displayedSize": "29.96 KB",
+      "expectedDisplayInSameUnit": "27.25 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+        "text": "prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png\npng\n29.96 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+      "expectedBytes": 27096,
+      "namePresent": true,
+      "displayedSize": "28.95 KB",
+      "expectedDisplayInSameUnit": "26.46 KB",
+      "roundedSizeMatches": false,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+        "text": "prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png\npng\n28.95 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png",
+      "expectedBytes": 27627,
+      "namePresent": true,
+      "displayedSize": "26.98 KB",
+      "expectedDisplayInSameUnit": "26.98 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png",
+        "text": "prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png\npng\n26.98 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png",
+      "expectedBytes": 29067,
+      "namePresent": true,
+      "displayedSize": "28.39 KB",
+      "expectedDisplayInSameUnit": "28.39 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png",
+        "text": "prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png\npng\n28.39 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png",
+      "expectedBytes": 29676,
+      "namePresent": true,
+      "displayedSize": "28.98 KB",
+      "expectedDisplayInSameUnit": "28.98 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png",
+        "text": "prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png\npng\n28.98 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png",
+      "expectedBytes": 31410,
+      "namePresent": true,
+      "displayedSize": "30.67 KB",
+      "expectedDisplayInSameUnit": "30.67 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png",
+        "text": "qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png\npng\n30.67 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png",
+      "expectedBytes": 31519,
+      "namePresent": true,
+      "displayedSize": "30.78 KB",
+      "expectedDisplayInSameUnit": "30.78 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png",
+        "text": "qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png\npng\n30.78 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--catalog_initial.c3d3026afcff3a4e.png",
+      "expectedBytes": 27960,
+      "namePresent": true,
+      "displayedSize": "27.3 KB",
+      "expectedDisplayInSameUnit": "27.3 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "reference_anatase--catalog_initial.c3d3026afcff3a4e.png",
+        "text": "reference_anatase--catalog_initial.c3d3026afcff3a4e.png\npng\n27.3 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--model_relaxed.e6566251c9b4f684.png",
+      "expectedBytes": 28373,
+      "namePresent": true,
+      "displayedSize": "27.71 KB",
+      "expectedDisplayInSameUnit": "27.71 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "reference_anatase--model_relaxed.e6566251c9b4f684.png",
+        "text": "reference_anatase--model_relaxed.e6566251c9b4f684.png\npng\n27.71 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--catalog_initial.bd96802a07c9dc18.png",
+      "expectedBytes": 32687,
+      "namePresent": true,
+      "displayedSize": "31.92 KB",
+      "expectedDisplayInSameUnit": "31.92 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "reference_rocksalt--catalog_initial.bd96802a07c9dc18.png",
+        "text": "reference_rocksalt--catalog_initial.bd96802a07c9dc18.png\npng\n31.92 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--model_relaxed.698c6e268c59ea1b.png",
+      "expectedBytes": 33227,
+      "namePresent": true,
+      "displayedSize": "32.45 KB",
+      "expectedDisplayInSameUnit": "32.45 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "reference_rocksalt--model_relaxed.698c6e268c59ea1b.png",
+        "text": "reference_rocksalt--model_relaxed.698c6e268c59ea1b.png\npng\n32.45 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--catalog_initial.8c9231f39e285674.png",
+      "expectedBytes": 28224,
+      "namePresent": true,
+      "displayedSize": "27.56 KB",
+      "expectedDisplayInSameUnit": "27.56 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "reference_rutile--catalog_initial.8c9231f39e285674.png",
+        "text": "reference_rutile--catalog_initial.8c9231f39e285674.png\npng\n27.56 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--model_relaxed.7a74066d12729aa3.png",
+      "expectedBytes": 28542,
+      "namePresent": true,
+      "displayedSize": "27.87 KB",
+      "expectedDisplayInSameUnit": "27.87 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "reference_rutile--model_relaxed.7a74066d12729aa3.png",
+        "text": "reference_rutile--model_relaxed.7a74066d12729aa3.png\npng\n27.87 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/figures/uncertainty.ecc942c162113844.png",
+      "expectedBytes": 431041,
+      "namePresent": true,
+      "displayedSize": "420.94 KB",
+      "expectedDisplayInSameUnit": "420.94 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "uncertainty.ecc942c162113844.png",
+        "text": "uncertainty.ecc942c162113844.png\npng\n420.94 KB\nOct 22 09:54",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/generation.837fde064112ac20.json",
+      "expectedBytes": 80419,
+      "namePresent": true,
+      "displayedSize": "78.53 KB",
+      "expectedDisplayInSameUnit": "78.53 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "generation.837fde064112ac20.json",
+        "text": "generation.837fde064112ac20.json\njson\n78.53 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/glossary.7541be1fbd9a40e4.json",
+      "expectedBytes": 3003,
+      "namePresent": true,
+      "displayedSize": "2.93 KB",
+      "expectedDisplayInSameUnit": "2.93 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "glossary.7541be1fbd9a40e4.json",
+        "text": "glossary.7541be1fbd9a40e4.json\njson\n2.93 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/manifest.json",
+      "expectedBytes": 22605,
+      "namePresent": true,
+      "displayedSize": "22.08 KB",
+      "expectedDisplayInSameUnit": "22.08 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "manifest.json",
+        "text": "manifest.json\njson\n22.08 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/methods.b0a9177693439d24.json",
+      "expectedBytes": 4904,
+      "namePresent": true,
+      "displayedSize": "4.79 KB",
+      "expectedDisplayInSameUnit": "4.79 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "methods.b0a9177693439d24.json",
+        "text": "methods.b0a9177693439d24.json\njson\n4.79 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/notices/dependency-licenses.5cac5df753bf3d89.txt",
+      "expectedBytes": 357176,
+      "namePresent": true,
+      "displayedSize": "348.8 KB",
+      "expectedDisplayInSameUnit": "348.8 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "dependency-licenses.5cac5df753bf3d89.txt",
+        "text": "dependency-licenses.5cac5df753bf3d89.txt\ntxt\n348.8 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/notices/third-party.653a426dddece4a3.txt",
+      "expectedBytes": 7682,
+      "namePresent": true,
+      "displayedSize": "7.5 KB",
+      "expectedDisplayInSameUnit": "7.5 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "third-party.653a426dddece4a3.txt",
+        "text": "third-party.653a426dddece4a3.txt\ntxt\n7.5 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/provenance.58425544f5e7e1e1.json",
+      "expectedBytes": 24478,
+      "namePresent": true,
+      "displayedSize": "23.9 KB",
+      "expectedDisplayInSameUnit": "23.9 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "provenance.58425544f5e7e1e1.json",
+        "text": "provenance.58425544f5e7e1e1.json\njson\n23.9 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/replay/curves.c27a1c520d6a0fb9.json",
+      "expectedBytes": 22068,
+      "namePresent": true,
+      "displayedSize": "21.55 KB",
+      "expectedDisplayInSameUnit": "21.55 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "curves.c27a1c520d6a0fb9.json",
+        "text": "curves.c27a1c520d6a0fb9.json\njson\n21.55 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261022.c82758dddddd9cff.json",
+      "expectedBytes": 108045,
+      "namePresent": true,
+      "displayedSize": "105.51 KB",
+      "expectedDisplayInSameUnit": "105.51 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "seed-20261022.c82758dddddd9cff.json",
+        "text": "seed-20261022.c82758dddddd9cff.json\njson\n105.51 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261023.bc0fc45c9510e91f.json",
+      "expectedBytes": 108041,
+      "namePresent": true,
+      "displayedSize": "105.51 KB",
+      "expectedDisplayInSameUnit": "105.51 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "seed-20261023.bc0fc45c9510e91f.json",
+        "text": "seed-20261023.bc0fc45c9510e91f.json\njson\n105.51 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261024.8b43112d97b4ddb2.json",
+      "expectedBytes": 108021,
+      "namePresent": true,
+      "displayedSize": "105.49 KB",
+      "expectedDisplayInSameUnit": "105.49 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "seed-20261024.8b43112d97b4ddb2.json",
+        "text": "seed-20261024.8b43112d97b4ddb2.json\njson\n105.49 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261025.a1fbdaceca7152e6.json",
+      "expectedBytes": 108006,
+      "namePresent": true,
+      "displayedSize": "105.47 KB",
+      "expectedDisplayInSameUnit": "105.47 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "seed-20261025.a1fbdaceca7152e6.json",
+        "text": "seed-20261025.a1fbdaceca7152e6.json\njson\n105.47 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261026.4ab9316a2b04c31e.json",
+      "expectedBytes": 108178,
+      "namePresent": true,
+      "displayedSize": "105.64 KB",
+      "expectedDisplayInSameUnit": "105.64 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "seed-20261026.4ab9316a2b04c31e.json",
+        "text": "seed-20261026.4ab9316a2b04c31e.json\njson\n105.64 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/index.8be3595e5f4488c5.json",
+      "expectedBytes": 22133,
+      "namePresent": true,
+      "displayedSize": "21.61 KB",
+      "expectedDisplayInSameUnit": "21.61 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "index.8be3595e5f4488c5.json",
+        "text": "index.8be3595e5f4488c5.json\njson\n21.61 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--accepted_dft.89c1ef588513d61e.json",
+      "expectedBytes": 4080,
+      "namePresent": true,
+      "displayedSize": "3.98 KB",
+      "expectedDisplayInSameUnit": "3.98 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--accepted_dft.89c1ef588513d61e.json",
+        "text": "phase1_mgo_attempt_000--accepted_dft.89c1ef588513d61e.json\njson\n3.98 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--generated.434804f89dace552.json",
+      "expectedBytes": 2752,
+      "namePresent": true,
+      "displayedSize": "2.69 KB",
+      "expectedDisplayInSameUnit": "2.69 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--generated.434804f89dace552.json",
+        "text": "phase1_mgo_attempt_000--generated.434804f89dace552.json\njson\n2.69 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--model_relaxed.afe5ab7b682d2bff.json",
+      "expectedBytes": 3935,
+      "namePresent": true,
+      "displayedSize": "3.84 KB",
+      "expectedDisplayInSameUnit": "3.84 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase1_mgo_attempt_000--model_relaxed.afe5ab7b682d2bff.json",
+        "text": "phase1_mgo_attempt_000--model_relaxed.afe5ab7b682d2bff.json\njson\n3.84 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.2127387a4831b5a7.json",
+      "expectedBytes": 3789,
+      "namePresent": true,
+      "displayedSize": "3.7 KB",
+      "expectedDisplayInSameUnit": "3.7 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase3_early_CaMg2O3_attempt_005--generated_excluded.2127387a4831b5a7.json",
+        "text": "phase3_early_CaMg2O3_attempt_005--generated_excluded.2127387a4831b5a7.json\njson\n3.7 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.de78aa219c9dfce6.json",
+      "expectedBytes": 3217,
+      "namePresent": true,
+      "displayedSize": "3.14 KB",
+      "expectedDisplayInSameUnit": "3.14 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.de78aa219c9dfce6.json",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.de78aa219c9dfce6.json\njson\n3.14 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.e5d6a6e6844c316a.json",
+      "expectedBytes": 4031,
+      "namePresent": true,
+      "displayedSize": "3.94 KB",
+      "expectedDisplayInSameUnit": "3.94 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.e5d6a6e6844c316a.json",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.e5d6a6e6844c316a.json\njson\n3.94 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.2c3c7eb2c33f5b31.json",
+      "expectedBytes": 2806,
+      "namePresent": true,
+      "displayedSize": "2.74 KB",
+      "expectedDisplayInSameUnit": "2.74 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--generated.2c3c7eb2c33f5b31.json",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--generated.2c3c7eb2c33f5b31.json\njson\n2.74 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.27013c09e5d19190.json",
+      "expectedBytes": 3798,
+      "namePresent": true,
+      "displayedSize": "3.71 KB",
+      "expectedDisplayInSameUnit": "3.71 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.27013c09e5d19190.json",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.27013c09e5d19190.json\njson\n3.71 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--generated.f3adf3b3811fb083.json",
+      "expectedBytes": 2909,
+      "namePresent": true,
+      "displayedSize": "2.84 KB",
+      "expectedDisplayInSameUnit": "2.84 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_p1_attempt_000--generated.f3adf3b3811fb083.json",
+        "text": "phase4_tio2_rutile_p1_attempt_000--generated.f3adf3b3811fb083.json\njson\n2.84 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.50eb8960a0f7d0d6.json",
+      "expectedBytes": 3686,
+      "namePresent": true,
+      "displayedSize": "3.6 KB",
+      "expectedDisplayInSameUnit": "3.6 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.50eb8960a0f7d0d6.json",
+        "text": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.50eb8960a0f7d0d6.json\njson\n3.6 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--model_relaxed.9af486a88529cce1.json",
+      "expectedBytes": 3397,
+      "namePresent": true,
+      "displayedSize": "3.32 KB",
+      "expectedDisplayInSameUnit": "3.32 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_BaSnO2--model_relaxed.9af486a88529cce1.json",
+        "text": "prototype_BaSnO2--model_relaxed.9af486a88529cce1.json\njson\n3.32 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--prototype_initial.65ae27e4b432461d.json",
+      "expectedBytes": 2456,
+      "namePresent": true,
+      "displayedSize": "2.4 KB",
+      "expectedDisplayInSameUnit": "2.4 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_BaSnO2--prototype_initial.65ae27e4b432461d.json",
+        "text": "prototype_BaSnO2--prototype_initial.65ae27e4b432461d.json\njson\n2.4 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--model_relaxed.07ac16994a3e42b0.json",
+      "expectedBytes": 3641,
+      "namePresent": true,
+      "displayedSize": "3.56 KB",
+      "expectedDisplayInSameUnit": "3.56 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_CaMg2O3--model_relaxed.07ac16994a3e42b0.json",
+        "text": "prototype_CaMg2O3--model_relaxed.07ac16994a3e42b0.json\njson\n3.56 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--prototype_initial.a57125e29dde58dc.json",
+      "expectedBytes": 2763,
+      "namePresent": true,
+      "displayedSize": "2.7 KB",
+      "expectedDisplayInSameUnit": "2.7 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_CaMg2O3--prototype_initial.a57125e29dde58dc.json",
+        "text": "prototype_CaMg2O3--prototype_initial.a57125e29dde58dc.json\njson\n2.7 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--model_relaxed.b02b16c6d03303a6.json",
+      "expectedBytes": 3640,
+      "namePresent": true,
+      "displayedSize": "3.55 KB",
+      "expectedDisplayInSameUnit": "3.55 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_Mg2SrO3--model_relaxed.b02b16c6d03303a6.json",
+        "text": "prototype_Mg2SrO3--model_relaxed.b02b16c6d03303a6.json\njson\n3.55 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--prototype_initial.00d9e840dfa3f513.json",
+      "expectedBytes": 2763,
+      "namePresent": true,
+      "displayedSize": "2.7 KB",
+      "expectedDisplayInSameUnit": "2.7 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_Mg2SrO3--prototype_initial.00d9e840dfa3f513.json",
+        "text": "prototype_Mg2SrO3--prototype_initial.00d9e840dfa3f513.json\njson\n2.7 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--model_relaxed.6fb5f5e4b37a3cfb.json",
+      "expectedBytes": 3404,
+      "namePresent": true,
+      "displayedSize": "3.32 KB",
+      "expectedDisplayInSameUnit": "3.32 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_SnSrO2--model_relaxed.6fb5f5e4b37a3cfb.json",
+        "text": "prototype_SnSrO2--model_relaxed.6fb5f5e4b37a3cfb.json\njson\n3.32 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--prototype_initial.785b1d10f65c2ecf.json",
+      "expectedBytes": 2455,
+      "namePresent": true,
+      "displayedSize": "2.4 KB",
+      "expectedDisplayInSameUnit": "2.4 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "prototype_SnSrO2--prototype_initial.785b1d10f65c2ecf.json",
+        "text": "prototype_SnSrO2--prototype_initial.785b1d10f65c2ecf.json\njson\n2.4 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_cao_mp2605--accepted_dft.e5bfc2d31c095f10.json",
+      "expectedBytes": 3302,
+      "namePresent": true,
+      "displayedSize": "3.22 KB",
+      "expectedDisplayInSameUnit": "3.22 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "qe_source_reference_cao_mp2605--accepted_dft.e5bfc2d31c095f10.json",
+        "text": "qe_source_reference_cao_mp2605--accepted_dft.e5bfc2d31c095f10.json\njson\n3.22 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_mgo_mp1265--accepted_dft.fdf49e41059fdbc0.json",
+      "expectedBytes": 3294,
+      "namePresent": true,
+      "displayedSize": "3.22 KB",
+      "expectedDisplayInSameUnit": "3.22 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "qe_source_reference_mgo_mp1265--accepted_dft.fdf49e41059fdbc0.json",
+        "text": "qe_source_reference_mgo_mp1265--accepted_dft.fdf49e41059fdbc0.json\njson\n3.22 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--catalog_initial.4b755a349282f58b.json",
+      "expectedBytes": 3091,
+      "namePresent": true,
+      "displayedSize": "3.02 KB",
+      "expectedDisplayInSameUnit": "3.02 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "reference_anatase--catalog_initial.4b755a349282f58b.json",
+        "text": "reference_anatase--catalog_initial.4b755a349282f58b.json\njson\n3.02 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--model_relaxed.aa914ffc25a47a24.json",
+      "expectedBytes": 4415,
+      "namePresent": true,
+      "displayedSize": "4.31 KB",
+      "expectedDisplayInSameUnit": "4.31 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "reference_anatase--model_relaxed.aa914ffc25a47a24.json",
+        "text": "reference_anatase--model_relaxed.aa914ffc25a47a24.json\njson\n4.31 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--catalog_initial.d06f28bc1f6898b5.json",
+      "expectedBytes": 2742,
+      "namePresent": true,
+      "displayedSize": "2.68 KB",
+      "expectedDisplayInSameUnit": "2.68 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "reference_rocksalt--catalog_initial.d06f28bc1f6898b5.json",
+        "text": "reference_rocksalt--catalog_initial.d06f28bc1f6898b5.json\njson\n2.68 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--model_relaxed.37e14d1d9dc674bf.json",
+      "expectedBytes": 3458,
+      "namePresent": true,
+      "displayedSize": "3.38 KB",
+      "expectedDisplayInSameUnit": "3.38 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "reference_rocksalt--model_relaxed.37e14d1d9dc674bf.json",
+        "text": "reference_rocksalt--model_relaxed.37e14d1d9dc674bf.json\njson\n3.38 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--catalog_initial.98765d0384312e91.json",
+      "expectedBytes": 2627,
+      "namePresent": true,
+      "displayedSize": "2.57 KB",
+      "expectedDisplayInSameUnit": "2.57 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "reference_rutile--catalog_initial.98765d0384312e91.json",
+        "text": "reference_rutile--catalog_initial.98765d0384312e91.json\njson\n2.57 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--model_relaxed.19198f87636f4502.json",
+      "expectedBytes": 3385,
+      "namePresent": true,
+      "displayedSize": "3.31 KB",
+      "expectedDisplayInSameUnit": "3.31 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "reference_rutile--model_relaxed.19198f87636f4502.json",
+        "text": "reference_rutile--model_relaxed.19198f87636f4502.json\njson\n3.31 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/summary.a7d9d82dcd2b3228.json",
+      "expectedBytes": 9311,
+      "namePresent": true,
+      "displayedSize": "9.09 KB",
+      "expectedDisplayInSameUnit": "9.09 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "summary.a7d9d82dcd2b3228.json",
+        "text": "summary.a7d9d82dcd2b3228.json\njson\n9.09 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/theme.27686804a7596fef.json",
+      "expectedBytes": 1178,
+      "namePresent": true,
+      "displayedSize": "1.15 KB",
+      "expectedDisplayInSameUnit": "1.15 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "theme.27686804a7596fef.json",
+        "text": "theme.27686804a7596fef.json\njson\n1.15 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "research/releases/data-v1-2a138b7808f0d12c5151/uncertainty.02d35add6771c23d.json",
+      "expectedBytes": 254392,
+      "namePresent": true,
+      "displayedSize": "248.43 KB",
+      "expectedDisplayInSameUnit": "248.43 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "original_unaffected_listing",
+      "observedRow": {
+        "name": "uncertainty.02d35add6771c23d.json",
+        "text": "uncertainty.02d35add6771c23d.json\njson\n248.43 KB\nOct 22 09:44",
+        "type": "file"
+      }
+    },
+    {
+      "path": "ui/figures/overview.b8c1b84fa51da27e.webp",
+      "expectedBytes": 176368,
+      "namePresent": true,
+      "displayedSize": "172.23 KB",
+      "expectedDisplayInSameUnit": "172.23 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "overview.b8c1b84fa51da27e.webp",
+        "text": "overview.b8c1b84fa51da27e.webp\nwebp\n172.23 KB\nOct 22 09:56",
+        "type": "file"
+      }
+    },
+    {
+      "path": "ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "expectedBytes": 157570,
+      "namePresent": true,
+      "displayedSize": "153.88 KB",
+      "expectedDisplayInSameUnit": "153.88 KB",
+      "roundedSizeMatches": true,
+      "observationProvenance": "fresh_after_direct_binary_upload",
+      "observedRow": {
+        "name": "uncertainty.0b3e71f740c64828.webp",
+        "text": "uncertainty.0b3e71f740c64828.webp\nwebp\n153.88 KB\nOct 22 09:56",
+        "type": "file"
+      }
+    }
+  ]
+}

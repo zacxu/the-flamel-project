@@ -1,0 +1,14 @@
+{
+  "source": {
+    "physicalDisk": 0,
+    "drive": "D:"
+  },
+  "checkedAtUtc": "2026-11-10T17:48:25.6094207Z",
+  "backup": {
+    "physicalDisk": 1,
+    "drive": "C:"
+  },
+  "basis": "Win32_LogicalDiskToPartition plus Win32_DiskPartition",
+  "offMachine": false,
+  "cloudBackup": false
+}

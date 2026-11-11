@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "retrieval_tested_in_phase2": false,
+  "phase4_portable_installation_pending": true,
+  "recipes": [
+    {
+      "id": "crystalformer-source",
+      "target": "vendor/CrystalFormer-31bb734a.tar.gz",
+      "url": "https://codeload.github.com/deepmodeling/CrystalFormer/tar.gz/31bb734a3fd006af49a021921839061e6184cbf1",
+      "bytes": 2212229,
+      "sha256": "1f440e96fd598139067c9d7eb2c4cbd8204a9bf79505e4fcdabe8dc2b372e975",
+      "revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+      "note": "86 required original source files are also selected for Git; upstream local .env stays private."
+    },
+    {
+      "id": "qe-runtime",
+      "target": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi.zip",
+      "url": "https://github.com/QMatSuite/quantum-espresso-windows-exe/releases/download/qe-7.5-win-oneapi-msmpi/qe-7.5-win-oneapi-msmpi.zip",
+      "bytes": 400430691,
+      "sha256": "e50ec7368a5b7a964eb5084e0a13464ba2628d4e147c16227e876002ea34fdf7",
+      "note": "Retain all distribution notices in Git. Runtime redistribution is not approved; retrieve the pinned upstream distribution."
+    },
+    {
+      "id": "sssp-archive",
+      "target": "data/pseudopotentials/SSSP_1.3.0_PBE_efficiency.tar.gz",
+      "url": "https://archive.materialscloud.org/records/rcyfm-68h65/files/SSSP_1.3.0_PBE_efficiency.tar.gz?download=1",
+      "bytes": 59513522,
+      "sha256": "7a85b71fa3d68df1b5ed33c55c7057681fbf10377ae3b3eac9392924d9189f12",
+      "note": "Exact individual input UPFs are selected for research-input release archives; the bulk upstream distribution can be retrieved."
+    }
+  ],
+  "phase1_exact_original_fallback": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
+  "notes": "Do not run historical setup scripts on frozen evidence; retrieve into a fresh installation target."
+}

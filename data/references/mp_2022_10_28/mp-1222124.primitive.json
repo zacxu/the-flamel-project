@@ -1,0 +1,215 @@
+{
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0,
+  "lattice": {
+    "matrix": [
+      [
+        3.026189,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.026189,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        8.553236
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "a": 3.026189,
+    "b": 3.026189,
+    "c": 8.553236,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "volume": 78.32899453989356
+  },
+  "properties": {},
+  "sites": [
+    {
+      "species": [
+        {
+          "element": "Mg",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.75043
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Mg",
+      "xyz": [
+        1.5130945,
+        1.5130945,
+        6.41860489148
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "Mg",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Mg",
+      "xyz": [
+        0.0,
+        0.0,
+        4.276618
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "Mg",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.24957
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Mg",
+      "xyz": [
+        1.5130945,
+        1.5130945,
+        2.13463110852
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "Zn",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Zn",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.0,
+        0.0,
+        0.25308
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "O",
+      "xyz": [
+        0.0,
+        0.0,
+        2.1646529668800003
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "O",
+      "xyz": [
+        1.5130945,
+        1.5130945,
+        0.0
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.0,
+        0.0,
+        0.74692
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "O",
+      "xyz": [
+        0.0,
+        0.0,
+        6.388583033120001
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "O",
+      "xyz": [
+        1.5130945,
+        1.5130945,
+        4.276618
+      ]
+    }
+  ]
+}

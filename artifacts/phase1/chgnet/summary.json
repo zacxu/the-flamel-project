@@ -1,0 +1,65 @@
+{
+  "attempts": 4,
+  "charged_wall_seconds": 0.6844817000055627,
+  "successful": 0,
+  "converged": 0,
+  "all_geometry_valid": false,
+  "records": [
+    {
+      "event": "finish",
+      "attempt_id": "chgnet_pilot_01",
+      "utc": "2026-10-21T16:34:06.651447+00:00",
+      "started_utc": "2026-10-21T16:34:06.478943+00:00",
+      "wall_seconds": 0.1717185999987123,
+      "budget_charged_seconds": 0.1717185999987123,
+      "status": "failed",
+      "returncode": 1,
+      "attempts": 1,
+      "phase": 1,
+      "device": "cpu"
+    },
+    {
+      "event": "finish",
+      "attempt_id": "chgnet_pilot_02",
+      "utc": "2026-10-21T16:34:06.825215+00:00",
+      "started_utc": "2026-10-21T16:34:06.652699+00:00",
+      "wall_seconds": 0.17132440000204952,
+      "budget_charged_seconds": 0.17132440000204952,
+      "status": "failed",
+      "returncode": 1,
+      "attempts": 1,
+      "phase": 1,
+      "device": "cuda"
+    },
+    {
+      "event": "finish",
+      "attempt_id": "chgnet_pilot_03",
+      "utc": "2026-10-21T16:34:06.997842+00:00",
+      "started_utc": "2026-10-21T16:34:06.827222+00:00",
+      "wall_seconds": 0.1707354000027408,
+      "budget_charged_seconds": 0.1707354000027408,
+      "status": "failed",
+      "returncode": 1,
+      "attempts": 1,
+      "phase": 1,
+      "device": "cpu"
+    },
+    {
+      "event": "finish",
+      "attempt_id": "chgnet_pilot_04",
+      "utc": "2026-10-21T16:34:07.170860+00:00",
+      "started_utc": "2026-10-21T16:34:06.998852+00:00",
+      "wall_seconds": 0.17070330000206013,
+      "budget_charged_seconds": 0.17070330000206013,
+      "status": "failed",
+      "returncode": 1,
+      "attempts": 1,
+      "phase": 1,
+      "device": "cuda"
+    }
+  ],
+  "production_steps": 200,
+  "production_fmax_eV_A": 0.05,
+  "thread_cap": 2,
+  "cuda_ready": false
+}

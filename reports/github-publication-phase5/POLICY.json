@@ -1,0 +1,13 @@
+{
+  "selected_files": 5278,
+  "untracked_eligible_before_staging": 5270,
+  "exact_force_add_exceptions": 8,
+  "ignored_other_paths_before_staging": 100456,
+  "unexpected_eligible_paths": [],
+  "passed": true,
+  "git_omitted_metadata_named_path": {
+    "path": ".cache/uv/sdists-v9/.git",
+    "still_present": true,
+    "reason": "Git excludes metadata-named files from ignored-file listing; this recreate-only cache file remains in its original disposition/backup."
+  }
+}

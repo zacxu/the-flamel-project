@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "Finite-sample calibration rank and known residual quantile",
+    "Uncertainty floor applies before residual scaling",
+    "Diversity is zero for identical features and capped at one",
+    "Normalizer derives solely from supplied initial-training features",
+    "Full policy avoids high uncertainty conservatively and explores it optimistically, with seven/three quotas",
+    "All five policies choose ten unique rows deterministically for paired inputs/seeds",
+    "Equal-score tie breaks use material ID independent of candidate input order",
+    "Invalid negative uncertainty is rejected",
+    "Greedy within-batch diversity updates favor a different feature cluster",
+    "Fresh within-formula pair uses conservative then optimistic selection without energies",
+    "Zero/one eligible fresh candidates produce zero/one selections without fabricated alternatives"
+  ],
+  "real_labels_read": 0,
+  "model_fits": 0,
+  "real_query_reveals": 0,
+  "new_model_or_DFT_jobs": 0
+}

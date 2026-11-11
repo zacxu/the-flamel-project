@@ -1,0 +1,9 @@
+{
+  "decision": "Close numerical evidence now and preserve unused allocations",
+  "required_allowed_unfinished_job_count": 0,
+  "new_numerical_jobs_dispatched_phase6": 0,
+  "reason": "Accepted oxide/control geometries already have all required final-setting checks. No valid frozen new-formula candidate exists. The terminal SCF failure closes the bounded perturbation queue; no continuation or probe is allowed. Broader reference inventory is incomplete, with metal/O2/spin branches outside authorized oxide runners. Unused budgets do not authorize revised candidates, gates, retries or chemistry.",
+  "optional_inventory_work": "The frozen catalog lists preparatory metal/O2/reference work, but no complete-hull outcome was promised and no qualifying primary candidate remains. These entries remain explicitly missing; no extra queue or protocol is invented to spend unused time.",
+  "numerical_stop_utc_unchanged": "2026-10-22T10:24:44+00:00",
+  "early_closure_does_not_relax_failed_checks": true
+}

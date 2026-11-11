@@ -1,0 +1,7 @@
+{
+  "reservation_id": "p5_chgnet_phase4_tio2_rutile_p1_attempt_000",
+  "lane": "chgnet",
+  "attempts": 1,
+  "max_seconds": 900.0,
+  "reserved_utc": "2026-10-22T02:19:10.662039+00:00"
+}

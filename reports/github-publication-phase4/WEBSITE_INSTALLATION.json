@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "checked_at_utc": "2026-11-11T03:58:21.055275+00:00",
+  "platform": "Windows x64 / Windows PowerShell5.1",
+  "source_export": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source",
+  "source_export_is_not_remote_clone": true,
+  "standalone_node": {
+    "version": "24.22.1",
+    "official_url": "https://nodejs.org/dist/v24.22.1/node-v24.22.1-win-x64.zip",
+    "sha256": "d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95fa5",
+    "archive_entries": 2459,
+    "regular_files_verified": 1994,
+    "directory_entries": 465
+  },
+  "standalone_npm": {
+    "version": "12.2.1",
+    "official_url": "https://registry.npmjs.org/npm/-/npm-12.2.1.tgz",
+    "integrity": "sha512-bKCmFRVT/BB+YPEYbZwQ1XUI3N5t4xKSpU1MxOjo7z3iWzKBJ0ZXRC1xFdEN+TC7N5TdywaBzf2dMXGJq/e2PQ==",
+    "installed_files_verified": 1942
+  },
+  "installation": {
+    "success": true,
+    "package_lock_unchanged": true,
+    "manifest_sha256": "bd80b691d5c66f949f758bdd753d690375f5d055eac00967245850eb213fa4b7",
+    "lock_sha256": "fcddb3d076de2eb97fd80deb3b274cd9c37483adca87c3b9806a8cb114eed2dc",
+    "npm_ci": true,
+    "lifecycle_scripts_disabled": true,
+    "empty_user_global_npm_config": true,
+    "child_path_excludes_codex_and_global_node": true,
+    "source_export_installer_default_root_passed": true,
+    "commands": [
+      {
+        "label": "node-version",
+        "arguments": [
+          "--version"
+        ],
+        "exit_code": 0,
+        "seconds": 0.0287908
+      },
+      {
+        "label": "npm-bootstrap",
+        "arguments": [
+          "scripts/bootstrap-npm.mjs"
+        ],
+        "exit_code": 0,
+        "seconds": 0.059890599999999995
+      },
+      {
+        "label": "npm-tooling-integrity",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\scripts\\github_publication\\verify_npm_tooling.mjs",
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website"
+        ],
+        "exit_code": 0,
+        "seconds": 1.3360448
+      },
+      {
+        "label": "npm-version",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website\\.tooling\\npm\\bin\\npm-cli.js",
+          "--version"
+        ],
+        "exit_code": 0,
+        "seconds": 0.2573697
+      },
+      {
+        "label": "npm-ci",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website\\.tooling\\npm\\bin\\npm-cli.js",
+          "ci",
+          "--ignore-scripts",
+          "--no-audit",
+          "--no-fund"
+        ],
+        "exit_code": 0,
+        "seconds": 34.8481531
+      },
+      {
+        "label": "dependency-tree",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website\\.tooling\\npm\\bin\\npm-cli.js",
+          "ls",
+          "--all",
+          "--json"
+        ],
+        "exit_code": 0,
+        "seconds": 0.5869518
+      },
+      {
+        "label": "typecheck",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website\\.tooling\\npm\\bin\\npm-cli.js",
+          "run",
+          "typecheck"
+        ],
+        "exit_code": 0,
+        "seconds": 1.2733972999999998
+      },
+      {
+        "label": "build",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website\\.tooling\\npm\\bin\\npm-cli.js",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "seconds": 2.4998035
+      },
+      {
+        "label": "saved-evidence-integration",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website\\.tooling\\npm\\bin\\npm-cli.js",
+          "run",
+          "w6:integration",
+          "--",
+          "--run"
+        ],
+        "exit_code": 0,
+        "seconds": 2.6295595
+      },
+      {
+        "label": "tour",
+        "arguments": [
+          "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source\\website\\.tooling\\npm\\bin\\npm-cli.js",
+          "run",
+          "w6:tour"
+        ],
+        "exit_code": 0,
+        "seconds": 0.2972457
+      },
+      {
+        "label": "short-urls",
+        "arguments": [
+          "scripts/verify-short-urls.mjs"
+        ],
+        "exit_code": 0,
+        "seconds": 0.35776789999999997
+      },
+      {
+        "label": "orientation",
+        "arguments": [
+          "scripts/verify-orientation.mjs"
+        ],
+        "exit_code": 0,
+        "seconds": 0.1292594
+      },
+      {
+        "label": "publication-guard-tests",
+        "arguments": [
+          "deployment/latest-link/test.mjs"
+        ],
+        "exit_code": 0,
+        "seconds": 1.4237138
+      }
+    ]
+  },
+  "build": {
+    "ui_id": "ui-w6-351e6182d7af3a9d062d",
+    "data_id": "data-v1-2a138b7808f0d12c5151",
+    "fresh_files": 86,
+    "all86_match_phase2_archive_size_and_sha256": true,
+    "archived_packaging_only_files_absent": [
+      "release-manifests/ui-w6-351e6182d7af3a9d062d.files.csv",
+      "release-manifests/ui-w6-351e6182d7af3a9d062d.json"
+    ],
+    "fresh_local_http_files_status200_and_hash_match": 86
+  },
+  "validation": {
+    "independent_w6_validators": 11,
+    "w6_source_regression_checks": 224507,
+    "integration_checks_passed": 384,
+    "integration_checks_failed": 0,
+    "tour_checks": 123,
+    "orientation_command_passed": true,
+    "short_url_command_passed": true,
+    "publication_guard_scenarios_passed": 11,
+    "tool_integrity_positive_negative_checks": 5,
+    "all_tested_generated_cache_bytes_restored": true
+  },
+  "advisory_query": {
+    "reported_vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "locked_dependency_entries": 117,
+    "statement": "Time-scoped npm advisory database result, not proof of future security."
+  },
+  "original_website_preservation": {
+    "original_files_checked": 1232,
+    "modified": [],
+    "source_unchanged": true
+  },
+  "new_files": [
+    {
+      "path": "scripts/github_publication/install_website.ps1",
+      "bytes": 10904,
+      "sha256": "35f4d97b188c8f4693ce8213bca8f13f9dc73b0224da24f851e86dc83bfc72d7"
+    },
+    {
+      "path": "scripts/github_publication/verify_npm_tooling.mjs",
+      "bytes": 3200,
+      "sha256": "85b59f4bb71567cf1a8145e33171f6be70f00725d9a419f63568e2939d206dee"
+    },
+    {
+      "path": "publication/phase4/WEBSITE_INSTALLATION.md",
+      "bytes": 3617,
+      "sha256": "619cb622894334d40d28b44a67ff48416352d041245e4d9b9decd59e3e6bfdfb"
+    }
+  ],
+  "private_evidence_dir": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\website-audit",
+  "limits": [
+    "Windows x64 install only; Linux/macOS not tested",
+    "No fresh native-browser interaction or live InfinityFree acceptance",
+    "No scientific generation/training/relaxation/DFT",
+    "Eleven integration validators use saved scientific inputs; counts include repeated contexts",
+    "Remote repository remains unpublished; byte-verified clean export stands in for future clone"
+  ],
+  "source_or_host_deployment": false
+}

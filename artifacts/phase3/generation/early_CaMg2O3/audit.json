@@ -1,0 +1,119 @@
+{
+  "audited_utc": "2026-10-21T17:52:21.203832+00:00",
+  "status": "passed",
+  "model_draws_in_audit": 0,
+  "summary_sha256": "05dca415e70331a8d6aa4990921e4f954870408294716ad5c2defe5d6c054085",
+  "protocol_unchanged": true,
+  "selection_unchanged": true,
+  "starts": 8,
+  "completed_results": 8,
+  "exact_target_valid": 0,
+  "reduced_formula_matches_diagnostic_only": 3,
+  "secondary_composition_diagnostic_does_not_override_exact_six_atom_primary_gate": true,
+  "original_failed_ticket_preserved": true,
+  "engineering_continuation_completed": true,
+  "charged_attempts": 12,
+  "actual_draws": 8,
+  "unemitted_engineering_charges": 4,
+  "source_snapshots_verified": true,
+  "raw_batches": [
+    {
+      "path": "artifacts/phase3/generation/early_CaMg2O3/raw_batch_00.npz",
+      "sha256": "34d9585330cc6eef199b064c7327843e0d1cdb61bba72a23496ba94240d89d33"
+    },
+    {
+      "path": "artifacts/phase3/generation/early_CaMg2O3/raw_batch_01.npz",
+      "sha256": "8d2dfb68de96adbfc50ceff85ad30f6f05fc80e39ea0fba6ae7398c070a7e329"
+    }
+  ],
+  "results": [
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_000",
+      "n_atoms": 18,
+      "exact_target_valid": false,
+      "same_reduced_formula": false,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "15185c090db0d87fa066988ae70a411563f75c8ba92598ccbeed5be31ea0a503",
+      "structure_sha256": "b69a3a69b3c0cafd4fc49bea99c33ecbab88dbb4e7107fddbd6fb4110ec0d58d",
+      "cif_sha256": "fa3c89b90177382d1dbf40e907c2f1707ea61a3da975224e377f88a7f736ca1a"
+    },
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_001",
+      "n_atoms": 26,
+      "exact_target_valid": false,
+      "same_reduced_formula": false,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "d11116aa29a27e84f04f5a0a52eca7c8c143776f64d99892de345bcf17b60f4e",
+      "structure_sha256": "93b9d0a35e8d33c9f7aca32b23952b2217db6372d9c30a424b279e3eefab6f10",
+      "cif_sha256": "7a7347bff2fb74243dfddf81a2af1fe0a08f5e050aef637a7174cc3e3b6d531d"
+    },
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_002",
+      "n_atoms": 12,
+      "exact_target_valid": false,
+      "same_reduced_formula": false,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "56a4e33fd2665ecd48118762e7d7a270453c9a2df4b8707b5569c77a18e9a5fa",
+      "structure_sha256": "97fb6ab8385b2af93e8ef2551b3e1b304edc62b3280c20c5cb7f0525b44e6e61",
+      "cif_sha256": "d8dc6c5866ee4c18311d112d7a717318dd4a59159a286ec2f364e25330eff603"
+    },
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_003",
+      "n_atoms": 5,
+      "exact_target_valid": false,
+      "same_reduced_formula": false,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "ce0de671de76241bea8720f2f78bbff97dfafceae42f71dc56e4171356605259",
+      "structure_sha256": "ea04cdb4e3aa469281b41b6de6d6348ac25b6e0bab85309e737fe2d065d9c302",
+      "cif_sha256": "c79fec21ef1b0591e6174ec7f29f6ae141925df0ad278a100d4cce75dededbf4"
+    },
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_004",
+      "n_atoms": 11,
+      "exact_target_valid": false,
+      "same_reduced_formula": false,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "d5b37cd857a2a259ed238a7f9775ef9753b52d452db49c3852c03cd593a997a0",
+      "structure_sha256": "35eaf8d141493dc2d9f32247aad078901ac287455dadd47d8c14e46afa704c9e",
+      "cif_sha256": "f3b464b404b81516da8e05051c5a298bdd32f5a36d8380c3c99a9977459062ef"
+    },
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_005",
+      "n_atoms": 12,
+      "exact_target_valid": false,
+      "same_reduced_formula": true,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "4f162110546881d3aea41c54b1a12599d8624fe2c005670dda6e3df8b6f85ae0",
+      "structure_sha256": "edd9b0d54ae583a50d1777e86287e48e97938f8ae6a75b1bba9b5e6693bc6b04",
+      "cif_sha256": "fb0fdba559286405d22835b3b2064f7bb5d30a5928b56661c829badf06838126"
+    },
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_006",
+      "n_atoms": 12,
+      "exact_target_valid": false,
+      "same_reduced_formula": true,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "5438aa325498cdbc0f4f6819de83ed66c53b6357c4dc8491fdf41a49e26dc082",
+      "structure_sha256": "84a7d269d492260c0022e2e5e5426d2378c9aa59b85a2fdcab7584a87a8a15f0",
+      "cif_sha256": "30decc214f3e6100b33ccf064d753ad1e7b2e06be3aec15f174ddcbbb3ff48ff"
+    },
+    {
+      "candidate_id": "phase3_early_CaMg2O3_attempt_007",
+      "n_atoms": 36,
+      "exact_target_valid": false,
+      "same_reduced_formula": true,
+      "cif_roundtrip": true,
+      "minimum_periodic_distance_includes_self_images": true,
+      "raw_sha256": "9d30ab877d040c198e34ce6fdfc621154260b4753c8f1246f2b36c364bbcdba3",
+      "structure_sha256": "95e590f08dca3d12a24d5785d226c301e4fa8a341970607ee4deb72d651c71bf",
+      "cif_sha256": "a1d9bc0403c237500d2a2a00be3e3e94e881a76a4978474824d87a6e29c677b2"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+  "checkpoint_revision": "b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+  "checkpoint_path": "alex20s/multi/epoch_044000.pkl",
+  "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+  "formula": "Mg4O4",
+  "conditioning_formula": "MgO",
+  "conditioning_reason": "Training reduces composition counts by their GCD; exact expanded cell counts are validated separately.",
+  "exact_counts": {
+    "Mg": 4,
+    "O": 4
+  },
+  "spacegroup": 225,
+  "seed": 20261022,
+  "initialization_seed": 42,
+  "attempt_limit": 8,
+  "batch_size": 4,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "symprec_angstrom": 0.01,
+  "angle_tolerance_degrees": 5.0,
+  "minimum_distance_angstrom": 0.75,
+  "expanded_atom_cap": 20,
+  "deduplication": {
+    "ltol": 0.05,
+    "stol": 0.1,
+    "angle_tol": 5.0,
+    "primitive_cell": true,
+    "scale": true,
+    "attempt_supercell": false
+  },
+  "architecture": {
+    "Nf": 5,
+    "Kx": 16,
+    "Kl": 4,
+    "n_max": 21,
+    "h0_size": 256,
+    "num_layers": 16,
+    "num_heads": 8,
+    "key_size": 32,
+    "model_size": 256,
+    "embed_size": 256,
+    "atom_types": 119,
+    "wyck_types": 28,
+    "dropout_rate": 0.1,
+    "attn_dropout": 0.1
+  }
+}

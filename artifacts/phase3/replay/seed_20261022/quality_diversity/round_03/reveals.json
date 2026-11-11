@@ -1,0 +1,92 @@
+{
+  "labels_eV_atom": [
+    -0.240802,
+    -0.123849,
+    0.00042,
+    0.039663,
+    -0.092326,
+    -0.086367,
+    0.024238,
+    -0.045613,
+    -0.102416,
+    -0.251952
+  ],
+  "material_ids": [
+    "wbm-4-25349",
+    "wbm-2-34269",
+    "wbm-2-35152",
+    "wbm-5-15285",
+    "wbm-4-25343",
+    "wbm-2-33713",
+    "wbm-3-51055",
+    "wbm-2-34863",
+    "wbm-2-33711",
+    "wbm-2-34914"
+  ],
+  "policy": "quality_diversity",
+  "prior_decision_sha256": "711f7e7c9e944c19c9b565d3371c93967746119183d769b5de7ffdab16b8785d",
+  "records": [
+    {
+      "label_eV_atom": -0.240802,
+      "material_id": "wbm-4-25349",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": -0.123849,
+      "material_id": "wbm-2-34269",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": 0.00042,
+      "material_id": "wbm-2-35152",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": 0.039663,
+      "material_id": "wbm-5-15285",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": -0.092326,
+      "material_id": "wbm-4-25343",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": -0.086367,
+      "material_id": "wbm-2-33713",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": 0.024238,
+      "material_id": "wbm-3-51055",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": -0.045613,
+      "material_id": "wbm-2-34863",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": -0.102416,
+      "material_id": "wbm-2-33711",
+      "policy": "quality_diversity",
+      "round_index": 3
+    },
+    {
+      "label_eV_atom": -0.251952,
+      "material_id": "wbm-2-34914",
+      "policy": "quality_diversity",
+      "round_index": 3
+    }
+  ],
+  "revealed_at_utc": "2026-10-21T17:46:40.120894+00:00",
+  "round_index": 3
+}

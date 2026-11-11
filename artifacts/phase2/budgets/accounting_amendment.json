@@ -1,0 +1,18 @@
+{
+  "reason": "Broad128structureceiling includes four deterministic prototype-substitution candidates, not only CrystalFormer samples",
+  "phase1_baseline_sha256": "c081be70255af293fb627cd21b2393fdb94e85dba52f2dc5314631f9eeb1687d",
+  "prototype_ledger_sha256": "fec726c850b1e6d9864c076d3380684155bc8905fbdb82b2a0733c7f27b5b7be",
+  "CrystalFormer_attempts": 8,
+  "prototype_attempts": 4,
+  "total_charged_generation_attempts": 12,
+  "remaining_generation_attempts": 116,
+  "default_CF_attempts": 80,
+  "default_total_including_baselines": 84,
+  "default_headroom": 44,
+  "stretch_CF_attempts": 96,
+  "stretch_total_including_baselines": 100,
+  "stretch_headroom": 28,
+  "symmetry_primary_denominators_unchanged": true,
+  "CHGNet_QE_charges_unchanged": true,
+  "prototype_preparation_runtime": "Not separately measured; no generation walltime cap is defined"
+}

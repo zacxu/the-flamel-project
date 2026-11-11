@@ -1,0 +1,73 @@
+{
+  "phase": "W7",
+  "status": "passed",
+  "checkedAt": "2026-10-22T15:20:18.705Z",
+  "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "scope": "Actual public HTTPS browser files compared byte-exactly with their selected current export contracts; independent source/geometry checks are performed separately.",
+  "checksPassed": 9,
+  "downloads": [
+    {
+      "filename": "flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "kind": "cif",
+      "sourceFilename": "flamel-phase1_mgo_attempt_000--accepted_dft (2).cif",
+      "selection": {
+        "stageId": "phase1_mgo_attempt_000--accepted_dft"
+      },
+      "path": "deployment/live-downloads/flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "bytes": 2321,
+      "sha256": "8d4e24fffe3098de1bf5a80cfd2c227a83233ed9f90a490d670a5f9cc43f284f",
+      "exactProjectionMatch": true
+    },
+    {
+      "filename": "flamel-comparison-20261022-10queries.csv",
+      "kind": "comparison",
+      "sourceFilename": "flamel-comparison-20261022-10queries (1).csv",
+      "selection": {
+        "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=full&budget=10&batch=1&revealed=true"
+      },
+      "path": "deployment/live-downloads/flamel-comparison-20261022-10queries.csv",
+      "bytes": 1632,
+      "sha256": "eccfacf3262f748006a2e6cba396f26f993ff12cd5eb2981115a7339ba6364c7",
+      "exactProjectionMatch": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Pinned payload hash: structures/index.json",
+      "passed": true
+    },
+    {
+      "name": "Actual CIF selected stage exists",
+      "passed": true
+    },
+    {
+      "name": "Pinned payload hash: structures/phase1_mgo_attempt_000--accepted_dft.json",
+      "passed": true
+    },
+    {
+      "name": "Actual live bytes equal selected export contract: cif",
+      "passed": true
+    },
+    {
+      "name": "Actual live export names pinned research release: cif",
+      "passed": true
+    },
+    {
+      "name": "Pinned payload hash: replay/curves.json",
+      "passed": true
+    },
+    {
+      "name": "Pinned payload hash: theme.json",
+      "passed": true
+    },
+    {
+      "name": "Actual live bytes equal selected export contract: comparison",
+      "passed": true
+    },
+    {
+      "name": "Actual live export names pinned research release: comparison",
+      "passed": true
+    }
+  ]
+}

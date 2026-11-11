@@ -1,0 +1,30 @@
+{
+    "schema_version":  1,
+    "status":  "PASS",
+    "source_root":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source",
+    "destination":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation",
+    "bootstrap":  "requirements/phase4/bootstrap.json",
+    "profiles":  [
+                     {
+                         "profile":  "analysis-historical",
+                         "python":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\envs\\analysis-historical\\Scripts\\python.exe",
+                         "verification":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\analysis-historical-verification.json",
+                         "status":  "PASS"
+                     },
+                     {
+                         "profile":  "generator-historical",
+                         "python":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\envs\\generator-historical\\Scripts\\python.exe",
+                         "verification":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\generator-historical-verification.json",
+                         "status":  "PASS"
+                     },
+                     {
+                         "profile":  "analysis-maintenance-cpu",
+                         "python":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\envs\\analysis-maintenance-cpu\\Scripts\\python.exe",
+                         "verification":  "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\analysis-maintenance-cpu-verification.json",
+                         "status":  "PASS"
+                     }
+                 ],
+    "no_original_environment_modified":  true,
+    "no_scientific_experiment_run":  true,
+    "historical_advisories_retained":  "Historical profiles reproduce old pins; maintenance CPU is a separate compatibility-tested environment."
+}

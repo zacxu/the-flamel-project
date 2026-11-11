@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "phase": "Logo update",
+  "status": "live_verified",
+  "recordedAt": "2026-10-22T15:55:50.420701+00:00",
+  "url": "https://theflamelproject.42web.io/",
+  "documentRoot": "/htdocs",
+  "uiBuildId": "ui-w6-b9a4161a2557c7e7620c",
+  "predecessorUiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "researchManifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "uiManifestPath": "release-manifests/ui-w6-b9a4161a2557c7e7620c.json",
+  "uiManifestSha256": "28bcae1fc9d6d039f42cad79fad8bee508993dc3b55e343e274be180cd8d5a35",
+  "change": "Header SVG redrawn as a bold rounded hexagon with six triangular facets. Existing copper currentColor and radius-4 center dot retained.",
+  "sourceChanges": [
+    "src/App.tsx",
+    "src/generated/uiRelease.ts (automatic build identity)"
+  ],
+  "uploadOrder": [
+    "Three new hashed JavaScript chunks and the new versioned release manifest/CSV uploaded first.",
+    "Exact 1150-byte production index.html published last."
+  ],
+  "immutableFiles": [
+    {
+      "path": "assets/CrystalViewer-DXdhL6QJ.js",
+      "bytes": 567490,
+      "sha256": "9e6ce09ff8b3a8cdbab4a650b5ac3f8262e871bae28e53e39ea38daf9e846f1a"
+    },
+    {
+      "path": "assets/ReplayChart-DovE-fiI.js",
+      "bytes": 374724,
+      "sha256": "15356baa04e80f2e63fc23fde3e2b4b8c15381c1d21418fc3b5cfa705dbf7503"
+    },
+    {
+      "path": "assets/index-BlMJwgMw.js",
+      "bytes": 428928,
+      "sha256": "80c14c8f107613463f587b1bcb4a6c805f87f416f8591335b4b2cebaf1de2de1"
+    },
+    {
+      "path": "release-manifests/ui-w6-b9a4161a2557c7e7620c.files.csv",
+      "bytes": 17551,
+      "sha256": "aa813065e9577e1f812d45e3b10afed3a57167179a77d98ab03e5a0a25bf7bc7"
+    },
+    {
+      "path": "release-manifests/ui-w6-b9a4161a2557c7e7620c.json",
+      "bytes": 25919,
+      "sha256": "28bcae1fc9d6d039f42cad79fad8bee508993dc3b55e343e274be180cd8d5a35"
+    }
+  ],
+  "entryLast": {
+    "path": "deployment/logo-update/entry/index.html",
+    "bytes": 1150,
+    "sha256": "cd9739f1252c37a738b86f3fc3cd201b48716ea529b5d29a04296fd8735206cc",
+    "remotePath": "index.html"
+  },
+  "localChecksPassed": 710,
+  "browserObservations": [
+    {
+      "check": "local-desktop-logo",
+      "passed": true,
+      "observation": {
+        "centerDot": "4",
+        "color": "rgb(146, 82, 47)",
+        "height": 44,
+        "link": "The Flamel Project overview",
+        "maskPresent": true,
+        "viewBox": "0 0 40 44",
+        "width": 37
+      }
+    },
+    {
+      "check": "local-mobile-logo",
+      "passed": true,
+      "observation": {
+        "height": 37,
+        "pageScrollWidth": 375,
+        "pageWidth": 375,
+        "width": 29
+      }
+    },
+    {
+      "check": "immutable-files-uploaded-before-entry",
+      "passed": true,
+      "assetRows": [
+        {
+          "name": "CrystalViewer-DXdhL6QJ.js",
+          "text": "CrystalViewer-DXdhL6QJ.js\njs\n554.19 KB\nOct 22 10:52"
+        },
+        {
+          "name": "index-BlMJwgMw.js",
+          "text": "index-BlMJwgMw.js\njs\n418.88 KB\nOct 22 10:52"
+        },
+        {
+          "name": "ReplayChart-DovE-fiI.js",
+          "text": "ReplayChart-DovE-fiI.js\njs\n365.94 KB\nOct 22 10:52"
+        }
+      ],
+      "manifestRows": [
+        {
+          "name": "ui-w6-b9a4161a2557c7e7620c.files.csv",
+          "text": "ui-w6-b9a4161a2557c7e7620c.files.csv\ncsv\n17.14 KB\nOct 22 10:52"
+        },
+        {
+          "name": "ui-w6-b9a4161a2557c7e7620c.json",
+          "text": "ui-w6-b9a4161a2557c7e7620c.json\njson\n25.31 KB\nOct 22 10:52"
+        }
+      ]
+    },
+    {
+      "check": "live-desktop-logo",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "build": "ui-w6-b9a4161a2557c7e7620c",
+        "color": "rgb(146, 82, 47)",
+        "dot": "4",
+        "height": 44,
+        "mask": true,
+        "width": 37
+      }
+    },
+    {
+      "check": "live-mobile-logo",
+      "passed": true,
+      "observation": {
+        "color": "rgb(146, 82, 47)",
+        "dot": "4",
+        "height": 37,
+        "pageWidth": 375,
+        "scrollWidth": 375,
+        "width": 29
+      }
+    },
+    {
+      "check": "live-replay-chunk",
+      "passed": true,
+      "observation": {
+        "chart": true,
+        "heading": "Compare the search policies.",
+        "mask": true
+      }
+    },
+    {
+      "check": "live-viewer-chunk-and-console",
+      "passed": true,
+      "observation": {
+        "canvas": true,
+        "heading": "Inspect the actual cells.",
+        "mask": true
+      },
+      "errors": []
+    },
+    {
+      "check": "live-release-manifest",
+      "passed": true,
+      "sha256": "28bcae1fc9d6d039f42cad79fad8bee508993dc3b55e343e274be180cd8d5a35"
+    }
+  ],
+  "unchanged": [
+    "Frozen research and numerical artifacts",
+    "CSS and responsive logo sizing",
+    "All images and image sidecars",
+    "Hosting .htaccess configurations",
+    "Credentials",
+    "Historical W1-W7 reports and original releases",
+    "Original cached W6 source-input record"
+  ],
+  "rollback": {
+    "entry": "deployment/logo-update/previous-dist/index.html",
+    "sha256": "af42bdbd99add2e689daa091155d99ea57dd3b3082224de0f43d5bebd0a8e450",
+    "instructions": "Upload the saved previous entry to /htdocs/index.html and verify HTTPS. Retain both releases' immutable assets and existing image routing."
+  },
+  "screenshots": [
+    "reports/LOGO_LIVE_DESKTOP.jpg",
+    "reports/LOGO_LIVE_MOBILE.jpg",
+    "reports/LOGO_LIVE_HEADER.jpg"
+  ],
+  "verificationLimit": "Targeted visual update acceptance. The historical full W6/W7 test results remain dated evidence; they were not rerun for this SVG-only change.",
+  "browserChecksPassed": 8,
+  "browserChecksFailed": 0
+}

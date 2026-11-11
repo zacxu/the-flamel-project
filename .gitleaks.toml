@@ -1,0 +1,20 @@
+title = "Flamel Phase 3 publication audit"
+[extend]
+useDefault = true
+[[rules]]
+id = "hosting-session-reference"
+description = "Hosting or PHP session credential reference"
+regex = '''(?i)(?:cpsess[0-9]{6,}|post_login[=\\\\?&%3D]+[0-9]{5,}|(?:PHPSESSID|sessionid|auth_token|access_token|refresh_token)[\"\x27 ]{0,3}[=:][\"\x27 ]{0,3}[a-zA-Z0-9_./+%=-]{16,})'''
+[[rules]]
+id = "credential-in-url"
+description = "Embedded URL user and password"
+regex = '''https?://[^\s/@:]{1,80}:[^\s/@]{4,160}@'''
+
+[[rules]]
+id = "signed-download-query"
+description = "Historical signed download URL requires private or sanitized provenance"
+regex = '''(?i)X-Amz-Signature=[a-f0-9]{32,}'''
+[[rules]]
+id = "http-cookie-value"
+description = "HTTP cookie header requires private or sanitized provenance"
+regex = '''(?im)^set-cookie:\s*[A-Za-z0-9_.-]+=[^\r\n;\s]{8,}'''

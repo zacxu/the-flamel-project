@@ -1,0 +1,29 @@
+{
+  "candidate_ids": [
+    "phase4_new_Mg2SrO3_attempt_000",
+    "phase4_new_Mg2SrO3_attempt_001",
+    "phase4_new_Mg2SrO3_attempt_002",
+    "phase4_new_Mg2SrO3_attempt_003",
+    "phase4_new_Mg2SrO3_attempt_004",
+    "phase4_new_Mg2SrO3_attempt_005",
+    "phase4_new_Mg2SrO3_attempt_006",
+    "phase4_new_Mg2SrO3_attempt_007"
+  ],
+  "command": [
+    "C:\\Users\\Admin\\Desktop\\bears\\.envs\\generator\\Scripts\\python.exe",
+    "-u",
+    "C:\\Users\\Admin\\Desktop\\bears\\scripts\\phase3_generate.py",
+    "--phase",
+    "4",
+    "--run-id",
+    "phase4_new_Mg2SrO3",
+    "--output",
+    "artifacts/phase4/generation/phase4_new_Mg2SrO3",
+    "--timeout-seconds",
+    "600",
+    "--formula",
+    "Mg2SrO3"
+  ],
+  "run_plan_sha256": "26efda2c7040e0b55acb87cffd4e88ec3b69bc5901ce838302357ac738584cbc",
+  "utc": "2026-10-22T01:47:03.284992+00:00"
+}

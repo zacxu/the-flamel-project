@@ -1,0 +1,1184 @@
+{
+  "phase": "CRYSTAL_LAB",
+  "status": "passed",
+  "generatedAt": "2026-10-22T17:54:55.321Z",
+  "checksPassed": 288,
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "stageCount": 26,
+  "testedAspectRatios": [
+    0.45,
+    0.65,
+    1,
+    1.5,
+    2.8
+  ],
+  "scope": "Shipped pure RAF owner, epoch cancellation, failure gate, reverse/idempotent resources, actual Three math/material disposal, saved-stage perspective fitting.",
+  "limitations": [
+    "This Node check does not create a native WebGL context or prove GPU draw success. Browser QA records native renderer or saved-figure fallback separately.",
+    "Native document visibility and intersection event delivery are checked in browser QA where supported; injected controller checks prove their frame-owner actions."
+  ],
+  "sources": {
+    "src/components/CrystalViewer.tsx": "2f564f2542e6a69cf956094d7dd08c7b6dd28ca052fb8693e89d7fb29fd755c7",
+    "src/components/CrystalViewerControls.tsx": "d058ab46c2cf6ea1e4e1060cd20048230dccedb53234eb7dac3f5b8b1961b6e3",
+    "src/crystal/orientation.ts": "9547d917dc599c0af0d39cea312aaa5507b50eaba14cf8a67fe526436c273d17",
+    "src/crystal/controls.css": "20e9ef3adec547a27d1a800f2d3bacf55a316e00a7797323d39d0aaaa177e93c",
+    "src/crystal/lifecycle.ts": "b9d7183be218df3be53cb6a96635709039d5133bd7917eacfe3d622a00a97d93",
+    "src/crystal/camera.ts": "fe44cc91d62e0c2d95f61887764de50a1ccb5ce489c7636d62f6a327db69047d",
+    "src/crystal/viewer.css": "8f3bb97f1a0567a7ef1a33573a6fca58c095b8f473fd75d70a8d7100e38c6a66",
+    "scripts/verify-viewer.mjs": "0a03e3c3e16a32f8e8afef523cc9a2762a75c13e28bf22f21fcf4c23aeb9dc66"
+  },
+  "checks": [
+    {
+      "check": "Construction is idle: no requestAnimationFrame",
+      "passed": true
+    },
+    {
+      "check": "Concurrent invalidations coalesce to one frame",
+      "passed": true
+    },
+    {
+      "check": "A demand-rendered frame leaves no idle loop",
+      "passed": true
+    },
+    {
+      "check": "First frame starts with zero elapsed time",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 0: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 1: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 2: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 3: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 4: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 5: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 6: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 7: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 8: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 9: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 10: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Auto-rotation frame 11: exactly one owner",
+      "passed": true
+    },
+    {
+      "check": "Off-screen transition cancels pending work",
+      "passed": true
+    },
+    {
+      "check": "An already-queued off-screen callback is ignored",
+      "passed": true
+    },
+    {
+      "check": "Off-screen invalidation cannot renew a loop",
+      "passed": true
+    },
+    {
+      "check": "Returning on-screen renews one active loop",
+      "passed": true
+    },
+    {
+      "check": "Resume time excludes the hidden interval",
+      "passed": true
+    },
+    {
+      "check": "Document hiding cancels pending work",
+      "passed": true
+    },
+    {
+      "check": "An already-queued hidden callback is ignored",
+      "passed": true
+    },
+    {
+      "check": "Visibility alone cannot resume an off-screen viewer",
+      "passed": true
+    },
+    {
+      "check": "Returning idle viewers render once without auto-rotation",
+      "passed": true
+    },
+    {
+      "check": "Long intervals are capped at 100 ms",
+      "passed": true
+    },
+    {
+      "check": "Disposed viewers never render or schedule late work",
+      "passed": true
+    },
+    {
+      "check": "Disposed ownership status is explicit",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 0: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 0: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 1: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 1: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 2: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 2: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 3: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 3: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 4: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 4: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 5: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 5: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 6: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 6: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 7: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 7: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 8: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 8: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 9: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 9: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 10: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 10: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 11: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 11: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 12: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 12: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 13: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 13: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 14: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 14: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 15: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 15: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 16: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 16: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 17: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 17: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 18: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 18: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 19: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 19: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 20: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 20: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 21: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 21: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 22: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 22: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 23: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 23: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 24: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 24: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 25: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 25: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 26: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 26: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 27: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 27: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 28: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 28: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 29: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 29: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 30: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 30: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 31: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 31: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 32: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 32: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 33: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 33: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 34: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 34: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 35: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 35: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 36: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 36: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 37: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 37: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 38: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 38: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 39: no old-frame render",
+      "passed": true
+    },
+    {
+      "check": "StrictMode/replacement 39: one replacement paint",
+      "passed": true
+    },
+    {
+      "check": "Cleanup exceptions are collected without stopping later resources",
+      "passed": true
+    },
+    {
+      "check": "Resources clean up in reverse acquisition order",
+      "passed": true
+    },
+    {
+      "check": "Repeated scope disposal does not repeat resource releases",
+      "passed": true
+    },
+    {
+      "check": "A late acquisition on a disposed scope is released immediately",
+      "passed": true
+    },
+    {
+      "check": "Context-loss handler prevents browser default recovery",
+      "passed": true
+    },
+    {
+      "check": "Context loss releases actual Three geometry/material resources once",
+      "passed": true
+    },
+    {
+      "check": "Context loss reports one saved-figure fallback",
+      "passed": true
+    },
+    {
+      "check": "Context handler and failure gate cannot report a second fallback",
+      "passed": true
+    },
+    {
+      "check": "A draw exception disposes the owner",
+      "passed": true
+    },
+    {
+      "check": "A draw exception requests the saved fallback exactly once",
+      "passed": true
+    },
+    {
+      "check": "A draw exception leaves no repeating frame",
+      "passed": true
+    },
+    {
+      "check": "Installed OrbitControls zoom-in convention actually decreases distance",
+      "passed": true
+    },
+    {
+      "check": "Installed OrbitControls zoom-out restores the original distance",
+      "passed": true
+    },
+    {
+      "check": "Installed OrbitControls rotate method changes camera azimuth",
+      "passed": true
+    },
+    {
+      "check": "Installed OrbitControls reset restores the saved camera",
+      "passed": true
+    },
+    {
+      "check": "Viewer checks use the unchanged pinned research manifest",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase1_mgo_attempt_000--accepted_dft.json",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase1_mgo_attempt_000--generated.json",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase1_mgo_attempt_000--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.json",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.json",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.json",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase4_tio2_rutile_p1_attempt_000--generated.json",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_BaSnO2--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_BaSnO2--prototype_initial.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_CaMg2O3--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_CaMg2O3--prototype_initial.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_Mg2SrO3--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_Mg2SrO3--prototype_initial.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_SnSrO2--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/prototype_SnSrO2--prototype_initial.json",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/qe_source_reference_cao_mp2605--accepted_dft.json",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/qe_source_reference_mgo_mp1265--accepted_dft.json",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/reference_anatase--catalog_initial.json",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/reference_anatase--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/reference_rocksalt--catalog_initial.json",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/reference_rocksalt--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/reference_rutile--catalog_initial.json",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Saved stage bytes remain pinned: structures/reference_rutile--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: cell and physical sites fit aspect 0.45",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: cell and physical sites fit aspect 0.65",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: cell and physical sites fit aspect 1",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: cell and physical sites fit aspect 1.5",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: cell and physical sites fit aspect 2.8",
+      "passed": true
+    },
+    {
+      "check": "Invalid camera fit rejected: 0,1",
+      "passed": true
+    },
+    {
+      "check": "Invalid camera fit rejected: 1,0",
+      "passed": true
+    },
+    {
+      "check": "Invalid camera fit rejected: 1,-1",
+      "passed": true
+    },
+    {
+      "check": "Invalid camera fit rejected: NaN,1",
+      "passed": true
+    },
+    {
+      "check": "Invalid camera fit rejected: 1,1,180",
+      "passed": true
+    },
+    {
+      "check": "Invalid camera fit rejected: 1,1,40,0.8",
+      "passed": true
+    },
+    {
+      "check": "The owner also renders through a real platform timer adapter",
+      "passed": true
+    },
+    {
+      "check": "A disposed real timer adapter produces no late render",
+      "passed": true
+    }
+  ]
+}

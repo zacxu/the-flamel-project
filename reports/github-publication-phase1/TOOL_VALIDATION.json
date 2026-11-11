@@ -1,0 +1,52 @@
+{
+  "status": "PASSED",
+  "tool_version": "1.1.0",
+  "tool_sha256": "6a52088e51e6834b400013dd314031632c421491da182059cdb1f5adbd7a4954",
+  "tests_passed": 10,
+  "checks": [
+    {
+      "test": "capture includes hidden/ignored files, binary/CRLF/Unicode/empty files, hardlinked content and empty directories",
+      "status": "PASSED"
+    },
+    {
+      "test": "independent full backup verification",
+      "status": "PASSED"
+    },
+    {
+      "test": "full restoration preserves all bytes and directories and materializes original hardlinks",
+      "status": "PASSED"
+    },
+    {
+      "test": "existing snapshot overwrite is rejected without changing its inventory",
+      "status": "PASSED"
+    },
+    {
+      "test": "existing restore destination is rejected without changing files",
+      "status": "PASSED"
+    },
+    {
+      "test": "source-nested backup destination is rejected before creation",
+      "status": "PASSED"
+    },
+    {
+      "test": "same-length same-mtime backup corruption is detected by SHA256 verification",
+      "status": "PASSED"
+    },
+    {
+      "test": "corrupt backup restoration fails without a success report",
+      "status": "PASSED"
+    },
+    {
+      "test": "inventory tampering is rejected by its checksum sidecar",
+      "status": "PASSED"
+    },
+    {
+      "test": "restoration to original recorded location succeeds when original source is absent",
+      "status": "PASSED"
+    }
+  ],
+  "fixture_files": 7,
+  "fixture_directories_excluding_root": 5,
+  "all_writes_confined_to": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\tool-validation",
+  "real_project_or_backup_modified": false
+}

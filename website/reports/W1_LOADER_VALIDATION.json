@@ -1,0 +1,50 @@
+{
+  "phase": "W1",
+  "status": "passed",
+  "generatedAt": "2026-10-22T07:02:59.492Z",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "checksPassed": 10,
+  "checks": [
+    {
+      "check": "Pinned immutable manifest loads under a nested static base",
+      "passed": true
+    },
+    {
+      "check": "Actual summary identity and closed-study flag load",
+      "passed": true
+    },
+    {
+      "check": "Dataset request is cached within this pinned instance",
+      "passed": true
+    },
+    {
+      "check": "Actual PNG bytes pass the loader hash check",
+      "passed": true
+    },
+    {
+      "check": "Loaded PNG hash matches offline manifest",
+      "passed": true
+    },
+    {
+      "check": "Missing data fails with an explicit unavailable error",
+      "passed": true
+    },
+    {
+      "check": "A binary asset cannot be treated as a JSON dataset",
+      "passed": true
+    },
+    {
+      "check": "A modified immutable manifest fails closed",
+      "passed": true
+    },
+    {
+      "check": "A same-length modified data shard fails closed",
+      "passed": true
+    },
+    {
+      "check": "Mutable discovery pointer was never requested",
+      "passed": true
+    }
+  ],
+  "scope": "Actual loader through local HTTP; six-view browser/accessibility QA belongs to W2-W6."
+}

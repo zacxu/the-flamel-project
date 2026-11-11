@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-10-21T18:11:31.882891+00:00",
+  "files": [
+    {
+      "path": "config/phase2_protocol.json",
+      "sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94"
+    },
+    {
+      "path": "artifacts/phase3/models/fresh_selector_seed_20261022.joblib",
+      "sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359"
+    },
+    {
+      "path": "artifacts/phase3/replay/seed_20261022/query_journal.csv",
+      "sha256": "163a8759f495b8c3c3c4c0992d246dc25fed61d3a1fa568fa02955e5a4eb41fc"
+    },
+    {
+      "path": "artifacts/phase3/generation/early_CaMg2O3/summary.json",
+      "sha256": "05dca415e70331a8d6aa4990921e4f954870408294716ad5c2defe5d6c054085"
+    },
+    {
+      "path": "artifacts/phase3/selection/DFT_handoff.json",
+      "sha256": "cffe791fef16e7cb8e608805716ad8da6c8b50d562b985ee768ad248a18b28bd"
+    },
+    {
+      "path": "artifacts/runtime_budget_events.jsonl",
+      "sha256": "a219008da8655a361895a1c1f4b3645c3912e2cdd60d44955c7cda8b73eafde7"
+    },
+    {
+      "path": "artifacts/budget_ledger.json",
+      "sha256": "614e7216b0c43e9ec6ed0cba95744ead17a0d9f9010f2d6be520e8489d473fe4"
+    },
+    {
+      "path": "artifacts/phase3/qe/summary.json",
+      "sha256": "726af170b17a48ca980252aa017757399d6a2b8b72aca5124ee7cb3d17e128a9"
+    },
+    {
+      "path": "reports/phase3_report.md",
+      "sha256": "c8832030e8f44dd1891b23ba26c5a2fcf27af31440739451b147f6793fd795ce"
+    },
+    {
+      "path": "research_models.py",
+      "sha256": "4b08a236b85519b32d30fa81102d7f41e1acd2955136b9601cef822549247b87"
+    },
+    {
+      "path": "research_budget.py",
+      "sha256": "729481457ccf005b19889c00d8ed0fff469994ceca19e952e6d2c4aa4e9a6de2"
+    },
+    {
+      "path": "scripts/phase3_replay.py",
+      "sha256": "cc96163bfac816280aaccdcb048b6f7a2fc6fe32cb5742a26b685a89b0396da5"
+    },
+    {
+      "path": "scripts/phase3_generate.py",
+      "sha256": "93cb9bafc5a1d79a5a1a9a682a8847fb981eeac5307ac7c0d99d74a64c39bf3a"
+    },
+    {
+      "path": "scripts/phase3_candidates.py",
+      "sha256": "29e2288a251920602c713d29fe62e21563f61c86eec06472324c1cbcc50ecb0c"
+    },
+    {
+      "path": "scripts/phase3_qe.py",
+      "sha256": "9801e0b35d69852bb0bf14db6912e77c90ea0dca151569e6babc991df47a004a"
+    },
+    {
+      "path": "scripts/phase3_qe_parser.py",
+      "sha256": "2b29dbbb3b183bf609a31436ce33b1688a542ea6a61c02940e56c870fd92d9bf"
+    },
+    {
+      "path": "scripts/phase3_finalize.py",
+      "sha256": "f69250a91bcfc35357281d7db2ee6a47a84d6b2e8b745921c3e1d3eb2a063afe"
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "attempt_policy": "No invalid-draw replacement; original cohorts/keys and exact expanded cells remain fixed.",
+  "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+  "frozen_at_utc": "2026-10-22T01:41:43.677121+00:00",
+  "new_actual_draws_planned": 64,
+  "new_cohorts": [
+    {
+      "arm": "p1",
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_mgo_rocksalt_p1_attempt_000",
+        "phase4_mgo_rocksalt_p1_attempt_001",
+        "phase4_mgo_rocksalt_p1_attempt_002",
+        "phase4_mgo_rocksalt_p1_attempt_003",
+        "phase4_mgo_rocksalt_p1_attempt_004",
+        "phase4_mgo_rocksalt_p1_attempt_005",
+        "phase4_mgo_rocksalt_p1_attempt_006",
+        "phase4_mgo_rocksalt_p1_attempt_007"
+      ],
+      "control": "mgo_rocksalt",
+      "exact_counts": {
+        "Mg": 4,
+        "O": 4
+      },
+      "formula": "Mg4O4",
+      "kind": "control",
+      "output_dir": "artifacts/phase4/generation/phase4_mgo_rocksalt_p1",
+      "run_id": "phase4_mgo_rocksalt_p1",
+      "sampling_seed": 20261022,
+      "spacegroup": 1
+    },
+    {
+      "arm": "nontrivial",
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_tio2_rutile_nontrivial_attempt_000",
+        "phase4_tio2_rutile_nontrivial_attempt_001",
+        "phase4_tio2_rutile_nontrivial_attempt_002",
+        "phase4_tio2_rutile_nontrivial_attempt_003",
+        "phase4_tio2_rutile_nontrivial_attempt_004",
+        "phase4_tio2_rutile_nontrivial_attempt_005",
+        "phase4_tio2_rutile_nontrivial_attempt_006",
+        "phase4_tio2_rutile_nontrivial_attempt_007"
+      ],
+      "control": "tio2_rutile",
+      "exact_counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "formula": "Ti2O4",
+      "kind": "control",
+      "output_dir": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial",
+      "run_id": "phase4_tio2_rutile_nontrivial",
+      "sampling_seed": 20261022,
+      "spacegroup": 136
+    },
+    {
+      "arm": "p1",
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_tio2_rutile_p1_attempt_000",
+        "phase4_tio2_rutile_p1_attempt_001",
+        "phase4_tio2_rutile_p1_attempt_002",
+        "phase4_tio2_rutile_p1_attempt_003",
+        "phase4_tio2_rutile_p1_attempt_004",
+        "phase4_tio2_rutile_p1_attempt_005",
+        "phase4_tio2_rutile_p1_attempt_006",
+        "phase4_tio2_rutile_p1_attempt_007"
+      ],
+      "control": "tio2_rutile",
+      "exact_counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "formula": "Ti2O4",
+      "kind": "control",
+      "output_dir": "artifacts/phase4/generation/phase4_tio2_rutile_p1",
+      "run_id": "phase4_tio2_rutile_p1",
+      "sampling_seed": 20261022,
+      "spacegroup": 1
+    },
+    {
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_new_SnSrO2_attempt_000",
+        "phase4_new_SnSrO2_attempt_001",
+        "phase4_new_SnSrO2_attempt_002",
+        "phase4_new_SnSrO2_attempt_003",
+        "phase4_new_SnSrO2_attempt_004",
+        "phase4_new_SnSrO2_attempt_005",
+        "phase4_new_SnSrO2_attempt_006",
+        "phase4_new_SnSrO2_attempt_007"
+      ],
+      "exact_counts": {
+        "O": 2,
+        "Sn": 1,
+        "Sr": 1
+      },
+      "formula": "SnSrO2",
+      "kind": "new_composition",
+      "output_dir": "artifacts/phase4/generation/phase4_new_SnSrO2",
+      "run_id": "phase4_new_SnSrO2",
+      "sampling_seed": 20262022,
+      "spacegroup": 2
+    },
+    {
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_new_BaSnO2_attempt_000",
+        "phase4_new_BaSnO2_attempt_001",
+        "phase4_new_BaSnO2_attempt_002",
+        "phase4_new_BaSnO2_attempt_003",
+        "phase4_new_BaSnO2_attempt_004",
+        "phase4_new_BaSnO2_attempt_005",
+        "phase4_new_BaSnO2_attempt_006",
+        "phase4_new_BaSnO2_attempt_007"
+      ],
+      "exact_counts": {
+        "Ba": 1,
+        "O": 2,
+        "Sn": 1
+      },
+      "formula": "BaSnO2",
+      "kind": "new_composition",
+      "output_dir": "artifacts/phase4/generation/phase4_new_BaSnO2",
+      "run_id": "phase4_new_BaSnO2",
+      "sampling_seed": 20262023,
+      "spacegroup": 2
+    },
+    {
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_new_Mg2SrO3_attempt_000",
+        "phase4_new_Mg2SrO3_attempt_001",
+        "phase4_new_Mg2SrO3_attempt_002",
+        "phase4_new_Mg2SrO3_attempt_003",
+        "phase4_new_Mg2SrO3_attempt_004",
+        "phase4_new_Mg2SrO3_attempt_005",
+        "phase4_new_Mg2SrO3_attempt_006",
+        "phase4_new_Mg2SrO3_attempt_007"
+      ],
+      "exact_counts": {
+        "Mg": 2,
+        "O": 3,
+        "Sr": 1
+      },
+      "formula": "Mg2SrO3",
+      "kind": "new_composition",
+      "output_dir": "artifacts/phase4/generation/phase4_new_Mg2SrO3",
+      "run_id": "phase4_new_Mg2SrO3",
+      "sampling_seed": 20262025,
+      "spacegroup": 2
+    },
+    {
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_new_Ca2ZnO3_attempt_000",
+        "phase4_new_Ca2ZnO3_attempt_001",
+        "phase4_new_Ca2ZnO3_attempt_002",
+        "phase4_new_Ca2ZnO3_attempt_003",
+        "phase4_new_Ca2ZnO3_attempt_004",
+        "phase4_new_Ca2ZnO3_attempt_005",
+        "phase4_new_Ca2ZnO3_attempt_006",
+        "phase4_new_Ca2ZnO3_attempt_007"
+      ],
+      "exact_counts": {
+        "Ca": 2,
+        "O": 3,
+        "Zn": 1
+      },
+      "formula": "Ca2ZnO3",
+      "kind": "new_composition",
+      "output_dir": "artifacts/phase4/generation/phase4_new_Ca2ZnO3",
+      "run_id": "phase4_new_Ca2ZnO3",
+      "sampling_seed": 20262026,
+      "spacegroup": 2
+    },
+    {
+      "attempts": 8,
+      "candidate_ids": [
+        "phase4_new_Ca2SrO3_attempt_000",
+        "phase4_new_Ca2SrO3_attempt_001",
+        "phase4_new_Ca2SrO3_attempt_002",
+        "phase4_new_Ca2SrO3_attempt_003",
+        "phase4_new_Ca2SrO3_attempt_004",
+        "phase4_new_Ca2SrO3_attempt_005",
+        "phase4_new_Ca2SrO3_attempt_006",
+        "phase4_new_Ca2SrO3_attempt_007"
+      ],
+      "exact_counts": {
+        "Ca": 2,
+        "O": 3,
+        "Sr": 1
+      },
+      "formula": "Ca2SrO3",
+      "kind": "new_composition",
+      "output_dir": "artifacts/phase4/generation/phase4_new_Ca2SrO3",
+      "run_id": "phase4_new_Ca2SrO3",
+      "sampling_seed": 20262027,
+      "spacegroup": 2
+    }
+  ],
+  "orchestrator_source_sha256": "f278888d0128f10c6eec38659f74832e42de4fab1f6e88503c998c1ac6785ce4",
+  "phase": 4,
+  "primary_attempts_per_cohort": 8,
+  "primary_denominators": {
+    "controls": 32,
+    "new_compositions": 48,
+    "total": 80
+  },
+  "resource_policy": {
+    "batch_size": 4,
+    "cohort_watchdog_seconds": 600,
+    "cohorts_concurrent": 1,
+    "generator_logical_cpu_affinity_mask": "0xF"
+  },
+  "reused_cohorts": [
+    {
+      "arm": "nontrivial",
+      "attempts": 8,
+      "control": "mgo_rocksalt",
+      "exact_counts": {
+        "Mg": 4,
+        "O": 4
+      },
+      "files": [
+        {
+          "path": "artifacts/phase1/generator/config.json",
+          "sha256": "b71c5adf3df4833b63b7c18e419bf1a3f4e6fbd5f1958914028910d13eb2a8c1"
+        },
+        {
+          "path": "artifacts/phase1/generator/summary.json",
+          "sha256": "84bdd6d2c9cf6a05c5eb94da3c07f4ac179e195fd9b16cffa1a262e88378361f"
+        },
+        {
+          "path": "artifacts/phase1/generator/ledger.jsonl",
+          "sha256": "85ce3718419872c73d1057abcd0fd4b13933a2b68757ff045e7a3eba881c3c0a"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_batch_00.npz",
+          "sha256": "d3b09bd9d169aa019e4fa714e6c5f6766aff6bea2ee11e52b9bd98d162ffee20"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_batch_01.npz",
+          "sha256": "05baa9cbe4583944da1b701c0dc10737720782d9060546dada4f416711d0fe59"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_000.json",
+          "sha256": "8cc6b36237293cb47f11d719e0dc793ef056a1764635ef30a8cddbda51b20503"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_001.json",
+          "sha256": "ae39c16e260868ea15821c21697896cb1d37a10341959c59fe67ed3a1fd30b60"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_002.json",
+          "sha256": "239f1b25bcd918816b3ddfa90c91d9165063b85b3315402b4d760e2dabe003e8"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_003.json",
+          "sha256": "8cc9fd0ee7a361ae641350f5bd1ac1934d7091d478aaac75de030476216531cb"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_004.json",
+          "sha256": "876b8cdcc1e3e3df91331b29d7fe8eec3cae33bf512ea3d48c81f3ee1d59dbfc"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_005.json",
+          "sha256": "7d364fda8d2b0a29f27b089f9a14f2ab15d6ffd6869cd454cbe5365f20f993fa"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_006.json",
+          "sha256": "8f6330f91d9b662efae2c18ff1ae635d81c91b72a9ee9f0aaad5777b5012e66f"
+        },
+        {
+          "path": "artifacts/phase1/generator/raw_attempt_007.json",
+          "sha256": "93e97dc3c0c4b92abc6e2838b6b5f9d309fd42997bf9b78dd1bd6c50f6afee4a"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_000.json",
+          "sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_001.json",
+          "sha256": "bce6174f23219b06abee783e6821ed8d6a0353740ae710adbbafd0299e41f0ed"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_002.json",
+          "sha256": "a7a8d53ff67d0f54981de3cc5a867a559589e118d4f1cf7f8cf5f745fb8f8127"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_003.json",
+          "sha256": "4a25394e1c9f39ea3aa8ef15b6ef0b2bb7a7fcab6b04a0a04e2f114d0c0dce02"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_004.json",
+          "sha256": "38d96b7d557dbcda4a7a26f3ab7c0bb58adcedaf60d11f14eb42b721bac9295a"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_005.json",
+          "sha256": "d040e0cbe93452af7b755ef8156b609541268441b87481ec2cd63dc76d9b5985"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_006.json",
+          "sha256": "842f0c6b6c2f1f4725a28c3d2378c01ffb10991579e2b8a55f9b5050cdedf40e"
+        },
+        {
+          "path": "artifacts/phase1/generator/structure_007.json",
+          "sha256": "fd008ffec53ca2dcda211c382db743ce09234f3df924bde25ae168817b01d6ec"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_000.cif",
+          "sha256": "4e07336b5f97f5bad88b47a121781facae1f511e7a6dbf814061124521767a72"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_001.cif",
+          "sha256": "2e317e52886ac551fc1ac3df15faaf85eb80d1264f1585241af0f8d90237f814"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_002.cif",
+          "sha256": "145e20dfdade2d82882812b19a7613b444bf91c4a0fd8ab28d936912521d8473"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_003.cif",
+          "sha256": "1a7cc4cf79d5f8dfb9992b99f76416de4a527df7b368bc679463310963abe1a5"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_004.cif",
+          "sha256": "07a7e74bccdf600e16432768dba16cf5e5a10cb189e6ea97be08810e57022924"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_005.cif",
+          "sha256": "ba8e8592604c582e962ad3a2c8e6f8913c351e275fe9c7952b4f8042a0cff872"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_006.cif",
+          "sha256": "33f0409fc61a79776d74dad31d687e040c9fc6530fb3bd0c6dec81d8a518e721"
+        },
+        {
+          "path": "artifacts/phase1/generator/cifs/attempt_007.cif",
+          "sha256": "3a8ccf0398e777f504b8aac656bd4ad3956e2c80c5a609429dd39f5af65691e0"
+        }
+      ],
+      "formula": "Mg4O4",
+      "kind": "control",
+      "output_dir": "artifacts/phase1/generator",
+      "run_id": "phase1_mgo_nontrivial",
+      "sampling_seed": 20261022,
+      "spacegroup": 225
+    },
+    {
+      "attempts": 8,
+      "exact_counts": {
+        "Ca": 1,
+        "Mg": 2,
+        "O": 3
+      },
+      "files": [
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/config.json",
+          "sha256": "6cb56fb1954ded962cc3a3d20c7e435abcb6f36c3b1cffc0819ef4a4a1af4c34"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/summary.json",
+          "sha256": "05dca415e70331a8d6aa4990921e4f954870408294716ad5c2defe5d6c054085"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/ledger.jsonl",
+          "sha256": "1564f070ce67ada6cc25099680d8d1d24422716deb77adbc51419b8c538c6c67"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_batch_00.npz",
+          "sha256": "34d9585330cc6eef199b064c7327843e0d1cdb61bba72a23496ba94240d89d33"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_batch_01.npz",
+          "sha256": "8d2dfb68de96adbfc50ceff85ad30f6f05fc80e39ea0fba6ae7398c070a7e329"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_000.json",
+          "sha256": "15185c090db0d87fa066988ae70a411563f75c8ba92598ccbeed5be31ea0a503"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_001.json",
+          "sha256": "d11116aa29a27e84f04f5a0a52eca7c8c143776f64d99892de345bcf17b60f4e"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_002.json",
+          "sha256": "56a4e33fd2665ecd48118762e7d7a270453c9a2df4b8707b5569c77a18e9a5fa"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_003.json",
+          "sha256": "ce0de671de76241bea8720f2f78bbff97dfafceae42f71dc56e4171356605259"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_004.json",
+          "sha256": "d5b37cd857a2a259ed238a7f9775ef9753b52d452db49c3852c03cd593a997a0"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_005.json",
+          "sha256": "4f162110546881d3aea41c54b1a12599d8624fe2c005670dda6e3df8b6f85ae0"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_006.json",
+          "sha256": "5438aa325498cdbc0f4f6819de83ed66c53b6357c4dc8491fdf41a49e26dc082"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_007.json",
+          "sha256": "9d30ab877d040c198e34ce6fdfc621154260b4753c8f1246f2b36c364bbcdba3"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_000.json",
+          "sha256": "b69a3a69b3c0cafd4fc49bea99c33ecbab88dbb4e7107fddbd6fb4110ec0d58d"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_001.json",
+          "sha256": "93b9d0a35e8d33c9f7aca32b23952b2217db6372d9c30a424b279e3eefab6f10"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_002.json",
+          "sha256": "97fb6ab8385b2af93e8ef2551b3e1b304edc62b3280c20c5cb7f0525b44e6e61"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_003.json",
+          "sha256": "ea04cdb4e3aa469281b41b6de6d6348ac25b6e0bab85309e737fe2d065d9c302"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_004.json",
+          "sha256": "35eaf8d141493dc2d9f32247aad078901ac287455dadd47d8c14e46afa704c9e"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_005.json",
+          "sha256": "edd9b0d54ae583a50d1777e86287e48e97938f8ae6a75b1bba9b5e6693bc6b04"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_006.json",
+          "sha256": "84a7d269d492260c0022e2e5e5426d2378c9aa59b85a2fdcab7584a87a8a15f0"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/structure_007.json",
+          "sha256": "95e590f08dca3d12a24d5785d226c301e4fa8a341970607ee4deb72d651c71bf"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_000.cif",
+          "sha256": "fa3c89b90177382d1dbf40e907c2f1707ea61a3da975224e377f88a7f736ca1a"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_001.cif",
+          "sha256": "7a7347bff2fb74243dfddf81a2af1fe0a08f5e050aef637a7174cc3e3b6d531d"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_002.cif",
+          "sha256": "d8dc6c5866ee4c18311d112d7a717318dd4a59159a286ec2f364e25330eff603"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_003.cif",
+          "sha256": "c79fec21ef1b0591e6174ec7f29f6ae141925df0ad278a100d4cce75dededbf4"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_004.cif",
+          "sha256": "f3b464b404b81516da8e05051c5a298bdd32f5a36d8380c3c99a9977459062ef"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_005.cif",
+          "sha256": "fb0fdba559286405d22835b3b2064f7bb5d30a5928b56661c829badf06838126"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_006.cif",
+          "sha256": "30decc214f3e6100b33ccf064d753ad1e7b2e06be3aec15f174ddcbbb3ff48ff"
+        },
+        {
+          "path": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_007.cif",
+          "sha256": "a1d9bc0403c237500d2a2a00be3e3e94e881a76a4978474824d87a6e29c677b2"
+        }
+      ],
+      "formula": "CaMg2O3",
+      "kind": "new_composition",
+      "output_dir": "artifacts/phase3/generation/early_CaMg2O3",
+      "run_id": "phase3_early_CaMg2O3",
+      "sampling_seed": 20262024,
+      "spacegroup": 2
+    }
+  ],
+  "sampler_source": {
+    "path": "scripts/phase3_generate.py",
+    "sha256": "93cb9bafc5a1d79a5a1a9a682a8847fb981eeac5307ac7c0d99d74a64c39bf3a",
+    "snapshot": "artifacts/phase4/generation/executed_primary_sampler.py"
+  },
+  "source_protocols": [
+    {
+      "path": "artifacts/phase2/controls/matched_protocol.json",
+      "sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67"
+    },
+    {
+      "path": "artifacts/phase2/compositions/generation_protocol.json",
+      "sha256": "39b7fa1771bdf5f2214659de6d37bb69677d9e9c4df06a72c3788b1ef9d5b75f"
+    }
+  ],
+  "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+  "status": "frozen_before_new_model_draws",
+  "supplementary_sampling": "Not authorized by this primary run plan",
+  "temperature": 1.0,
+  "timing_policy": "Each independent cohort's first batch includes group-specific compilation; second same-shape batch is warm. MgO SG225 timings are reused from Phase 1, so conditions and start times differ.",
+  "top_p": 1.0
+}

@@ -1,0 +1,266 @@
+{
+  "attempts": 8,
+  "batch_timings": [
+    {
+      "batch_index": 0,
+      "kind": "saved_batch_validated_without_resampling",
+      "original_sampling_call_upper_bound_seconds": 27.211758,
+      "recovery_read_seconds": 0.002371599999605678,
+      "sampling_success": true,
+      "seconds": null,
+      "timing_limit": "Exact timer was lost at the logging exception; upper bound includes persistence and error handling."
+    },
+    {
+      "batch_index": 1,
+      "kind": "first_call_of_continuation_process_including_JIT_or_cache_lookup",
+      "sampling_success": true,
+      "seconds": 15.64249589999963
+    }
+  ],
+  "budget_accounting": {
+    "actual_model_draws": 8,
+    "charged_reservation_attempts": 12,
+    "continuation_reservation_id": "phase3_early_CaMg2O3_continuation_batch01",
+    "original_reservation_id": "phase3_early_CaMg2O3",
+    "reason": "Original eight-attempt reservation ended after saving batch00 and a logging failure; it remains fully charged. Authorized continuation reserved four additional slots and emitted only original batch01, retaining the original seed, IDs and all first-batch mismatches.",
+    "unemitted_engineering_slots_charged": 4
+  },
+  "conditioning_formula": "CaMg2O3",
+  "formula": "CaMg2O3",
+  "requested_spacegroup": 2,
+  "results": [
+    {
+      "attempt_id": 0,
+      "batch_index": 0,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_000",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_000.cif",
+      "cif_sha256": "fa3c89b90177382d1dbf40e907c2f1707ea61a3da975224e377f88a7f736ca1a",
+      "counts": {
+        "Ca": 2,
+        "Mg": 6,
+        "O": 10
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.1277456097341227,
+      "minimum_periodic_distance_angstrom": 1.1277456097341227,
+      "minimum_self_image_distance_angstrom": 5.9750590324401855,
+      "n_atoms": 18,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_000.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_000.json",
+      "valid": false,
+      "volume_angstrom3": 220.09570658621925
+    },
+    {
+      "attempt_id": 1,
+      "batch_index": 0,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_001",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_001.cif",
+      "cif_sha256": "7a7347bff2fb74243dfddf81a2af1fe0a08f5e050aef637a7174cc3e3b6d531d",
+      "counts": {
+        "Ca": 4,
+        "Mg": 8,
+        "O": 14
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.007445892871856,
+      "minimum_periodic_distance_angstrom": 1.007445892871856,
+      "minimum_self_image_distance_angstrom": 5.166325569152832,
+      "n_atoms": 26,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_001.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_001.json",
+      "valid": false,
+      "volume_angstrom3": 312.5733902837429
+    },
+    {
+      "attempt_id": 2,
+      "batch_index": 0,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_002",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_002.cif",
+      "cif_sha256": "d8dc6c5866ee4c18311d112d7a717318dd4a59159a286ec2f364e25330eff603",
+      "counts": {
+        "Mg": 4,
+        "O": 8
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 0.9287806434068163,
+      "minimum_periodic_distance_angstrom": 0.9287806434068163,
+      "minimum_self_image_distance_angstrom": 3.8206746578216553,
+      "n_atoms": 12,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_002.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_002.json",
+      "valid": false,
+      "volume_angstrom3": 127.96910337225343
+    },
+    {
+      "attempt_id": 3,
+      "batch_index": 0,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_003",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_003.cif",
+      "cif_sha256": "c79fec21ef1b0591e6174ec7f29f6ae141925df0ad278a100d4cce75dededbf4",
+      "counts": {
+        "Ca": 2,
+        "Mg": 1,
+        "O": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.7806610903287232,
+      "minimum_periodic_distance_angstrom": 1.7806610903287232,
+      "minimum_self_image_distance_angstrom": 3.0701937675476074,
+      "n_atoms": 5,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_003.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_003.json",
+      "valid": false,
+      "volume_angstrom3": 68.29888223014508
+    },
+    {
+      "attempt_id": 4,
+      "batch_index": 1,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_004",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_004.cif",
+      "cif_sha256": "f3b464b404b81516da8e05051c5a298bdd32f5a36d8380c3c99a9977459062ef",
+      "counts": {
+        "Ca": 2,
+        "Mg": 3,
+        "O": 6
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.4361257332134465,
+      "minimum_periodic_distance_angstrom": 1.4361257332134465,
+      "minimum_self_image_distance_angstrom": 5.168341159820557,
+      "n_atoms": 11,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_004.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_004.json",
+      "valid": false,
+      "volume_angstrom3": 167.58808163556176
+    },
+    {
+      "attempt_id": 5,
+      "batch_index": 1,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_005",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_005.cif",
+      "cif_sha256": "fb0fdba559286405d22835b3b2064f7bb5d30a5928b56661c829badf06838126",
+      "counts": {
+        "Ca": 2,
+        "Mg": 4,
+        "O": 6
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.089694113736855,
+      "minimum_periodic_distance_angstrom": 1.089694113736855,
+      "minimum_self_image_distance_angstrom": 5.643143653869629,
+      "n_atoms": 12,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_005.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_005.json",
+      "valid": false,
+      "volume_angstrom3": 160.16271442138196
+    },
+    {
+      "attempt_id": 6,
+      "batch_index": 1,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_006",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_006.cif",
+      "cif_sha256": "30decc214f3e6100b33ccf064d753ad1e7b2e06be3aec15f174ddcbbb3ff48ff",
+      "counts": {
+        "Ca": 2,
+        "Mg": 4,
+        "O": 6
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.7571029937426965,
+      "minimum_periodic_distance_angstrom": 1.7571029937426965,
+      "minimum_self_image_distance_angstrom": 3.2945020198822017,
+      "n_atoms": 12,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_006.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_006.json",
+      "valid": false,
+      "volume_angstrom3": 153.4067430014435
+    },
+    {
+      "attempt_id": 7,
+      "batch_index": 1,
+      "candidate_id": "phase3_early_CaMg2O3_attempt_007",
+      "cif": "artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_007.cif",
+      "cif_sha256": "a1d9bc0403c237500d2a2a00be3e3e94e881a76a4978474824d87a6e29c677b2",
+      "counts": {
+        "Ca": 6,
+        "Mg": 12,
+        "O": 18
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 0.5736741361730362,
+      "minimum_periodic_distance_angstrom": 0.5736741361730362,
+      "minimum_self_image_distance_angstrom": 6.326439380645752,
+      "n_atoms": 36,
+      "raw_json": "artifacts/phase3/generation/early_CaMg2O3/raw_attempt_007.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch",
+        "minimum_periodic_distance_below_threshold"
+      ],
+      "structure_json": "artifacts/phase3/generation/early_CaMg2O3/structure_007.json",
+      "valid": false,
+      "volume_angstrom3": 331.23226584285584
+    }
+  ],
+  "run_id": "phase3_early_CaMg2O3",
+  "source_protocol_sha256": "39b7fa1771bdf5f2214659de6d37bb69677d9e9c4df06a72c3788b1ef9d5b75f",
+  "source_version_audit": {
+    "continuation_executed_script": "executed_script_continuation.py",
+    "continuation_script_sha256": "93cb9bafc5a1d79a5a1a9a682a8847fb981eeac5307ac7c0d99d74a64c39bf3a",
+    "continued_key_batch_index": 1,
+    "original_executed_script": "executed_script_before_logging_fix.py",
+    "original_script_sha256": "2885d3f5da150e9dfdbccdf72a459d9865e65091476988041208e6d7cdb13da0",
+    "raw_first_batch_resampled": false,
+    "same_shape_warm_timing_available": false
+  },
+  "status": "completed",
+  "timing_interpretation": "First call includes SG-specific JIT compilation and sampling; later same-shape call is warm. Comparison with Phase 1 SG225 changes group and composition, and is not an isolated formula-change experiment.",
+  "valid_count": 0,
+  "valid_unique_count": 0,
+  "valid_unique_representatives": [],
+  "worker_wall_seconds": 26.902352700002666
+}

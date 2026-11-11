@@ -1,0 +1,52 @@
+[
+  {
+    "path": "/htdocs",
+    "rows": [
+      {
+        "name": "..",
+        "text": "..\n-\n-",
+        "type": "dir"
+      },
+      {
+        "name": "assets",
+        "text": "assets\n-\n-\nOct 22 09:44",
+        "type": "dir"
+      },
+      {
+        "name": "release-manifests",
+        "text": "release-manifests\n-\n-\nOct 22 09:44",
+        "type": "dir"
+      },
+      {
+        "name": "research",
+        "text": "research\n-\n-\nOct 22 09:44",
+        "type": "dir"
+      },
+      {
+        "name": "ui",
+        "text": "ui\n-\n-\nOct 22 09:44",
+        "type": "dir"
+      },
+      {
+        "name": ".htaccess",
+        "text": ".htaccess\n-\n156 B\nOct 22 10:11",
+        "type": "file"
+      },
+      {
+        "name": "files for your website should be uploaded here!",
+        "text": "files for your website should be uploaded here!\n-\n0 B\nOct 22 00:01",
+        "type": "file"
+      },
+      {
+        "name": "index.html",
+        "text": "index.html\nhtml\n1.12 KB\nOct 22 10:06",
+        "type": "file"
+      },
+      {
+        "name": "index2.html",
+        "text": "index2.html\nhtml\n9.92 KB\nOct 22 00:01",
+        "type": "file"
+      }
+    ]
+  }
+]

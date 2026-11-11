@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-22T01:59:52.845919+00:00",
+  "material_ids_sha256": "8187ba3382770144fadeb353f258eeb363bacdbda7986ff47c38b20adc611673",
+  "model_training_ids_sha256": "bed33bfea0f1d11b0dc696283db36b4df53efac69dc6cef1e8fb8c4a4ccb6d61",
+  "oracle_labels_in_file": false,
+  "path": "artifacts\\phase4\\replay\\seed_20261026\\quality_diversity\\round_02\\pool_predictions_before_reveal.npz",
+  "rows": 1990,
+  "sha256": "125efbc91644628f587a2ac5a00f35b4a1b48df0a59783be1ce7a591ee19541c",
+  "stage": "quality_diversity_round_2_before_reveal"
+}

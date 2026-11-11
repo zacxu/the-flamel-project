@@ -1,0 +1,26 @@
+&CONTROL
+ calculation='scf', prefix='p4_cao_final_cut75', pseudo_dir='./pseudo', outdir='./scratch',
+ tprnfor=.true., tstress=.true., verbosity='high',
+ max_seconds=180, nstep=80, etot_conv_thr=1.0d-5, forc_conv_thr=8.0d-4,
+/
+&SYSTEM
+ ibrav=0, nat=2, ntyp=2,
+ ecutwfc=75.00000000, ecutrho=600.00000000, input_dft='PBE',
+ nosym=.true., noinv=.true.,
+ nspin=1, occupations='fixed',
+/
+&ELECTRONS
+ conv_thr=1.0d-8, electron_maxstep=100, scf_must_converge=.true., mixing_beta=0.4,
+/
+ATOMIC_SPECIES
+Ca 40.07800000 Ca_pbe_v1.uspp.F.UPF
+O 15.99940000 O.pbe-n-kjpaw_psl.0.1.UPF
+CELL_PARAMETERS angstrom
+-2.415258862015 -2.415258511048 0.000000044065
+-2.415259044970 0.000000227020 -2.415258971594
+0.000000260470 -2.415258727453 -2.415259005045
+ATOMIC_POSITIONS crystal
+Ca 0.000002697032 0.000000130175 -0.000002341419
+O 0.499997302968 0.499999869825 0.500002341419
+K_POINTS automatic
+7 7 7 0 0 0

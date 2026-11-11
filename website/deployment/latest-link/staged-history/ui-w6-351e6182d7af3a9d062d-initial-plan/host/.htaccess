@@ -1,0 +1,38 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.bin -f
+RewriteRule ^(.+\.(png|webp))$ $1.bin [L]
+<FilesMatch "\.png\.bin$">
+    ForceType image/png
+</FilesMatch>
+<FilesMatch "\.webp\.bin$">
+    ForceType image/webp
+</FilesMatch>
+
+RewriteRule ^refresh/$ /refresh [R=302,L]
+RewriteRule ^refresh$ index.html [L]
+
+# Keep the mutable application entry fresh while preserving versioned assets.
+<Files "index.html">
+    <IfModule mod_headers.c>
+        Header onsuccess unset Cache-Control
+        Header always set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header always set Pragma "no-cache"
+        Header always set Expires "Thu, 01 Jan 1970 00:00:00 GMT"
+    </IfModule>
+    <IfModule mod_expires.c>
+        ExpiresActive Off
+    </IfModule>
+</Files>
+
+# Keep the legacy recovery helper fresh too.
+<Files "refresh.html">
+    <IfModule mod_headers.c>
+        Header onsuccess unset Cache-Control
+        Header always set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header always set Pragma "no-cache"
+        Header always set Expires "Thu, 01 Jan 1970 00:00:00 GMT"
+    </IfModule>
+    <IfModule mod_expires.c>
+        ExpiresActive Off
+    </IfModule>
+</Files>

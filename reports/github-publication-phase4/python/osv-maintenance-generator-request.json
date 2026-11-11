@@ -1,0 +1,543 @@
+{
+  "queries": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "ase"
+      },
+      "version": "3.26.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "bibtexparser"
+      },
+      "version": "2.1.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "certifi"
+      },
+      "version": "2026.10.19"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "charset-normalizer"
+      },
+      "version": "3.5.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "chgnet"
+      },
+      "version": "0.4.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "cloudpickle"
+      },
+      "version": "3.1.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "colorama"
+      },
+      "version": "0.4.6"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "contourpy"
+      },
+      "version": "1.3.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "cycler"
+      },
+      "version": "0.12.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "cython"
+      },
+      "version": "3.3.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "filelock"
+      },
+      "version": "4.2.10"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "fonttools"
+      },
+      "version": "4.67.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "fsspec"
+      },
+      "version": "2026.7.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "idna"
+      },
+      "version": "3.20"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "jinja2"
+      },
+      "version": "3.1.6"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "joblib"
+      },
+      "version": "1.6.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "kiwisolver"
+      },
+      "version": "1.5.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "markupsafe"
+      },
+      "version": "3.0.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "matplotlib"
+      },
+      "version": "3.10.9"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "monty"
+      },
+      "version": "2026.10.21"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "mpmath"
+      },
+      "version": "1.3.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "narwhals"
+      },
+      "version": "2.27.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "networkx"
+      },
+      "version": "3.6.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "numpy"
+      },
+      "version": "2.2.6"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "nvidia-ml-py3"
+      },
+      "version": "7.352.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "orjson"
+      },
+      "version": "3.13.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "packaging"
+      },
+      "version": "26.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "palettable"
+      },
+      "version": "3.3.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pandas"
+      },
+      "version": "2.3.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pillow"
+      },
+      "version": "13.0.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "plotly"
+      },
+      "version": "7.1.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pylatexenc"
+      },
+      "version": "2.11"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pymatgen"
+      },
+      "version": "2025.10.7"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyparsing"
+      },
+      "version": "3.3.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "python-dateutil"
+      },
+      "version": "2.9.0.post0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pytz"
+      },
+      "version": "2026.5"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "requests"
+      },
+      "version": "2.34.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "ruamel-yaml"
+      },
+      "version": "0.19.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "scikit-learn"
+      },
+      "version": "1.7.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "scipy"
+      },
+      "version": "1.17.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "setuptools"
+      },
+      "version": "84.2.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "six"
+      },
+      "version": "1.17.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "spglib"
+      },
+      "version": "2.8.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "sympy"
+      },
+      "version": "1.14.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "tabulate"
+      },
+      "version": "0.10.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "threadpoolctl"
+      },
+      "version": "3.7.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "torch"
+      },
+      "version": "2.15.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "tqdm"
+      },
+      "version": "4.70.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "typing-extensions"
+      },
+      "version": "4.16.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "tzdata"
+      },
+      "version": "2026.5"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "uncertainties"
+      },
+      "version": "3.2.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "urllib3"
+      },
+      "version": "2.8.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "absl-py"
+      },
+      "version": "2.5.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "ase"
+      },
+      "version": "3.29.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "bibtexparser"
+      },
+      "version": "1.4.4"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "chex"
+      },
+      "version": "0.1.92"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "dm-haiku"
+      },
+      "version": "0.0.15"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "importlib-metadata"
+      },
+      "version": "9.0.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "jax"
+      },
+      "version": "0.7.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "jaxlib"
+      },
+      "version": "0.7.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "jmp"
+      },
+      "version": "0.0.4"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "lxml"
+      },
+      "version": "6.1.3"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "matplotlib"
+      },
+      "version": "3.11.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "ml-dtypes"
+      },
+      "version": "0.6.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "numpy"
+      },
+      "version": "2.4.6"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "optax"
+      },
+      "version": "0.2.6"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "opt-einsum"
+      },
+      "version": "3.4.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "psutil"
+      },
+      "version": "7.2.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pymatgen"
+      },
+      "version": "2026.9.24"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pymatgen-core"
+      },
+      "version": "2026.10.16"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyocse"
+      },
+      "version": "0.1.6"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyxtal"
+      },
+      "version": "1.1.1"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "toml"
+      },
+      "version": "0.10.2"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "toolz"
+      },
+      "version": "1.2.0"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "vasprun-xml"
+      },
+      "version": "1.0.4"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "xmltodict"
+      },
+      "version": "1.0.4"
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "zipp"
+      },
+      "version": "4.1.1"
+    }
+  ]
+}

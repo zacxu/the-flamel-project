@@ -1,0 +1,2192 @@
+{
+  "phase": "W4",
+  "status": "passed",
+  "generatedAt": "2026-10-22T11:41:32.461790+00:00",
+  "scope": "Actual browser-downloaded CIF bytes independently parsed and compared directly to original saved source geometry; no generated test fixture or rendering/export helper imported.",
+  "newExperiments": 0,
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "manifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "counts": {
+    "files": 6,
+    "distinctSavedStages": 6,
+    "checks": 524
+  },
+  "coverage": [
+    "accepted_generated_MgO_8_atoms",
+    "excluded_transformer_CaMg2O3_12_atoms",
+    "independent_source_CaO_2_atoms",
+    "independent_source_MgO_2_atoms",
+    "nonorthogonal_TiO2_P1",
+    "separate_CaMg2O3_prototype_6_atoms"
+  ],
+  "downloads": [
+    {
+      "file": "reports/structure-downloads/flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "sha256": "8d4e24fffe3098de1bf5a80cfd2c227a83233ed9f90a490d670a5f9cc43f284f",
+      "bytes": 2321,
+      "stageId": "phase1_mgo_attempt_000--accepted_dft",
+      "candidateId": "phase1_mgo_attempt_000",
+      "sourceId": "source-ddcd5a1444e3620c",
+      "sourceSha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf",
+      "physicalAtoms": 8,
+      "excluded": false
+    },
+    {
+      "file": "reports/structure-downloads/flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "sha256": "9416c01be31b60a24bf4b8c3aa52991b5d3293285128c29ba0eecca3fbedb096",
+      "bytes": 2545,
+      "stageId": "phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "candidateId": "phase3_early_CaMg2O3_attempt_005",
+      "sourceId": "source-6a55482befad4161",
+      "sourceSha256": "edd9b0d54ae583a50d1777e86287e48e97938f8ae6a75b1bba9b5e6693bc6b04",
+      "physicalAtoms": 12,
+      "excluded": true
+    },
+    {
+      "file": "reports/structure-downloads/flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "sha256": "4705ce9e955af2b82809de9e5f948fc051d97bd4a6c2c7c186f1265e29e68e73",
+      "bytes": 2162,
+      "stageId": "phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "candidateId": "phase4_tio2_rutile_p1_attempt_000",
+      "sourceId": "source-efee955768c3bdb3",
+      "sourceSha256": "aec9f8f155b3561901c6127e4bb307a29280ff25cceea060617c7083face6b8e",
+      "physicalAtoms": 6,
+      "excluded": false
+    },
+    {
+      "file": "reports/structure-downloads/flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "sha256": "3e74fcf935c5e2da15b53d2b79d8526f5790e350e036887f97ead8a90417eae4",
+      "bytes": 2149,
+      "stageId": "prototype_CaMg2O3--model_relaxed",
+      "candidateId": "prototype_CaMg2O3",
+      "sourceId": "source-514c54d52b35abbf",
+      "sourceSha256": "239c24ee68eb9b805688f880eff9c5cc1344b29c95fa41a2aff8b06230d9db8b",
+      "physicalAtoms": 6,
+      "excluded": false
+    },
+    {
+      "file": "reports/structure-downloads/flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "sha256": "c9cfe6560bfd9473d53d82d18d06cd34abfa77197ce825503c1905024e6bdcfe",
+      "bytes": 1926,
+      "stageId": "qe_source_reference_cao_mp2605--accepted_dft",
+      "candidateId": "qe_source_reference_cao_mp2605",
+      "sourceId": "accepted_source_CaO_geometry",
+      "sourceSha256": "1afc45b671163eb62add37737412915e5bdc31a3b05822b5d02c81e768118e98",
+      "physicalAtoms": 2,
+      "excluded": false
+    },
+    {
+      "file": "reports/structure-downloads/flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "sha256": "bc896eccdb0e08f8009b91943d703b90313febc5c9e9d57e6957ade8ad1b0fb5",
+      "bytes": 1901,
+      "stageId": "qe_source_reference_mgo_mp1265--accepted_dft",
+      "candidateId": "qe_source_reference_mgo_mp1265",
+      "sourceId": "accepted_source_MgO_geometry",
+      "sourceSha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6",
+      "physicalAtoms": 2,
+      "excluded": false
+    }
+  ],
+  "checks": [
+    {
+      "check": "Browser UI uses the same hash-pinned saved data manifest",
+      "passed": true
+    },
+    {
+      "check": "Download validation binds the current UI release to the frozen W4 baseline",
+      "passed": true
+    },
+    {
+      "check": "Pinned saved registry payload hash: structures/index.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase1/generator/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase2/features/row_metadata.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/chgnet/phase1_mgo_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/chgnet/phase1_mgo_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/generation/early_CaMg2O3/structure_005.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_candidate_mgo_fallback_90/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_candidate_mgo_fallback_90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_fallback_final_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_fallback_final_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_mgo_cut60/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_mgo_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_mgo_cut90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_mgo_final_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_mgo_final_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_mgo_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_mgo_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_ref_cao_base/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_ref_cao_base/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/p3_ref_mgo_base/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase3/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/figures/primary_generation.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/qe/p4_cao_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/qe/p4_cao_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/qe/p4_ref_cao_90_k035/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/qe/p4_ref_cao_90_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase4/replay/query_journal_all_seeds.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_BaSnO2.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_CaMg2O3.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_Mg2SrO3.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_SnSrO2.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/initial_structures/reference_anatase.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/initial_structures/reference_rocksalt.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/initial_structures/reference_rutile.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/plan.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_BaSnO2/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_BaSnO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_CaMg2O3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_Mg2SrO3/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_Mg2SrO3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_SnSrO2/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/prototype_SnSrO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/reference_anatase/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/reference_anatase/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/reference_rocksalt/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/reference_rocksalt/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/reference_rutile/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/reference_rutile/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/chgnet/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/figures/within_composition_energies.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/qe/p5_mgo_perturb_90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase5/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/evidence/budget_reconciliation.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/evidence/claim_matrix.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/evidence/fresh_DFT_evidence_table.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/evidence/missing_reference_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/evidence/reference_inventory_completeness.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/evidence/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/figures/research_overview.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/numerical_freeze.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/composition_novelty.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/excluded_larger_cell_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/figure_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/generation_cohorts.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/generation_draws.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/prototype_baselines.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/relaxed_structures.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/representative_structures.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/structures/symmetry_energy_pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/evaluation_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/full_policy_role_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/policy_endpoints.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/risk_coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/uncertainty_deciles.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: artifacts/phase6/uncertainty/uncertainty_reliability.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input before actual download verification: reports/phase6_report.md",
+      "passed": true
+    },
+    {
+      "check": "At least six actual browser CIF downloads are retained for distinct scientific examples",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF contains no absolute local paths: flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "One explicit saved structure per browser CIF: flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF identifies an actual recorded saved stage: flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Pinned saved registry payload hash: structures/phase1_mgo_attempt_000--accepted_dft.json",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF comparison uses original hash-bound geometry: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser filename retains the selected stage identity: flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_study_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_data_release_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_candidate_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_stage_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_stage_kind",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_method",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_source_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_source_sha256",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_exact_cell_eligible",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_queue_selected",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_physical_sites",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_global_novelty_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_new_stable_material_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_pbc_a",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_pbc_b",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase1_mgo_attempt_000--accepted_dft: _flamel_pbc_c",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase1_mgo_attempt_000--accepted_dft/_flamel_recorded_spacegroup_number",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase1_mgo_attempt_000--accepted_dft/_flamel_recorded_symprec_angstrom",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase1_mgo_attempt_000--accepted_dft/_flamel_recorded_angle_tolerance_degrees",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF P1 explicit-site representation does not invent symmetry expansion: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF preserves full-precision raw unwrapped fractional coordinates in source order: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF custom metadata preserves exact full-precision source basis rows: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved species order: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved occupancies: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF site-index labels preserve identity: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF original basis and coordinates reproduce original Cartesian sites: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF physical atom count: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF composition: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard cell metric: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard lengths and angles: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF cell volume: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser retains browser CIF source site labels: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/5",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/5",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/6",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/6",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase1_mgo_attempt_000--accepted_dft/7",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase1_mgo_attempt_000--accepted_dft/7",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF all periodic pair distances: phase1_mgo_attempt_000--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF contains no absolute local paths: flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "check": "One explicit saved structure per browser CIF: flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF identifies an actual recorded saved stage: flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "check": "Pinned saved registry payload hash: structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.json",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF comparison uses original hash-bound geometry: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser filename retains the selected stage identity: flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_study_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_data_release_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_candidate_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_stage_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_stage_kind",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_method",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_source_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_source_sha256",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_exact_cell_eligible",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_queue_selected",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_physical_sites",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_global_novelty_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_new_stable_material_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_pbc_a",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_pbc_b",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase3_early_CaMg2O3_attempt_005--generated_excluded: _flamel_pbc_c",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase3_early_CaMg2O3_attempt_005--generated_excluded/_flamel_recorded_spacegroup_number",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase3_early_CaMg2O3_attempt_005--generated_excluded/_flamel_recorded_symprec_angstrom",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase3_early_CaMg2O3_attempt_005--generated_excluded/_flamel_recorded_angle_tolerance_degrees",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF P1 explicit-site representation does not invent symmetry expansion: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF preserves full-precision raw unwrapped fractional coordinates in source order: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF custom metadata preserves exact full-precision source basis rows: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved species order: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved occupancies: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF site-index labels preserve identity: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF original basis and coordinates reproduce original Cartesian sites: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF physical atom count: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF composition: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard cell metric: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard lengths and angles: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF cell volume: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Independent parser retains browser CIF source site labels: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/5",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/5",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/6",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/6",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/7",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/7",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/8",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/8",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/9",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/9",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/10",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/10",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase3_early_CaMg2O3_attempt_005--generated_excluded/11",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase3_early_CaMg2O3_attempt_005--generated_excluded/11",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF all periodic pair distances: phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF contains no absolute local paths: flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "One explicit saved structure per browser CIF: flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF identifies an actual recorded saved stage: flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Pinned saved registry payload hash: structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF comparison uses original hash-bound geometry: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser filename retains the selected stage identity: flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_study_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_data_release_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_candidate_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_stage_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_stage_kind",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_method",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_source_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_source_sha256",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_exact_cell_eligible",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_queue_selected",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_physical_sites",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_global_novelty_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_new_stable_material_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_pbc_a",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_pbc_b",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility phase4_tio2_rutile_p1_attempt_000--model_relaxed: _flamel_pbc_c",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase4_tio2_rutile_p1_attempt_000--model_relaxed/_flamel_recorded_spacegroup_number",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase4_tio2_rutile_p1_attempt_000--model_relaxed/_flamel_recorded_symprec_angstrom",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: phase4_tio2_rutile_p1_attempt_000--model_relaxed/_flamel_recorded_angle_tolerance_degrees",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF P1 explicit-site representation does not invent symmetry expansion: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF preserves full-precision raw unwrapped fractional coordinates in source order: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF custom metadata preserves exact full-precision source basis rows: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved species order: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved occupancies: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF site-index labels preserve identity: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF original basis and coordinates reproduce original Cartesian sites: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF physical atom count: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF composition: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard cell metric: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard lengths and angles: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF cell volume: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser retains browser CIF source site labels: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase4_tio2_rutile_p1_attempt_000--model_relaxed/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase4_tio2_rutile_p1_attempt_000--model_relaxed/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase4_tio2_rutile_p1_attempt_000--model_relaxed/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase4_tio2_rutile_p1_attempt_000--model_relaxed/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase4_tio2_rutile_p1_attempt_000--model_relaxed/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase4_tio2_rutile_p1_attempt_000--model_relaxed/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase4_tio2_rutile_p1_attempt_000--model_relaxed/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase4_tio2_rutile_p1_attempt_000--model_relaxed/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase4_tio2_rutile_p1_attempt_000--model_relaxed/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase4_tio2_rutile_p1_attempt_000--model_relaxed/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: phase4_tio2_rutile_p1_attempt_000--model_relaxed/5",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: phase4_tio2_rutile_p1_attempt_000--model_relaxed/5",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF all periodic pair distances: phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF contains no absolute local paths: flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "One explicit saved structure per browser CIF: flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF identifies an actual recorded saved stage: flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Pinned saved registry payload hash: structures/prototype_CaMg2O3--model_relaxed.json",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF comparison uses original hash-bound geometry: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser filename retains the selected stage identity: flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_study_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_data_release_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_candidate_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_stage_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_stage_kind",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_method",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_source_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_source_sha256",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_exact_cell_eligible",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_queue_selected",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_physical_sites",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_global_novelty_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_new_stable_material_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_pbc_a",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_pbc_b",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility prototype_CaMg2O3--model_relaxed: _flamel_pbc_c",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: prototype_CaMg2O3--model_relaxed/_flamel_recorded_spacegroup_number",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: prototype_CaMg2O3--model_relaxed/_flamel_recorded_symprec_angstrom",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: prototype_CaMg2O3--model_relaxed/_flamel_recorded_angle_tolerance_degrees",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF P1 explicit-site representation does not invent symmetry expansion: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF preserves full-precision raw unwrapped fractional coordinates in source order: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF custom metadata preserves exact full-precision source basis rows: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved species order: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved occupancies: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF site-index labels preserve identity: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF original basis and coordinates reproduce original Cartesian sites: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF physical atom count: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF composition: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard cell metric: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard lengths and angles: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF cell volume: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent parser retains browser CIF source site labels: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: prototype_CaMg2O3--model_relaxed/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: prototype_CaMg2O3--model_relaxed/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: prototype_CaMg2O3--model_relaxed/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: prototype_CaMg2O3--model_relaxed/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: prototype_CaMg2O3--model_relaxed/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: prototype_CaMg2O3--model_relaxed/2",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: prototype_CaMg2O3--model_relaxed/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: prototype_CaMg2O3--model_relaxed/3",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: prototype_CaMg2O3--model_relaxed/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: prototype_CaMg2O3--model_relaxed/4",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: prototype_CaMg2O3--model_relaxed/5",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: prototype_CaMg2O3--model_relaxed/5",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF all periodic pair distances: prototype_CaMg2O3--model_relaxed",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF contains no absolute local paths: flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "One explicit saved structure per browser CIF: flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF identifies an actual recorded saved stage: flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Pinned saved registry payload hash: structures/qe_source_reference_cao_mp2605--accepted_dft.json",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF comparison uses original hash-bound geometry: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser filename retains the selected stage identity: flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_study_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_data_release_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_candidate_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_stage_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_stage_kind",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_method",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_source_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_source_sha256",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_exact_cell_eligible",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_queue_selected",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_physical_sites",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_global_novelty_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_new_stable_material_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_pbc_a",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_pbc_b",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_cao_mp2605--accepted_dft: _flamel_pbc_c",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: qe_source_reference_cao_mp2605--accepted_dft/_flamel_recorded_spacegroup_number",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: qe_source_reference_cao_mp2605--accepted_dft/_flamel_recorded_symprec_angstrom",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: qe_source_reference_cao_mp2605--accepted_dft/_flamel_recorded_angle_tolerance_degrees",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF P1 explicit-site representation does not invent symmetry expansion: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF preserves full-precision raw unwrapped fractional coordinates in source order: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF custom metadata preserves exact full-precision source basis rows: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved species order: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved occupancies: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF site-index labels preserve identity: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF original basis and coordinates reproduce original Cartesian sites: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF physical atom count: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF composition: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard cell metric: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard lengths and angles: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF cell volume: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser retains browser CIF source site labels: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: qe_source_reference_cao_mp2605--accepted_dft/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: qe_source_reference_cao_mp2605--accepted_dft/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: qe_source_reference_cao_mp2605--accepted_dft/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: qe_source_reference_cao_mp2605--accepted_dft/1",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF all periodic pair distances: qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF contains no absolute local paths: flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "One explicit saved structure per browser CIF: flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF identifies an actual recorded saved stage: flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Pinned saved registry payload hash: structures/qe_source_reference_mgo_mp1265--accepted_dft.json",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF comparison uses original hash-bound geometry: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser filename retains the selected stage identity: flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_study_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_data_release_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_candidate_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_stage_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_stage_kind",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_method",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_source_id",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_source_sha256",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_excluded",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_exact_cell_eligible",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_queue_selected",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_physical_sites",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_global_novelty_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_new_stable_material_established",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_pbc_a",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_pbc_b",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF saved provenance/eligibility qe_source_reference_mgo_mp1265--accepted_dft: _flamel_pbc_c",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: qe_source_reference_mgo_mp1265--accepted_dft/_flamel_recorded_spacegroup_number",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: qe_source_reference_mgo_mp1265--accepted_dft/_flamel_recorded_symprec_angstrom",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF retains stage-specific SG/tolerance, including null: qe_source_reference_mgo_mp1265--accepted_dft/_flamel_recorded_angle_tolerance_degrees",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF P1 explicit-site representation does not invent symmetry expansion: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF preserves full-precision raw unwrapped fractional coordinates in source order: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF custom metadata preserves exact full-precision source basis rows: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved species order: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF exact saved occupancies: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF site-index labels preserve identity: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Browser CIF original basis and coordinates reproduce original Cartesian sites: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF physical atom count: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF composition: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard cell metric: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF standard lengths and angles: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF cell volume: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent parser retains browser CIF source site labels: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: qe_source_reference_mgo_mp1265--accepted_dft/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: qe_source_reference_mgo_mp1265--accepted_dft/0",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site species/occupancy: qe_source_reference_mgo_mp1265--accepted_dft/1",
+      "passed": true
+    },
+    {
+      "check": "Independent browser CIF site coordinate modulo integer wrapping: qe_source_reference_mgo_mp1265--accepted_dft/1",
+      "passed": true
+    },
+    {
+      "check": "Independent parser preserves browser CIF all periodic pair distances: qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true
+    },
+    {
+      "check": "Actual browser downloads cover all six requested distinct geometry/stage examples",
+      "passed": true
+    },
+    {
+      "check": "Actual browser downloads contain at least six distinct saved stages",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase1/generator/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase2/features/row_metadata.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/chgnet/phase1_mgo_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/chgnet/phase1_mgo_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/generation/early_CaMg2O3/structure_005.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_candidate_mgo_fallback_90/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_candidate_mgo_fallback_90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_fallback_final_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_fallback_final_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_mgo_cut60/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_mgo_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_mgo_cut90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_mgo_final_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_mgo_final_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_mgo_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_mgo_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_ref_cao_base/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_ref_cao_base/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/p3_ref_mgo_base/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase3/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/figures/primary_generation.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/qe/p4_cao_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/qe/p4_cao_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/qe/p4_ref_cao_90_k035/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/qe/p4_ref_cao_90_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase4/replay/query_journal_all_seeds.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_BaSnO2.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_CaMg2O3.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_Mg2SrO3.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/initial_structures/prototype_SnSrO2.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/initial_structures/reference_anatase.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/initial_structures/reference_rocksalt.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/initial_structures/reference_rutile.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/plan.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_BaSnO2/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_BaSnO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_CaMg2O3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_Mg2SrO3/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_Mg2SrO3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_SnSrO2/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/prototype_SnSrO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/reference_anatase/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/reference_anatase/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/reference_rocksalt/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/reference_rocksalt/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/reference_rutile/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/reference_rutile/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/chgnet/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/figures/within_composition_energies.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/qe/p5_mgo_perturb_90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase5/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/evidence/budget_reconciliation.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/evidence/claim_matrix.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/evidence/fresh_DFT_evidence_table.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/evidence/missing_reference_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/evidence/reference_inventory_completeness.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/evidence/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/figures/research_overview.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/numerical_freeze.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/composition_novelty.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/excluded_larger_cell_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/figure_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/generation_cohorts.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/generation_draws.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/prototype_baselines.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/relaxed_structures.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/representative_structures.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/structures/symmetry_energy_pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/evaluation_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/full_policy_role_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/policy_endpoints.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/risk_coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/uncertainty_deciles.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: artifacts/phase6/uncertainty/uncertainty_reliability.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen original input after actual download verification: reports/phase6_report.md",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Standard CIF cells preserve lattice metric, not arbitrary Cartesian orientation; exact source basis rows are independently preserved as custom metadata.",
+    "P1 is an explicit-site serialization; recorded stage symmetry remains separate metadata and no symmetry inference is performed."
+  ]
+}

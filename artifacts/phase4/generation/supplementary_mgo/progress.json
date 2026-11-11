@@ -1,0 +1,20 @@
+{
+  "arms": [
+    {
+      "actual_attempts": 4,
+      "arm": "nontrivial",
+      "completed_at_utc": "2026-10-22T01:54:13.417317+00:00",
+      "returncode": 0,
+      "valid_count": 4,
+      "valid_unique_count": 1
+    },
+    {
+      "actual_attempts": 4,
+      "arm": "p1",
+      "completed_at_utc": "2026-10-22T01:54:58.774137+00:00",
+      "returncode": 0,
+      "valid_count": 1,
+      "valid_unique_count": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "attempts": 4,
+  "lane": "generation",
+  "max_seconds": 600.0,
+  "reservation_id": "phase4_supplementary_mgo_rocksalt_nontrivial",
+  "reserved_utc": "2026-10-22T01:53:29.036706+00:00"
+}

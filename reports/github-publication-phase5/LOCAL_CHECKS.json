@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "runtime": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\runtime\\python\\python.exe",
+  "checks": [
+    {
+      "check": "git-publication",
+      "exit_code": 0
+    },
+    {
+      "check": "integrity",
+      "exit_code": 0
+    },
+    {
+      "check": "saved-evidence",
+      "exit_code": 0
+    },
+    {
+      "check": "public-assets",
+      "exit_code": 0
+    },
+    {
+      "check": "artifact-recovery",
+      "exit_code": 0
+    },
+    {
+      "check": "python-installer-guards",
+      "exit_code": 0
+    },
+    {
+      "check": "actual-saved-evidence",
+      "exit_code": 0
+    }
+  ],
+  "scientific_experiments": 0,
+  "not_a_remote_ci_result": true
+}

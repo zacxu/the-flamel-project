@@ -1,0 +1,59 @@
+# Flamel saved structure; no new optimization or symmetry inference.
+# Explicit physical sites in P1; source symmetry remains separate recorded metadata.
+data_phase1_mgo_attempt_000__accepted_dft
+_flamel_study_id 'flamel-frozen-study-20261022'
+_flamel_data_release_id 'data-v1-2a138b7808f0d12c5151'
+_flamel_candidate_id 'phase1_mgo_attempt_000'
+_flamel_stage_id 'phase1_mgo_attempt_000--accepted_dft'
+_flamel_stage_kind 'accepted_dft'
+_flamel_method 'quantum_espresso'
+_flamel_excluded no
+_flamel_exact_cell_eligible yes
+_flamel_queue_selected yes
+_flamel_source_id 'source-ddcd5a1444e3620c'
+_flamel_source_sha256 '790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf'
+_flamel_physical_sites 8
+_flamel_pbc_a yes
+_flamel_pbc_b yes
+_flamel_pbc_c yes
+_flamel_recorded_spacegroup_number 225
+_flamel_recorded_symprec_angstrom 0.01
+_flamel_recorded_angle_tolerance_degrees 5
+_flamel_global_novelty_established no
+_flamel_new_stable_material_established no
+_chemical_formula_sum 'Mg4 O4'
+_cell_length_a 4.249162368154002
+_cell_length_b 4.249162385935404
+_cell_length_c 4.2491623210536025
+_cell_angle_alpha 89.99999878556962
+_cell_angle_beta 89.99999979504791
+_cell_angle_gamma 90.00000120228007
+_cell_volume 76.7202442401372
+_space_group_name_H-M_alt 'P 1'
+_space_group_IT_number 1
+loop_
+_space_group_symop_operation_xyz
+'x,y,z'
+loop_
+_flamel_lattice_row
+_flamel_lattice_x_angstrom
+_flamel_lattice_y_angstrom
+_flamel_lattice_z_angstrom
+0 4.249162368154002 -4.458166978861411e-8 7.599815126286983e-9
+1 -4.458167363607554e-8 4.249162385935404 4.503221706637016e-8
+2 7.599816092703137e-9 4.5032215483692495e-8 4.2491623210536025
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O_0 O -4.3136800839475925e-8 1.0355330275577252e-7 -9.545535042456926e-8 1
+O_1 O 9.78895663493013e-8 0.4999998897794257 0.4999999249916666 1
+O_2 O 0.4999998649520669 -1.0732777781784503e-7 0.5000001225639416 1
+O_3 O 0.5000000622220369 0.5000000918191545 5.508637949155216e-10 1
+Mg_4 Mg 0.5000000283664456 0.4999999746722544 0.49999999431944636 1
+Mg_5 Mg 0.49999998128508416 1.8916010376665134e-8 7.132699623171155e-8 1
+Mg_6 Mg 5.088058799754877e-8 0.5000000374356335 -6.345110830676892e-9 1
+Mg_7 Mg -4.063198700582829e-8 -1.8058002104235775e-8 0.49999997026254667 1

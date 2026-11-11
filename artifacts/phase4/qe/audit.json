@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "phase": 4,
+  "updated_at_utc": "2026-10-22T01:50:26.186826+00:00",
+  "status": "passed",
+  "checks_passed": 83,
+  "checks_total": 83,
+  "failed_checks": [],
+  "phase4_QE_job_count": 3,
+  "phase4_QE_wall_seconds": 451.2890359000012,
+  "all_jobs_finished": true,
+  "accepted_CaO_job_id": "p4_ref_cao_90_k035",
+  "CaO_final_geometry_numerical_checks_pass": true,
+  "final_geometry_sensitivity_checks": [
+    {
+      "kind": "cutoff",
+      "job_id": "p4_cao_final_cut75",
+      "absolute_energy_shift_eV_per_atom": 0.000979612436935895,
+      "same_final_geometry": true,
+      "SCF_accepted": true,
+      "distinct_k_mesh": true,
+      "within_5_meV_per_atom": true
+    },
+    {
+      "kind": "kpoint",
+      "job_id": "p4_cao_final_k045",
+      "absolute_energy_shift_eV_per_atom": 4.877594381014205e-05,
+      "same_final_geometry": true,
+      "SCF_accepted": true,
+      "distinct_k_mesh": true,
+      "within_5_meV_per_atom": true
+    }
+  ],
+  "CaO_and_MgO_shared_90_720_Ry_spacing_0p35_anchor_settings": true,
+  "CaO_energy_eV_per_atom": -795.1402976231157,
+  "known_MgO_reference_energy_eV_per_atom": -513.8780439713431,
+  "fresh_candidate_jobs_this_phase": 0,
+  "fresh_CaMg2O3_candidate_submitted": false,
+  "full_frozen_inventory_hull_established": false,
+  "new_stable_materials": 0,
+  "completed_original_source_reference_ids": [
+    "mp-1265",
+    "mp-2605"
+  ],
+  "uncompleted_frozen_primary_reference_ids": [
+    "mp-1008498",
+    "mp-1009127",
+    "mp-1009129",
+    "mp-1009490",
+    "mp-1016235",
+    "mp-1016276",
+    "mp-1023508",
+    "mp-1023923",
+    "mp-1024043",
+    "mp-1038724",
+    "mp-1038760",
+    "mp-1038840",
+    "mp-1038862",
+    "mp-1038866",
+    "mp-1038937",
+    "mp-1038946",
+    "mp-1038953",
+    "mp-1038961",
+    "mp-1038987",
+    "mp-1038991",
+    "mp-1038993",
+    "mp-1039028",
+    "mp-1039033",
+    "mp-1039086",
+    "mp-1039108",
+    "mp-1039117",
+    "mp-1039120",
+    "mp-1039142",
+    "mp-1039148",
+    "mp-1039167",
+    "mp-1039199",
+    "mp-1039227",
+    "mp-1039230",
+    "mp-1039233",
+    "mp-1039273",
+    "mp-1039317",
+    "mp-1039318",
+    "mp-1039330",
+    "mp-1039332",
+    "mp-1039340",
+    "mp-1039350",
+    "mp-1039360",
+    "mp-1039368",
+    "mp-1039382",
+    "mp-1039383",
+    "mp-1039385",
+    "mp-1039390",
+    "mp-1039393",
+    "mp-1039397",
+    "mp-1039403",
+    "mp-1039409",
+    "mp-1039411",
+    "mp-1039421",
+    "mp-1039430",
+    "mp-1039439",
+    "mp-1039441",
+    "mp-1039462",
+    "mp-1039467",
+    "mp-1039468",
+    "mp-1039493",
+    "mp-1039528",
+    "mp-1039529",
+    "mp-1039531",
+    "mp-1039536",
+    "mp-1039552",
+    "mp-1039570",
+    "mp-1055956",
+    "mp-1056059",
+    "mp-1056351",
+    "mp-1056702",
+    "mp-1056831",
+    "mp-1057818",
+    "mp-1058623",
+    "mp-1062228",
+    "mp-1064227",
+    "mp-1064492",
+    "mp-1065577",
+    "mp-1065697",
+    "mp-1066100",
+    "mp-1067285",
+    "mp-10683",
+    "mp-1078638",
+    "mp-1079707",
+    "mp-1087546",
+    "mp-1094122",
+    "mp-1094702",
+    "mp-1094734",
+    "mp-1094735",
+    "mp-1094852",
+    "mp-1094857",
+    "mp-1094906",
+    "mp-1094922",
+    "mp-1094989",
+    "mp-1094998",
+    "mp-1095005",
+    "mp-1095016",
+    "mp-1095665",
+    "mp-1096803",
+    "mp-110",
+    "mp-1101930",
+    "mp-1102442",
+    "mp-1120811",
+    "mp-1180008",
+    "mp-1180036",
+    "mp-1180050",
+    "mp-1180064",
+    "mp-1180260",
+    "mp-1180271",
+    "mp-1180312",
+    "mp-1180973",
+    "mp-1181903",
+    "mp-1181909",
+    "mp-1182183",
+    "mp-1182382",
+    "mp-1183430",
+    "mp-1183455",
+    "mp-1183484",
+    "mp-1183532",
+    "mp-1183575",
+    "mp-1184449",
+    "mp-1190533",
+    "mp-1190649",
+    "mp-1191789",
+    "mp-1192043",
+    "mp-1192189",
+    "mp-1227541",
+    "mp-1244902",
+    "mp-1244962",
+    "mp-1245039",
+    "mp-1245045",
+    "mp-1245128",
+    "mp-1245143",
+    "mp-1245157",
+    "mp-1245195",
+    "mp-1245200",
+    "mp-1245232",
+    "mp-1245305",
+    "mp-1245393",
+    "mp-1247180",
+    "mp-132",
+    "mp-153",
+    "mp-166",
+    "mp-21",
+    "mp-2421172",
+    "mp-2432",
+    "mp-2589",
+    "mp-45",
+    "mp-545512",
+    "mp-549706",
+    "mp-560602",
+    "mp-607540",
+    "mp-610917",
+    "mp-611836",
+    "mp-634859",
+    "mp-723285",
+    "mp-734188",
+    "mp-775808",
+    "mp-776911",
+    "mp-973364"
+  ],
+  "scope": "Only CaO reference refinement; compatible oxide anchors alone do not establish a decomposition hull, discovery, dynamics, or experimental stability. Metal/O2/spin-ambiguous references remain uncomputed.",
+  "canonical_QE_snapshot": {
+    "ceiling_seconds": 21600,
+    "charged_wall_seconds": 1658.4818778000044,
+    "remaining_seconds": 19941.518122199996,
+    "completed_jobs": 18,
+    "source_ledgers": [
+      "artifacts/phase1/qe/qe_jobs.jsonl",
+      "artifacts/runtime_budget_events.jsonl"
+    ],
+    "reserved_inflight_seconds": 0,
+    "available_unreserved_seconds": 19941.518122199996,
+    "active_reservations": []
+  },
+  "jobs": [
+    {
+      "job_id": "p4_cao_final_cut75",
+      "path": "artifacts\\phase4\\qe\\p4_cao_final_cut75\\result.json",
+      "result_sha256": "655e8fdc5d0ee0ea13364a163f8acc1279c3df0a8c4954931364a8106d003e74",
+      "elapsed_wall_seconds": 79.91632030000073,
+      "started_at_utc": "2026-10-22T01:47:36.452377+00:00",
+      "finished_at_utc": "2026-10-22T01:48:56.392423+00:00",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 75.0,
+        "ecutrho_Ry": 600.0,
+        "k_mesh": [
+          7,
+          7,
+          7
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.1,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 180,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p4_cao_final_cut75",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "1afc45b671163eb62add37737412915e5bdc31a3b05822b5d02c81e768118e98"
+      },
+      "hash_checks": {
+        "input": true,
+        "source_geometry": true,
+        "executable": true,
+        "output": true,
+        "settings": true,
+        "queue": true,
+        "input_factory": true,
+        "executed_runner_archive": true,
+        "executed_parser_archive": true,
+        "pseudo_Ca": true,
+        "pseudo_O": true,
+        "inherited_settings": true
+      },
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase4\\qe\\p4_cao_final_cut75\\scratch\\p4_cao_final_cut75.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -116.88332389,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          14
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 343,
+        "n_atoms": 2,
+        "formula": "CaO",
+        "total_energy_Hartree": -58.44166194421004,
+        "total_energy_Ry": -116.88332388842008,
+        "total_energy_eV": -1590.2786360213574,
+        "energy_eV_per_atom": -795.1393180106787,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase4\\qe\\p4_cao_final_cut75\\final_geometry.json",
+        "final_volume_angstrom3": 28.178708979438646,
+        "forces_eV_per_angstrom": [
+          [
+            4.055505144849528e-05,
+            7.813588466469965e-06,
+            -2.89510257577316e-05
+          ],
+          [
+            -4.055505144849528e-05,
+            -7.813588466469965e-06,
+            2.89510257577316e-05
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 5.043734980288209e-05,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.9642981516615868,
+            0.0002799142604033931,
+            -0.00017155515216179433
+          ],
+          [
+            0.0002799142604033931,
+            -0.9638517172953741,
+            -8.962366878899336e-05
+          ],
+          [
+            -0.00017155515216179433,
+            -8.962366878899336e-05,
+            -0.9635810773312571
+          ]
+        ],
+        "pressure_kbar": -0.963910315429406,
+        "max_absolute_residual_stress_component_kbar": 0.9642981516615868,
+        "scf_error_Ry": 6.52361377337418e-11,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p4_cao_final_k045",
+      "path": "artifacts\\phase4\\qe\\p4_cao_final_k045\\result.json",
+      "result_sha256": "8880d08f7d1632e59be673879245e503dd71913fa07d96343ef47949c4305cd0",
+      "elapsed_wall_seconds": 65.02695649999987,
+      "started_at_utc": "2026-10-22T01:48:56.578427+00:00",
+      "finished_at_utc": "2026-10-22T01:50:01.618433+00:00",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          6,
+          6,
+          6
+        ],
+        "k_spacing_start_inv_angstrom": 0.45,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.1,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 180,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p4_cao_final_k045",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "1afc45b671163eb62add37737412915e5bdc31a3b05822b5d02c81e768118e98"
+      },
+      "hash_checks": {
+        "input": true,
+        "source_geometry": true,
+        "executable": true,
+        "output": true,
+        "settings": true,
+        "queue": true,
+        "input_factory": true,
+        "executed_runner_archive": true,
+        "executed_parser_archive": true,
+        "pseudo_Ca": true,
+        "pseudo_O": true,
+        "inherited_settings": true
+      },
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase4\\qe\\p4_cao_final_k045\\scratch\\p4_cao_final_k045.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -116.88346072,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          14
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 216,
+        "n_atoms": 2,
+        "formula": "CaO",
+        "total_energy_Hartree": -58.4417303594304,
+        "total_energy_Ry": -116.8834607188608,
+        "total_energy_eV": -1590.2804976943437,
+        "energy_eV_per_atom": -795.1402488471718,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase4\\qe\\p4_cao_final_k045\\final_geometry.json",
+        "final_volume_angstrom3": 28.178708979438646,
+        "forces_eV_per_angstrom": [
+          [
+            2.8670793207201654e-05,
+            2.0854407800535484e-05,
+            -2.3414945280299196e-05
+          ],
+          [
+            -2.8670793207201654e-05,
+            -2.0854407800535484e-05,
+            2.3414945280299196e-05
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 4.2487414257878314e-05,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.1753198425623409,
+            5.608075465380024e-05,
+            0.00015115794389832527
+          ],
+          [
+            5.608075465380024e-05,
+            -0.17462169355539386,
+            -0.0013163762712585152
+          ],
+          [
+            0.00015115794389832527,
+            -0.0013163762712585152,
+            -0.17430243434739387
+          ]
+        ],
+        "pressure_kbar": -0.17474799015504286,
+        "max_absolute_residual_stress_component_kbar": 0.1753198425623409,
+        "scf_error_Ry": 1.9373425991995074e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    },
+    {
+      "job_id": "p4_ref_cao_90_k035",
+      "path": "artifacts\\phase4\\qe\\p4_ref_cao_90_k035\\result.json",
+      "result_sha256": "b989db549f199409499e571f4afc6a2baa19e8b688dbe44079f46bdef50064b5",
+      "elapsed_wall_seconds": 306.3457591000006,
+      "started_at_utc": "2026-10-22T01:42:29.911313+00:00",
+      "finished_at_utc": "2026-10-22T01:47:36.279967+00:00",
+      "settings": {
+        "calculation": "vc-relax",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          7,
+          7,
+          7
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.1,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 600,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p4_ref_cao_90_k035",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "1d178713169770ec1e3fa0d45d96cccbb6658a61c03f9211fe7eb92ce1b4dce4"
+      },
+      "hash_checks": {
+        "input": true,
+        "source_geometry": true,
+        "executable": true,
+        "output": true,
+        "settings": true,
+        "queue": true,
+        "input_factory": true,
+        "executed_runner_archive": true,
+        "executed_parser_archive": true,
+        "pseudo_Ca": true,
+        "pseudo_O": true,
+        "inherited_settings": true
+      },
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase4\\qe\\p4_ref_cao_90_k035\\scratch\\p4_ref_cao_90_k035.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "vc-relax",
+        "geometry_relaxation_required": true,
+        "scf_converged": true,
+        "ionic_converged": true,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -116.88346789,
+        "completed_scf_calls": 5,
+        "scf_iterations_per_call": [
+          15,
+          3,
+          4,
+          1,
+          14
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 343,
+        "n_atoms": 2,
+        "formula": "CaO",
+        "total_energy_Hartree": -58.44173394439615,
+        "total_energy_Ry": -116.8834678887923,
+        "total_energy_eV": -1590.2805952462313,
+        "energy_eV_per_atom": -795.1402976231157,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase4\\qe\\p4_ref_cao_90_k035\\final_geometry.json",
+        "final_volume_angstrom3": 28.178708979435733,
+        "forces_eV_per_angstrom": [
+          [
+            3.617586295664875e-05,
+            7.052139213781191e-06,
+            -3.0187827992662065e-05
+          ],
+          [
+            -3.617586295664875e-05,
+            -7.052139213781191e-06,
+            3.0187827992662065e-05
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 4.76416906402715e-05,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.05318421464624495,
+            0.0001938190204844602,
+            1.5486699581437434e-05
+          ],
+          [
+            0.0001938190204844602,
+            -0.052860334190359806,
+            -2.214265061566435e-05
+          ],
+          [
+            1.5486699581437434e-05,
+            -2.214265061566435e-05,
+            -0.053088527708067344
+          ]
+        ],
+        "pressure_kbar": -0.05304435884822403,
+        "max_absolute_residual_stress_component_kbar": 0.05318421464624495,
+        "scf_error_Ry": 1.9852004913160966e-11,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": "<opt_conv>\n        <convergence_achieved>true</convergence_achieved>\n        <n_opt_steps>3</n_opt_steps>\n        <grad_norm>2.620490709319465E-006</grad_norm>\n      </opt_conv>\n      ",
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "phase2_protocol_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase2_numerical_protocol_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prior_phase3_runner_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "initial_CaO_source_geometry_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:input_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:source_geometry_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:executable_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:output_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:queue_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:input_factory_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:executed_runner_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:executed_parser_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:pseudo_Ca_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:pseudo_O_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:inherited_settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:queue_authorized_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:phase4_stamped",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:source_lineage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:force_fullstress_reparse_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:CaO_nonmagnetic_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:no_imposed_symmetry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:one_legacy_record",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reserved_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:finish_matches_elapsed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:within_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:within_numerical_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:input_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:source_geometry_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:executable_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:output_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:queue_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:input_factory_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:executed_runner_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:executed_parser_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:pseudo_Ca_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:pseudo_O_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:inherited_settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:queue_authorized_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:phase4_stamped",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:source_lineage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:force_fullstress_reparse_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:CaO_nonmagnetic_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:no_imposed_symmetry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:one_legacy_record",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reserved_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:finish_matches_elapsed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:within_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:within_numerical_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:input_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:source_geometry_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:executable_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:output_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:queue_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:input_factory_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:executed_runner_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:executed_parser_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:pseudo_Ca_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:pseudo_O_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:inherited_settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:queue_authorized_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:phase4_stamped",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:source_lineage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:force_fullstress_reparse_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:CaO_nonmagnetic_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:no_imposed_symmetry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:one_legacy_record",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reserved_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:finish_matches_elapsed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:within_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:within_numerical_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "QE_jobs_do_not_overlap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_bounded_queue_wall",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "canonical_and_legacy_QE_wall_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "global_QE_cap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_QE_reservations_or_mutex_remain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cutoff_probe_bound_to_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kpoint_probe_bound_to_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

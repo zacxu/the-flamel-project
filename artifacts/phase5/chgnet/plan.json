@@ -1,0 +1,291 @@
+{
+  "frozen_utc": "2026-10-22T02:18:05.693979+00:00",
+  "status": "frozen_before_all_Phase5_CHGNet_dispatch",
+  "protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "settings": {
+    "package": "0.4.2",
+    "model_version": "0.3.0",
+    "checkpoint_sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1",
+    "device": "cuda",
+    "torch_threads": 2,
+    "torch_interop_threads": 1,
+    "torch_seed": 20261022,
+    "optimizer": "FIRE",
+    "steps_max": 200,
+    "fmax_eV_A": 0.05,
+    "relax_cell": true,
+    "ase_filter": "FrechetCellFilter",
+    "imposed_symmetry": false,
+    "on_isolated_atoms": "error",
+    "worker_source": "scripts/phase3_candidates.py",
+    "worker_source_sha256": "29e2288a251920602c713d29fe62e21563f61c86eec06472324c1cbcc50ecb0c",
+    "worker_function_AST_sha256": "9f7b2784f70ed39febd43330ae0181418def3cf87ffdf41f740df2b96ba26d6b",
+    "new_job_watchdog_seconds": 900,
+    "trajectory_energy_unit": "total eV, divide actual atom count",
+    "convergence_criterion": "FIRE converged and final max vector norm of FrechetCellFilter forces <=0.05",
+    "settings_identity_to_cached_phase3": true
+  },
+  "package_versions": {
+    "chgnet": "0.4.2",
+    "ase": "3.26.0",
+    "torch": "2.6.0+cu124",
+    "numpy": "2.2.6",
+    "pymatgen": "2025.10.7"
+  },
+  "inputs": [
+    {
+      "path": "artifacts/phase4/selection/symmetry_relaxation_plan.json",
+      "sha256": "d1f86ea12e60cce1d7440e40cc4ee0344d556db3b31fd17aafa5eb048cf2f200"
+    },
+    {
+      "path": "artifacts/phase2/compositions/generation_protocol.json",
+      "sha256": "39b7fa1771bdf5f2214659de6d37bb69677d9e9c4df06a72c3788b1ef9d5b75f"
+    },
+    {
+      "path": "artifacts/phase2/controls/same_composition_reference_plan.json",
+      "sha256": "53b35c6248f2e267c51723da38ae0b05df472942fc2f00ab58eac4892192b1ce"
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "scripts/phase3_candidates.py",
+      "sha256": "29e2288a251920602c713d29fe62e21563f61c86eec06472324c1cbcc50ecb0c",
+      "archive": "artifacts/phase5/chgnet/executed_sources/00_phase3_candidates.py"
+    },
+    {
+      "path": "scripts/phase5_chgnet.py",
+      "sha256": "f1fc5a435e9d5151140d06ddb5c0d1e3bf8f25e481344d26f19727d83c95a696",
+      "archive": "artifacts/phase5/chgnet/executed_sources/01_phase5_chgnet.py"
+    },
+    {
+      "path": "research_features.py",
+      "sha256": "8ce7f03a3b1f7aaa4d15a3b2bb85cb33c0c98c263c805c6454d7ecb993a1a6aa",
+      "archive": "artifacts/phase5/chgnet/executed_sources/02_research_features.py"
+    },
+    {
+      "path": "scripts/phase2_dft_inputs.py",
+      "sha256": "785adbd40abe43c026c874ff36b98b2effa4809eec2409961fd5f6bac33e503a",
+      "archive": "artifacts/phase5/chgnet/executed_sources/03_phase2_dft_inputs.py"
+    },
+    {
+      "path": "research_budget.py",
+      "sha256": "d44d505552dae135ab0189f6dc4c1c727510d94ab022dd81d16d3bf367f8cbfa",
+      "archive": "artifacts/phase5/chgnet/executed_sources/04_research_budget.py"
+    },
+    {
+      "path": ".envs/analysis/Lib/site-packages/chgnet/model/dynamics.py",
+      "sha256": "e0387c0e121e945898a9b303b9a6ccf93398ff3cff881e180ab22cb3b4f37afb",
+      "archive": "artifacts/phase5/chgnet/executed_sources/05_dynamics.py"
+    },
+    {
+      "path": ".envs/analysis/Lib/site-packages/ase/optimize/fire.py",
+      "sha256": "fe55cc89b46fcadd2b0b741d51231ccc05d9974caee5e20d3773fb43ee0ad107",
+      "archive": "artifacts/phase5/chgnet/executed_sources/06_fire.py"
+    },
+    {
+      "path": ".envs/analysis/Lib/site-packages/ase/filters.py",
+      "sha256": "aa6f146d080111d5263cd2dd9881dace91d57f6a29ddb092f6fce1f09e66f0e0",
+      "archive": "artifacts/phase5/chgnet/executed_sources/07_filters.py"
+    }
+  ],
+  "jobs": [
+    {
+      "candidate_id": "phase1_mgo_attempt_000",
+      "category": "symmetry",
+      "control": "mgo_rocksalt",
+      "arm": "nontrivial",
+      "comparison_scope": "supplementary_primary_plus_topup_pool",
+      "original_source": "artifacts/phase1/generator/structure_000.json",
+      "original_source_sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035",
+      "source_structure": "artifacts/phase1/generator/structure_000.json",
+      "source_structure_sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035",
+      "cached": true,
+      "result_path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/result.json",
+      "result_sha256": "2827cc362f99075292757538ca2c788b974d726654b5ff1d4eeb4a4054bfc142",
+      "prior_reservation_id": "p3_chgnet_phase1_mgo_attempt_000",
+      "new_compute_charge": 0,
+      "cache_reuse_verified_before_all_new_jobs": true,
+      "selection_index": 0,
+      "job_id": "p3_chgnet_phase1_mgo_attempt_000"
+    },
+    {
+      "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "category": "symmetry",
+      "control": "mgo_rocksalt",
+      "arm": "p1",
+      "comparison_scope": "supplementary_primary_plus_topup_pool",
+      "original_source": "artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "original_source_sha256": "12d3b14ed509fefc17db08ffac56c073fc855c25f99b2d80299ad07d9dd9b9f0",
+      "source_structure": "artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "source_structure_sha256": "12d3b14ed509fefc17db08ffac56c073fc855c25f99b2d80299ad07d9dd9b9f0",
+      "cached": false,
+      "selection_index": 1,
+      "job_id": "p5_chgnet_phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "output_directory": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010"
+    },
+    {
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "category": "symmetry",
+      "control": "tio2_rutile",
+      "arm": "nontrivial",
+      "comparison_scope": "primary_first8_per_arm",
+      "original_source": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "original_source_sha256": "11f71fa7ff72dac2a3e9b4f1ed433f3a491e035fd10a0f669527f58594c46332",
+      "source_structure": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "source_structure_sha256": "11f71fa7ff72dac2a3e9b4f1ed433f3a491e035fd10a0f669527f58594c46332",
+      "cached": false,
+      "selection_index": 2,
+      "job_id": "p5_chgnet_phase4_tio2_rutile_nontrivial_attempt_000",
+      "output_directory": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000"
+    },
+    {
+      "candidate_id": "phase4_tio2_rutile_p1_attempt_000",
+      "category": "symmetry",
+      "control": "tio2_rutile",
+      "arm": "p1",
+      "comparison_scope": "primary_first8_per_arm",
+      "original_source": "artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "original_source_sha256": "efc1251fea8c6eda7e10a9a0a6bd3a09d5d9882dc5cf386fd0fdfe189c5e6b68",
+      "source_structure": "artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "source_structure_sha256": "efc1251fea8c6eda7e10a9a0a6bd3a09d5d9882dc5cf386fd0fdfe189c5e6b68",
+      "cached": false,
+      "selection_index": 3,
+      "job_id": "p5_chgnet_phase4_tio2_rutile_p1_attempt_000",
+      "output_directory": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000"
+    },
+    {
+      "candidate_id": "prototype_SnSrO2",
+      "category": "prototype",
+      "original_source": "artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "original_source_sha256": "7bb6335a3ed48cec7ed0c8b322b2732c71c1e9e01e1313711f510b4dcd573b0c",
+      "source_structure": "artifacts/phase5/chgnet/initial_structures/prototype_SnSrO2.json",
+      "source_structure_sha256": "4f2e60f58f1f7617784b8dd50b6b1bba6b1ae0427fddaf9f6dab7d0140f23332",
+      "cached": false,
+      "atoms": 4,
+      "formula": "Sr1 Sn1 O2",
+      "target_formula": "SnSrO2",
+      "parent_material_id": "mp-1018032",
+      "structure_budget_already_charged_phase2": true,
+      "selection_index": 4,
+      "job_id": "p5_chgnet_prototype_SnSrO2",
+      "output_directory": "artifacts/phase5/chgnet/prototype_SnSrO2"
+    },
+    {
+      "candidate_id": "prototype_BaSnO2",
+      "category": "prototype",
+      "original_source": "artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "original_source_sha256": "4b127f0ba7ab22e0d9dfaa12c2d551ecfa11c04e7c437b1ab74c6cffeac11340",
+      "source_structure": "artifacts/phase5/chgnet/initial_structures/prototype_BaSnO2.json",
+      "source_structure_sha256": "b2d75a2ce10a94a2694bbb7c418a43435cef8ff0ddad95e4996e51f90004630b",
+      "cached": false,
+      "atoms": 4,
+      "formula": "Ba1 Sn1 O2",
+      "target_formula": "BaSnO2",
+      "parent_material_id": "mp-753619",
+      "structure_budget_already_charged_phase2": true,
+      "selection_index": 5,
+      "job_id": "p5_chgnet_prototype_BaSnO2",
+      "output_directory": "artifacts/phase5/chgnet/prototype_BaSnO2"
+    },
+    {
+      "candidate_id": "prototype_CaMg2O3",
+      "category": "prototype",
+      "original_source": "artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "original_source_sha256": "f75934ac0be48dda22984e8bec7e633d6a06b0a15dc82eb34073bca4aa2efa53",
+      "source_structure": "artifacts/phase5/chgnet/initial_structures/prototype_CaMg2O3.json",
+      "source_structure_sha256": "aa12c8b9449c232e5fb84012e29c8c797e031606de444493855b11d079caa69c",
+      "cached": false,
+      "atoms": 6,
+      "formula": "Ca1 Mg2 O3",
+      "target_formula": "CaMg2O3",
+      "parent_material_id": "mp-1222123",
+      "structure_budget_already_charged_phase2": true,
+      "selection_index": 6,
+      "job_id": "p5_chgnet_prototype_CaMg2O3",
+      "output_directory": "artifacts/phase5/chgnet/prototype_CaMg2O3"
+    },
+    {
+      "candidate_id": "prototype_Mg2SrO3",
+      "category": "prototype",
+      "original_source": "artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "original_source_sha256": "201903f0a8002802b6c24bd9216ff03d2e73aa1eba7bbba1efe607a5f9c3f557",
+      "source_structure": "artifacts/phase5/chgnet/initial_structures/prototype_Mg2SrO3.json",
+      "source_structure_sha256": "74cfede6f60ce8667a88459e323445002df91b9b43d2aef1308b7e3881b12c16",
+      "cached": false,
+      "atoms": 6,
+      "formula": "Sr1 Mg2 O3",
+      "target_formula": "Mg2SrO3",
+      "parent_material_id": "mp-1222123",
+      "structure_budget_already_charged_phase2": true,
+      "selection_index": 7,
+      "job_id": "p5_chgnet_prototype_Mg2SrO3",
+      "output_directory": "artifacts/phase5/chgnet/prototype_Mg2SrO3"
+    },
+    {
+      "candidate_id": "reference_rocksalt",
+      "category": "same_composition_reference",
+      "original_source": "artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "original_source_sha256": "146a234cda4e045125fd60e4e5f1bedb3cad52eb0aa606023e80d0f131e19bac",
+      "source_structure": "artifacts/phase5/chgnet/initial_structures/reference_rocksalt.json",
+      "source_structure_sha256": "5752f5779ce676224436fae4e5ef299796d77f8c771a1de71c554c649e32e942",
+      "cached": false,
+      "atoms": 8,
+      "formula": "Mg4 O4",
+      "reference_material_id": "mp-1265",
+      "reference_phase": "rocksalt",
+      "selection_index": 8,
+      "job_id": "p5_chgnet_reference_rocksalt",
+      "output_directory": "artifacts/phase5/chgnet/reference_rocksalt"
+    },
+    {
+      "candidate_id": "reference_rutile",
+      "category": "same_composition_reference",
+      "original_source": "artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "original_source_sha256": "f414d51475a787c3147a7d23e8536587ce9bfbabcd431fb5907ee0ece102060f",
+      "source_structure": "artifacts/phase5/chgnet/initial_structures/reference_rutile.json",
+      "source_structure_sha256": "2917e144bd26187895c15607a293b8c2385f2675c8e6ebe4b2a69500f9258e01",
+      "cached": false,
+      "atoms": 6,
+      "formula": "Ti2 O4",
+      "reference_material_id": "mp-2657",
+      "reference_phase": "rutile",
+      "selection_index": 9,
+      "job_id": "p5_chgnet_reference_rutile",
+      "output_directory": "artifacts/phase5/chgnet/reference_rutile"
+    },
+    {
+      "candidate_id": "reference_anatase",
+      "category": "same_composition_reference",
+      "original_source": "artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "original_source_sha256": "d6ada6ef1d2bac40b16327033da36a928745602750abffdff89cf5c87fe4358f",
+      "source_structure": "artifacts/phase5/chgnet/initial_structures/reference_anatase.json",
+      "source_structure_sha256": "7f6cc441bb52ef458863920213fb4730686cb7589a1b34fd89dd8383bc06ab5d",
+      "cached": false,
+      "atoms": 12,
+      "formula": "Ti4 O8",
+      "reference_material_id": "mp-390",
+      "reference_phase": "anatase",
+      "selection_index": 10,
+      "job_id": "p5_chgnet_reference_anatase",
+      "output_directory": "artifacts/phase5/chgnet/reference_anatase"
+    }
+  ],
+  "selections": 11,
+  "new_jobs": 10,
+  "cached_reuses": 1,
+  "fresh_transformer_shortlist": [],
+  "excluded_references": [
+    {
+      "eligible_at_most_20_atoms": false,
+      "formula": "TiO2",
+      "material_id": null,
+      "minimum_catalog_conventional_sites": 24,
+      "phase": "brookite",
+      "spacegroup": 61,
+      "reason": "Predeclared conventional cell exceeds 20 atoms; no replacement"
+    }
+  ],
+  "energy_dependent_selection": false,
+  "nonconvergence_replacements": false,
+  "scope": "Within-composition descriptive symmetry pairs; prototypes separate from transformer; MLIP energies are not DFT stability"
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "zacxu/the-flamel-project",
+  "repository_id": 1452978137,
+  "clone_url": "https://github.com/zacxu/the-flamel-project.git",
+  "visibility": "private",
+  "branch": "main",
+  "initial_remote_refs": [],
+  "remote_write_scope": "Normal Git push only; no force, release upload or deployment",
+  "verified_before_import": true
+}

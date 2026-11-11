@@ -1,0 +1,111 @@
+{
+  "status": "PASSED",
+  "tool_version": "1.0.0",
+  "tool_sha256": "58f01a53b83f4e757f354b851129baca09895aa43c60c3f3d17b519c2dbc2917",
+  "tests_passed": 24,
+  "checks": [
+    {
+      "test": "valid mixed-scope archives and planned URLs are verified without network access",
+      "status": "PASSED"
+    },
+    {
+      "test": "project hydration preserves CRLF, Unicode, binary and zero-length content",
+      "status": "PASSED"
+    },
+    {
+      "test": "production scope hydrates only production members",
+      "status": "PASSED"
+    },
+    {
+      "test": "project verification does not require unrelated production archive bytes",
+      "status": "PASSED"
+    },
+    {
+      "test": "CLI success receipt is created once and an existing receipt is never overwritten",
+      "status": "PASSED"
+    },
+    {
+      "test": "default hydration refuses an existing destination without writes",
+      "status": "PASSED"
+    },
+    {
+      "test": "explicit merge reuses identical files and preserves unrelated files",
+      "status": "PASSED"
+    },
+    {
+      "test": "all merge conflicts are preflighted before any new member is written",
+      "status": "PASSED"
+    },
+    {
+      "test": "corrupt archive digest is rejected before destination creation or success receipt",
+      "status": "PASSED"
+    },
+    {
+      "test": "member hash mismatch is rejected even when archive checksum matches",
+      "status": "PASSED"
+    },
+    {
+      "test": "manifest traversal, absolute/drive/backslash/ADS/reserved/noncanonical/Git-metadata paths are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "unsafe ZIP path is rejected independently of a safe declared manifest",
+      "status": "PASSED"
+    },
+    {
+      "test": "ZIP symbolic links are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "duplicate physical ZIP members are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "case-colliding physical ZIP members are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "duplicate restoration paths across same-scope archives are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "identical relative paths are allowed only across separate restore scopes",
+      "status": "PASSED"
+    },
+    {
+      "test": "file-versus-directory prefix conflicts are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "case-colliding directory prefixes are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "unexpected archive members are rejected",
+      "status": "PASSED"
+    },
+    {
+      "test": "declared archive over 1 GiB is rejected without allocating a large fixture",
+      "status": "PASSED"
+    },
+    {
+      "test": "existing junction/symlink parent is rejected before writes outside the target",
+      "status": "PASSED"
+    },
+    {
+      "test": "existing directory case conflicts are rejected without writes",
+      "status": "PASSED"
+    },
+    {
+      "test": "explicit ZIP directory entries are rejected by the regular-files-only schema",
+      "status": "PASSED"
+    }
+  ],
+  "fixture_root": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\tool-validation\\portable-suite\\fixtures",
+  "tool_path": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\tools\\artifact_io.py",
+  "output_root": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\tool-validation\\portable-suite",
+  "report_path": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\tool-validation\\portable-suite\\validation.json",
+  "source_project_modified": false,
+  "phase1_backup_modified": false,
+  "network_requests": 0
+}

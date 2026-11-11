@@ -1,0 +1,47 @@
+[
+  {
+    "element": "Ca",
+    "filename": "Ca_pbe_v1.uspp.F.UPF",
+    "md5": "403a4c14b9e4d4dfdc3024c9a3812218",
+    "pseudopotential": "GBRV-1.2",
+    "cutoff_wfc": 30.0,
+    "cutoff_rho": 240.0,
+    "actual_md5": "403a4c14b9e4d4dfdc3024c9a3812218",
+    "md5_match": true,
+    "local_bytes": 575920,
+    "licence": "GPL-3.0",
+    "licence_basis": "SSSP record LICENSE.txt family mapping; exact file identity verified against SSSP JSON",
+    "redistribution_scope": "upstream_retrieval_or_private_backup_only",
+    "retained_licence_basis": "SSSP-LICENSE.txt"
+  },
+  {
+    "element": "Mg",
+    "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+    "md5": "24ecedc7f3e3cbe212e682f4413594e4",
+    "pseudopotential": "031PAW",
+    "cutoff_wfc": 30.0,
+    "cutoff_rho": 240.0,
+    "actual_md5": "24ecedc7f3e3cbe212e682f4413594e4",
+    "md5_match": true,
+    "local_bytes": 1013584,
+    "licence": "GPL-2.0-or-later",
+    "licence_basis": "SSSP record LICENSE.txt family mapping; exact file identity verified against SSSP JSON",
+    "redistribution_scope": "upstream_retrieval_or_private_backup_only",
+    "retained_licence_basis": "SSSP-LICENSE.txt"
+  },
+  {
+    "element": "O",
+    "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+    "md5": "0234752ac141de4415c5fc33072bef88",
+    "pseudopotential": "031PAW",
+    "cutoff_wfc": 50.0,
+    "cutoff_rho": 400.0,
+    "actual_md5": "0234752ac141de4415c5fc33072bef88",
+    "md5_match": true,
+    "local_bytes": 930566,
+    "licence": "GPL-2.0-or-later",
+    "licence_basis": "SSSP record LICENSE.txt family mapping; exact file identity verified against SSSP JSON",
+    "redistribution_scope": "upstream_retrieval_or_private_backup_only",
+    "retained_licence_basis": "SSSP-LICENSE.txt"
+  }
+]

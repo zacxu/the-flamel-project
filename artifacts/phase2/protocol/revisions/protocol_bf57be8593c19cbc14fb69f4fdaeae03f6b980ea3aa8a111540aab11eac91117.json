@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "frozen_utc": "2026-10-21T16:55:50.048636+00:00",
+  "status": "frozen_before_model_fit_and_replay",
+  "seeds": [
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "fresh_selector_seed": 20261022,
+  "fresh_selector": "Save the first seed's initial fitted/calibrated ensemble, normalization and checkpoint before ANY pool-label reveal; never choose best seed or adapted replay snapshot.",
+  "target": {
+    "name": "e_above_hull_mp2020_corrected_ppd_mp",
+    "units": "eV/atom",
+    "signed_negative_preserved": true,
+    "near_stable_inclusive": 0.05,
+    "on_or_below_historical_reference_hull_inclusive": 0.0,
+    "fresh_QE_labels_compatible_with_target": false
+  },
+  "population": {
+    "source": "artifacts/phase1/data/eligible_population.csv",
+    "total_rows": 8294,
+    "initial_training": 2000,
+    "calibration": 400,
+    "hidden_pool": 2000,
+    "group": "sorted complete chemical system",
+    "whole_group_assignment": true,
+    "reserved_systems": "artifacts/phase2/splits/reserved_systems.json"
+  },
+  "features": {
+    "module": "research_features.py",
+    "function": "describe_structure",
+    "dimension": 408,
+    "source": "initial coordinates and composition only",
+    "fit_columns": "all408finitecolumns",
+    "forbidden": [
+      "target",
+      "post_DFT_geometry",
+      "relaxed_volume",
+      "relaxed_symmetry",
+      "formation_energies",
+      "band_gap",
+      "unique_prototype_flag",
+      "material_id",
+      "WBM_substitution_round",
+      "initial_final_differences"
+    ]
+  },
+  "ensemble": {
+    "members": 5,
+    "outer_bootstrap": true,
+    "outer_bootstrap_sample_size": "current_training_size with replacement",
+    "estimator": "sklearn.ensemble.ExtraTreesRegressor",
+    "estimator_kwargs": {
+      "n_estimators": 128,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 2,
+      "max_features": 1.0,
+      "bootstrap": false,
+      "n_jobs": 2
+    },
+    "seed_rule": "numpy.random.SeedSequence([paired_seed,round_index,member_index,11]); separate generated uint32 seeds for outer bootstrap and ExtraTrees",
+    "prediction": "arithmetic mean of five member predictions",
+    "disagreement": "sample standard deviation across five member means, ddof=1",
+    "refit": "Fit all five new members after each batch using initial training plus only that policy's revealed IDs; no cross-policy sharing of queried labels"
+  },
+  "calibration": {
+    "population": "fixed400whole-system-held-out rows",
+    "nominal_coverage": 0.9,
+    "uncertainty_floor_eV_atom": 0.01,
+    "residual_score": "abs(y_cal-mu_cal)/max(ensemble_std_cal,0.01)",
+    "quantile_rank_1_based": "ceil((n_cal+1)*0.9), sorted observed residual scores",
+    "rank_for_400": 361,
+    "interval_half_width": "u=q90*max(ensemble_std,0.01)",
+    "recalibration": "Recompute residual quantile after each policy refit on the same calibration population; never tune model/scoring coefficients from pool outcomes",
+    "coverage_claim": "Empirical only; chemical-system shift and repeated adaptive use do not establish arbitrary-OOD coverage"
+  },
+  "diversity": {
+    "feature_slice": [
+      0,
+      150
+    ],
+    "columns": "118composition fractions,20elementalstatistics,8initialcell,4initialPBCdistance",
+    "normalize": "Column mean and population std fitted ONCE on initial training only; std<1e-12 replaced by1; clip z to[-5,5]",
+    "distance": "min(1,min_RMS_Euclidean_distance_to_labeled_or_current_batch)",
+    "known_set": "initial training plus previously queried rows and current within-batch choices; calibration is not a diversity anchor",
+    "weight": 0.5,
+    "remains_frozen_across_rounds": true
+  },
+  "acquisition": {
+    "policies": [
+      "random",
+      "quality",
+      "quality_diversity",
+      "uncertainty",
+      "full"
+    ],
+    "rounds": 5,
+    "queries_per_round": 10,
+    "queries_per_policy_seed": 50,
+    "shared_initial_label_budget": 2400,
+    "energy_scale_eV_atom": 0.05,
+    "threshold_eV_atom": 0.05,
+    "maximize_scores": {
+      "random": "uniform without replacement",
+      "quality": "(0.05-mu)/0.05",
+      "quality_diversity": "(0.05-mu)/0.05+0.5*D",
+      "uncertainty": "u/0.05",
+      "full_conservative_first7": "(0.05-mu-u)/0.05+0.5*D",
+      "full_optimistic_last3": "(0.05-mu+u)/0.05+0.5*D"
+    },
+    "tie_break": "lexicographically ascending material ID",
+    "random_generator": "numpyPCG64; SeedSequence([paired_seed,round_index,101])",
+    "label_boundary": "select_batch accepts IDs,predictions,radii,features,distances,RNG only; no oracle label argument; reveal labels only after decision is serialized",
+    "evaluation_only_metrics": [
+      "nearstable_hits_vs_queries",
+      "precision_at50",
+      "historical_hull_hits",
+      "queried_chemical_system_coverage",
+      "MAE",
+      "RMSE",
+      "Spearman_disagreement_absolute_error",
+      "90percent_interval_coverage",
+      "mean_interval_width"
+    ],
+    "metrics_may_influence_later_decisions": false
+  },
+  "generation": {
+    "global_ceiling": 128,
+    "already_charged": 8,
+    "remaining": 120,
+    "default_new_formula_count": 6,
+    "conditional_stretch_formula_count": 8,
+    "new_formula_attempts_each": 8,
+    "controls": 2,
+    "arms_each": [
+      "fixed_nontrivial",
+      "P1"
+    ],
+    "primary_attempts_per_arm": 8,
+    "formula_free_branch": "disabled",
+    "control_settings": "artifacts/phase2/controls/matched_protocol.json",
+    "pilot_reuse": "MgO SG225 first8 reused only if exact frozen settings preserved; otherwise all8 remain charged engineering attempts"
+  },
+  "chgnet_reallocation": {
+    "global_ceiling": 40,
+    "already_charged_including_failed_launches": 8,
+    "remaining_ceiling": 32,
+    "symmetry_max": 10,
+    "symmetry_reason": "MgO at most1uniqueperarm=2; secondcontrol atmost4perarm=8; always q=min(4,nvalidSG,nvalidP1)",
+    "new_composition_shortlist_and_DFT_prerelax_max": 12,
+    "prototype_substitution_max": 4,
+    "same_composition_reference_max": 4,
+    "explicit_retry_contingency_max": 2,
+    "remaining_suballocations_sum": 32,
+    "unused_slots_not_automatically_spent": true,
+    "per_job": {
+      "model": "0.3.0",
+      "package": "0.4.2",
+      "steps_max": 200,
+      "fmax_eV_A": 0.05,
+      "relax_cell": true,
+      "imposed_symmetry": false
+    },
+    "global_time_seconds": 14400,
+    "already_charged_seconds": 23.862674800002424
+  },
+  "qe": {
+    "global_cumulative_seconds": 21600,
+    "already_charged_seconds": 2.103912800001126,
+    "plan": "artifacts/phase2/dft/reference_plan.json",
+    "one_job_at_a_time": true,
+    "omp_mkl_threads": 4,
+    "all_jobs_and_failures_charged": true,
+    "numerical_stop_utc": "2026-10-22T10:24:44+00:00"
+  },
+  "budget_aggregation_requirement": "All new phase ledgers must be explicitly registered in the cumulative ledger; Phase1 finalizer alone does not discover future ledgers.",
+  "sources": [
+    "https://scikit-learn.org/1.7/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html",
+    "https://scikit-learn.org/1.7/modules/generated/sklearn.model_selection.GroupShuffleSplit.html"
+  ],
+  "acquisition_implementation_sha256": "d89feaeab56200b81e8c9a9dcd2caca6750b5137469922883a594b5b2de323c3",
+  "freezer_script_sha256": "cb9affd7f069962b613c796a27a4cb4b345666e1a0473ca4d9037538b2c60cf2"
+}

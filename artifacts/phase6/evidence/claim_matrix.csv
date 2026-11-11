@@ -1,0 +1,11 @@
+claim,status,scope,limitation
+Retrospective acquisition comparison,supported_in_historical_replay,Fixed WBM labels and equal per-policy query budgets; distinct from freshly run DFT,No fresh discovery efficiency or arbitrary OOD guarantee
+Symmetry sampling policy comparison,supported_descriptive,Frozen controls and first-eight primary denominators; supplementary MgO kept separate,No training-architecture causal ablation
+Symmetry-pair CHGNet energy difference,supported_one_pair_each,"Within-composition model energies, one relaxed selection per arm",No energy-distribution estimate or DFT validation of symmetry pairs
+Fresh known MgO phase recovery,supported,Relaxed generated eight-atom control matches relaxed original-source two-atom MgO,Tiny energy difference is numerically unresolved; known phase
+Compatible CaO and MgO oxide anchors,supported,"90/720 Ry PBE, final-setting stationarity plus finite cutoff/k checks","No CaMg2O3 QE energy, therefore no candidate reaction energy"
+New composition absent from checked catalogs,scoped_catalog_evidence_only,"Named WBM and MP releases, frozen formulas","Absence is not global novelty, generator-training absence or stable discovery"
+New DFT-confirmed stable material,not_established,Zero qualifying fresh CrystalFormer new-formula candidates,No new-composition QE relaxation or complete reference competition
+Full frozen-inventory DFT hull,not_established,Primary 2/161 and fallback 1/57 accepted source entries,"Elemental metals, oxygen, spin/occupation and other phases remain missing"
+Perturbation recovery or local minimum,incomplete,One known MgO perturbation stopped at frozen 900-second limit,No accepted terminal SCF/forces/stress; no continuation allowed; no phonons
+Experimental or finite-temperature stability,not_tested,Static approximate PBE evidence only,"No synthesis, finite-temperature free energies or phonon calculations"

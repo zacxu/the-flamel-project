@@ -1,0 +1,173 @@
+{
+  "http_status": 200,
+  "query_count": 77,
+  "response_count": 77,
+  "complete_correspondence": true,
+  "findings": [
+    {
+      "query": {
+        "package": {
+          "name": "filelock",
+          "ecosystem": "PyPI"
+        },
+        "version": "3.32.3"
+      },
+      "vulns": [
+        {
+          "id": "GHSA-567q-5qvw-pf92",
+          "modified": "2026-10-23T22:45:03.452878Z"
+        },
+        {
+          "id": "GHSA-6627-m3xw-93mp",
+          "modified": "2026-10-28T21:15:05.690884Z"
+        },
+        {
+          "id": "GHSA-69hj-f68j-2879",
+          "modified": "2026-10-28T21:15:04.974667Z"
+        },
+        {
+          "id": "GHSA-8mx5-7m5m-r77g",
+          "modified": "2026-10-28T21:15:05.688436Z"
+        },
+        {
+          "id": "GHSA-9c4x-gm8v-wgc4",
+          "modified": "2026-10-28T21:15:05.681708Z"
+        },
+        {
+          "id": "GHSA-9vhv-jxww-xfm5",
+          "modified": "2026-10-23T22:45:03.439584Z"
+        },
+        {
+          "id": "GHSA-cwqr-hh33-gh44",
+          "modified": "2026-10-28T21:15:04.923553Z"
+        },
+        {
+          "id": "GHSA-fq56-3cx3-fjxp",
+          "modified": "2026-10-28T21:15:04.933315Z"
+        },
+        {
+          "id": "GHSA-j8f7-rjxc-mr56",
+          "modified": "2026-10-28T21:15:04.169983Z"
+        },
+        {
+          "id": "GHSA-m462-7rxw-wvpg",
+          "modified": "2026-10-28T21:15:04.165555Z"
+        },
+        {
+          "id": "GHSA-rfpc-qcw5-3pc4",
+          "modified": "2026-10-28T21:15:05.584943Z"
+        },
+        {
+          "id": "GHSA-v4x8-3wr5-3wq8",
+          "modified": "2026-10-23T22:15:04.432475Z"
+        }
+      ]
+    },
+    {
+      "query": {
+        "package": {
+          "name": "torch",
+          "ecosystem": "PyPI"
+        },
+        "version": "2.6.0+cu124"
+      },
+      "vulns": [
+        {
+          "id": "GHSA-3749-ghw9-m3mg",
+          "modified": "2026-09-10T03:50:22.781448Z"
+        },
+        {
+          "id": "GHSA-63cw-57p8-fm3p",
+          "modified": "2026-11-04T03:15:10.870748Z"
+        },
+        {
+          "id": "GHSA-887c-mr87-cxwp",
+          "modified": "2026-09-10T03:50:23.660138Z"
+        },
+        {
+          "id": "GHSA-qfhq-4f3w-5fph",
+          "modified": "2026-06-10T18:26:26.736808Z"
+        },
+        {
+          "id": "GHSA-rrmf-rvhw-rf47",
+          "modified": "2026-09-10T03:49:48.419046Z"
+        },
+        {
+          "id": "GHSA-vgrw-7cvw-pwgx",
+          "modified": "2026-06-10T17:41:15.774477Z"
+        },
+        {
+          "id": "PYSEC-2025-191",
+          "modified": "2026-06-10T17:02:35.808223Z"
+        },
+        {
+          "id": "PYSEC-2025-198",
+          "modified": "2026-05-20T09:19:19.437232Z"
+        },
+        {
+          "id": "PYSEC-2025-199",
+          "modified": "2026-05-20T09:19:19.498677Z"
+        },
+        {
+          "id": "PYSEC-2025-200",
+          "modified": "2026-05-20T09:19:19.559970Z"
+        },
+        {
+          "id": "PYSEC-2025-201",
+          "modified": "2026-05-20T09:19:19.618679Z"
+        },
+        {
+          "id": "PYSEC-2025-202",
+          "modified": "2026-05-20T09:19:19.678555Z"
+        },
+        {
+          "id": "PYSEC-2025-203",
+          "modified": "2026-05-20T09:19:19.739357Z"
+        },
+        {
+          "id": "PYSEC-2025-204",
+          "modified": "2026-05-20T09:19:19.802802Z"
+        },
+        {
+          "id": "PYSEC-2025-205",
+          "modified": "2026-05-20T09:19:19.866970Z"
+        },
+        {
+          "id": "PYSEC-2025-206",
+          "modified": "2026-05-20T09:19:19.928295Z"
+        },
+        {
+          "id": "PYSEC-2025-207",
+          "modified": "2026-05-20T09:19:19.989717Z"
+        },
+        {
+          "id": "PYSEC-2025-208",
+          "modified": "2026-05-20T09:19:20.054109Z"
+        },
+        {
+          "id": "PYSEC-2025-209",
+          "modified": "2026-05-20T09:19:20.117285Z"
+        },
+        {
+          "id": "PYSEC-2026-139",
+          "modified": "2026-05-21T15:00:31.962442Z"
+        },
+        {
+          "id": "PYSEC-2026-1970",
+          "modified": "2026-07-07T17:56:13.049049Z"
+        },
+        {
+          "id": "PYSEC-2026-2286",
+          "modified": "2026-07-13T07:26:23.701611Z"
+        }
+      ]
+    }
+  ],
+  "pagination_present": false,
+  "coverage_notes": [
+    "Exact PyPI versions from both frozen locks plus installed metadata, excluding local CrystalFormer source.",
+    "CUDA-local torch version is additionally evaluated separately by its public base version, if necessary.",
+    "OSV empty results do not prove package release existence or absence of vulnerabilities.",
+    "No dependency installation or automatic remediation performed."
+  ]
+}

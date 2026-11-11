@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\bears\scripts\phase1_chgnet.py", line 201, in <module>
+    worker(args.worker)
+  File "C:\Users\Admin\Desktop\bears\scripts\phase1_chgnet.py", line 44, in worker
+    raise RuntimeError("Workers must be dispatched once by the budget-recording launcher")
+RuntimeError: Workers must be dispatched once by the budget-recording launcher
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\bears\scripts\phase1_chgnet.py", line 201, in <module>
+    worker(args.worker)
+  File "C:\Users\Admin\Desktop\bears\scripts\phase1_chgnet.py", line 44, in worker
+    raise RuntimeError("Workers must be dispatched once by the budget-recording launcher")
+RuntimeError: Workers must be dispatched once by the budget-recording launcher

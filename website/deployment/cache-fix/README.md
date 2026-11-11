@@ -1,0 +1,11 @@
+# Entry HTML cache fix
+
+Deployed and live verified. Current `.htaccess` goes to `/htdocs/.htaccess`: **1230 bytes**, SHA-256 `cfec2cddb8cbbf215fbe2ee17593a20f8b470d80071648ddb6d79004a8bbd149`. Its first 230 bytes exactly preserve the accepted image adapter. The scoped HTML policy prevents the host's previous 30-day entry caching; immutable assets and frozen research retain their cache behavior.
+
+The bare root, `/index.html` and fresh `/refresh` alias return the same exact current 1,150-byte entry with no-store headers. `/refresh/` redirects to `/refresh` before serving it. The recovery address keeps its short path and preserves hash-based selections; it bypasses a legacy cached root entry without deleting any cache, cookies or storage. `refresh.html` is a retained legacy helper that now forwards to `/refresh`; it is not the active entry document.
+
+Retain this current configuration for future application uploads. The alias automatically serves whichever `index.html` is published next. `deployment/root-image-adapter/.htaccess` is the historical image-only adapter. `html-policy-first.htaccess` preserves the first 712-byte policy. `LIVE_RECOVERY_ATTEMPT.json` and `PACKAGE.recovery-attempt.json` retain an abandoned cache-clearing experiment; its header was not observed and is absent from the final policy.
+
+Use the [guarded publication workflow](../latest-link/README.md) for subsequent releases. It checks the new build and release inventory and stages this hosting policy with the exact current entry. The saved submission destination remains `/refresh`; no submission edit is required for a new release. A page already open in a browser still needs a new navigation or reload to load a later release.
+
+Rollback: upload `previous-root.htaccess` as `/htdocs/.htaccess`. This restores image routing but removes the cache policy and fresh-entry alias. Keep entry HTML, assets, research and image sidecars unchanged. `BASELINE.json` retains their prior hashes; `PACKAGE.json`, `LIVE_BEFORE.json`, `LIVE_AFTER.json`, `LINK_VERIFICATION.json` and [the deployment report](../../reports/CACHE_FIX_DEPLOYMENT.json) record final metadata, targeted response/link evidence and 11 protected-file checks.

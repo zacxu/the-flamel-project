@@ -1,0 +1,65 @@
+{
+  "completed_at_utc": "2026-10-22T02:03:19.094693+00:00",
+  "files": [
+    {
+      "path": "artifacts\\phase4\\replay\\aggregate_summary.json",
+      "sha256": "0af681b1c46325cd5532e3bf6f0b0bc1781b78f14fb5778f1abed559ff3406fb",
+      "size_bytes": 35735
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\audit.json",
+      "sha256": "861207197884bf075980d2ced114a6dae70bf238e1d838bfb996a5646ec715f0",
+      "size_bytes": 2435
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\learning_curves.csv",
+      "sha256": "cbeac13e25917ee23a3a7abd86f87894deb4a138c0ff3d6d40e5f08582639493",
+      "size_bytes": 3937
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\paired_differences.csv",
+      "sha256": "9b978bf665b66b00c9960bcb640bf03331d15b11e6ad4e742049c25ac2fbec6a",
+      "size_bytes": 310
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\per_seed_cost_and_initial_evaluation.csv",
+      "sha256": "8cbeffb0b6a80b2ec68cfc70da99fca3b0c40852f1cfe7177715e7ef28ddaeb9",
+      "size_bytes": 3440
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\per_seed_evaluation_metrics.csv",
+      "sha256": "9e84295b75281a9d3234f1ea9904e4ecfaf267be0f41ed6d3fd9bb1ba9e355c3",
+      "size_bytes": 25092
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\per_seed_policy_metrics.csv",
+      "sha256": "75218caf6c4932dfa5d2f34e2a4049806bb8e3287f04f2694c86eb7ebd15dfea",
+      "size_bytes": 1495
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\query_journal_all_seeds.csv",
+      "sha256": "a17d9075208cd6b61f7801c84cb489a302b6f3f7b80fa437a7f7e8f9c294915c",
+      "size_bytes": 409796
+    },
+    {
+      "path": "artifacts\\phase4\\replay_figures\\five_seed_acquisition.pdf",
+      "sha256": "13a3fa35ad51b0b9d5b3ff9275f38b1bdfb16524ac625bdc58b116000b6e0cd8",
+      "size_bytes": 20369
+    },
+    {
+      "path": "artifacts\\phase4\\replay_figures\\five_seed_acquisition.png",
+      "sha256": "5e292449f34edcf37f5b265853dd866670c26ad09aac6254179dffae4f41b8da",
+      "size_bytes": 263723
+    },
+    {
+      "path": "artifacts\\phase4\\replay_figures\\paired_differences_and_calibration.pdf",
+      "sha256": "985d5aa01f11ee98bb31dbb631117d4980fe16fd7eae9c92aa5e501a5f6815cc",
+      "size_bytes": 18055
+    },
+    {
+      "path": "artifacts\\phase4\\replay_figures\\paired_differences_and_calibration.png",
+      "sha256": "6c07d709fe93415dca8c7257fb72317f05fb026923088e4403e61b6ceaa4a4b1",
+      "size_bytes": 122844
+    }
+  ]
+}

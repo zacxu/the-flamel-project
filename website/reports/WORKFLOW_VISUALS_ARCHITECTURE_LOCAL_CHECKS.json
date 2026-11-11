@@ -1,0 +1,154 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "desktop_propose",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "propose",
+      "tallImages": 0
+    },
+    {
+      "name": "desktop_generate",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "generate",
+      "tallImages": 3
+    },
+    {
+      "name": "desktop_screen",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "screen",
+      "tallImages": 0
+    },
+    {
+      "name": "desktop_select",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "select",
+      "tallImages": 0
+    },
+    {
+      "name": "desktop_relax",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "relax",
+      "tallImages": 3
+    },
+    {
+      "name": "desktop_validate",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "validate",
+      "tallImages": 0
+    },
+    {
+      "name": "desktop_compare",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "compare",
+      "tallImages": 0
+    },
+    {
+      "name": "shared_policy_colours",
+      "pass": true,
+      "colours": [
+        "#0072B2",
+        "#9B4275"
+      ],
+      "source": "Shared policyColour presentation helper"
+    },
+    {
+      "name": "overview_contribution",
+      "pass": true
+    },
+    {
+      "name": "mobile_propose",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "propose"
+    },
+    {
+      "name": "mobile_generate",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "generate"
+    },
+    {
+      "name": "mobile_screen",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "screen"
+    },
+    {
+      "name": "mobile_select",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "select"
+    },
+    {
+      "name": "mobile_relax",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "relax"
+    },
+    {
+      "name": "mobile_validate",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "validate"
+    },
+    {
+      "name": "mobile_compare",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "compare"
+    },
+    {
+      "name": "keyboard_stage_selection",
+      "pass": true
+    },
+    {
+      "name": "console_errors",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "recordedAt": "2026-10-22T16:55:56.764Z"
+}

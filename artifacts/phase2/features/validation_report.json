@@ -1,0 +1,151 @@
+{
+  "explicit_symmetry_fallback_passed": true,
+  "invalid_structure_raises_explicit_error": true,
+  "passed": true,
+  "samples": [
+    {
+      "material_id": "wbm-1-5951",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-5952",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-5953",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-5954",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-5955",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-5956",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-5957",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-5958",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-23757",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-23762",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-23764",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "wbm-1-23766",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "synthetic_single_site",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    },
+    {
+      "material_id": "synthetic_skew_cell",
+      "max_absolute_float32_differences": {
+        "pbc_wrapping": 0.0,
+        "shared_public_and_worker_function": 0.0,
+        "site_permutation": 0.0,
+        "target_stress_site_property_injection": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "scope": "Integer coordinate wrapping and site-order invariance; lattice-basis/cell-size invariance is not claimed.",
+  "signature": "(structure: 'Structure') -> 'np.ndarray'",
+  "summary_files_read_by_extractor": false,
+  "summary_or_target_arguments_accepted": false
+}

@@ -1,0 +1,29 @@
+{
+  "frozen_utc": "2026-10-21T17:52:14.412909+00:00",
+  "status": "frozen_before_CHGNet_and_candidate_QE",
+  "cohort": "First8CaMg2O3SG2attempts, not the later six-formula pool",
+  "attempt_count": 8,
+  "all_attempt_ids": [
+    "phase3_early_CaMg2O3_attempt_000",
+    "phase3_early_CaMg2O3_attempt_001",
+    "phase3_early_CaMg2O3_attempt_002",
+    "phase3_early_CaMg2O3_attempt_003",
+    "phase3_early_CaMg2O3_attempt_004",
+    "phase3_early_CaMg2O3_attempt_005",
+    "phase3_early_CaMg2O3_attempt_006",
+    "phase3_early_CaMg2O3_attempt_007"
+  ],
+  "source_summary": "artifacts/phase3/generation/early_CaMg2O3/summary.json",
+  "source_summary_sha256": "05dca415e70331a8d6aa4990921e4f954870408294716ad5c2defe5d6c054085",
+  "protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "initial_selector_path": "artifacts/phase3/models/fresh_selector_seed_20261022.joblib",
+  "initial_selector_sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+  "selector_frozen_utc": "2026-10-21T17:43:52.930281+00:00",
+  "source_features_module_sha256": "8ce7f03a3b1f7aaa4d15a3b2bb85cb33c0c98c263c805c6454d7ecb993a1a6aa",
+  "selection_module_sha256": "68374dd88f03cf6f3652c79a46774993bdc3bb936459da214870ddfec07e1f7c",
+  "valid_unique_candidates": [],
+  "selected": [],
+  "zero_candidate_behavior": "FrozenknownMgOattempt000fallback; no additional CaMg2O3 sampling or candidate substitution",
+  "model_scoring_uses_initial_geometry_only": true,
+  "CHGNet_or_QE_energies_used_for_selection": false
+}

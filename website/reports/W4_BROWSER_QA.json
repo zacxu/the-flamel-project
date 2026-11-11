@@ -1,0 +1,519 @@
+{
+  "phase": "W4",
+  "checks": [
+    {
+      "name": "Real WebGL viewer reaches ready with eight physical sites",
+      "passed": true
+    },
+    {
+      "name": "Catalog exposes all14 entities and11 model results",
+      "passed": true
+    },
+    {
+      "name": "Auto-rotation and touch capture start disabled",
+      "passed": true
+    },
+    {
+      "name": "Physical site selector retains saved index/species/raw coordinates",
+      "passed": true
+    },
+    {
+      "name": "Raw coordinate tables remain available alongside live viewer",
+      "passed": true
+    },
+    {
+      "name": "Zoom button changes actual camera distance",
+      "passed": true,
+      "detail": {
+        "before": "Camera distance 12.911 Å · azimuth 40.2° · polar 63.4°. Orientation is relative to the viewer axes and updates after manual movement or when auto-rotation stops.",
+        "after": "Camera distance 10.759 Å · azimuth 40.2° · polar 63.4°. Orientation is relative to the viewer axes and updates after manual movement or when auto-rotation stops."
+      }
+    },
+    {
+      "name": "Canvas arrow key changes actual camera orientation",
+      "passed": true
+    },
+    {
+      "name": "Home restores the saved initial camera",
+      "passed": true
+    },
+    {
+      "name": "Changing saved stage replaces the canvas without a second renderer",
+      "passed": true
+    },
+    {
+      "name": "Generated-stage source drawer includes saved symmetry evidence",
+      "passed": true
+    },
+    {
+      "name": "Saved stage renders phase1_mgo_attempt_000--generated",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 8,
+        "stage": "phase1_mgo_attempt_000--generated"
+      }
+    },
+    {
+      "name": "Saved stage renders phase1_mgo_attempt_000--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 8,
+        "stage": "phase1_mgo_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders phase1_mgo_attempt_000--accepted_dft",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 8,
+        "stage": "phase1_mgo_attempt_000--accepted_dft"
+      }
+    },
+    {
+      "name": "Saved stage renders phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 8,
+        "stage": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated"
+      }
+    },
+    {
+      "name": "Saved stage renders phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 8,
+        "stage": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders phase4_tio2_rutile_nontrivial_attempt_000--generated",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "phase4_tio2_rutile_nontrivial_attempt_000--generated"
+      }
+    },
+    {
+      "name": "Saved stage renders phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders phase4_tio2_rutile_p1_attempt_000--generated",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "phase4_tio2_rutile_p1_attempt_000--generated"
+      }
+    },
+    {
+      "name": "Saved stage renders phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "phase4_tio2_rutile_p1_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_SnSrO2--prototype_initial",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 4,
+        "stage": "prototype_SnSrO2--prototype_initial"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_SnSrO2--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 4,
+        "stage": "prototype_SnSrO2--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_BaSnO2--prototype_initial",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 4,
+        "stage": "prototype_BaSnO2--prototype_initial"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_BaSnO2--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 4,
+        "stage": "prototype_BaSnO2--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_CaMg2O3--prototype_initial",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "prototype_CaMg2O3--prototype_initial"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_CaMg2O3--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "prototype_CaMg2O3--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_Mg2SrO3--prototype_initial",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "prototype_Mg2SrO3--prototype_initial"
+      }
+    },
+    {
+      "name": "Saved stage renders prototype_Mg2SrO3--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "prototype_Mg2SrO3--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders reference_rocksalt--catalog_initial",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 8,
+        "stage": "reference_rocksalt--catalog_initial"
+      }
+    },
+    {
+      "name": "Saved stage renders reference_rocksalt--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 8,
+        "stage": "reference_rocksalt--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders reference_rutile--catalog_initial",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "reference_rutile--catalog_initial"
+      }
+    },
+    {
+      "name": "Saved stage renders reference_rutile--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 6,
+        "stage": "reference_rutile--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders reference_anatase--catalog_initial",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 12,
+        "stage": "reference_anatase--catalog_initial"
+      }
+    },
+    {
+      "name": "Saved stage renders reference_anatase--model_relaxed",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 12,
+        "stage": "reference_anatase--model_relaxed"
+      }
+    },
+    {
+      "name": "Saved stage renders phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 12,
+        "stage": "phase3_early_CaMg2O3_attempt_005--generated_excluded"
+      }
+    },
+    {
+      "name": "Saved stage renders qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 2,
+        "stage": "qe_source_reference_mgo_mp1265--accepted_dft"
+      }
+    },
+    {
+      "name": "Saved stage renders qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true,
+      "detail": {
+        "canvases": 1,
+        "sites": 2,
+        "stage": "qe_source_reference_cao_mp2605--accepted_dft"
+      }
+    },
+    {
+      "name": "All26 saved stages were inspected in actual browser",
+      "passed": true
+    },
+    {
+      "name": "Accepted CaO preserves unknown symmetry/tolerance",
+      "passed": true
+    },
+    {
+      "name": "Excluded12-atom geometry remains excluded with no accepted DFT option",
+      "passed": true
+    },
+    {
+      "name": "MgO one-per-arm model pair gives recorded356.879234meV/atom",
+      "passed": true
+    },
+    {
+      "name": "TiO2 one-per-arm model pair gives recorded55.806478meV/atom",
+      "passed": true
+    },
+    {
+      "name": "Cross-composition energy difference is blocked",
+      "passed": true
+    },
+    {
+      "name": "Model versus DFT energy difference is blocked",
+      "passed": true
+    },
+    {
+      "name": "QE reference mesh mismatch blocks energy difference",
+      "passed": true
+    },
+    {
+      "name": "Reload restores exact candidate and saved-stage identity",
+      "passed": true
+    },
+    {
+      "name": "Touch rotation explicitly opts into canvas capture",
+      "passed": true
+    },
+    {
+      "name": "Opt-in auto-rotation changes real camera and returns to manual mode",
+      "passed": true,
+      "detail": {
+        "before": "Camera distance 12.911 Å · azimuth 40.2° · polar 63.4°. Orientation is relative to the viewer axes and updates after manual movement or when auto-rotation stops.",
+        "after": "Camera distance 12.911 Å · azimuth 39.4° · polar 63.4°. Orientation is relative to the viewer axes and updates after manual movement or when auto-rotation stops."
+      }
+    },
+    {
+      "name": "Turning touch rotation off restores page-pan policy",
+      "passed": true
+    },
+    {
+      "name": "Overview uses the shared live MgO viewer with one canvas",
+      "passed": true
+    },
+    {
+      "name": "Leaving 3D views removes the canvas",
+      "passed": true
+    },
+    {
+      "name": "Browser touch-pointer fixture does not prevent default vertical page pan",
+      "passed": true
+    },
+    {
+      "name": "Actual WEBGL_lose_context transitions to saved scientific fallback",
+      "passed": true
+    },
+    {
+      "name": "Context loss retains metadata, coordinate access and selected CIF",
+      "passed": true
+    },
+    {
+      "name": "Context-loss retry constructs one working renderer",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion fixture disables auto-rotation with an explanation",
+      "passed": true
+    },
+    {
+      "name": "390px live viewer and camera controls fit without page overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile keyboard camera remains usable under reduced motion",
+      "passed": true
+    },
+    {
+      "name": "360px viewer and metadata fit page width",
+      "passed": true
+    },
+    {
+      "name": "360px hero uses one responsive live renderer",
+      "passed": true
+    },
+    {
+      "name": "Unavailable WebGL2 presents real saved figure and no false interactive state",
+      "passed": true
+    },
+    {
+      "name": "WebGL fallback retains8 raw sites, lattice,metadata andCIF",
+      "passed": true
+    },
+    {
+      "name": "Missing lazy viewer chunk falls back without hiding scientific evidence",
+      "passed": true
+    },
+    {
+      "name": "Actual draw exception disposes renderer and retains saved fallback",
+      "passed": true
+    },
+    {
+      "name": "Missing stage data produces scoped retry with no stale canvas/download",
+      "passed": true
+    },
+    {
+      "name": "Stage-data retry restores the same verified geometry andCIF",
+      "passed": true
+    },
+    {
+      "name": "Choosing static figure disposes interactive canvas",
+      "passed": true
+    },
+    {
+      "name": "Returning from figure creates a single interactive canvas",
+      "passed": true
+    },
+    {
+      "name": "Clean production build renders real WebGL with no console errors orwarnings",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "W3 replay still renders12 rows after leaving the viewer with no stale canvas",
+      "passed": true
+    }
+  ],
+  "layouts": [
+    {
+      "view": "Crystal Lab390",
+      "canvas": {
+        "bottom": 1587.640625,
+        "height": 283,
+        "left": 38,
+        "right": 337,
+        "top": 1304.640625,
+        "width": 299,
+        "x": 38,
+        "y": 1304.640625
+      },
+      "catalogScroll": 335,
+      "catalogWidth": 650,
+      "documentWidth": 375,
+      "surface": {
+        "bottom": 1588.640625,
+        "height": 285,
+        "left": 37,
+        "right": 338,
+        "top": 1303.640625,
+        "width": 301,
+        "x": 37,
+        "y": 1303.640625
+      },
+      "touchAction": "pan-y",
+      "width": 390
+    },
+    {
+      "view": "Crystal Lab360",
+      "canvasWidth": 269,
+      "documentWidth": 345,
+      "width": 360
+    },
+    {
+      "view": "Overview hero360",
+      "canvasWidth": 281,
+      "canvases": 1,
+      "documentWidth": 345,
+      "width": 360
+    }
+  ],
+  "captures": [
+    {
+      "status": "unavailable",
+      "reason": "Error: Timed out running CDP command \"Page.captureScreenshot\" for tab 7"
+    }
+  ],
+  "scope": "Actual local browser interactions on saved data; no scientific experiments.",
+  "status": "passed",
+  "checkedAt": "2026-10-22T11:49:51.926Z",
+  "checksPassed": 69,
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "savedStagesVisited": [
+    "phase1_mgo_attempt_000--generated",
+    "phase1_mgo_attempt_000--model_relaxed",
+    "phase1_mgo_attempt_000--accepted_dft",
+    "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated",
+    "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed",
+    "phase4_tio2_rutile_nontrivial_attempt_000--generated",
+    "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed",
+    "phase4_tio2_rutile_p1_attempt_000--generated",
+    "phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+    "prototype_SnSrO2--prototype_initial",
+    "prototype_SnSrO2--model_relaxed",
+    "prototype_BaSnO2--prototype_initial",
+    "prototype_BaSnO2--model_relaxed",
+    "prototype_CaMg2O3--prototype_initial",
+    "prototype_CaMg2O3--model_relaxed",
+    "prototype_Mg2SrO3--prototype_initial",
+    "prototype_Mg2SrO3--model_relaxed",
+    "reference_rocksalt--catalog_initial",
+    "reference_rocksalt--model_relaxed",
+    "reference_rutile--catalog_initial",
+    "reference_rutile--model_relaxed",
+    "reference_anatase--catalog_initial",
+    "reference_anatase--model_relaxed",
+    "phase3_early_CaMg2O3_attempt_005--generated_excluded",
+    "qe_source_reference_mgo_mp1265--accepted_dft",
+    "qe_source_reference_cao_mp2605--accepted_dft"
+  ],
+  "nativeWebGLRenderingVerified": true,
+  "actualContextLossVerified": true,
+  "loopbackOnlyFixtures": [
+    "reduced-motion preference",
+    "default touch-pointer pan policy",
+    "WEBGL_lose_context",
+    "missing WebGL2",
+    "missing viewer JS chunk",
+    "WebGL draw exception",
+    "missing stage JSON"
+  ],
+  "verificationLimits": [
+    "Page.captureScreenshot timed out; no pixel or screenshot review is claimed.",
+    "Touch pointer events and pan-y policy were exercised in browser; no physical touchscreen/device gesture is claimed.",
+    "Reduced motion was simulated by loopback matchMedia fixture, not a system preference change.",
+    "Native page-hidden delivery was not exercised; source wiring and injected frame-owner hidden/offscreen cancellation are separately verified. Broader visual/device coverage remains W6."
+  ]
+}

@@ -1,0 +1,3601 @@
+{
+  "checks": [
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase1_mgo_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase1_mgo_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase1_mgo_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase1_mgo_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase1_mgo_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase1_mgo_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase1_mgo_nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase1_mgo_nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase1_mgo_nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase3_early_CaMg2O3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase3_early_CaMg2O3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase3_early_CaMg2O3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase3_early_CaMg2O3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase3_early_CaMg2O3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase3_early_CaMg2O3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase3_early_CaMg2O3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase3_early_CaMg2O3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase3_early_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase3_early_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase3_early_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_mgo_rocksalt_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_mgo_rocksalt_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_mgo_rocksalt_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_mgo_rocksalt_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_mgo_rocksalt_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_mgo_rocksalt_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_mgo_rocksalt_p1",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_mgo_rocksalt_p1",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_mgo_rocksalt_p1",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_nontrivial_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_nontrivial_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_nontrivial_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_nontrivial_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_nontrivial_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_nontrivial_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_tio2_rutile_nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_tio2_rutile_nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_tio2_rutile_nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_tio2_rutile_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_tio2_rutile_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_tio2_rutile_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_tio2_rutile_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_tio2_rutile_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_tio2_rutile_p1_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_tio2_rutile_p1",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_tio2_rutile_p1",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_tio2_rutile_p1",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_SnSrO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_SnSrO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_SnSrO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_SnSrO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_SnSrO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_SnSrO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_SnSrO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_SnSrO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_SnSrO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_SnSrO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_SnSrO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_new_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_new_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_new_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_BaSnO2_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_BaSnO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_BaSnO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_BaSnO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_BaSnO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_BaSnO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_BaSnO2_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_new_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_new_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_new_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_Mg2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Mg2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Mg2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Mg2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Mg2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Mg2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Mg2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_new_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_new_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_new_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_Ca2ZnO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_Ca2ZnO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2ZnO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2ZnO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2ZnO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2ZnO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2ZnO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2ZnO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_new_Ca2ZnO3",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_new_Ca2ZnO3",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_new_Ca2ZnO3",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_001",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_002",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_003",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_004",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "New-formula non-exact ratio diagnostic has strictly larger cell phase4_new_Ca2SrO3_attempt_005",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_006",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_new_Ca2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_new_Ca2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_new_Ca2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_new_Ca2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_new_Ca2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_new_Ca2SrO3_attempt_007",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator primary_first8/phase4_new_Ca2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total primary_first8/phase4_new_Ca2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total primary_first8/phase4_new_Ca2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator supplementary_topup_only/nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total supplementary_topup_only/nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total supplementary_topup_only/nontrivial",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved source structure hash phase4_supplementary_mgo_rocksalt_p1_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Actual expanded composition/count phase4_supplementary_mgo_rocksalt_p1_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Exact frozen validity phase4_supplementary_mgo_rocksalt_p1_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Saved sampled symmetry phase4_supplementary_mgo_rocksalt_p1_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Diagnostic classification phase4_supplementary_mgo_rocksalt_p1_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Frozen topology deduplication phase4_supplementary_mgo_rocksalt_p1_attempt_011",
+      "passed": true
+    },
+    {
+      "check": "Unchanged draw denominator supplementary_topup_only/p1",
+      "passed": true
+    },
+    {
+      "check": "Frozen valid total supplementary_topup_only/p1",
+      "passed": true
+    },
+    {
+      "check": "Frozen unique total supplementary_topup_only/p1",
+      "passed": true
+    },
+    {
+      "check": "All 88 actual draws retained; four primary control arms",
+      "passed": true
+    },
+    {
+      "check": "Six fixed new formulas and 48 unchanged primary draws",
+      "passed": true
+    },
+    {
+      "check": "No admitted fresh transformer new-formula candidate",
+      "passed": true
+    },
+    {
+      "check": "Twelve larger-cell diagnostics remain excluded",
+      "passed": true
+    },
+    {
+      "check": "Larger-cell diagnostics cover all six attempted formulas",
+      "passed": true
+    },
+    {
+      "check": "Pinned complete same-composition control geometry index",
+      "passed": true
+    },
+    {
+      "check": "Pinned raw snapshot data/mp/2023-02-07-mp-computed-structure-entries.json.gz",
+      "passed": true
+    },
+    {
+      "check": "Pinned raw snapshot data/wbm/2023-12-13-wbm-summary.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Pinned complete composition index mp",
+      "passed": true
+    },
+    {
+      "check": "Complete mp population and unique IDs",
+      "passed": true
+    },
+    {
+      "check": "Complete mp unique compositions",
+      "passed": true
+    },
+    {
+      "check": "Saved control geometries exhaust same-composition MP entries with original source <=30 sites",
+      "passed": true
+    },
+    {
+      "check": "Pinned complete composition index wbm",
+      "passed": true
+    },
+    {
+      "check": "Complete wbm population and unique IDs",
+      "passed": true
+    },
+    {
+      "check": "Complete wbm unique compositions",
+      "passed": true
+    },
+    {
+      "check": "Independent frozen-catalog composition absence SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Independent frozen-catalog composition absence BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Independent frozen-catalog composition absence CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Independent frozen-catalog composition absence Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Independent frozen-catalog composition absence Ca2ZnO3",
+      "passed": true
+    },
+    {
+      "check": "Independent frozen-catalog composition absence Ca2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Saved <=30-source-site same-composition MP geometry subset: 15 MgO and 34 TiO2",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Final relaxed source hash reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Final atom normalization reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Saved energy divided by actual expanded sites reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Final measured relaxed group reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet cell-filter convergence reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "All eleven selected relaxed structures, four prototypes and three references",
+      "passed": true
+    },
+    {
+      "check": "Both selected symmetry-conditioned controls recover known catalog phases",
+      "passed": true
+    },
+    {
+      "check": "TiO2 reference ordering reproduced within one composition",
+      "passed": true
+    },
+    {
+      "check": "Frozen prepared prototype prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Prepared prototype target composition prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Prototype relaxation preserves full atom counts prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Frozen prepared prototype prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Prepared prototype target composition prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Prototype relaxation preserves full atom counts prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Frozen prepared prototype prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Prepared prototype target composition prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Prototype relaxation preserves full atom counts prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Frozen prepared prototype prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Prepared prototype target composition prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Prototype relaxation preserves full atom counts prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Accepted generated DFT MgO matches known independently relaxed reference",
+      "passed": true
+    },
+    {
+      "check": "Both accepted DFT MgO structures have rock-salt group 225",
+      "passed": true
+    },
+    {
+      "check": "Same-composition accepted DFT energy difference reproduced",
+      "passed": true
+    },
+    {
+      "check": "Known DFT control within fixed comparison tolerance and finite numerical checks",
+      "passed": true
+    },
+    {
+      "check": "Complete frozen competitor inventory and accepted reference coverage Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1008498/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1009127/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1009129/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1009490/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1016235/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1016276/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1023508/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1023923/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1024043/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038724/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038760/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038840/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038862/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038866/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038937/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038946/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038953/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038961/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038987/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038991/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1038993/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039028/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039033/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039086/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039108/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039117/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039120/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039142/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039148/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039167/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039199/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039227/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039230/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039233/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039273/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039317/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039318/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039330/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039332/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039340/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039350/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039360/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039368/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039382/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039383/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039385/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039390/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039393/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039397/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039403/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039409/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039411/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039421/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039430/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039439/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039441/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039462/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039467/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039468/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039493/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039528/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039529/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039531/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039536/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039552/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1039570/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1055956/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056059/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056351/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056702/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056831/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1057818/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1058623/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1062228/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1064227/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1064492/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1065577/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1065697/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1066100/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1067285/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-10683/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1078638/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1079707/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1087546/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094122/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094702/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094734/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094735/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094852/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094857/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094906/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094922/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094989/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094998/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1095005/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1095016/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1095665/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1096803/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-110/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1101930/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1102442/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1120811/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180008/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180036/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180050/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180064/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180260/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180271/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180312/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180973/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1181903/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1181909/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1182183/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1182382/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1183430/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1183455/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1183484/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1183532/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1183575/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1184449/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1190533/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1190649/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1191789/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1192043/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1192189/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1227541/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1244902/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1244962/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245039/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245045/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245128/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245143/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245157/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245195/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245200/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245232/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245305/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245393/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1247180/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1265/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-132/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-153/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-166/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-21/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-2421172/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-2432/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-2589/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-2605/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-45/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-545512/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-549706/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-560602/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-607540/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-610917/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-611836/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-634859/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-723285/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-734188/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-775808/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-776911/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-973364/Ca-Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Complete frozen competitor inventory and accepted reference coverage Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1009127/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1009129/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1009490/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1023923/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1055956/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056059/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056351/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056702/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1056831/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1057818/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1058623/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1065577/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1065697/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1066100/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1087546/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1094122/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1096803/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-110/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1101930/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1102442/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180008/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180036/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180050/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180064/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180260/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180271/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180312/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1180973/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1190533/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1190649/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1191789/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1192043/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1192189/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1244962/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245039/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245045/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245128/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245143/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245157/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245195/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245232/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1245393/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1247180/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-1265/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-153/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-2421172/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-2589/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-549706/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-560602/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-607540/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-610917/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-611836/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-723285/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-734188/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-775808/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-776911/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "Frozen original-source competitor geometry mp-973364/Mg-O",
+      "passed": true
+    },
+    {
+      "check": "No hull completion or post-outcome prototype promotion",
+      "passed": true
+    },
+    {
+      "check": "Time-limited MgO perturbation remains unaccepted",
+      "passed": true
+    },
+    {
+      "check": "Original empty new-formula transformer shortlist preserved",
+      "passed": true
+    },
+    {
+      "check": "Representative actual-structure PNG generated",
+      "passed": true
+    },
+    {
+      "check": "Standalone exportable actual-structure PDF generated",
+      "passed": true
+    }
+  ],
+  "checks_passed": 897,
+  "checks_total": 897,
+  "failed_checks": [],
+  "new_scientific_oracle_calls": 0,
+  "phase": 6,
+  "script_sha256": "92995ac86338a57b4fcc7706f6ff05013bf4d5afc6898e82ce9937252add21dd",
+  "source_hash_count": 298,
+  "status": "passed",
+  "summary_sha256": "b3aecafa64aefd28a8e3146022ad9cb84bc3e73c62d4ec27d2e3f8e96b32e931"
+}

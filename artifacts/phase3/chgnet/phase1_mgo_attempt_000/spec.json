@@ -1,0 +1,9 @@
+{
+  "candidate_id": "phase1_mgo_attempt_000",
+  "job_id": "p3_chgnet_phase1_mgo_attempt_000",
+  "source_structure": "artifacts/phase1/generator/structure_000.json",
+  "source_structure_sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035",
+  "worker_token": "a887cdfed3b24c5f845207d58832ea44",
+  "selection_sha256": "20f4189242198352db575e840f827ef904641583c79de1ce4f21a598c4e748f8",
+  "category": "contingency"
+}

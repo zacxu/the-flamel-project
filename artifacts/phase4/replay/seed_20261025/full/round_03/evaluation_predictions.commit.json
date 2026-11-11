@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-22T01:56:26.554928+00:00",
+  "material_ids_sha256": "adcdbdc895356f9632f1b1a7b065366636cd13fd2162622acc9542bb1c424fd1",
+  "model_training_ids_sha256": "81ccf266bf650877182a63404f67c8d44fbec189b3fca7574faca9da85e8af0b",
+  "oracle_labels_in_file": false,
+  "path": "artifacts\\phase4\\replay\\seed_20261025\\full\\round_03\\evaluation_predictions.npz",
+  "rows": 3418,
+  "sha256": "753e3c9c3bc8af0c38296b8ef6f6ebee6eb4ac2dee89afdf53ae8faf9f3c08b6",
+  "stage": "full_round_3_after_refit"
+}

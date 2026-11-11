@@ -1,0 +1,5 @@
+candidate_id,parent_material_id,target_formula,atoms,initial_geometry_valid,CHGNet_converged,final_spacegroup,CHGNet_energy_eV_per_atom,fresh_DFT_submitted,stable_material_established
+prototype_SnSrO2,mp-1018032,SnSrO2,4,True,True,123,-6.041627883911133,False,False
+prototype_BaSnO2,mp-753619,BaSnO2,4,True,True,123,-5.952028751373291,False,False
+prototype_CaMg2O3,mp-1222123,CaMg2O3,6,True,True,164,-6.384627024332683,False,False
+prototype_Mg2SrO3,mp-1222123,Mg2SrO3,6,True,True,164,-6.140673955281575,False,False

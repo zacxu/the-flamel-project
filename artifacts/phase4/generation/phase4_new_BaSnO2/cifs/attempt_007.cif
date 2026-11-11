@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba2SnO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16159201
+_cell_length_b   7.00617409
+_cell_length_c   7.66475153
+_cell_angle_alpha   102.07727814
+_cell_angle_beta   93.77417755
+_cell_angle_gamma   110.70314789
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2SnO3
+_chemical_formula_sum   'Ba4 Sn2 O6'
+_cell_volume   299.10826817
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.27235836  0.13771705  0.71192867  1
+  O  O1  1  0.72764164  0.86228293  0.28807133  1
+  Sn  Sn2  1  0.29477045  0.18253268  0.23299767  1
+  Sn  Sn3  1  0.70522952  0.81746733  0.76700234  1
+  O  O4  1  0.34955433  0.65647751  0.14391048  1
+  O  O5  1  0.65044570  0.34352249  0.85608953  1
+  O  O6  1  0.34995973  0.19606702  0.49546897  1
+  O  O7  1  0.65004027  0.80393296  0.50453103  1
+  Ba  Ba8  1  0.79778701  0.27948508  0.54730606  1
+  Ba  Ba9  1  0.20221299  0.72051489  0.45269394  1
+  Ba  Ba10  1  0.80263817  0.70564640  0.06349074  1
+  Ba  Ba11  1  0.19736183  0.29435360  0.93650925  1

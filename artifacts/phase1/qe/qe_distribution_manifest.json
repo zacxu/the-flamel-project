@@ -1,0 +1,705 @@
+{
+  "setup_at_utc": "2026-10-21T16:30:54.675170+00:00",
+  "distribution": "QMatSuite third-party QE 7.5 Windows build",
+  "upstream_release": "qe-7.5-win-oneapi-msmpi",
+  "archive": {
+    "source": "https://github.com/QMatSuite/quantum-espresso-windows-exe/releases/download/qe-7.5-win-oneapi-msmpi/qe-7.5-win-oneapi-msmpi.zip",
+    "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi.zip",
+    "bytes": 400430691,
+    "sha256": "e50ec7368a5b7a964eb5084e0a13464ba2628d4e147c16227e876002ea34fdf7",
+    "verified_algorithm": "sha256",
+    "expected_digest": "e50ec7368a5b7a964eb5084e0a13464ba2628d4e147c16227e876002ea34fdf7",
+    "observed_digest": "e50ec7368a5b7a964eb5084e0a13464ba2628d4e147c16227e876002ea34fdf7",
+    "checked_at_utc": "2026-10-21T16:30:40.497816+00:00",
+    "setup_elapsed_seconds": 1.195599200000288
+  },
+  "files": [
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\abcoeff_to_eps.exe",
+      "bytes": 34416,
+      "sha256": "6a23fab1559a926d3c6cdf05b999780ba3039cd79df0dfdfb867fcaa07e72544"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\all_currents.exe",
+      "bytes": 15378544,
+      "sha256": "4cab95d5e14aae99c8ed18c1bfcf877ec5bd7b87cf9763f8ff63faafbf7d5526"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\alpha2f.exe",
+      "bytes": 13930096,
+      "sha256": "4ceb6fd36cb64abedfcf85a680bae76c6179e570455e05f1fdf91bc620b5c8b1"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\average.exe",
+      "bytes": 586352,
+      "sha256": "b73379348e5a57eae266989fc2829de781122188c1ca8e1f1adba70cbb2ef3ca"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bands.exe",
+      "bytes": 13265520,
+      "sha256": "e8c7a1ee8dbb113eb0bea1a6f056f6309558e938b2389f75ca0e59baf68d3fdd"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bands_unfold.exe",
+      "bytes": 403568,
+      "sha256": "431a897cc25b7716bfb5fbfc4b56e869115e36fe90a1ccf31ef19418dc1a375e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bse_main.exe",
+      "bytes": 14114928,
+      "sha256": "7c1d06472218bad05b5c69ca5dfbcbeb35237e00ac26ada703a76720f00d4ea1"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\casino2upf.exe",
+      "bytes": 243824,
+      "sha256": "215d083a4ff17c9557253929232570dfdefb288168dfe060b06b0bd2221b98c6"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cell2ibrav.exe",
+      "bytes": 340592,
+      "sha256": "8b00e04661c2ac603f08600038eee5e2b694d1ffda801fb700e1cbf2301e63a5"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cp.exe",
+      "bytes": 7468144,
+      "sha256": "14487dec2d1a7feecad53c25191cbf9ea8f9e18edea5e06db1497abaa65f6532"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cppp.exe",
+      "bytes": 1972336,
+      "sha256": "6270f11d444fea4dacc411d95760aed67d86f0f3e0460e9ef8ca5b10603d5f00"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\d3hess.exe",
+      "bytes": 13084784,
+      "sha256": "bfc192d9a4fa7c6afc1989c1de3f8c71fbed82cf642d236556f3b62b7f12cf34"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\disca.exe",
+      "bytes": 1324144,
+      "sha256": "053700741d9b32462dc6877f62e232318edbd4186bb6c6eb9cba0fa24d30562b"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dos.exe",
+      "bytes": 13053040,
+      "sha256": "ee7b6e24c01ebaf5e61bc5f888b010e66593d3a792d4e65883685640aa6eac1f"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dos_sp.exe",
+      "bytes": 100464,
+      "sha256": "8d2819ed70477f5db580ba30685fa1645ab624a37bab639c11ce8a3c22fc9594"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dvscf_q2r.exe",
+      "bytes": 13234288,
+      "sha256": "c5e881db3bd94f9801191ab383dc37d1339661f9462d42bc790c350051a997ce"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dynmat.exe",
+      "bytes": 671344,
+      "sha256": "20689b652d6979400365d86ad0b30616e143a87c15826e2a9faf2605e75b4b4d"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ef.exe",
+      "bytes": 46192,
+      "sha256": "9bde1583c0b9a39618387820c7ec0bf43f3bcd724d30126b7acf2c23eeb58795"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epa.exe",
+      "bytes": 557680,
+      "sha256": "f7a72390c2b5bd4b358f97398902643378e4a929bab37847a0a8689813406643"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epsilon.exe",
+      "bytes": 13093488,
+      "sha256": "973d83ef8ff5029bd1ce293ae328d2e289d560970871d482bfe9f89fbf69297b"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epsilon_Gaus.exe",
+      "bytes": 402544,
+      "sha256": "824c1bc1d950ad9c5330105a8dbaee89c3a1129334619b4970e7085920a4648e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epw.exe",
+      "bytes": 20755568,
+      "sha256": "bd345571c3eb88be97cc722eacc2e2b534190634c69d298a6f4afde2251f91a2"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ev.exe",
+      "bytes": 384112,
+      "sha256": "71ae9c74a9b3422733e626b6017458326ba25b97d86143eda9d66c2c091720bd"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd.exe",
+      "bytes": 13084272,
+      "sha256": "cb54403432fe75d593573cf87156fdf447dfb4bf7488ca62490bbb43549ba05e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd_ef.exe",
+      "bytes": 13107824,
+      "sha256": "006c55779164d90350f7b5a40b598125854a0886e4ac3e611f07ccf879830f19"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd_ifc.exe",
+      "bytes": 13118576,
+      "sha256": "9c95f09f0cb55f2e222f33ab58056cba1e21a5d197cfcbd73b12fe4fae290daa"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_int_0.exe",
+      "bytes": 105584,
+      "sha256": "a37959f07fcde4db2e01da399d385ae2b4666de3ab9e6060012f246ddc79f309"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_int_1.exe",
+      "bytes": 102000,
+      "sha256": "b898aaaf91162ba5017ca9b6e881962b74ddd66e4d771ba563c3cc3fabd198d6"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_proj.exe",
+      "bytes": 13084784,
+      "sha256": "b13f0e66bd976e6b0f8c67f7d3bd4f35bcb458b963243d1d8db222d78c156ace"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_velocity.exe",
+      "bytes": 13798000,
+      "sha256": "5293aac4491238197b3aa00fd2833bbdf6ce8e1fdd381d8e365516853f6c4bba"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fqha.exe",
+      "bytes": 31344,
+      "sha256": "b39b97fc9fa031781e3760e4584223985dae3ba91545206c95600acec81bfc16"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fs.exe",
+      "bytes": 13059696,
+      "sha256": "70998c27d9b5ca0f837aba1d64394e976d72f9c6387fc08a9cb393331ed9690e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\graph.exe",
+      "bytes": 32880,
+      "sha256": "ea17f0543cfa34414cae107d1ef0be3a52872471fe29a43a3cccbfc1cc7ff4d5"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\gww.exe",
+      "bytes": 2364016,
+      "sha256": "1acb18d875bb2143c3c789ae86c52e82990b704ce4a080575d694abed5782a0e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\gww_fit.exe",
+      "bytes": 1991792,
+      "sha256": "4e6544fdf5846ff2c9a82e3cd66a4503e5ce3ad64b28f7715242f735116ef3f3"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\head.exe",
+      "bytes": 16388208,
+      "sha256": "bbe8bfc49a601737bf7fb7f28d28795c2da13816f92a5c0705684c966039b425"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\hgh2qe.exe",
+      "bytes": 111216,
+      "sha256": "9efeaea13c6d56aaac4e6b018c37b1c888e9ec1542409c0a84f81772cf2728c6"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\hp.exe",
+      "bytes": 14848624,
+      "sha256": "8b3eadf960def823a1ee676c4fda25c8e89fa88433237f399d99db549dff6218"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ibrav2cell.exe",
+      "bytes": 342640,
+      "sha256": "3820aa1e5831e89d3502e379ad21a17ba525598184fd312602988d42c341a738"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\initial_state.exe",
+      "bytes": 13084784,
+      "sha256": "178ef59da0f1477bae79cda9f53c29ab6936b430f500f3eaec0ec551dc9fefc1"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcw.exe",
+      "bytes": 15624304,
+      "sha256": "fd7632ba62ad5e8d02d346bece219bf820af58f0f6a39ac9604a2114af72f562"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcwpp_interp.exe",
+      "bytes": 13715056,
+      "sha256": "2b9756b00c2fcd52fea2b640728ab8cd27f9f3354f54e38354172254c5f1e86f"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcwpp_sh.exe",
+      "bytes": 13263984,
+      "sha256": "025fc2a7f7aa96484b35cd6eaee6d94a2ac0f240616a2da68ba95b15df7559bc"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kpoints.exe",
+      "bytes": 473712,
+      "sha256": "5db47b69e8bc695e758846516ff6cf33342d7ad242aca6f72b3699343cba3443"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\lambda.exe",
+      "bytes": 333936,
+      "sha256": "7a1e42f78547a0f28d220d287139593d27b1fd36cc508c2de784b7be2656be0c"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ld1.exe",
+      "bytes": 2838128,
+      "sha256": "150c7de5aa3a56d89993a3b1c00d193bda0912f93082757f2a6c2245f8884895"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libifcoremd.dll",
+      "bytes": 1298288,
+      "sha256": "d064b8475d882f7388ea87f4b7c27030e5c56d9d6bd74bf2ad643999e63a55b3"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libifportmd.dll",
+      "bytes": 414064,
+      "sha256": "e91ec6f1f510f5cb5d29dafab7789b8ae6f12a108856467f888e043e08d8b63f"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libiomp5md.dll",
+      "bytes": 1614192,
+      "sha256": "982233366b0afcda1e0f55a0b134097e35b779613f54ddb69e685e6cd06b755f"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libmmd.dll",
+      "bytes": 4185968,
+      "sha256": "435cfb05bb6a431d9dc0755416743f17b362c02aa04a122a5833a094e8dc7a1e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\manycp.exe",
+      "bytes": 7468144,
+      "sha256": "57cc6e5a4d844a19ae050bb60bf56e9edf684907b18a72d785a27abbedca8142"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\matdyn.exe",
+      "bytes": 1580656,
+      "sha256": "f9de1393cbd6693b13bda8c93f2db0d8a5ee3f44607122eaf26e33913d73f1ae"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\memory_pw4gww.exe",
+      "bytes": 27760,
+      "sha256": "dd44bfcbcbf8535c43887eba8975d45913035b20702e04b1dd0814ba7e399cef"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\merge_wann.exe",
+      "bytes": 84080,
+      "sha256": "f79603f85a73941fcd4b30e00658c8efc3241e75ada7b78491a02a967aca9a11"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_avx2.2.dll",
+      "bytes": 41325672,
+      "sha256": "10df56092f42e8bf1a6b23a4333d089bb4b4a7d2480d1cdc0dfb286cada82cd5"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_core.2.dll",
+      "bytes": 67388008,
+      "sha256": "96080d61cb5c2b4505e02ea3f7e5ac78f6328a526f0e9adf1294bac2bb679183"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_def.2.dll",
+      "bytes": 32915048,
+      "sha256": "cf56a58cec93c8d6fe161cdd48a03a177e90e3f0feee74d4211befb976f46de5"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_intel_thread.2.dll",
+      "bytes": 38777448,
+      "sha256": "8be35823047b6fbe450e11d57d79de67be020b38ea3d26e340a9eb51fe8faa04"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_mc3.2.dll",
+      "bytes": 40697448,
+      "sha256": "ff5e73d4a4f95ab1872037170e3259f9ca3a9220e0fef38bbeb8487377709d14"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_rt.2.dll",
+      "bytes": 28383336,
+      "sha256": "95844d971f88ad0acaf07bcb13762e53a5b9bc5c1b1fab65c3a7639c2103cb7d"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_vml_avx2.2.dll",
+      "bytes": 15323240,
+      "sha256": "17bc089a2b08ca7aa35dbda4eb472bee2c6d4fee5f092198b0e8c3740fe4da44"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\molecularnexafs.exe",
+      "bytes": 84080,
+      "sha256": "8fea953d4ce02b907be64040b8c9f0c822d554cdfeecaf4d367833ebc6c57457"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\molecularpdos.exe",
+      "bytes": 508528,
+      "sha256": "7951d999ba4488336ee1d1fdede5037d4e95b8b72deea0bd9cb7a4089d037bf6"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mpiexec.exe",
+      "bytes": 548464,
+      "sha256": "053a5e7b8144bcb4eb8c4e59207afa51821559b62296dfb5e631bb6440b71774"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\msmpi.dll",
+      "bytes": 1631000,
+      "sha256": "f04f6a9a25bb2862898049e0254526a31c89197a546dcbf7139a60995fc6f79d"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\neb.exe",
+      "bytes": 15479920,
+      "sha256": "76412e07c9b9c0eac8a8cde422c6809ee3b98d021eb21cb654142993c600296d"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\nscf2supercond.exe",
+      "bytes": 13050992,
+      "sha256": "0f11b9e438d82f14397e5c249c3df7c7a3df4945863a274da72d9ef184cf8724"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\open_grid.exe",
+      "bytes": 13064304,
+      "sha256": "063bd5e8a6e8a0601454b88ab122501d6606026f30ce9c4f2fdb150ae3160d00"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\path_interpolation.exe",
+      "bytes": 412784,
+      "sha256": "34a7daa60a7fa082f0e8ee2bde8a658cee1ce84bb9ee2de08fd7965329af3e3e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pawplot.exe",
+      "bytes": 13069936,
+      "sha256": "2662faca219c6f8428aa082fb336968058a46c3c8df38235141f6daac546c339"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ph.exe",
+      "bytes": 17223792,
+      "sha256": "4cf94515c70f616b6043e9e94b9003c821c4b2163bfae79f02c6803ac65a5f41"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\phcg.exe",
+      "bytes": 14441584,
+      "sha256": "cd0984e5da64adb92c2168ee5a7040318435aebda773c9ac9e3944572e9a7b0d"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pioud.exe",
+      "bytes": 15926384,
+      "sha256": "e4d3ea83e273348833b9dbcb393c16c49b1dd4216464a032b3472371978639fa"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plan_avg.exe",
+      "bytes": 13077616,
+      "sha256": "c248d3416f35165343164150df9ed0e272db66dfced8ebcd80d67989c43c4ffe"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotband.exe",
+      "bytes": 391280,
+      "sha256": "a7c2409adc86af8c1e815aec5ede486af722c8e34ae4af8ae2685952b0cdb73c"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotproj.exe",
+      "bytes": 87664,
+      "sha256": "0c01d661d76118b38191d0307090a3123e248a650083617a1089165166a814c8"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotrho.exe",
+      "bytes": 130160,
+      "sha256": "366a23be945518e8015e5490e29a7f5dd5fd0edc33fcc50bb96c17300484980e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pmw.exe",
+      "bytes": 13066864,
+      "sha256": "9b99e03417fc572e8ba69c4461610569c443c1032a85fb1d5fe0351ca91f6592"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\postahc.exe",
+      "bytes": 13251184,
+      "sha256": "8aefb5693ec8bd484ef3935fd467442c66c2b57a9c5ff7e03a5a3cf6b1495c9a"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\postw90.exe",
+      "bytes": 1538672,
+      "sha256": "2d4382d1aaf9eddff91a1d1611b1471db740d0af704bc6ed6cdc4b4c0ee7adf0"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp.exe",
+      "bytes": 13382768,
+      "sha256": "d8563202a0b0d49c6741d88efdaf1e014ce31a76cbd6cec3741acd5bc8af23fb"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp_disca.exe",
+      "bytes": 403568,
+      "sha256": "131058d1a9c30dd15d664a839a1c40d8c9f296de277fb254d7df9c2e00bbcbe0"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp_spctrlfn.exe",
+      "bytes": 402544,
+      "sha256": "a91a4386a916ada76c76c13ad4e3ac0206fbbb4a7970ba1ce065cba72bfe8d40"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ppacf.exe",
+      "bytes": 14477936,
+      "sha256": "dd12bdfca3ac78bed1d70d3dd0d8bb1ba5894ead5178b3310df12e150dd89a56"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pprism.exe",
+      "bytes": 13507696,
+      "sha256": "2ef1ef2a3d26805ab9727369be4b4bae7f5c8d776f88e95d6e61f8473cb00573"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\projwfc.exe",
+      "bytes": 13438576,
+      "sha256": "794cecdacfc1672947a455c8c735894f69c07c761b8a86e518277fc3b88d866f"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw.exe",
+      "bytes": 16127600,
+      "sha256": "287ea5f329fd31d68f55516747ee6d67e5fdab7d05eb67403538944c54df0107"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2bgw.exe",
+      "bytes": 13359728,
+      "sha256": "84afb9a9061b8d8af239a264dd3046386cb3eab4ae56c4d9dfdaf88407dab1ac"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2critic.exe",
+      "bytes": 13053040,
+      "sha256": "1ea20622981a8a89a30d2ec5fb1b1a84f20ea21a886e0b708505326c75485466"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2gt.exe",
+      "bytes": 13096048,
+      "sha256": "6c522ae5a56173aa4f50410f365e9660d3ebf00b6f612645bbdc1dac396818a3"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2gw.exe",
+      "bytes": 13112944,
+      "sha256": "2740e13d0d03db46bcdb8df339bc88a5d5365dbb34c83f959a1ab5e3a1731224"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2wannier90.exe",
+      "bytes": 13890160,
+      "sha256": "1912773bbdf05fa75f1080114145862929ba6e3f7c5667a3021fcbadb8162872"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw4gww.exe",
+      "bytes": 14836848,
+      "sha256": "f3a4e4b8b870f0bc244f288ae79103eee69f10d36fc11bac31924c6eb8884f2e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pwcond.exe",
+      "bytes": 13630576,
+      "sha256": "5d033292915727d9ad641a358bfadbdad623db5791ae28f8c1124c076cce6d05"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pwi2xsf.exe",
+      "bytes": 351856,
+      "sha256": "d3868bf3f179c5a97e0e5cdffe80852ff5f893084bbafc4856f33a87b7faec07"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\q2qstar.exe",
+      "bytes": 964720,
+      "sha256": "04764dd1f83174eeb52befb64d4f718938aacd0c75e3a3602918cf4f7fc7d120"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\q2r.exe",
+      "bytes": 834160,
+      "sha256": "42f25d3257d7ffbf13003c6cb2e0b54a6f8798043b60e6710405b05ff59ac3e7"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\scan_ibrav.exe",
+      "bytes": 371312,
+      "sha256": "9865d600ecb1a032054c422430f8934ea70a16acbdf77f4e0b5fd755a67bc0c8"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple.exe",
+      "bytes": 13825648,
+      "sha256": "d96a35582087ad77fb051f2cb1ad8da74cb8b2dfa5c4b9d1a77f90849700a51c"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple_bse.exe",
+      "bytes": 542320,
+      "sha256": "ec2f4fe5b7298cb2557d74b32ba5ad80e44afab6f8513706fcaaa667ba111505"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple_ip.exe",
+      "bytes": 642160,
+      "sha256": "aa0cf905a46df3fe6b618d04aafea9d42b17921dbf932d6194614b60d2342509"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\smpd.exe",
+      "bytes": 425584,
+      "sha256": "fae03e8ecfb100b496a49af1331f9ea4cc543d956564e0694fd1c04486c7f4b0"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\spectra_correction.exe",
+      "bytes": 362096,
+      "sha256": "4a6d0b369790cf8736ea46f6f5ee297896fab0a251455390bf72b764d6841325"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\sumpdos.exe",
+      "bytes": 88688,
+      "sha256": "cb11aa280bed5b0cb71c93e9dd053961be96b5079a15bcacece1a58b99ac2949"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\svml_dispmd.dll",
+      "bytes": 18828656,
+      "sha256": "7d64d400128f0ddb68d96f8bb9a49a045ef278d8496f05961259b45adffe523c"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_davidson.exe",
+      "bytes": 14004848,
+      "sha256": "9160bef33284d874246e5fc550730e3b7fefb0b6632db65e1ffb419f1498c44d"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_eels.exe",
+      "bytes": 15231088,
+      "sha256": "aab74b90e295fa9414b4eaf31e0ab5787d9944aad654843d87182e64fa102d3d"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_lanczos.exe",
+      "bytes": 14093936,
+      "sha256": "a6f7aee3531916cd9877632b7fe8730fef552a84684bbb58c79a370180d0d8fb"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_magnon.exe",
+      "bytes": 15219824,
+      "sha256": "03b177c23ab1df45f11f97f506bce9a5109f72ad985d98d24669d93c35bf795e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_spectrum.exe",
+      "bytes": 479344,
+      "sha256": "f8d612c3a192c079b44f14cb559c750c878fa69232848abb7863ffaaf0328437"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\upfconv.exe",
+      "bytes": 487536,
+      "sha256": "7f157595a2118be8ac473b2af77db6dd36926a5139a03de578b832e227ad4689"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ups.exe",
+      "bytes": 13082224,
+      "sha256": "3062f36622cc1e7757a544497fb5b3ccbf8eb49ed6f7cac268596c29e51db434"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\virtual_v2.exe",
+      "bytes": 514672,
+      "sha256": "e01bbd8dfa8425d994acd22b1bba42d551120c08e8cce1511384114f657714bd"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\w90chk2chk.exe",
+      "bytes": 585840,
+      "sha256": "aa0110ce56898324ec6d7ddde2dabca487ec7ac31ac98ed57430b1bf661d88ac"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier2pw.exe",
+      "bytes": 13186672,
+      "sha256": "96318d1af2a97714a8bc0b871855c11dd5449f1db4f4ce51bfe1e37623190f98"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier90.exe",
+      "bytes": 1649776,
+      "sha256": "2dc16cb595875bbe5b7398acc6eaee2642d672c3cb21a38ee651be1d169edd98"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier_ham.exe",
+      "bytes": 13736560,
+      "sha256": "dd590d695048289d0a7c77e65e098f72fe09af8e36fa9f4b05120199b38bd1aa"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier_plot.exe",
+      "bytes": 13066352,
+      "sha256": "ef28ab993df4117c87aa015a4108d70955e7d996841999c5a60b36531f01c7ed"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wfck2r.exe",
+      "bytes": 13060720,
+      "sha256": "652ac8d96323b9c3d2f37a294531a00845be85a9a6c8c729044a7b0f02599e79"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wfdd.exe",
+      "bytes": 171120,
+      "sha256": "c9e9000fa65b1e3a1d2adb82f5755a52baa72df8c8a782219d30ce54ae75a584"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\xspectra.exe",
+      "bytes": 13379696,
+      "sha256": "849b7df954c795b23607de1d9855eb8f118994a8a226aee12d1a0eea5b9f67e7"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ZG.exe",
+      "bytes": 10394736,
+      "sha256": "90280bf870160e8288a8c1b432bc310c7afe40c589b8433057bba386bcac26c3"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\intel-oneapi\\license.htm",
+      "bytes": 94765,
+      "sha256": "c31e086950c5206a59718a95c0b3879d316a5f44188f42bae6f1971d3f13e72a"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\microsoft-msmpi\\MicrosoftMPI-Redistributable-EULA.rtf",
+      "bytes": 224476,
+      "sha256": "125d29a463c724ddb5eed6a14370f5ce74dfd063cfca3eddad2d50082eb62106"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\microsoft-msmpi\\MPI-Redistributables-TPN.txt",
+      "bytes": 13491,
+      "sha256": "e202e6c77b4ecb7be69e39d647be54bb5d076d90522e533d11dbaaacd618d7f8"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\d3q\\License",
+      "bytes": 391,
+      "sha256": "6231136db884b2af722fc1cbc3f810ac77b6e57ba790c2fe1e515d9cb87a199e"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\EPW\\License",
+      "bytes": 18349,
+      "sha256": "19404e184cf45ec991b54e1e6f05f847ad8f13fee2a51f3a2d9a960c8f7cb26b"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\fox\\LICENSE",
+      "bytes": 3482,
+      "sha256": "6533da3a3d40cb690098301b4aa5880ed57663f350a774fe0051fbbbe095d946"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\lapack\\LICENSE",
+      "bytes": 2314,
+      "sha256": "c40f5754e72de9812691410e966c434b1dcb43966110b526c8d7702e1b0d4c42"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\mbd\\LICENSE",
+      "bytes": 17099,
+      "sha256": "cde215e5b42363eb28ca2462c4558ff4807b38f383c537624c31e44657ac58f4"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\qe-gipaw\\LICENSE",
+      "bytes": 18349,
+      "sha256": "1f485e4427b3fa6dc43cf5ad8161d249c6ef18c3e7e4e40db47614ae6f635387"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\wannier90\\LICENSE",
+      "bytes": 18330,
+      "sha256": "12f34a96938fa3624518ed2c6dfd644746626f12f9e7cdbd0bf067c44a7f0e8c"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\License",
+      "bytes": 18349,
+      "sha256": "19404e184cf45ec991b54e1e6f05f847ad8f13fee2a51f3a2d9a960c8f7cb26b"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\THIRD_PARTY_NOTICES.txt",
+      "bytes": 1508,
+      "sha256": "31c72cbb626f1e0337e58bfc5b05c6b7a483eaae0d4cdfc53c9e2d228cebf68f"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\README.txt",
+      "bytes": 3831,
+      "sha256": "1b82f3ae2b4a86d5297e589b97bad3bd674db93e1d6b4568bc849f7fbe21c5a6"
+    },
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\VERSION.txt",
+      "bytes": 523,
+      "sha256": "31be46e411746ac9e9041f754d75be066755d91cd65f1af2800328a2bc7682e9"
+    }
+  ],
+  "executables": [
+    {
+      "path": "vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw.exe",
+      "bytes": 16127600,
+      "sha256": "287ea5f329fd31d68f55516747ee6d67e5fdab7d05eb67403538944c54df0107"
+    }
+  ]
+}

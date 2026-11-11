@@ -1,0 +1,52 @@
+# Workflow visual scientific review
+
+Reviewed on 23 October 2026 (Singapore time). Scope: the seven stage illustrations, captions, accessible SVG descriptions and surrounding workflow text in `src/components/WorkflowIllustration.tsx` and `src/views/Workflow.tsx`. This is a presentation review of frozen evidence; it adds no numerical experiment or scientific finding.
+
+**Result: no outstanding material scientific issue in the reviewed source.** All three requested clarifications are present: formula and space group condition CrystalFormer while exact cell size is checked after sampling; draws “reach” the eligibility gate; the two-sided uncertainty graphic is labelled “calibrated interval.”
+
+| Stage | Reviewed scientific scope | Local grounding |
+|---|---|---|
+| Propose | Oxide compositions, two pinned catalog checks, six new-to-reference proposals, separate known controls and four prototypes. Catalog absence does not establish global novelty or exclusion from generator pretraining. | `../../reports/phase2_report.md`, catalog/composition section; `../../artifacts/phase6/structures/composition_novelty.csv` |
+| Generate | Frozen pretrained CrystalFormer v0.6, autoregressive sampling, formula and space-group conditioning, conceptual periodic output. P1 and nontrivial conditioning use the same symmetry-aware architecture. The requested six-atom cell is a downstream gate, not an exact-size model input. | `../../vendor/CrystalFormer/README.md`, model card; `../../vendor/CrystalFormer/crystalformer/src/sample.py`; `../../scripts/phase3_generate.py` |
+| Screen | Frozen composition, exact evaluated-cell and geometry checks. The twelve-atom CaMg2O3 example fails the six-atom cell requirement. Zero of 48 new-formula draws qualify; 12 larger-cell diagnostic matches remain excluded. | `../../reports/phase6_report.md`, symmetry/composition section; `../../artifacts/phase6/structures/generation_draws.csv` |
+| Select | Five outer-bootstrap ExtraTrees members, each with 128 trees and 408 initial-only descriptors. Interval radius is q times max(member disagreement, 0.01 eV/atom). The five-policy historical replay reveals existing labels and stays separate from fresh QE. | `../../reports/phase3_report.md`, initial model section; `../../research_models.py`; `../../research_acquisition.py`; `../../reports/phase6_report.md`, acquisition section |
+| Relax | Conceptual neighbor graph and pretrained CHGNet energy; energy derivatives supply forces and stress. FIRE updates atomic coordinates and cell. Eleven selected results converge, including one verified cached reuse. The drawings are not observed geometries or trajectories. | `../../reports/phase5_report.md`; `../../artifacts/phase5/chgnet/summary.json`; installed `chgnet/model/model.py`, energy-derivative computation |
+| Validate | Predetermined known-MgO control and compatible source-reference branch; QE/PBE acceptance includes terminal electronic state, forces/full stress and finite cutoff/k-point sensitivity. Three accepted geometries do not establish a complete hull or a new stable material. | `../../reports/phase6_report.md`, fresh DFT section; `../../artifacts/phase6/evidence/fresh_DFT_evidence_table.csv`; `../../artifacts/phase6/evidence/reference_inventory_completeness.csv` |
+| Compare | Actual descriptive historical means: Quality 41.2 versus Full 29.4 near-stable hits per 50 queries; 32.8 versus 42.2 chemical systems. Five splits overlap. Known-MgO recovery, incomplete broader reference/perturbation validation and zero newly established stable materials remain explicit. | `../../reports/phase6_report.md`, acquisition and frozen-conclusion sections |
+
+The diagrams deliberately label conceptual geometry, token boxes, graph messages and wave curves as simplified representations. They do not depict literal layer layouts, measured candidate predictions, actual wavefunctions, a new trained transformer, or an uninterrupted successful new-formula discovery pipeline. Historical WBM hull-distance labels, CHGNet estimates and fresh QE energies remain separate quantities.
+
+Primary references checked for the model schematics:
+
+- [CrystalFormer official repository](https://github.com/deepmodeling/CrystalFormer): autoregressive symmetry-aware representation and symmetry reconstruction. The pinned local implementation defines the executed experiment.
+- [CHGNet official repository](https://github.com/CederGroupHub/chgnet) and [primary paper](https://doi.org/10.1038/s42256-023-00716-3): pretrained crystal graph potential and atomistic relaxation.
+- [ExtraTreesRegressor official documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html): estimator reference; the local protocol and source define the five outer-bootstrap members and frozen hyperparameters.
+
+This review assesses scientific presentation only. Browser layout, keyboard behavior, asset loading and deployment are verified separately by the implementation owner.
+
+## Architecture expansion reference check
+
+The subsequent request for more informative generalized model diagrams was checked against the pinned CrystalFormer `transformer.py`, `attention.py` and `sample.py`, plus the installed CHGNet `model/model.py`. The following blocks are faithful abstractions, rather than prescribed counts or literal layer layouts:
+
+- **CrystalFormer:** formula/space-group context and earlier Wyckoff, species and fractional-coordinate values; learned embeddings and periodic-coordinate features; repeated causal self-attention and feed-forward transformations; output distributions for discrete Wyckoff/species and continuous periodic coordinates/lattice parameters; autoregressive sampling with symmetry/Wyckoff constraints; reconstruction of the periodic cell. The source uses categorical discrete outputs, von Mises coordinate mixtures and Gaussian lattice mixtures. In this study the space group is fixed by the sampling condition, and the exact expanded atom count remains a screening gate.
+- **CHGNet:** periodic species/positions/cell; an atom-neighbor graph and an auxiliary bond graph carrying angle connections; atomic embeddings and distance/angle basis embeddings; coupled atom, bond and angle feature updates; site-energy readout and pooling; energy derivatives supplying forces and stress; FIRE updates of positions and cell. “Atom, bond and angle features” is accurate; three independent input graphs would not accurately describe this implementation. Charge-aware pretraining does not imply that this project supplied explicit charges, trained a charge head or investigated charge prediction.
+
+The [CrystalFormer primary paper](https://arxiv.org/html/2403.15734v3) supports the representation and general mechanism; its original MP-20 training experiment and listed hyperparameters are not the identity of this study's v0.6 checkpoint. The [pinned implementation](https://github.com/deepmodeling/CrystalFormer/blob/31bb734a3fd006af49a021921839061e6184cbf1/crystalformer/src/transformer.py) and local model card define the executed Alex-20s pretrained model. The [CHGNet paper](https://www.nature.com/articles/s42256-023-00716-3), especially Figure 1 and Methods, supports its graph/embedding/interaction/readout abstraction; the [official project documentation](https://chgnet.lbl.gov/) describes the pretrained potential and structure optimization.
+
+Suitable contribution framing is the integrated budget-aware workflow and controlled evaluation: calibrated uncertainty/acquisition, chemical-system-held-out historical replay, matched symmetry-conditioning cohorts, frozen eligibility gates, model relaxation and traceable QE checks. This does not imply a new transformer architecture, retrained CrystalFormer/CHGNet, successful fresh-candidate policy comparison, complete hull or newly stable material. A proposed expansion must retain those boundaries when implemented.
+
+The updated contribution copy in `src/views/Overview.tsx` and `src/views/Workflow.tsx` was also reviewed. It credits CrystalFormer and CHGNet as pretrained models and attributes the decision/evaluation pipeline, controlled comparisons, eligibility gates and inspectable evidence to this project. “Turning crystal generation into a testable discovery workflow” is supported as a description of the prototype's contribution. The text makes no priority, new-model-architecture, causal architectural-benefit or successful-material-discovery claim. Existing result and scope sections retain the negative acquisition outcome and empty new-formula path. No material scope correction is required for this contribution copy.
+
+## Final expanded-diagram review
+
+**Approved for scientific presentation:** the revised 220-unit Generate and Relax diagrams were read directly after implementation. CrystalFormer's structured inputs, periodic features, causal multi-head attention, pre-normalization/residual additions, feed-forward transformation and discrete/continuous outputs are faithful generalized blocks. Their order is consistent with the pinned pre-normalized transformer; unspecified layer counts and omitted implementation detail are explicitly acknowledged. Symmetry reconstruction remains separate from the downstream exact-cell gate.
+
+CHGNet now correctly shows two graph constructions with atom/bond/angle features, coupled messages, site-energy readout/pooling and forces/stress obtained from the total model-energy derivatives. The diagram correctly treats FIRE as the optimizer using those derivatives. Site energies are conceptual contributions to total model energy; the study's reported CHGNet values are normalized by actual atom count in the saved result tables. Neither model diagram claims a new trained architecture, exact layer layout, observed candidate geometry or DFT trajectory. No outstanding material scientific issue was found in the expanded component or contribution copy.
+
+Reviewed source SHA256 values (refreshed after the comparison bars adopted the existing shared policy-colour helper; scientific text and diagram mechanisms are unchanged):
+
+| File | SHA256 |
+|---|---|
+| `src/components/WorkflowIllustration.tsx` | `7674ca367f58542b9da666d1a7733b498de68058c1ebf8ac63efc1c4e5f9db51` |
+| `src/views/Workflow.tsx` | `b922f7a47ff84d6317cf19d6e830b7f55ba38265af2f313e34e6989081435c8c` |
+| `src/views/Overview.tsx` | `231682ccf0882ce8d3907b3b1c8b1d97985072730fed1095938f96bd9cf0b767` |

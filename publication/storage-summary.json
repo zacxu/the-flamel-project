@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "tool_version": "1.0.0",
+  "prepared_utc": "2026-11-10T18:36:24.754680+00:00",
+  "status": "COMPLETE_PHASE2_CONTENT_DISPOSITION",
+  "input_files": 105566,
+  "input_bytes": 19209861909,
+  "directories_including_root": 11079,
+  "categories": {
+    "recreate": {
+      "files": 94868,
+      "bytes": 13340019207
+    },
+    "git": {
+      "files": 5118,
+      "bytes": 297230585
+    },
+    "release": {
+      "files": 5579,
+      "bytes": 5572611064
+    },
+    "private_backup": {
+      "files": 1,
+      "bytes": 1053
+    }
+  },
+  "required_website_inputs": 103,
+  "crystalformer_git_source_files": 86,
+  "qe_git_notices": 13,
+  "git_input_files": 5118,
+  "git_input_bytes": 297230585,
+  "largest_git_file_bytes": 20705627,
+  "all_git_input_files_verified_in_review_tree": true,
+  "active_image_sidecars_in_git": 33,
+  "all_deployment_bin_files_in_git": 60,
+  "release_archive_count": 14,
+  "release_archive_bytes": 5582625555,
+  "project_release_members": 5579,
+  "production_release_members": 130,
+  "existing_ignore_conflicts": [
+    {
+      "path": "artifacts/phase1/chgnet_relaxation/attempt_01_cpu/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase1/chgnet_relaxation/attempt_02_cuda/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase1/chgnet_relaxation/attempt_03_cpu/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase1/chgnet_relaxation/attempt_04_cuda/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/trajectory.pkl",
+      "rule": "*.pkl"
+    },
+    {
+      "path": "vendor/CrystalFormer/.github/workflows/tests.yml",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/.gitignore",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/LICENSE",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/MODEL_CARD.md",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/README.md",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/__init__.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/cli/__init__.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/cli/classifier.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/cli/cond_gen.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/cli/dataset.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/cli/train_dpo.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/cli/train_ppo.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/data/.gitkeep",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/data/wyckoff_list.csv",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/data/wyckoff_symbols.csv",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/extension/__init__.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/extension/experimental.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/extension/loss.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/extension/mcmc.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/extension/model.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/extension/train.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/extension/transformer.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/reinforce/__init__.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/reinforce/dpo.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/reinforce/ehull.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/reinforce/ppo.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/reinforce/reward.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/reinforce/vanilla.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/__init__.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/attention.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/checkpoint.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/elements.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/formula.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/lattice.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/loss.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/mcmc.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/rope.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/sample.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/train.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/transformer.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/utils.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/von_mises.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/crystalformer/src/wyckoff.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/data/atoms.json",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/data/mini.csv",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/imgs/crystalformer.png",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/imgs/csp.png",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/imgs/output.gif",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/main.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/mcp/README.md",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/mcp/csp_mcp.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/postprocess.sh",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/pyproject.toml",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/run/config/bright90.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/run/config/pmax.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/run/submit.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/README.md",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/analysis.ipynb",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/awl2struct.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/check_sun_materials.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/compute_csp_metrics.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/compute_metrics.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/compute_metrics_matbench.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/config.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/e_above_hull.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/e_above_hull_alex.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/element_substition.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/eval_utils.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/inspect_dataset.ipynb",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/mlff_relax.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/mlff_relax_batch.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/plot_embedding.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/predict_g.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/process_alex.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/structure_visualization.ipynb",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/scripts/symmetry.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/config.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_attention.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_fc_mask.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_formula.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_lattice.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_project.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_sampling.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_transformer.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_utils.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/CrystalFormer/tests/test_wyckoff.py",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/README.txt",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/THIRD_PARTY_NOTICES.txt",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/intel-oneapi/license.htm",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/microsoft-msmpi/MPI-Redistributables-TPN.txt",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/microsoft-msmpi/MicrosoftMPI-Redistributable-EULA.rtf",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/License",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/EPW/License",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/d3q/License",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/fox/LICENSE",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/lapack/LICENSE",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/mbd/LICENSE",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/qe-gipaw/LICENSE",
+      "rule": "vendor/"
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/wannier90/LICENSE",
+      "rule": "vendor/"
+    }
+  ],
+  "changed_or_new_since_phase1": [
+    "reports/github-publication-phase1/COMPLETION.sha256"
+  ],
+  "file_dispositions_sha256": "0b541e73b2461410a64343f2ec5f4a562a6c61540caddd8bf19a694c01995c22",
+  "artifacts_manifest_sha256": "afcd6f3ce400e68a075f7dc87bc5d08c8040a9042ae1669986ed25f8fc8dcc6b",
+  "git_inputs_manifest_sha256": "66018230feb1c1ca1198536f8824816720a88438cee90f2f2e8225b22bc09525",
+  "phase1_inventory_sha256": "0a224fb688a3bd99825e5e53dd999ad2c4874c42675b8715a6a05e580b6aa17d",
+  "phase1_backup_root": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
+  "local_archives": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\archives",
+  "local_git_review_tree": null,
+  "publication_uploaded": false,
+  "phase3_security_licence_clearance": false,
+  "control_output_paths": [
+    "GITHUB_CICD_PUBLICATION_PLAN.md",
+    "publication/",
+    "reports/GITHUB_PUBLICATION_PHASE2.md",
+    "reports/github-publication-phase2/",
+    "scripts/github_publication/prepare_storage.py",
+    "scripts/github_publication/artifact_io.py",
+    "scripts/github_publication/test_artifact_io.py"
+  ],
+  "cutoff_scope": "All input files except declared Phase2 generated-control paths. Those controls are separately sealed in the final external receipt.",
+  "generated_git_control_files": 28,
+  "final_git_file_count": 5146,
+  "final_project_file_count": 105594,
+  "control_seal": "D:\\Backups\\TheFlamelProject\\relocations\\20261111-to-D\\current-controls.json",
+  "archive_verification": "PASSED",
+  "project_restore": "PASSED",
+  "production_restore": "PASSED",
+  "portable_safety_fixtures_passed": 24,
+  "historical_phase2_counts": {
+    "generated_controls": 28,
+    "git_selected_files": 5146,
+    "project_files": 105594
+  },
+  "historical_phase2_paths": {
+    "phase1_backup_root": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
+    "local_archives": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\archives",
+    "local_git_review_tree": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\git-review-tree",
+    "control_seal": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\control-files.json"
+  },
+  "git_review_tree_status": "removed_verified_redundant_copy",
+  "historical_phase2_control_seal": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\control-files.json",
+  "current_generated_git_control_files": 30,
+  "current_control_sealed_files": 32,
+  "current_changed_frozen_input_overrides": 2,
+  "current_effective_frozen_input_files": 105564,
+  "current_effective_frozen_git_input_files": 5116,
+  "current_git_file_count": 5148,
+  "current_project_file_count": 105596,
+  "current_count_basis": "Phase 2 frozen inputs plus relocation generated controls; historical counts above are unchanged.",
+  "backup_relocation_cleanup_status": "complete",
+  "phase3": {
+    "status": "COMPLETE",
+    "git_selected_files": 5200,
+    "phase3_controls": 63,
+    "phase3_new_files": 53,
+    "withheld_git_inputs": 1,
+    "current_upstream_ignore_exceptions": 8,
+    "later_release_candidate_archives": 11,
+    "private_only_archives": 3,
+    "private_only_archive_members": 4812,
+    "release_selection": "publication/phase3/release-selection.json",
+    "integrity_report": "reports/GITHUB_PUBLICATION_PHASE3.md",
+    "historical_phase2_input_counts_unchanged": true,
+    "source_files_current": 105649
+  },
+  "phase4": {
+    "status": "COMPLETE",
+    "selected_files": 5260,
+    "new_files": 60,
+    "controls": 71,
+    "current_source_files": 105709,
+    "public_assets_manifest": "publication/phase4/public-assets.json",
+    "historical_manifest_unchanged": true
+  },
+  "phase5": {
+    "status": "PREPARED",
+    "git_selected_files": 5278,
+    "new_files": 18,
+    "controls": 28,
+    "repository": "zacxu/the-flamel-project",
+    "archives_uploaded": false
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "created_at_utc": "2026-10-22T02:18:33.181547+00:00",
+  "seed": 260022,
+  "source_geometry": "artifacts\\phase3\\qe\\p3_candidate_mgo_fallback_90\\final_geometry.json",
+  "source_geometry_sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf",
+  "source_result_sha256": "6ce32a95c693ac7bad1a886755837720dab3c74bb5bcd19f703043e2afad7db8",
+  "algorithm": "NumPy default_rng: eight independent normalized Gaussian directions of length0.01A, then Gaussian symmetric strain rescaled to maximum absolute principal strain0.005; strain lattice retaining fractional coordinates, then add Cartesian atomic displacements",
+  "atom_displacements_angstrom": [
+    [
+      -0.001378387850477425,
+      -0.007533114984752784,
+      -0.0064305696139727204
+    ],
+    [
+      0.0017510720884650443,
+      0.008316969177237324,
+      -0.005268943940286609
+    ],
+    [
+      -0.008286891968453352,
+      -0.005513022425736563,
+      0.0009664394634477005
+    ],
+    [
+      -0.0013326955077879244,
+      -0.0098689897862785,
+      0.0009093752151078843
+    ],
+    [
+      0.0026865583998368593,
+      -0.0058158649694175545,
+      0.00767841901837662
+    ],
+    [
+      -0.0009027217851008105,
+      0.00995768329814092,
+      -0.00017215316619156252
+    ],
+    [
+      0.009161418384255963,
+      0.00383984172497745,
+      -0.001150664467053307
+    ],
+    [
+      0.007103400865391248,
+      0.003511932072523374,
+      -0.006099838462085742
+    ]
+  ],
+  "atom_displacement_norms_angstrom": [
+    0.009999999999999998,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "symmetric_strain": [
+    [
+      0.001499391767968042,
+      -0.0014358931025480186,
+      -0.0023111992974364304
+    ],
+    [
+      -0.0014358931025480186,
+      6.355150044295184e-05,
+      0.0021707473131685725
+    ],
+    [
+      -0.0023111992974364304,
+      0.0021707473131685725,
+      0.0012367590800825244
+    ]
+  ],
+  "principal_strains": [
+    -0.0016443375777967593,
+    -0.0005559600737097229,
+    0.005000000000000002
+  ],
+  "geometry_path": "artifacts\\phase5\\qe\\perturbation\\final_geometry.json",
+  "geometry_sha256": "b510d3b6d0efce6f96a104f102be85fa5fe25c5583cb44cbeaa6404a13f8ad88",
+  "original_spacegroup_symprec_1e3": 225,
+  "perturbed_spacegroup_symprec_1e3": 1,
+  "scope": "Single deterministic local re-relaxation probe of known MgO; not a phonon test, hull test, new candidate or new composition"
+}

@@ -1,0 +1,1845 @@
+{
+  "phase": "W6",
+  "status": "passed",
+  "completedAt": "2026-10-22T13:45:12.661Z",
+  "checks": 458,
+  "failures": 0,
+  "historiesExercised": 25,
+  "automaticPhasesPerHistory": 9,
+  "platformTimerCancellationVerified": true,
+  "newScientificExperiments": 0,
+  "results": [
+    {
+      "check": "Human-readable recorded phase dwell is 1.4 seconds",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261022/full: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261022/quality_diversity: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261022/random: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261022/uncertainty: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261023/full: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261023/quality_diversity: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261023/random: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261023/uncertainty: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261024/full: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261024/quality_diversity: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261024/random: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261024/uncertainty: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261025/full: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261025/quality_diversity: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261025/random: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261025/uncertainty: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261026/full: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261026/quality_diversity: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261026/random: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: starts playing saved history",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: predictions dwell before first label reveal",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: exactly ten recorded labels reveal in batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: next preview retains completed budget after batch 1",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: exactly ten recorded labels reveal in batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: next preview retains completed budget after batch 2",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: exactly ten recorded labels reveal in batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: next preview retains completed budget after batch 3",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: exactly ten recorded labels reveal in batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: next preview retains completed budget after batch 4",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: exactly ten recorded labels reveal in batch 5",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: five reveals and four previews, never per-query refits",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: complete means paused with no pending timer",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: automated phases replace history entries",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: no sixth batch after completion",
+      "passed": true
+    },
+    {
+      "check": "20261026/uncertainty: complete history cannot autoplay again",
+      "passed": true
+    },
+    {
+      "check": "Pause: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "Pause: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "Pause: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "view change: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "view change: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "view change: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "aggregate mode: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "aggregate mode: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "aggregate mode: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "seed switch: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "seed switch: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "seed switch: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "inspected policy switch: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "inspected policy switch: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "inspected policy switch: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "policy comparison change: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "policy comparison change: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "policy comparison change: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "manual budget change: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "manual budget change: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "manual budget change: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "manual batch change: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "manual batch change: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "manual batch change: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "browser history event: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "browser history event: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "browser history event: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "hidden browser document pause: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "hidden browser document pause: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "hidden browser document pause: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "history data loss: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "history data loss: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "history data loss: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "full Reset: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "full Reset: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "full Reset: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "unmount: all pending timers cancelled",
+      "passed": true
+    },
+    {
+      "check": "unmount: no queued or later advances after interruption",
+      "passed": true
+    },
+    {
+      "check": "unmount: local playback flag is false",
+      "passed": true
+    },
+    {
+      "check": "Manual Next reveals first ten labels",
+      "passed": true
+    },
+    {
+      "check": "Manual Next then previews next batch without extra labels",
+      "passed": true
+    },
+    {
+      "check": "Manual Next creates explicit history entries",
+      "passed": true
+    },
+    {
+      "check": "Next label distinguishes hidden labels",
+      "passed": true
+    },
+    {
+      "check": "Inspecting an older batch resumes at first unrevealed batch",
+      "passed": true
+    },
+    {
+      "check": "Resumed preview reveals next ten labels once",
+      "passed": true
+    },
+    {
+      "check": "Replay Reset restores the complete documented route defaults",
+      "passed": true
+    },
+    {
+      "check": "Unavailable replay does not mutate replay/aggregate/50",
+      "passed": true
+    },
+    {
+      "check": "Unavailable replay does not mutate replay/seed/50",
+      "passed": true
+    },
+    {
+      "check": "Unavailable replay does not mutate findings/seed/0",
+      "passed": true
+    },
+    {
+      "check": "Missing or incomplete histories cannot advance",
+      "passed": true
+    },
+    {
+      "check": "Loading state is explicit",
+      "passed": true
+    },
+    {
+      "check": "Data arrival does not autoplay without explicit Play",
+      "passed": true
+    },
+    {
+      "check": "Explicit Play starts after history arrival",
+      "passed": true
+    },
+    {
+      "check": "Stale callback cannot clear a newer timer handle",
+      "passed": true
+    },
+    {
+      "check": "New timer remains cancellable after stale callback",
+      "passed": true
+    },
+    {
+      "check": "Actual timer reveals exactly one batch before inline Pause",
+      "passed": true
+    },
+    {
+      "check": "Actual timer is paused without a dangling handle",
+      "passed": true
+    }
+  ]
+}

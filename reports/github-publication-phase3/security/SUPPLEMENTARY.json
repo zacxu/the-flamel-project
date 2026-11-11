@@ -1,0 +1,46 @@
+{
+  "result": "PASS_WITH_ONE_WITHHELD_ORIGINAL",
+  "scope": {
+    "selected_files": 5148,
+    "archives": 14,
+    "archive_compressed_bytes": 5582625555
+  },
+  "counts": {
+    "streams": 13741,
+    "stream_bytes": 17152587277,
+    "selected_files_opened": 5148,
+    "binary_payload_raw_only": 1299,
+    "nested_zip_or_npz": 308,
+    "zip_containers": 322,
+    "zip_members_seen": 8458,
+    "recognized_utf16_streams": 16,
+    "nested_gzip": 5,
+    "top_archives_opened": 14,
+    "nested_zlib_joblib": 130
+  },
+  "duration_seconds": 609.022,
+  "top_level_archive_count": 14,
+  "top_level_members_crc_verified": 5709,
+  "all_nested_zip_members_crc_verified": 8458,
+  "limits_reached": 0,
+  "errors": 0,
+  "matched_original_paths": [
+    "artifacts/phase2/catalogs/mp_download_headers.txt"
+  ],
+  "finding_counts": {
+    "aws-presigned-signature": 1,
+    "set-cookie-header": 1
+  },
+  "decision": "Both matches occur only in the unchanged private original; no corresponding archive member exists. Entire file excluded; derivative removes both values.",
+  "no_values_or_fingerprints_in_public_summary": true,
+  "no_deserialization_or_execution": true,
+  "limitations": [
+    "Bounded lexical patterns complement Gitleaks and are not proof of absence of secrets.",
+    "Pickle/joblib payloads are never deserialized or executed; only recognized zlib/gzip/zip wrappers are decompressed.",
+    "Unsupported compression, arbitrary encodings, encrypted archives and binary field semantics are not interpreted.",
+    "Only recognized UTF-16 streams are decoded; raw-byte scanning is not a complete search of every possible encoding.",
+    "ZIP CRC checks establish member-stream integrity only when the member is fully read.",
+    "Source path names and match SHA-256 fingerprints are private; matched values are never written."
+  ],
+  "private_detailed_evidence": "D:\\Backups\\TheFlamelProject\\phase3-20261111-audit\\security\\supplementary\\optimized"
+}

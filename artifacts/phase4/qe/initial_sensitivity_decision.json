@@ -1,0 +1,11 @@
+{
+  "base_job": "p4_ref_cao_90_k035",
+  "cutoff_job": "p4_cao_final_cut75",
+  "kpoint_job": "p4_cao_final_k045",
+  "cutoff_shift_eV_per_atom": 0.000979612436935895,
+  "kpoint_shift_eV_per_atom": 4.877594381014205e-05,
+  "actual_k_mesh_changed": true,
+  "at_utc": "2026-10-22T01:50:01.650017+00:00",
+  "cutoff_pass": true,
+  "kpoint_pass": true
+}

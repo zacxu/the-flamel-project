@@ -1,0 +1,130 @@
+{
+  "frozen_utc": "2026-10-22T01:57:34.589730+00:00",
+  "status": "committed_before_any_new_symmetry_relaxation",
+  "selection_rule": "Seeded uniform random choice without replacement from sorted valid unique IDs; no predicted or observed energy input",
+  "source_control_protocol_sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67",
+  "source_primary_summary_sha256": "111b73d7da96d425306de2b1e9fabd4ad109c593fcef913b26541431781abde8",
+  "source_supplementary_summary_sha256": "48e7782a6108893cbc201d729d3e9a3cb41602a8ace5694e26c4edfd4ce5a302",
+  "controls": [
+    {
+      "control": "mgo_rocksalt",
+      "evaluated_formula": "Mg4O4",
+      "comparison_scope": "supplementary_primary_plus_topup_pool",
+      "quota_per_arm": 1,
+      "arms": [
+        {
+          "arm": "nontrivial",
+          "pool_size": 1,
+          "pool_ids": [
+            "phase1_mgo_attempt_000"
+          ],
+          "seed_sequence": [
+            20261022,
+            0,
+            0,
+            404
+          ],
+          "selected": [
+            {
+              "candidate_id": "phase1_mgo_attempt_000",
+              "source_structure": "artifacts\\phase1\\generator\\structure_000.json",
+              "source_structure_sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035",
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "arm": "p1",
+          "pool_size": 1,
+          "pool_ids": [
+            "phase4_supplementary_mgo_rocksalt_p1_attempt_010"
+          ],
+          "seed_sequence": [
+            20261022,
+            0,
+            1,
+            404
+          ],
+          "selected": [
+            {
+              "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+              "source_structure": "artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+              "source_structure_sha256": "12d3b14ed509fefc17db08ffac56c073fc855c25f99b2d80299ad07d9dd9b9f0",
+              "selection_index": 0
+            }
+          ]
+        }
+      ],
+      "minimum_two_unique_per_arm_achieved": false,
+      "energy_comparison_limit": "At most one paired structure in this run; descriptive, without an estimated within-arm energy distribution"
+    },
+    {
+      "control": "tio2_rutile",
+      "evaluated_formula": "Ti2O4",
+      "comparison_scope": "primary_first8_per_arm",
+      "quota_per_arm": 1,
+      "arms": [
+        {
+          "arm": "nontrivial",
+          "pool_size": 1,
+          "pool_ids": [
+            "phase4_tio2_rutile_nontrivial_attempt_000"
+          ],
+          "seed_sequence": [
+            20261022,
+            1,
+            0,
+            404
+          ],
+          "selected": [
+            {
+              "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_000",
+              "source_structure": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+              "source_structure_sha256": "11f71fa7ff72dac2a3e9b4f1ed433f3a491e035fd10a0f669527f58594c46332",
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "arm": "p1",
+          "pool_size": 1,
+          "pool_ids": [
+            "phase4_tio2_rutile_p1_attempt_000"
+          ],
+          "seed_sequence": [
+            20261022,
+            1,
+            1,
+            404
+          ],
+          "selected": [
+            {
+              "candidate_id": "phase4_tio2_rutile_p1_attempt_000",
+              "source_structure": "artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+              "source_structure_sha256": "efc1251fea8c6eda7e10a9a0a6bd3a09d5d9882dc5cf386fd0fdfe189c5e6b68",
+              "selection_index": 0
+            }
+          ]
+        }
+      ],
+      "minimum_two_unique_per_arm_achieved": false,
+      "energy_comparison_limit": "At most one paired structure in this run; descriptive, without an estimated within-arm energy distribution"
+    }
+  ],
+  "selected_structures": 4,
+  "CHGNet_or_DFT_energies_used_to_select": false,
+  "relaxation_jobs_executed_by_this_script": 0,
+  "cache_candidate": {
+    "candidate_id": "phase1_mgo_attempt_000",
+    "result_path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/result.json",
+    "result_sha256": "2827cc362f99075292757538ca2c788b974d726654b5ff1d4eeb4a4054bfc142",
+    "initial_source_matches": true,
+    "converged": true,
+    "model_version": "0.3.0",
+    "reuse_condition": "Phase5 verifies identical initial source, checkpoint and the frozen unconstrained FIRE200/fmax0.05 settings; record cached compute once and keep this experimental selection",
+    "prior_charge_category": "contingency",
+    "new_charge_if_identical_reused": 0
+  },
+  "planned_new_symmetry_launches_if_exact_cache_reused": 3,
+  "scope": "MgO comparison uses supplemented pools; TiO2 comparison uses primary pools. Generation denominators remain eight per primary arm."
+}

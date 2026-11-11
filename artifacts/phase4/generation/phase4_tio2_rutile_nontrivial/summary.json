@@ -1,0 +1,244 @@
+{
+  "attempts": 8,
+  "batch_timings": [
+    {
+      "batch_index": 0,
+      "kind": "first_call_including_compilation",
+      "sampling_success": true,
+      "seconds": 39.238116499999705
+    },
+    {
+      "batch_index": 1,
+      "kind": "same_shape_warm_call",
+      "sampling_success": true,
+      "seconds": 10.553544800000054
+    }
+  ],
+  "conditioning_formula": "TiO2",
+  "formula": "Ti2O4",
+  "requested_spacegroup": 136,
+  "results": [
+    {
+      "attempt_id": 0,
+      "batch_index": 0,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_000.cif",
+      "cif_sha256": "b38a77f477a703ede2325d8023a6502c12a6539802fb836e96d2992b74f767c9",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9632220416384747,
+      "minimum_periodic_distance_angstrom": 1.9632220416384747,
+      "minimum_self_image_distance_angstrom": 3.098924160003662,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_000.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "valid": true,
+      "volume_angstrom3": 67.11024476076305
+    },
+    {
+      "attempt_id": 1,
+      "batch_index": 0,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_001",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_001.cif",
+      "cif_sha256": "9c4e80d6dfaa3402796f5cc7bc567f197561c31c70de3d95fd407f18dfb7be6f",
+      "counts": {
+        "O": 4,
+        "Ti": 4
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9409147220875065,
+      "minimum_periodic_distance_angstrom": 1.9409147220875065,
+      "minimum_self_image_distance_angstrom": 2.9736697673797607,
+      "n_atoms": 8,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_001.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_001.json",
+      "valid": false,
+      "volume_angstrom3": 98.11070624954145
+    },
+    {
+      "attempt_id": 2,
+      "batch_index": 0,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_002",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_002.cif",
+      "cif_sha256": "9030764378f437a37125d0462f57b44dd21fb94f9530da12fe45ba97b82d6e9a",
+      "counts": {
+        "O": 12,
+        "Ti": 4
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.3995016872827775,
+      "minimum_periodic_distance_angstrom": 1.3995016872827775,
+      "minimum_self_image_distance_angstrom": 3.763995409011841,
+      "n_atoms": 16,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_002.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_002.json",
+      "valid": false,
+      "volume_angstrom3": 200.54370693030842
+    },
+    {
+      "attempt_id": 3,
+      "batch_index": 0,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_003",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_003.cif",
+      "cif_sha256": "30bff4afbe46a8b038873e96fae03aaf33f547e6fdeef5aa30872278074c20de",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9616224309431127,
+      "minimum_periodic_distance_angstrom": 1.9616224309431127,
+      "minimum_self_image_distance_angstrom": 3.008161783218384,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_003.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_003.json",
+      "valid": true,
+      "volume_angstrom3": 63.78333392119609
+    },
+    {
+      "attempt_id": 4,
+      "batch_index": 1,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_004",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_004.cif",
+      "cif_sha256": "b762f4e32634139c20c7cfb0bcb64592d89501ebe50f3191189a768e513086ce",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9733127570118631,
+      "minimum_periodic_distance_angstrom": 1.9733127570118631,
+      "minimum_self_image_distance_angstrom": 3.037487745285034,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_004.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_004.json",
+      "valid": true,
+      "volume_angstrom3": 65.05701371955638
+    },
+    {
+      "attempt_id": 5,
+      "batch_index": 1,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_005",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_005.cif",
+      "cif_sha256": "c0aeb3a23ff19613b7bd2641d94736a3342ec0975475026314d32c572c058ac2",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9664227713155797,
+      "minimum_periodic_distance_angstrom": 1.9664227713155797,
+      "minimum_self_image_distance_angstrom": 2.9734270572662354,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_005.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_005.json",
+      "valid": true,
+      "volume_angstrom3": 63.5121235860111
+    },
+    {
+      "attempt_id": 6,
+      "batch_index": 1,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_006",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_006.cif",
+      "cif_sha256": "cd31dddcc099798a4cfb8d7f41dddfc6df232c55f2b2fab424e644656150dfae",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9269446293649988,
+      "minimum_periodic_distance_angstrom": 1.9269446293649988,
+      "minimum_self_image_distance_angstrom": 2.9365639686584473,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_006.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_006.json",
+      "valid": true,
+      "volume_angstrom3": 62.78775443102352
+    },
+    {
+      "attempt_id": 7,
+      "batch_index": 1,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_007",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_007.cif",
+      "cif_sha256": "4ee320a463767943d4d62d76abe1f4815b0d0f9528b34c11b2d5961cd016f453",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9640271147687345,
+      "minimum_periodic_distance_angstrom": 1.9640271147687345,
+      "minimum_self_image_distance_angstrom": 3.0257534980773926,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_007.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_007.json",
+      "valid": true,
+      "volume_angstrom3": 66.31123799067802
+    }
+  ],
+  "run_id": "phase4_tio2_rutile_nontrivial",
+  "source_protocol_sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67",
+  "status": "completed",
+  "timing_interpretation": "First call includes SG-specific JIT compilation and sampling; later same-shape call is warm. Comparison with Phase 1 SG225 changes group and composition, and is not an isolated formula-change experiment.",
+  "valid_count": 6,
+  "valid_unique_count": 1,
+  "valid_unique_representatives": [
+    {
+      "attempt_id": 0,
+      "batch_index": 0,
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/cifs/attempt_000.cif",
+      "cif_sha256": "b38a77f477a703ede2325d8023a6502c12a6539802fb836e96d2992b74f767c9",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 136,
+      "measured_spacegroup_symbol": "P4_2/mnm",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.9632220416384747,
+      "minimum_periodic_distance_angstrom": 1.9632220416384747,
+      "minimum_self_image_distance_angstrom": 3.098924160003662,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/raw_attempt_000.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "valid": true,
+      "volume_angstrom3": 67.11024476076305
+    }
+  ],
+  "worker_wall_seconds": 63.6143990999999
+}

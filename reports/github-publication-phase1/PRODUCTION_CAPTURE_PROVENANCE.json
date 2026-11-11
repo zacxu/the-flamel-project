@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "verified",
+  "captureStartedAtUtc": "2026-11-10T17:42:44.5036219+00:00",
+  "captureCompletedAtUtc": "2026-11-10T17:43:16.3855782+00:00",
+  "verificationResumeStartedAtUtc": "2026-11-10T17:44:31.4865675+00:00",
+  "verificationResumeCompletedAtUtc": "2026-11-10T17:44:33.5313339+00:00",
+  "timingScope": "Per-file HTTP retrievedAt is the original live capture time. Baseline startedAt/completedAt are the later verification-resume interval. Entry aliases were re-requested during resume. Captured file bytes were preserved and independently rehashed.",
+  "initialDiagnostic": "CAPTURE_FAILURE.json",
+  "initialDiagnosticCause": "All123 recovery files were captured successfully; the local emitted-reference matcher used a PowerShell method argument without grouping a replace expression. The reusable tool was corrected and an explicit verification resume rechecked retained files and fresh aliases.",
+  "diagnosticSensitivePatternMatches": 0,
+  "independentVerification": "OFFLINE_RESTORE_VERIFICATION.json",
+  "dependencyVerification": "DEPENDENCY_CLOSURE.json",
+  "dependencyScope": "Supplemental dependency verifier includes minified JavaScript template-literal imports and Vite preload-map strings; all6 emitted assets,26 saved-stage fallback mappings and33 image backing mappings passed.",
+  "physicalHostingScope": "Active application recovery baseline only. Public HTTP cannot enumerate unknown physical hosting files or retrieve protected .htaccess bytes."
+}

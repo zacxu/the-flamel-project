@@ -1,0 +1,72 @@
+{
+  "phase": 4,
+  "committed_utc": "2026-10-22T01:41:52.223641+00:00",
+  "scope": "Complete paired replay and fixed primary generation cohorts; continue bounded CaO anchor numerical validation",
+  "research_protocol": {
+    "path": "config/phase2_protocol.json",
+    "sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94"
+  },
+  "previous_results_are_retained": true,
+  "hypothesis_or_acquisition_retuning": false,
+  "remaining_replay_seeds": [
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "policies_per_seed": 5,
+  "rounds_per_policy": 5,
+  "labels_per_round": 10,
+  "new_replay_query_events": 1000,
+  "total_including_phase3": 1250,
+  "untouched_evaluation_rows_per_seed": 3418,
+  "new_primary_generation": {
+    "remaining_control_arms": 3,
+    "remaining_formulas": 5,
+    "attempts_per_cohort": 8,
+    "total_actual_draws_planned": 64
+  },
+  "reused_primary_cohorts": [
+    "Phase1 Mg4O4 SG225 first8, including invalid attempt",
+    "Phase3 CaMg2O3 SG2 first8, zero exact-six-atom survivors"
+  ],
+  "fresh_selector": {
+    "path": "artifacts/phase3/models/fresh_selector_seed_20261022.joblib",
+    "sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+    "other_seed_or_adapted_models_allowed": false
+  },
+  "shortlist": "Use unchanged select_fresh_pair independently per formula, up to2 each; initial geometry only. No CHGNet or QE outcomes enter scores.",
+  "shortlist_validation_phase": 5,
+  "symmetry_relaxation_selection": "After primary and any separately gated topups, use frozen seeded random within-arm selection and balanced quotas in Phase5; not surrogate energy ranking.",
+  "optional_topups": "Disabled by default. Consider only balanced supplementary batches under the original16-slot allocation and unchanged primary denominators; record decision before dispatch.",
+  "optional_composition_stretch": "Evaluate original gates only after all core cohorts/replays and DFT obligations are secure; preserve failed default cohorts. Do not spend residual slots merely to chase a positive finding.",
+  "QE": {
+    "queue": "Original CaO anchor refinement and final-geometry numerical probes; Phase3 MgO evidence reused",
+    "new_phase4_seconds_cap": 2700,
+    "new_primary_candidate": false,
+    "no_retargeting_from_CaMg2O3_based_on_outcomes": true,
+    "no_full_competition_hull_claim": true
+  },
+  "global_caps": {
+    "generation_slots": 128,
+    "CHGNet_launches": 40,
+    "CHGNet_seconds": 14400,
+    "QE_seconds": 21600
+  },
+  "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "CPU_threads": {
+    "replay": 2,
+    "generation": 4,
+    "QE": 4
+  },
+  "baseline": {
+    "path": "artifacts/phase4/preflight/budget_ledger.json",
+    "sha256": "614e7216b0c43e9ec6ed0cba95744ead17a0d9f9010f2d6be520e8489d473fe4"
+  },
+  "runtime_API_update": {
+    "change": "Current phase header tracks maximum event phase; budget arithmetic and caps unchanged",
+    "previous_source": "artifacts/phase4/preflight/research_budget.py",
+    "previous_sha256": "729481457ccf005b19889c00d8ed0fff469994ceca19e952e6d2c4aa4e9a6de2",
+    "current_sha256": "d44d505552dae135ab0189f6dc4c1c727510d94ab022dd81d16d3bf367f8cbfa"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0,
+  "lattice": {
+    "matrix": [
+      [
+        3.820297,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.820297,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.820297
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "a": 3.820297,
+    "b": 3.820297,
+    "c": 3.820297,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "volume": 55.75597083930134
+  },
+  "properties": {},
+  "sites": [
+    {
+      "species": [
+        {
+          "element": "Mg",
+          "occu": 1
+        }
+      ],
+      "abc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Mg",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "Zn",
+          "occu": 1
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "properties": {
+        "magmom": -0.001
+      },
+      "label": "Zn",
+      "xyz": [
+        1.9101485,
+        1.9101485,
+        1.9101485
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "properties": {
+        "magmom": -0.015
+      },
+      "label": "O",
+      "xyz": [
+        1.9101485,
+        1.9101485,
+        0.0
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1
+        }
+      ],
+      "abc": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "properties": {
+        "magmom": -0.015
+      },
+      "label": "O",
+      "xyz": [
+        1.9101485,
+        0.0,
+        1.9101485
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1
+        }
+      ],
+      "abc": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "properties": {
+        "magmom": -0.015
+      },
+      "label": "O",
+      "xyz": [
+        0.0,
+        1.9101485,
+        1.9101485
+      ]
+    }
+  ]
+}

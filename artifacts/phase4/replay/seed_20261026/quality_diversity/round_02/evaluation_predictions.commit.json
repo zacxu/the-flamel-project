@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-22T02:00:07.961222+00:00",
+  "material_ids_sha256": "bd17f786869c668e05a68ba1cd85c0e8d0dbaf8907cc142b5c9d50b3b2949543",
+  "model_training_ids_sha256": "72d5ae19507c6096a0cd40a96e9d2a405a0ac779f83eb7ef164096c8bd62aa9a",
+  "oracle_labels_in_file": false,
+  "path": "artifacts\\phase4\\replay\\seed_20261026\\quality_diversity\\round_02\\evaluation_predictions.npz",
+  "rows": 3418,
+  "sha256": "e9bf362d05dbfb5700b3c0b57dfbdfec56511756414b79b0b17b3724ecb5cf5f",
+  "stage": "quality_diversity_round_2_after_refit"
+}

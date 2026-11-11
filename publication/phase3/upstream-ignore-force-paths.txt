@@ -1,0 +1,8 @@
+vendor/CrystalFormer/crystalformer/data/.gitkeep
+vendor/CrystalFormer/crystalformer/data/wyckoff_list.csv
+vendor/CrystalFormer/crystalformer/data/wyckoff_symbols.csv
+vendor/CrystalFormer/data/atoms.json
+vendor/CrystalFormer/data/mini.csv
+vendor/CrystalFormer/scripts/analysis.ipynb
+vendor/CrystalFormer/scripts/inspect_dataset.ipynb
+vendor/CrystalFormer/scripts/structure_visualization.ipynb

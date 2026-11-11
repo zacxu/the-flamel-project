@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "structure count ceiling",
+    "CHGNet category ceiling",
+    "QE runtime ceiling",
+    "duplicate generation reservation",
+    "duplicate finish",
+    "failed generation remains charged",
+    "one active QE job",
+    "timeout runtime charged and reservation released",
+    "atomic competing processes admit exactly one QE job",
+    "all synthetic reservations remain in isolated paths"
+  ],
+  "real_numerical_jobs": 0,
+  "isolated_test_directory": "artifacts/phase3/tests/budget_guards"
+}

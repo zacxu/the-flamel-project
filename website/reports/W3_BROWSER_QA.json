@@ -1,0 +1,255 @@
+{
+  "checks": [
+    {
+      "name": "Default aggregate is Quality/Full at50 with12 displayed rows",
+      "passed": true
+    },
+    {
+      "name": "Aggregate disables individual playback and query history",
+      "passed": true
+    },
+    {
+      "name": "All5 policies update chart and table",
+      "passed": true
+    },
+    {
+      "name": "Precision uses percentage chart and unavailable origin",
+      "passed": true
+    },
+    {
+      "name": "Zero query state has no future table rows or chart dots",
+      "passed": true
+    },
+    {
+      "name": "Single split query drawer contains exactly10 recorded selections",
+      "passed": true
+    },
+    {
+      "name": "Pre-reveal table hides all30 target and hit cells",
+      "passed": true
+    },
+    {
+      "name": "Reveal advances budget to10 and reveals exactly10 rows",
+      "passed": true
+    },
+    {
+      "name": "Next preview retains10 completed queries and hides batch2 outcomes",
+      "passed": true
+    },
+    {
+      "name": "Random policy retains unavailable scores and hidden targets",
+      "passed": true
+    },
+    {
+      "name": "Play enters recorded autoplay",
+      "passed": true
+    },
+    {
+      "name": "Pause returns to paused state",
+      "passed": true
+    },
+    {
+      "name": "No timer advances after Pause",
+      "passed": true
+    },
+    {
+      "name": "Autoplay completes five batches at exactly50 queries and pauses",
+      "passed": true
+    },
+    {
+      "name": "Switching seed pauses autoplay",
+      "passed": true
+    },
+    {
+      "name": "No late timer advances after switching seed",
+      "passed": true
+    },
+    {
+      "name": "Inspected-policy change pauses autoplay",
+      "passed": true
+    },
+    {
+      "name": "Leaving replay unmounts playback cleanly",
+      "passed": true
+    },
+    {
+      "name": "No timer advances after route unmount",
+      "passed": true
+    },
+    {
+      "name": "Reset returns to all application defaults and stays stable after autoplay cancellation",
+      "passed": true
+    },
+    {
+      "name": "Final aggregate exposes explicitly disabled query and playback controls",
+      "passed": true
+    },
+    {
+      "name": "390px replay has no page overflow and chart renders",
+      "passed": true
+    },
+    {
+      "name": "390px drawer stays in viewport, exposes10 rows and30 hidden outcome cells",
+      "passed": true
+    },
+    {
+      "name": "Query drawer Escape restores trigger focus",
+      "passed": true
+    },
+    {
+      "name": "360px replay stays within page width with a real chart",
+      "passed": true
+    },
+    {
+      "name": "Reload restores the exact single-split revealed link",
+      "passed": true
+    },
+    {
+      "name": "Copy replay link succeeds with exact current hash",
+      "passed": true
+    },
+    {
+      "name": "Chart keyboard point selects a recorded zero budget",
+      "passed": true
+    },
+    {
+      "name": "Browser Back restores revealed10-query state",
+      "passed": true
+    },
+    {
+      "name": "Browser Forward restores zero-query state",
+      "passed": true
+    },
+    {
+      "name": "Aggregate switch cancels autoplay and disables Play",
+      "passed": true
+    },
+    {
+      "name": "No late timer after switch to aggregate",
+      "passed": true
+    },
+    {
+      "name": "Missing history shows a scoped failure and keeps comparison table/download usable",
+      "passed": true
+    },
+    {
+      "name": "Missing history disables playback",
+      "passed": true
+    },
+    {
+      "name": "Retry restores verified history and Play",
+      "passed": true
+    },
+    {
+      "name": "Query source handoff opens exactly one source dialog",
+      "passed": true
+    },
+    {
+      "name": "Missing chart chunk leaves data table and download working",
+      "passed": true
+    },
+    {
+      "name": "Reload retry restores production chart from actual chunk",
+      "passed": true
+    },
+    {
+      "name": "Final production pre-reveal drawer keeps all30 outcome cells hidden",
+      "passed": true
+    },
+    {
+      "name": "Global glossary pauses playing replay",
+      "passed": true
+    },
+    {
+      "name": "Global glossary cancellation produces no late advance",
+      "passed": true
+    },
+    {
+      "name": "Clean final production aggregate renders all12 table rows and chart",
+      "passed": true
+    },
+    {
+      "name": "Clean final production has no console errors or warnings",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "layouts": [
+    {
+      "view": "aggregate replay",
+      "chartWidth": 335,
+      "documentWidth": 375,
+      "scrollRegions": [
+        {
+          "content": 760,
+          "width": 335
+        }
+      ],
+      "svgCount": 4,
+      "width": 390
+    },
+    {
+      "view": "predictions drawer390",
+      "dialog": {
+        "bottom": 844,
+        "height": 844,
+        "left": 0,
+        "right": 375,
+        "top": 0,
+        "width": 375,
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 375,
+      "focused": "×",
+      "hidden": 30,
+      "rows": 10,
+      "table": {
+        "bottom": 1607.34375,
+        "height": 1007.25,
+        "left": 21,
+        "right": 340,
+        "top": 600.09375,
+        "width": 319,
+        "x": 21,
+        "y": 600.09375
+      },
+      "width": 390
+    },
+    {
+      "view": "replay360",
+      "documentWidth": 345,
+      "svgWidth": 313,
+      "width": 360
+    }
+  ],
+  "captures": [
+    {
+      "status": "unavailable",
+      "reason": "Page.captureScreenshot timed out in the available IAB during W3. No pixel/screenshot review is claimed."
+    }
+  ],
+  "visibilityLimitation": "The IAB visibility capability and a second tab do not change document.visibilityState (it stays visible). Native hidden-page delivery could not be exercised; hook wiring and pause/invalidation are covered by source review and playback tests.",
+  "resolvedIssues": [
+    {
+      "initialCheck": {
+        "name": "Copy replay link matches displayed selection",
+        "passed": false
+      },
+      "resolution": "IAB clipboard write did not settle. The copy button now immediately exposes the supported browser-address fallback while awaiting clipboard success; verified below."
+    },
+    {
+      "initialCheck": {
+        "name": "Share exposes a usable browser-address fallback if clipboard does not settle",
+        "passed": false
+      },
+      "resolution": "Clipboard operation completed asynchronously; subsequent DOM status and actual clipboard both contain success/current URL. The fallback remains immediately available while writing."
+    }
+  ],
+  "scope": "Actual development and final production browser UI interactions, responsive DOM geometry and downloaded artifacts. No scientific runs or hosting operations.",
+  "checkedAt": "2026-10-22T11:06:22.309Z",
+  "phase": "W3",
+  "status": "passed",
+  "checksPassed": 43,
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151"
+}

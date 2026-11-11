@@ -1,0 +1,1781 @@
+{
+  "phase2_jobs_executed": 0,
+  "QE_ledger_unchanged_sha256": "97097d2c3ea045848b5538c04b1476a3689f1a0cc71894c4a98819722079a2e4",
+  "template_count": 221,
+  "template_checks": [
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1009127\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "196ba413c0e101d8d16b4bf0214d172e2655516f7213d839cdaec5536c6a4264",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1009127.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1009129\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "20ce017b82deb7f111df0d9c30fa2e385c3ea52e0faf7e32fda1180be32791a7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1009129.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1009490\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "a5e07cc5e23091cda2107f8b83498400776d7ed10164c285a3220515813c7725",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1009490.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1023923\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "fbda70f1013f92a34e84547e9063c5a871a3218101162b4fc74bcd12e34111e5",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1023923.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1055956\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "a2f3009b019dfd01cee64aec7813e687df00bb7d54552a17e5bfefeb2e16c2a8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1055956.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1056059\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "6dcb2742b4c7857c70f92312de4d9023ace4c4620eee507d59a9c56366a8ee9d",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056059.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1056351\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "e7d04efc3f897ac92fca6b0a04a2acc9559c0937856529a9248f0a534bb685e1",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056351.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1056702\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "7fed611951946ef8d81f65918cc043033e68db982958cd258d3baaa7445919a3",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056702.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1056831\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "586ef233f5da90afc880fb0f0cc2a18f8cb21ebfffd77a2deae9719b6884150e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056831.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1057818\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "47858f908f3ca4c64efdcef45b111b8379c402be37c0ca5436501761af4b3884",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1057818.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1058623\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "5d3c314ea2e535a65b24f72bf764ac40bd8aff7abec0a4fda48ecd5067ecb1ec",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1058623.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1065577\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "a041ed2406cfa144fb76e2c4db255b83610dff9cbea135b57f4fd567815ebe87",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1065577.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1065697\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "c9a950db03b764576c034ac0979580e553fac5ad8ca5215d9ab7693178bb16df",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1065697.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1066100\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "0108c16b6c51617a39997777e6647be3b7801d1e3001b5dd1880857e710d5dae",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1066100.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1087546\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "2a65e33b860cabc00e97789c471dccd9822d3e251a35006ebb9be7301115decc",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1087546.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1094122\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "d2fd229a7ccf8a23efa0e8dc51e9159612732c7f2a8c0de1267ac6b222fdb530",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094122.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1096803\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "08da4cdf951161e9daba0be84a067fa0470342a0ef9f1f26cf5ce9a344d208da",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1096803.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-110\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "d36e82757b1ad2bfff692c9fb638cd18c64108dbadc9ce7faf99e3b30fe0294c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-110.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1101930\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "d11f3808388937e307757c314b4fe7c9de0afa476e9332b119eb7a4b9c477bff",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1101930.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1102442\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "5fff857aa44802ca6ab4446174f22a3a3db6761777445e7cc58c71bbaff3bb1a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1102442.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180008\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "ddcc40b9c6547d8923c8fb785f4c6a2958186e04c59b745fa123af5c4d987d8f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180008.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180036\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "f6c77313c95adf44f4576cbfaf2de41f798eee2495cde8f3941524c0ead479b8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180036.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180050\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "bc42825c74992294388574909b7ee910090e9f17c9d0a74c46952e72da07a2a8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180050.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180064\\pw.in",
+      "n_atoms": 10,
+      "ase_input_parse": "passed",
+      "sha256": "faad2ff25420bb11bbe7b58ecb5765b82798e979c174479a578ef1cabc881e9f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180064.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180260\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "d2173e23a4b03e6e36d72d046608dc11a1b47f578783f996f006e941ab723bc1",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180260.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180271\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "0dc511517fa93e2f3382b255921d237b54f670167aeec1877571626ce486017e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180271.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180312\\pw.in",
+      "n_atoms": 16,
+      "ase_input_parse": "passed",
+      "sha256": "a6dae14c2008f7da069f1335ce261c2ddff93b18118bf97b88a70087785c05b2",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180312.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1180973\\pw.in",
+      "n_atoms": 16,
+      "ase_input_parse": "passed",
+      "sha256": "6a356bceb363453ceef7fe6a680a37768f0a4f92e4ebe1cc1ae700232009815a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180973.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1190533\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "7be37330cedbbcddef710ec0c4f18f0c362c17751b41d234449d8be8b9d365b4",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1190533.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1190649\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "98ce6a1f5c1456725a94281495e69eaf6774c31dbc94eac43e581935ee9aae6b",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1190649.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1191789\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "cc6b1738241796d0bcc305841f8ce5ae5a71f51267ba65f3b2edf6ce6137415d",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1191789.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1192043\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "f0ec15689f3e46fdbdf1eea2dfa0416ea43071ed3a5a970d9041adfd3fc5e45f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1192043.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1192189\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "49dfb9745729d32df09355652bf29afb28497887c65b21fe46630f7993165492",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1192189.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1244962\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "581f46bdd7f6ecf7557367ebd80c6d406efbe7ee33d8c6f01e1872e2be6dde18",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1244962.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245039\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "069bee44e05ca27dbb292b3a6802e75c50634c4993d01b5e9308c9a8e7eb0805",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245039.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245045\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "00cf4df144035680c1f65e1156c92b5f9e78073a912c99abe2ae12c82e662eff",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245045.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245128\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "24e0d4a9eb157018c1cab1648c586bb1aae129c8853bf671e52704f80dbc3747",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245128.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245143\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "e3099c68ebc2124a694ba46a4cc75c7e6294cb462046a9ecb3fb3928e41e423c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245143.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245157\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "c035a78ce3649943e51c51aaab58eb706c9e72258cb3e95f9e4e9b3ff77f7d79",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245157.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245195\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "394281fcd971e6d75cb4da86c99f44f5541215424665eaf25908da6a59cca8f6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245195.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245232\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "b2e5fc22ebdb5c4338ae26220f70e9f2121d637b967c8e45ce5f7ee923aa3d5e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245232.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1245393\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "5f598c423fba19ed140bac3b3d1e6c31e63a5c9d6ac3e135168149b25803f504",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245393.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1247180\\pw.in",
+      "n_atoms": 10,
+      "ase_input_parse": "passed",
+      "sha256": "4817ae04a3ed55ddae59714d878a38c24267e92ea2c15510e61fc76b2bce9f85",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1247180.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-1265\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "1d2257df54063fd095b23b0214f5f7e7952f41c71c49cff625fadb52f7b84247",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1265.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-153\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "3160f53b1018be9cd26785d5c09442dd2b66af22eb1f097821d21f9547f5f155",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-153.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-2421172\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "ea5e86047657af3dd70230d904a36e1aa1ed443a428fb9946a7ee0df22e78d7c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-2421172.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-2589\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "10186359059a111f21d3526c533b28be91ff1837dbdfac9ca27d44789f9f8fa7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-2589.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-549706\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "af29e723000489267e4538c894a895d4ce8c760a21b04521d9504ab93bfcd173",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-549706.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-560602\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "8b111314722f81846627a383ad57b2abcff7a712be0d0a35b76fbae33abed514",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-560602.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-607540\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "49f42acd38ef3ad8527fa2ee97fa16797b7a9fa035e9eed6a7f987675d3fd76a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-607540.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-610917\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "b7533b89aa679529cdbc4444eec715a3a9d1c7bc37140420fb9e2b0159782989",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-610917.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-611836\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "ee75d495c3a008d2cbc4d9ee82633f4ccc26bff967125ad2a9df068930ec7f89",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-611836.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-723285\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "a11e62b9b579281832df7d1fbaee1721b7f7be1053f80ffebd3a855e724d9ebf",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-723285.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-734188\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "bf9685a40f6b439be96c7e584ccf549d528b7981eb676961a6f6b66c392b8799",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-734188.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-775808\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "8c58b3a5ba58a33fcc53cfc99aaeffdf5d3c514073117eae9c67400842507b10",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-775808.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-776911\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "b6c91da98c5ec0576df2bd9437a915cc3aab828ef618bbeae16833f9c503630e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-776911.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\fallback_Mg-O\\mp-973364\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "3006ecf0fa1c7f3d20dc4280d6a0cec37b4857297b0a0d3e8fcd5b9a0b65cfa6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-973364.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\O2_triplet_box_12A\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "07326a019b7a7d2a3bdd38ffd44ccd700ca722e399031ce84bf060156069dac3",
+      "execution_source_geometry": "artifacts\\phase2\\dft\\input_templates\\O2_triplet_box_12A\\geometry.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\O2_triplet_box_15A\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "77c624064943031e4cd5286687d28890396ba035867dfcd03ac878c649509776",
+      "execution_source_geometry": "artifacts\\phase2\\dft\\input_templates\\O2_triplet_box_15A\\geometry.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\O2_triplet_box_18A\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "a1a0d7d559c6ec4e2179a02dd96824b15c5e999ea3125d6ac4ba3b68176eedac",
+      "execution_source_geometry": "artifacts\\phase2\\dft\\input_templates\\O2_triplet_box_18A\\geometry.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1008498\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "0a498d8bef15b47a651711997d1ec917d5151cbf5c9512c6203a006c4bc7c4ab",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1008498.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1009127\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "196ba413c0e101d8d16b4bf0214d172e2655516f7213d839cdaec5536c6a4264",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1009127.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1009129\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "20ce017b82deb7f111df0d9c30fa2e385c3ea52e0faf7e32fda1180be32791a7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1009129.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1009490\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "a5e07cc5e23091cda2107f8b83498400776d7ed10164c285a3220515813c7725",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1009490.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1016235\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "8d77f506d7c38f3250a9d949eddf97f08c0681cae431af4e2f06d227b6c02cd9",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1016235.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1016276\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "13b11a99e629f131b30b11a935a4966dad492dab6705f282c7dddd96164c8b78",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1016276.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1023508\\pw.in",
+      "n_atoms": 16,
+      "ase_input_parse": "passed",
+      "sha256": "5248c1f00a4e71c9d228727aa013cd21351548a52a3f769a7bd49a470efe16e3",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1023508.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1023923\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "fbda70f1013f92a34e84547e9063c5a871a3218101162b4fc74bcd12e34111e5",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1023923.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1024043\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "fd7c5eb20e8e3714a9f1db246f8c72cd00ea81edb7a9829e4b39aad41d45987a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1024043.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038724\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "e8921436331872d0f269fe82d824a841bc0415f018bca7ff2282b33f32ef5e42",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038724.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038760\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "cc9e3bdbe52fe0034451c4494bd6585b1799b69e3b77b83267d6fdd8feee1637",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038760.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038840\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "4acc1150e1d2d94c611da80a78e266bbb7a85321856484da85c5ad26a964443f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038840.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038862\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "c2802720f90f2f4c6b2462c131fd1cef6f85343541829180994d637ec6db1093",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038862.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038866\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "4daf66955ddecad44ddc1df11b33675adc1501829018ac1cf4de7259bf6ba545",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038866.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038937\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "923af693d23e7ddb3fd19b297ac3caa4d7bc5f6f9dc70395a488805508738c2d",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038937.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038946\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "799a06c63482696b737302e2e16b3e9f54a2144233c8897c21e1369c64b426f6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038946.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038953\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "9fc254702b9bafb7c6c2e6dca2a0be6d25bc1353b801368f979b1079486c3971",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038953.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038961\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "e7ccd18295503af3e8f292a9194058fda8dd73c26a789e0ffafd891ce18a2887",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038961.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038987\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "69ce5b807eb951946481fa67fc1ff8e69d4e1f0f4dcbf5645eb1ad263d6250b7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038987.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038991\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "43ee167dab3280779c1dbf3e972854b178ddab17523b7d34ffa063828337c8c2",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038991.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1038993\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "e822f0c3c31a81309c5b80c95028f11abbd77671506c5ba85faa8286c87e8eb7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1038993.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039028\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "d91966f99e4d1f05da47da61537847e7833107602cb76c3d2866de0cfeca2c61",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039028.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039033\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "2a7b31b69ab46e086cdb2549f11d0797f5598acafb24db6a8fc13f42d4344b40",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039033.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039086\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "23016127e84a549555a3bc9f0d97afad67d1da2c01f920ecad4b5466028afd76",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039086.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039108\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "94d4e664fad8c17d79da88690c72568de3dd01cf44316c4aaf70331c1d5d280c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039108.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039117\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "ac280a95b65ca929d544376b1e02a145737fb508e70c44f01ca319e3a102b0aa",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039117.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039120\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "4e043ba6eea0956757b184e1fcc14abf05b1271a5e8806ce52445b8e986975a8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039120.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039142\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "2a93fa046cd53be2057a0de2d6aaf7690b6f96cbb2e9eba8a208764346e3a6e9",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039142.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039148\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "6974eed81eae330a7f1e88d05442cd5c7d2797a1b9748e615b52153fc99d9d80",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039148.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039167\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "499c23baac4121fbc920fa4e86b37440f98a757955961a34fef5656adba3badb",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039167.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039199\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "7a248fdefac54aa57814d163b3c43d477d6e968f8a38f7f0ad1ed86c9c86e20b",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039199.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039227\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "e4c102c9270960d228bc9b1a7fe92a65b72e61193cc96d4ab6083fa169ebcb70",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039227.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039230\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "fc7e98f39300575651b046a99a9a583d8cbc60239a7c00f7ab788200f49c47f7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039230.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039233\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "e194500f73169582faac51996c24d645d85818980b92d5fc7f4dd951635f53e4",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039233.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039273\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "2b13d59541dc8f6015637ed96f525111b98b9ef8b2b9809938a9498adbdec28f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039273.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039317\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "24a4393cbeaeb608c271fa13594c1f366bf1b492d9312ccb35364f4b6427bfb2",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039317.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039318\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "6bdf51ab5416dabf9b353130c4cfe04271f4376124c570885374773f71949b74",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039318.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039330\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "d4e44c60967d09d9688591b34df8a9054e4c97059efa9323867d85dbbe494a0c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039330.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039332\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "a4d8b3bfdc0403391ffb04b890f7a2f7352a52102c96eca44bd9c6d64a842b4b",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039332.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039340\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "40cb74619abd274b3cabf7c17534b14f73a4cdc5254bd9dffccd9351514af62f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039340.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039350\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "d8a84a58ae754ad6420657d6e55dfb0570a7cb4dc2485e4b99197da523bad697",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039350.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039360\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "97db864686b5de0e3df976d7a9f8c7d9a5ffc0d21d53b680a580fe1693ec8505",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039360.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039368\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "e6a52383188173b202cc2779e2d4f560fcd80fd83488c1eea8f7214ad7790714",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039368.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039382\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "14a916da85fc7789246fe4f6a006611c1c8d61f961a383dae204721d23829acc",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039382.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039383\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "41c5bb2fb1fe5864d71a7b5ff5e828d579867db735ecada87111ee8ad3e52a53",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039383.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039385\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "70eb40c027563017e1d258c4bb3be84ae7b28df27b947e7f7003fa1e8c742903",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039385.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039390\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "5429ed095f1aa51e31953b95a4592a40c6fe5b9ff499badf2da676a8cb2b28f9",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039390.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039393\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "d7bfbf1c62f971fa11a4add0ae57b7aa97d2f9e5ce3da81c6eb329ec77b95984",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039393.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039397\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "368db85d396c1ed9ac39d72a268f47bbf652b74adb11f2373170c8b8a3b1d9c4",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039397.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039403\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "4453bb79ed40b6e21298bb88f686eb00e1ffe5beaa0ed0672794aa27e4db1c55",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039403.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039409\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "952995a9c8e0e41d2b3e964469b1ff207272046a78e3fb47b551f53014628c07",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039409.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039411\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "054f4d9238032c5ad7d7df6a573b30a94017f9695d2fb34e356b2f563cbba163",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039411.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039421\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "f624b1700bf386382f51055462c93ec2d7032e94a7ebd505e27e43e1feee48eb",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039421.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039430\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "1c5932d8f263ebf133197e0668ce61da419510ba0cdb8da8c155757734adfe3c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039430.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039439\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "a12df4eb7fec3247050529788c143639c09f6c821eee2e42bc2974c0fdae7327",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039439.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039441\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "5a12ea52166e7d52a06576719416f93d42acc75d82da842baa3a616da3a4700e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039441.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039462\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "26216b17ed2b8a108ab55063d971529b30ca5e5b01d7b07686b33e5a2f62e982",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039462.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039467\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "f5fe64f1689f0f45b40f6a8d2b3cddcfedca04771ce1fa4b7cbd4ec8b6a0c9f1",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039467.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039468\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "deaa6ab2a0e6bc809a3b95c9c6a5fd0d45a39d0e8a1f94d18d9bd263e4115c82",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039468.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039493\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "dedec900634546f962b040dc221ae14b1fe38a3a1edfa2def185302dff518b6c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039493.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039528\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "cc9b2fc53dafe7e8adf84ba4813d47e1d2a8d120b149a3113e8e6d52fab1e8f6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039528.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039529\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "570dc7482768894f348c95919518a155563e1865f750fe2313781160f94a850d",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039529.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039531\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "ba5e1120730b5cada11b92cdbd6b9ec1497e508e388d8fee3cab83a48b7a1bcb",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039531.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039536\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "b48f9117d7cd447fd81b38510cbdaf8a68d8b70521d7b1a8338a3463ef59d8be",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039536.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039552\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "0e480fc9798a2720ac6a8b0d8a7615061f203eb6a4da6d2933b986076113f00c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039552.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1039570\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "d0659c0c06476c64d59de78a0f0b544a59532c238b1cf26099a55433491639e7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1039570.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1055956\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "a2f3009b019dfd01cee64aec7813e687df00bb7d54552a17e5bfefeb2e16c2a8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1055956.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1056059\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "6dcb2742b4c7857c70f92312de4d9023ace4c4620eee507d59a9c56366a8ee9d",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056059.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1056351\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "e7d04efc3f897ac92fca6b0a04a2acc9559c0937856529a9248f0a534bb685e1",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056351.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1056702\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "7fed611951946ef8d81f65918cc043033e68db982958cd258d3baaa7445919a3",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056702.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1056831\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "586ef233f5da90afc880fb0f0cc2a18f8cb21ebfffd77a2deae9719b6884150e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1056831.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1057818\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "47858f908f3ca4c64efdcef45b111b8379c402be37c0ca5436501761af4b3884",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1057818.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1058623\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "5d3c314ea2e535a65b24f72bf764ac40bd8aff7abec0a4fda48ecd5067ecb1ec",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1058623.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1062228\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "00175d8c319587c689a689ff4adb6760710ab98e846a409d5f7f28318548d1f7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1062228.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1064227\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "1c2bf3da3d4ac6742308f0a466c14cea65f52330a0e81ccaa0516c9640dca73c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1064227.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1064492\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "ffab675613d355de71a34fcb60378528bb5ae19b6142ba5e237b4fde1bd31f14",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1064492.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1065577\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "a041ed2406cfa144fb76e2c4db255b83610dff9cbea135b57f4fd567815ebe87",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1065577.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1065697\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "c9a950db03b764576c034ac0979580e553fac5ad8ca5215d9ab7693178bb16df",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1065697.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1066100\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "0108c16b6c51617a39997777e6647be3b7801d1e3001b5dd1880857e710d5dae",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1066100.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1067285\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "044728c22d6f25a1effb0bc782b5c24744eb194d26d0d0171a57cd53f8f8ce52",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1067285.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-10683\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "61032d86e04f7fe8a795d19806635a6f8fcfc048aac71338fc93a7328c27caae",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-10683.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1078638\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "496dc15c9abed6de97c30bc261404b52859fb3271afa35a2f33081ccda57fed6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1078638.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1079707\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "423019c60b0c0ce25e0346b2488be7f7a7435ddd10079fa5a2a058847411d764",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1079707.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1087546\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "2a65e33b860cabc00e97789c471dccd9822d3e251a35006ebb9be7301115decc",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1087546.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094122\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "d2fd229a7ccf8a23efa0e8dc51e9159612732c7f2a8c0de1267ac6b222fdb530",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094122.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094702\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "2a8f6792b9bea549273a1e248265bed4c60c01a35c199ac9cd08fb5e6ec5fdc4",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094702.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094734\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "79b0b990317baeeffc676e99e53cbd92fee5918a6a5db648ccefb9bbe1cd4ebd",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094734.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094735\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "2cff361cb5b09dc54da0bdb777f9174bd9e6bf58c893a95d3ac0e392aad3b775",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094735.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094852\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "c214aa7cfd613565fdbf3fbae3832ab9ca0ee73e23945c5167d698e885a2bbbd",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094852.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094857\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "c805ed521028791814082075b9811c0f7d5016579c3121601e542bb1b080f783",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094857.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094906\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "3a132d5ae325d60e4b3c03213f1538d99bce4b41cf1b4faa581c6e07d4e619a7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094906.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094922\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "64300b8f15d8058b6636ee7cc8756d23dd9d79f6959c90f2497dc40d48fc8b5c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094922.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094989\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "8ea7b48ffd16e8cbd10190b2959d89732dcebb29c233a1e8ab4b399900ba60ea",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094989.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1094998\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "f18508c63254df73806f76147629d7441c8adcfef6eeaa81ddfd9b50146d9e85",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1094998.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1095005\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "35baed065d12cd23bc55fe4e83c00fddc33351d1e93f8b4bc21061f064d884cb",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1095005.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1095016\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "781808125d2a45b4ef6b79e6efb4ac34ec5934c247bafcf2e0dc5234740b4fc8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1095016.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1095665\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "7277463e61f0027ad24ba24d96ad27becfe640aaf498c84002f75502d45a2dac",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1095665.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1096803\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "08da4cdf951161e9daba0be84a067fa0470342a0ef9f1f26cf5ce9a344d208da",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1096803.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-110\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "d36e82757b1ad2bfff692c9fb638cd18c64108dbadc9ce7faf99e3b30fe0294c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-110.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1101930\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "d11f3808388937e307757c314b4fe7c9de0afa476e9332b119eb7a4b9c477bff",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1101930.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1102442\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "5fff857aa44802ca6ab4446174f22a3a3db6761777445e7cc58c71bbaff3bb1a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1102442.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1120811\\pw.in",
+      "n_atoms": 40,
+      "ase_input_parse": "passed",
+      "sha256": "97bb8dda4f7e9b85ab209edb559ca430985781c6eb35e57448f2d2915d4f31ff",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1120811.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180008\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "ddcc40b9c6547d8923c8fb785f4c6a2958186e04c59b745fa123af5c4d987d8f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180008.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180036\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "f6c77313c95adf44f4576cbfaf2de41f798eee2495cde8f3941524c0ead479b8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180036.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180050\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "bc42825c74992294388574909b7ee910090e9f17c9d0a74c46952e72da07a2a8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180050.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180064\\pw.in",
+      "n_atoms": 10,
+      "ase_input_parse": "passed",
+      "sha256": "faad2ff25420bb11bbe7b58ecb5765b82798e979c174479a578ef1cabc881e9f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180064.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180260\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "d2173e23a4b03e6e36d72d046608dc11a1b47f578783f996f006e941ab723bc1",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180260.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180271\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "0dc511517fa93e2f3382b255921d237b54f670167aeec1877571626ce486017e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180271.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180312\\pw.in",
+      "n_atoms": 16,
+      "ase_input_parse": "passed",
+      "sha256": "a6dae14c2008f7da069f1335ce261c2ddff93b18118bf97b88a70087785c05b2",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180312.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1180973\\pw.in",
+      "n_atoms": 16,
+      "ase_input_parse": "passed",
+      "sha256": "6a356bceb363453ceef7fe6a680a37768f0a4f92e4ebe1cc1ae700232009815a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1180973.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1181903\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "153acca741dfb097868f84d86a516b39d13655a7a4003a47b76c8ee037a2beda",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1181903.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1181909\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "5942c017f98d3aadc286fcc352f2bfdce6c631ed2f42e8060a781d854ee303dd",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1181909.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1182183\\pw.in",
+      "n_atoms": 22,
+      "ase_input_parse": "passed",
+      "sha256": "18d546404a1f47e2d167982f52ae6e3765555e7b72519341a7e54a93a477d02b",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1182183.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1182382\\pw.in",
+      "n_atoms": 22,
+      "ase_input_parse": "passed",
+      "sha256": "9da6af5d5b9a414d3c4afb166be0db583b4fd25a08ffedaea1b02ae3e5b77a74",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1182382.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1183430\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "741137b21431ac18f63b4b5226a2b4df71563258875645a177d3fb61dfe2eeda",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1183430.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1183455\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "6792022cdd0dc9e09e01c93e3a397da02bb8585377996ccad579c8a726fa4dfe",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1183455.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1183484\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "f12206d01911e7b4d96aa3c9a2a4fde194539e4eeb7fd875f950f6bf52b7f665",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1183484.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1183532\\pw.in",
+      "n_atoms": 5,
+      "ase_input_parse": "passed",
+      "sha256": "67e4ae2e25c09f394d719ae38a566db40d5c61606fa5f05291b73bc6ad64340e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1183532.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1183575\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "7b9115974f1cca53a0edf1acb393d899729f4499a87bb2a4c89f6b0317867223",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1183575.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1184449\\pw.in",
+      "n_atoms": 150,
+      "ase_input_parse": "passed",
+      "sha256": "b33b77e0f1127db530ccce516d552309491a4b11cf27bd977410caf6f0fd7302",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1184449.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1190533\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "7be37330cedbbcddef710ec0c4f18f0c362c17751b41d234449d8be8b9d365b4",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1190533.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1190649\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "98ce6a1f5c1456725a94281495e69eaf6774c31dbc94eac43e581935ee9aae6b",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1190649.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1191789\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "cc6b1738241796d0bcc305841f8ce5ae5a71f51267ba65f3b2edf6ce6137415d",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1191789.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1192043\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "f0ec15689f3e46fdbdf1eea2dfa0416ea43071ed3a5a970d9041adfd3fc5e45f",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1192043.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1192189\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "49dfb9745729d32df09355652bf29afb28497887c65b21fe46630f7993165492",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1192189.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1227541\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "eb7b0f486171e30a726a9b6804b18ae1333e6e11039a44c936e9e3d500250c05",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1227541.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1244902\\pw.in",
+      "n_atoms": 100,
+      "ase_input_parse": "passed",
+      "sha256": "a63b1c9feec56e0965b59ecdd23ad98a27552f158c33c186f9ffcd924edbc509",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1244902.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1244962\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "581f46bdd7f6ecf7557367ebd80c6d406efbe7ee33d8c6f01e1872e2be6dde18",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1244962.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245039\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "069bee44e05ca27dbb292b3a6802e75c50634c4993d01b5e9308c9a8e7eb0805",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245039.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245045\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "00cf4df144035680c1f65e1156c92b5f9e78073a912c99abe2ae12c82e662eff",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245045.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245128\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "24e0d4a9eb157018c1cab1648c586bb1aae129c8853bf671e52704f80dbc3747",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245128.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245143\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "e3099c68ebc2124a694ba46a4cc75c7e6294cb462046a9ecb3fb3928e41e423c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245143.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245157\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "c035a78ce3649943e51c51aaab58eb706c9e72258cb3e95f9e4e9b3ff77f7d79",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245157.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245195\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "394281fcd971e6d75cb4da86c99f44f5541215424665eaf25908da6a59cca8f6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245195.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245200\\pw.in",
+      "n_atoms": 100,
+      "ase_input_parse": "passed",
+      "sha256": "b0550e624c1d89650f0767f5048f2561424677638a63f7a6e794a638de4fd654",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245200.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245232\\pw.in",
+      "n_atoms": 80,
+      "ase_input_parse": "passed",
+      "sha256": "b2e5fc22ebdb5c4338ae26220f70e9f2121d637b967c8e45ce5f7ee923aa3d5e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245232.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245305\\pw.in",
+      "n_atoms": 100,
+      "ase_input_parse": "passed",
+      "sha256": "9d0c7807fd2e29a6498b55cb18cac47cd46d7045bb4f3577b56c3e2230cd3ec6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245305.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1245393\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "5f598c423fba19ed140bac3b3d1e6c31e63a5c9d6ac3e135168149b25803f504",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1245393.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1247180\\pw.in",
+      "n_atoms": 10,
+      "ase_input_parse": "passed",
+      "sha256": "4817ae04a3ed55ddae59714d878a38c24267e92ea2c15510e61fc76b2bce9f85",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1247180.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1265\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "1d2257df54063fd095b23b0214f5f7e7952f41c71c49cff625fadb52f7b84247",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-1265.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-132\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "2e1a3932cb53d2bea5708d25e57e5bbb7e7e0014ea661bc87d3de01a8852a5c2",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-132.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-153\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "3160f53b1018be9cd26785d5c09442dd2b66af22eb1f097821d21f9547f5f155",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-153.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-166\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "1906a8d630d1aee62a75aa910b44cfbe5c041a6fc1dbc392fb1fc73ae7395686",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-166.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-21\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "0eaa71fa56b5c2294046a6028cf39b1833a4571b9d4bd9d16a521ee9357d136a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-21.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-2421172\\pw.in",
+      "n_atoms": 6,
+      "ase_input_parse": "passed",
+      "sha256": "ea5e86047657af3dd70230d904a36e1aa1ed443a428fb9946a7ee0df22e78d7c",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-2421172.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-2432\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "5cd35019ecd7cb5f4e748e3b9276ad9ef32be2b8ab541c15b8db84e8f6dfc7a8",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-2432.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-2589\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "10186359059a111f21d3526c533b28be91ff1837dbdfac9ca27d44789f9f8fa7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-2589.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-2605\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "b5747010cef788a3ca72b969d1cc16d3930286325989a2914c57d4ea7faa63b7",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-2605.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-45\\pw.in",
+      "n_atoms": 1,
+      "ase_input_parse": "passed",
+      "sha256": "b605eb293bda8d0b38ded2f016516298c9ad311fab81ec7d92770db1ecfc0900",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-45.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-545512\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "62b03d30d4700052f24290de52fa3bc28de833296aae5f37ccd0b0d5ae7fc61a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-545512.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-549706\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "af29e723000489267e4538c894a895d4ce8c760a21b04521d9504ab93bfcd173",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-549706.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-560602\\pw.in",
+      "n_atoms": 24,
+      "ase_input_parse": "passed",
+      "sha256": "8b111314722f81846627a383ad57b2abcff7a712be0d0a35b76fbae33abed514",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-560602.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-607540\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "49f42acd38ef3ad8527fa2ee97fa16797b7a9fa035e9eed6a7f987675d3fd76a",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-607540.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-610917\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "b7533b89aa679529cdbc4444eec715a3a9d1c7bc37140420fb9e2b0159782989",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-610917.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-611836\\pw.in",
+      "n_atoms": 2,
+      "ase_input_parse": "passed",
+      "sha256": "ee75d495c3a008d2cbc4d9ee82633f4ccc26bff967125ad2a9df068930ec7f89",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-611836.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-634859\\pw.in",
+      "n_atoms": 3,
+      "ase_input_parse": "passed",
+      "sha256": "2fd86e1dd1a87b3df2b2335b71eb2c8797b9c0c87ae38f5857653ed259fb5686",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-634859.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-723285\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "a11e62b9b579281832df7d1fbaee1721b7f7be1053f80ffebd3a855e724d9ebf",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-723285.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-734188\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "bf9685a40f6b439be96c7e584ccf549d528b7981eb676961a6f6b66c392b8799",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-734188.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-775808\\pw.in",
+      "n_atoms": 12,
+      "ase_input_parse": "passed",
+      "sha256": "8c58b3a5ba58a33fcc53cfc99aaeffdf5d3c514073117eae9c67400842507b10",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-775808.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-776911\\pw.in",
+      "n_atoms": 8,
+      "ase_input_parse": "passed",
+      "sha256": "b6c91da98c5ec0576df2bd9437a915cc3aab828ef618bbeae16833f9c503630e",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-776911.source.json",
+      "template_matches_original_source": true
+    },
+    {
+      "template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-973364\\pw.in",
+      "n_atoms": 4,
+      "ase_input_parse": "passed",
+      "sha256": "3006ecf0fa1c7f3d20dc4280d6a0cec37b4857297b0a0d3e8fcd5b9a0b65cfa6",
+      "execution_source_geometry": "data\\references\\mp_2022_10_28\\mp-973364.source.json",
+      "template_matches_original_source": true
+    }
+  ],
+  "primary_reference_geometry_count": 161,
+  "fallback_geometry_count": 57,
+  "all_geometry_files_exist_and_hash_match": true,
+  "all_template_parses_passed": true,
+  "all_reference_template_geometries_match_original_source_cells": true,
+  "template_readiness": "Syntax/geometry parsing only, not QE electronic, spin or numerical convergence validation"
+}

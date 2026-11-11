@@ -1,0 +1,14 @@
+{
+  "completed_at_utc": "2026-10-22T01:51:28.728770+00:00",
+  "evaluator_labels_read_so_far": 0,
+  "policies": [
+    "random",
+    "quality",
+    "quality_diversity",
+    "uncertainty",
+    "full"
+  ],
+  "queries_per_policy": 50,
+  "status": "complete",
+  "total_policy_queries": 250
+}

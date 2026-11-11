@@ -1,0 +1,1330 @@
+{
+  "generatedAt": "2026-10-22T17:54:54.505Z",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "moduleSha256": "9547d917dc599c0af0d39cea312aaa5507b50eaba14cf8a67fe526436c273d17",
+  "actualSavedStages": 26,
+  "passed": true,
+  "checkCount": 330,
+  "checks": [
+    {
+      "check": "orthogonal: exactly three shafts, three arrowheads and three labels",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: +a camera direction follows ROW 0",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: a label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: +b camera direction follows ROW 1",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: b label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: +c camera direction follows ROW 2",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: c label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: source lattice is not mutated",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: all owned buffers disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: all shared-axis and sprite materials disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: all label textures disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: all label cleanup callbacks run exactly once",
+      "passed": true
+    },
+    {
+      "check": "orthogonal: disposal detaches axis group and clears scene references",
+      "passed": true
+    },
+    {
+      "check": "skew: exactly three shafts, three arrowheads and three labels",
+      "passed": true
+    },
+    {
+      "check": "skew: +a camera direction follows ROW 0",
+      "passed": true
+    },
+    {
+      "check": "skew: a robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "skew: a robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "skew: a camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "skew: a shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "skew: a shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "skew: a arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "skew: a label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "skew: a label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "skew: +b camera direction follows ROW 1",
+      "passed": true
+    },
+    {
+      "check": "skew: b robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "skew: b robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "skew: b camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "skew: b shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "skew: b shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "skew: b arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "skew: b label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "skew: b label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "skew: +c camera direction follows ROW 2",
+      "passed": true
+    },
+    {
+      "check": "skew: c robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "skew: c robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "skew: c camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "skew: c shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "skew: c shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "skew: c arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "skew: c label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "skew: c label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "skew: source lattice is not mutated",
+      "passed": true
+    },
+    {
+      "check": "skew: all owned buffers disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "skew: all shared-axis and sprite materials disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "skew: all label textures disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "skew: all label cleanup callbacks run exactly once",
+      "passed": true
+    },
+    {
+      "check": "skew: disposal detaches axis group and clears scene references",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: exactly three shafts, three arrowheads and three labels",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: +a camera direction follows ROW 0",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: a label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: +b camera direction follows ROW 1",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: b label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: +c camera direction follows ROW 2",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: c label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: source lattice is not mutated",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: all owned buffers disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: all shared-axis and sprite materials disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: all label textures disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: all label cleanup callbacks run exactly once",
+      "passed": true
+    },
+    {
+      "check": "permuted and signed: disposal detaches axis group and clears scene references",
+      "passed": true
+    },
+    {
+      "check": "near parallel: exactly three shafts, three arrowheads and three labels",
+      "passed": true
+    },
+    {
+      "check": "near parallel: +a camera direction follows ROW 0",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "near parallel: a label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "near parallel: +b camera direction follows ROW 1",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "near parallel: b label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "near parallel: +c camera direction follows ROW 2",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c robust camera up is unit length",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c robust camera up is perpendicular",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c camera up is finite",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c shaft begins at saved origin",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c shaft and arrowhead meet",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c arrow tip is the exact saved row endpoint",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c label stays collinear with saved vector",
+      "passed": true
+    },
+    {
+      "check": "near parallel: c label follows the positive vector endpoint",
+      "passed": true
+    },
+    {
+      "check": "near parallel: source lattice is not mutated",
+      "passed": true
+    },
+    {
+      "check": "near parallel: all owned buffers disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "near parallel: all shared-axis and sprite materials disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "near parallel: all label textures disposed exactly once",
+      "passed": true
+    },
+    {
+      "check": "near parallel: all label cleanup callbacks run exactly once",
+      "passed": true
+    },
+    {
+      "check": "near parallel: disposal detaches axis group and clears scene references",
+      "passed": true
+    },
+    {
+      "check": "Partial axis construction disposes completed labels before propagating failure",
+      "passed": true
+    },
+    {
+      "check": "Invalid and singular saved lattices are rejected",
+      "passed": true
+    },
+    {
+      "check": "Invalid camera directions are rejected",
+      "passed": true
+    },
+    {
+      "check": "Isometric preset preserves the existing initial camera direction",
+      "passed": true
+    },
+    {
+      "check": "Cartesian compass labels XYZ independently of lattice abc",
+      "passed": true
+    },
+    {
+      "check": "Identity compass projects positive X right and positive Y upward",
+      "passed": true
+    },
+    {
+      "check": "Compass applies inverse camera orientation: world X points down after +90-degree camera roll",
+      "passed": true
+    },
+    {
+      "check": "Compass applies inverse camera orientation: world Y points right after +90-degree camera roll",
+      "passed": true
+    },
+    {
+      "check": "Projected x retains a unit 3D orientation",
+      "passed": true
+    },
+    {
+      "check": "Projected y retains a unit 3D orientation",
+      "passed": true
+    },
+    {
+      "check": "Projected z retains a unit 3D orientation",
+      "passed": true
+    },
+    {
+      "check": "Actual recorded geometry stages are included in orientation verification",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--accepted_dft: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--generated: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase3_early_CaMg2O3_attempt_005--generated_excluded: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--generated: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--generated: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2--prototype_initial: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3--prototype_initial: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3--prototype_initial: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2--prototype_initial: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_cao_mp2605--accepted_dft: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "qe_source_reference_mgo_mp1265--accepted_dft: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--catalog_initial: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--catalog_initial: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--catalog_initial: orientation computation does not mutate saved stage",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: a matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: a camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: b matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: b camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: c matches saved row vector",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: c camera-up basis is nonsingular",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile--model_relaxed: orientation computation does not mutate saved stage",
+      "passed": true
+    }
+  ]
+}

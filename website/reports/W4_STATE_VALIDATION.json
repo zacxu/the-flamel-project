@@ -1,0 +1,2436 @@
+{
+  "phase": "W4",
+  "scope": "Shared route state, actual candidate registry, history and cancellation",
+  "status": "passed",
+  "generatedAt": "2026-10-22T11:41:16.488Z",
+  "checksPassed": 606,
+  "actualSavedStagesChecked": 26,
+  "actualSavedCandidatesChecked": 14,
+  "newResearchExperiments": 0,
+  "checks": [
+    {
+      "check": "Empty hash starts aggregate Quality versus Full at fifty queries",
+      "passed": true
+    },
+    {
+      "check": "Default route is canonical and round trips",
+      "passed": true
+    },
+    {
+      "check": "All six paths are supported",
+      "passed": true
+    },
+    {
+      "check": "Reload preserves overview",
+      "passed": true
+    },
+    {
+      "check": "Reload does not warn for valid overview",
+      "passed": true
+    },
+    {
+      "check": "Reload preserves workflow",
+      "passed": true
+    },
+    {
+      "check": "Reload does not warn for valid workflow",
+      "passed": true
+    },
+    {
+      "check": "Reload preserves replay",
+      "passed": true
+    },
+    {
+      "check": "Reload does not warn for valid replay",
+      "passed": true
+    },
+    {
+      "check": "Reload preserves crystals",
+      "passed": true
+    },
+    {
+      "check": "Reload does not warn for valid crystals",
+      "passed": true
+    },
+    {
+      "check": "Reload preserves findings",
+      "passed": true
+    },
+    {
+      "check": "Reload does not warn for valid findings",
+      "passed": true
+    },
+    {
+      "check": "Reload preserves evidence",
+      "passed": true
+    },
+    {
+      "check": "Reload does not warn for valid evidence",
+      "passed": true
+    },
+    {
+      "check": "Invalid path returns overview: #/missing",
+      "passed": true
+    },
+    {
+      "check": "Invalid path is explicit: #/missing",
+      "passed": true
+    },
+    {
+      "check": "Invalid path returns overview: #/overview/other",
+      "passed": true
+    },
+    {
+      "check": "Invalid path is explicit: #/overview/other",
+      "passed": true
+    },
+    {
+      "check": "Invalid path returns overview: #/replay#fragment",
+      "passed": true
+    },
+    {
+      "check": "Invalid path is explicit: #/replay#fragment",
+      "passed": true
+    },
+    {
+      "check": "Invalid path returns overview: #overview",
+      "passed": true
+    },
+    {
+      "check": "Invalid path is explicit: #overview",
+      "passed": true
+    },
+    {
+      "check": "Invalid path returns overview: https://example.org/#/replay",
+      "passed": true
+    },
+    {
+      "check": "Invalid path is explicit: https://example.org/#/replay",
+      "passed": true
+    },
+    {
+      "check": "Invalid mode=future is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid mode=future has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid seed=20261027 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid seed=20261027 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid seed=2e7 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid seed=2e7 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid seed=0x13528ee is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid seed=0x13528ee has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid budget=15 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid budget=15 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid budget=0.000001 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid budget=0.000001 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid budget=-10 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid budget=-10 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid batch=0 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid batch=0 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid policy=oracle is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid policy=oracle has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid endpoint=missing is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid endpoint=missing has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid scope=both is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid scope=both has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid retainedFraction=0.35 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid retainedFraction=0.35 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid retainedFraction=NaN is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid retainedFraction=NaN has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid retainedFraction=0 is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid retainedFraction=0 has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid candidateId=../../private is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid candidateId=../../private has a notice",
+      "passed": true
+    },
+    {
+      "check": "Invalid stageId=<script> is bounded",
+      "passed": true
+    },
+    {
+      "check": "Invalid stageId=<script> has a notice",
+      "passed": true
+    },
+    {
+      "check": "Empty policies restore comparison defaults",
+      "passed": true
+    },
+    {
+      "check": "Duplicate policies are unique in documented order",
+      "passed": true
+    },
+    {
+      "check": "Inspected policy follows a visible policy",
+      "passed": true
+    },
+    {
+      "check": "Ambiguous duplicate parameters reset rather than choose an arbitrary seed",
+      "passed": true
+    },
+    {
+      "check": "Unknown parameters are removed",
+      "passed": true
+    },
+    {
+      "check": "Stored initial-shared uncertainty endpoint remains selectable",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.1 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.2 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.3 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.4 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.5 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.6 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.7 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.8 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 0.9 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Saved retained fraction 1 survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/full/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/full/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/full/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/full/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/full/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/full/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/full/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/full/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/full/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/full/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/full/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/full/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/full/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/full/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/full/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/full/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/full/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/full/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/random/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/random/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/random/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/random/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/random/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/random/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/random/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/random/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/random/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/random/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/random/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/random/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/random/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/random/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/random/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/random/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/random/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/random/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261022/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261022/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261022/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/full/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/full/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/full/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/full/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/full/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/full/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/full/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/full/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/full/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/full/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/full/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/full/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/full/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/full/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/full/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/full/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/full/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/full/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/random/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/random/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/random/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/random/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/random/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/random/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/random/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/random/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/random/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/random/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/random/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/random/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/random/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/random/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/random/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/random/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/random/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/random/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261023/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261023/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261023/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/full/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/full/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/full/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/full/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/full/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/full/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/full/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/full/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/full/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/full/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/full/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/full/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/full/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/full/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/full/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/full/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/full/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/full/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/random/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/random/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/random/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/random/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/random/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/random/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/random/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/random/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/random/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/random/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/random/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/random/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/random/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/random/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/random/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/random/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/random/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/random/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261024/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261024/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261024/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/full/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/full/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/full/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/full/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/full/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/full/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/full/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/full/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/full/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/full/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/full/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/full/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/full/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/full/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/full/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/full/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/full/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/full/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/random/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/random/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/random/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/random/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/random/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/random/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/random/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/random/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/random/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/random/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/random/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/random/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/random/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/random/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/random/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/random/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/random/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/random/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261025/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261025/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261025/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/full/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/full/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/full/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/full/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/full/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/full/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/full/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/full/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/full/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/full/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/full/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/full/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/full/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/full/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/full/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/full/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/full/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/full/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality_diversity/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality_diversity/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality_diversity/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality_diversity/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality_diversity/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/quality_diversity/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/random/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/random/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/random/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/random/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/random/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/random/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/random/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/random/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/random/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/random/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/random/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/random/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/random/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/random/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/random/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/random/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/random/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/random/50",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/uncertainty/0",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/uncertainty/10",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/uncertainty/20",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/uncertainty/30",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/uncertainty/40",
+      "passed": true
+    },
+    {
+      "check": "Recorded replay identity 20261026/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Unrevealed next batch cannot disclose labels 20261026/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Canonical seed reload 20261026/uncertainty/50",
+      "passed": true
+    },
+    {
+      "check": "Previously completed first batch is explicitly revealed",
+      "passed": true
+    },
+    {
+      "check": "Future batch request clamps to first saved predictions with labels hidden",
+      "passed": true
+    },
+    {
+      "check": "Aggregate 0 has no revealed event history",
+      "passed": true
+    },
+    {
+      "check": "Aggregate 10 has no revealed event history",
+      "passed": true
+    },
+    {
+      "check": "Aggregate 20 has no revealed event history",
+      "passed": true
+    },
+    {
+      "check": "Aggregate 30 has no revealed event history",
+      "passed": true
+    },
+    {
+      "check": "Aggregate 40 has no revealed event history",
+      "passed": true
+    },
+    {
+      "check": "Aggregate 50 has no revealed event history",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase1_mgo_attempt_000--generated survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase1_mgo_attempt_000--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase1_mgo_attempt_000--accepted_dft survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase4_tio2_rutile_nontrivial_attempt_000--generated survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase4_tio2_rutile_p1_attempt_000--generated survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase4_tio2_rutile_p1_attempt_000--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_SnSrO2--prototype_initial survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_SnSrO2--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_BaSnO2--prototype_initial survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_BaSnO2--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_CaMg2O3--prototype_initial survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_CaMg2O3--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_Mg2SrO3--prototype_initial survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair prototype_Mg2SrO3--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair reference_rocksalt--catalog_initial survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair reference_rocksalt--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair reference_rutile--catalog_initial survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair reference_rutile--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair reference_anatase--catalog_initial survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair reference_anatase--model_relaxed survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair phase3_early_CaMg2O3_attempt_005--generated_excluded survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair qe_source_reference_mgo_mp1265--accepted_dft survives reload",
+      "passed": true
+    },
+    {
+      "check": "Recorded candidate/stage pair qe_source_reference_cao_mp2605--accepted_dft survives reload",
+      "passed": true
+    },
+    {
+      "check": "A candidate never inherits the unrelated MgO DFT stage",
+      "passed": true
+    },
+    {
+      "check": "Candidate/stage mismatch is disclosed",
+      "passed": true
+    },
+    {
+      "check": "Unknown candidate resets to the documented real MgO example",
+      "passed": true
+    },
+    {
+      "check": "Real two-atom reference exists for independent identity check",
+      "passed": true
+    },
+    {
+      "check": "Two-atom source reference cannot masquerade as eight-atom continuation",
+      "passed": true
+    },
+    {
+      "check": "Initial canonicalization replaces one entry",
+      "passed": true
+    },
+    {
+      "check": "Playback starts paused",
+      "passed": true
+    },
+    {
+      "check": "Aggregate playback cannot start",
+      "passed": true
+    },
+    {
+      "check": "State transitions create separate meaningful history entries",
+      "passed": true
+    },
+    {
+      "check": "Back restores the prior seed and completed budget",
+      "passed": true
+    },
+    {
+      "check": "Forward restores the exact later recorded boundary",
+      "passed": true
+    },
+    {
+      "check": "Replace update avoids adding history entries",
+      "passed": true
+    },
+    {
+      "check": "Bound registry repairs later local candidate/stage updates",
+      "passed": true
+    },
+    {
+      "check": "Direct unknown links are normalized once in place",
+      "passed": true
+    },
+    {
+      "check": "Direct unknown links show a scoped notice",
+      "passed": true
+    },
+    {
+      "check": "Normalized browser entry matches controller state",
+      "passed": true
+    },
+    {
+      "check": "Asynchronous source-registry validation retains repaired-link explanation",
+      "passed": true
+    },
+    {
+      "check": "Native malformed navigation explains budget, seed and mismatched-stage repair",
+      "passed": true
+    },
+    {
+      "check": "Native malformed navigation selects the actual two-atom reference stage",
+      "passed": true
+    },
+    {
+      "check": "Duplicate popstate/hashchange notifications preserve the complete repaired-link notice",
+      "passed": true
+    },
+    {
+      "check": "Duplicate canonical notifications keep a stable state snapshot",
+      "passed": true
+    },
+    {
+      "check": "A meaningfully different valid native navigation clears the old warning",
+      "passed": true
+    },
+    {
+      "check": "A subsequent malformed native navigation creates a new notice",
+      "passed": true
+    },
+    {
+      "check": "An ordinary valid local update clears a repaired-link notice",
+      "passed": true
+    },
+    {
+      "check": "Full reset restores every persistent field",
+      "passed": true
+    },
+    {
+      "check": "Full reset clears warnings and pauses",
+      "passed": true
+    },
+    {
+      "check": "Playback may be prepared for seed mode before view change",
+      "passed": true
+    },
+    {
+      "check": "view change cancels timers and pauses",
+      "passed": true
+    },
+    {
+      "check": "Playback may be prepared for seed mode before mode change",
+      "passed": true
+    },
+    {
+      "check": "mode change cancels timers and pauses",
+      "passed": true
+    },
+    {
+      "check": "Playback may be prepared for seed mode before seed change",
+      "passed": true
+    },
+    {
+      "check": "seed change cancels timers and pauses",
+      "passed": true
+    },
+    {
+      "check": "Playback may be prepared for seed mode before inspected policy change",
+      "passed": true
+    },
+    {
+      "check": "inspected policy change cancels timers and pauses",
+      "passed": true
+    },
+    {
+      "check": "No cancelled callback advances a stale route",
+      "passed": true
+    },
+    {
+      "check": "Reaching the final boundary pauses playback",
+      "passed": true
+    },
+    {
+      "check": "Browser navigation cancels even when only a saved batch differs",
+      "passed": true
+    },
+    {
+      "check": "No callback survives browser navigation",
+      "passed": true
+    },
+    {
+      "check": "Reset cancels current timers and pauses",
+      "passed": true
+    },
+    {
+      "check": "No callback survives reset",
+      "passed": true
+    },
+    {
+      "check": "One cleanup fault does not skip other timer cancellations",
+      "passed": true
+    },
+    {
+      "check": "Canonical no-op retains a stable external-store snapshot",
+      "passed": true
+    },
+    {
+      "check": "Unmount disconnects browser listeners",
+      "passed": true
+    },
+    {
+      "check": "Strict-mode effect remount reconnects only one listener",
+      "passed": true
+    },
+    {
+      "check": "Strict-mode reconnect retains the initial invalid-link explanation",
+      "passed": true
+    },
+    {
+      "check": "Initial malformed link explains scalar repairs before the catalog arrives",
+      "passed": true
+    },
+    {
+      "check": "Async registry binding adds stage repair without removing initial scalar explanations",
+      "passed": true
+    },
+    {
+      "check": "Async binding repairs the exact initial candidate-stage mismatch",
+      "passed": true
+    },
+    {
+      "check": "Queued native notifications retain combined initial and catalog repair explanations",
+      "passed": true
+    }
+  ]
+}

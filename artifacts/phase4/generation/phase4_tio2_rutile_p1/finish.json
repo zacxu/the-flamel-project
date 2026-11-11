@@ -1,0 +1,12 @@
+{
+  "attempt_ledger": "artifacts/phase4/generation/phase4_tio2_rutile_p1/ledger.jsonl",
+  "canonical_generation_charged_attempts": 48,
+  "canonical_generation_remaining_attempts": 80,
+  "emitted_attempt_records": 8,
+  "job_wall_seconds": 57.984698899999785,
+  "output_dir": "artifacts/phase4/generation/phase4_tio2_rutile_p1",
+  "returncode": 0,
+  "status": "completed",
+  "valid_count": 1,
+  "valid_unique_count": 1
+}

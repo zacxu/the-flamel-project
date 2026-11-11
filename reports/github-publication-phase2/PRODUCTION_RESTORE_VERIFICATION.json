@@ -1,0 +1,18 @@
+{
+  "status": "HYDRATED_VERIFIED",
+  "tool_version": "1.0.0",
+  "scope": "production",
+  "manifest_sha256": "afcd6f3ce400e68a075f7dc87bc5d08c8040a9042ae1669986ed25f8fc8dcc6b",
+  "archives": 1,
+  "members": 130,
+  "member_bytes": 8470145,
+  "asset_bytes": 8510319,
+  "network_fetches": 0,
+  "publication_status": "local_prepared_unpublished_pending_phase3",
+  "destination": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\restored-production",
+  "created_files": 130,
+  "reused_matching_files": 0,
+  "merge_existing": false,
+  "existing_files_overwritten": 0,
+  "selected_destination_files_independently_hashed": 130
+}

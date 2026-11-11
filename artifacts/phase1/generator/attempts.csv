@@ -1,0 +1,9 @@
+attempt_id,valid,n_atoms,counts,volume_angstrom3,minimum_distance_angstrom,measured_spacegroup,duplicate_of,rejection_reasons,cif
+0,True,8,"{'O': 4, 'Mg': 4}",84.07848675273166,2.190441370010376,225,,[],artifacts\phase1\generator\cifs\attempt_000.cif
+1,True,8,"{'Mg': 4, 'O': 4}",80.27714687884935,2.1569197177886963,225,0,[],artifacts\phase1\generator\cifs\attempt_001.cif
+2,True,8,"{'Mg': 4, 'O': 4}",77.77183010163729,2.134244203567505,225,0,[],artifacts\phase1\generator\cifs\attempt_002.cif
+3,False,12,"{'Mg': 4, 'O': 8}",107.09923833123266,2.056345555282464,225,,"['exact_composition_mismatch', 'expanded_atom_count_mismatch']",artifacts\phase1\generator\cifs\attempt_003.cif
+4,True,8,"{'O': 4, 'Mg': 4}",82.69616242314623,2.178370714187622,225,0,[],artifacts\phase1\generator\cifs\attempt_004.cif
+5,True,8,"{'O': 4, 'Mg': 4}",82.2739777725392,2.1746573448181152,225,0,[],artifacts\phase1\generator\cifs\attempt_005.cif
+6,True,8,"{'Mg': 4, 'O': 4}",74.3598166461566,2.102565050125122,225,0,[],artifacts\phase1\generator\cifs\attempt_006.cif
+7,True,8,"{'Mg': 4, 'O': 4}",75.43750244560621,2.112673759460449,225,0,[],artifacts\phase1\generator\cifs\attempt_007.cif

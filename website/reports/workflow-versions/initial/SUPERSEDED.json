@@ -1,0 +1,7 @@
+{
+  "uiBuildId": "ui-w6-3d3b82bd8b716b165c7e",
+  "status": "superseded_for_final_acceptance",
+  "recordedAt": "2026-10-22T16:47:59.168414+00:00",
+  "reason": "Compare bars corrected to exported policy colors; small chart labels use ink for readability.",
+  "retained": "Exact original release ZIP, package record, staged delta/entry, reconstructed byte-identical dist and initial browser evidence."
+}

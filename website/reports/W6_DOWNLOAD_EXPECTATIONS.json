@@ -1,0 +1,80 @@
+[
+  {
+    "filename": "comparison.csv",
+    "kind": "comparison",
+    "selection": {
+      "hash": "#/replay?mode=seed&seed=20261026&policies=quality%2Cfull%2Cquality_diversity%2Crandom%2Cuncertainty&policy=uncertainty&budget=50&batch=1&revealed=true&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1"
+    }
+  },
+  {
+    "filename": "query-hidden.csv",
+    "kind": "query",
+    "selection": {
+      "seed": 20261026,
+      "policy": "random",
+      "batch": 1,
+      "revealed": false
+    }
+  },
+  {
+    "filename": "query-revealed.csv",
+    "kind": "query",
+    "selection": {
+      "seed": 20261026,
+      "policy": "random",
+      "batch": 1,
+      "revealed": true
+    }
+  },
+  {
+    "filename": "accepted-mgo.cif",
+    "kind": "cif",
+    "selection": {
+      "stageId": "phase1_mgo_attempt_000--accepted_dft"
+    }
+  },
+  {
+    "filename": "dft-perturbation.csv",
+    "kind": "dft",
+    "selection": {
+      "filters": {
+        "role": "perturbation"
+      }
+    },
+    "origin": {
+      "phase": "W5",
+      "path": "reports/analysis-downloads/flamel-qe-perturbation.csv",
+      "sha256": "d44694678ee028a185e785489de072d241ee6414ffbaff343ae8248f51efbef1",
+      "scope": "Retained actual browser export revalidated against unchanged current W6 projection"
+    }
+  },
+  {
+    "filename": "symmetry-primary.csv",
+    "kind": "cohort",
+    "selection": {
+      "scope": "primary",
+      "control": "mgo_rocksalt"
+    },
+    "origin": {
+      "phase": "W5",
+      "path": "reports/analysis-downloads/flamel-symmetry-primary-mgo_rocksalt.csv",
+      "sha256": "562997623a79afbba0315204671479d8c3bf8f9d341f2f7ef8e024d44c56286e",
+      "scope": "Retained actual browser export revalidated against unchanged current W6 projection"
+    }
+  },
+  {
+    "filename": "risk.csv",
+    "kind": "risk",
+    "selection": {
+      "seed": 20261022,
+      "endpoint": "full",
+      "retainedFraction": 0.1
+    },
+    "origin": {
+      "phase": "W5",
+      "path": "reports/analysis-downloads/flamel-retention-20261022-full.csv",
+      "sha256": "8830830e83eb5dced5bcff2ea0315eb4569cc2f22903408cba9351765682a4b3",
+      "scope": "Retained actual browser export revalidated against unchanged current W6 projection"
+    }
+  }
+]

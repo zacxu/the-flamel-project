@@ -1,0 +1,12 @@
+{
+  "MAE_eV_atom": 0.1040366721339968,
+  "RMSE_eV_atom": 0.2982296697963316,
+  "Spearman_disagreement_absolute_error": 0.32308269872089607,
+  "evaluated_at_utc": "2026-10-22T02:02:57.791974+00:00",
+  "interval_90_empirical_coverage": 0.8894090111176126,
+  "labels_returned_to_learner": 0,
+  "mean_interval_width_eV_atom": 0.4683620875460637,
+  "n": 3418,
+  "prediction_path": "artifacts\\phase4\\replay\\seed_20261026\\quality_diversity\\round_05\\evaluation_predictions.npz",
+  "prediction_sha256": "efb8aadea41caf125dcafe127d7913c7006ac5767e05d26ad5b572fffa472225"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "tool_version": "1.1.0",
+  "source": "D:\\bears",
+  "snapshot": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\project-snapshot",
+  "started_utc": "2026-11-10T17:44:11.109810+00:00",
+  "completed_utc": "2026-11-10T18:09:08.345861+00:00",
+  "inventory_sha256": "0a224fb688a3bd99825e5e53dd999ad2c4874c42675b8715a6a05e580b6aa17d",
+  "files": 105551,
+  "directories_including_root": 11077,
+  "bytes": 19209577902,
+  "all_content_sha256_match": true,
+  "all_file_mtimes_match": true,
+  "source_stability_checked_before_during_after": true,
+  "exclusions": [],
+  "reparse_points": 0,
+  "original_hardlinks_materialized": true,
+  "metadata_scope": "File contents/relative paths/empty directories/file mtimes; original timestamps and attributes inventoried. ACLs/ADS/creation times/hardlink topology not restored."
+}

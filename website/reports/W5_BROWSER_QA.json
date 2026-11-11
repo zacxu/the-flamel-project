@@ -1,0 +1,400 @@
+{
+  "phase": "W5",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Primary MgO shows 7/8 valid,1/8 unique versus P1 zero",
+      "passed": true
+    },
+    {
+      "name": "Primary TiO2 shows 6/8 valid,1/8 unique versus P1 1/8",
+      "passed": true
+    },
+    {
+      "name": "Supplementary MgO uses four draws per arm and separate URL scope",
+      "passed": true
+    },
+    {
+      "name": "Cohort tabs support keyboard Home and restore primary scope",
+      "passed": true
+    },
+    {
+      "name": "All twelve excluded diagnostics remain accessible",
+      "passed": true
+    },
+    {
+      "name": "All eight failed attempts accessible for SnSrO2",
+      "passed": true
+    },
+    {
+      "name": "All eight failed attempts accessible for BaSnO2",
+      "passed": true
+    },
+    {
+      "name": "All eight failed attempts accessible for CaMg2O3",
+      "passed": true
+    },
+    {
+      "name": "All eight failed attempts accessible for Mg2SrO3",
+      "passed": true
+    },
+    {
+      "name": "All eight failed attempts accessible for Ca2ZnO3",
+      "passed": true
+    },
+    {
+      "name": "All eight failed attempts accessible for Ca2SrO3",
+      "passed": true
+    },
+    {
+      "name": "All eleven selected model records remain accessible",
+      "passed": true
+    },
+    {
+      "name": "Findings jump navigation focuses uncertainty heading",
+      "passed": true
+    },
+    {
+      "name": "Ten percent retention displays 342 rows and actual10.0059percent",
+      "passed": true
+    },
+    {
+      "name": "Selected endpoint exposes ten saved decile bins",
+      "passed": true
+    },
+    {
+      "name": "Full roles expose ten rows and140/175 versus7/75",
+      "passed": true
+    },
+    {
+      "name": "Split20261024 Full shows92.10percentcoverage",
+      "passed": true
+    },
+    {
+      "name": "Split20261023 Full shows84.84percentcoverage",
+      "passed": true
+    },
+    {
+      "name": "Initialendpointuses0querysharedmodel",
+      "passed": true
+    },
+    {
+      "name": "AdvancedselectorusesrecordedRandom50querymodel",
+      "passed": true
+    },
+    {
+      "name": "100percentretentionrestoresall3418rowsandunitMAEratio",
+      "passed": true
+    },
+    {
+      "name": "Reloadrestoresseedendpointfractionandscope",
+      "passed": true
+    },
+    {
+      "name": "Completeevidenceledgerretains19jobs218memberships3geometries",
+      "passed": true
+    },
+    {
+      "name": "IncompleteperturbationkeepsJOBDONEtruebutterminalacceptancefalseandmeasurementsunavailable",
+      "passed": true
+    },
+    {
+      "name": "Pilotmissingforceandstressarenotzeros",
+      "passed": true
+    },
+    {
+      "name": "Ledgerlabelsjobsettingstationarityseparatelyfromfiniteacceptance",
+      "passed": true
+    },
+    {
+      "name": "Perturbationfiltershows1of19jobs",
+      "passed": true
+    },
+    {
+      "name": "Incompatiblejobfiltersgiveexplicit0of19emptystate",
+      "passed": true
+    },
+    {
+      "name": "ResetQEfiltersrestores19savedjobs",
+      "passed": true
+    },
+    {
+      "name": "Primarymissinginventoryfilterretains159memberships",
+      "passed": true
+    },
+    {
+      "name": "Spinfilterpreserves15missingprimarymemberships",
+      "passed": true
+    },
+    {
+      "name": "Acceptedreferencefilterhas3membershipsbut2originalmaterialIDs",
+      "passed": true
+    },
+    {
+      "name": "Publicationdestinationsremainexplicitlyunavailable",
+      "passed": true
+    },
+    {
+      "name": "Incomplete attempt source resolves to exactly its hashed evidence record",
+      "passed": true,
+      "detail": "No unresolved source IDs"
+    },
+    {
+      "name": "Escape closes evidence source drawer and restores trigger focus",
+      "passed": true
+    },
+    {
+      "name": "Accepted geometry link opens its actual saved DFT stage and offers CIF",
+      "passed": true,
+      "detail": {
+        "cif": "flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+        "hash": "#/crystals?mode=aggregate&seed=20261023&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=random&retainedFraction=1"
+      }
+    },
+    {
+      "name": "Evidence at 360px contains page width and scrolls wide tables locally",
+      "passed": true,
+      "detail": {
+        "body": 345,
+        "nav": 305,
+        "scroll": 345,
+        "tables": [
+          {
+            "label": "Filtered QE jobs, scroll horizontally",
+            "role": "region",
+            "scroll": 1527,
+            "width": 305
+          },
+          {
+            "label": "Filtered reference memberships, scroll horizontally",
+            "role": "region",
+            "scroll": 986,
+            "width": 295
+          },
+          {
+            "label": "Claim scope and limitations",
+            "role": "region",
+            "scroll": 650,
+            "width": 305
+          },
+          {
+            "label": "Frozen computational budgets",
+            "role": "region",
+            "scroll": 650,
+            "width": 305
+          }
+        ],
+        "width": 360
+      }
+    },
+    {
+      "name": "Findings at 390px contains page, control tabs and risk plot",
+      "passed": true,
+      "detail": {
+        "body": 375,
+        "chart": 335,
+        "scroll": 375,
+        "width": 390
+      }
+    },
+    {
+      "name": "Risk plot supports keyboard selection with actual retained count and restorable URL",
+      "passed": true
+    },
+    {
+      "name": "Mobile selected-risk screenshot captured and visually inspected",
+      "passed": true,
+      "detail": "Screenshot visible panel agrees with saved 20% selection; no whole-site pixel review claimed"
+    },
+    {
+      "name": "Generation 404 stays scoped and leaves uncertainty usable",
+      "passed": true
+    },
+    {
+      "name": "Generation Retry restores original counts without navigation",
+      "passed": true
+    },
+    {
+      "name": "Uncertainty 404 stays scoped and leaves generation usable",
+      "passed": true
+    },
+    {
+      "name": "Uncertainty Retry restores selected context and saved fraction",
+      "passed": true
+    },
+    {
+      "name": "DFT 404 leaves claims, methods and accounting readable",
+      "passed": true,
+      "detail": "No stale ledger or invented zeros during failed fetch"
+    },
+    {
+      "name": "Accepted QE filter displays exactly three complete finite-check rows",
+      "passed": true,
+      "detail": {
+        "rows": 3
+      }
+    },
+    {
+      "name": "Isolated DFT failure has visible 404 and retry action",
+      "passed": true
+    },
+    {
+      "name": "DFT Retry restores nineteen job rows and 218 reference memberships",
+      "passed": true
+    },
+    {
+      "name": "Quality endpoint selects the saved 50-query predictor",
+      "passed": true,
+      "detail": "#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=quality&retainedFraction=1"
+    },
+    {
+      "name": "Advanced Quality plus diversity uses its actual saved endpoint",
+      "passed": true,
+      "detail": "#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=quality_diversity&retainedFraction=1"
+    },
+    {
+      "name": "Advanced uncertainty-only endpoint uses its actual saved model",
+      "passed": true,
+      "detail": "#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=uncertainty&retainedFraction=1"
+    },
+    {
+      "name": "Fourth split is selectable and keeps the chosen saved endpoint",
+      "passed": true
+    },
+    {
+      "name": "Fifth split is selectable and keeps the chosen saved endpoint",
+      "passed": true
+    },
+    {
+      "name": "Clean production Findings to Evidence navigation has no console warning or error",
+      "passed": true,
+      "detail": {
+        "logs": []
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "view": "evidence",
+      "body": 345,
+      "nav": 305,
+      "scroll": 345,
+      "tables": [
+        {
+          "label": "Filtered QE jobs, scroll horizontally",
+          "role": "region",
+          "scroll": 1527,
+          "width": 305
+        },
+        {
+          "label": "Filtered reference memberships, scroll horizontally",
+          "role": "region",
+          "scroll": 986,
+          "width": 295
+        },
+        {
+          "label": "Claim scope and limitations",
+          "role": "region",
+          "scroll": 650,
+          "width": 305
+        },
+        {
+          "label": "Frozen computational budgets",
+          "role": "region",
+          "scroll": 650,
+          "width": 305
+        }
+      ],
+      "width": 360
+    },
+    {
+      "view": "findings",
+      "body": 375,
+      "chart": 335,
+      "scroll": 375,
+      "width": 390
+    }
+  ],
+  "captures": [
+    {
+      "file": "reports/W5_FINDINGS_MOBILE.jpg",
+      "view": "findings",
+      "width": 390,
+      "scope": "Visible selected-risk panel only; inspected readable text, graph and locally scrolling table"
+    },
+    {
+      "file": "reports/W5_EVIDENCE_DESKTOP.jpg",
+      "view": "evidence",
+      "scope": "Visible desktop header and 19/3/2 accounting; visually inspected"
+    },
+    {
+      "file": "reports/W5_FINDINGS_DESKTOP.jpg",
+      "view": "findings",
+      "scope": "Visible desktop findings header/jump navigation; visually inspected"
+    }
+  ],
+  "executionNotes": [
+    "These16 checks were observed passing before the CUA session reset during a long subsequent control sweep. Unreported partial sweep checks are not counted. Actual files and download expectations were already persisted."
+  ],
+  "resolvedIssues": [
+    {
+      "initialCheck": {
+        "name": "Split5 Full exhibitsobservedcoverage92.10percent",
+        "passed": false
+      },
+      "resolution": "Test initially assigned the maximum Full coverage to the wrong seed. Original source identifies seed20261024 as92.10percent and seed20261023 as84.84percent; UI values are checked below."
+    },
+    {
+      "initialCheck": {
+        "name": "Accepted QE filter shows exactly three jobs",
+        "passed": false,
+        "detail": "Recorded finite-sensitivity acceptance filter"
+      },
+      "resolution": "Assertion did not normalize accessibility whitespace; rechecked below using actual filtered row count."
+    },
+    {
+      "initialCheck": {
+        "name": "DFT Retry restores all nineteen jobs and full reference inventory",
+        "passed": false
+      },
+      "resolution": "Page had changed to Crystal Lab before the retry assertion; repeated DFT fault/retry in isolated tab 10 below."
+    }
+  ],
+  "screenshot": {
+    "status": "captured",
+    "file": "reports/W5_FINDINGS_MOBILE.jpg"
+  },
+  "checkedAt": "2026-10-22T13:35:46.459Z",
+  "checksPassed": 54,
+  "checksTotal": 54,
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "productionOrigin": "http://127.0.0.1:4175",
+  "actualBrowserDownloadFiles": 18,
+  "allEndpointTypesVisited": [
+    "initial_shared",
+    "quality",
+    "full",
+    "quality_diversity",
+    "random",
+    "uncertainty"
+  ],
+  "splitChoicesVisited": [
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "failureRecovery": [
+    "generation HTTP404 / Retry",
+    "uncertainty HTTP404 / Retry",
+    "DFT HTTP404 / Retry"
+  ],
+  "verificationLimits": [
+    "Native in-app browser on this Windows host; no cross-browser or physical touch-device claim.",
+    "Three visible-panel screenshots were captured and inspected. This is scoped W5 visual evidence; full-page visual/accessibility/device and performance acceptance remains W6.",
+    "Initial 16 observed passing checks were retained after a browser-kernel reset. Unreported partial sweep work was excluded.",
+    "All thirty split/endpoint combinations and all filter combinations were checked independently at source/data level; browser coverage exercises each selector type and all five split choices without claiming an exhaustive browser Cartesian product.",
+    "Earlier W3/W4 native hidden-page delivery limitation remains a separate W6 item."
+  ]
+}

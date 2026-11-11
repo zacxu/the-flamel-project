@@ -1,0 +1,142 @@
+[
+  {
+    "path": "/htdocs/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures",
+    "rows": [
+      {
+        "name": "..",
+        "text": "..\n-\n-",
+        "type": "dir"
+      },
+      {
+        "name": "phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+        "text": "phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png\npng\n37.54 KB\nOct 22 09:59",
+        "type": "file"
+      },
+      {
+        "name": "phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+        "text": "phase1_mgo_attempt_000--generated.d7731342174754fe.png\npng\n35.26 KB\nOct 22 09:59",
+        "type": "file"
+      },
+      {
+        "name": "phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+        "text": "phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png\npng\n35.32 KB\nOct 22 09:59",
+        "type": "file"
+      },
+      {
+        "name": "phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+        "text": "phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png\npng\n38.29 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png\npng\n32.23 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+        "text": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png\npng\n33.5 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png\npng\n34.36 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+        "text": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png\npng\n35.13 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+        "text": "phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png\npng\n24.66 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+        "text": "phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png\npng\n26.5 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+        "text": "prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png\npng\n31.83 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+        "text": "prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png\npng\n32.51 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+        "text": "prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png\npng\n28.9 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+        "text": "prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png\npng\n29.96 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+        "text": "prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png\npng\n28.95 KB\nOct 22 10:00",
+        "type": "file"
+      },
+      {
+        "name": "prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png",
+        "text": "prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png\npng\n29.66 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png",
+        "text": "prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png\npng\n31.18 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png",
+        "text": "prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png\npng\n31.87 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png",
+        "text": "qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png\npng\n34.07 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png",
+        "text": "qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png\npng\n34.16 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "reference_anatase--catalog_initial.c3d3026afcff3a4e.png",
+        "text": "reference_anatase--catalog_initial.c3d3026afcff3a4e.png\npng\n29.48 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "reference_anatase--model_relaxed.e6566251c9b4f684.png",
+        "text": "reference_anatase--model_relaxed.e6566251c9b4f684.png\npng\n29.95 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "reference_rocksalt--catalog_initial.bd96802a07c9dc18.png",
+        "text": "reference_rocksalt--catalog_initial.bd96802a07c9dc18.png\npng\n34.56 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "reference_rocksalt--model_relaxed.698c6e268c59ea1b.png",
+        "text": "reference_rocksalt--model_relaxed.698c6e268c59ea1b.png\npng\n35.2 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "reference_rutile--catalog_initial.8c9231f39e285674.png",
+        "text": "reference_rutile--catalog_initial.8c9231f39e285674.png\npng\n29.9 KB\nOct 22 09:55",
+        "type": "file"
+      },
+      {
+        "name": "reference_rutile--model_relaxed.7a74066d12729aa3.png",
+        "text": "reference_rutile--model_relaxed.7a74066d12729aa3.png\npng\n30.26 KB\nOct 22 09:55",
+        "type": "file"
+      }
+    ]
+  }
+]

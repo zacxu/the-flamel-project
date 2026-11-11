@@ -1,0 +1,151 @@
+{
+  "phase": 6,
+  "lane": "DFT_budget_and_claim_evidence",
+  "status": "passed",
+  "created_utc": "2026-10-22T02:45:45.767348+00:00",
+  "checks_total": 734,
+  "checks_passed": 734,
+  "failed_checks": [],
+  "all_QE_jobs": 19,
+  "fresh_QE_relaxed_geometries_with_final_finite_checks": [
+    {
+      "accepted_job_id": "p3_ref_mgo_90_k035_cont1",
+      "energy_eV_atom": -513.8780439713431,
+      "force_eV_A": 3.5925635593638224e-06,
+      "full_stress_kbar": 0.037024527701725894,
+      "cutoff_shift_eV_atom": 0.0009338690099411906,
+      "kpoint_shift_eV_atom": 0.0001914068571977623
+    },
+    {
+      "accepted_job_id": "p3_candidate_mgo_fallback_90",
+      "energy_eV_atom": -513.8780495045822,
+      "force_eV_A": 9.863357572470336e-06,
+      "full_stress_kbar": 0.04264062605360884,
+      "cutoff_shift_eV_atom": 0.0009316285389786572,
+      "kpoint_shift_eV_atom": 3.390927827240375e-05
+    },
+    {
+      "accepted_job_id": "p4_ref_cao_90_k035",
+      "energy_eV_atom": -795.1402976231157,
+      "force_eV_A": 4.76416906402715e-05,
+      "full_stress_kbar": 0.05318421464624495,
+      "cutoff_shift_eV_atom": 0.000979612436935895,
+      "kpoint_shift_eV_atom": 4.877594381014205e-05
+    }
+  ],
+  "known_MgO_candidate_minus_reference_eV_atom": -5.5332391184492735e-06,
+  "known_MgO_energy_ordering_resolved": false,
+  "known_MgO_final_reference_structure_match": true,
+  "finite_check_scope": "Measured adjacent cutoff/k changes and final-setting stationarity, not a rigorous total DFT error bound",
+  "primary_reaction": {
+    "equation": "CaMg2O3 -> CaO + 2 MgO",
+    "anchor_weighted_energy_eV_atom": -607.632128521934,
+    "candidate_energy_available": false,
+    "reaction_energy_available": false
+  },
+  "reference_coverage": {
+    "Ca-Mg-O": {
+      "frozen_entries": 161,
+      "accepted_fresh_compatible_QE": 2,
+      "missing": 159,
+      "full_inventory_complete": false,
+      "missing_spin_review_entries": 15,
+      "missing_elemental_entries": 41
+    },
+    "Mg-O": {
+      "frozen_entries": 57,
+      "accepted_fresh_compatible_QE": 1,
+      "missing": 56,
+      "full_inventory_complete": false,
+      "missing_spin_review_entries": 8,
+      "missing_elemental_entries": 29
+    }
+  },
+  "isolated_O2_and_metal_checks_complete": false,
+  "ground_spin_review_complete_for_inventory": false,
+  "perturbation_validation_complete": false,
+  "phonon_calculation_performed": false,
+  "full_hull_established": false,
+  "new_stable_material_established": false,
+  "budget_rows": [
+    {
+      "lane": "generation",
+      "cap": 128,
+      "charged": 96,
+      "remaining": 32,
+      "unit": "conservative_structure_slots",
+      "interpretation": "88 actual CrystalFormer draws + 4 prototypes + 4 unemitted engineering charges"
+    },
+    {
+      "lane": "chgnet_attempts",
+      "cap": 40,
+      "charged": 19,
+      "remaining": 21,
+      "unit": "conservative_launch_slots",
+      "interpretation": "15 actual model relaxations + 4 pre-model failures; cached selections not recharged"
+    },
+    {
+      "lane": "chgnet_wall",
+      "cap": 14400,
+      "charged": 159.011884800002,
+      "remaining": 14240.988115199998,
+      "unit": "seconds",
+      "interpretation": "Entire subprocess walltime including imports, model load and failures"
+    },
+    {
+      "lane": "QE_wall",
+      "cap": 21600,
+      "charged": 2558.920391600004,
+      "remaining": 19041.079608399996,
+      "unit": "seconds",
+      "interpretation": "All 19 actual jobs including pilot, sensitivities and incomplete perturbation"
+    }
+  ],
+  "CHGNet_category_rows": [
+    {
+      "category": "symmetry",
+      "ceiling": 10,
+      "charged": 3,
+      "unused": 7
+    },
+    {
+      "category": "new_composition_shortlist",
+      "ceiling": 12,
+      "charged": 0,
+      "unused": 12
+    },
+    {
+      "category": "prototype",
+      "ceiling": 4,
+      "charged": 4,
+      "unused": 0
+    },
+    {
+      "category": "same_composition_reference",
+      "ceiling": 4,
+      "charged": 3,
+      "unused": 1
+    },
+    {
+      "category": "contingency",
+      "ceiling": 2,
+      "charged": 1,
+      "unused": 1
+    }
+  ],
+  "numerical_decision": {
+    "decision": "Close numerical evidence now and preserve unused allocations",
+    "required_allowed_unfinished_job_count": 0,
+    "new_numerical_jobs_dispatched_phase6": 0,
+    "reason": "Accepted oxide/control geometries already have all required final-setting checks. No valid frozen new-formula candidate exists. The terminal SCF failure closes the bounded perturbation queue; no continuation or probe is allowed. Broader reference inventory is incomplete, with metal/O2/spin branches outside authorized oxide runners. Unused budgets do not authorize revised candidates, gates, retries or chemistry.",
+    "optional_inventory_work": "The frozen catalog lists preparatory metal/O2/reference work, but no complete-hull outcome was promised and no qualifying primary candidate remains. These entries remain explicitly missing; no extra queue or protocol is invented to spend unused time.",
+    "numerical_stop_utc_unchanged": "2026-10-22T10:24:44+00:00",
+    "early_closure_does_not_relax_failed_checks": true
+  },
+  "submission_requirements_source": "artifacts/phase6/current_submission_requirements.md",
+  "requirements_scope": "Root checked current official agenda/submission page; public/account/submission actions remain for later user-authorized work",
+  "source_hashes": "artifacts/phase6/evidence/source_hashes.json",
+  "source_file_count": 331,
+  "no_numerical_or_oracle_jobs": true,
+  "frozen_phase5_end_state_unchanged": true
+}

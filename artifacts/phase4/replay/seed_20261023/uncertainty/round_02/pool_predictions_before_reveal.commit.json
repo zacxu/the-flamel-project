@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-22T01:43:52.031318+00:00",
+  "material_ids_sha256": "fad367c5ed5217f4705aab7646cfeeda9131002d8b725cfc6f425d786c5b4204",
+  "model_training_ids_sha256": "a34a8c3a42a62101fb58c960f4af73e6dd9b90566ccee8257afc73bc7f95be15",
+  "oracle_labels_in_file": false,
+  "path": "artifacts\\phase4\\replay\\seed_20261023\\uncertainty\\round_02\\pool_predictions_before_reveal.npz",
+  "rows": 1990,
+  "sha256": "739e49efd5cba6353b73add4b5fc861cba4fa6776902b7571ad27fd5bb96e7e9",
+  "stage": "uncertainty_round_2_before_reveal"
+}

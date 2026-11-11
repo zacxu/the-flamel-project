@@ -1,0 +1,7 @@
+{
+  "attempts": 8,
+  "lane": "generation",
+  "max_seconds": 600.0,
+  "reservation_id": "phase4_tio2_rutile_nontrivial",
+  "reserved_utc": "2026-10-22T01:42:51.506542+00:00"
+}

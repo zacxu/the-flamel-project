@@ -1,0 +1,23 @@
+&CONTROL
+ calculation='scf', prefix='mgo_phase1', pseudo_dir='./pseudo', outdir='./scratch',
+ tprnfor=.true., tstress=.true., verbosity='high', max_seconds=540,
+/
+&SYSTEM
+ ibrav=0, nat=2, ntyp=2, ecutwfc=50.0, ecutrho=400.0,
+ input_dft='PBE', occupations='fixed', nspin=1,
+/
+&ELECTRONS
+ conv_thr=1.0d-8, electron_maxstep=100, mixing_beta=0.5,
+/
+ATOMIC_SPECIES
+Mg 24.305 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+O 15.999 O.pbe-n-kjpaw_psl.0.1.UPF
+CELL_PARAMETERS angstrom
+0.000000 2.105000 2.105000
+2.105000 0.000000 2.105000
+2.105000 2.105000 0.000000
+ATOMIC_POSITIONS crystal
+Mg 0.0 0.0 0.0
+O 0.5 0.5 0.5
+K_POINTS automatic
+4 4 4 0 0 0

@@ -1,0 +1,199 @@
+{
+  "element_metadata_source": "pymatgen Element atomic number/is_metal/common_oxidation_states; formal-charge plausibility heuristic, not measured charge.",
+  "formula_subset": [
+    "SnSrO2",
+    "BaSnO2",
+    "CaMg2O3",
+    "Mg2SrO3"
+  ],
+  "maximum_relaxation_attempts": 4,
+  "phase2_relaxations_executed": 0,
+  "plans": [
+    {
+      "compatible_template_count": 98,
+      "eligible_for_attempt": true,
+      "geometry_rejections": [],
+      "maximum_relaxation_attempts": 1,
+      "missing_template_behavior": "No attempt; do not select a replacement formula from validation outcomes.",
+      "selected": {
+        "assumed_cation_charges": {
+          "O": -2,
+          "Sn": 2,
+          "Sr": 2
+        },
+        "element_mapping": {
+          "Cd": "Sn",
+          "O": "O",
+          "Sr": "Sr"
+        },
+        "entry_id": "mp-1018032-GGA",
+        "material_id": "mp-1018032",
+        "parent_cif": "artifacts/phase2/compositions/prototype_parent_mp-1018032.cif",
+        "parent_formula": "CdSrO2",
+        "parent_n_sites": 4,
+        "prototype_candidate_cif": "artifacts/phase2/compositions/prototype_SnSrO2.cif",
+        "ranking_key": [
+          2,
+          4,
+          1018032,
+          [
+            [
+              "Cd",
+              "Sn"
+            ],
+            [
+              "Sr",
+              "Sr"
+            ]
+          ]
+        ]
+      },
+      "target_exact_counts": {
+        "O": 2,
+        "Sn": 1,
+        "Sr": 1
+      },
+      "target_formula": "SnSrO2"
+    },
+    {
+      "compatible_template_count": 98,
+      "eligible_for_attempt": true,
+      "geometry_rejections": [],
+      "maximum_relaxation_attempts": 1,
+      "missing_template_behavior": "No attempt; do not select a replacement formula from validation outcomes.",
+      "selected": {
+        "assumed_cation_charges": {
+          "Ba": 2,
+          "O": -2,
+          "Sn": 2
+        },
+        "element_mapping": {
+          "Ba": "Ba",
+          "O": "O",
+          "Sr": "Sn"
+        },
+        "entry_id": "mp-753619-GGA",
+        "material_id": "mp-753619",
+        "parent_cif": "artifacts/phase2/compositions/prototype_parent_mp-753619.cif",
+        "parent_formula": "BaSrO2",
+        "parent_n_sites": 4,
+        "prototype_candidate_cif": "artifacts/phase2/compositions/prototype_BaSnO2.cif",
+        "ranking_key": [
+          12,
+          4,
+          753619,
+          [
+            [
+              "Ba",
+              "Ba"
+            ],
+            [
+              "Sr",
+              "Sn"
+            ]
+          ]
+        ]
+      },
+      "target_exact_counts": {
+        "Ba": 1,
+        "O": 2,
+        "Sn": 1
+      },
+      "target_formula": "BaSnO2"
+    },
+    {
+      "compatible_template_count": 23,
+      "eligible_for_attempt": true,
+      "geometry_rejections": [],
+      "maximum_relaxation_attempts": 1,
+      "missing_template_behavior": "No attempt; do not select a replacement formula from validation outcomes.",
+      "selected": {
+        "assumed_cation_charges": {
+          "Ca": 2,
+          "Mg": 2,
+          "O": -2
+        },
+        "element_mapping": {
+          "Mg": "Mg",
+          "O": "O",
+          "Zn": "Ca"
+        },
+        "entry_id": "mp-1222123-GGA",
+        "material_id": "mp-1222123",
+        "parent_cif": "artifacts/phase2/compositions/prototype_parent_mp-1222123.cif",
+        "parent_formula": "Mg2ZnO3",
+        "parent_n_sites": 6,
+        "prototype_candidate_cif": "artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+        "ranking_key": [
+          10,
+          6,
+          1222123,
+          [
+            [
+              "Mg",
+              "Mg"
+            ],
+            [
+              "Zn",
+              "Ca"
+            ]
+          ]
+        ]
+      },
+      "target_exact_counts": {
+        "Ca": 1,
+        "Mg": 2,
+        "O": 3
+      },
+      "target_formula": "CaMg2O3"
+    },
+    {
+      "compatible_template_count": 23,
+      "eligible_for_attempt": true,
+      "geometry_rejections": [],
+      "maximum_relaxation_attempts": 1,
+      "missing_template_behavior": "No attempt; do not select a replacement formula from validation outcomes.",
+      "selected": {
+        "assumed_cation_charges": {
+          "Mg": 2,
+          "O": -2,
+          "Sr": 2
+        },
+        "element_mapping": {
+          "Mg": "Mg",
+          "O": "O",
+          "Zn": "Sr"
+        },
+        "entry_id": "mp-1222123-GGA",
+        "material_id": "mp-1222123",
+        "parent_cif": "artifacts/phase2/compositions/prototype_parent_mp-1222123.cif",
+        "parent_formula": "Mg2ZnO3",
+        "parent_n_sites": 6,
+        "prototype_candidate_cif": "artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+        "ranking_key": [
+          8,
+          6,
+          1222123,
+          [
+            [
+              "Mg",
+              "Mg"
+            ],
+            [
+              "Zn",
+              "Sr"
+            ]
+          ]
+        ]
+      },
+      "target_exact_counts": {
+        "Mg": 2,
+        "O": 3,
+        "Sr": 1
+      },
+      "target_formula": "Mg2SrO3"
+    }
+  ],
+  "rule": "Exact reduced stoichiometry AND exact target atom count in source cell, <=20 atoms; O fixed; assigned target cation charge must be common for parent element; then summed absolute atomic-number distance, parent site count, numeric MP material ID, mapping. Ordered geometry only. No energy use.",
+  "version": "phase2-prototype-baseline-v1"
+}

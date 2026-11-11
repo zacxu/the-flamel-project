@@ -1,0 +1,9 @@
+{"name":"bare_homepage","pass":true,"url":"https://theflamelproject.42web.io/","build":"ui-w6-37bfb28892a8c9f8cb22","recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"default_section_links","pass":true,"hashes":["","#/workflow","#/replay","#/crystals","#/findings","#/evidence"],"recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"replay_short_navigation","pass":true,"recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"custom_preview_reload","pass":true,"before":{"budget":"0","split":"20261024","url":"https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024&budget=0&batch=1"},"after":{"budget":"0","split":"20261024","url":"https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024&budget=0&batch=1"},"recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"browser_back_forward","pass":true,"back":{"budget":"50","url":"https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024"},"forward":{"budget":"0","url":"https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024&budget=0&batch=1"},"recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"reset_bare_homepage","pass":true,"recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"crystal_viewer_short_route","pass":true,"recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"console_errors","pass":true,"errors":[],"recorded_at":"2026-10-22T16:13:29.104Z"}
+{"name":"live_manifest_hash","pass":true,"sha256":"1f9401f753210707e088213f740a7e842b6cf10473c35a721c671cbf037af235","recorded_at":"2026-10-22T16:13:29.104Z"}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "phase": "W7",
+  "status": "temporary_config_prepared",
+  "recordedAt": "2026-10-22T15:10:57.976226+00:00",
+  "reason": "Clear previously primed same-origin browser image cache after exact-byte opaque-image routing repair. The cached response was created during deployment verification; frozen research/UI payloads stay unchanged.",
+  "temporaryConfig": {
+    "path": "deployment/opaque-cache-reset/.htaccess",
+    "bytes": 202,
+    "sha256": "e522e44a3a2248f768b488b64feb8c477ddd2620db7f245ddf2818533912762b",
+    "headerDirective": "Header always set Clear-Site-Data \"\\\"cache\\\"\"",
+    "expectedHttpResponseHeader": {
+      "Clear-Site-Data": "\"cache\""
+    }
+  },
+  "restoreConfig": {
+    "path": "deployment/opaque-repair/.htaccess",
+    "bytes": 156,
+    "sha256": "f0186d0c1b566e026fb41ff967ad7b66febc9d88c00b42e355f0e4b84d9084ae"
+  },
+  "cacheOnly": true,
+  "cookiesStorageOrWildcardDirectiveIncluded": false,
+  "scope": "Header is returned by responses in the scoped structures figure directory; browser clearing applies to the response URL origin over HTTPS.",
+  "procedure": [
+    "Temporarily upload this scoped configuration.",
+    "Request one fresh query-qualified image URL so response is received from the server.",
+    "Check the returned Clear-Site-Data header and verify the ordinary original URL now yields expected image bytes.",
+    "Restore the original156-byte scoped routing config immediately and verify normal image operation."
+  ],
+  "officialReferences": [
+    {
+      "url": "https://httpd.apache.org/docs/2.4/configuring.html#syntax",
+      "supports": "Inside quoted directive arguments, backslash-doublequote produces a literal doublequote."
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/mod/mod_headers.html#header",
+      "supports": "Header always set is permitted in .htaccess and sets response headers."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data",
+      "supports": "HTTPS response directive must be quoted; cache removes response-origin cached data."
+    }
+  ],
+  "liveHeaderOrCacheEffectVerifiedByThisScript": false,
+  "restorationVerifiedByThisScript": false,
+  "frozenFilesChanged": 0
+}

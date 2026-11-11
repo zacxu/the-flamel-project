@@ -1,0 +1,53 @@
+{
+  "phase": 6,
+  "committed_utc": "2026-10-22T02:41:03.432053+00:00",
+  "scope": "Analysis and audit of completed frozen experiments; no new model fits, inference, generation, relaxation, QE jobs or acquisition label queries. Reuse already revealed held-out evaluation labels solely for posthoc reliability analysis.",
+  "baseline": [
+    {
+      "path": "README.md",
+      "archive": "artifacts/phase6/preflight/README.md",
+      "sha256": "de122ae9b35236881f41fe17b1e2ef146ffdccbe1e4327b41ce64c4ebb061240"
+    },
+    {
+      "path": "one_day_research_proposal.md",
+      "archive": "artifacts/phase6/preflight/one_day_research_proposal.md",
+      "sha256": "7273b5a0eb9ea235477189487dcfa3c7c8712fc41b11a0db9d1bb72217bd44e6"
+    },
+    {
+      "path": "artifacts/budget_ledger.json",
+      "archive": "artifacts/phase6/preflight/artifacts__budget_ledger.json",
+      "sha256": "53d08b6ccb93952a8677e97a4116259ce50173f40eaa3fc843fadc4311b6d0c6"
+    },
+    {
+      "path": "artifacts/runtime_budget_events.jsonl",
+      "archive": "artifacts/phase6/preflight/artifacts__runtime_budget_events.jsonl",
+      "sha256": "13e65aaac3f4ca03558d26638579d43664cdae36451355102307cc78a5e06c46"
+    },
+    {
+      "path": "artifacts/phase5/manifest.json",
+      "archive": "artifacts/phase6/preflight/artifacts__phase5__manifest.json",
+      "sha256": "55bbe4e902f025fc52b0ba3fd2e3087d3d6dfaf8cc6a047b420f5010f7cbabac"
+    },
+    {
+      "path": "artifacts/phase5/readiness.json",
+      "archive": "artifacts/phase6/preflight/artifacts__phase5__readiness.json",
+      "sha256": "76bb6f25faefe17e41168ca929aacbb97fbd68d5e046878082f0bc8c0b52ee86"
+    },
+    {
+      "path": "artifacts/phase5/audit.json",
+      "archive": "artifacts/phase6/preflight/artifacts__phase5__audit.json",
+      "sha256": "2aecfffe7a6da8d9d789118efc4ddb5b60e0f02e6cf3ede3fe9c2bbbdf55122e"
+    }
+  ],
+  "frozen_protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "workstreams": [
+    "Acquisition and uncertainty reliability; label leakage and calibration lineage",
+    "Composition and structural novelty; symmetry and prototype scope; representative structures",
+    "DFT evidence, missing references, all budgets, job eligibility",
+    "Integrated figures, evidence and claims, final numerical freeze, report and Phase7 handoff"
+  ],
+  "numerical_followup_decision": "No required unfinished eligible job. Original accepted oxide sensitivities are complete; failed terminal SCF in the bounded MgO perturbation forbids continuation/probes under its queue. No eligible transformer primary candidate exists. No new candidate method or threshold revision.",
+  "unused_budgets_are_ceilings_not_experiment_targets": true,
+  "hard_numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "close_early_when_analysis_complete": true
+}

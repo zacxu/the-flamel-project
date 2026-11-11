@@ -1,0 +1,642 @@
+{
+  "binary_formulas": 13,
+  "catalog_scope": [
+    "full released WBM 256963 records",
+    "MP 2023-02-07 archive, database release 2022.10.28"
+  ],
+  "enumerated_formulas": 1372,
+  "formula_atom_cap": 20,
+  "new_to_both_chemical_systems": 66,
+  "new_to_both_count": 1135,
+  "not_a_claim": "Absent from these snapshots is not global novelty or absence from generator training data.",
+  "oxygen_oxidation_state": -2,
+  "palette_oxidation_states": {
+    "Al": [
+      3
+    ],
+    "Ba": [
+      2
+    ],
+    "Ca": [
+      2
+    ],
+    "Ga": [
+      3
+    ],
+    "Hf": [
+      4
+    ],
+    "In": [
+      3
+    ],
+    "Mg": [
+      2
+    ],
+    "Sn": [
+      2,
+      4
+    ],
+    "Sr": [
+      2
+    ],
+    "Ti": [
+      4
+    ],
+    "Zn": [
+      2
+    ],
+    "Zr": [
+      4
+    ]
+  },
+  "protocol_version": "phase2-label-blind-v1",
+  "prototype_baseline_formula_subset": [
+    "SnSrO2",
+    "BaSnO2",
+    "CaMg2O3",
+    "Mg2SrO3"
+  ],
+  "prototype_baseline_rule": "For first four selected formulas only; compatible exact stoichiometry and <=20-atom parent cell; common-oxidation-state-compatible element mapping, then summed absolute atomic-number distance, site count, numeric material ID, mapping tie-break. No energy filters. Missing templates mean no attempt.",
+  "ranking_excluded": [
+    "DFT energies",
+    "hull distances",
+    "band gaps",
+    "model predictions",
+    "candidate outcomes"
+  ],
+  "ranking_rule": [
+    "reduced atom count ascending",
+    "Sn redox-ambiguity penalty ascending",
+    "sum of atomic numbers per reduced formula ascending (tractability proxy)",
+    "canonical formula ascending",
+    "one formula per chemical system before repeats"
+  ],
+  "reserved_chemical_systems_all_seeds": [
+    "Al-Ba-O",
+    "Al-Ca-O",
+    "Al-Ga-O",
+    "Al-Hf-O",
+    "Al-In-O",
+    "Al-Mg-O",
+    "Al-O",
+    "Al-O-Sn",
+    "Al-O-Sr",
+    "Al-O-Ti",
+    "Al-O-Zn",
+    "Al-O-Zr",
+    "Ba-Ca-O",
+    "Ba-Ga-O",
+    "Ba-Hf-O",
+    "Ba-In-O",
+    "Ba-Mg-O",
+    "Ba-O",
+    "Ba-O-Sn",
+    "Ba-O-Sr",
+    "Ba-O-Ti",
+    "Ba-O-Zn",
+    "Ba-O-Zr",
+    "Ca-Ga-O",
+    "Ca-Hf-O",
+    "Ca-In-O",
+    "Ca-Mg-O",
+    "Ca-O",
+    "Ca-O-Sn",
+    "Ca-O-Sr",
+    "Ca-O-Ti",
+    "Ca-O-Zn",
+    "Ca-O-Zr",
+    "Ga-Hf-O",
+    "Ga-In-O",
+    "Ga-Mg-O",
+    "Ga-O",
+    "Ga-O-Sn",
+    "Ga-O-Sr",
+    "Ga-O-Ti",
+    "Ga-O-Zn",
+    "Ga-O-Zr",
+    "Hf-In-O",
+    "Hf-Mg-O",
+    "Hf-O",
+    "Hf-O-Sn",
+    "Hf-O-Sr",
+    "Hf-O-Ti",
+    "Hf-O-Zn",
+    "Hf-O-Zr",
+    "In-Mg-O",
+    "In-O",
+    "In-O-Sn",
+    "In-O-Sr",
+    "In-O-Ti",
+    "In-O-Zn",
+    "In-O-Zr",
+    "Mg-O",
+    "Mg-O-Sn",
+    "Mg-O-Sr",
+    "Mg-O-Ti",
+    "Mg-O-Zn",
+    "Mg-O-Zr",
+    "O-Sn",
+    "O-Sn-Sr",
+    "O-Sn-Ti",
+    "O-Sn-Zn",
+    "O-Sn-Zr",
+    "O-Sr",
+    "O-Sr-Ti",
+    "O-Sr-Zn",
+    "O-Sr-Zr",
+    "O-Ti",
+    "O-Ti-Zn",
+    "O-Ti-Zr",
+    "O-Zn",
+    "O-Zn-Zr",
+    "O-Zr"
+  ],
+  "reserves": [
+    {
+      "atomic_number_sum_proxy": 104,
+      "chemical_system": "Ba-Mg-O",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ba": 1,
+        "Mg": 2,
+        "O": 3
+      },
+      "formula": "BaMg2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ba": 2,
+          "Mg": 2,
+          "O": -2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        104,
+        "BaMg2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 120,
+      "chemical_system": "Ba-Ca-O",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ba": 1,
+        "Ca": 2,
+        "O": 3
+      },
+      "formula": "BaCa2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ba": 2,
+          "Ca": 2,
+          "O": -2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        120,
+        "BaCa2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 122,
+      "chemical_system": "O-Sr-Zn",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "O": 3,
+        "Sr": 1,
+        "Zn": 2
+      },
+      "formula": "SrZn2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "O": -2,
+          "Sr": 2,
+          "Zn": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        122,
+        "SrZn2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 140,
+      "chemical_system": "Ba-O-Zn",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ba": 1,
+        "O": 3,
+        "Zn": 2
+      },
+      "formula": "BaZn2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ba": 2,
+          "O": -2,
+          "Zn": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        140,
+        "BaZn2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 156,
+      "chemical_system": "Ba-O-Sr",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ba": 1,
+        "O": 3,
+        "Sr": 2
+      },
+      "formula": "BaSr2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ba": 2,
+          "O": -2,
+          "Sr": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        156,
+        "BaSr2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 98,
+      "chemical_system": "Mg-O-Sn",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Mg": 2,
+        "O": 3,
+        "Sn": 1
+      },
+      "formula": "Mg2SnO3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Mg": 2,
+          "O": -2,
+          "Sn": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        1,
+        98,
+        "Mg2SnO3"
+      ],
+      "redox_ambiguity_penalty": 1
+    },
+    {
+      "atomic_number_sum_proxy": 114,
+      "chemical_system": "Ca-O-Sn",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ca": 2,
+        "O": 3,
+        "Sn": 1
+      },
+      "formula": "Ca2SnO3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ca": 2,
+          "O": -2,
+          "Sn": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        1,
+        114,
+        "Ca2SnO3"
+      ],
+      "redox_ambiguity_penalty": 1
+    },
+    {
+      "atomic_number_sum_proxy": 134,
+      "chemical_system": "O-Sn-Zn",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "O": 3,
+        "Sn": 1,
+        "Zn": 2
+      },
+      "formula": "SnZn2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "O": -2,
+          "Sn": 2,
+          "Zn": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        1,
+        134,
+        "SnZn2O3"
+      ],
+      "redox_ambiguity_penalty": 1
+    }
+  ],
+  "screened_limit": 3000,
+  "selected": [
+    {
+      "atomic_number_sum_proxy": 104,
+      "chemical_system": "O-Sn-Sr",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "O": 2,
+        "Sn": 1,
+        "Sr": 1
+      },
+      "formula": "SnSrO2",
+      "n_atoms_reduced": 4,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "O": -2,
+          "Sn": 2,
+          "Sr": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        4,
+        1,
+        104,
+        "SnSrO2"
+      ],
+      "redox_ambiguity_penalty": 1
+    },
+    {
+      "atomic_number_sum_proxy": 122,
+      "chemical_system": "Ba-O-Sn",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ba": 1,
+        "O": 2,
+        "Sn": 1
+      },
+      "formula": "BaSnO2",
+      "n_atoms_reduced": 4,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ba": 2,
+          "O": -2,
+          "Sn": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        4,
+        1,
+        122,
+        "BaSnO2"
+      ],
+      "redox_ambiguity_penalty": 1
+    },
+    {
+      "atomic_number_sum_proxy": 68,
+      "chemical_system": "Ca-Mg-O",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ca": 1,
+        "Mg": 2,
+        "O": 3
+      },
+      "formula": "CaMg2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ca": 2,
+          "Mg": 2,
+          "O": -2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        68,
+        "CaMg2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 86,
+      "chemical_system": "Mg-O-Sr",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Mg": 2,
+        "O": 3,
+        "Sr": 1
+      },
+      "formula": "Mg2SrO3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Mg": 2,
+          "O": -2,
+          "Sr": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        86,
+        "Mg2SrO3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 94,
+      "chemical_system": "Ca-O-Zn",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ca": 2,
+        "O": 3,
+        "Zn": 1
+      },
+      "formula": "Ca2ZnO3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ca": 2,
+          "O": -2,
+          "Zn": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        94,
+        "Ca2ZnO3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 102,
+      "chemical_system": "Ca-O-Sr",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ca": 2,
+        "O": 3,
+        "Sr": 1
+      },
+      "formula": "Ca2SrO3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ca": 2,
+          "O": -2,
+          "Sr": 2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        102,
+        "Ca2SrO3"
+      ],
+      "redox_ambiguity_penalty": 0
+    }
+  ],
+  "selected_and_reserve_chemical_systems": [
+    "Ba-Ca-O",
+    "Ba-Mg-O",
+    "Ba-O-Sn",
+    "Ba-O-Sr",
+    "Ba-O-Zn",
+    "Ca-Mg-O",
+    "Ca-O-Sn",
+    "Ca-O-Sr",
+    "Ca-O-Zn",
+    "Mg-O-Sn",
+    "Mg-O-Sr",
+    "O-Sn-Sr",
+    "O-Sn-Zn",
+    "O-Sr-Zn"
+  ],
+  "stretch": [
+    {
+      "atomic_number_sum_proxy": 104,
+      "chemical_system": "Ba-Mg-O",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ba": 1,
+        "Mg": 2,
+        "O": 3
+      },
+      "formula": "BaMg2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ba": 2,
+          "Mg": 2,
+          "O": -2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        104,
+        "BaMg2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    },
+    {
+      "atomic_number_sum_proxy": 120,
+      "chemical_system": "Ba-Ca-O",
+      "closed_shell_by_assigned_states_heuristic": true,
+      "counts": {
+        "Ba": 1,
+        "Ca": 2,
+        "O": 3
+      },
+      "formula": "BaCa2O3",
+      "n_atoms_reduced": 6,
+      "new_to_both_checked_catalogs": true,
+      "oxidation_state_witnesses": [
+        {
+          "Ba": 2,
+          "Ca": 2,
+          "O": -2
+        }
+      ],
+      "present_in_full_wbm": false,
+      "present_in_mp_snapshot": false,
+      "ranking_key": [
+        6,
+        0,
+        120,
+        "BaCa2O3"
+      ],
+      "redox_ambiguity_penalty": 0
+    }
+  ],
+  "ternary_formulas": 1359
+}

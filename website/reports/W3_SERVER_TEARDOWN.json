@@ -1,0 +1,15 @@
+{
+  "phase": "W3",
+  "checkedAt": "2026-10-22T11:09:28.2161938Z",
+  "checkedPorts": [
+    5173,
+    4175
+  ],
+  "listeners": [],
+  "ownedServersStopped": true,
+  "developmentSession": 69745,
+  "faultFixtureSession": 85083,
+  "temporaryBrowserTabsClosed": true,
+  "viewportOverrideCleared": true,
+  "networkFixtureMode": "ok"
+}

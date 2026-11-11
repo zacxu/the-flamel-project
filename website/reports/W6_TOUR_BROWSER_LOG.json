@@ -1,0 +1,170 @@
+{
+  "phase": "W6",
+  "status": "passed",
+  "uiBuildId": "ui-w6-b9b0eaf5f6cd87924a9e",
+  "scope": "Passive loopback-only DOM mutation and input observer writes console records. No route, clock, click, model or data mutation; production JS/CSS unchanged.",
+  "logs": [
+    {
+      "level": "info",
+      "message": "W6-TOUR-INPUT {\"at\":1792677918335,\"text\":\"Start guided tour\",\"tag\":\"BUTTON\"}",
+      "timestamp": "2026-10-22T14:05:18.335Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677918340,\"caption\":\"An integrated crystal-discovery prototype. The historical acquisition study and fresh-structure study remain separate.\",\"heading\":\"Step 1 of 6 · running0:00 / 3:00\",\"hash\":\"#/overview?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":0,\"selects\":[]}",
+      "timestamp": "2026-10-22T14:05:18.341Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677926481,\"caption\":\"Six formula proposals were absent from two pinned composition snapshots; this is a historical snapshot claim.\",\"heading\":\"Step 1 of 6 · running0:08 / 3:00\",\"hash\":\"#/workflow?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":8.12639999999851,\"selects\":[]}",
+      "timestamp": "2026-10-22T14:05:26.481Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677932454,\"caption\":\"A pretrained symmetry-aware transformer generated the recorded draws. Both conditioning arms use the same architecture.\",\"heading\":\"Step 1 of 6 · running0:14 / 3:00\",\"hash\":\"#/workflow?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":14.11739999999851,\"selects\":[]}",
+      "timestamp": "2026-10-22T14:05:32.484Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677938481,\"caption\":\"No new-formula transformer draw passed the exact-cell gate. The known-control and prototype branches keep their own scope.\",\"heading\":\"Step 1 of 6 · running0:20 / 3:00\",\"hash\":\"#/workflow?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":20.13760000000149,\"selects\":[]}",
+      "timestamp": "2026-10-22T14:05:38.488Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677943458,\"caption\":\"0 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.\",\"heading\":\"Step 2 of 6 · running0:25 / 3:00\",\"hash\":\"#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=0&batch=1&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":25.10020000000298,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"20261022\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"quality\"}]}",
+      "timestamp": "2026-10-22T14:05:43.459Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677948388,\"caption\":\"10 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.\",\"heading\":\"Step 2 of 6 · running0:30 / 3:00\",\"hash\":\"#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=10&batch=1&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":30.02460000000149,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"20261022\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"quality\"},{\"label\":\"Inspected batchBatch 1 · revealedBatch 2 · pr\",\"value\":\"1\"}]}",
+      "timestamp": "2026-10-22T14:05:48.388Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677954366,\"caption\":\"20 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.\",\"heading\":\"Step 2 of 6 · running0:36 / 3:00\",\"hash\":\"#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=20&batch=2&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":36.0075,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"20261022\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"quality\"},{\"label\":\"Inspected batchBatch 1 · revealedBatch 2 · re\",\"value\":\"2\"}]}",
+      "timestamp": "2026-10-22T14:05:54.366Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677960610,\"caption\":\"30 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.\",\"heading\":\"Step 2 of 6 · running0:42 / 3:00\",\"hash\":\"#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=30&batch=3&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":42.24970000000298,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"20261022\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"quality\"},{\"label\":\"Inspected batchBatch 1 · revealedBatch 2 · re\",\"value\":\"3\"}]}",
+      "timestamp": "2026-10-22T14:06:00.611Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677966369,\"caption\":\"40 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.\",\"heading\":\"Step 2 of 6 · running0:48 / 3:00\",\"hash\":\"#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=40&batch=4&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":48.007000000000005,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"20261022\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"quality\"},{\"label\":\"Inspected batchBatch 1 · revealedBatch 2 · re\",\"value\":\"4\"}]}",
+      "timestamp": "2026-10-22T14:06:06.370Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677972597,\"caption\":\"50 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.\",\"heading\":\"Step 2 of 6 · running0:54 / 3:00\",\"hash\":\"#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=50&batch=5&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":54.23939999999851,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"20261022\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"quality\"},{\"label\":\"Inspected batchBatch 1 · revealedBatch 2 · re\",\"value\":\"5\"}]}",
+      "timestamp": "2026-10-22T14:06:12.597Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677978583,\"caption\":\"Inspect Full at the same 50-query endpoint. Broader chemistry coverage came with fewer historical near-stable hits.\",\"heading\":\"Step 2 of 6 · running1:00 / 3:00\",\"hash\":\"#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":60.20870000000298,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"20261022\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"full\"},{\"label\":\"Inspected batchBatch 1 · revealedBatch 2 · re\",\"value\":\"5\"}]}",
+      "timestamp": "2026-10-22T14:06:18.584Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677982474,\"caption\":\"Five overlapping splits: Quality retrieved more near-stable records in every paired split. Mean and sample SD describe saved retrieval outcomes.\",\"heading\":\"Step 2 of 6 · running1:04 / 3:00\",\"hash\":\"#/replay?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":64.1045,\"selects\":[{\"label\":\"SplitAggregate · five overlapping splitsSplit\",\"value\":\"aggregate\"},{\"label\":\"Inspected policyQualityFull\",\"value\":\"full\"}]}",
+      "timestamp": "2026-10-22T14:06:22.474Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792677988447,\"caption\":\"Rotate the actual eight-atom, finite-checked known-MgO control. This is known-phase recovery.\",\"heading\":\"Step 3 of 6 · running1:10 / 3:00\",\"hash\":\"#/crystals?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":70.06860000000148,\"selects\":[{\"label\":\"CandidateMgO · CrystalFormer · nontrivial · 8\",\"value\":\"phase1_mgo_attempt_000\"},{\"label\":\"Saved stageGenerated · 8 atomsCHGNet relaxed \",\"value\":\"phase1_mgo_attempt_000--accepted_dft\"},{\"label\":\"Comparison saved stageChoose a separate saved\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:06:28.448Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678000466,\"caption\":\"Six-atom CaMg₂O₃ is a prepared prototype baseline, relaxed by CHGNet. Model convergence is separate from DFT validation.\",\"heading\":\"Step 3 of 6 · running1:22 / 3:00\",\"hash\":\"#/crystals?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=prototype_CaMg2O3&stageId=prototype_CaMg2O3--model_relaxed&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":82.12110000000149,\"selects\":[{\"label\":\"CandidateMgO · CrystalFormer · nontrivial · 8\",\"value\":\"prototype_CaMg2O3\"},{\"label\":\"Saved stagePrototype initial geometry · 6 ato\",\"value\":\"prototype_CaMg2O3--model_relaxed\"},{\"label\":\"Comparison saved stageChoose a separate saved\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:06:40.467Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678012404,\"caption\":\"The twelve-atom transformer draw has a matching reduced ratio but fails the frozen six-atom exact-cell gate. Its saved geometry remains excluded.\",\"heading\":\"Step 3 of 6 · running1:34 / 3:00\",\"hash\":\"#/crystals?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":94.0635,\"selects\":[{\"label\":\"CandidateMgO · CrystalFormer · nontrivial · 8\",\"value\":\"phase3_early_CaMg2O3_attempt_005\"},{\"label\":\"Saved stageGenerated: excluded by protocol · \",\"value\":\"phase3_early_CaMg2O3_attempt_005--generated_excluded\"},{\"label\":\"Comparison saved stageChoose a separate saved\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:06:52.405Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678023406,\"caption\":\"Primary MgO: 7/8 versus 0/8 exact-cell valid; unique yield 1/8 versus 0/8. Same architecture, different conditioning.\",\"heading\":\"Step 4 of 6 · running1:45 / 3:00\",\"hash\":\"#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":105.04920000000298,\"selects\":[]}",
+      "timestamp": "2026-10-22T14:07:03.406Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678033605,\"caption\":\"Primary TiO₂: 6/8 versus 1/8 valid, but 1/8 unique in both arms. Validity and unique yield answer different questions.\",\"heading\":\"Step 4 of 6 · running1:55 / 3:00\",\"hash\":\"#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":115.25729999999702,\"selects\":[{\"label\":\"Symmetry control composition\",\"value\":\"mgo_rocksalt\"},{\"label\":\"Selected model-energy pair\",\"value\":\"mgo_rocksalt\"},{\"label\":\"Composition proposal\",\"value\":\"CaMg2O3\"},{\"label\":\"Uncertainty split\",\"value\":\"20261022\"},{\"label\":\"Advanced uncertainty endpoint\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:07:13.606Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678043526,\"caption\":\"One selected CHGNet structure per arm. The MgO energy pair comes from the supplementary primary-plus-top-up pool; it does not change the primary yield denominators.\",\"heading\":\"Step 4 of 6 · running2:05 / 3:00\",\"hash\":\"#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":125.17570000000298,\"selects\":[{\"label\":\"Symmetry control composition\",\"value\":\"tio2_rutile\"},{\"label\":\"Selected model-energy pair\",\"value\":\"mgo_rocksalt\"},{\"label\":\"Composition proposal\",\"value\":\"CaMg2O3\"},{\"label\":\"Uncertainty split\",\"value\":\"20261022\"},{\"label\":\"Advanced uncertainty endpoint\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:07:23.526Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678053460,\"caption\":\"Full, split 20261023: empirical interval coverage is below the nominal 90% target. The displayed table gives the actual saved result.\",\"heading\":\"Step 5 of 6 · running2:15 / 3:00\",\"hash\":\"#/findings?mode=aggregate&seed=20261023&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":135.10460000000148,\"selects\":[{\"label\":\"Symmetry control composition\",\"value\":\"tio2_rutile\"},{\"label\":\"Selected model-energy pair\",\"value\":\"mgo_rocksalt\"},{\"label\":\"Composition proposal\",\"value\":\"CaMg2O3\"},{\"label\":\"Uncertainty split\",\"value\":\"20261023\"},{\"label\":\"Advanced uncertainty endpoint\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:07:33.460Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678061522,\"caption\":\"Full, split 20261024: coverage is above 90%. Calibration varies by held-out split.\",\"heading\":\"Step 5 of 6 · running2:23 / 3:00\",\"hash\":\"#/findings?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":143.16279999999702,\"selects\":[{\"label\":\"Symmetry control composition\",\"value\":\"tio2_rutile\"},{\"label\":\"Selected model-energy pair\",\"value\":\"mgo_rocksalt\"},{\"label\":\"Composition proposal\",\"value\":\"CaMg2O3\"},{\"label\":\"Uncertainty split\",\"value\":\"20261024\"},{\"label\":\"Advanced uncertainty endpoint\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:07:41.522Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678069586,\"caption\":\"Retain the saved lowest-uncertainty 10% subset: 342 of 3,418 rows after rounding. Subset MAE is a diagnostic, not a newly evaluated acquisition policy.\",\"heading\":\"Step 5 of 6 · running2:31 / 3:00\",\"hash\":\"#/findings?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=0.1\",\"progress\":151.241299999997,\"selects\":[{\"label\":\"Symmetry control composition\",\"value\":\"tio2_rutile\"},{\"label\":\"Selected model-energy pair\",\"value\":\"mgo_rocksalt\"},{\"label\":\"Composition proposal\",\"value\":\"CaMg2O3\"},{\"label\":\"Uncertainty split\",\"value\":\"20261024\"},{\"label\":\"Advanced uncertainty endpoint\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:07:49.586Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678074581,\"caption\":\"Restore all 3,418 rows. Compare selected-subset error with all-row error without claiming improved predictions for the complete population.\",\"heading\":\"Step 5 of 6 · running2:36 / 3:00\",\"hash\":\"#/findings?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":156.2045,\"selects\":[{\"label\":\"Symmetry control composition\",\"value\":\"tio2_rutile\"},{\"label\":\"Selected model-energy pair\",\"value\":\"mgo_rocksalt\"},{\"label\":\"Composition proposal\",\"value\":\"CaMg2O3\"},{\"label\":\"Uncertainty split\",\"value\":\"20261024\"},{\"label\":\"Advanced uncertainty endpoint\",\"value\":\"\"}]}",
+      "timestamp": "2026-10-22T14:07:54.581Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678078479,\"caption\":\"All nineteen real QE jobs remain visible. Process completion, terminal SCF, stationarity and full finite checks are separate fields.\",\"heading\":\"Step 6 of 6 · running2:40 / 3:00\",\"hash\":\"#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":160.1255,\"selects\":[]}",
+      "timestamp": "2026-10-22T14:07:58.480Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678086551,\"caption\":\"The 900-second perturbation is incomplete: no accepted terminal energy, force or stress. Three accepted geometries correspond to two original source-reference IDs.\",\"heading\":\"Step 6 of 6 · running2:48 / 3:00\",\"hash\":\"#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":168.20560000000148,\"selects\":[{\"label\":\"Job roleAll rolesknown MgO engine pilotcandid\",\"value\":\"all\"},{\"label\":\"Research phaseAll research phasesResearch pha\",\"value\":\"all\"},{\"label\":\"Calculation stageSCF and cell relaxationscfvc\",\"value\":\"all\"},{\"label\":\"Recorded validation statusAll evidence levels\",\"value\":\"all\"},{\"label\":\"Inventory systemBoth inventories · membership\",\"value\":\"all\"},{\"label\":\"Reference statusAccepted and missingAccepted \",\"value\":\"all\"}]}",
+      "timestamp": "2026-10-22T14:08:06.551Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678092500,\"caption\":\"Only 2/161 primary and 1/57 fallback memberships are computed. No complete competing-phase hull or new stable material was established. Open the public source records to reproduce the account.\",\"heading\":\"Step 6 of 6 · running2:54 / 3:00\",\"hash\":\"#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":174.1503999999985,\"selects\":[{\"label\":\"Job roleAll rolesknown MgO engine pilotcandid\",\"value\":\"perturbation\"},{\"label\":\"Research phaseAll research phasesResearch pha\",\"value\":\"all\"},{\"label\":\"Calculation stageSCF and cell relaxationscfvc\",\"value\":\"all\"},{\"label\":\"Recorded validation statusAll evidence levels\",\"value\":\"all\"},{\"label\":\"Inventory systemBoth inventories · membership\",\"value\":\"all\"},{\"label\":\"Reference statusAccepted and missingAccepted \",\"value\":\"all\"}]}",
+      "timestamp": "2026-10-22T14:08:12.503Z",
+      "url": "http://127.0.0.1:4177/"
+    },
+    {
+      "level": "info",
+      "message": "W6-TOUR-SCENE {\"at\":1792678098478,\"caption\":\"The recorded study is ready to explore. Exit the tour to continue browsing, or restart the presentation.\",\"heading\":\"Tour complete3:00 / 3:00\",\"hash\":\"#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1\",\"progress\":180,\"selects\":[{\"label\":\"Job roleAll rolesknown MgO engine pilotcandid\",\"value\":\"all\"},{\"label\":\"Research phaseAll research phasesResearch pha\",\"value\":\"all\"},{\"label\":\"Calculation stageSCF and cell relaxationscfvc\",\"value\":\"all\"},{\"label\":\"Recorded validation statusAll evidence levels\",\"value\":\"all\"},{\"label\":\"Inventory systemBoth inventories · membership\",\"value\":\"all\"},{\"label\":\"Reference statusAccepted and missingAccepted \",\"value\":\"all\"}]}",
+      "timestamp": "2026-10-22T14:08:18.479Z",
+      "url": "http://127.0.0.1:4177/"
+    }
+  ]
+}

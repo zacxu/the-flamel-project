@@ -1,0 +1,11 @@
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda
+CHGNet will run on cuda
+              Step     Time          Energy          fmax
+TrackingFIRE:    0 10:19:45      -24.053892        0.801752
+TrackingFIRE:    1 10:19:45      -24.071527        0.733118
+TrackingFIRE:    2 10:19:45      -24.101080        0.598596
+TrackingFIRE:    3 10:19:45      -24.133692        0.423157
+TrackingFIRE:    4 10:19:45      -24.156929        0.198799
+TrackingFIRE:    5 10:19:45      -24.166512        0.042908
+{"candidate_id": "prototype_SnSrO2", "status": "completed", "device": "cuda", "source_structure_sha256": "4f2e60f58f1f7617784b8dd50b6b1bba6b1ae0427fddaf9f6dab7d0140f23332", "final_structure": "artifacts/phase5/chgnet/prototype_SnSrO2/final.json", "final_structure_sha256": "ef66dbff26e23a170659ad46a47577014a7ad7878ac097189b3975a1cea22715", "model_version": "0.3.0", "checkpoint_sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1", "relaxation_started": true, "relaxation_seconds": 1.1751444000001356, "atoms": 4, "formula": "Sr1 Sn1 O2", "energy_total_eV": -24.16651153564453, "energy_eV_per_atom": -6.041627883911133, "final_atomic_force_norm_max_eV_A": 3.6927474411641015e-06, "final_stress_max_abs_GPa": 0.40822309255599976, "final_spacegroup": 123, "volume_per_atom_A3": 16.840471080843546, "minimum_periodic_separation_A": 2.54162335395813, "lattice_condition_number": 1.3963835114572014, "initial_QE_kmesh": [3, 3, 3], "initial_QE_full_kmesh_points": 27, "DFT_eligible": true, "DFT_ineligibility_reasons": [], "workload_gates_are_representation_sensitive_not_stability_labels": true, "post_relaxation_features_used_for_model_scoring": false, "cuda_peak_allocated_MiB": 44.34521484375, "converged": true, "optimizer_steps": 5, "final_filter_fmax_eV_A": 0.042908310906399426}

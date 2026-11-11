@@ -1,0 +1,6 @@
+{
+  "status": "PREPARED_FOR_EXACT_INDEX_VERIFICATION",
+  "selected_paths": 5278,
+  "reviewed_upstream_exceptions": 8,
+  "method": "Every index blob will be compared with source/candidate seal before commit; final measured receipt remains external to avoid self-reference."
+}

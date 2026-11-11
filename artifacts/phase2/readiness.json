@@ -1,0 +1,51 @@
+{
+  "phase": 2,
+  "status": "complete",
+  "completed_utc": "2026-10-21T17:21:14.024976+00:00",
+  "ready_for_phase3": true,
+  "descriptor_shape": [
+    8294,
+    408
+  ],
+  "splits_per_seed": {
+    "train": 2000,
+    "calibration": 400,
+    "query_pool": 2000,
+    "fixed_untouched_evaluation": 3418,
+    "reserved_fresh": 476
+  },
+  "seeds": [
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "fresh_selector_seed": 20261022,
+  "selected_formulas": [
+    "SnSrO2",
+    "BaSnO2",
+    "CaMg2O3",
+    "Mg2SrO3",
+    "Ca2ZnO3",
+    "Ca2SrO3"
+  ],
+  "new_formulas_qualified": 6,
+  "primary_DFT_composition": "CaMg2O3",
+  "primary_DFT_chemical_system": "Ca-Mg-O",
+  "DFT_evidence_scope": "Same-composition polymorph and explicit CaO+2MgO decomposition comparisons first; no complete-hull stability claim from anchor phases alone",
+  "protocol_path": "config/phase2_protocol.json",
+  "protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "budget_ceilings_unchanged": true,
+  "phase2_prototype_candidates_charged": 4,
+  "remaining_generation_attempts": 116,
+  "remaining_chgnet_launches": 32,
+  "future_phase3_requirements": [
+    "Fit/calibrate initial seed20261022 snapshot and freeze it before any replay pool-label reveal.",
+    "Evaluate prediction error and uncertainty coverage only on fixed untouched unused-partition IDs; evaluator labels cannot affect decisions.",
+    "Complete one50-query replay using the frozen five-policy protocol and retain every decision before oracle reveal.",
+    "Generate the early CaMg2O3 pool under frozen SG2 settings; rank using the initial fresh-selector snapshot, not an adapted or best-seed model.",
+    "Charge every new sample, relaxation and QE job to registered cumulative ledgers; keep all failed jobs and numerical cutoffs.",
+    "Launch candidate/reference QE only after its budget/selection record is saved; force/stress/electronic and sensitivity checks are required for the stated evidence level."
+  ]
+}

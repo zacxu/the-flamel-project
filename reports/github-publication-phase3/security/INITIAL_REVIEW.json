@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "selected_source_files_initially_scanned": 5148,
+  "archives_scanned": 14,
+  "gitleaks_version": "8.30.1",
+  "gitleaks_archive_depth": 5,
+  "gitleaks_decode_depth": 5,
+  "gitleaks_reported_bytes_scanned": 7171717652,
+  "initial_raw_findings": 14,
+  "reviewed_non_service_worker_uuid_findings": 13,
+  "withheld_original_header_files": 1,
+  "private_upstream_env_findings": 0,
+  "private_original_header_sha256": "a0c54cd74c7b9b6df4b54db38f053f68562be29424a72fbeb4c8192fb8b92d18",
+  "finding_values_in_this_record": false,
+  "worker_uuid_policy": "Exact rule+line+unchanged whole-file-SHA; no directory or whole-file suppression",
+  "header_decision": "Original omitted from Git. Full signed redirect query and Set-Cookie value omitted in the marked derivative. Signed download expired 21 October 2026 after10seconds; no accountcredential exposed bythispublication.",
+  "visual_spot_checks": [
+    {
+      "path": "website/reports/W7_REMOTE_PRE_ENTRY.jpg",
+      "sha256": "ea643befdc589619789bccbf315291c284c5d13ec3aaee7c33b41d2c5c7b75b8",
+      "result": "Reviewed visible content; no credential displayed"
+    },
+    {
+      "path": "website/reports/SUBMISSION_LINK_FIX_SUBMISSION.jpg",
+      "sha256": "94bd0bf30d084fc57d5275c2613465d13b991cc4ef6829626541a3fe7aa6cf20",
+      "result": "Reviewed visible content; no credential displayed"
+    }
+  ],
+  "limits": [
+    "Pattern-based scanners cannot prove absence of every unknown secret",
+    "No exhaustive OCR of all image pixels",
+    "No pickle/joblib execution or semantic deserialization",
+    "No historical Git commits exist in the project root to scan"
+  ],
+  "final_recheck": "All 5200 selected files scanned with strengthened custom rules:13exact reviewed historical local-worker UUID findings;0unresolved. Supplemental originalscope/allarchives completed; any final generated metadata is rescanned before sealing."
+}

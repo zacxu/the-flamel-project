@@ -1,0 +1,10 @@
+{
+  "completed_at_utc": "2026-10-22T01:57:01.095331+00:00",
+  "estimator_threads": 2,
+  "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "original_fresh_selector_sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+  "original_fresh_selector_unchanged": true,
+  "paired_seed": 20261025,
+  "replay_source_sha256": "d7214ba1c526250a0be5e71465372a2bb4db226d85a6bc7bb58c1d839f638b86",
+  "wall_seconds_in_this_invocation": 327.1099524000001
+}

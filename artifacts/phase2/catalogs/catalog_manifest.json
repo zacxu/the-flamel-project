@@ -1,0 +1,46 @@
+{
+  "coverage": "Complete records in the two downloaded snapshots, not a current or universal materials catalog.",
+  "created_utc": "2026-10-21T16:59:13.703028+00:00",
+  "excluded_from_ranking": [
+    "energy",
+    "correction",
+    "energy_adjustments",
+    "all DFT labels"
+  ],
+  "files": {
+    "mp": {
+      "bytes": 179351659,
+      "md5": "76fc748db6b175bb80de4c276d27c235",
+      "path": "data/mp/2023-02-07-mp-computed-structure-entries.json.gz",
+      "sha256": "553d6272f049a8f4ec26e503b89751e2616dd3af53d086545f6ea00f317a361f"
+    },
+    "wbm": {
+      "bytes": 12745623,
+      "md5": "1555268d3aa59d20262cb9d01ce0994b",
+      "path": "data/wbm/2023-12-13-wbm-summary.csv.gz",
+      "sha256": "adbdd8b24086d4888195d8894c77f6d5fb29ce33bbb5d7d3898b4d79e964dc54"
+    }
+  },
+  "mp_column_counts": {
+    "entry": 154718,
+    "material_id": 154718
+  },
+  "mp_fields_selected": [
+    "composition",
+    "entry_id",
+    "data.material_id",
+    "structure",
+    "raw index"
+  ],
+  "mp_rows": 154718,
+  "mp_source": "Figshare file 40344436; MP database release 2022.10.28, queried 2023-02-07",
+  "mp_unique_compositions": 105583,
+  "registry_file": "data/wbm/data-files-2b7bff925a6aff10240cf6ef0f59149f51adff7b.yml",
+  "registry_revision": "2b7bff925a6aff10240cf6ef0f59149f51adff7b",
+  "wbm_columns_selected": [
+    "material_id",
+    "formula"
+  ],
+  "wbm_rows": 256963,
+  "wbm_unique_compositions": 168150
+}

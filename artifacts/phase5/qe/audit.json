@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "phase": 5,
+  "updated_at_utc": "2026-10-22T02:35:10.409650+00:00",
+  "status": "passed",
+  "checks_passed": 52,
+  "checks_total": 52,
+  "failed_checks": [],
+  "phase5_QE_job_count": 1,
+  "phase5_QE_wall_seconds": 900.4385137999998,
+  "all_jobs_finished": true,
+  "accepted_perturbation_job_id": null,
+  "perturbation_check_performed": true,
+  "perturbation_validation_incomplete": true,
+  "termination_summary": [
+    {
+      "job_id": "p5_mgo_perturb_90",
+      "internal_QE_time_limit_reached": true,
+      "launcher_watchdog_triggered": false,
+      "completed_SCF_calls": 8,
+      "started_SCF_calls": 9,
+      "last_reported_BFGS_steps": 7,
+      "terminal_SCF_accepted": false,
+      "terminal_geometry_forces_and_stress_available": false
+    }
+  ],
+  "incomplete_reason": "Internal QE time limit reached without accepted terminal SCF and final force/stress output; no continuation or final-geometry probes authorized",
+  "phonon_check_performed": false,
+  "local_minimum_established": false,
+  "perturbation_final_geometry_numerical_checks_pass": false,
+  "final_geometry_sensitivity_checks": [],
+  "known_control_comparison": null,
+  "fresh_candidate_jobs_this_phase": 0,
+  "fresh_CaMg2O3_candidate_submitted": false,
+  "full_frozen_inventory_hull_established": false,
+  "new_stable_materials": 0,
+  "completed_original_source_reference_ids": [
+    "mp-1265",
+    "mp-2605"
+  ],
+  "reference_inventory_completeness_unchanged_this_phase": true,
+  "primary_Ca_Mg_O_reference_coverage": {
+    "accepted_original_source_entries": 2,
+    "frozen_inventory_entries": 161,
+    "full_inventory_complete": false
+  },
+  "fallback_Mg_O_reference_coverage": {
+    "accepted_original_source_entries": 1,
+    "frozen_inventory_entries": 57,
+    "full_inventory_complete": false
+  },
+  "perturbation_definition": {
+    "manifest_path": "artifacts\\phase5\\qe\\perturbation\\manifest.json",
+    "manifest_sha256": "095d8211cd06e2f6a0a71f068b45fbcd70a88b0e2902ee195fc8f202b1b8ed3b",
+    "seed": 260022,
+    "atomic_displacement_norm_angstrom": 0.01,
+    "max_absolute_principal_strain": 0.005,
+    "initial_spacegroup": 1,
+    "original_spacegroup": 225
+  },
+  "scope": "Single deterministic local re-relaxation probe of known MgO; not a phonon test, hull test, new candidate or new composition",
+  "canonical_QE_snapshot": {
+    "ceiling_seconds": 21600,
+    "charged_wall_seconds": 2558.920391600004,
+    "remaining_seconds": 19041.079608399996,
+    "completed_jobs": 19,
+    "source_ledgers": [
+      "artifacts/phase1/qe/qe_jobs.jsonl",
+      "artifacts/runtime_budget_events.jsonl"
+    ],
+    "reserved_inflight_seconds": 0,
+    "available_unreserved_seconds": 19041.079608399996,
+    "active_reservations": []
+  },
+  "jobs": [
+    {
+      "job_id": "p5_mgo_perturb_90",
+      "path": "artifacts\\phase5\\qe\\p5_mgo_perturb_90\\result.json",
+      "result_sha256": "324361f8f383f03084e3d8190d7da8e87196009d0d3ed16544d457b72edcc931",
+      "elapsed_wall_seconds": 900.4385137999998,
+      "started_at_utc": "2026-10-22T02:18:49.228275+00:00",
+      "finished_at_utc": "2026-10-22T02:33:49.694244+00:00",
+      "settings": {
+        "calculation": "vc-relax",
+        "input_dft": "PBE",
+        "nat": 8,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          5,
+          5,
+          5
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.1,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 900,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p5_mgo_perturb_90",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "b510d3b6d0efce6f96a104f102be85fa5fe25c5583cb44cbeaa6404a13f8ad88"
+      },
+      "hash_checks": {
+        "input": true,
+        "source_geometry": true,
+        "executable": true,
+        "output": true,
+        "settings": true,
+        "queue": true,
+        "input_factory": true,
+        "executed_runner_archive": true,
+        "executed_parser_archive": true,
+        "pseudo_O": true,
+        "pseudo_Mg": true,
+        "inherited_settings": true
+      },
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase5\\qe\\p5_mgo_perturb_90\\scratch\\p5_mgo_perturb_90.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "vc-relax",
+        "geometry_relaxation_required": true,
+        "scf_converged": false,
+        "ionic_converged": false,
+        "force_norm_pass": false,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -302.15471963,
+        "completed_scf_calls": 8,
+        "scf_iterations_per_call": [
+          20,
+          5,
+          7,
+          7,
+          6,
+          6,
+          5,
+          5
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 125,
+        "parser_errors": [
+          "AttributeError(\"'NoneType' object has no attribute 'split'\")"
+        ],
+        "job_scf_accepted": false,
+        "job_stationary_at_this_setting": false
+      },
+      "termination_diagnostics": {
+        "internal_QE_time_limit_reached": true,
+        "launcher_watchdog_triggered": false,
+        "completed_SCF_calls": 8,
+        "started_SCF_calls": 9,
+        "last_reported_BFGS_steps": 7,
+        "terminal_SCF_accepted": false,
+        "terminal_geometry_forces_and_stress_available": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "phase2_protocol_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase2_numerical_protocol_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prior_phase3_runner_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "initial_MgO_perturbation_geometry_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:input_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:source_geometry_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:executable_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:output_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:queue_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:input_factory_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:executed_runner_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:executed_parser_archive_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:pseudo_O_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:pseudo_Mg_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:inherited_settings_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:queue_authorized_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:phase5_stamped",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:source_lineage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:force_fullstress_reparse_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:known_MgO_nonmagnetic_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:no_imposed_symmetry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:frozen_settings_and_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:one_legacy_record",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reserved_before_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:finish_matches_elapsed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:within_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:within_numerical_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "QE_jobs_do_not_overlap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase5_bounded_queue_wall",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "canonical_and_legacy_QE_wall_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "global_QE_cap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_QE_reservations_or_mutex_remain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen_perturbation_manifest_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_known_control_result_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prior_phase4_runner_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_known_control_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "perturbed_known_control_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "perturbation_seed_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atomic_displacements_exactly_reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atomic_displacement_norms_0p01_A",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "symmetric_strain_exactly_reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "maximum_absolute_principal_strain_0p005",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "perturbed_lattice_reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "perturbed_positions_reproduced_modulo_PBC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "same_eight_atom_known_composition",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "perturbation_breaks_spacegroup225_to_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "perturbation_frozen_before_first_dispatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "maximum_queue_watchdogs_bounded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terminal_SCF_failure_stops_queue_without_continuation_or_probes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terminal_unaccepted_job_remains_failed_in_budget_events",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

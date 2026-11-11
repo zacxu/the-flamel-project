@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "phase": "Workflow visuals",
+  "status": "live_verified",
+  "recordedAt": "2026-10-22T17:00:35.638957+00:00",
+  "localDate": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "url": "https://theflamelproject.42web.io/#/workflow",
+  "documentRoot": "/htdocs",
+  "uiBuildId": "ui-w6-359b66f2fb63f90e993c",
+  "predecessorUiBuildId": "ui-w6-066edb222a3354b8bced",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "researchManifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "uiManifestPath": "release-manifests/ui-w6-359b66f2fb63f90e993c.json",
+  "uiManifestSha256": "64ac613bcfcb4bc3f46c7753886c3a91eca37cba8af9fe285838ac2cf2c49d43",
+  "change": "Added three original explanatory SVG cards per workflow stage, expanded generalized CrystalFormer/CHGNet architectures, and clarified this project's decision/evaluation-pipeline contribution on Overview and Workflow.",
+  "sourceChanges": [
+    "src/components/WorkflowIllustration.css",
+    "src/components/WorkflowIllustration.tsx",
+    "src/views/Overview.tsx",
+    "src/views/Workflow.tsx",
+    "src/generated/uiRelease.ts (automatic build identity)"
+  ],
+  "contract": "contracts/WORKFLOW_VISUALS.md",
+  "scienceReview": "reports/WORKFLOW_VISUALS_SCIENCE_REVIEW.md",
+  "interpretation": "These are simplified method schematics, not saved atomic geometries, exact neural-network layer layouts or observed trajectories. The failed new-formula branch remains distinct from planned controls/prototypes and historical acquisition.",
+  "uploadOrder": [
+    "Three new hashed JavaScript chunks, one CSS file and versioned manifest/CSV uploaded first.",
+    "Exact 1150-byte production index.html published last."
+  ],
+  "immutableFiles": [
+    {
+      "path": "assets/CrystalViewer-BR9Ot6g3.js",
+      "bytes": 567490,
+      "sha256": "755f68676939e735174e105ce98bad0165381962c23ad2cd1f6a95e7ec5429a7"
+    },
+    {
+      "path": "assets/ReplayChart-tiH_iYS9.js",
+      "bytes": 374724,
+      "sha256": "fcd522a70747c3014e15ea162ec564b9f459698fe913c892fcd85816562d09fb"
+    },
+    {
+      "path": "assets/index-BI21S9xT.css",
+      "bytes": 48401,
+      "sha256": "c562c1504721ab23cb6a74d277d5b9fd0a928aaa444fb886b17c7c7ed8bc8690"
+    },
+    {
+      "path": "assets/index-BfOlvVKk.js",
+      "bytes": 464737,
+      "sha256": "3079cd7f1c044f6b751a049861fb44f73b5c36d8e4a31efa04054306cbab141a"
+    },
+    {
+      "path": "release-manifests/ui-w6-359b66f2fb63f90e993c.files.csv",
+      "bytes": 17551,
+      "sha256": "49ff8b8afcaba12b716307b8e82b7dee64ba82a5ef683527ad2a76911a084cbf"
+    },
+    {
+      "path": "release-manifests/ui-w6-359b66f2fb63f90e993c.json",
+      "bytes": 25919,
+      "sha256": "64ac613bcfcb4bc3f46c7753886c3a91eca37cba8af9fe285838ac2cf2c49d43"
+    }
+  ],
+  "entryLast": {
+    "path": "deployment/workflow-visuals/final-expanded/entry/index.html",
+    "bytes": 1150,
+    "sha256": "7be91bcc1b6dc6572f73e5baab029310d61427062cf8dbc51e56cc5fcf3baf36",
+    "remotePath": "index.html"
+  },
+  "localIntegrityChecksPassed": 1626,
+  "initialPreviewBrowserChecksPassed": 16,
+  "expandedPreviewBrowserChecksPassed": 18,
+  "supersededInitialWorkflowRelease": {
+    "uiBuildId": "ui-w6-3d3b82bd8b716b165c7e",
+    "status": "superseded_for_final_acceptance",
+    "recordedAt": "2026-10-22T16:47:59.168414+00:00",
+    "reason": "Compare bars corrected to exported policy colors; small chart labels use ink for readability.",
+    "retained": "Exact original release ZIP, package record, staged delta/entry, reconstructed byte-identical dist and initial browser evidence."
+  },
+  "unpublishedPaletteRevision": {
+    "uiBuildId": "ui-w6-c6c6cf9a1616ed274fb0",
+    "status": "packaged_not_deployed_superseded_by_scope_extension",
+    "recordedAt": "2026-10-22T16:49:26.931285+00:00",
+    "reason": "User extended the task to stronger contribution wording and more detailed generalized CrystalFormer/CHGNet architectures.",
+    "liveUiAtHold": "ui-w6-3d3b82bd8b716b165c7e",
+    "retained": "Exact package ZIP/record, source inputs, staging delta/entry, generated identity and complete packaged dist."
+  },
+  "comparePalette": {
+    "bars": "Existing shared policyColour presentation helper",
+    "quality": "#0072B2",
+    "full": "#9B4275",
+    "smallLabels": "#202a31"
+  },
+  "liveBrowserChecksPassed": 22,
+  "liveBrowserChecksFailed": 0,
+  "browserObservations": [
+    {
+      "name": "live_release",
+      "pass": true,
+      "uiBuild": "ui-w6-359b66f2fb63f90e993c",
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "desktop_propose",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "propose",
+      "tall": 0,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "desktop_generate",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "generate",
+      "tall": 3,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "desktop_screen",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "screen",
+      "tall": 0,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "desktop_select",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "select",
+      "tall": 0,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "desktop_relax",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "relax",
+      "tall": 3,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "desktop_validate",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "validate",
+      "tall": 0,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "desktop_compare",
+      "pass": true,
+      "brokenLabels": false,
+      "cards": 3,
+      "images": 3,
+      "noOverflow": true,
+      "stage": "compare",
+      "tall": 0,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "shared_policy_colours",
+      "pass": true,
+      "colours": [
+        "#0072B2",
+        "#9B4275"
+      ],
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "workflow_contribution",
+      "pass": true,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "overview_contribution",
+      "pass": true,
+      "text": "THE RESEARCH QUESTION\n\nCan uncertainty guide the search for useful crystals?\n\nExplicit predictive uncertainty during symmetry-constrained generation may improve stable, novel crystal discovery in underrepresented chemical spaces.\n\nOur contribution is the decision and evaluation pipeline. Around pretrained CrystalFormer and CHGNet, we built calibrated uncertainty and diversity-based selection, controlled comparisons on held-out chemical systems, strict candidate screening and a traceable record of model and first-principles checks. This makes the discovery hypothesis measurable within a limited compute budget.\n\nExplore what we built \u00e2\u2020\u2019",
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "compact_home_and_clean_footer",
+      "pass": true,
+      "footer": "The Flamel Project\n\nA research prototype. Evidence before discovery claims.\n\nCopy view link \u00e2\u2020\u2014\nReset exploration",
+      "hasRemovedText": false,
+      "url": "https://theflamelproject.42web.io/",
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "mobile_propose",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "propose",
+      "svgWidth": 213,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "mobile_generate",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "generate",
+      "svgWidth": 213,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "mobile_screen",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "screen",
+      "svgWidth": 213,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "mobile_select",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "select",
+      "svgWidth": 213,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "mobile_relax",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "relax",
+      "svgWidth": 213,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "mobile_validate",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "validate",
+      "svgWidth": 213,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "mobile_compare",
+      "pass": true,
+      "columns": "251px",
+      "contributionColumns": "287px",
+      "noOverflow": true,
+      "stage": "compare",
+      "svgWidth": 213,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "keyboard_stage_selection",
+      "pass": true,
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "console_errors",
+      "pass": true,
+      "errors": [],
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    },
+    {
+      "name": "live_manifest_hash",
+      "pass": true,
+      "sha256": "64ac613bcfcb4bc3f46c7753886c3a91eca37cba8af9fe285838ac2cf2c49d43",
+      "recorded_at": "2026-10-22T17:00:07.124Z"
+    }
+  ],
+  "unchanged": [
+    "Frozen research/numerical artifacts and original scientific images",
+    "Hosting image sidecars/configurations and credentials",
+    "Paper/copper logo, compact URL behavior and cleaned footer",
+    "Historical W1-W7 and all previous visual/URL evidence/releases",
+    "Original cached W6 source-input record"
+  ],
+  "rollback": {
+    "entry": "deployment/workflow-visuals/previous-dist/index.html",
+    "uiBuildId": "ui-w6-066edb222a3354b8bced",
+    "sha256": "dd49266b699f007f02a872c2fcc50d9522aa2b4a626f2bec99f5abd44a5999c4",
+    "instructions": "Upload the saved prior entry to /htdocs/index.html, retain all old/new immutable files and existing image routing, then verify HTTPS."
+  },
+  "verificationLimit": "Targeted typecheck/build, package integrity, science review and desktop/mobile workflow acceptance; no new scientific run or full historical-suite rerun.",
+  "screenshots": [
+    "reports/WORKFLOW_VISUALS_LIVE_GENERATE.jpg",
+    "reports/WORKFLOW_VISUALS_LIVE_RELAX.jpg",
+    "reports/WORKFLOW_VISUALS_LIVE_CONTRIBUTION.jpg",
+    "reports/WORKFLOW_VISUALS_LIVE_MOBILE.jpg"
+  ]
+}

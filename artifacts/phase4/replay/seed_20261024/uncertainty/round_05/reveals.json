@@ -1,0 +1,92 @@
+{
+  "labels_eV_atom": [
+    0.20366,
+    0.372225,
+    1.003201,
+    0.558952,
+    0.187438,
+    0.132964,
+    0.113884,
+    0.715207,
+    0.205963,
+    0.726441
+  ],
+  "material_ids": [
+    "wbm-1-41142",
+    "wbm-2-34895",
+    "wbm-4-28319",
+    "wbm-2-34086",
+    "wbm-1-44019",
+    "wbm-1-37070",
+    "wbm-1-38339",
+    "wbm-4-25368",
+    "wbm-4-25074",
+    "wbm-2-33267"
+  ],
+  "policy": "uncertainty",
+  "prior_decision_sha256": "bca0178a7b9c59b5b16c6c2b513adf93cef1330a77af28001d5a0085e0f62811",
+  "records": [
+    {
+      "label_eV_atom": 0.20366,
+      "material_id": "wbm-1-41142",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.372225,
+      "material_id": "wbm-2-34895",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 1.003201,
+      "material_id": "wbm-4-28319",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.558952,
+      "material_id": "wbm-2-34086",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.187438,
+      "material_id": "wbm-1-44019",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.132964,
+      "material_id": "wbm-1-37070",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.113884,
+      "material_id": "wbm-1-38339",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.715207,
+      "material_id": "wbm-4-25368",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.205963,
+      "material_id": "wbm-4-25074",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.726441,
+      "material_id": "wbm-2-33267",
+      "policy": "uncertainty",
+      "round_index": 5
+    }
+  ],
+  "revealed_at_utc": "2026-10-22T01:50:18.724087+00:00",
+  "round_index": 5
+}

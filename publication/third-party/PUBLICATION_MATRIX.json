@@ -1,0 +1,208 @@
+{
+  "scope": "Component-specific licence observations and archive scope; keep accompanying notices and pass independent Phase 3 privacy/secret gates before publication",
+  "components": [
+    {
+      "component": "CrystalFormer source",
+      "identity": "31bb734a3fd006af49a021921839061e6184cbf1",
+      "observed_licence": "Apache-2.0",
+      "publication": "Git with original LICENSE, notices, model card; no upstream environment",
+      "evidence": [
+        "APACHE-2.0-CrystalFormer.txt",
+        "../../vendor/CrystalFormer/MODEL_CARD.md"
+      ],
+      "source_modifications": "Phase2 comparison recorded all upstream originals identical; this audit did not rehash originals"
+    },
+    {
+      "component": "CrystalFormer exact pretrained checkpoint",
+      "identity": "HF b203f4273158d95b49b60a13433bf1dcc4ccf5d9 / alex20s/multi/epoch_044000.pkl",
+      "observed_licence": "Apache-2.0 declared in pinned model-repository README and API cardData",
+      "publication": "Eligible for release with pinned README, complete Apache2 licence, attribution and identity; never infer checkpoint licence from code alone",
+      "evidence": [
+        "CrystalFormer-checkpoint-README.md",
+        "APACHE-2.0-CrystalFormer.txt",
+        "PRIMARY_EVIDENCE.json"
+      ]
+    },
+    {
+      "component": "WBM / historical MP raw and derived data",
+      "identity": "Figshare article 22715158 version39 files 40344436,53161835,64706751",
+      "observed_licence": "CC-BY-4.0",
+      "publication": "Raw/derived archives and Git subsets with source+creator credit, licence link, modification statement, no endorsement",
+      "evidence": [
+        "CC-BY-4.0.txt",
+        "PRIMARY_EVIDENCE.json",
+        "../../THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "component": "CHGNet package/model dependency",
+      "identity": "package0.4.2 / model0.3.0",
+      "observed_licence": "Modified BSD (three BSD conditions plus enhancement grant)",
+      "publication": "Recreate via dependency installation; retain full notice for any package redistribution; saved project results are distinct",
+      "evidence": [
+        "CHGNet-0.4.2-LICENSE.txt",
+        "PRIMARY_EVIDENCE.json"
+      ]
+    },
+    {
+      "component": "QE7.5 Windows runtime",
+      "identity": "QMatSuite qe-7.5-win-oneapi-msmpi",
+      "observed_licence": "QE GNU GPL and independent component licences",
+      "publication": "Upstream retrieval/private backup only; retain13 selected notices",
+      "evidence": [
+        "../../THIRD_PARTY_NOTICES.md",
+        "../../vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/THIRD_PARTY_NOTICES.txt"
+      ]
+    },
+    {
+      "component": "SSSP UPF families",
+      "identity": "SSSP1.3.0 PBE efficiency; exact Ca/Mg/O MD5 verified",
+      "observed_licence": "Collection CC-BY4 with exceptions: Ca GPL3; Mg/O GPL2-or-later; other families differ",
+      "publication": "Local/private-only fullSSSP and rawUPFs; withhold whole 3 containing archives; upstream reconstruction",
+      "evidence": [
+        "SSSP-LICENSE.txt",
+        "USED_PSEUDOPOTENTIALS.json",
+        "PRIMARY_EVIDENCE.json"
+      ]
+    },
+    {
+      "component": "Website dependencies and assets",
+      "identity": "Pinned package lock, W1/W6 dependency notices, local figures and SVGschematics",
+      "observed_licence": "Per-package retained notices; source-derived data CC-BY4; original artwork not blanket relicensed",
+      "publication": "Keep exact licence payloads/credits, distinguish actual renders/screenshots from schematic/generated illustration",
+      "evidence": [
+        "../../website/THIRD_PARTY_NOTICES.md",
+        "../../website/licenses",
+        "../../THIRD_PARTY_NOTICES.md"
+      ]
+    }
+  ],
+  "withheld_archives": [
+    "flamel-qe-scratch-001.zip",
+    "flamel-qe-scratch-002.zip",
+    "flamel-research-inputs-001.zip"
+  ],
+  "unresolved_not_blocking_source_publication": [
+    "No blanket first-party project licence chosen",
+    "SSSP GPL source/generation closure deliberately avoided by upstream retrieval and withholding raw-containing archives",
+    "No licence conclusion about original model training datasets or absent promotional asset folders"
+  ],
+  "archives": [
+    {
+      "name": "flamel-active-production-001.zip",
+      "group": "active-production",
+      "bytes": 8510319,
+      "sha256": "5927d463cc2ad586bad6b4bac83cd8e5c4d73fff625f62f77ffafa55eda3b155",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-composition-catalogs-001.zip",
+      "group": "composition-catalogs",
+      "bytes": 61558121,
+      "sha256": "2dd58d6cb0ce8e750bf19327fa2d862e9641b8f04b43857e7f5dc07c28e5ea31",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-crystalformer-checkpoint-001.zip",
+      "group": "crystalformer-checkpoint",
+      "bytes": 166094303,
+      "sha256": "efd0a1caf4b1e6c43ba7071572eea7a2d952e00306e32f5187a3342609a87cfa",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-historical-datasets-001.zip",
+      "group": "historical-datasets",
+      "bytes": 241635204,
+      "sha256": "393e6fe4fc524d9d13181504bbd129177268e6c4bdc2b316da044749d8c7c618",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-qe-scratch-001.zip",
+      "group": "qe-scratch",
+      "bytes": 804920049,
+      "sha256": "9549f8cacc1c8e0820636cbe9ac5037e90e2b98d4a9d36daad38c90fd73d7855",
+      "licence_scope": "local_private_only",
+      "embedded_upf_members": 20
+    },
+    {
+      "name": "flamel-qe-scratch-002.zip",
+      "group": "qe-scratch",
+      "bytes": 582234847,
+      "sha256": "25dd2a0bbd82fc109f668f069d47a6755f60355755b80e9871ff7ed8280d48d9",
+      "licence_scope": "local_private_only",
+      "embedded_upf_members": 16
+    },
+    {
+      "name": "flamel-qe-scratch-003.zip",
+      "group": "qe-scratch",
+      "bytes": 239904254,
+      "sha256": "37e8143b5eeeadd4f67792c4f1f7a5416305dc5a4bf6da14783819cfd8303d1a",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-research-inputs-001.zip",
+      "group": "research-inputs",
+      "bytes": 37717958,
+      "sha256": "a8a5375affed77d488761ea00431bc5124e29b0e91c48a21e2751ba1fecae575",
+      "licence_scope": "local_private_only",
+      "embedded_upf_members": 41
+    },
+    {
+      "name": "flamel-research-models-001.zip",
+      "group": "research-models",
+      "bytes": 791135064,
+      "sha256": "ff7f61ce5c4fb207e1025bf03739ac86ebf707b090a11069a011d8e08d46bc77",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-research-models-002.zip",
+      "group": "research-models",
+      "bytes": 790600275,
+      "sha256": "6aa783d52cddd55d010e50da39c817e61c59f69b0dab6510f86c926f51cfe716",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-research-models-003.zip",
+      "group": "research-models",
+      "bytes": 790731084,
+      "sha256": "f135aed7384dad7df65870958d2ba6006e61cfcc8f77c00676c04ca1f4c8baa3",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-research-models-004.zip",
+      "group": "research-models",
+      "bytes": 790882986,
+      "sha256": "df46571daea5dad738a3f26b8d0c1272d94f4a69685c7eec83a79eba9290e566",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-research-models-005.zip",
+      "group": "research-models",
+      "bytes": 153282397,
+      "sha256": "820b020cc654bb085e18187933b8349c86136aa987afd4ed3e942695d4c505ec",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    },
+    {
+      "name": "flamel-website-builds-001.zip",
+      "group": "website-builds",
+      "bytes": 123418694,
+      "sha256": "7eb744a319f6400406477408c5f1158103f609116429dc591efb10468dff70c9",
+      "licence_scope": "candidate_with_complete_notice_pack",
+      "embedded_upf_members": 0
+    }
+  ],
+  "notice_pack_requirement": "Every candidate archive must travel with root THIRD_PARTY_NOTICES.md and complete publication/third-party folder; existing frontend notices remain required",
+  "candidate_archive_count": 11,
+  "private_archive_count": 3,
+  "publication_status": "No upload performed; candidate means licence-scope eligibility subject to separate gates"
+}

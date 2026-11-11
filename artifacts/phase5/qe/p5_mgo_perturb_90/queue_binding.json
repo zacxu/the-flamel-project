@@ -1,0 +1,5 @@
+{
+  "known_control_scope": "Single deterministic local re-relaxation probe of known MgO; not a phonon test, hull test, new candidate or new composition",
+  "perturbation_manifest_sha256": "095d8211cd06e2f6a0a71f068b45fbcd70a88b0e2902ee195fc8f202b1b8ed3b",
+  "original_control_result_sha256": "6ce32a95c693ac7bad1a886755837720dab3c74bb5bcd19f703043e2afad7db8"
+}

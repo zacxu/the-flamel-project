@@ -1,0 +1,2097 @@
+{
+  "schema_version": 1,
+  "updated_at_utc": "2026-10-21T18:09:08.938985+00:00",
+  "phase": 3,
+  "all_jobs_finished": true,
+  "local_QE_mutex_present": false,
+  "active_QE_reservations": [],
+  "phase3_job_count": 14,
+  "electronic_or_process_rejected_job_ids": [],
+  "relaxation_jobs_rejected_by_independent_stationarity_check": [
+    "p3_ref_mgo_90_k035"
+  ],
+  "phase3_QE_wall_seconds": 1205.0889291000021,
+  "phase3_initial_QE_wall_ceiling_seconds": 2700,
+  "canonical_QE_snapshot": {
+    "ceiling_seconds": 21600,
+    "charged_wall_seconds": 1207.1928419000033,
+    "remaining_seconds": 20392.807158099997,
+    "completed_jobs": 15,
+    "source_ledgers": [
+      "artifacts/phase1/qe/qe_jobs.jsonl",
+      "artifacts/runtime_budget_events.jsonl"
+    ],
+    "reserved_inflight_seconds": 0,
+    "available_unreserved_seconds": 20392.807158099997,
+    "active_reservations": []
+  },
+  "accepted_reference_job_id": "p3_ref_mgo_90_k035_cont1",
+  "accepted_candidate_job_id": "p3_candidate_mgo_fallback_90",
+  "reference_validation": {
+    "accepted_geometry_job_id": "p3_ref_mgo_90_k035_cont1",
+    "base_job_present": true,
+    "final_setting_stationarity_pass": true,
+    "accepted_90_720_Ry_kspacing_0p35_setting_verified": true,
+    "final_geometry_sensitivity_checks": [
+      {
+        "job_id": "p3_mgo_final_final_cut75",
+        "same_final_geometry": true,
+        "intended_sensitivity_settings_verified": true,
+        "scf_accepted": true,
+        "absolute_energy_shift_eV_per_atom": 0.0009338690099411906,
+        "within_5_meV_per_atom": true,
+        "settings": {
+          "calculation": "scf",
+          "input_dft": "PBE",
+          "nat": 2,
+          "ecutwfc_Ry": 75.0,
+          "ecutrho_Ry": 600.0,
+          "k_mesh": [
+            8,
+            8,
+            8
+          ],
+          "k_spacing_start_inv_angstrom": 0.35,
+          "conv_thr_Ry": 1e-08,
+          "forc_conv_thr_Ry_per_Bohr": 0.0008,
+          "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+          "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+          "etot_conv_thr_Ry": 1e-05,
+          "press_conv_thr_kbar": 0.5,
+          "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+          "final_max_absolute_residual_stress_component_kbar": 0.5,
+          "scf_must_converge": true,
+          "electron_maxstep": 100,
+          "nstep": 80,
+          "nosym": true,
+          "noinv": true,
+          "nspin": 1,
+          "tot_magnetization_muB": null,
+          "occupations": "fixed",
+          "smearing": null,
+          "degauss_Ry": null,
+          "vacuum_box_angstrom": null,
+          "max_seconds": 150,
+          "spin_review_required_before_reference_acceptance": false,
+          "production_ready": false,
+          "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+          "prefix": "p3_mgo_final_final_cut75",
+          "molecular_oxygen": false,
+          "source_geometry_sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6"
+        }
+      },
+      {
+        "job_id": "p3_mgo_final_final_k045",
+        "same_final_geometry": true,
+        "intended_sensitivity_settings_verified": true,
+        "scf_accepted": true,
+        "absolute_energy_shift_eV_per_atom": 0.0001914068571977623,
+        "within_5_meV_per_atom": true,
+        "settings": {
+          "calculation": "scf",
+          "input_dft": "PBE",
+          "nat": 2,
+          "ecutwfc_Ry": 90.0,
+          "ecutrho_Ry": 720.0,
+          "k_mesh": [
+            6,
+            6,
+            6
+          ],
+          "k_spacing_start_inv_angstrom": 0.45,
+          "conv_thr_Ry": 1e-08,
+          "forc_conv_thr_Ry_per_Bohr": 0.0008,
+          "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+          "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+          "etot_conv_thr_Ry": 1e-05,
+          "press_conv_thr_kbar": 0.5,
+          "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+          "final_max_absolute_residual_stress_component_kbar": 0.5,
+          "scf_must_converge": true,
+          "electron_maxstep": 100,
+          "nstep": 80,
+          "nosym": true,
+          "noinv": true,
+          "nspin": 1,
+          "tot_magnetization_muB": null,
+          "occupations": "fixed",
+          "smearing": null,
+          "degauss_Ry": null,
+          "vacuum_box_angstrom": null,
+          "max_seconds": 150,
+          "spin_review_required_before_reference_acceptance": false,
+          "production_ready": false,
+          "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+          "prefix": "p3_mgo_final_final_k045",
+          "molecular_oxygen": false,
+          "source_geometry_sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6"
+        }
+      }
+    ],
+    "full_numerical_convergence": true,
+    "convergence_scope": "Recorded adjacent cutoff and k-mesh changes <=5 meV/atom at the final geometry, plus final-setting electronic/force/full-stress checks; finite tests, not a rigorous error bound"
+  },
+  "candidate_validation": {
+    "accepted_geometry_job_id": "p3_candidate_mgo_fallback_90",
+    "base_job_present": true,
+    "final_setting_stationarity_pass": true,
+    "accepted_90_720_Ry_kspacing_0p35_setting_verified": true,
+    "final_geometry_sensitivity_checks": [
+      {
+        "job_id": "p3_fallback_final_final_cut75",
+        "same_final_geometry": true,
+        "intended_sensitivity_settings_verified": true,
+        "scf_accepted": true,
+        "absolute_energy_shift_eV_per_atom": 0.0009316285389786572,
+        "within_5_meV_per_atom": true,
+        "settings": {
+          "calculation": "scf",
+          "input_dft": "PBE",
+          "nat": 8,
+          "ecutwfc_Ry": 75.0,
+          "ecutrho_Ry": 600.0,
+          "k_mesh": [
+            5,
+            5,
+            5
+          ],
+          "k_spacing_start_inv_angstrom": 0.35,
+          "conv_thr_Ry": 1e-08,
+          "forc_conv_thr_Ry_per_Bohr": 0.0008,
+          "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+          "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+          "etot_conv_thr_Ry": 1e-05,
+          "press_conv_thr_kbar": 0.5,
+          "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+          "final_max_absolute_residual_stress_component_kbar": 0.5,
+          "scf_must_converge": true,
+          "electron_maxstep": 100,
+          "nstep": 80,
+          "nosym": true,
+          "noinv": true,
+          "nspin": 1,
+          "tot_magnetization_muB": null,
+          "occupations": "fixed",
+          "smearing": null,
+          "degauss_Ry": null,
+          "vacuum_box_angstrom": null,
+          "max_seconds": 300,
+          "spin_review_required_before_reference_acceptance": false,
+          "production_ready": false,
+          "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+          "prefix": "p3_fallback_final_final_cut75",
+          "molecular_oxygen": false,
+          "source_geometry_sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf"
+        }
+      },
+      {
+        "job_id": "p3_fallback_final_final_k045",
+        "same_final_geometry": true,
+        "intended_sensitivity_settings_verified": true,
+        "scf_accepted": true,
+        "absolute_energy_shift_eV_per_atom": 3.390927827240375e-05,
+        "within_5_meV_per_atom": true,
+        "settings": {
+          "calculation": "scf",
+          "input_dft": "PBE",
+          "nat": 8,
+          "ecutwfc_Ry": 90.0,
+          "ecutrho_Ry": 720.0,
+          "k_mesh": [
+            4,
+            4,
+            4
+          ],
+          "k_spacing_start_inv_angstrom": 0.45,
+          "conv_thr_Ry": 1e-08,
+          "forc_conv_thr_Ry_per_Bohr": 0.0008,
+          "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+          "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+          "etot_conv_thr_Ry": 1e-05,
+          "press_conv_thr_kbar": 0.5,
+          "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+          "final_max_absolute_residual_stress_component_kbar": 0.5,
+          "scf_must_converge": true,
+          "electron_maxstep": 100,
+          "nstep": 80,
+          "nosym": true,
+          "noinv": true,
+          "nspin": 1,
+          "tot_magnetization_muB": null,
+          "occupations": "fixed",
+          "smearing": null,
+          "degauss_Ry": null,
+          "vacuum_box_angstrom": null,
+          "max_seconds": 300,
+          "spin_review_required_before_reference_acceptance": false,
+          "production_ready": false,
+          "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+          "prefix": "p3_fallback_final_final_k045",
+          "molecular_oxygen": false,
+          "source_geometry_sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf"
+        }
+      }
+    ],
+    "full_numerical_convergence": true,
+    "convergence_scope": "Recorded adjacent cutoff and k-mesh changes <=5 meV/atom at the final geometry, plus final-setting electronic/force/full-stress checks; finite tests, not a rigorous error bound"
+  },
+  "full_numerical_convergence": true,
+  "known_MgO_comparison": {
+    "scope": "Known MgO control: frozen eight-atom generated/CHGNet-pre-relaxed structure versus original-source-cell two-atom rock-salt MgO reference; no new material/composition discovery",
+    "same_pseudopotentials_functional_and_final_cutoffs": true,
+    "final_cutoffs_Ry": {
+      "ecutwfc": 90,
+      "ecutrho": 720
+    },
+    "k_spacing_target_inv_angstrom": 0.35,
+    "raw_candidate_minus_reference_eV_per_atom": -5.5332391184492735e-06,
+    "numerically_validated_relative_energy": true,
+    "outcome": "numerically_indistinguishable_known_control_recovery",
+    "interpretation": "The known MgO control recovers the reference prototype with indistinguishable energy at the recorded numerical resolution; the tiny raw difference is not an energy advantage or a new stability result",
+    "energy_scope": "Static PBE electronic energies at approximately zero external pressure; no vibrational or finite-temperature free energies",
+    "Materials_Project_energies_mixed_with_QE": false,
+    "symmetry_breaking_perturbation_check_performed": false,
+    "phonon_check_performed": false,
+    "final_structure_match": {
+      "primitive_supercell_aware_match": true,
+      "matcher_settings": {
+        "ltol": 0.01,
+        "stol": 0.01,
+        "angle_tol_degrees": 0.5,
+        "primitive_cell": true,
+        "scale": false,
+        "attempt_supercell": true
+      },
+      "matching_only_no_execution_cell_reduction": true,
+      "normalized_rms_and_max_distance": [
+        4.4149697527973206e-08,
+        4.4149697527973206e-08
+      ],
+      "reference_final_geometry_sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6",
+      "candidate_final_geometry_sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf",
+      "reference_n_atoms": 2,
+      "candidate_n_atoms": 8,
+      "reference_spacegroup_at_symprec_0p01A": 225,
+      "candidate_spacegroup_at_symprec_0p01A": 225
+    },
+    "within_10_meV_per_atom_comparison_tolerance": true,
+    "energy_ordering_resolved_at_10_meV_tolerance": false
+  },
+  "primary_CaMg2O3_status": "Eight frozen generated attempts produced zero exact six-atom eligible structures; no primary-composition DFT candidate was submitted",
+  "full_hull_established": false,
+  "fresh_DFT_confirmed_new_stable_materials": 0,
+  "jobs": [
+    {
+      "job_id": "p3_candidate_mgo_fallback_90",
+      "path": "artifacts\\phase3\\qe\\p3_candidate_mgo_fallback_90\\result.json",
+      "result_sha256": "6ce32a95c693ac7bad1a886755837720dab3c74bb5bcd19f703043e2afad7db8",
+      "elapsed_wall_seconds": 570.3630340999989,
+      "role": "candidate",
+      "settings": {
+        "calculation": "vc-relax",
+        "input_dft": "PBE",
+        "nat": 8,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          5,
+          5,
+          5
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.1,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 900,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_candidate_mgo_fallback_90",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "b1061f40c75055c65981ff7c159de569dcf80d85b06abc261b5760177e21ec88"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 39,
+      "peak_working_set_bytes_observed": 590598144,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_candidate_mgo_fallback_90\\scratch\\p3_candidate_mgo_fallback_90.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "vc-relax",
+        "geometry_relaxation_required": true,
+        "scf_converged": true,
+        "ionic_converged": true,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -302.15472,
+        "completed_scf_calls": 5,
+        "scf_iterations_per_call": [
+          18,
+          4,
+          6,
+          4,
+          24
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 125,
+        "n_atoms": 8,
+        "formula": "MgO",
+        "total_energy_Hartree": -151.0773600019286,
+        "total_energy_Ry": -302.1547200038572,
+        "total_energy_eV": -4111.024396036658,
+        "energy_eV_per_atom": -513.8780495045822,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_candidate_mgo_fallback_90\\final_geometry.json",
+        "final_volume_angstrom3": 76.72024424013722,
+        "forces_eV_per_angstrom": [
+          [
+            1.1917829991708893e-06,
+            -3.54467164051253e-06,
+            4.624489853750529e-06
+          ],
+          [
+            -5.719067751502558e-06,
+            4.788070978779793e-06,
+            1.2361963924987141e-06
+          ],
+          [
+            6.754050342322918e-06,
+            3.996165263146029e-06,
+            -5.974888263842317e-06
+          ],
+          [
+            -1.0440544123759042e-06,
+            -3.954024639654344e-06,
+            1.1928443956918068e-06
+          ],
+          [
+            -2.4172947009636934e-07,
+            -5.858868044438581e-07,
+            1.2245481924034376e-06
+          ],
+          [
+            -5.211461736832974e-07,
+            1.7608169238545118e-07,
+            -2.334800940593456e-06
+          ],
+          [
+            -8.366093055964554e-07,
+            -5.926083714134163e-07,
+            -1.56213517827718e-06
+          ],
+          [
+            4.1677377176077885e-07,
+            -2.831264782871277e-07,
+            1.5937455483684669e-06
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 9.863357572470336e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.04264062605360884,
+            6.0740226715300936e-05,
+            2.0594533771467902e-05
+          ],
+          [
+            6.0740226715300936e-05,
+            -0.042607714435697074,
+            -3.1639421446552156e-05
+          ],
+          [
+            2.0594533771467902e-05,
+            -3.1639421446552156e-05,
+            -0.04250209552804364
+          ]
+        ],
+        "pressure_kbar": -0.04258347867244985,
+        "max_absolute_residual_stress_component_kbar": 0.04264062605360884,
+        "scf_error_Ry": 7.850990105656554e-12,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": "<opt_conv>\n        <convergence_achieved>true</convergence_achieved>\n        <n_opt_steps>3</n_opt_steps>\n        <grad_norm>5.793818665696394E-007</grad_norm>\n      </opt_conv>\n      ",
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    },
+    {
+      "job_id": "p3_fallback_final_final_cut75",
+      "path": "artifacts\\phase3\\qe\\p3_fallback_final_final_cut75\\result.json",
+      "result_sha256": "df12185c1544f9bee5fa0fbff510109c4d03c21d4d56a80fd42942e0168a81a9",
+      "elapsed_wall_seconds": 104.02971249999973,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 8,
+        "ecutwfc_Ry": 75.0,
+        "ecutrho_Ry": 600.0,
+        "k_mesh": [
+          5,
+          5,
+          5
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 300,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_fallback_final_final_cut75",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 16,
+      "peak_working_set_bytes_observed": 395890688,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_fallback_final_final_cut75\\scratch\\p3_fallback_final_final_cut75.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -302.15417222,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          14
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 125,
+        "n_atoms": 8,
+        "formula": "MgO",
+        "total_energy_Hartree": -151.07708610819,
+        "total_energy_Ry": -302.15417221638,
+        "total_energy_eV": -4111.016943008346,
+        "energy_eV_per_atom": -513.8771178760433,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_fallback_final_final_cut75\\final_geometry.json",
+        "final_volume_angstrom3": 76.72024424013705,
+        "forces_eV_per_angstrom": [
+          [
+            -2.36408045098263e-06,
+            -7.574998300598942e-06,
+            6.498936324478225e-06
+          ],
+          [
+            -4.360987757261717e-06,
+            3.85137726990783e-06,
+            -7.102411158460088e-07
+          ],
+          [
+            6.965039351146352e-06,
+            4.889065198517874e-06,
+            -5.760572237024195e-06
+          ],
+          [
+            -1.5408201521826076e-06,
+            -1.168980290878308e-06,
+            1.8575443760520165e-06
+          ],
+          [
+            5.638225590307349e-07,
+            -4.5582902948506575e-08,
+            1.5110239843838486e-06
+          ],
+          [
+            5.869870324145558e-07,
+            8.713507506360916e-07,
+            -2.306078908799402e-06
+          ],
+          [
+            -4.409539445433736e-07,
+            -6.221548347853005e-07,
+            -1.6655850690944297e-06
+          ],
+          [
+            5.909933623786868e-07,
+            -2.0007688985073974e-07,
+            5.749726458499466e-07
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 1.0276133717325295e-05,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -1.3971531356641291,
+            7.089407134323808e-05,
+            -0.00016901317238693093
+          ],
+          [
+            7.089407134323808e-05,
+            -1.3974115507325375,
+            -8.348903048139334e-05
+          ],
+          [
+            -0.00016901317238693093,
+            -8.348903048139334e-05,
+            -1.397657589615745
+          ]
+        ],
+        "pressure_kbar": -1.3974074253374706,
+        "max_absolute_residual_stress_component_kbar": 1.397657589615745,
+        "scf_error_Ry": 5.59377260323817e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_fallback_final_final_k045",
+      "path": "artifacts\\phase3\\qe\\p3_fallback_final_final_k045\\result.json",
+      "result_sha256": "9bd65eb30ffff94b702b1ba6d7fc4919ae8c7888b68357f1c2f2892016344f25",
+      "elapsed_wall_seconds": 75.46850239999912,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 8,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          4,
+          4,
+          4
+        ],
+        "k_spacing_start_inv_angstrom": 0.45,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 300,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_fallback_final_final_k045",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 375267328,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_fallback_final_final_k045\\scratch\\p3_fallback_final_final_k045.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -302.15470007,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          15
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 64,
+        "n_atoms": 8,
+        "formula": "MgO",
+        "total_energy_Hartree": -151.0773500327847,
+        "total_energy_Ry": -302.1547000655694,
+        "total_energy_eV": -4111.024124762432,
+        "energy_eV_per_atom": -513.878015595304,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_fallback_final_final_k045\\final_geometry.json",
+        "final_volume_angstrom3": 76.72024424013705,
+        "forces_eV_per_angstrom": [
+          [
+            -4.0992240740103105e-06,
+            -5.109703768715783e-06,
+            3.100909394226491e-05
+          ],
+          [
+            -1.085597836168499e-05,
+            1.6581018865104055e-05,
+            -1.8557568675062253e-05
+          ],
+          [
+            5.150398742561955e-06,
+            -1.1277049128987475e-05,
+            -1.641820920661979e-05
+          ],
+          [
+            7.232305935481483e-06,
+            -1.9361559980318167e-06,
+            -1.9326496013385817e-06
+          ],
+          [
+            5.104110848451643e-07,
+            -1.8352734675691434e-07,
+            2.8136727718557047e-06
+          ],
+          [
+            1.705274239234257e-06,
+            2.2109210712763794e-06,
+            -6.174941584956864e-07
+          ],
+          [
+            -2.1033483441262946e-06,
+            6.455639881210785e-07,
+            2.718142143228246e-06
+          ],
+          [
+            2.4601607776987354e-06,
+            -9.310676820095295e-07,
+            9.85012784167446e-07
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 3.169347910427608e-05,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.09532362294923885,
+            -4.1878540715517555e-05,
+            -0.0001095673069937652
+          ],
+          [
+            -4.1878540715517555e-05,
+            -0.09633374847950944,
+            0.00010133231144915696
+          ],
+          [
+            -0.0001095673069937652,
+            0.00010133231144915696,
+            -0.09618362068335502
+          ]
+        ],
+        "pressure_kbar": -0.0959469973707011,
+        "max_absolute_residual_stress_component_kbar": 0.09633374847950944,
+        "scf_error_Ry": 2.652372597022926e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    },
+    {
+      "job_id": "p3_mgo_cut60",
+      "path": "artifacts\\phase3\\qe\\p3_mgo_cut60\\result.json",
+      "result_sha256": "5df068d0f877971cabd816a3fd30cfeda9d75b4c6be8f88fccefcdb73cfd7108",
+      "elapsed_wall_seconds": 8.8429810000016,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 60.0,
+        "ecutrho_Ry": 480.0,
+        "k_mesh": [
+          5,
+          5,
+          5
+        ],
+        "k_spacing_start_inv_angstrom": 0.6,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 150,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_mgo_cut60",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "922a4f3ce320ab7f5147d75097cfa3390be30707e5a1d2d0ff0b46586a394221"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 75755520,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_cut60\\scratch\\p3_mgo_cut60.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53750987,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          17
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 125,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76875493354686,
+        "total_energy_Ry": -75.53750986709372,
+        "total_energy_eV": -1027.7401785268084,
+        "energy_eV_per_atom": -513.8700892634042,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_cut60\\final_geometry.json",
+        "final_volume_angstrom3": 19.17749682959252,
+        "forces_eV_per_angstrom": [
+          [
+            7.609780696252304e-08,
+            -2.189260805263843e-06,
+            3.46380121038384e-07
+          ],
+          [
+            -7.609780696252299e-08,
+            2.1892608052638423e-06,
+            -3.4638012103838406e-07
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 2.2177991202855953e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -3.054884259775742,
+            0.00048160113625715526,
+            0.0002114029799643227
+          ],
+          [
+            0.00048160113625715526,
+            -3.0553508893872845,
+            0.0001769869182271809
+          ],
+          [
+            0.0002114029799643227,
+            0.0001769869182271809,
+            -3.0551703086243456
+          ]
+        ],
+        "pressure_kbar": -3.0551351525957906,
+        "max_absolute_residual_stress_component_kbar": 3.0553508893872845,
+        "scf_error_Ry": 9.66986724541474e-10,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_mgo_cut75",
+      "path": "artifacts\\phase3\\qe\\p3_mgo_cut75\\result.json",
+      "result_sha256": "1f260ca7c1f010a32d45fb83ce9b270637894f7cf011ebd4f73323bddb381e79",
+      "elapsed_wall_seconds": 9.841788699999597,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 75.0,
+        "ecutrho_Ry": 600.0,
+        "k_mesh": [
+          5,
+          5,
+          5
+        ],
+        "k_spacing_start_inv_angstrom": 0.6,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 150,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_mgo_cut75",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "922a4f3ce320ab7f5147d75097cfa3390be30707e5a1d2d0ff0b46586a394221"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 89526272,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_cut75\\scratch\\p3_mgo_cut75.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53838868,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          15
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 125,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76919434186404,
+        "total_energy_Ry": -75.53838868372809,
+        "total_energy_eV": -1027.752135436247,
+        "energy_eV_per_atom": -513.8760677181235,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_cut75\\final_geometry.json",
+        "final_volume_angstrom3": 19.17749682959252,
+        "forces_eV_per_angstrom": [
+          [
+            1.991090858178632e-06,
+            -5.535152724969952e-06,
+            -8.273965410406841e-07
+          ],
+          [
+            -1.991090858178632e-06,
+            5.535152724969952e-06,
+            8.273965410406841e-07
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 5.940281435284939e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.9844093382522031,
+            -0.00039488805189895814,
+            -0.0003489820254214345
+          ],
+          [
+            -0.00039488805189895814,
+            -0.9838455329094378,
+            -0.0006691338016634324
+          ],
+          [
+            -0.0003489820254214345,
+            -0.0006691338016634324,
+            -0.98545690941524
+          ]
+        ],
+        "pressure_kbar": -0.984570593525627,
+        "max_absolute_residual_stress_component_kbar": 0.98545690941524,
+        "scf_error_Ry": 8.54120209310684e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_mgo_cut90",
+      "path": "artifacts\\phase3\\qe\\p3_mgo_cut90\\result.json",
+      "result_sha256": "3d7de59d2237032764f828155532a1f427d80daa4d74705d95b88830ebc47436",
+      "elapsed_wall_seconds": 46.84017280000262,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          8,
+          8,
+          8
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 150,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_mgo_cut90",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "922a4f3ce320ab7f5147d75097cfa3390be30707e5a1d2d0ff0b46586a394221"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 178761728,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_cut90\\scratch\\p3_mgo_cut90.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53867918,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          15
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 512,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76933958903921,
+        "total_energy_Ry": -75.53867917807843,
+        "total_energy_eV": -1027.7560878132317,
+        "energy_eV_per_atom": -513.8780439066159,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_cut90\\final_geometry.json",
+        "final_volume_angstrom3": 19.17749682959252,
+        "forces_eV_per_angstrom": [
+          [
+            5.038052128348297e-06,
+            -4.680080017569937e-07,
+            -2.4377263568615404e-06
+          ],
+          [
+            -5.038052128348297e-06,
+            4.680080017569938e-07,
+            2.4377263568615404e-06
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 5.616360968509842e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            0.711911685566291,
+            0.0021241741892433228,
+            -0.0003072211008232834
+          ],
+          [
+            0.0021241741892433228,
+            0.7106766149509238,
+            -0.0013856922451142427
+          ],
+          [
+            -0.0003072211008232834,
+            -0.0013856922451142427,
+            0.7098433187488509
+          ]
+        ],
+        "pressure_kbar": 0.7108105397553551,
+        "max_absolute_residual_stress_component_kbar": 0.711911685566291,
+        "scf_error_Ry": 9.266813507822743e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_mgo_final_final_cut75",
+      "path": "artifacts\\phase3\\qe\\p3_mgo_final_final_cut75\\result.json",
+      "result_sha256": "7e73a58b8c183334fbed30be4fe83e95c827db5f89a97fa55d71a3bcd658b3e8",
+      "elapsed_wall_seconds": 37.64301179999893,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 75.0,
+        "ecutrho_Ry": 600.0,
+        "k_mesh": [
+          8,
+          8,
+          8
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 150,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_mgo_final_final_cut75",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 2,
+      "peak_working_set_bytes_observed": 162934784,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_final_final_cut75\\scratch\\p3_mgo_final_final_cut75.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53854191,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          18
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 512,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76927095569035,
+        "total_energy_Ry": -75.5385419113807,
+        "total_energy_eV": -1027.7542202046664,
+        "energy_eV_per_atom": -513.8771101023332,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_final_final_cut75\\final_geometry.json",
+        "final_volume_angstrom3": 19.184447586076466,
+        "forces_eV_per_angstrom": [
+          [
+            -9.801733624836439e-08,
+            2.1108334726173676e-06,
+            1.8453866579696803e-06
+          ],
+          [
+            9.801733624836402e-08,
+            -2.1108334726173676e-06,
+            -1.8453866579696803e-06
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 2.8054727346277358e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -1.7809483600019618,
+            -0.0013587745267548228,
+            0.00029071745689864643
+          ],
+          [
+            -0.0013587745267548228,
+            -1.7798452705606422,
+            0.0004503188125654544
+          ],
+          [
+            0.00029071745689864643,
+            0.0004503188125654544,
+            -1.779610268403329
+          ]
+        ],
+        "pressure_kbar": -1.7801346329886443,
+        "max_absolute_residual_stress_component_kbar": 1.7809483600019618,
+        "scf_error_Ry": 1.2512357535062397e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_mgo_final_final_k045",
+      "path": "artifacts\\phase3\\qe\\p3_mgo_final_final_k045\\result.json",
+      "result_sha256": "84954ffd82861711f2ee28ad28523848f4b47fe71f54822d870969d8a70b767b",
+      "elapsed_wall_seconds": 20.603471500002343,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          6,
+          6,
+          6
+        ],
+        "k_spacing_start_inv_angstrom": 0.45,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 150,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_mgo_final_final_k045",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 122875904,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_final_final_k045\\scratch\\p3_mgo_final_final_k045.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53865105,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          16
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 216,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76932552565206,
+        "total_energy_Ry": -75.53865105130411,
+        "total_energy_eV": -1027.7557051289718,
+        "energy_eV_per_atom": -513.8778525644859,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_final_final_k045\\final_geometry.json",
+        "final_volume_angstrom3": 19.184447586076466,
+        "forces_eV_per_angstrom": [
+          [
+            3.905267759990683e-07,
+            -3.0745049788980616e-06,
+            1.378419635283233e-06
+          ],
+          [
+            -3.9052677599906847e-07,
+            3.0745049788980616e-06,
+            -1.378419635283233e-06
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 3.391921685265678e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.3667924507376056,
+            -0.0010396521232909235,
+            0.0006003626683643359
+          ],
+          [
+            -0.0010396521232909235,
+            -0.36575309083678914,
+            0.00036066384784304523
+          ],
+          [
+            0.0006003626683643359,
+            0.00036066384784304523,
+            -0.36622100977058886
+          ]
+        ],
+        "pressure_kbar": -0.36625551711499454,
+        "max_absolute_residual_stress_component_kbar": 0.3667924507376056,
+        "scf_error_Ry": 1.3767735669020424e-10,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    },
+    {
+      "job_id": "p3_mgo_k035",
+      "path": "artifacts\\phase3\\qe\\p3_mgo_k035\\result.json",
+      "result_sha256": "73d5cc1724ecaa92eada2bb5b2a6cb9b604009a701750feb4d24beaf3b6e93ad",
+      "elapsed_wall_seconds": 36.76956799999971,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 75.0,
+        "ecutrho_Ry": 600.0,
+        "k_mesh": [
+          8,
+          8,
+          8
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 150,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_mgo_k035",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "922a4f3ce320ab7f5147d75097cfa3390be30707e5a1d2d0ff0b46586a394221"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 157392896,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_k035\\scratch\\p3_mgo_k035.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53854221,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          17
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 512,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76927110725883,
+        "total_energy_Ry": -75.53854221451766,
+        "total_energy_eV": -1027.754224329055,
+        "energy_eV_per_atom": -513.8771121645275,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_k035\\final_geometry.json",
+        "final_volume_angstrom3": 19.17749682959252,
+        "forces_eV_per_angstrom": [
+          [
+            -7.547657195063547e-06,
+            2.5028943445706207e-06,
+            1.0410336679762542e-05
+          ],
+          [
+            7.547657195063547e-06,
+            -2.5028943445706207e-06,
+            -1.0410336679762542e-05
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 1.3099874771168138e-05,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -1.3487384452653939,
+            1.5936882916959865e-05,
+            0.001692534573128888
+          ],
+          [
+            1.5936882916959865e-05,
+            -1.348885342870705,
+            0.0016093401741061227
+          ],
+          [
+            0.001692534573128888,
+            0.0016093401741061227,
+            -1.3485586711410635
+          ]
+        ],
+        "pressure_kbar": -1.3487274864257206,
+        "max_absolute_residual_stress_component_kbar": 1.348885342870705,
+        "scf_error_Ry": 5.241546536665494e-10,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_mgo_k045",
+      "path": "artifacts\\phase3\\qe\\p3_mgo_k045\\result.json",
+      "result_sha256": "9002ace0c9eb1d345defa8492aa9d9efa2fdfd5783c3d9dd7edae2b1edb4ac1b",
+      "elapsed_wall_seconds": 16.872520500000974,
+      "role": "sensitivity",
+      "settings": {
+        "calculation": "scf",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 75.0,
+        "ecutrho_Ry": 600.0,
+        "k_mesh": [
+          6,
+          6,
+          6
+        ],
+        "k_spacing_start_inv_angstrom": 0.45,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 150,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_mgo_k045",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "922a4f3ce320ab7f5147d75097cfa3390be30707e5a1d2d0ff0b46586a394221"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 104181760,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_k045\\scratch\\p3_mgo_k045.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "scf",
+        "geometry_relaxation_required": false,
+        "scf_converged": true,
+        "ionic_converged": false,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.5385132,
+        "completed_scf_calls": 1,
+        "scf_iterations_per_call": [
+          17
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 216,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76925660076613,
+        "total_energy_Ry": -75.53851320153225,
+        "total_energy_eV": -1027.753829587279,
+        "energy_eV_per_atom": -513.8769147936395,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_k045\\final_geometry.json",
+        "final_volume_angstrom3": 19.17749682959252,
+        "forces_eV_per_angstrom": [
+          [
+            1.4247372851235158e-06,
+            1.4366801307002198e-06,
+            -7.668295985147353e-07
+          ],
+          [
+            -1.4247372851235158e-06,
+            -1.4366801307002198e-06,
+            7.668295985147358e-07
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 2.1637822817298874e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -1.7331441892709774,
+            6.147111609225012e-05,
+            6.232450339189148e-05
+          ],
+          [
+            6.147111609225012e-05,
+            -1.7329334415234052,
+            0.00026756394807947063
+          ],
+          [
+            6.232450339189148e-05,
+            0.00026756394807947063,
+            -1.732993234352376
+          ]
+        ],
+        "pressure_kbar": -1.733023621715586,
+        "max_absolute_residual_stress_component_kbar": 1.7331441892709774,
+        "scf_error_Ry": 6.403724050653966e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": null,
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_ref_cao_base",
+      "path": "artifacts\\phase3\\qe\\p3_ref_cao_base\\result.json",
+      "result_sha256": "047fcb59efd4ac7c5bd41218f00f45e77c92889d0eca14b670aedaaa7e839efd",
+      "elapsed_wall_seconds": 26.539706899999146,
+      "role": "reference",
+      "settings": {
+        "calculation": "vc-relax",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 50.0,
+        "ecutrho_Ry": 400.0,
+        "k_mesh": [
+          4,
+          4,
+          4
+        ],
+        "k_spacing_start_inv_angstrom": 0.6,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 900,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_ref_cao_base",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "d69386006b824a981a9cbc5df7b857a8e5c8cc064ef8efe9685b161d90d355cf"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 0,
+      "peak_working_set_bytes_observed": 160833536,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_cao_base\\scratch\\p3_ref_cao_base.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "vc-relax",
+        "geometry_relaxation_required": true,
+        "scf_converged": true,
+        "ionic_converged": true,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -116.88169723,
+        "completed_scf_calls": 4,
+        "scf_iterations_per_call": [
+          11,
+          6,
+          7,
+          13
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 64,
+        "n_atoms": 2,
+        "formula": "CaO",
+        "total_energy_Hartree": -58.44084861678438,
+        "total_energy_Ry": -116.88169723356876,
+        "total_energy_eV": -1590.2565042546332,
+        "energy_eV_per_atom": -795.1282521273166,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_cao_base\\final_geometry.json",
+        "final_volume_angstrom3": 28.18431098614576,
+        "forces_eV_per_angstrom": [
+          [
+            5.126957926762629e-05,
+            7.419415174826589e-06,
+            -4.101961625641323e-05
+          ],
+          [
+            -5.126957926762629e-05,
+            -7.419415174826589e-06,
+            4.101961625641323e-05
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 6.607742729283021e-05,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.007632737695478505,
+            0.0003996281894380653,
+            8.534354279139372e-06
+          ],
+          [
+            0.0003996281894380653,
+            -0.007065725122550959,
+            -2.0609716420902476e-05
+          ],
+          [
+            8.534354279139372e-06,
+            -2.0609716420902476e-05,
+            -0.007463000129924767
+          ]
+        ],
+        "pressure_kbar": -0.007387154315984744,
+        "max_absolute_residual_stress_component_kbar": 0.007632737695478505,
+        "scf_error_Ry": 4.519469852790342e-11,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": "<opt_conv>\n        <convergence_achieved>true</convergence_achieved>\n        <n_opt_steps>2</n_opt_steps>\n        <grad_norm>3.634532737808131E-006</grad_norm>\n      </opt_conv>\n      ",
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    },
+    {
+      "job_id": "p3_ref_mgo_90_k035",
+      "path": "artifacts\\phase3\\qe\\p3_ref_mgo_90_k035\\result.json",
+      "result_sha256": "8bbb7cd479364b701289c52cce7f4c45d26ab27958eb2f107f24fbcbe1d5762d",
+      "elapsed_wall_seconds": 119.4094408000019,
+      "role": "reference",
+      "settings": {
+        "calculation": "vc-relax",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          8,
+          8,
+          8
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 300,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_ref_mgo_90_k035",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "922a4f3ce320ab7f5147d75097cfa3390be30707e5a1d2d0ff0b46586a394221"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 44,
+      "peak_working_set_bytes_observed": 247709696,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_mgo_90_k035\\scratch\\p3_ref_mgo_90_k035.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "vc-relax",
+        "geometry_relaxation_required": true,
+        "scf_converged": true,
+        "ionic_converged": true,
+        "force_norm_pass": true,
+        "full_stress_pass": false,
+        "pressure_pass": false,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53867919,
+        "completed_scf_calls": 3,
+        "scf_iterations_per_call": [
+          15,
+          2,
+          22
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 512,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76933959540544,
+        "total_energy_Ry": -75.53867919081088,
+        "total_energy_eV": -1027.7560879864654,
+        "energy_eV_per_atom": -513.8780439932327,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_mgo_90_k035\\final_geometry.json",
+        "final_volume_angstrom3": 19.184447586077994,
+        "forces_eV_per_angstrom": [
+          [
+            -8.392790632530129e-07,
+            -1.4523327685939591e-06,
+            1.6509452101482346e-06
+          ],
+          [
+            8.392790632530129e-07,
+            1.4523327685939591e-06,
+            -1.6509452101482346e-06
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 2.353567484407033e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.7332168072415152,
+            -0.0012233139527212356,
+            0.0001412957141552614
+          ],
+          [
+            -0.0012233139527212356,
+            -0.7331396914382615,
+            0.0008150049411740904
+          ],
+          [
+            0.0001412957141552614,
+            0.0008150049411740904,
+            -0.7325936620098871
+          ]
+        ],
+        "pressure_kbar": -0.7329833868965546,
+        "max_absolute_residual_stress_component_kbar": 0.7332168072415152,
+        "scf_error_Ry": 6.648016924992884e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": "<opt_conv>\n        <convergence_achieved>true</convergence_achieved>\n        <n_opt_steps>1</n_opt_steps>\n        <grad_norm>1.294559794952286E-007</grad_norm>\n      </opt_conv>\n      ",
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": false
+      }
+    },
+    {
+      "job_id": "p3_ref_mgo_90_k035_cont1",
+      "path": "artifacts\\phase3\\qe\\p3_ref_mgo_90_k035_cont1\\result.json",
+      "result_sha256": "2b613f7d9dc7b12b574c4eeb20b68617915cf0d211a3d11834cf78b17b903872",
+      "elapsed_wall_seconds": 104.92603579999923,
+      "role": "reference",
+      "settings": {
+        "calculation": "vc-relax",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 90.0,
+        "ecutrho_Ry": 720.0,
+        "k_mesh": [
+          8,
+          8,
+          8
+        ],
+        "k_spacing_start_inv_angstrom": 0.35,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.1,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 300,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_ref_mgo_90_k035_cont1",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "a4b337370278d22fa49af774101630d854e35f89afb5b478e853522541f6de82"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 37,
+      "peak_working_set_bytes_observed": 237158400,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_mgo_90_k035_cont1\\scratch\\p3_ref_mgo_90_k035_cont1.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "vc-relax",
+        "geometry_relaxation_required": true,
+        "scf_converged": true,
+        "ionic_converged": true,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53867919,
+        "completed_scf_calls": 2,
+        "scf_iterations_per_call": [
+          17,
+          19
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 512,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76933959379658,
+        "total_energy_Ry": -75.53867918759316,
+        "total_energy_eV": -1027.7560879426862,
+        "energy_eV_per_atom": -513.8780439713431,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_mgo_90_k035_cont1\\final_geometry.json",
+        "final_volume_angstrom3": 19.184447586076466,
+        "forces_eV_per_angstrom": [
+          [
+            -2.6392473690990993e-06,
+            9.33302591616318e-07,
+            2.2516288604596016e-06
+          ],
+          [
+            2.6392473690990993e-06,
+            -9.333025916163175e-07,
+            -2.2516288604596016e-06
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 3.5925635593638224e-06,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            -0.037024527701725894,
+            -0.0013364503411353226,
+            9.432838152201424e-05
+          ],
+          [
+            -0.0013364503411353226,
+            -0.03622359145643021,
+            0.0007582152306655448
+          ],
+          [
+            9.432838152201424e-05,
+            0.0007582152306655448,
+            -0.03585551379047713
+          ]
+        ],
+        "pressure_kbar": -0.03636787764954441,
+        "max_absolute_residual_stress_component_kbar": 0.037024527701725894,
+        "scf_error_Ry": 5.379165687843674e-09,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": "<opt_conv>\n        <convergence_achieved>true</convergence_achieved>\n        <n_opt_steps>0</n_opt_steps>\n        <grad_norm>1.976059057399335E-007</grad_norm>\n      </opt_conv>\n      ",
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    },
+    {
+      "job_id": "p3_ref_mgo_base",
+      "path": "artifacts\\phase3\\qe\\p3_ref_mgo_base\\result.json",
+      "result_sha256": "2569feb3f0176e79929543f446f66c88621685fba039b55a6dc5bbf16a8ae2c9",
+      "elapsed_wall_seconds": 26.938982299998315,
+      "role": "reference",
+      "settings": {
+        "calculation": "vc-relax",
+        "input_dft": "PBE",
+        "nat": 2,
+        "ecutwfc_Ry": 50.0,
+        "ecutrho_Ry": 400.0,
+        "k_mesh": [
+          5,
+          5,
+          5
+        ],
+        "k_spacing_start_inv_angstrom": 0.6,
+        "conv_thr_Ry": 1e-08,
+        "forc_conv_thr_Ry_per_Bohr": 0.0008,
+        "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+        "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+        "etot_conv_thr_Ry": 1e-05,
+        "press_conv_thr_kbar": 0.5,
+        "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+        "final_max_absolute_residual_stress_component_kbar": 0.5,
+        "scf_must_converge": true,
+        "electron_maxstep": 100,
+        "nstep": 80,
+        "nosym": true,
+        "noinv": true,
+        "nspin": 1,
+        "tot_magnetization_muB": null,
+        "occupations": "fixed",
+        "smearing": null,
+        "degauss_Ry": null,
+        "vacuum_box_angstrom": null,
+        "max_seconds": 900,
+        "spin_review_required_before_reference_acceptance": false,
+        "production_ready": false,
+        "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+        "prefix": "p3_ref_mgo_base",
+        "molecular_oxygen": false,
+        "source_geometry_sha256": "f87176310a5b187b630edac1d943f052fb55d22663bf06adaf794b45ddf4b86a"
+      },
+      "timed_out": false,
+      "return_code": 0,
+      "c_bands_warning_count": 9,
+      "peak_working_set_bytes_observed": 100306944,
+      "result": {
+        "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_mgo_base\\scratch\\p3_ref_mgo_base.save\\data-file-schema.xml",
+        "xml_present": true,
+        "return_code": 0,
+        "timed_out": false,
+        "job_done": true,
+        "calculation": "vc-relax",
+        "geometry_relaxation_required": true,
+        "scf_converged": true,
+        "ionic_converged": true,
+        "force_norm_pass": true,
+        "full_stress_pass": true,
+        "pressure_pass": true,
+        "production_numerical_convergence_established": false,
+        "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+        "stdout_last_total_energy_Ry": -75.53710726,
+        "completed_scf_calls": 5,
+        "scf_iterations_per_call": [
+          20,
+          5,
+          7,
+          4,
+          28
+        ],
+        "reported_MPI_processes": 1,
+        "reported_threads_per_MPI_process": 4,
+        "reported_k_points": 125,
+        "n_atoms": 2,
+        "formula": "MgO",
+        "total_energy_Hartree": -37.76855362909336,
+        "total_energy_Ry": -75.53710725818672,
+        "total_energy_eV": -1027.7347007535711,
+        "energy_eV_per_atom": -513.8673503767856,
+        "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_ref_mgo_base\\final_geometry.json",
+        "final_volume_angstrom3": 19.177496829589014,
+        "forces_eV_per_angstrom": [
+          [
+            1.0744025601363289e-07,
+            1.0495015624681637e-07,
+            -1.034395791237189e-07
+          ],
+          [
+            -1.0744025601363289e-07,
+            -1.0495015624681637e-07,
+            1.034395791237189e-07
+          ]
+        ],
+        "max_force_vector_norm_eV_per_angstrom": 1.823669115760813e-07,
+        "stress_tensor_kbar_QE_convention": [
+          [
+            0.031726615938109666,
+            -2.703479083098551e-05,
+            2.378050702319884e-05
+          ],
+          [
+            -2.703479083098551e-05,
+            0.03176442151583689,
+            -1.7207382986902883e-05
+          ],
+          [
+            2.378050702319884e-05,
+            -1.7207382986902883e-05,
+            0.03163385957399799
+          ]
+        ],
+        "pressure_kbar": 0.03170829900931484,
+        "max_absolute_residual_stress_component_kbar": 0.03176442151583689,
+        "scf_error_Ry": 2.584638105077402e-11,
+        "electronic_residual_pass": true,
+        "raw_opt_convergence_xml": "<opt_conv>\n        <convergence_achieved>true</convergence_achieved>\n        <n_opt_steps>3</n_opt_steps>\n        <grad_norm>1.003093700181254E-008</grad_norm>\n      </opt_conv>\n      ",
+        "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+        "XML_stdout_energy_match": true,
+        "parser_errors": [],
+        "job_scf_accepted": true,
+        "job_stationary_at_this_setting": true
+      }
+    }
+  ]
+}

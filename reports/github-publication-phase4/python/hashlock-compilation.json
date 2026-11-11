@@ -1,0 +1,20 @@
+[
+  {
+    "name": "analysis-historical",
+    "exit_code": 0,
+    "output": "D:\\bears\\requirements\\phase4\\analysis-historical-lock.txt",
+    "bytes": 96300
+  },
+  {
+    "name": "analysis-maintenance-cpu",
+    "exit_code": 0,
+    "output": "D:\\bears\\requirements\\phase4\\analysis-maintenance-cpu-lock.txt",
+    "bytes": 96486
+  },
+  {
+    "name": "generator-historical",
+    "exit_code": 0,
+    "output": "D:\\bears\\requirements\\phase4\\generator-historical-lock.txt",
+    "bytes": 105446
+  }
+]

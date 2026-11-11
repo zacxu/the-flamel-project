@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MgO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25554923
+_cell_length_b   4.24944682
+_cell_length_c   4.25443884
+_cell_angle_alpha   89.75122241
+_cell_angle_beta   90.26465864
+_cell_angle_gamma   90.16470010
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgO
+_chemical_formula_sum   'Mg4 O4'
+_cell_volume   76.93426454
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.99967003  0.99823017  0.99849148  1
+  O  O1  1  0.00041152  0.50196037  0.49875816  1
+  O  O2  1  0.49805120  0.99869925  0.50022561  1
+  O  O3  1  0.49968407  0.49767674  0.00021806  1
+  Mg  Mg4  1  0.50063355  0.49862834  0.50180924  1
+  Mg  Mg5  1  0.49979111  0.00234312  0.99995404  1
+  Mg  Mg6  1  0.00215356  0.50090732  0.99973253  1
+  Mg  Mg7  1  0.00166706  0.00083193  0.49856825  1

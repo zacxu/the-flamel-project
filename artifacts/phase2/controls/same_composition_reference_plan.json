@@ -1,0 +1,41 @@
+{
+  "maximum_attempts": 4,
+  "missing_or_oversize_reference": "No replacement selected from energies; slot remains unused unless separately predeclared.",
+  "references": [
+    {
+      "eligible_at_most_20_atoms": true,
+      "formula": "MgO",
+      "material_id": "mp-1265",
+      "minimum_catalog_conventional_sites": 8,
+      "phase": "rocksalt",
+      "reference_cif": "artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "spacegroup": 225
+    },
+    {
+      "eligible_at_most_20_atoms": true,
+      "formula": "TiO2",
+      "material_id": "mp-2657",
+      "minimum_catalog_conventional_sites": 6,
+      "phase": "rutile",
+      "reference_cif": "artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "spacegroup": 136
+    },
+    {
+      "eligible_at_most_20_atoms": true,
+      "formula": "TiO2",
+      "material_id": "mp-390",
+      "minimum_catalog_conventional_sites": 12,
+      "phase": "anatase",
+      "reference_cif": "artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "spacegroup": 141
+    },
+    {
+      "eligible_at_most_20_atoms": false,
+      "formula": "TiO2",
+      "material_id": null,
+      "minimum_catalog_conventional_sites": 24,
+      "phase": "brookite",
+      "spacegroup": 61
+    }
+  ]
+}

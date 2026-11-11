@@ -1,0 +1,41 @@
+HTTP/1.1 302 Found
+Date: Wed, 21 Oct 2026 16:50:39 GMT
+Content-Type: application/octet-stream
+Content-Length: 0
+Connection: keep-alive
+Server: nginx
+X-Storage-File: 40344436/20230207mpcomputedstructureentries.json.gz
+Location: https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/40344436/20230207mpcomputedstructureentries.json.gz [SIGNED QUERY REMOVED]
+X-Filename: 40344436/20230207mpcomputedstructureentries.json.gz
+X-Storage-Host: s3-eu-west-1.amazonaws.com
+X-Storage-Bucket: pfigshare-u-files
+X-Storage-Protocol: https
+Content-Disposition: attachment;filename=2023-02-07-mp-computed-structure-entries.json.gz
+Cache-Control: no-cache, no-store
+Set-Cookie: [REMOVED: original header retained privately]
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains;
+Cache-Control: public, must-revalidate, proxy-revalidate
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,Range
+Access-Control-Expose-Headers: Location,Accept-Ranges,Content-Encoding,Content-Length,Content-Range
+
+HTTP/1.1 200 OK
+x-amz-request-id: CAGT49TDGYZ2P5QV
+x-amz-id-2: ip/DaYtruq2dvEqP1MWQwpk1NiUaN6XySXx7eTahRYPJ7Qa0sf0V6ecvhf8e4iepc84aK7K9d2n01+kKTtUxybjtAsOBVJtV
+Content-Length: 179351659
+Accept-Ranges: bytes
+Date: Wed, 21 Oct 2026 16:50:40 GMT
+Server: AmazonS3
+Last-Modified: Fri, 28 Apr 2023 03:15:09 GMT
+ETag: "76fc748db6b175bb80de4c276d27c235"
+x-amz-version-id: qOx68wPkBX6ENKtZmVlH3oq5mZOBTzcd
+Content-Type: application/gzip
+Content-Disposition: attachment; filename="2023-02-07-mp-computed-structure-entries.json.gz"
+x-amz-server-side-encryption: AES256
+x-amz-storage-class: INTELLIGENT_TIERING
+x-amz-replication-status: COMPLETED
+x-amz-tagging-count: 1
+

@@ -1,0 +1,92 @@
+{
+  "labels_eV_atom": [
+    0.040171,
+    0.314431,
+    0.363671,
+    0.87737,
+    1.219585,
+    0.82977,
+    0.821419,
+    0.484477,
+    0.635697,
+    0.965356
+  ],
+  "material_ids": [
+    "wbm-1-38570",
+    "wbm-1-38598",
+    "wbm-1-38561",
+    "wbm-1-37876",
+    "wbm-2-37536",
+    "wbm-1-44766",
+    "wbm-1-39138",
+    "wbm-1-38459",
+    "wbm-3-57399",
+    "wbm-3-50422"
+  ],
+  "policy": "uncertainty",
+  "prior_decision_sha256": "5ca16e94f545ba88d8fa30ff085bd3bd18a9da25a9d8a667ed282c7ce9b93fc9",
+  "records": [
+    {
+      "label_eV_atom": 0.040171,
+      "material_id": "wbm-1-38570",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.314431,
+      "material_id": "wbm-1-38598",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.363671,
+      "material_id": "wbm-1-38561",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.87737,
+      "material_id": "wbm-1-37876",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 1.219585,
+      "material_id": "wbm-2-37536",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.82977,
+      "material_id": "wbm-1-44766",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.821419,
+      "material_id": "wbm-1-39138",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.484477,
+      "material_id": "wbm-1-38459",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.635697,
+      "material_id": "wbm-3-57399",
+      "policy": "uncertainty",
+      "round_index": 2
+    },
+    {
+      "label_eV_atom": 0.965356,
+      "material_id": "wbm-3-50422",
+      "policy": "uncertainty",
+      "round_index": 2
+    }
+  ],
+  "revealed_at_utc": "2026-10-21T17:47:25.032010+00:00",
+  "round_index": 2
+}

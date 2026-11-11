@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-22T01:51:45.243746+00:00",
+  "material_ids_sha256": "adcdbdc895356f9632f1b1a7b065366636cd13fd2162622acc9542bb1c424fd1",
+  "model_training_ids_sha256": "8d8e6393bbe12a8a0bc2436ab0715b65a38db053097f44d4f1f6f5ca2a01001e",
+  "oracle_labels_in_file": false,
+  "path": "artifacts\\phase4\\replay\\seed_20261025\\initial_eval_predictions.npz",
+  "rows": 3418,
+  "sha256": "4c2d60b5e6895f3d3e1202fc43cc4b87740cc85d8ff034b9c923b00247053d33",
+  "stage": "initial_shared"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "saved_and_verified",
+  "submissionUrl": "https://scientificintelligence.org/campaigns/osi-hackathon-2026/submissions/7",
+  "editorUrl": "https://scientificintelligence.org/campaigns/osi-hackathon-2026/submit/16?edit=1",
+  "changedField": "submission-repo",
+  "oldValue": "https://theflamelproject.42web.io/#/",
+  "newValue": "https://theflamelproject.42web.io/refresh",
+  "otherFieldsUnchanged": true,
+  "portalSaveConfirmation": "Saved · live · 3:16 AM",
+  "persistedAfterReload": true,
+  "verification": {
+    "normalClickFromSubmission": true,
+    "target": "_blank",
+    "websiteBuild": "ui-w6-351e6182d7af3a9d062d",
+    "crystalLabAxisPresetWorks": true,
+    "axisCompassVisible": true,
+    "consoleErrors": []
+  },
+  "screenshots": [
+    "SUBMISSION_LINK_FIX_SUBMISSION.jpg",
+    "SUBMISSION_LINK_FIX_WEBSITE.jpg"
+  ]
+}

@@ -1,0 +1,35 @@
+2026-10-21T16:54:46.057517+00:00 extraction started workers=4 dimension=408
+2026-10-21T16:54:52.329277+00:00 source streamed rows=256963 selected=8294
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+2026-10-21T16:54:53.700454+00:00 described=1000/8294 structural_errors=0
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+2026-10-21T16:54:54.113370+00:00 described=2000/8294 structural_errors=0
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+2026-10-21T16:54:54.507148+00:00 described=3000/8294 structural_errors=0
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+2026-10-21T16:54:54.819800+00:00 described=4000/8294 structural_errors=0
+2026-10-21T16:54:55.174002+00:00 described=5000/8294 structural_errors=0
+2026-10-21T16:54:55.620753+00:00 described=6000/8294 structural_errors=0
+2026-10-21T16:54:56.016022+00:00 described=7000/8294 structural_errors=0
+2026-10-21T16:54:56.615482+00:00 described=8000/8294 structural_errors=0
+2026-10-21T16:54:57.150004+00:00 PASSED rows=8294 columns=408 symmetry_fallbacks=0 elapsed=11.093s

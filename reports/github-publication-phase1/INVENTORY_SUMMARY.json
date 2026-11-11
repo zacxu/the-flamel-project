@@ -1,0 +1,92 @@
+{
+  "inventory_sha256": "0a224fb688a3bd99825e5e53dd999ad2c4874c42675b8715a6a05e580b6aa17d",
+  "files": 105551,
+  "directories_including_root": 11077,
+  "empty_directories": 8,
+  "bytes": 19209577902,
+  "by_top_level": {
+    "(root files)": {
+      "files": 9,
+      "bytes": 98298
+    },
+    ".cache": {
+      "files": 33734,
+      "bytes": 5504100189
+    },
+    ".envs": {
+      "files": 44335,
+      "bytes": 5772950186
+    },
+    ".runtime": {
+      "files": 4343,
+      "bytes": 136930126
+    },
+    "__pycache__": {
+      "files": 5,
+      "bytes": 78397
+    },
+    "artifacts": {
+      "files": 7787,
+      "bytes": 5075950093
+    },
+    "checkpoints": {
+      "files": 1,
+      "bytes": 166094129
+    },
+    "config": {
+      "files": 1,
+      "bytes": 12228
+    },
+    "data": {
+      "files": 851,
+      "bytes": 369226756
+    },
+    "reports": {
+      "files": 6,
+      "bytes": 93150
+    },
+    "requirements": {
+      "files": 3,
+      "bytes": 2249
+    },
+    "scripts": {
+      "files": 86,
+      "bytes": 1624222
+    },
+    "vendor": {
+      "files": 310,
+      "bytes": 1511096844
+    },
+    "website": {
+      "files": 14080,
+      "bytes": 671321035
+    }
+  },
+  "provisional_intended_storage": {
+    "checksummed-release-archive-or-pinned-download; phase2-review": {
+      "files": 5061,
+      "bytes": 6965932964
+    },
+    "git-small-evidence-or-release-archive; phase2-review": {
+      "files": 5189,
+      "bytes": 441672925
+    },
+    "git-source-config-documentation-or-small-asset; phase2-review": {
+      "files": 472,
+      "bytes": 25057558
+    },
+    "git-vendored-source-or-pinned-source; phase2-review": {
+      "files": 159,
+      "bytes": 3812894
+    },
+    "private-security-review; original-bytes-retained-in-full-backup": {
+      "files": 1,
+      "bytes": 1053
+    },
+    "recreate-for-git; original-bytes-retained-in-full-backup": {
+      "files": 94669,
+      "bytes": 11773100508
+    }
+  },
+  "phase2_dispositions_finalized": false
+}

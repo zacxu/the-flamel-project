@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "prior_selected_files": 5260,
+  "declared_modified_metadata": [
+    "GITHUB_CICD_PUBLICATION_PLAN.md",
+    "INSTALLATION.md",
+    "README.md",
+    "publication/README.md",
+    "publication/RETRIEVAL.md",
+    "publication/backup-paths.json",
+    "publication/generated-control-paths.json",
+    "publication/git-files.txt",
+    "publication/git-pathspec.nul",
+    "publication/storage-summary.json"
+  ],
+  "all_other_prior_inputs_unchanged": true,
+  "website_source_scientific_inputs_and_historical_locks_unchanged": true
+}

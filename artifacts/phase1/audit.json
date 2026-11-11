@@ -1,0 +1,1944 @@
+{
+  "completed_utc": "2026-10-21T16:42:25.736270+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Full data audit passed",
+      "passed": true
+    },
+    {
+      "check": "File exists: data/wbm/2022-10-19-wbm-init-structs.jsonl.gz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: data/wbm/2022-10-19-wbm-init-structs.jsonl.gz",
+      "passed": true
+    },
+    {
+      "check": "File exists: data/wbm/2023-12-13-wbm-summary.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: data/wbm/2023-12-13-wbm-summary.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "All 256963 initial structures joined",
+      "passed": true
+    },
+    {
+      "check": "Planned oxide population reproduced",
+      "passed": true
+    },
+    {
+      "check": "Eight generation attempts retained; seven valid",
+      "passed": true
+    },
+    {
+      "check": "Generator ledger and CIF audit passed",
+      "passed": true
+    },
+    {
+      "check": "Pinned generator checkpoint hash",
+      "passed": true
+    },
+    {
+      "check": "Unmodified pinned CrystalFormer source",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\.github\\workflows\\tests.yml",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\.github\\workflows\\tests.yml",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\.gitignore",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\.gitignore",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\README.md",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\cli\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\cli\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\cli\\classifier.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\cli\\classifier.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\cli\\cond_gen.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\cli\\cond_gen.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\cli\\dataset.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\cli\\dataset.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\cli\\train_dpo.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\cli\\train_dpo.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\cli\\train_ppo.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\cli\\train_ppo.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\data\\.gitkeep",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\data\\.gitkeep",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\data\\wyckoff_list.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\data\\wyckoff_list.csv",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\data\\wyckoff_symbols.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\data\\wyckoff_symbols.csv",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\extension\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\extension\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\extension\\experimental.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\extension\\experimental.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\extension\\loss.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\extension\\loss.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\extension\\mcmc.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\extension\\mcmc.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\extension\\model.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\extension\\model.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\extension\\train.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\extension\\train.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\extension\\transformer.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\extension\\transformer.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\reinforce\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\reinforce\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\reinforce\\dpo.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\reinforce\\dpo.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\reinforce\\ehull.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\reinforce\\ehull.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\reinforce\\ppo.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\reinforce\\ppo.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\reinforce\\reward.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\reinforce\\reward.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\reinforce\\vanilla.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\reinforce\\vanilla.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\__init__.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\attention.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\attention.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\checkpoint.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\checkpoint.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\elements.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\elements.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\formula.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\formula.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\lattice.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\lattice.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\loss.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\loss.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\mcmc.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\mcmc.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\rope.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\rope.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\sample.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\sample.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\train.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\train.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\transformer.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\transformer.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\utils.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\utils.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\von_mises.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\von_mises.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\crystalformer\\src\\wyckoff.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\crystalformer\\src\\wyckoff.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\data\\atoms.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\data\\atoms.json",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\data\\mini.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\data\\mini.csv",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\imgs\\crystalformer.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\imgs\\crystalformer.png",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\imgs\\csp.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\imgs\\csp.png",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\imgs\\output.gif",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\imgs\\output.gif",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\main.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\main.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\mcp\\.env",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\mcp\\.env",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\mcp\\README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\mcp\\README.md",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\mcp\\csp_mcp.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\mcp\\csp_mcp.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\postprocess.sh",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\postprocess.sh",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\pyproject.toml",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\pyproject.toml",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\run\\config\\bright90.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\run\\config\\bright90.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\run\\config\\pmax.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\run\\config\\pmax.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\run\\submit.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\run\\submit.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\README.md",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\analysis.ipynb",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\analysis.ipynb",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\awl2struct.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\awl2struct.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\check_sun_materials.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\check_sun_materials.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\compute_csp_metrics.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\compute_csp_metrics.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\compute_metrics.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\compute_metrics.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\compute_metrics_matbench.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\compute_metrics_matbench.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\config.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\config.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\e_above_hull.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\e_above_hull.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\e_above_hull_alex.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\e_above_hull_alex.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\element_substition.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\element_substition.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\eval_utils.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\eval_utils.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\inspect_dataset.ipynb",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\inspect_dataset.ipynb",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\mlff_relax.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\mlff_relax.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\mlff_relax_batch.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\mlff_relax_batch.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\plot_embedding.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\plot_embedding.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\predict_g.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\predict_g.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\process_alex.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\process_alex.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\structure_visualization.ipynb",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\structure_visualization.ipynb",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\scripts\\symmetry.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\scripts\\symmetry.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\config.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\config.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_attention.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_attention.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_fc_mask.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_fc_mask.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_formula.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_formula.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_lattice.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_lattice.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_project.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_project.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_sampling.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_sampling.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_transformer.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_transformer.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_utils.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_utils.py",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\CrystalFormer\\tests\\test_wyckoff.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\CrystalFormer\\tests\\test_wyckoff.py",
+      "passed": true
+    },
+    {
+      "check": "Executed generator wrapper preserved",
+      "passed": true
+    },
+    {
+      "check": "Executed generator package lock preserved",
+      "passed": true
+    },
+    {
+      "check": "Four actual CHGNet pilots converged with valid geometry",
+      "passed": true
+    },
+    {
+      "check": "File exists: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "SHA256: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "FIRE convergence: chgnet_pilot_01",
+      "passed": true
+    },
+    {
+      "check": "File exists: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "SHA256: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "FIRE convergence: chgnet_pilot_02",
+      "passed": true
+    },
+    {
+      "check": "File exists: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "SHA256: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "FIRE convergence: chgnet_pilot_03",
+      "passed": true
+    },
+    {
+      "check": "File exists: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "SHA256: .envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "check": "FIRE convergence: chgnet_pilot_04",
+      "passed": true
+    },
+    {
+      "check": "CHGNet actual CUDA relaxation passed",
+      "passed": true
+    },
+    {
+      "check": "Native QE SCF pilot passed",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi.zip",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi.zip",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\abcoeff_to_eps.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\abcoeff_to_eps.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\all_currents.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\all_currents.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\alpha2f.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\alpha2f.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\average.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\average.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bands.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bands.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bands_unfold.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bands_unfold.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bse_main.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\bse_main.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\casino2upf.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\casino2upf.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cell2ibrav.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cell2ibrav.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cp.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cp.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cppp.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\cppp.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\d3hess.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\d3hess.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\disca.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\disca.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dos.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dos.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dos_sp.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dos_sp.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dvscf_q2r.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dvscf_q2r.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dynmat.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\dynmat.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ef.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ef.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epa.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epa.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epsilon.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epsilon.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epsilon_Gaus.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epsilon_Gaus.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epw.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\epw.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ev.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ev.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd_ef.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd_ef.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd_ifc.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fd_ifc.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_int_0.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_int_0.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_int_1.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_int_1.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_proj.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_proj.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_velocity.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fermi_velocity.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fqha.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fqha.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fs.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\fs.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\graph.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\graph.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\gww.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\gww.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\gww_fit.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\gww_fit.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\head.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\head.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\hgh2qe.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\hgh2qe.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\hp.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\hp.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ibrav2cell.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ibrav2cell.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\initial_state.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\initial_state.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcw.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcw.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcwpp_interp.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcwpp_interp.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcwpp_sh.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kcwpp_sh.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kpoints.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\kpoints.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\lambda.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\lambda.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ld1.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ld1.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libifcoremd.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libifcoremd.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libifportmd.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libifportmd.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libiomp5md.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libiomp5md.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libmmd.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\libmmd.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\manycp.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\manycp.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\matdyn.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\matdyn.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\memory_pw4gww.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\memory_pw4gww.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\merge_wann.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\merge_wann.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_avx2.2.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_avx2.2.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_core.2.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_core.2.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_def.2.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_def.2.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_intel_thread.2.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_intel_thread.2.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_mc3.2.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_mc3.2.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_rt.2.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_rt.2.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_vml_avx2.2.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mkl_vml_avx2.2.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\molecularnexafs.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\molecularnexafs.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\molecularpdos.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\molecularpdos.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mpiexec.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\mpiexec.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\msmpi.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\msmpi.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\neb.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\neb.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\nscf2supercond.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\nscf2supercond.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\open_grid.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\open_grid.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\path_interpolation.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\path_interpolation.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pawplot.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pawplot.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ph.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ph.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\phcg.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\phcg.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pioud.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pioud.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plan_avg.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plan_avg.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotband.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotband.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotproj.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotproj.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotrho.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\plotrho.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pmw.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pmw.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\postahc.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\postahc.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\postw90.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\postw90.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp_disca.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp_disca.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp_spctrlfn.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pp_spctrlfn.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ppacf.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ppacf.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pprism.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pprism.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\projwfc.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\projwfc.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2bgw.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2bgw.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2critic.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2critic.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2gt.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2gt.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2gw.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2gw.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2wannier90.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw2wannier90.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw4gww.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw4gww.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pwcond.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pwcond.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pwi2xsf.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pwi2xsf.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\q2qstar.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\q2qstar.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\q2r.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\q2r.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\scan_ibrav.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\scan_ibrav.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple_bse.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple_bse.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple_ip.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\simple_ip.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\smpd.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\smpd.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\spectra_correction.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\spectra_correction.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\sumpdos.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\sumpdos.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\svml_dispmd.dll",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\svml_dispmd.dll",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_davidson.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_davidson.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_eels.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_eels.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_lanczos.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_lanczos.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_magnon.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_magnon.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_spectrum.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\turbo_spectrum.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\upfconv.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\upfconv.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ups.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ups.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\virtual_v2.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\virtual_v2.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\w90chk2chk.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\w90chk2chk.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier2pw.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier2pw.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier90.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier90.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier_ham.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier_ham.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier_plot.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wannier_plot.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wfck2r.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wfck2r.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wfdd.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\wfdd.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\xspectra.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\xspectra.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ZG.exe",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\ZG.exe",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\intel-oneapi\\license.htm",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\intel-oneapi\\license.htm",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\microsoft-msmpi\\MicrosoftMPI-Redistributable-EULA.rtf",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\microsoft-msmpi\\MicrosoftMPI-Redistributable-EULA.rtf",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\microsoft-msmpi\\MPI-Redistributables-TPN.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\microsoft-msmpi\\MPI-Redistributables-TPN.txt",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\d3q\\License",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\d3q\\License",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\EPW\\License",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\EPW\\License",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\fox\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\fox\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\lapack\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\lapack\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\mbd\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\mbd\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\qe-gipaw\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\qe-gipaw\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\wannier90\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\external\\wannier90\\LICENSE",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\License",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\quantum-espresso\\License",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\THIRD_PARTY_NOTICES.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\licenses\\THIRD_PARTY_NOTICES.txt",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\README.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\README.txt",
+      "passed": true
+    },
+    {
+      "check": "File exists: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\VERSION.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256: vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\VERSION.txt",
+      "passed": true
+    },
+    {
+      "check": "File exists: data\\pseudopotentials\\Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "passed": true
+    },
+    {
+      "check": "SHA256: data\\pseudopotentials\\Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "passed": true
+    },
+    {
+      "check": "File exists: data\\pseudopotentials\\O.pbe-n-kjpaw_psl.0.1.UPF",
+      "passed": true
+    },
+    {
+      "check": "SHA256: data\\pseudopotentials\\O.pbe-n-kjpaw_psl.0.1.UPF",
+      "passed": true
+    },
+    {
+      "check": "Resolved analysis dependencies compatible",
+      "passed": true
+    },
+    {
+      "check": "Resolved generator dependencies compatible",
+      "passed": true
+    },
+    {
+      "check": "All eight CHGNet launches reconciled, including four pre-model failures",
+      "passed": true
+    },
+    {
+      "check": "All shared budgets respected",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "numerical_attempts_added_by_finalizer": 0
+}

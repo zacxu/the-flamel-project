@@ -1,0 +1,24 @@
+{
+  "decided_utc": "2026-10-22T01:48:51.312174+00:00",
+  "original_protocol": "artifacts/phase2/controls/matched_protocol.json",
+  "trigger": {
+    "control": "mgo_rocksalt",
+    "primary_P1_exact_valid": 0,
+    "primary_P1_unique": 0,
+    "primary_nontrivial_unique": 1
+  },
+  "decision": "One balanced supplementary MgO batch, four structures per arm; no additional supplement regardless of result",
+  "additional_generation_slots": 8,
+  "original_supplementary_symmetry_allowance_slots": 16,
+  "key_rule": "jax.random.fold_in(PRNGKey(20261022),2) in each group, four-sample batch",
+  "primary_denominators_unchanged": true,
+  "prior_failed_primary_outputs_retained": true,
+  "timing": "After all remaining primary formula cohorts, before random symmetry-relaxation selection or new CHGNet energies",
+  "TiO2_topup": false,
+  "reason_TiO2": "Each primary arm already has one valid unique structure; preserve this small balanced primary comparison",
+  "new_composition_stretch": false,
+  "stretch_reason": "The original primary-arm adequacy gate is not met for MgO P1; newly sampled formula cohorts must also retain any zero/partial exact-cell yield",
+  "full_program_charged_forecast_after_this_pair": 96,
+  "remaining_generation_slots_if_no_further_overhead": 32,
+  "not_an_acquisition_or_generator_protocol_retuning": true
+}

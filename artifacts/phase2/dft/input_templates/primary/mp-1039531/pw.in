@@ -1,0 +1,37 @@
+&CONTROL
+ calculation='vc-relax', prefix='mp_1039531', pseudo_dir='./pseudo', outdir='./scratch',
+ tprnfor=.true., tstress=.true., verbosity='high',
+ max_seconds=900, nstep=80, etot_conv_thr=1.0d-5, forc_conv_thr=8.0d-4,
+/
+&SYSTEM
+ ibrav=0, nat=6, ntyp=2,
+ ecutwfc=50.00000000, ecutrho=400.00000000, input_dft='PBE',
+ nosym=.true., noinv=.true.,
+ nspin=1, occupations='smearing',
+ smearing='cold', degauss=0.01,
+/
+&ELECTRONS
+ conv_thr=1.0d-8, electron_maxstep=100, scf_must_converge=.true., mixing_beta=0.4,
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics='bfgs', press=0.0, press_conv_thr=0.5, cell_dofree='all',
+/
+ATOMIC_SPECIES
+Ca 40.07800000 Ca_pbe_v1.uspp.F.UPF
+Mg 24.30500000 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+CELL_PARAMETERS angstrom
+1.852767000000 6.977367000000 0.000000000000
+-1.852767000000 6.977367000000 0.000000000000
+0.000000000000 2.010144000000 8.274782000000
+ATOMIC_POSITIONS crystal
+Ca 0.007498000000 0.007498000000 0.009184000000
+Ca 0.335322000000 0.335322000000 0.344716000000
+Ca 0.653322000000 0.653322000000 0.653934000000
+Ca 0.280248000000 0.280248000000 0.939028000000
+Mg 0.613497000000 0.613497000000 0.275621000000
+Mg 0.943446000000 0.943446000000 0.610851000000
+K_POINTS automatic
+3 3 2 0 0 0

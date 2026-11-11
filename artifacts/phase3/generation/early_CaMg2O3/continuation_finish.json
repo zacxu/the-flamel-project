@@ -1,0 +1,12 @@
+{
+  "attempt_ledger": "artifacts/phase3/generation/early_CaMg2O3/ledger.jsonl",
+  "canonical_generation_charged_attempts": 24,
+  "canonical_generation_remaining_attempts": 104,
+  "emitted_attempt_records": 8,
+  "job_wall_seconds": 27.624808499997016,
+  "output_dir": "artifacts/phase3/generation/early_CaMg2O3",
+  "returncode": 0,
+  "status": "completed",
+  "valid_count": 0,
+  "valid_unique_count": 0
+}

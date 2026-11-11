@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests": 9,
+  "failed": 0,
+  "script": "scripts/github_publication/test_python_installation.py",
+  "script_sha256": "47214b08debf56cf8be6fbcc042c839d2afd0d119c2cccf60ba4fa71f391a330",
+  "runtime": "Fresh standalone CPython3.11.14",
+  "scope": [
+    "Source/existingdestinationpreservation",
+    "Existing/source-reportpreservation",
+    "Wrongpackageversionrejection",
+    "Missing/mismatchedcheckpointRECORDrejection",
+    "ArbitrarycheckpointwithmatchingRECORDstillrejectedbyfixedmodelpin"
+  ]
+}

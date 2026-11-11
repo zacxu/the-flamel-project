@@ -1,0 +1,59 @@
+{
+  "phase": 5,
+  "committed_utc": "2026-10-22T02:19:00.682936+00:00",
+  "baseline_path": "artifacts/phase5/preflight/budget_ledger.json",
+  "baseline_sha256": "f6e22f07dc448ebf70939ea5a586006badd8c2f806acd316b13d3331ee9f2b40",
+  "phase4_manifest_path": "artifacts/phase5/preflight/manifest.json",
+  "phase4_manifest_sha256": "95175b4ed0b3b6f2d7f102443a77bb49afbad88b59258bb623c88e2d8a3ab216",
+  "scientific_protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "symmetry_plan_sha256": "d1f86ea12e60cce1d7440e40cc4ee0344d556db3b31fd17aafa5eb048cf2f200",
+  "fresh_shortlist_sha256": "1ac7ab017c8e10a5536bf6ed8977de73c413f583be1e6602c0f77116b055ddbc",
+  "new_CF_shortlist_count": 0,
+  "new_generations": 0,
+  "new_predictor_fits_or_replay_queries": 0,
+  "CHGNet": {
+    "new_launches": 10,
+    "symmetry": 3,
+    "prototype": 4,
+    "same_composition_reference": 3,
+    "cached_symmetry_reuse": 1,
+    "reference_slots_allocated": 4,
+    "excluded_brookite_slot_replaced": false,
+    "model": "0.3.0",
+    "device": "cuda",
+    "optimizer": "FIRE",
+    "filter": "FrechetCellFilter",
+    "relax_cell": true,
+    "steps": 200,
+    "fmax_eV_A": 0.05,
+    "CPU_threads": 2,
+    "nonconvergence_policy": "Retain failed/nonconverged fixed attempts, without outcome-based replacements"
+  },
+  "DFT": {
+    "scope": "Previously declared symmetry-breaking robustness check of the already chosen known MgO control",
+    "seed": 260022,
+    "atomic_displacement_A": 0.01,
+    "maximum_principal_cell_strain_fraction": 0.005,
+    "additional_phase5_QE_cap_seconds": 3600,
+    "queue_watchdogs_seconds": [
+      930,
+      930,
+      330,
+      330
+    ],
+    "continuation_rule": "At most one same-setting continuation only after an electronically accepted attempt fails independent geometry stationarity; stop on SCF failure",
+    "new_primary_CaMg2O3_candidate": false,
+    "prototype_DFT_promotion": false,
+    "generation_proposal_charge": "No new candidate proposal: numerical validation derivative of already charged MgO; all actual QE jobs charged in cumulative walltime"
+  },
+  "hypothesis_retuning": false,
+  "larger_cell_diagnostics_admitted": false,
+  "caps": {
+    "generation_slots": 128,
+    "CHGNet_launches": 40,
+    "CHGNet_seconds": 14400,
+    "QE_seconds": 21600
+  },
+  "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "prior_evidence_kept_immutable": true
+}

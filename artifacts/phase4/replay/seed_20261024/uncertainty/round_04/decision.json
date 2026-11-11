@@ -1,0 +1,119 @@
+{
+  "committed_at_utc": "2026-10-22T01:50:07.228048+00:00",
+  "decisions": [
+    {
+      "calibrated_radius_eV_atom": 2.0003150848792655,
+      "diversity_distance_at_selection": 0.1933543858553697,
+      "material_id": "wbm-1-39960",
+      "position": 0,
+      "predicted_mean_eV_atom": 0.7876375742447917,
+      "role": "uncertainty",
+      "score": 40.00630169758531
+    },
+    {
+      "calibrated_radius_eV_atom": 1.5182236945047172,
+      "diversity_distance_at_selection": 0.4568770171785727,
+      "material_id": "wbm-1-38569",
+      "position": 1,
+      "predicted_mean_eV_atom": 0.49395583531250004,
+      "role": "uncertainty",
+      "score": 30.36447389009434
+    },
+    {
+      "calibrated_radius_eV_atom": 1.3559912162443706,
+      "diversity_distance_at_selection": 0.5043971314175218,
+      "material_id": "wbm-1-44407",
+      "position": 2,
+      "predicted_mean_eV_atom": 0.549303315829613,
+      "role": "uncertainty",
+      "score": 27.11982432488741
+    },
+    {
+      "calibrated_radius_eV_atom": 1.302187336436405,
+      "diversity_distance_at_selection": 0.6155668161415696,
+      "material_id": "wbm-5-15701",
+      "position": 3,
+      "predicted_mean_eV_atom": 0.2987416861718749,
+      "role": "uncertainty",
+      "score": 26.0437467287281
+    },
+    {
+      "calibrated_radius_eV_atom": 1.2918156694404639,
+      "diversity_distance_at_selection": 0.3708846781015316,
+      "material_id": "wbm-5-15758",
+      "position": 4,
+      "predicted_mean_eV_atom": 0.31664543992187494,
+      "role": "uncertainty",
+      "score": 25.836313388809277
+    },
+    {
+      "calibrated_radius_eV_atom": 1.266304959695956,
+      "diversity_distance_at_selection": 0.553854989139951,
+      "material_id": "wbm-3-50701",
+      "position": 5,
+      "predicted_mean_eV_atom": 0.9624786001562503,
+      "role": "uncertainty",
+      "score": 25.326099193919116
+    },
+    {
+      "calibrated_radius_eV_atom": 1.2553520078746092,
+      "diversity_distance_at_selection": 0.4692021577126669,
+      "material_id": "wbm-5-15700",
+      "position": 6,
+      "predicted_mean_eV_atom": 0.3161203380208334,
+      "role": "uncertainty",
+      "score": 25.107040157492182
+    },
+    {
+      "calibrated_radius_eV_atom": 1.2544055608215883,
+      "diversity_distance_at_selection": 0.39690902195497346,
+      "material_id": "wbm-1-39932",
+      "position": 7,
+      "predicted_mean_eV_atom": 0.3991177836979167,
+      "role": "uncertainty",
+      "score": 25.088111216431763
+    },
+    {
+      "calibrated_radius_eV_atom": 1.2430737372671268,
+      "diversity_distance_at_selection": 0.4197925372276214,
+      "material_id": "wbm-2-33501",
+      "position": 8,
+      "predicted_mean_eV_atom": 0.2761383426562499,
+      "role": "uncertainty",
+      "score": 24.861474745342534
+    },
+    {
+      "calibrated_radius_eV_atom": 1.2396034419910906,
+      "diversity_distance_at_selection": 0.5215690204259772,
+      "material_id": "wbm-5-15702",
+      "position": 9,
+      "predicted_mean_eV_atom": 0.30691910249999993,
+      "role": "uncertainty",
+      "score": 24.792068839821813
+    }
+  ],
+  "known_ids_sha256": "17d64f14f905a4178d2b8820e6216341243c684688b8864575c0f764d2512983",
+  "material_ids": [
+    "wbm-1-39960",
+    "wbm-1-38569",
+    "wbm-1-44407",
+    "wbm-5-15701",
+    "wbm-5-15758",
+    "wbm-3-50701",
+    "wbm-5-15700",
+    "wbm-1-39932",
+    "wbm-2-33501",
+    "wbm-5-15702"
+  ],
+  "model_training_ids_sha256": "17d64f14f905a4178d2b8820e6216341243c684688b8864575c0f764d2512983",
+  "oracle_labels_supplied_to_acquisition": 0,
+  "paired_seed": 20261024,
+  "policy": "uncertainty",
+  "pool_prediction_sha256": "7d5a6d0fceb18b8a41dc64c389ab7c1a7c7ceac7c8b62ebeab2a3db76e24e6fe",
+  "random_seed_sequence": [
+    20261024,
+    4,
+    101
+  ],
+  "round_index": 4
+}

@@ -1,0 +1,53 @@
+{
+  "calculation": "scf",
+  "formula": "MgO",
+  "n_atoms": 2,
+  "prototype": "rocksalt",
+  "conventional_a_angstrom": 4.21,
+  "primitive_cell_angstrom": [
+    [
+      0,
+      2.105,
+      2.105
+    ],
+    [
+      2.105,
+      0,
+      2.105
+    ],
+    [
+      2.105,
+      2.105,
+      0
+    ]
+  ],
+  "fractional_positions": {
+    "Mg": [
+      0,
+      0,
+      0
+    ],
+    "O": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "ecutwfc_Ry": 50,
+  "ecutrho_Ry": 400,
+  "k_mesh": [
+    4,
+    4,
+    4
+  ],
+  "k_offset": [
+    0,
+    0,
+    0
+  ],
+  "nspin": 1,
+  "occupations": "fixed",
+  "conv_thr_Ry": 1e-08,
+  "electron_maxstep": 100,
+  "status_scope": "Engine/SCF readiness only; lattice, cutoff and k mesh not converged in this pilot"
+}

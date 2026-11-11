@@ -1,0 +1,7 @@
+{
+  "reservation_id": "p3_chgnet_phase1_mgo_attempt_000",
+  "lane": "chgnet",
+  "attempts": 1,
+  "max_seconds": 900.0,
+  "reserved_utc": "2026-10-21T17:52:16.988265+00:00"
+}

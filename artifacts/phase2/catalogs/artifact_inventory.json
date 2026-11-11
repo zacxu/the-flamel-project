@@ -1,0 +1,174 @@
+{
+  "excluded": [
+    "This inventory itself",
+    "Live stdout/stderr .log files"
+  ],
+  "files": [
+    {
+      "bytes": 925,
+      "path": "artifacts/phase2/catalogs/audit.json",
+      "sha256": "003fb56379664d88321098e60c1e51194cc28f6383764424a2307976625cf9e9"
+    },
+    {
+      "bytes": 1457,
+      "path": "artifacts/phase2/catalogs/catalog_manifest.json",
+      "sha256": "99d967fda2d35cab3c3f975e4242d7f532f9bae285bd709ff2283042bcfc76b7"
+    },
+    {
+      "bytes": 2231,
+      "path": "artifacts/phase2/catalogs/mp_download_headers.txt",
+      "sha256": "a0c54cd74c7b9b6df4b54db38f053f68562be29424a72fbeb4c8192fb8b92d18"
+    },
+    {
+      "bytes": 392,
+      "path": "artifacts/phase2/catalogs/mp_headers_initial.txt",
+      "sha256": "7379f0177e015b48ca84e8ec6412c49ab43762275128165a399e29f06ab43648"
+    },
+    {
+      "bytes": 589977,
+      "path": "artifacts/phase2/compositions/enumerated_and_screened.jsonl",
+      "sha256": "057d347ba4c75b420187662e1659296f24df0657f52faa52ef7d501f31e91447"
+    },
+    {
+      "bytes": 19334,
+      "path": "artifacts/phase2/compositions/generation_protocol.json",
+      "sha256": "39b7fa1771bdf5f2214659de6d37bb69677d9e9c4df06a72c3788b1ef9d5b75f"
+    },
+    {
+      "bytes": 901,
+      "path": "artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "sha256": "4b127f0ba7ab22e0d9dfaa12c2d551ecfa11c04e7c437b1ab74c6cffeac11340"
+    },
+    {
+      "bytes": 1012,
+      "path": "artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "sha256": "f75934ac0be48dda22984e8bec7e633d6a06b0a15dc82eb34073bca4aa2efa53"
+    },
+    {
+      "bytes": 1012,
+      "path": "artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "sha256": "201903f0a8002802b6c24bd9216ff03d2e73aa1eba7bbba1efe607a5f9c3f557"
+    },
+    {
+      "bytes": 893,
+      "path": "artifacts/phase2/compositions/prototype_parent_mp-1018032.cif",
+      "sha256": "0c2dd3ffa3eb8ebb21dbc172bcce26539adf9da3c297b559e72edd0a89e2c84a"
+    },
+    {
+      "bytes": 1000,
+      "path": "artifacts/phase2/compositions/prototype_parent_mp-1222123.cif",
+      "sha256": "db03bd51d6c83dd7663833e9a851190b0e5ddd99eb788c2e706d3fcd7fbdf9ce"
+    },
+    {
+      "bytes": 893,
+      "path": "artifacts/phase2/compositions/prototype_parent_mp-753619.cif",
+      "sha256": "c970031e095a5dd2e40ce57631a6edd00936fd6fada52d24247a4e9b53fe5020"
+    },
+    {
+      "bytes": 5626,
+      "path": "artifacts/phase2/compositions/prototype_plan.json",
+      "sha256": "28c52f693f9c22b0791d48bf1a8c4896c0c3467a181e981e70415a5b465eaa99"
+    },
+    {
+      "bytes": 901,
+      "path": "artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "sha256": "7bb6335a3ed48cec7ed0c8b322b2732c71c1e9e01e1313711f510b4dcd573b0c"
+    },
+    {
+      "bytes": 14054,
+      "path": "artifacts/phase2/compositions/selection.json",
+      "sha256": "02cf8e4b607494f805bcaccb6d025d73ac93f9b8ae0c4c48f78926d22f625030"
+    },
+    {
+      "bytes": 3222,
+      "path": "artifacts/phase2/controls/matched_protocol.json",
+      "sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67"
+    },
+    {
+      "bytes": 1091,
+      "path": "artifacts/phase2/controls/mgo_rocksalt_reference.cif",
+      "sha256": "146a234cda4e045125fd60e4e5f1bedb3cad52eb0aa606023e80d0f131e19bac"
+    },
+    {
+      "bytes": 3182,
+      "path": "artifacts/phase2/controls/mgo_rocksalt_reference.json",
+      "sha256": "14f1f2aa3a4f31834a5159ea898265b01ca3abf3cef024e5f4554107c69559c3"
+    },
+    {
+      "bytes": 1300,
+      "path": "artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "sha256": "d6ada6ef1d2bac40b16327033da36a928745602750abffdff89cf5c87fe4358f"
+    },
+    {
+      "bytes": 1320,
+      "path": "artifacts/phase2/controls/same_composition_reference_plan.json",
+      "sha256": "53b35c6248f2e267c51723da38ae0b05df472942fc2f00ab58eac4892192b1ce"
+    },
+    {
+      "bytes": 1091,
+      "path": "artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "sha256": "146a234cda4e045125fd60e4e5f1bedb3cad52eb0aa606023e80d0f131e19bac"
+    },
+    {
+      "bytes": 987,
+      "path": "artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "sha256": "f414d51475a787c3147a7d23e8536587ce9bfbabcd431fb5907ee0ece102060f"
+    },
+    {
+      "bytes": 987,
+      "path": "artifacts/phase2/controls/tio2_rutile_reference.cif",
+      "sha256": "f414d51475a787c3147a7d23e8536587ce9bfbabcd431fb5907ee0ece102060f"
+    },
+    {
+      "bytes": 2693,
+      "path": "artifacts/phase2/controls/tio2_rutile_reference.json",
+      "sha256": "ea5881c7304ec3de8b60a4755eb7b1bfd26b46885fff2d2db66eda827f847e90"
+    },
+    {
+      "bytes": 328721,
+      "path": "data/catalogs/control_geometry_candidates.json",
+      "sha256": "cf1f6ef74897dc9c7ece3e90f607236374ab17d4111788b4d0b5c0977b703784"
+    },
+    {
+      "bytes": 13783,
+      "path": "data/catalogs/figshare_22715158_metadata.json",
+      "sha256": "5de320ca7ab6cde61fe45e7d7928befc1f7e2071c4dbdfa70d1f298f8e40884c"
+    },
+    {
+      "bytes": 30016201,
+      "path": "data/catalogs/mp_full_compositions.jsonl",
+      "sha256": "5f85df5b05c8a936b389223110a7b5b4ceab264b836ed914d189d6aeeb7337d6"
+    },
+    {
+      "bytes": 31541544,
+      "path": "data/catalogs/wbm_full_compositions.jsonl",
+      "sha256": "d3972663589bcc65f89a68a421d05b86fb4a653d9fa4a58f545f0c5feadc6b3d"
+    },
+    {
+      "bytes": 179351659,
+      "path": "data/mp/2023-02-07-mp-computed-structure-entries.json.gz",
+      "sha256": "553d6272f049a8f4ec26e503b89751e2616dd3af53d086545f6ea00f317a361f"
+    },
+    {
+      "bytes": 17345,
+      "path": "scripts/phase2_catalogs.py",
+      "sha256": "186ead3164a8fdf06c1182b3c39a5565df670a341de1860dcd22de59ae5cc473"
+    },
+    {
+      "bytes": 19997,
+      "path": "scripts/phase2_catalogs_finalize.py",
+      "sha256": "6be63564446964e5cbb594969c75bc874d6a7dc4739d27f6c0d70600f8c57408"
+    },
+    {
+      "bytes": 4173,
+      "path": "scripts/phase2_formula_rules.py",
+      "sha256": "73c0f5d7f2a33eccc1eb70350afea666b9cec33244c60d9369bb36bfaf67f705"
+    },
+    {
+      "bytes": 3410,
+      "path": "scripts/phase2_json_columns.py",
+      "sha256": "984ac2f18364ae41531f9d95c8ac5b7e0256edab3d1ce4add43ff1f02a9cc0f2"
+    }
+  ],
+  "scope": "All files in the catalog/composition/control lane plus its four scripts"
+}

@@ -1,0 +1,223 @@
+{
+  "phase": "Entry HTML cache fix",
+  "status": "live_verified",
+  "recordedAt": "2026-10-22T18:59:42.989Z",
+  "deployed": true,
+  "uiBuildId": "ui-w6-351e6182d7af3a9d062d",
+  "url": "https://theflamelproject.42web.io/",
+  "cause": "The host supplied a 30-day max-age=2592000 cache lifetime for the mutable entry HTML, allowing linked visits to retain older application releases.",
+  "change": "Scoped no-store/no-cache entry headers with mod_expires disabled; a fresh /refresh entry alias serves the same exact current index.html for pre-policy cached clients; original image adapter retained byte-for-byte.",
+  "configuration": {
+    "path": "website/deployment/cache-fix/.htaccess",
+    "bytes": 1230,
+    "sha256": "cfec2cddb8cbbf215fbe2ee17593a20f8b470d80071648ddb6d79004a8bbd149"
+  },
+  "firstPolicyConfiguration": {
+    "path": "website/deployment/cache-fix/html-policy-first.htaccess",
+    "bytes": 712,
+    "sha256": "5b17e9c342127d39b4f373afabc6172dd9f47b58e3df135f781fac6d84ab5c45"
+  },
+  "recoveryDocument": {
+    "path": "website/deployment/cache-fix/refresh.html",
+    "bytes": 802,
+    "sha256": "bcaabf884be06fd0f442efa9e9bae4a88c36e8a1ceb1af324813f67bee2f553c"
+  },
+  "rollbackConfiguration": {
+    "path": "website/deployment/cache-fix/previous-root.htaccess",
+    "bytes": 230,
+    "sha256": "383707b105ac4286f66595968d735aded9a3e5796f4d98bceac2588d0955d9fc"
+  },
+  "preservedImagePrefixBytes": 230,
+  "baseline": "website/deployment/cache-fix/BASELINE.json",
+  "checks": [
+    {
+      "path": "website/dist/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/CrystalViewer-BkPovndm.css",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/CrystalViewer-D6QrqYuJ.js",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/ReplayChart-Cu8ZDifc.css",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/ReplayChart-Dv-DkF9p.js",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/index-BI21S9xT.css",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/assets/index-BiMRMsvf.js",
+      "unchanged": true
+    },
+    {
+      "path": "website/public/research/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "website/dist/research/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "website/deployment/root-image-adapter/.htaccess",
+      "unchanged": true
+    },
+    {
+      "path": "website/src/generated/uiRelease.ts",
+      "unchanged": true
+    }
+  ],
+  "entryPolicy": {
+    "before": [
+      {
+        "path": "/",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/",
+        "cacheControl": "max-age=2592000, public, proxy-revalidate",
+        "expires": "Sat, 21 Nov 2026 18:50:41 GMT",
+        "pragma": null,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": false
+      },
+      {
+        "path": "/index.html",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/index.html",
+        "cacheControl": "max-age=2592000, public, proxy-revalidate",
+        "expires": "Sat, 21 Nov 2026 18:50:42 GMT",
+        "pragma": null,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": false
+      }
+    ],
+    "after": [
+      {
+        "path": "/",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/",
+        "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+        "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+        "pragma": "no-cache",
+        "clearSiteData": null,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": true
+      },
+      {
+        "path": "/index.html",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/index.html",
+        "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+        "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+        "pragma": "no-cache",
+        "clearSiteData": null,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": true
+      },
+      {
+        "path": "/refresh",
+        "status": 200,
+        "responseUrl": "https://theflamelproject.42web.io/refresh",
+        "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+        "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+        "pragma": "no-cache",
+        "clearSiteData": null,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+        "currentEntry": true,
+        "prohibitsStorage": true
+      }
+    ]
+  },
+  "immutableResponseSamples": [
+    {
+      "path": "/assets/index-BiMRMsvf.js",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/assets/index-BiMRMsvf.js",
+      "cacheControl": "max-age=2592000, public, proxy-revalidate, must-revalidate",
+      "expires": "Sat, 21 Nov 2026 18:57:38 GMT",
+      "pragma": null,
+      "clearSiteData": null,
+      "contentType": "application/javascript",
+      "bytes": 464737,
+      "sha256": "dfd9ce683cc2bb3bf91a1bdc352b03280a454ba3ca2b7caeeb414556eeb0a68f",
+      "unchangedBytesAndHash": true,
+      "unchangedCachePolicy": true
+    },
+    {
+      "path": "/research/manifest.json",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/research/manifest.json",
+      "cacheControl": "max-age=0",
+      "expires": "Thu, 22 Oct 2026 18:57:38 GMT",
+      "pragma": null,
+      "clearSiteData": null,
+      "contentType": "application/json",
+      "bytes": 22605,
+      "sha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+      "frozenManifestUnchanged": true,
+      "unchangedBytesAndHash": true,
+      "unchangedCachePolicy": true
+    },
+    {
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "cacheControl": "max-age=0",
+      "expires": "Thu, 22 Oct 2026 18:57:39 GMT",
+      "pragma": null,
+      "clearSiteData": null,
+      "contentType": "image/png",
+      "bytes": 35124,
+      "sha256": "696b41195f25a4bac6e54757ca083f53cea3a451bbbda4c8ed70d7c95608c4a1",
+      "unchangedBytesAndHash": true,
+      "unchangedCachePolicy": true
+    }
+  ],
+  "browserChecks": {
+    "directHomepageBuild": "ui-w6-351e6182d7af3a9d062d",
+    "clickedHomepageBuild": "ui-w6-351e6182d7af3a9d062d",
+    "clickedCrystalBuild": "ui-w6-351e6182d7af3a9d062d",
+    "recovery": {
+      "homeBuild": "ui-w6-351e6182d7af3a9d062d",
+      "crystalBuild": "ui-w6-351e6182d7af3a9d062d",
+      "url": "https://theflamelproject.42web.io/refresh#/crystals",
+      "latticePresetWorks": "true",
+      "errors": []
+    }
+  },
+  "futureDeployments": "Retain deployment/cache-fix/.htaccess as /htdocs/.htaccess and the legacy refresh.html helper if it remains hosted. root-image-adapter/.htaccess is the historical 230-byte image-only config and must not replace this current policy. The /refresh alias always resolves the newly published index.html; no extra build or recovery copy is required.",
+  "rollback": "Upload previous-root.htaccess as /htdocs/.htaccess; immutable files/entry/research remain unchanged. This restores the image adapter but also removes the cache policy and /refresh alias. The unused helper can remain.",
+  "limits": "New headers cannot retroactively replace a document already held by a browser cache or an already-open application. The fresh /refresh alias bypasses the legacy root cache when opened. Verification covers targeted response hashes, headers and native browser links; no research run, rebuild, broad-suite rerun or physical-device certification.",
+  "recovery": {
+    "url": "https://theflamelproject.42web.io/refresh",
+    "implementation": "Internal rewrite to the current index.html; /refresh/ redirects with HTTP 302 to /refresh before relative assets resolve.",
+    "sameExactEntryBytes": true,
+    "clearsCache": false,
+    "finalUrl": "The short /refresh entry path remains in the address; hash-based selections are preserved.",
+    "liveResponse": "LIVE_AFTER.json",
+    "linkVerification": "LINK_VERIFICATION.json",
+    "legacyHelper": "refresh.html now redirects only to /refresh with its hash preserved.",
+    "abandonedAttempt": "LIVE_RECOVERY_ATTEMPT.json preserves the earlier Clear-Site-Data response test that did not return the requested header. That policy is absent from the final configuration."
+  }
+}

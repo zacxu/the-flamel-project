@@ -1,0 +1,166 @@
+{
+  "job_id": "p3_mgo_final_final_cut75",
+  "phase": 3,
+  "category": "sensitivity",
+  "started_at_utc": "2026-10-21T18:04:40.031003+00:00",
+  "finished_at_utc": "2026-10-21T18:05:17.690198+00:00",
+  "elapsed_wall_seconds": 37.64301179999893,
+  "return_code": 0,
+  "timed_out": false,
+  "launch_error": null,
+  "peak_working_set_bytes_observed": 162934784,
+  "threads": {
+    "OMP_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_DYNAMIC": "FALSE",
+    "MKL_DYNAMIC": "FALSE"
+  },
+  "input_sha256": "703ccade6632507889094769db39f2ae6ce42808f17219b089eefbda9b2cd5de",
+  "output_sha256": "02664154b18fb7136297dab0b809d37a1c0b3bda1d6e149333d5c1fabed461fb",
+  "result": {
+    "xml_path": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_final_final_cut75\\scratch\\p3_mgo_final_final_cut75.save\\data-file-schema.xml",
+    "xml_present": true,
+    "return_code": 0,
+    "timed_out": false,
+    "job_done": true,
+    "calculation": "scf",
+    "geometry_relaxation_required": false,
+    "scf_converged": true,
+    "ionic_converged": false,
+    "force_norm_pass": true,
+    "full_stress_pass": false,
+    "pressure_pass": false,
+    "production_numerical_convergence_established": false,
+    "acceptance_scope": "This job's SCF/geometry stationarity only; cutoff/k refinement and final-setting rechecks remain separately required",
+    "stdout_last_total_energy_Ry": -75.53854191,
+    "completed_scf_calls": 1,
+    "scf_iterations_per_call": [
+      18
+    ],
+    "reported_MPI_processes": 1,
+    "reported_threads_per_MPI_process": 4,
+    "reported_k_points": 512,
+    "n_atoms": 2,
+    "formula": "MgO",
+    "total_energy_Hartree": -37.76927095569035,
+    "total_energy_Ry": -75.5385419113807,
+    "total_energy_eV": -1027.7542202046664,
+    "energy_eV_per_atom": -513.8771101023332,
+    "final_geometry_json": "C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase3\\qe\\p3_mgo_final_final_cut75\\final_geometry.json",
+    "final_volume_angstrom3": 19.184447586076466,
+    "forces_eV_per_angstrom": [
+      [
+        -9.801733624836439e-08,
+        2.1108334726173676e-06,
+        1.8453866579696803e-06
+      ],
+      [
+        9.801733624836402e-08,
+        -2.1108334726173676e-06,
+        -1.8453866579696803e-06
+      ]
+    ],
+    "max_force_vector_norm_eV_per_angstrom": 2.8054727346277358e-06,
+    "stress_tensor_kbar_QE_convention": [
+      [
+        -1.7809483600019618,
+        -0.0013587745267548228,
+        0.00029071745689864643
+      ],
+      [
+        -0.0013587745267548228,
+        -1.7798452705606422,
+        0.0004503188125654544
+      ],
+      [
+        0.00029071745689864643,
+        0.0004503188125654544,
+        -1.779610268403329
+      ]
+    ],
+    "pressure_kbar": -1.7801346329886443,
+    "max_absolute_residual_stress_component_kbar": 1.7809483600019618,
+    "scf_error_Ry": 1.2512357535062397e-09,
+    "electronic_residual_pass": true,
+    "raw_opt_convergence_xml": null,
+    "unit_convention": "QE XML Hartree, Bohr, Hartree/Bohr force, Hartree/Bohr^3 stress; converted explicitly",
+    "XML_stdout_energy_match": true,
+    "parser_errors": [],
+    "job_scf_accepted": true,
+    "job_stationary_at_this_setting": false
+  },
+  "provenance": {
+    "job_id": "p3_mgo_final_final_cut75",
+    "phase": 3,
+    "category": "sensitivity",
+    "prepared_at_utc": "2026-10-21T18:04:39.961974+00:00",
+    "role": "sensitivity",
+    "reference_id": null,
+    "source_geometry": "artifacts\\phase3\\qe\\p3_ref_mgo_90_k035_cont1\\final_geometry.json",
+    "source_geometry_sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6",
+    "source_reference_metadata": null,
+    "inherited_source_settings": "artifacts\\phase3\\qe\\p3_ref_mgo_90_k035_cont1\\settings.json",
+    "inherited_source_settings_sha256": "37329dc2e95f529de2396c3d7a4e4fba701aed16bc7327fdd95a7bf3cd2baaac",
+    "input_sha256": "703ccade6632507889094769db39f2ae6ce42808f17219b089eefbda9b2cd5de",
+    "settings_sha256": "f2fbfa67646bc88caf33d36b50275bf612b85b0c82756920d28833efad370903",
+    "pseudo_hashes": {
+      "Mg": "f057a22e5d8484686a1b3fe3724aa01af4236fe8a845e5c2f772c472f107639f",
+      "O": "7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa"
+    },
+    "pseudo_files": {
+      "Mg": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "O": "O.pbe-n-kjpaw_psl.0.1.UPF"
+    },
+    "executable": "C:\\Users\\Admin\\Desktop\\bears\\vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw.exe",
+    "executable_sha256": "287ea5f329fd31d68f55516747ee6d67e5fdab7d05eb67403538944c54df0107",
+    "input_factory_sha256": "785adbd40abe43c026c874ff36b98b2effa4809eec2409961fd5f6bac33e503a",
+    "runner_source_sha256": "91521fbdf6ec049883a45527191cca8d227e07b60b83cbd93fca81f1f855f743",
+    "parser_source_sha256": "2b29dbbb3b183bf609a31436ce33b1688a542ea6a61c02940e56c870fd92d9bf",
+    "python_executable": "C:\\Users\\Admin\\Desktop\\bears\\.envs\\analysis\\Scripts\\python.exe",
+    "numerical_protocol_sha256": "f6ade07bde4d73b44eaa6efd3ace923faf4646ed323d0fe0ea5441562b7d59dd",
+    "outer_timeout_seconds": 180,
+    "settings": {
+      "calculation": "scf",
+      "input_dft": "PBE",
+      "nat": 2,
+      "ecutwfc_Ry": 75.0,
+      "ecutrho_Ry": 600.0,
+      "k_mesh": [
+        8,
+        8,
+        8
+      ],
+      "k_spacing_start_inv_angstrom": 0.35,
+      "conv_thr_Ry": 1e-08,
+      "forc_conv_thr_Ry_per_Bohr": 0.0008,
+      "forc_conv_thr_eV_per_angstrom": 0.020568826990400003,
+      "force_threshold_interpretation": "QE threshold applies to Cartesian components; independently check final max vector norm <=0.0205688269904 eV/A and tighten continuation if needed",
+      "etot_conv_thr_Ry": 1e-05,
+      "press_conv_thr_kbar": 0.5,
+      "final_max_force_vector_norm_eV_per_angstrom": 0.0205688269904,
+      "final_max_absolute_residual_stress_component_kbar": 0.5,
+      "scf_must_converge": true,
+      "electron_maxstep": 100,
+      "nstep": 80,
+      "nosym": true,
+      "noinv": true,
+      "nspin": 1,
+      "tot_magnetization_muB": null,
+      "occupations": "fixed",
+      "smearing": null,
+      "degauss_Ry": null,
+      "vacuum_box_angstrom": null,
+      "max_seconds": 150,
+      "spin_review_required_before_reference_acceptance": false,
+      "production_ready": false,
+      "acceptance_note": "Starting numerical template only: cutoff, k mesh, spin and reference completeness require recorded Phase 3 checks",
+      "prefix": "p3_mgo_final_final_cut75",
+      "molecular_oxygen": false,
+      "source_geometry_sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6"
+    },
+    "selection_manifest": null,
+    "fallback_binding": null,
+    "selection_manifest_sha256": null
+  }
+}

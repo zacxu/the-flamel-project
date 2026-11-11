@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "phase": "W7",
+  "status": "passed",
+  "checkedAt": "2026-10-22T15:30:37.084153+00:00",
+  "verifiedUrl": "https://theflamelproject.42web.io/",
+  "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "manifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "checksPassed": 41,
+  "checksFailed": 0,
+  "checks": [
+    {
+      "check": "https-identity",
+      "passed": true,
+      "at": "2026-10-22T15:11:22.263Z",
+      "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+      "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+      "note": "Exact public HTTPS loaded core verified datasets; accepted geometry fallback recovered after cache-only invalidation."
+    },
+    {
+      "check": "webgl-camera-coordinates",
+      "passed": true,
+      "observation": {
+        "canvas": 1,
+        "coordinateRows": [
+          {
+            "caption": "Lattice row vectors \u00b7 \u00c5",
+            "rows": 3
+          },
+          {
+            "caption": "Original saved sites \u00b7 fractional coordinates (dimensionless)",
+            "rows": 8
+          },
+          {
+            "caption": "14 entities, including all eleven model-result records. Eligibility is separate from DFT validation.",
+            "rows": 14
+          }
+        ],
+        "text": "Mg4 O4 \u00b7 8 physical atoms\nDFT validated: known phase/reference\nInteractive view \u00b7 8 physical sites \u00b7 saved accepted_dft geometry\n\nCamera distance 12.911 \u00c5 \u00b7 azimuth 40.2\u00b0 \u00b7 polar 63.4\u00b0. Orientation is relative to the viewer axes and updates after manual movement or when auto-rotation stops.\n\n\u2190\n\u2192\n\u2191\n\u2193\n+\n\u2212\nReset camera\nAuto-rotate\nEnable touch rotatio"
+      }
+    },
+    {
+      "check": "workflow-validate",
+      "passed": true,
+      "text": "FROM HYPOTHESIS TO EVIDENCE\n\nFollow the experiment.\n\nSeven stages connect symmetry-conditioned generation, uncertainty-aware selection and genuine first-principles checks. Every step below describes saved work.\n\n01\nPropose\n\u2192\n02\nGenerate\n\u2192\n03\nScreen\n\u2192\n04\nSelect\n\u2192\n05\nRelax\n\u2192\n06\nValidate\n\u2192\n07\nCompare\n\nSELECTED STAGE\n\nValidate\nKnown-control evidence; incomplete broader validation\n\nThe predetermined known MgO fallback and compatible oxide references received genuine QE calculations.\n\nINPUT\nThe separately predetermined known-MgO control and compatible oxide source references.\nRECORDED OUTPUT\n19 charged QE jobs, including checks and failures; 3 geometries accepted with finite sensitivity checks.\n\nReal example. Generated eight-atom MgO, source-reference MgO and source-reference CaO are distinct accepted geometries. A process exit or JOB DONE alone does not establish validation.\n\nInspect validation records\n\u2197\nView source records\n\nHOW THE BRANCHES RELATE\n\nTwo scientific tracks.\nExplain the targets\n\n01 \u00b7 HISTORICAL ACQUISITION\n\nPredict \u2192 select \u2192 reveal saved labels\n\nFive overlapping chemical-system splits, five policies and 50 historical queries per policy/split. Predictions precede each recorded batch of ten label reveals; this is separate from fresh crystal generation.\n\nExisting WBM structures\n\u2192\nRecorded policy decisions\n\u2192\nHistorical signed hull targets\n\nNear-stable: target \u22640.05 eV/atom. On/below reference hull: target \u22640. These outcomes are historical retrieval labels.\n\nReplay the saved acquisition \u2192\n\n02 \u00b7 FRESH STRUCTURES AND VALIDATION\n\nGenerate \u2192 screen \u2192 inspect separate branches\nSix new-to-reference formulas\n\n48 transformer draws \u2192 exact-cell gate\n\n0 eligible. This path ends before fresh candidate DFT. Twelve larger-cell diagnostics stay excluded.\n\nPredetermined known-MgO control\n\nSaved generated MgO \u2192 CHGNet \u2192 QE and compatible source references\n\nKnown-phase recovery. The control follows its own planned branch; it is not a successful new-formula discovery.\n\nFour prepared prototype baselines\n\nPrototype substitution \u2192 CHGNet relaxation\n\nFour converged model baselines. Their convergence adds no successes to the transformer\u2019s 0/48 yield.\n\nInspect real saved structures \u2192\nKeep the targets distinct. Historical signed hull-distance labels and fresh QE total energies are different quantities. The website does not combine them into interchangeable feedback, retrain a predictor, generate crystals or submit calculations."
+    },
+    {
+      "check": "replay-pre-reveal",
+      "passed": true,
+      "observation": {
+        "buttons": [
+          {
+            "aria": null,
+            "text": "Reveal batch 1"
+          },
+          {
+            "aria": "Close batch 1 \u00b7 selected queries",
+            "text": "\u00d7"
+          },
+          {
+            "aria": null,
+            "text": "Reveal batch 1"
+          }
+        ],
+        "hiddenTargets": 30,
+        "queryRows": [
+          {
+            "caption": "Saved outcomes for split 20261022. Zero-query values are derived display states. Precision percentages are shown as fractions in the CSV.",
+            "rows": 2
+          },
+          {
+            "caption": "Batch 1: saved pre-selection predictions; outcomes hidden. Energies and radii are in eV/atom.",
+            "rows": 10
+          }
+        ]
+      }
+    },
+    {
+      "check": "replay-reveal",
+      "passed": true,
+      "observation": {
+        "hiddenTargets": 0,
+        "outputs": [
+          "10 / 50"
+        ],
+        "queryCaptions": [
+          "Saved outcomes for split 20261022. Zero-query values are derived display states. Precision percentages are shown as fractions in the CSV.",
+          "Batch 1: saved predictions and revealed historical outcomes. Energies and radii are in eV/atom."
+        ]
+      }
+    },
+    {
+      "check": "replay-play-pause",
+      "passed": true
+    },
+    {
+      "check": "findings-figures-final",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved primary-generation plot with first-eight validity and unique yield for MgO and TiO2 conditioning arms",
+            "src": "blob:https://theflamelproject.42web.io/c2c6fdd6-5c83-45bb-bddf-f62bc7325a12"
+          },
+          {
+            "alt": "Saved within-composition CHGNet energy comparisons for the selected MgO and TiO2 pairs and TiO2 references",
+            "src": "blob:https://theflamelproject.42web.io/4e87419e-e794-42fe-82e9-a3596ff0ec31"
+          },
+          {
+            "alt": "Four-panel frozen figure: Full minus Quality hit endpoints are negative in all five splits; empirical interval coverage varies by split; selective-risk curves compare Initial, Quality and Full; decile error is plotted against disagreement. Interactive tables above provide the selected context's numeric values.",
+            "src": "blob:https://theflamelproject.42web.io/4260ef8c-95c4-461d-b49f-1b2b4b8da9ec"
+          }
+        ]
+      },
+      "at": "2026-10-22T15:19:48.782Z"
+    },
+    {
+      "check": "evidence-filter",
+      "passed": true,
+      "observation": {
+        "errors": [],
+        "heading": "A claim needs a record.",
+        "jobRows": 1,
+        "jobs": [
+          "p5_mgo_perturb_90\t5\nperturbation\n\tMgO \u00b7 8 atoms\nvc-relax\n\t0\tYes\tNo\tNo\tNo\tTerminal SCF incomplete \u00b7 no accepted energy\tUnavailable\tUnavailable\tUnavailable\t90 / 720\t5 \u00d7 5 \u00d7 5\t900.439\tSources \u2197"
+        ],
+        "links": [
+          {
+            "href": "https://figshare.com/articles/dataset/Matbench_Discovery_v1_0_0/22715158",
+            "text": ""
+          },
+          {
+            "href": "https://creativecommons.org/licenses/by/4.0/",
+            "text": ""
+          },
+          {
+            "href": "https://github.com/janosh/matbench-discovery/blob/main/data/datasets.yml",
+            "text": ""
+          },
+          {
+            "href": "https://creativecommons.org/licenses/by/4.0/",
+            "text": ""
+          },
+          {
+            "href": "https://github.com/deepmodeling/CrystalFormer",
+            "text": ""
+          },
+          {
+            "href": "https://github.com/deepmodeling/CrystalFormer/blob/main/LICENSE",
+            "text": ""
+          },
+          {
+            "href": "https://github.com/CederGroupHub/chgnet",
+            "text": ""
+          },
+          {
+            "href": "https://raw.githubusercontent.com/CederGroupHub/chgnet/main/LICENSE",
+            "text": ""
+          },
+          {
+            "href": "https://www.quantum-espresso.org/",
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "check": "source-drawer",
+      "passed": true,
+      "sourceRows": 103,
+      "note": "Opened live source drawer; historical target, calibrated radius and source hashes visible."
+    },
+    {
+      "check": "uncertainty-controls-final",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "headings": [
+          "Symmetry and composition",
+          "Uncertainty under examination",
+          "What follows from the evidence?"
+        ],
+        "radio": [
+          "quality"
+        ],
+        "retained": "90"
+      }
+    },
+    {
+      "check": "guided-tour-six-scenes",
+      "passed": true,
+      "observation": [
+        {
+          "heading": "Follow the experiment.",
+          "text": "Skip to content\nThe Flamel\nProject\nRecorded research\n22 OCT 2026\nGlossary\nSources \u2197\n01\nOverview\n02\nWorkflow\n03\nReplay\n04\nCrystal Lab\n05\nFindings\n06\nEvidence\n\nSTEP 1 OF 6 \u00b7 PAUSED\n\n0:16 / 3:00\nIdea and workflow\n\nA pretrained symmetry-aware transformer generated the recorded draws. Both conditioning arms use the same architecture.\n\nPrevious tour step\nResume tour\nNext tour step\nExit tour\n\nUsing a pag"
+        },
+        {
+          "heading": "Compare the search policies.",
+          "text": "Skip to content\nThe Flamel\nProject\nRecorded research\n22 OCT 2026\nGlossary\nSources \u2197\n01\nOverview\n02\nWorkflow\n03\nReplay\n04\nCrystal Lab\n05\nFindings\n06\nEvidence\n\nSTEP 2 OF 6 \u00b7 PAUSED\n\n0:25 / 3:00\nFive-batch acquisition replay\n\n0 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.\n\nPrevious tour step\nResume tour\nNext tour step\nExit tour\n\nUsing a page cont"
+        },
+        {
+          "heading": "Inspect the actual cells.",
+          "text": "Skip to content\nThe Flamel\nProject\nRecorded research\n22 OCT 2026\nGlossary\nSources \u2197\n01\nOverview\n02\nWorkflow\n03\nReplay\n04\nCrystal Lab\n05\nFindings\n06\nEvidence\n\nSTEP 3 OF 6 \u00b7 PAUSED\n\n1:10 / 3:00\nReal structures and eligibility\n\nRotate the actual eight-atom, finite-checked known-MgO control. This is known-phase recovery.\n\nPrevious tour step\nResume tour\nNext tour step\nExit tour\n\nUsing a page control or"
+        },
+        {
+          "heading": "Results, with their limits.",
+          "text": "Skip to content\nThe Flamel\nProject\nRecorded research\n22 OCT 2026\nGlossary\nSources \u2197\n01\nOverview\n02\nWorkflow\n03\nReplay\n04\nCrystal Lab\n05\nFindings\n06\nEvidence\n\nSTEP 4 OF 6 \u00b7 PAUSED\n\n1:45 / 3:00\nSymmetry conditioning and energy\n\nPrimary MgO: 7/8 versus 0/8 exact-cell valid; unique yield 1/8 versus 0/8. Same architecture, different conditioning.\n\nPrevious tour step\nResume tour\nNext tour step\nExit tour"
+        },
+        {
+          "heading": "Results, with their limits.",
+          "text": "Skip to content\nThe Flamel\nProject\nRecorded research\n22 OCT 2026\nGlossary\nSources \u2197\n01\nOverview\n02\nWorkflow\n03\nReplay\n04\nCrystal Lab\n05\nFindings\n06\nEvidence\n\nSTEP 5 OF 6 \u00b7 PAUSED\n\n2:15 / 3:00\nUncertainty and selective risk\n\nFull, split 20261023: empirical interval coverage is below the nominal 90% target. The displayed table gives the actual saved result.\n\nPrevious tour step\nResume tour\nNext tour "
+        },
+        {
+          "heading": "A claim needs a record.",
+          "text": "Skip to content\nThe Flamel\nProject\nRecorded research\n22 OCT 2026\nGlossary\nSources \u2197\n01\nOverview\n02\nWorkflow\n03\nReplay\n04\nCrystal Lab\n05\nFindings\n06\nEvidence\n\nSTEP 6 OF 6 \u00b7 PAUSED\n\n2:40 / 3:00\nValidation, limits and sources\n\nAll nineteen real QE jobs remain visible. Process completion, terminal SCF, stationarity and full finite checks are separate fields.\n\nPrevious tour step\nResume tour\nFinish tour"
+        }
+      ],
+      "note": "Paused/manual scene traversal; full180secondtimingwasverifiedinW6."
+    },
+    {
+      "check": "hash-deep-link-reload",
+      "passed": true,
+      "observation": {
+        "heading": "Compare the search policies.",
+        "split": "20261026"
+      }
+    },
+    {
+      "check": "mobile-layout-final",
+      "passed": true,
+      "requestedViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "observation": {
+        "alerts": [],
+        "images": 1,
+        "navLinks": [
+          "01\nOverview",
+          "02\nWorkflow",
+          "03\nReplay",
+          "04\nCrystal Lab",
+          "05\nFindings",
+          "06\nEvidence"
+        ],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "note": "375CSS-pixel document width after15-pixel native scrollbar; no horizontal document overflow."
+    },
+    {
+      "check": "console-network-mixed-content",
+      "passed": true,
+      "logs": [],
+      "observation": {
+        "insecureDomResources": [],
+        "scripts": [
+          "./assets/index-C2FiRLoA.js"
+        ]
+      },
+      "note": "Browser-captured console/error messages plus visible resource URLs; no packet-level or every-response certificate audit."
+    },
+    {
+      "check": "fresh-final-homepage",
+      "passed": true,
+      "at": "2026-10-22T15:24:03.370Z",
+      "observation": {
+        "alerts": [],
+        "build": "The Flamel Project\n\nA research prototype. Evidence before discovery claims.\n\nCopy view link \u2197\nReset exploration\n\nFrozen study \u00b7 22 October 2026\nRecorded evidence and a three-minute guided presentation. Local release: ui-w6-62f633585edb6b4dab66.",
+        "heading": "Explore the search for new crystals.",
+        "images": [
+          "Saved 8-atom Mg4 O4 cell at stage accepted_dft, with original saved site identity."
+        ]
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase1_mgo_attempt_000",
+      "stage": "phase1_mgo_attempt_000--generated",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage generated, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/326265a5-43d9-4358-88b7-3282a1e6e683"
+          }
+        ],
+        "stage": "phase1_mgo_attempt_000--generated"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase1_mgo_attempt_000",
+      "stage": "phase1_mgo_attempt_000--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/dec6d1bf-47dc-455b-9ee2-ea4b863e8c4e"
+          }
+        ],
+        "stage": "phase1_mgo_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase1_mgo_attempt_000",
+      "stage": "phase1_mgo_attempt_000--accepted_dft",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage accepted_dft, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/deb96c98-6cd1-43d3-826e-1048d818dfe1"
+          }
+        ],
+        "stage": "phase1_mgo_attempt_000--accepted_dft"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "stage": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage generated, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/b8579717-119e-4493-901a-4a77049562e5"
+          }
+        ],
+        "stage": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "stage": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/5f6cd344-8878-4dc7-87cb-3f93b2a955a2"
+          }
+        ],
+        "stage": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "stage": "phase4_tio2_rutile_nontrivial_attempt_000--generated",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage generated, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/8fe44cfc-75e8-431a-b3dc-ec34684a2978"
+          }
+        ],
+        "stage": "phase4_tio2_rutile_nontrivial_attempt_000--generated"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "stage": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/27fef038-4b06-45df-b7ba-c8cadeb199dd"
+          }
+        ],
+        "stage": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase4_tio2_rutile_p1_attempt_000",
+      "stage": "phase4_tio2_rutile_p1_attempt_000--generated",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage generated, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/03a4c0bd-cc6f-451f-9d68-ef0b21c44e7a"
+          }
+        ],
+        "stage": "phase4_tio2_rutile_p1_attempt_000--generated"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase4_tio2_rutile_p1_attempt_000",
+      "stage": "phase4_tio2_rutile_p1_attempt_000--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/35478373-f6b0-42f7-b648-fc604dfaeb17"
+          }
+        ],
+        "stage": "phase4_tio2_rutile_p1_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_SnSrO2",
+      "stage": "prototype_SnSrO2--prototype_initial",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 4-atom Sr1 Sn1 O2 cell at stage prototype_initial, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/21a4e423-9b4a-4c3d-8ae1-128df5566f0b"
+          }
+        ],
+        "stage": "prototype_SnSrO2--prototype_initial"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_SnSrO2",
+      "stage": "prototype_SnSrO2--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 4-atom Sr1 Sn1 O2 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/2f9d3856-fecb-42c0-8aab-ebdcea9a1ec0"
+          }
+        ],
+        "stage": "prototype_SnSrO2--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_BaSnO2",
+      "stage": "prototype_BaSnO2--prototype_initial",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 4-atom Ba1 Sn1 O2 cell at stage prototype_initial, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/98f7e7ea-b9db-46ee-a421-6ecb305fbb03"
+          }
+        ],
+        "stage": "prototype_BaSnO2--prototype_initial"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_BaSnO2",
+      "stage": "prototype_BaSnO2--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 4-atom Ba1 Sn1 O2 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/8991163e-2a32-4195-bac3-0ad0813ceab6"
+          }
+        ],
+        "stage": "prototype_BaSnO2--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_CaMg2O3",
+      "stage": "prototype_CaMg2O3--prototype_initial",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ca1 Mg2 O3 cell at stage prototype_initial, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/8c2ea292-df30-4dbb-a08b-ddf2648aa242"
+          }
+        ],
+        "stage": "prototype_CaMg2O3--prototype_initial"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_CaMg2O3",
+      "stage": "prototype_CaMg2O3--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ca1 Mg2 O3 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/f471025d-0b33-4930-80a1-7fd2f6fbf661"
+          }
+        ],
+        "stage": "prototype_CaMg2O3--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_Mg2SrO3",
+      "stage": "prototype_Mg2SrO3--prototype_initial",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Sr1 Mg2 O3 cell at stage prototype_initial, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/453ea6b3-5bcb-4db8-96b9-d4efffb65c5a"
+          }
+        ],
+        "stage": "prototype_Mg2SrO3--prototype_initial"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "prototype_Mg2SrO3",
+      "stage": "prototype_Mg2SrO3--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Sr1 Mg2 O3 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/3ce9d94e-fddb-4f95-89fb-31287d2c66b0"
+          }
+        ],
+        "stage": "prototype_Mg2SrO3--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "reference_rocksalt",
+      "stage": "reference_rocksalt--catalog_initial",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage catalog_initial, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/537ed66d-e8ae-4469-a498-09b1d801c98c"
+          }
+        ],
+        "stage": "reference_rocksalt--catalog_initial"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "reference_rocksalt",
+      "stage": "reference_rocksalt--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/6e997495-6ac4-4bcd-ae36-875437fec0a2"
+          }
+        ],
+        "stage": "reference_rocksalt--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "reference_rutile",
+      "stage": "reference_rutile--catalog_initial",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage catalog_initial, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/18590ea9-5dcc-4cef-b71e-840b1128f2c4"
+          }
+        ],
+        "stage": "reference_rutile--catalog_initial"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "reference_rutile",
+      "stage": "reference_rutile--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/1b48adf8-7a51-472e-ba99-122f99d31d28"
+          }
+        ],
+        "stage": "reference_rutile--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "reference_anatase",
+      "stage": "reference_anatase--catalog_initial",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 12-atom Ti4 O8 cell at stage catalog_initial, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/166e7070-f63c-4733-b792-76e613eaeb06"
+          }
+        ],
+        "stage": "reference_anatase--catalog_initial"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "reference_anatase",
+      "stage": "reference_anatase--model_relaxed",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 12-atom Ti4 O8 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/b4469826-8070-42b7-b15e-c76ab388ae91"
+          }
+        ],
+        "stage": "reference_anatase--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "phase3_early_CaMg2O3_attempt_005",
+      "stage": "phase3_early_CaMg2O3_attempt_005--generated_excluded",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 12-atom Ca2 Mg4 O6 cell at stage generated_excluded, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/8e454c24-6807-4fa8-a997-4f6a23e61a96"
+          }
+        ],
+        "stage": "phase3_early_CaMg2O3_attempt_005--generated_excluded"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "qe_source_reference_mgo_mp1265",
+      "stage": "qe_source_reference_mgo_mp1265--accepted_dft",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 2-atom Mg1 O1 cell at stage accepted_dft, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/675819c2-a811-48fb-82b1-2c40446e336b"
+          }
+        ],
+        "stage": "qe_source_reference_mgo_mp1265--accepted_dft"
+      }
+    },
+    {
+      "check": "saved-stage-final",
+      "candidate": "qe_source_reference_cao_mp2605",
+      "stage": "qe_source_reference_cao_mp2605--accepted_dft",
+      "passed": true,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 2-atom Ca1 O1 cell at stage accepted_dft, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/821e5040-1ae2-4841-9bc3-bdcba5e5c81b"
+          }
+        ],
+        "stage": "qe_source_reference_cao_mp2605--accepted_dft"
+      }
+    }
+  ],
+  "rawLog": {
+    "path": "reports/W7_LIVE_CHECKS.jsonl",
+    "bytes": 27222,
+    "sha256": "402fe61acb5700b33e9cb87bde683b1e8890c4c00f89deed903e6bd717ed0645"
+  },
+  "rawObservations": 56,
+  "rawFailedObservationsPreserved": 8,
+  "resolvedEarlierObservations": [
+    {
+      "check": "saved-stage-integrity",
+      "candidate": "phase1_mgo_attempt_000",
+      "stage": "phase1_mgo_attempt_000--generated",
+      "passed": false,
+      "observation": {
+        "alerts": [],
+        "images": [],
+        "stage": "phase1_mgo_attempt_000--generated"
+      }
+    },
+    {
+      "check": "saved-stage-integrity",
+      "candidate": "phase1_mgo_attempt_000",
+      "stage": "phase1_mgo_attempt_000--model_relaxed",
+      "passed": false,
+      "observation": {
+        "alerts": [],
+        "images": [],
+        "stage": "phase1_mgo_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-integrity",
+      "candidate": "phase1_mgo_attempt_000",
+      "stage": "phase1_mgo_attempt_000--accepted_dft",
+      "passed": false,
+      "observation": {
+        "alerts": [],
+        "images": [],
+        "stage": "phase1_mgo_attempt_000--accepted_dft"
+      }
+    },
+    {
+      "check": "saved-stage-integrity",
+      "candidate": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "stage": "unavailable-dft",
+      "passed": false,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 8-atom Mg4 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/0ead3117-3d3f-4f6d-85cb-63c9060beb13"
+          }
+        ],
+        "stage": "phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-integrity",
+      "candidate": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "stage": "unavailable-dft",
+      "passed": false,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/219bf8ca-adf0-4357-a5be-0bb0c217e7ee"
+          }
+        ],
+        "stage": "phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "check": "saved-stage-integrity",
+      "candidate": "phase4_tio2_rutile_p1_attempt_000",
+      "stage": "unavailable-dft",
+      "passed": false,
+      "observation": {
+        "alerts": [],
+        "images": [
+          {
+            "alt": "Saved 6-atom Ti2 O4 cell at stage model_relaxed, with original saved site identity.",
+            "src": "blob:https://theflamelproject.42web.io/c3970dc1-6d80-4313-be79-cca05b0a5f03"
+          }
+        ],
+        "stage": "phase4_tio2_rutile_p1_attempt_000--model_relaxed"
+      }
+    },
+    {
+      "check": "findings-controls-figures",
+      "passed": false,
+      "observation": {
+        "alerts": [
+          "EVIDENCE UNAVAILABLE\n\nResearch file size mismatch.\n\nTry loading again",
+          "EVIDENCE UNAVAILABLE\n\nResearch file size mismatch.\n\nTry loading again",
+          "EVIDENCE UNAVAILABLE\n\nResearch file size mismatch.\n\nTry loading again"
+        ],
+        "heading": "Results, with their limits.",
+        "images": [],
+        "radio": [
+          "full"
+        ],
+        "selects": [
+          "tio2_rutile",
+          "mgo_rocksalt",
+          "BaSnO2",
+          "20261026",
+          ""
+        ]
+      }
+    },
+    {
+      "check": "mobile-390",
+      "passed": false,
+      "observation": {
+        "alerts": [],
+        "images": 1,
+        "navLinks": [
+          "01\nOverview",
+          "02\nWorkflow",
+          "03\nReplay",
+          "04\nCrystal Lab",
+          "05\nFindings",
+          "06\nEvidence"
+        ],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    }
+  ],
+  "failureDisposition": [
+    {
+      "checks": [
+        "saved-stage-integrity"
+      ],
+      "resolution": "Preliminary harness requests included unsettled loading and nonexistent/disabled DFT stages. Replaced by final registry-driven verification of all26 real saved stages; preliminary rows retained."
+    },
+    {
+      "checks": [
+        "findings-controls-figures"
+      ],
+      "resolution": "Actual image transport/hash failure repaired with exact-byte opaque image sidecars and static image routing. Allthree final Findings figure loads passed runtime integrity checks."
+    },
+    {
+      "checks": [
+        "mobile-390"
+      ],
+      "resolution": "Preliminary expectation confused requested390px viewport with375px document width after15px native scrollbar. Final layout observation has equal375px document/scroll widths and no horizontal overflow."
+    },
+    {
+      "checks": [
+        "initial cached image response"
+      ],
+      "resolution": "A temporary HTTPS cache-only Clear-Site-Data response invalidated primed testing cache; steady root230B and child156B configs restored and final homepage passed."
+    }
+  ],
+  "coverage": {
+    "views": 6,
+    "savedStages": 26,
+    "findingsFiguresRuntimeHashChecked": 3,
+    "sourceRegistryEntries": 103,
+    "tourScenesManuallyTraversed": 6,
+    "liveFull180SecondTourRepeated": false,
+    "fullTimedTourRetainedFromW6": true,
+    "actualDownloads": 2,
+    "actualDownloadChecks": 302,
+    "mobileRequestedViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "mobileDocumentAndScrollWidth": 375,
+    "consoleErrorsOrWarningsObserved": 0,
+    "insecureVisibleDomResourcesObserved": 0
+  },
+  "hostAdapter": {
+    "sidecars": 33,
+    "steadyConfigurations": 2,
+    "rootConfigBytes": 230,
+    "childConfigBytes": 156,
+    "temporaryCacheResetRemoved": true,
+    "effectiveInventory": {
+      "path": "reports/W7_FINAL_REMOTE_INVENTORY.json",
+      "bytes": 120208,
+      "sha256": "be58b3bb1728072b5d74bdc45369a5551a64aea83df7f5e2e80a5ed8997576c0"
+    }
+  },
+  "downloads": {
+    "path": "reports/W7_LIVE_DOWNLOAD_VALIDATION.json",
+    "bytes": 37966,
+    "sha256": "fcb1f6b9405b9a03fa92bf9796f256ec6565c20eb5f5bba20c5b2efbf3d228c9"
+  },
+  "captures": [
+    {
+      "path": "reports/W7_LIVE_DESKTOP.jpg",
+      "bytes": 53336,
+      "sha256": "a8239bd3ff8b8b3b79947a743be29736a8bfd7f3c3b63d03c096ae4dcb447fb2",
+      "width": 1265,
+      "height": 712
+    },
+    {
+      "path": "reports/W7_LIVE_FINAL.jpg",
+      "bytes": 53336,
+      "sha256": "a8239bd3ff8b8b3b79947a743be29736a8bfd7f3c3b63d03c096ae4dcb447fb2",
+      "width": 1265,
+      "height": 712
+    },
+    {
+      "path": "reports/W7_LIVE_MOBILE.jpg",
+      "bytes": 37727,
+      "sha256": "85e08876186627a00eff5390bbba69cf5764ba66393ec5e74239a94fdf715b8f",
+      "width": 375,
+      "height": 812
+    }
+  ],
+  "verificationLimits": [
+    "Available in-app browser only, with desktop/mobile viewports; no physical-device or unavailable-browser certification.",
+    "Actual downloaded original image sample matched its frozen hash; all26 saved-stage fallback images and three Findings figures passed the application hash loader. No blanket remote-body SHA assertion for every88 release files.",
+    "File Manager observations establish physical paths and displayed-size consistency; they are not independent remote SHA proof.",
+    "Browser console and visible resource URLs were inspected, not a packet-level every-response TLS audit.",
+    "W7 traversed six paused/manual tour scenes; the full180second timed rehearsal remains the preserved W6 result.",
+    "Rollback payload/instructions retained; destructive rollback of the now-working site was not performed."
+  ]
+}

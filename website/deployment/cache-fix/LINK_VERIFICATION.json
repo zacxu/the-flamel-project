@@ -1,0 +1,12 @@
+{
+  "directHomepageBuild": "ui-w6-351e6182d7af3a9d062d",
+  "clickedHomepageBuild": "ui-w6-351e6182d7af3a9d062d",
+  "clickedCrystalBuild": "ui-w6-351e6182d7af3a9d062d",
+  "recovery": {
+    "homeBuild": "ui-w6-351e6182d7af3a9d062d",
+    "crystalBuild": "ui-w6-351e6182d7af3a9d062d",
+    "url": "https://theflamelproject.42web.io/refresh#/crystals",
+    "latticePresetWorks": "true",
+    "errors": []
+  }
+}

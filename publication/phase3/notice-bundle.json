@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-10T20:07:52.127276+00:00",
+  "name": "flamel-third-party-notices-20261111.zip",
+  "bytes": 26664,
+  "sha256": "e5b23c290d6c163a68e615a210204299d7ca7ece443ce02d841d820537b3fe19",
+  "availability": "local-only",
+  "publication_status": "not_published",
+  "download_url": null,
+  "local_path": "D:\\Backups\\TheFlamelProject\\phase3-20261111-audit\\release-sidecars\\flamel-third-party-notices-20261111.zip",
+  "source_notice_root": "repository root",
+  "source_notice_paths": [
+    "THIRD_PARTY_NOTICES.md",
+    "publication/third-party/"
+  ],
+  "scope": "Exactly the 10 new Phase 3 third-party notice files; no raw audit metadata, models, scientific inputs, UPF payloads or credentials",
+  "purpose": "Companion notice package to accompany each of the 11 candidate research archives; the 3 UPF-containing originals remain private",
+  "members": [
+    {
+      "archive_path": "THIRD_PARTY_NOTICES.md",
+      "source_path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 11367,
+      "sha256": "e966e7bada7950a525d33e0f3bc0b8afde295c781761967e7666758d02c16aa2"
+    },
+    {
+      "archive_path": "publication/third-party/APACHE-2.0-CrystalFormer.txt",
+      "source_path": "publication/third-party/APACHE-2.0-CrystalFormer.txt",
+      "bytes": 11335,
+      "sha256": "147c6437df624c721f3911202e6e254e8d19789538247b79375acd0034fa1108"
+    },
+    {
+      "archive_path": "publication/third-party/CC-BY-4.0.txt",
+      "source_path": "publication/third-party/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "archive_path": "publication/third-party/CHGNet-0.4.2-LICENSE.txt",
+      "source_path": "publication/third-party/CHGNet-0.4.2-LICENSE.txt",
+      "bytes": 2519,
+      "sha256": "a06789a2624485a9de5903d3d4cceeec6127a36042dd7364999ff994587a4a41"
+    },
+    {
+      "archive_path": "publication/third-party/CrystalFormer-checkpoint-README.md",
+      "source_path": "publication/third-party/CrystalFormer-checkpoint-README.md",
+      "bytes": 518,
+      "sha256": "100d084a3c15e7fbc4338521cd17fa97fc33332a06dc55540589c6c92ed2cb6d"
+    },
+    {
+      "archive_path": "publication/third-party/PRIMARY_EVIDENCE.json",
+      "source_path": "publication/third-party/PRIMARY_EVIDENCE.json",
+      "bytes": 7036,
+      "sha256": "f1b039e7f3785a251c08b20917ebfaeca675793a04d69f98e60f6d2f1dfd6dd3"
+    },
+    {
+      "archive_path": "publication/third-party/PUBLICATION_MATRIX.json",
+      "source_path": "publication/third-party/PUBLICATION_MATRIX.json",
+      "bytes": 8715,
+      "sha256": "a3da7cbe8f76d6dcb44768d2ac93a398d8a3cdea48cc23fbd6ba4efb161aec9b"
+    },
+    {
+      "archive_path": "publication/third-party/README.md",
+      "source_path": "publication/third-party/README.md",
+      "bytes": 3903,
+      "sha256": "d58a911e8b1f187d6f2bab615238b35a44bcbe0af05ad98f35160c39aace94b3"
+    },
+    {
+      "archive_path": "publication/third-party/SSSP-LICENSE.txt",
+      "source_path": "publication/third-party/SSSP-LICENSE.txt",
+      "bytes": 3673,
+      "sha256": "8028d9d7fcad7932bb5551dc0a60cff6c6b7f7aa2bd480f516a2faaa09d943a1"
+    },
+    {
+      "archive_path": "publication/third-party/USED_PSEUDOPOTENTIALS.json",
+      "source_path": "publication/third-party/USED_PSEUDOPOTENTIALS.json",
+      "bytes": 1722,
+      "sha256": "23e5f1e699f9a631a59d7ada5f4808829a8f3214a13cbd0187445d528b678153"
+    }
+  ],
+  "verification": {
+    "source_receipt_match": "10/10 bytes and SHA-256 matched creation receipt",
+    "zip_member_names": "exactly 10 expected unique relative paths",
+    "zip_crc": "passed",
+    "zip_member_bytes_and_sha256": "10/10 matched current source",
+    "known_credential_patterns": "no findings across 6 high-confidence pattern families; hashes and public source URLs retained",
+    "inspection": "exact files are upstream licence texts, model README, public attribution/provenance and scope records",
+    "limits": "Pattern matching is not proof of absence of every possible secret; the exact selected content was also reviewed during the licence audit"
+  },
+  "changes": "Two new files only: this JSON record and the external ZIP. No source notice, Phase2 archive/manifest or existing project file edited. No Git or upload commands."
+}

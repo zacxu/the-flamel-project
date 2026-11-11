@@ -1,0 +1,68 @@
+{
+  "angle_tolerance_degrees": 5.0,
+  "architecture": {
+    "Kl": 4,
+    "Kx": 16,
+    "Nf": 5,
+    "atom_types": 119,
+    "attn_dropout": 0.1,
+    "dropout_rate": 0.1,
+    "embed_size": 256,
+    "h0_size": 256,
+    "key_size": 32,
+    "model_size": 256,
+    "n_max": 21,
+    "num_heads": 8,
+    "num_layers": 16,
+    "wyck_types": 28
+  },
+  "candidate_ids": [
+    "phase4_mgo_rocksalt_p1_attempt_000",
+    "phase4_mgo_rocksalt_p1_attempt_001",
+    "phase4_mgo_rocksalt_p1_attempt_002",
+    "phase4_mgo_rocksalt_p1_attempt_003",
+    "phase4_mgo_rocksalt_p1_attempt_004",
+    "phase4_mgo_rocksalt_p1_attempt_005",
+    "phase4_mgo_rocksalt_p1_attempt_006",
+    "phase4_mgo_rocksalt_p1_attempt_007"
+  ],
+  "case": {
+    "attempts": 8,
+    "batch_size": 4,
+    "chemical_system": "Mg-O",
+    "conditioning_formula": "MgO",
+    "evaluated_formula": "Mg4O4",
+    "evaluated_n_atoms": 8,
+    "exact_expanded_counts": {
+      "Mg": 4,
+      "O": 4
+    },
+    "formula": "Mg4O4",
+    "sampling_seed": 20261022,
+    "spacegroup": 1
+  },
+  "checkpoint_revision": "b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+  "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+  "cpu_affinity_mask": "0xF",
+  "deduplication": {
+    "angle_tol": 5.0,
+    "attempt_supercell": false,
+    "ltol": 0.05,
+    "primitive_cell": true,
+    "scale": true,
+    "stol": 0.1
+  },
+  "expanded_atom_cap": 20,
+  "logical_cpu_limit": 4,
+  "minimum_distance_angstrom": 0.75,
+  "periodic_distance_definition": "Minimum of distinct-site periodic distance and shortest nonzero lattice translation (includes atom/self-image separation).",
+  "phase": 4,
+  "run_id": "phase4_mgo_rocksalt_p1",
+  "source_protocol": "artifacts/phase2/controls/matched_protocol.json",
+  "source_protocol_sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67",
+  "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+  "symprec_angstrom": 0.01,
+  "temperature": 1.0,
+  "timing_interpretation": "First call includes SG-specific JIT compilation and sampling; later same-shape call is warm. Comparison with Phase 1 SG225 changes group and composition, and is not an isolated formula-change experiment.",
+  "top_p": 1.0
+}

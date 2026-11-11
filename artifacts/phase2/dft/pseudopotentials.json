@@ -1,0 +1,32 @@
+{
+  "library": "SSSP_1.3.0_PBE_efficiency",
+  "elements": {
+    "Ca": {
+      "filename": "Ca_pbe_v1.uspp.F.UPF",
+      "md5": "403a4c14b9e4d4dfdc3024c9a3812218",
+      "pseudopotential": "GBRV-1.2",
+      "cutoff_wfc": 30.0,
+      "cutoff_rho": 240.0,
+      "path": "data\\pseudopotentials\\Ca_pbe_v1.uspp.F.UPF",
+      "sha256": "5887acb75823f7f92df1b3117fece4e43498cafccaaaf9cfa653615af1a20d6e"
+    },
+    "Mg": {
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "md5": "24ecedc7f3e3cbe212e682f4413594e4",
+      "pseudopotential": "031PAW",
+      "cutoff_wfc": 30.0,
+      "cutoff_rho": 240.0,
+      "path": "data\\pseudopotentials\\Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "sha256": "f057a22e5d8484686a1b3fe3724aa01af4236fe8a845e5c2f772c472f107639f"
+    },
+    "O": {
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "md5": "0234752ac141de4415c5fc33072bef88",
+      "pseudopotential": "031PAW",
+      "cutoff_wfc": 50.0,
+      "cutoff_rho": 400.0,
+      "path": "data\\pseudopotentials\\O.pbe-n-kjpaw_psl.0.1.UPF",
+      "sha256": "7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa"
+    }
+  }
+}

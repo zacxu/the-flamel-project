@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "historical_manifests_unchanged": true,
+  "overrides": [
+    {
+      "path": "artifacts/phase2/catalogs/mp_download_headers.txt",
+      "previous_destination": "git",
+      "destination": "private-backup",
+      "bytes": 2231,
+      "sha256": "a0c54cd74c7b9b6df4b54db38f053f68562be29424a72fbeb4c8192fb8b92d18",
+      "reason": "Contains a historical signed Figshare S3 redirect and Set-Cookie header; signed URL expired after 10 seconds on 21 October 2026. Entire original withheld without altering source evidence.",
+      "original_retained_in_working_tree": true,
+      "backup": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\project-snapshot\\bears\\artifacts\\phase2\\catalogs\\mp_download_headers.txt",
+      "public_derivative": "publication/phase3/evidence/mp_download_headers.sanitized.txt",
+      "derivative_changes": [
+        "Removed complete Location query string",
+        "Removed complete Set-Cookie value",
+        "Normalized derivative to UTF-8/LF; original bytes not edited"
+      ]
+    }
+  ]
+}

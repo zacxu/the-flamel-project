@@ -1,0 +1,61 @@
+{
+  "adapted_bootstrap_plans_recomputed": 625,
+  "aggregate_source_sha256": "9e02c1a8517918697fb742aff3e9b17e32c871a57d0500d03fab20229c82fcfb",
+  "aggregate_summary_path": "artifacts\\phase4\\replay\\aggregate_summary.json",
+  "aggregate_summary_sha256": "0af681b1c46325cd5532e3bf6f0b0bc1781b78f14fb5778f1abed559ff3406fb",
+  "all_calibration_ids_fixed": true,
+  "all_decisions_serialized_before_reveals": true,
+  "all_diversity_normalizers_frozen_initial_only": true,
+  "all_evaluator_labels_read_after_all_policy_queries_complete_within_seed": true,
+  "all_models_and_decision_reveal_fit_hashes_valid": true,
+  "all_training_ids_initial_plus_only_own_policy_queries": true,
+  "calibrations_recomputed": 130,
+  "completed_at_utc": "2026-10-22T02:03:18.256759+00:00",
+  "decisions_replayed_from_pre_reveal_predictions": 125,
+  "floating_reproduction_tolerance_rtol_and_atol": 1e-12,
+  "initial_bootstrap_plans_recomputed": 25,
+  "n_paired_seeds": 5,
+  "new_fits_queries_or_oracle_access_in_audit": 0,
+  "new_policy_queries": 1000,
+  "oracle_file_read_by_aggregate_or_auditor": false,
+  "original_fresh_selector_unchanged": true,
+  "per_seed_audits": [
+    {
+      "path": "artifacts\\phase4\\replay\\audits\\seed_20261022.json",
+      "seed": 20261022,
+      "sha256": "4601262da320f8ebc72d1f260a6717125175ece468f8f6fc2df73928f1cf8ffd"
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\audits\\seed_20261023.json",
+      "seed": 20261023,
+      "sha256": "48beb33fdf393dc33974e294da28a75fece9340dc319b039f366c4ea66d1744b"
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\audits\\seed_20261024.json",
+      "seed": 20261024,
+      "sha256": "36f157baa3f72e98456ba0b655fac8e72ebe8b84dd4ca9c8d3736f7797e241c0"
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\audits\\seed_20261025.json",
+      "seed": 20261025,
+      "sha256": "98d56322967a35c22d4b93e63c440f3e4a4d1176f360a432c9f91e635e43aa42"
+    },
+    {
+      "path": "artifacts\\phase4\\replay\\audits\\seed_20261026.json",
+      "seed": 20261026,
+      "sha256": "8e4c1485828dd27dc091e630498bb41b40e052227377cf9118cdae7177d7f27f"
+    }
+  ],
+  "phase3_sources_reused_read_only": true,
+  "seeds": [
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "status": "passed",
+  "total_policy_queries": 1250,
+  "unique_queries_per_policy_per_seed": 50,
+  "verified_model_snapshots": 130
+}

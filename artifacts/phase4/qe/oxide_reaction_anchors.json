@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-22T01:50:26.187825+00:00",
+  "scope": "Compatible CaO+2MgO reaction anchors only; target candidate has not been calculated; no decomposition hull established",
+  "target_formula": "CaMg2O3",
+  "balanced_products": {
+    "CaO": 1,
+    "MgO": 2
+  },
+  "per_atom_weights": {
+    "CaO": 0.3333333333333333,
+    "MgO": 0.6666666666666666
+  },
+  "weighted_product_energy_eV_per_atom": -607.632128521934,
+  "CaO_result_path": "artifacts\\phase4\\qe\\p4_ref_cao_90_k035\\result.json",
+  "CaO_result_sha256": "b989db549f199409499e571f4afc6a2baa19e8b688dbe44079f46bdef50064b5",
+  "MgO_result_path": "artifacts\\phase3\\qe\\p3_ref_mgo_90_k035_cont1\\result.json",
+  "MgO_result_sha256": "2b613f7d9dc7b12b574c4eeb20b68617915cf0d211a3d11834cf78b17b903872",
+  "same_functional_common_O_pseudopotential_cutoffs_and_kspacing": true,
+  "candidate_energy_present": false,
+  "reaction_energy_present": false,
+  "interpretation": "A future positive resolved candidate-minus-products difference establishes instability against this reaction. A negative difference only beats these anchors and is insufficient for full-inventory stability."
+}

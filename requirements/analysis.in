@@ -1,0 +1,9 @@
+# Torch comes from the official CUDA 12.4 wheel index; see scripts/setup_environments.ps1.
+torch==2.6.0+cu124
+chgnet==0.4.2
+numpy==2.2.6
+ase==3.26.0
+pymatgen<2026
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib<3.11

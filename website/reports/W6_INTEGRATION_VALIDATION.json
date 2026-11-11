@@ -1,0 +1,1904 @@
+{
+  "phase": "W6",
+  "status": "passed",
+  "generatedAt": "2026-10-22T14:24:39.464Z",
+  "scope": "Integrated read-only source, arithmetic, saved-geometry, state/lifecycle and WCAG palette verification. Browser interaction, physical-device coverage and deployment are separately recorded.",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "manifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "baselineSha256": "1ff35e05aaceb42f5a38293fd296e5b7a50d7774d010f6991062f8c32716f893",
+  "newScientificExperiments": 0,
+  "publishedOrDeployed": false,
+  "checksPassed": 387,
+  "checksFailed": 0,
+  "sourceRegressionChecks": 224507,
+  "independentReports": [
+    {
+      "path": "reports/W6_RESEARCH_VALIDATION.json",
+      "sha256": "b4d5eda2f69cb7478bbd6cffba30476c2225ffb851e60da34fb0518710bb1b2a",
+      "checksPassed": 108571,
+      "verifier": "scripts/run-python.mjs",
+      "verifierSha256": "da7c5e45d9ab5fd5c7a9bb33fbe8fd317e043ec88e61bceffb92613d611cbdfc"
+    },
+    {
+      "path": "reports/W6_LOADER_VALIDATION.json",
+      "sha256": "cbb5818c259dc1ab387fe1f0efdcd51ed99539e9e7a4cc4a4e16f2c84995d16b",
+      "checksPassed": 10,
+      "verifier": "scripts/verify-loader.mjs",
+      "verifierSha256": "9932eefaa5b2d796c907f881c26dae7d2a1be0d88cacf0fa6633217463430b77"
+    },
+    {
+      "path": "reports/W6_DATA_GUARDS.json",
+      "sha256": "fbc6214132a5314802922f3d6390f6e40707b790793eac9e710ddf401a18410d",
+      "checksPassed": 202,
+      "verifier": "scripts/verify-guards.mjs",
+      "verifierSha256": "504554633ed9182a451d6d7a8dcbb6218f585e11742c83e39555eb78ab1e61bf"
+    },
+    {
+      "path": "reports/W6_STATE_VALIDATION.json",
+      "sha256": "4bbf4f86f9734b15669045dde89055c6c1dce82554c1081a109e60aad4a83077",
+      "checksPassed": 606,
+      "verifier": "scripts/verify-state.mjs",
+      "verifierSha256": "409313840bab1f3ac0b545cfdba37fb5af5da455af3508ea0623d5996bcbc396"
+    },
+    {
+      "path": "reports/W6_REPLAY_VALIDATION.json",
+      "sha256": "78088924f0ed29e40997473384b2a6cb25d823d6b698ab2e4de8bd88c04a6e85",
+      "checksPassed": 45871,
+      "verifier": "scripts/verify-replay.mjs",
+      "verifierSha256": "9d984f67843d46eee84fa73f43a4a65a82c0e577945cdbaeb95e2784a7c81382"
+    },
+    {
+      "path": "reports/W6_PLAYBACK_VALIDATION.json",
+      "sha256": "a2d2ff754190d18d58bbc7f59a72c307ea42aec4341482929cf372595f154702",
+      "checksPassed": 458,
+      "verifier": "scripts/verify-playback.mjs",
+      "verifierSha256": "c85e768ee52200ce27ad03a7cedf8b1040dd0d703fc10b615e1db345ff5ffc3f"
+    },
+    {
+      "path": "reports/W6_GEOMETRY_VALIDATION.json",
+      "sha256": "93d731b01a1d224c50799f0e51ffc0ead4839a5a19dfe4e205e92d00b1e8dad5",
+      "checksPassed": 7060,
+      "verifier": "scripts/verify-crystal.mjs",
+      "verifierSha256": "a7240436009f15e97f1e356a4f1132056ee2fd000a7b75824cdad94057131f75"
+    },
+    {
+      "path": "reports/W6_VIEWER_VALIDATION.json",
+      "sha256": "56acdc7e0eae90908eeefcc65cebfbd253dabc57f98f34672474d8ccffffcb45",
+      "checksPassed": 288,
+      "verifier": "scripts/verify-viewer.mjs",
+      "verifierSha256": "4e838267f62b5abfbd08faf0cb9c660da9da2f11e637c04171f15950a2d92005"
+    },
+    {
+      "path": "reports/W6_GENERATION_VALIDATION.json",
+      "sha256": "67193b46dad39af4f4e9b909b780346c0a7f8cae96f4ab4fc5444c59ceeeef79",
+      "checksPassed": 3835,
+      "verifier": "scripts/verify-generation.mjs",
+      "verifierSha256": "0c6f943cbb5f633db138cbd2636cecd35429b5781557989fefec609f111472f6"
+    },
+    {
+      "path": "reports/W6_UNCERTAINTY_VALIDATION.json",
+      "sha256": "7d8b05c6008d8a6edfa38d90e2de5466d9ddafbf3fc30c4df78f60533a59e974",
+      "checksPassed": 55470,
+      "verifier": "scripts/verify-uncertainty.mjs",
+      "verifierSha256": "b7655bd719ed6e89aa1968cd29d3b00cdcba25d69603e638e745a07f9223fd7c"
+    },
+    {
+      "path": "reports/W6_EVIDENCE_VALIDATION.json",
+      "sha256": "45b74f1af3991e1a5c18b9650867545bc81c2632d13a8d1fe66927224b299292",
+      "checksPassed": 2136,
+      "verifier": "scripts/verify-evidence.mjs",
+      "verifierSha256": "3876e279b92b5e5a2f81416b57e0ff6e77fe63ed9675bc72878e04ce38333310"
+    }
+  ],
+  "tooling": {
+    "path": "reports/W6_TOOLING.json",
+    "sha256": "060203a98a9e1180b6232d60c3f3cab8de6b4fe60d06998857a1b6f6a12883e9",
+    "checksPassed": 124
+  },
+  "presentationSources": [
+    {
+      "path": "src/presentation/policyColours.ts",
+      "sha256": "05f7771ae88f301431078e1a9fee3813225a5b5cfa6a40c89f7a3b439cb6061f"
+    },
+    {
+      "path": "src/views/Overview.tsx",
+      "sha256": "319f64a5178c381a78bd9cdd5252ada1bfb45d35f40ac2d0a36b07d605882347"
+    },
+    {
+      "path": "src/views/Replay.tsx",
+      "sha256": "813cdd1f045393f679fe7f5a6bc45b71a62207da9604ee1c066b0e787e8955c3"
+    },
+    {
+      "path": "src/replay/model.ts",
+      "sha256": "c9c8db0ce9b21b02ed3c5fdb05ed3a86b0e81d0a3dc43c355a4c489f5ff64da0"
+    }
+  ],
+  "contrastMeasurements": [
+    {
+      "role": "normal text",
+      "foreground": "#202a31",
+      "background": "#f6f2e9",
+      "ratio": 13.080511690720035
+    },
+    {
+      "role": "normal text",
+      "foreground": "#202a31",
+      "background": "#fffefa",
+      "ratio": 14.481459167656856
+    },
+    {
+      "role": "normal text",
+      "foreground": "#52606a",
+      "background": "#f6f2e9",
+      "ratio": 5.801184779531626
+    },
+    {
+      "role": "normal text",
+      "foreground": "#52606a",
+      "background": "#fffefa",
+      "ratio": 6.422502612678393
+    },
+    {
+      "role": "normal text",
+      "foreground": "#164b6b",
+      "background": "#f6f2e9",
+      "ratio": 8.343224553346195
+    },
+    {
+      "role": "normal text",
+      "foreground": "#164b6b",
+      "background": "#fffefa",
+      "ratio": 9.236799641530249
+    },
+    {
+      "role": "normal text",
+      "foreground": "#92522f",
+      "background": "#f6f2e9",
+      "ratio": 5.416476669156878
+    },
+    {
+      "role": "normal text",
+      "foreground": "#92522f",
+      "background": "#fffefa",
+      "ratio": 5.996591537975499
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality",
+      "foreground": "#0072B2",
+      "background": "#f6f2e9",
+      "ratio": 4.641235426283175
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality",
+      "foreground": "#0072B2",
+      "background": "#fffefa",
+      "ratio": 5.1383204955877755
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality",
+      "foreground": "#0072B2",
+      "background": "#eeebe1",
+      "ratio": 4.347381778890165
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality",
+      "foreground": "#0072B2",
+      "background": "#e3dfd3",
+      "ratio": 3.8920179701785647
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality",
+      "foreground": "#0072B2",
+      "background": "#e9eef0",
+      "ratio": 4.4330124036139695
+    },
+    {
+      "role": "policy graphic",
+      "policy": "full",
+      "foreground": "#9B4275",
+      "background": "#f6f2e9",
+      "ratio": 5.480108883620832
+    },
+    {
+      "role": "policy graphic",
+      "policy": "full",
+      "foreground": "#9B4275",
+      "background": "#fffefa",
+      "ratio": 6.067038882643299
+    },
+    {
+      "role": "policy graphic",
+      "policy": "full",
+      "foreground": "#9B4275",
+      "background": "#eeebe1",
+      "ratio": 5.133143079118985
+    },
+    {
+      "role": "policy graphic",
+      "policy": "full",
+      "foreground": "#9B4275",
+      "background": "#e3dfd3",
+      "ratio": 4.5954751902486555
+    },
+    {
+      "role": "policy graphic",
+      "policy": "full",
+      "foreground": "#9B4275",
+      "background": "#e9eef0",
+      "ratio": 5.234250888604686
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality_diversity",
+      "foreground": "#007C5B",
+      "background": "#f6f2e9",
+      "ratio": 4.659262697039379
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality_diversity",
+      "foreground": "#007C5B",
+      "background": "#fffefa",
+      "ratio": 5.158278521048314
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality_diversity",
+      "foreground": "#007C5B",
+      "background": "#eeebe1",
+      "ratio": 4.364267676977736
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality_diversity",
+      "foreground": "#007C5B",
+      "background": "#e3dfd3",
+      "ratio": 3.9071351653415367
+    },
+    {
+      "role": "policy graphic",
+      "policy": "quality_diversity",
+      "foreground": "#007C5B",
+      "background": "#e9eef0",
+      "ratio": 4.4502309041909935
+    },
+    {
+      "role": "policy graphic",
+      "policy": "random",
+      "foreground": "#777777",
+      "background": "#f6f2e9",
+      "ratio": 4.008115411496342
+    },
+    {
+      "role": "policy graphic",
+      "policy": "random",
+      "foreground": "#777777",
+      "background": "#fffefa",
+      "ratio": 4.437392132910158
+    },
+    {
+      "role": "policy graphic",
+      "policy": "random",
+      "foreground": "#777777",
+      "background": "#eeebe1",
+      "ratio": 3.754346915683677
+    },
+    {
+      "role": "policy graphic",
+      "policy": "random",
+      "foreground": "#777777",
+      "background": "#e3dfd3",
+      "ratio": 3.361100175990434
+    },
+    {
+      "role": "policy graphic",
+      "policy": "random",
+      "foreground": "#777777",
+      "background": "#e9eef0",
+      "ratio": 3.828296499173433
+    },
+    {
+      "role": "policy graphic",
+      "policy": "uncertainty",
+      "foreground": "#8C6200",
+      "background": "#f6f2e9",
+      "ratio": 4.86671789485011
+    },
+    {
+      "role": "policy graphic",
+      "policy": "uncertainty",
+      "foreground": "#8C6200",
+      "background": "#fffefa",
+      "ratio": 5.387952561884625
+    },
+    {
+      "role": "policy graphic",
+      "policy": "uncertainty",
+      "foreground": "#8C6200",
+      "background": "#eeebe1",
+      "ratio": 4.558588124889313
+    },
+    {
+      "role": "policy graphic",
+      "policy": "uncertainty",
+      "foreground": "#8C6200",
+      "background": "#e3dfd3",
+      "ratio": 4.08110163843056
+    },
+    {
+      "role": "policy graphic",
+      "policy": "uncertainty",
+      "foreground": "#8C6200",
+      "background": "#e9eef0",
+      "ratio": 4.648378892953038
+    }
+  ],
+  "unchanged": {
+    "parentBaselineFiles": 4,
+    "originalInputs": 103,
+    "curatedPayloads": 75,
+    "historicalClosures": 5,
+    "historicalEvidenceFiles": 88
+  },
+  "checks": [
+    {
+      "check": "Current data identity matches W6 baseline",
+      "passed": true
+    },
+    {
+      "check": "Immutable manifest pinned by current source matches W6 baseline",
+      "passed": true
+    },
+    {
+      "check": "Baseline original inputs total 103",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/budget_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/numerical_freeze.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/runtime_budget_events.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase1/generator/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase2/features/row_metadata.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/chgnet/phase1_mgo_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/chgnet/phase1_mgo_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/generation/early_CaMg2O3/structure_005.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_candidate_mgo_fallback_90/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_candidate_mgo_fallback_90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_fallback_final_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_fallback_final_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_mgo_cut60/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_mgo_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_mgo_cut90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_mgo_final_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_mgo_final_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_mgo_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_mgo_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_ref_cao_base/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_ref_cao_base/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_ref_mgo_90_k035/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_ref_mgo_90_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/p3_ref_mgo_base/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase3/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/figures/primary_generation.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/qe/p4_cao_final_cut75/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/qe/p4_cao_final_k045/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/qe/p4_ref_cao_90_k035/final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/qe/p4_ref_cao_90_k035/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase4/replay/query_journal_all_seeds.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/initial_structures/prototype_BaSnO2.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/initial_structures/prototype_CaMg2O3.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/initial_structures/prototype_Mg2SrO3.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/initial_structures/prototype_SnSrO2.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/initial_structures/reference_anatase.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/initial_structures/reference_rocksalt.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/initial_structures/reference_rutile.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/plan.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_BaSnO2/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_BaSnO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_CaMg2O3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_Mg2SrO3/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_Mg2SrO3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_SnSrO2/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/prototype_SnSrO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/reference_anatase/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/reference_anatase/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/reference_rocksalt/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/reference_rocksalt/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/reference_rutile/final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/reference_rutile/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/chgnet/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/figures/within_composition_energies.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/qe/p5_mgo_perturb_90/result.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase5/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/evidence/budget_reconciliation.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/evidence/claim_matrix.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/evidence/fresh_DFT_evidence_table.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/evidence/missing_reference_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/evidence/reference_inventory_completeness.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/evidence/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/figures/research_overview.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/composition_novelty.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/excluded_larger_cell_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/figure_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/generation_cohorts.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/generation_draws.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/prototype_baselines.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/relaxed_structures.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/representative_structures.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/structures/symmetry_energy_pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/evaluation_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/full_policy_role_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/policy_endpoints.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/risk_coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/uncertainty_deciles.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: artifacts/phase6/uncertainty/uncertainty_reliability.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen parent input unchanged: reports/phase6_report.md",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/claims.5c3cf01b895935f0.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/dft.b680900fd8adafaf.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/generation.59e6ca927809464f.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/model-energies.3fc676c6f4830fc7.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/overview.34c36fc0a433966a.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures.5aabdf89e40edca8.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--catalog_initial.c3d3026afcff3a4e.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--model_relaxed.e6566251c9b4f684.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--catalog_initial.bd96802a07c9dc18.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--model_relaxed.698c6e268c59ea1b.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--catalog_initial.8c9231f39e285674.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--model_relaxed.7a74066d12729aa3.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/figures/uncertainty.ecc942c162113844.png",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/generation.837fde064112ac20.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/glossary.7541be1fbd9a40e4.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/methods.b0a9177693439d24.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/notices/dependency-licenses.5cac5df753bf3d89.txt",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/notices/third-party.653a426dddece4a3.txt",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/provenance.58425544f5e7e1e1.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/replay/curves.c27a1c520d6a0fb9.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261022.c82758dddddd9cff.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261023.bc0fc45c9510e91f.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261024.8b43112d97b4ddb2.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261025.a1fbdaceca7152e6.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261026.4ab9316a2b04c31e.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/index.8be3595e5f4488c5.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--accepted_dft.89c1ef588513d61e.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--generated.434804f89dace552.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--model_relaxed.afe5ab7b682d2bff.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.2127387a4831b5a7.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.de78aa219c9dfce6.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.e5d6a6e6844c316a.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.2c3c7eb2c33f5b31.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.27013c09e5d19190.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--generated.f3adf3b3811fb083.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.50eb8960a0f7d0d6.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--model_relaxed.9af486a88529cce1.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--prototype_initial.65ae27e4b432461d.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--model_relaxed.07ac16994a3e42b0.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--prototype_initial.a57125e29dde58dc.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--model_relaxed.b02b16c6d03303a6.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--prototype_initial.00d9e840dfa3f513.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--model_relaxed.6fb5f5e4b37a3cfb.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--prototype_initial.785b1d10f65c2ecf.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_cao_mp2605--accepted_dft.e5bfc2d31c095f10.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_mgo_mp1265--accepted_dft.fdf49e41059fdbc0.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--catalog_initial.4b755a349282f58b.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--model_relaxed.aa914ffc25a47a24.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--catalog_initial.d06f28bc1f6898b5.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--model_relaxed.37e14d1d9dc674bf.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--catalog_initial.98765d0384312e91.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--model_relaxed.19198f87636f4502.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/summary.a7d9d82dcd2b3228.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/theme.27686804a7596fef.json",
+      "passed": true
+    },
+    {
+      "check": "Curated public research payload unchanged: releases/data-v1-2a138b7808f0d12c5151/uncertainty.02d35add6771c23d.json",
+      "passed": true
+    },
+    {
+      "check": "Manifest unchanged: public/research/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Manifest unchanged: research/releases/data-v1-2a138b7808f0d12c5151/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Historical W1 completion unchanged",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_EXPORT.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_LOADER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/runtime.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_DEPENDENCY_LICENSES.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/dependency_audit.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_TOOLING.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_CONTENT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W1_GEOMETRY_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "Historical W2 completion unchanged",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W2_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W2_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W2_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W2_TOOLING.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W2_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W2_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W2_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "check": "Historical W3 completion unchanged",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_REPLAY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_PLAYBACK_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_TOOLING.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_BASELINE.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_CHART_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W3_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/downloads/flamel-comparison-20261022-10queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/downloads/flamel-comparison-20261022-50queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/downloads/flamel-comparison-aggregate-50queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/downloads/flamel-queries-20261022-full-batch-1-predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/downloads/flamel-queries-20261022-full-batch-1-revealed.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical W4 completion unchanged",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_GEOMETRY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_VIEWER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_TOOLING.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_BASELINE.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W4_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/structure-downloads/flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/structure-downloads/flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/structure-downloads/flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/structure-downloads/flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/structure-downloads/flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/structure-downloads/flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "check": "Historical W5 completion unchanged",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_GENERATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_UNCERTAINTY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_EVIDENCE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_TOOLING.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_BASELINE.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_DOWNLOAD_EXPECTATIONS.json",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-symmetry-primary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-selected-energy-pair-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-composition-attempts-CaMg2O3.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-prototype-baselines.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-historical-composition-absence.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-symmetry-primary-tio2_rutile.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-symmetry-supplementary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-excluded-new-formula-diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-uncertainty-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-retention-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-deciles-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-full-policy-roles.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-qe-all.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-reference-all.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-qe-perturbation.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-reference-primary-missing.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-claim-evidence-matrix.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/analysis-downloads/flamel-frozen-computational-accounting.csv",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_FINDINGS_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_EVIDENCE_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "check": "Historical evidence unchanged: reports/W5_FINDINGS_MOBILE.jpg",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: RESEARCH_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: RESEARCH_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: RESEARCH_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned manifest: RESEARCH_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: RESEARCH_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: LOADER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: LOADER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: LOADER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: LOADER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: LOADER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: DATA_GUARDS",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: DATA_GUARDS",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: DATA_GUARDS",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: DATA_GUARDS",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: DATA_GUARDS",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: STATE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: STATE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: STATE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: STATE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: REPLAY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: REPLAY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: REPLAY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: REPLAY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: REPLAY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: PLAYBACK_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: PLAYBACK_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: PLAYBACK_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: PLAYBACK_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: GEOMETRY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: GEOMETRY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: GEOMETRY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: GEOMETRY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned manifest: GEOMETRY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: GEOMETRY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: VIEWER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: VIEWER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: VIEWER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: VIEWER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: VIEWER_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: GENERATION_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: GENERATION_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: GENERATION_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: GENERATION_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned manifest: GENERATION_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: GENERATION_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: UNCERTAINTY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: UNCERTAINTY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: UNCERTAINTY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: UNCERTAINTY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned manifest: UNCERTAINTY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: UNCERTAINTY_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Fresh regression passed: EVIDENCE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "No failed checks: EVIDENCE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression has W6 output identity: EVIDENCE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned data: EVIDENCE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Regression uses pinned manifest: EVIDENCE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "Positive scientific/state check count: EVIDENCE_VALIDATION",
+      "passed": true
+    },
+    {
+      "check": "All five historical splits and policies exercised",
+      "passed": true
+    },
+    {
+      "check": "All 31 nonempty policy subsets at six saved boundaries exercised",
+      "passed": true
+    },
+    {
+      "check": "All histories execute real timer cancellation",
+      "passed": true
+    },
+    {
+      "check": "All 26 saved geometries and 676 ordered strict energy comparisons checked",
+      "passed": true
+    },
+    {
+      "check": "All 30 uncertainty endpoints and 300 saved retention contexts checked",
+      "passed": true
+    },
+    {
+      "check": "All 19 QE attempts and 218 overlapping memberships remain represented",
+      "passed": true
+    },
+    {
+      "check": "Accepted geometries and source identities remain distinct",
+      "passed": true
+    },
+    {
+      "check": "Full missing inventory retained",
+      "passed": true
+    },
+    {
+      "check": "All generation draws and excluded records retained",
+      "passed": true
+    },
+    {
+      "check": "All evidence source hashes survived verification",
+      "passed": true
+    },
+    {
+      "check": "Normal text ink/paper meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Normal text ink/white meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Normal text muted/paper meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Normal text muted/white meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Normal text blue/paper meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Normal text blue/white meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Normal text copper/paper meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Normal text copper/white meets 4.5:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality/#f6f2e9 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality/#fffefa meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality/#eeebe1 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality/#e3dfd3 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality/#e9eef0 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic full/#f6f2e9 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic full/#fffefa meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic full/#eeebe1 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic full/#e3dfd3 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic full/#e9eef0 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality_diversity/#f6f2e9 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality_diversity/#fffefa meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality_diversity/#eeebe1 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality_diversity/#e3dfd3 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic quality_diversity/#e9eef0 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic random/#f6f2e9 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic random/#fffefa meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic random/#eeebe1 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic random/#e3dfd3 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic random/#e9eef0 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic uncertainty/#f6f2e9 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic uncertainty/#fffefa meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic uncertainty/#eeebe1 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic uncertainty/#e3dfd3 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Policy graphic uncertainty/#e9eef0 meets 3:1",
+      "passed": true
+    },
+    {
+      "check": "Contrast corrections preserve the frozen source palette",
+      "passed": true
+    },
+    {
+      "check": "Contrast corrections preserve unchanged source theme bytes",
+      "passed": true
+    },
+    {
+      "check": "Shipped policy graphics use accessible helper: src/presentation/policyColours.ts",
+      "passed": true
+    },
+    {
+      "check": "Shipped policy graphics use accessible helper: src/views/Overview.tsx",
+      "passed": true
+    },
+    {
+      "check": "Shipped policy graphics use accessible helper: src/views/Replay.tsx",
+      "passed": true
+    },
+    {
+      "check": "Shipped policy graphics use accessible helper: src/replay/model.ts",
+      "passed": true
+    },
+    {
+      "check": "Final tooling completed with no failures",
+      "passed": true
+    },
+    {
+      "check": "Final tooling binds current package manifest",
+      "passed": true
+    },
+    {
+      "check": "Final tooling binds current immutable data",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Source/lifecycle assertions do not certify native browser accessibility, screen-reader behavior or physical mobile devices.",
+    "Numerical check totals include repeated contexts and are verification counts, not independent scientific observations.",
+    "Fresh QE absolute energies remain separate from historical signed hull labels and CHGNet predictions.",
+    "No new stable material, global novelty, symmetry-free architecture benefit or complete convex hull is established."
+  ]
+}

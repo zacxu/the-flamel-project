@@ -1,0 +1,5 @@
+lane,cap,charged,remaining,unit,interpretation
+generation,128,96,32,conservative_structure_slots,88 actual CrystalFormer draws + 4 prototypes + 4 unemitted engineering charges
+chgnet_attempts,40,19,21,conservative_launch_slots,15 actual model relaxations + 4 pre-model failures; cached selections not recharged
+chgnet_wall,14400,159.011884800002,14240.988115199998,seconds,"Entire subprocess walltime including imports, model load and failures"
+QE_wall,21600,2558.920391600004,19041.079608399996,seconds,"All 19 actual jobs including pilot, sensitivities and incomplete perturbation"

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.bin -f
+RewriteRule ^(.+\.webp)$ $1.bin [L]
+<FilesMatch "\.webp\.bin$">
+    ForceType image/webp
+</FilesMatch>

@@ -1,0 +1,120 @@
+{
+  "phase": "Crystal Lab controls",
+  "status": "live_verified",
+  "deployed": true,
+  "recordedAt": "2026-10-22T18:10:43.378838+00:00",
+  "localDate": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "url": "https://theflamelproject.42web.io/#/crystals",
+  "documentRoot": "/htdocs",
+  "uiBuildId": "ui-w6-351e6182d7af3a9d062d",
+  "predecessorUiBuildId": "ui-w6-359b66f2fb63f90e993c",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "researchManifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "uiManifestPath": "release-manifests/ui-w6-351e6182d7af3a9d062d.json",
+  "uiManifestSha256": "a9e3551c3c58201e9a6484e84160c9b1686e02412129c23e06a2c2024fab98be",
+  "change": "Responsive camera and physical-site controls, saved lattice a/b/c arrows and presets, plus a moving Cartesian XYZ compass.",
+  "sourceChanges": [
+    "scripts/verify-orientation.mjs",
+    "scripts/verify-viewer.mjs",
+    "src/components/CrystalViewer.tsx",
+    "src/components/CrystalViewerControls.tsx",
+    "src/crystal/controls.css",
+    "src/crystal/orientation.ts",
+    "src/crystal/viewer.css",
+    "src/generated/uiRelease.ts (automatic build identity)"
+  ],
+  "checks": {
+    "typecheckAndBuild": "passed",
+    "viewer": 288,
+    "orientation": 330,
+    "packageIntegrity": 1776
+  },
+  "browserEvidence": "reports/CRYSTAL_LAB_BROWSER_VALIDATION.json",
+  "live": {
+    "url": "https://theflamelproject.42web.io/#/crystals",
+    "uiBuildId": "ui-w6-351e6182d7af3a9d062d",
+    "manifestSha256": "a9e3551c3c58201e9a6484e84160c9b1686e02412129c23e06a2c2024fab98be",
+    "manifestMatchesPackage": true,
+    "actualWebGL": true,
+    "cameraPresetMetrics": "Camera distance\n16.638 \u00c5\nAzimuth\n0.0\u00b0\nPolar angle\n90.0\u00b0",
+    "rotateAndZoomMetrics": "Camera distance\n13.865 \u00c5\nAzimuth\n15.0\u00b0\nPolar angle\n90.0\u00b0",
+    "axesToggle": true,
+    "touchOptIn": "cursor: auto; touch-action: none;",
+    "autoStopsOnReset": true,
+    "atomInspector": true,
+    "mobile": {
+      "build": "ui-w6-351e6182d7af3a9d062d",
+      "client": 360,
+      "minControlHeight": 44,
+      "scroll": 360,
+      "width": 375
+    },
+    "consoleErrors": [],
+    "screenshots": [
+      "CRYSTAL_LAB_LIVE_DESKTOP.jpg",
+      "CRYSTAL_LAB_LIVE_AXES.jpg",
+      "CRYSTAL_LAB_LIVE_CONTROLS.jpg",
+      "CRYSTAL_LAB_LIVE_MOBILE.jpg"
+    ]
+  },
+  "uploadOrder": [
+    "Six immutable delta files first: three JS, one viewer CSS, release manifest and CSV.",
+    "Exact 1150-byte index.html last after observed remote rows/sizes."
+  ],
+  "immutableFiles": [
+    {
+      "path": "assets/CrystalViewer-BkPovndm.css",
+      "bytes": 13236,
+      "sha256": "a18b7388b91fb8f5ca89745da521b8470c5fa87309a23d0158d61dc535b50e81"
+    },
+    {
+      "path": "assets/CrystalViewer-D6QrqYuJ.js",
+      "bytes": 588299,
+      "sha256": "e8eb1d8dfb4aeb92afea197196377aaeb9c82bcbfac116211e5995b0c0ea5552"
+    },
+    {
+      "path": "assets/ReplayChart-Dv-DkF9p.js",
+      "bytes": 374724,
+      "sha256": "55ff7cde8cc4a837a4eaa9d0574602a027fcd3a2a9361613e3614c2c2ff5d1c9"
+    },
+    {
+      "path": "assets/index-BiMRMsvf.js",
+      "bytes": 464737,
+      "sha256": "dfd9ce683cc2bb3bf91a1bdc352b03280a454ba3ca2b7caeeb414556eeb0a68f"
+    },
+    {
+      "path": "release-manifests/ui-w6-351e6182d7af3a9d062d.files.csv",
+      "bytes": 17552,
+      "sha256": "ecfa9984d3e147a70a6d94d38263f51a317c3ebe06d95f981b2d34f1d32f3101"
+    },
+    {
+      "path": "release-manifests/ui-w6-351e6182d7af3a9d062d.json",
+      "bytes": 25920,
+      "sha256": "a9e3551c3c58201e9a6484e84160c9b1686e02412129c23e06a2c2024fab98be"
+    }
+  ],
+  "entryLast": {
+    "path": "deployment/crystal-lab-controls/entry/index.html",
+    "bytes": 1150,
+    "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+    "remotePath": "index.html"
+  },
+  "rootHostConfigurationObservedBytes": 230,
+  "hostConfigurationChanged": false,
+  "cacheObservation": "First existing tab retained prior 359b release; one normal reload displayed 351e and live acceptance then passed.",
+  "rollback": {
+    "entry": "deployment/crystal-lab-controls/previous-dist/index.html",
+    "uiBuildId": "ui-w6-359b66f2fb63f90e993c",
+    "instructions": "Upload the saved prior entry to /htdocs/index.html; retain old/new immutable files and existing image routing, then verify HTTPS."
+  },
+  "unchanged": [
+    "Research data/geometry/exports",
+    "Scientific images and hosting image adapters",
+    "Logo, compact URLs and cleaned footer",
+    "Contribution text and workflow architectures",
+    "Credentials and historical phase/release evidence",
+    "Historical W6 source cache"
+  ],
+  "limits": "Desktop/mobile browser viewport checks; no physical-device certification, blanket remote-response hash claim or full historical-suite rerun."
+}

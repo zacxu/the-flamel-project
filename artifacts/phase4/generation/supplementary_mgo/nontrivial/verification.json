@@ -1,0 +1,10 @@
+{
+  "checkpoint_bytes": 166094129,
+  "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+  "model_draws": 0,
+  "protocol_sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67",
+  "script_sha256": "6ffeaa4edc53e3a5fac539e797f418324020e81a90f755cba3a805f4c36dde4a",
+  "source_files_verified": 87,
+  "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+  "verified_before_budget_reservation": true
+}

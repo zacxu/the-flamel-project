@@ -1,0 +1,30 @@
+{
+  "absent_both": 1135,
+  "all_proposals_charge_balanced_and_absent_both": true,
+  "all_proposals_within_reserved_superset": true,
+  "catalog_counts": {
+    "mp": {
+      "records": 154718,
+      "unique_compositions": 105583
+    },
+    "wbm": {
+      "records": 256963,
+      "unique_compositions": 168150
+    }
+  },
+  "cf_primary_denominators_unchanged": true,
+  "checks_passed": true,
+  "crystalformer_draws_in_phase2": 0,
+  "deterministic_prototype_candidates_prepared_in_phase2": 4,
+  "dft_jobs_executed_in_phase2": 0,
+  "eligible_prototype_baselines": 4,
+  "energy_fields_used_for_selection": [],
+  "enumerated": 1372,
+  "new_formula_sg2_count_witnesses": 14,
+  "relaxations_executed_in_phase2": 0,
+  "reserved_system_superset": 78,
+  "reserves": 8,
+  "selected": 6,
+  "shared_structure_candidates_consumed_at_phase2_end": 12,
+  "shared_structure_capacity_remaining_at_phase2_end": 116
+}

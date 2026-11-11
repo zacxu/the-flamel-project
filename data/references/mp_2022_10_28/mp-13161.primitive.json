@@ -1,0 +1,83 @@
+{
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0,
+  "lattice": {
+    "matrix": [
+      [
+        2.691856,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.691856,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.691856
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "a": 2.691856,
+    "b": 2.691856,
+    "c": 2.691856,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "volume": 19.505427410212953
+  },
+  "properties": {},
+  "sites": [
+    {
+      "species": [
+        {
+          "element": "Zn",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Zn",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "O",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "O",
+      "xyz": [
+        1.345928,
+        1.345928,
+        1.345928
+      ]
+    }
+  ]
+}

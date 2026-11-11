@@ -1,0 +1,13 @@
+{
+  "completed_at_utc": "2026-10-22T01:54:26.155104+00:00",
+  "cumulative_queries": 40,
+  "decision_sha256": "f7d0d09eef5f90ef025e9b7472034412fc2a131c9efb25a3d38f47cb839ce5b1",
+  "fit_audit_sha256": "2347b4f3432a5815310813dfd06df7a9de6eb8c94df787a5bab258df352caf8d",
+  "fit_calibration_seconds": 9.88542740000048,
+  "model_path": "artifacts\\phase4\\replay\\seed_20261025\\quality_diversity\\round_04\\adapted_model.joblib",
+  "model_sha256": "bc5dcaf5c93ba6f956f8b207fecdf907adda8f2424654f179a54c3e194ba429e",
+  "policy": "quality_diversity",
+  "reveal_sha256": "5006200d6d00a0abb8f8f7b2c2faed31e69cbe7c15dbe998908d7a61d3751a6c",
+  "round_index": 4,
+  "training_rows": 2040
+}

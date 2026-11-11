@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-22T18:54:30.591Z",
+  "expectedBuild": "ui-w6-351e6182d7af3a9d062d",
+  "responses": [
+    {
+      "path": "/",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/",
+      "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "pragma": "no-cache",
+      "clearSiteData": null,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1150,
+      "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+      "currentEntry": true,
+      "prohibitsStorage": true
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/index.html",
+      "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "pragma": "no-cache",
+      "clearSiteData": null,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1150,
+      "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68",
+      "currentEntry": true,
+      "prohibitsStorage": true
+    },
+    {
+      "path": "/assets/index-BiMRMsvf.js",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/assets/index-BiMRMsvf.js",
+      "cacheControl": "max-age=2592000, public, proxy-revalidate, must-revalidate",
+      "expires": "Sat, 21 Nov 2026 18:54:28 GMT",
+      "pragma": null,
+      "clearSiteData": null,
+      "contentType": "application/javascript",
+      "bytes": 464737,
+      "sha256": "dfd9ce683cc2bb3bf91a1bdc352b03280a454ba3ca2b7caeeb414556eeb0a68f"
+    },
+    {
+      "path": "/research/manifest.json",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/research/manifest.json",
+      "cacheControl": "max-age=0",
+      "expires": "Thu, 22 Oct 2026 18:54:29 GMT",
+      "pragma": null,
+      "clearSiteData": null,
+      "contentType": "application/json",
+      "bytes": 22605,
+      "sha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+      "frozenManifestUnchanged": true
+    },
+    {
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "cacheControl": "max-age=0",
+      "expires": "Thu, 22 Oct 2026 18:54:29 GMT",
+      "pragma": null,
+      "clearSiteData": null,
+      "contentType": "image/png",
+      "bytes": 35124,
+      "sha256": "696b41195f25a4bac6e54757ca083f53cea3a451bbbda4c8ed70d7c95608c4a1"
+    },
+    {
+      "path": "/refresh",
+      "status": 200,
+      "responseUrl": "https://theflamelproject.42web.io/refresh",
+      "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "pragma": "no-cache",
+      "clearSiteData": null,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 899,
+      "sha256": "e4b1f422c7d8469f972d21332422dd3ebe7ccc69b495ff97ef8e0732a6b763ce"
+    }
+  ]
+}

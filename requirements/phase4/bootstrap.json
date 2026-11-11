@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "platform": "Windowsx86_64",
+  "python_version": "3.11.14",
+  "uv": {
+    "version": "0.13.7",
+    "url": "https://files.pythonhosted.org/packages/8e/4f/041b59d2a38807a3e31ef41064cf3e45d2752fe0409d89040d52778049ae/uv-0.13.7-py3-none-win_amd64.whl",
+    "bytes": 15330939,
+    "sha256": "2835e2ab397d0db86323b9975dce75ecd76aa9cfa0d6a2aea84734aae7f8c9b3",
+    "entry": "uv-0.13.7.data/scripts/uv.exe",
+    "executable_sha256": "1791d7a9ed5b6df13ccf80f102e025c333010d96326b4ff0262aa3b578835c5a"
+  },
+  "python": {
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20251028/cpython-3.11.14%2B20251028-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+    "bytes": 25995224,
+    "sha256": "e8e3d35b8a0d1f3151690410397e7aaf76506d392cd7521f647aa8bac8c20343",
+    "executable_sha256": "152cf7bfa7f4de21992af513068e18f329719e45768a1985203adbefcf079301",
+    "archive_release_api": "https://api.github.com/repos/astral-sh/python-build-standalone/releases/tags/20251028"
+  },
+  "bootstrap_security_decision": "uv0.9.7 retained only as historical lock-generation provenance; three alias-deduplicated advisorygroups affectit. uv0.13.7 has zeroOSVmatches in separate currentquery and is used for newinstallation."
+}

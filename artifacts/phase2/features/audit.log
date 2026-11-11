@@ -1,0 +1,33 @@
+2026-10-21T16:53:04.448221+00:00 extraction started workers=4 dimension=408
+2026-10-21T16:53:10.367582+00:00 source streamed rows=256963 selected=8294
+2026-10-21T16:53:12.105886+00:00 described=1000/8294 structural_errors=0
+2026-10-21T16:53:12.578423+00:00 described=2000/8294 structural_errors=0
+2026-10-21T16:53:13.048255+00:00 described=3000/8294 structural_errors=0
+2026-10-21T16:53:13.456987+00:00 described=4000/8294 structural_errors=0
+2026-10-21T16:53:13.930608+00:00 described=5000/8294 structural_errors=0
+2026-10-21T16:53:14.494683+00:00 described=6000/8294 structural_errors=0
+2026-10-21T16:53:15.159789+00:00 described=7000/8294 structural_errors=0
+2026-10-21T16:53:16.182596+00:00 described=8000/8294 structural_errors=0
+2026-10-21T16:53:16.873746+00:00 PASSED rows=8294 columns=408 symmetry_fallbacks=0 elapsed=12.426s
+2026-10-21T16:53:49.775821+00:00 extraction started workers=4 dimension=408
+2026-10-21T16:53:56.866670+00:00 source streamed rows=256963 selected=8294
+2026-10-21T16:53:58.359827+00:00 described=1000/8294 structural_errors=0
+2026-10-21T16:53:58.779513+00:00 described=2000/8294 structural_errors=0
+2026-10-21T16:53:59.277151+00:00 described=3000/8294 structural_errors=0
+2026-10-21T16:53:59.648322+00:00 described=4000/8294 structural_errors=0
+2026-10-21T16:54:00.101992+00:00 described=5000/8294 structural_errors=0
+2026-10-21T16:54:00.629004+00:00 described=6000/8294 structural_errors=0
+2026-10-21T16:54:01.073760+00:00 described=7000/8294 structural_errors=0
+2026-10-21T16:54:01.720580+00:00 described=8000/8294 structural_errors=0
+2026-10-21T16:54:02.325253+00:00 PASSED rows=8294 columns=408 symmetry_fallbacks=0 elapsed=12.549s
+2026-10-21T16:54:46.057517+00:00 extraction started workers=4 dimension=408
+2026-10-21T16:54:52.329277+00:00 source streamed rows=256963 selected=8294
+2026-10-21T16:54:53.700454+00:00 described=1000/8294 structural_errors=0
+2026-10-21T16:54:54.113370+00:00 described=2000/8294 structural_errors=0
+2026-10-21T16:54:54.507148+00:00 described=3000/8294 structural_errors=0
+2026-10-21T16:54:54.819800+00:00 described=4000/8294 structural_errors=0
+2026-10-21T16:54:55.174002+00:00 described=5000/8294 structural_errors=0
+2026-10-21T16:54:55.620753+00:00 described=6000/8294 structural_errors=0
+2026-10-21T16:54:56.016022+00:00 described=7000/8294 structural_errors=0
+2026-10-21T16:54:56.615482+00:00 described=8000/8294 structural_errors=0
+2026-10-21T16:54:57.150004+00:00 PASSED rows=8294 columns=408 symmetry_fallbacks=0 elapsed=11.093s

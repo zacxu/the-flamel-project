@@ -1,0 +1,1118 @@
+{
+  "phase": 5,
+  "audited_utc": "2026-10-22T02:36:00.516256+00:00",
+  "status": "passed",
+  "check_count": 274,
+  "checks": [
+    {
+      "check": "Every unique reservation has exactly one terminal record; no active numerical jobs",
+      "passed": true
+    },
+    {
+      "check": "Canonical budget records Phase5 as the latest executed numerical phase",
+      "passed": true
+    },
+    {
+      "check": "Phase4 historical manifest and readiness remain byte-for-byte preserved",
+      "passed": true
+    },
+    {
+      "check": "Phase5 starts from frozen 96 generation, nine CHGNet and 1658.482 QE-second totals",
+      "passed": true
+    },
+    {
+      "check": "Scientific protocol, acquisition implementation and original fresh selector remain frozen",
+      "passed": true
+    },
+    {
+      "check": "Phase2 frozen input: config/phase2_protocol.json",
+      "passed": true
+    },
+    {
+      "check": "Phase2 frozen input: research_acquisition.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase3/replay/seed_20261022/query_journal.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/replay/aggregate_summary.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/replay/seed_20261023/query_journal.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/replay/seed_20261024/query_journal.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/replay/seed_20261025/query_journal.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/replay/seed_20261026/query_journal.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/selection/fresh_shortlist.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/selection/initial_features.npz",
+      "passed": true
+    },
+    {
+      "check": "Frozen Phase4 selection/replay evidence: artifacts/phase4/selection/symmetry_relaxation_plan.json",
+      "passed": true
+    },
+    {
+      "check": "Zero eligible transformer candidates remain excluded; the original DFT queue is unchanged",
+      "passed": true
+    },
+    {
+      "check": "Phase5 has no new generator draws or prototype-generation charges",
+      "passed": true
+    },
+    {
+      "check": "CHGNet lane saved-trajectory audit passed without new inference",
+      "passed": true
+    },
+    {
+      "check": "CHGNet plan and summary bind the frozen scientific protocol",
+      "passed": true
+    },
+    {
+      "check": "Eleven experimental selections, ten new launches and one cache reuse",
+      "passed": true
+    },
+    {
+      "check": "Selected cohort is four symmetry, four prototype and three reference structures",
+      "passed": true
+    },
+    {
+      "check": "The symmetry experiment uses exactly the earlier random within-arm selections",
+      "passed": true
+    },
+    {
+      "check": "The four prototype baselines are exactly the originals charged once in Phase2",
+      "passed": true
+    },
+    {
+      "check": "All cached and new CHGNet numerical settings match the frozen worker",
+      "passed": true
+    },
+    {
+      "check": "The checkpoint bytes used by cached and new CHGNet jobs remain identical",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: artifacts/phase4/selection/symmetry_relaxation_plan.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: artifacts/phase2/compositions/generation_protocol.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: artifacts/phase2/controls/same_composition_reference_plan.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: scripts/phase3_candidates.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/00_phase3_candidates.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: scripts/phase5_chgnet.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/01_phase5_chgnet.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: research_features.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/02_research_features.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: scripts/phase2_dft_inputs.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/03_phase2_dft_inputs.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: research_budget.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/04_research_budget.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: .envs/analysis/Lib/site-packages/chgnet/model/dynamics.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/05_dynamics.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: .envs/analysis/Lib/site-packages/ase/optimize/fire.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/06_fire.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet frozen source/input hash: .envs/analysis/Lib/site-packages/ase/filters.py",
+      "passed": true
+    },
+    {
+      "check": "CHGNet archived executed source: artifacts/phase5/chgnet/executed_sources/07_filters.py",
+      "passed": true
+    },
+    {
+      "check": "The reused Phase3 numerical worker function is unchanged",
+      "passed": true
+    },
+    {
+      "check": "Exactly the ten predeclared new CHGNet attempts were charged to their original categories",
+      "passed": true
+    },
+    {
+      "check": "No CHGNet replacement, retry or invisible shortlist launch occurred",
+      "passed": true
+    },
+    {
+      "check": "Every predeclared CHGNet selection has exactly one recorded outcome",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "The earlier selected symmetry source is unchanged: phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase1/generator/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase1/generator/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase3/chgnet/phase1_mgo_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: phase1_mgo_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Identical known MgO cached computation has no second charge",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "The earlier selected symmetry source is unchanged: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "The earlier selected symmetry source is unchanged: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: phase4_tio2_rutile_nontrivial_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "The earlier selected symmetry source is unchanged: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: phase4_tio2_rutile_p1_attempt_000",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "The original prototype generation charge is reused: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/initial_structures/prototype_SnSrO2.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/prototype_SnSrO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: prototype_SnSrO2",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "The original prototype generation charge is reused: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/initial_structures/prototype_BaSnO2.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/prototype_BaSnO2/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: prototype_BaSnO2",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "The original prototype generation charge is reused: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/initial_structures/prototype_CaMg2O3.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/prototype_CaMg2O3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: prototype_CaMg2O3",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "The original prototype generation charge is reused: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/initial_structures/prototype_Mg2SrO3.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/prototype_Mg2SrO3/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: prototype_Mg2SrO3",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/initial_structures/reference_rocksalt.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/reference_rocksalt/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: reference_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/initial_structures/reference_rutile.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/reference_rutile/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: reference_rutile",
+      "passed": true
+    },
+    {
+      "check": "Recorded CHGNet selection belongs to frozen plan: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/initial_structures/reference_anatase.json",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "passed": true
+    },
+    {
+      "check": "CHGNet source/result checksum: artifacts/phase5/chgnet/reference_anatase/result.json",
+      "passed": true
+    },
+    {
+      "check": "Executed CHGNet source/checkpoint/device lineage: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "CHGNet preserves actual cell counts and composition: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Saved total energy is divided by actual atom count: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Saved CHGNet force/stress units agree: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Cell-filter convergence independently reconstructed: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "CHGNet selection and charge precede worker dispatch: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Whole new CHGNet subprocess time charged once: reference_anatase",
+      "passed": true
+    },
+    {
+      "check": "Reported CHGNet convergence count preserves all successful and unsuccessful selections",
+      "passed": true
+    },
+    {
+      "check": "Balanced within-composition symmetry comparison: mgo_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Within-composition CHGNet energy difference reproduced: mgo_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Relaxed symmetry-pair structure matching reproduced: mgo_rocksalt",
+      "passed": true
+    },
+    {
+      "check": "Balanced within-composition symmetry comparison: tio2_rutile",
+      "passed": true
+    },
+    {
+      "check": "Within-composition CHGNet energy difference reproduced: tio2_rutile",
+      "passed": true
+    },
+    {
+      "check": "Relaxed symmetry-pair structure matching reproduced: tio2_rutile",
+      "passed": true
+    },
+    {
+      "check": "Empty transformer shortlist and oversize brookite exclusion remain unchanged",
+      "passed": true
+    },
+    {
+      "check": "CHGNet results carry no DFT stability claim",
+      "passed": true
+    },
+    {
+      "check": "QE lane numerical/provenance audit passed",
+      "passed": true
+    },
+    {
+      "check": "QE perturbation preserves frozen numerical/scientific protocols",
+      "passed": true
+    },
+    {
+      "check": "All four permitted QE watchdogs fit the Phase5 wall cap",
+      "passed": true
+    },
+    {
+      "check": "One deterministic known-control perturbation is frozen",
+      "passed": true
+    },
+    {
+      "check": "Perturbation retains the frozen eight-atom MgO control cell and source lineage",
+      "passed": true
+    },
+    {
+      "check": "Frozen seed reproduces every .01A displacement and .5-percent principal strain modulo PBC",
+      "passed": true
+    },
+    {
+      "check": "Only jobs in the bounded known-MgO perturbation queue were launched",
+      "passed": true
+    },
+    {
+      "check": "Independently parsed QE acceptance p5_mgo_perturb_90:job_scf_accepted",
+      "passed": true
+    },
+    {
+      "check": "Independently parsed QE acceptance p5_mgo_perturb_90:job_stationary_at_this_setting",
+      "passed": true
+    },
+    {
+      "check": "Independently parsed QE acceptance p5_mgo_perturb_90:scf_converged",
+      "passed": true
+    },
+    {
+      "check": "Independently parsed QE acceptance p5_mgo_perturb_90:force_norm_pass",
+      "passed": true
+    },
+    {
+      "check": "Independently parsed QE acceptance p5_mgo_perturb_90:full_stress_pass",
+      "passed": true
+    },
+    {
+      "check": "Independently parsed QE acceptance p5_mgo_perturb_90:pressure_pass",
+      "passed": true
+    },
+    {
+      "check": "Supported unconstrained nonmagnetic oxide settings: p5_mgo_perturb_90",
+      "passed": true
+    },
+    {
+      "check": "QE single process has frozen four-thread settings: p5_mgo_perturb_90",
+      "passed": true
+    },
+    {
+      "check": "QE output confirms one MPI process and four threads: p5_mgo_perturb_90",
+      "passed": true
+    },
+    {
+      "check": "QE staged/executed file checksum: C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase5\\qe\\p5_mgo_perturb_90\\pw.in",
+      "passed": true
+    },
+    {
+      "check": "QE staged/executed file checksum: C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase5\\qe\\p5_mgo_perturb_90\\settings.json",
+      "passed": true
+    },
+    {
+      "check": "QE staged/executed file checksum: C:\\Users\\Admin\\Desktop\\bears\\artifacts\\phase5\\qe\\p5_mgo_perturb_90\\pw.out",
+      "passed": true
+    },
+    {
+      "check": "QE staged/executed file checksum: artifacts\\phase5\\qe\\perturbation\\final_geometry.json",
+      "passed": true
+    },
+    {
+      "check": "QE staged/executed file checksum: C:\\Users\\Admin\\Desktop\\bears\\vendor\\quantum_espresso\\qe-7.5-win-oneapi-msmpi\\bin\\pw.exe",
+      "passed": true
+    },
+    {
+      "check": "QE common pseudopotential checksum: p5_mgo_perturb_90:O",
+      "passed": true
+    },
+    {
+      "check": "QE common pseudopotential checksum: p5_mgo_perturb_90:Mg",
+      "passed": true
+    },
+    {
+      "check": "QE executed source and archived bytes agree: p5_mgo_perturb_90:scripts/phase5_qe.py",
+      "passed": true
+    },
+    {
+      "check": "QE executed source and archived bytes agree: p5_mgo_perturb_90:scripts/phase3_qe_parser.py",
+      "passed": true
+    },
+    {
+      "check": "QE executed source and archived bytes agree: p5_mgo_perturb_90:scripts/phase2_dft_inputs.py",
+      "passed": true
+    },
+    {
+      "check": "QE queue hash precedes dispatch: p5_mgo_perturb_90",
+      "passed": true
+    },
+    {
+      "check": "QE freeze and reservation precede execution: p5_mgo_perturb_90",
+      "passed": true
+    },
+    {
+      "check": "QE real elapsed walltime appears once in both ledgers: p5_mgo_perturb_90",
+      "passed": true
+    },
+    {
+      "check": "All Phase5 QE attempts are serial",
+      "passed": true
+    },
+    {
+      "check": "Scientific numerical acceptance is separate from successful completion of the bounded audit",
+      "passed": true
+    },
+    {
+      "check": "Known-control QE checks do not promote a new candidate or claim a full hull",
+      "passed": true
+    },
+    {
+      "check": "No active canonical reservation in lane: generation",
+      "passed": true
+    },
+    {
+      "check": "Attempt counts independently reconstructed from reservations: generation",
+      "passed": true
+    },
+    {
+      "check": "No active canonical reservation in lane: chgnet",
+      "passed": true
+    },
+    {
+      "check": "Attempt counts independently reconstructed from reservations: chgnet",
+      "passed": true
+    },
+    {
+      "check": "Whole-process walltime independently reconstructed: chgnet",
+      "passed": true
+    },
+    {
+      "check": "No active canonical reservation in lane: qe",
+      "passed": true
+    },
+    {
+      "check": "Whole-process walltime independently reconstructed: qe",
+      "passed": true
+    },
+    {
+      "check": "Phase5 closes with 96/128 structure charges and 19/40 CHGNet launch charges",
+      "passed": true
+    },
+    {
+      "check": "All original attempt and cumulative walltime caps remain unchanged and respected",
+      "passed": true
+    },
+    {
+      "check": "All historical QE attempts agree between legacy and central ledgers",
+      "passed": true
+    },
+    {
+      "check": "Both lane summaries include every Phase5 walltime charge",
+      "passed": true
+    },
+    {
+      "check": "Every numerical job stopped by 22 October 18:24:44 Singapore time",
+      "passed": true
+    },
+    {
+      "check": "All post-baseline QE reservations across phases are serialized",
+      "passed": true
+    },
+    {
+      "check": "All 161 original Ca-Mg-O reference entries remain in the inventory",
+      "passed": true
+    },
+    {
+      "check": "Prior known MgO control and source reference have accepted compatible numerical checks",
+      "passed": true
+    },
+    {
+      "check": "Only two of 161 frozen source references have accepted compatible fresh QE calculations; 159 remain incomplete",
+      "passed": true
+    },
+    {
+      "check": "Phase5 report contains completed outcomes without placeholders",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/chgnet/plan.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/qe/queue_plan.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/execution_plan.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase4/selection/symmetry_relaxation_plan.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/figures/within_composition_energies.png",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/figures/within_composition_energies.pdf",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/qe/perturbation/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/chgnet/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/qe/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/chgnet/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/phase5/qe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: phase5_report.md:../artifacts/budget_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:one_day_research_proposal.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:reports/phase1_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:reports/phase2_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:reports/phase3_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:reports/phase4_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:reports/phase5_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:artifacts/phase5/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:artifacts/phase5/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: README.md:artifacts/budget_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase1_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase2_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase3_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase4_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase5_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:artifacts/phase5/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:artifacts/budget_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:requirements/generator-lock.txt",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:requirements/analysis-lock.txt",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase4_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase5_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:reports/phase5_report.md",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:artifacts/phase5/audit.json",
+      "passed": true
+    },
+    {
+      "check": "Document local link resolves: one_day_research_proposal.md:artifacts/phase5/readiness.json",
+      "passed": true
+    },
+    {
+      "check": "Final audit dispatched no work and numerical ledger stayed unchanged",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "audit_source_sha256": "82765bbf55b1f265f4abd11eaa2eb04541a199b1eff77fed0e028d308ff3a4b9",
+  "oracle_label_file_accesses": 0,
+  "new_fits_draws_relaxations_or_QE_jobs": 0,
+  "canonical_budget_writes": 0,
+  "CHGNet_experimental_selections": 11,
+  "new_CHGNet_launches": 10,
+  "cached_CHGNet_reuses": 1,
+  "phase5_QE_jobs": 1,
+  "original_fresh_transformer_shortlist_count": 0,
+  "compatible_accepted_fresh_QE_reference_entries": 2,
+  "frozen_primary_reference_entries": 161,
+  "not_completed_primary_reference_entries": 159,
+  "new_stable_materials": 0
+}

@@ -1,0 +1,127 @@
+{
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0,
+  "lattice": {
+    "matrix": [
+      [
+        4.354389,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.354389,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.354389
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "a": 4.354389,
+    "b": 4.354389,
+    "c": 4.354389,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "volume": 82.56227902838577
+  },
+  "properties": {},
+  "sites": [
+    {
+      "species": [
+        {
+          "element": "Mg",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Mg",
+      "xyz": [
+        2.1771945,
+        2.1771945,
+        0.0
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "Mg",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Mg",
+      "xyz": [
+        2.1771945,
+        0.0,
+        2.1771945
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "Mg",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Mg",
+      "xyz": [
+        0.0,
+        2.1771945,
+        2.1771945
+      ]
+    },
+    {
+      "species": [
+        {
+          "element": "Zn",
+          "occu": 1.0
+        }
+      ],
+      "abc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "properties": {
+        "magmom": 0.0
+      },
+      "label": "Zn",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

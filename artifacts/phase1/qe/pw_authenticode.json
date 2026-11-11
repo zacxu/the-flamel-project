@@ -1,0 +1,6 @@
+﻿{
+    "status":  "Valid",
+    "StatusMessage":  "Signature verified.",
+    "signer_subject":  "CN=Haonan Huang, O=Haonan Huang, L=Princeton, S=New Jersey, C=US",
+    "signer_thumbprint":  "2623874FE67146115160256473EC78D8341C0171"
+}

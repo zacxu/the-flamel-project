@@ -1,0 +1,28 @@
+C:\Users\Admin\Desktop\bears\.envs\analysis\Lib\site-packages\pymatgen\core\composition.py:1373: FutureWarning: gcd is deprecated, and will be removed on 2028-01-01
+Use math.gcd instead.
+  factor = abs(gcd(*(int(i) for i in sym_amt.values())))
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+CHGNet will run on cpu
+              Step     Time          Energy          fmax
+TrackingFIRE:    0 00:35:12      -50.382828        0.572422
+TrackingFIRE:    1 00:35:12      -50.391644        0.524537
+TrackingFIRE:    2 00:35:12      -50.406784        0.448012
+TrackingFIRE:    3 00:35:12      -50.424496        0.329821
+TrackingFIRE:    4 00:35:12      -50.440742        0.247545
+TrackingFIRE:    5 00:35:12      -50.453529        0.237350
+TrackingFIRE:    6 00:35:12      -50.463261        0.218674
+TrackingFIRE:    7 00:35:12      -50.471062        0.191269
+TrackingFIRE:    8 00:35:12      -50.478058        0.259724
+TrackingFIRE:    9 00:35:12      -50.484398        0.288165
+TrackingFIRE:   10 00:35:13      -50.491459        0.254796
+TrackingFIRE:   11 00:35:13      -50.499767        0.171236
+TrackingFIRE:   12 00:35:13      -50.506420        0.130969
+TrackingFIRE:   13 00:35:13      -50.506054        0.143866
+TrackingFIRE:   14 00:35:13      -50.506657        0.130008
+TrackingFIRE:   15 00:35:13      -50.507637        0.104408
+TrackingFIRE:   16 00:35:13      -50.508766        0.075960
+TrackingFIRE:   17 00:35:13      -50.509727        0.056222
+TrackingFIRE:   18 00:35:13      -50.510338        0.050511
+TrackingFIRE:   19 00:35:13      -50.510590        0.043881
+{"attempt_id": "chgnet_pilot_03", "status": "completed", "device": "cpu", "structure_kind": "perturbed_conventional", "seed": 20261022, "atoms": 8, "formula": "Mg4 O4", "model_version": "0.3.0", "checkpoint_path": ".envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar", "checkpoint_sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1", "packages": {"chgnet": "0.4.2", "torch": "2.6.0+cu124", "numpy": "2.2.6", "ase": "3.26.0", "pymatgen": "2025.10.7"}, "model_load_seconds": 0.02403469999990193, "relaxation_seconds": 1.5654175999989093, "energy_total_eV": -50.510589599609375, "energy_eV_per_atom": -6.313823699951172, "final_atom_fmax_eV_A": 0.03631289675831795, "final_max_abs_stress_GPa": 0.7317152619361877, "valid_geometry_and_composition": true, "initial_spacegroup_symprec_0_01": 1, "final_spacegroup_symprec_0_01": 4, "volume_initial_A3": 78.44436056662731, "volume_final_A3": 76.85390560183126, "cuda_peak_allocated_MiB": null, "engineering_only": true, "primary_symmetry_sample": false, "trajectory_energy_units": "total eV; divided by actual atom count above", "converged": true, "optimizer_steps": 19, "final_filter_fmax_eV_A": 0.04388075040593713}

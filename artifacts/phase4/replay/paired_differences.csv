@@ -1,0 +1,6 @@
+seed,full_near_stable_hits,quality_near_stable_hits,full_minus_quality_near_stable_hits,full_minus_quality_reference_hull_hits,full_minus_quality_diversity_near_stable_hits
+20261022,34,43,-9,-12,-9
+20261023,32,40,-8,-21,-8
+20261024,25,44,-19,-20,-17
+20261025,29,39,-10,-12,-11
+20261026,27,40,-13,-11,-16

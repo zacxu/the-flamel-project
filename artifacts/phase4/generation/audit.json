@@ -1,0 +1,25 @@
+{
+  "all_cif_roundtrips_pass": true,
+  "all_raw_batches_expanded_and_checked": true,
+  "audit_source_sha256": "04f100c85e1ad5a675c9dc61ebdfec3fc3050e0a9c4f9d2d6c8c31e327782069",
+  "audited_at_utc": "2026-10-22T01:52:37.313533+00:00",
+  "checks_passed": 1629,
+  "cif_parser_options": {
+    "frac_tolerance": 0,
+    "primitive": false
+  },
+  "cif_roundtrip_tolerances": {
+    "lattice_matrix_absolute_angstrom": 1e-06,
+    "species_matched_periodic_cartesian_angstrom": 1e-05
+  },
+  "cohorts_audited": 10,
+  "earlier_read_only_audit_diagnostic": "The initial strict CIF check used the parser default, which rationalized near-special sampled fractions and failed. Disabling parser idealization preserves the file coordinates. No raw/CIF/JSON artifact or primary eligibility was changed; no numerical job was rerun.",
+  "model_draws_in_audit": 0,
+  "no_primary_invalid_replacement": true,
+  "raw_attempts_audited": 80,
+  "reused_cohorts_unchanged": true,
+  "run_plan_sha256": "26efda2c7040e0b55acb87cffd4e88ec3b69bc5901ce838302357ac738584cbc",
+  "source_protocols_unchanged": true,
+  "status": "passed",
+  "summary_sha256": "111b73d7da96d425306de2b1e9fabd4ad109c593fcef913b26541431781abde8"
+}

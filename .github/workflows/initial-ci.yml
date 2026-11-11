@@ -1,0 +1,77 @@
+name: Initial publication checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: initial-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  baseline:
+    name: Source and saved-evidence integrity
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Preserve checkout bytes
+        run: git config --global core.autocrlf false
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Python 3.11.14
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11.14'
+      - name: Verify committed bytes and saved evidence
+        run: |
+          python -I -B scripts/github_publication/verify_git_publication.py --require-clean
+          python -I -B scripts/github_publication/audit_saved_evidence.py
+      - name: Integrity and Git safety tests
+        run: |
+          python -I -B scripts/github_publication/test_verify_phase3.py
+          python -I -B scripts/github_publication/test_git_publication.py
+          python -I -B scripts/github_publication/test_audit_saved_evidence.py --scratch "$RUNNER_TEMP"
+      - name: Artifact safety tests without downloads
+        run: |
+          python -I -B scripts/github_publication/test_artifact_io.py --output-root "$RUNNER_TEMP/flamel-private-fixtures"
+          python -I -B scripts/github_publication/test_public_assets.py --output-root "$RUNNER_TEMP/flamel-public-fixtures"
+      - name: Verify tests left source unchanged
+        run: python -I -B scripts/github_publication/verify_git_publication.py --require-clean
+
+  website:
+    name: Website clean installation and build
+    runs-on: windows-2025
+    timeout-minutes: 20
+    steps:
+      - name: Configure Windows path and byte handling
+        shell: pwsh
+        run: |
+          git config --global core.autocrlf false
+          git config --global core.longpaths true
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install pinned Node/npm and build
+        shell: pwsh
+        run: |
+          & ./scripts/github_publication/install_website.ps1 -ToolchainRoot (Join-Path $env:RUNNER_TEMP 'flamel-website-tools')
+          if ($LASTEXITCODE -ne 0) { throw 'Website installation failed' }
+      - name: Verify all 86 recorded build bytes
+        shell: pwsh
+        run: python -I -B scripts/github_publication/verify_website_build.py
+      - name: Python installer safety without research installation
+        shell: pwsh
+        run: python -I -B scripts/github_publication/test_python_installation.py
+      - name: Confirm no tracked inputs changed
+        shell: pwsh
+        run: |
+          git diff --exit-code
+          git diff --cached --exit-code

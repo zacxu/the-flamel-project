@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\bears\.envs\analysis\Lib\site-packages\pymatgen\core\composition.py:1373: FutureWarning: gcd is deprecated, and will be removed on 2028-01-01
+Use math.gcd instead.
+  factor = abs(gcd(*(int(i) for i in sym_amt.values())))
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+CHGNet will run on cpu
+              Step     Time          Energy          fmax
+TrackingFIRE:    0 00:35:01      -12.621124        0.228324
+TrackingFIRE:    1 00:35:01      -12.622574        0.197440
+TrackingFIRE:    2 00:35:01      -12.624746        0.143114
+TrackingFIRE:    3 00:35:01      -12.626665        0.085643
+TrackingFIRE:    4 00:35:01      -12.627773        0.025069
+{"attempt_id": "chgnet_pilot_01", "status": "completed", "device": "cpu", "structure_kind": "primitive", "seed": 20261022, "atoms": 2, "formula": "Mg1 O1", "model_version": "0.3.0", "checkpoint_path": ".envs\\analysis\\Lib\\site-packages\\chgnet\\pretrained\\0.3.0\\chgnet_0.3.0_e29f68s314m37.pth.tar", "checkpoint_sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1", "packages": {"chgnet": "0.4.2", "torch": "2.6.0+cu124", "numpy": "2.2.6", "ase": "3.26.0", "pymatgen": "2025.10.7"}, "model_load_seconds": 0.022670099999231752, "relaxation_seconds": 0.29022270000132266, "energy_total_eV": -12.62777328491211, "energy_eV_per_atom": -6.313886642456055, "final_atom_fmax_eV_A": 5.936441880294296e-07, "final_max_abs_stress_GPa": 0.4180711805820465, "valid_geometry_and_composition": true, "initial_spacegroup_symprec_0_01": 225, "final_spacegroup_symprec_0_01": 225, "volume_initial_A3": 18.681214031999996, "volume_final_A3": 19.214777275780037, "cuda_peak_allocated_MiB": null, "engineering_only": true, "primary_symmetry_sample": false, "trajectory_energy_units": "total eV; divided by actual atom count above", "converged": true, "optimizer_steps": 4, "final_filter_fmax_eV_A": 0.025069471471381444}

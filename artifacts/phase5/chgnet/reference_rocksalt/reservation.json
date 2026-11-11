@@ -1,0 +1,7 @@
+{
+  "reservation_id": "p5_chgnet_reference_rocksalt",
+  "lane": "chgnet",
+  "attempts": 1,
+  "max_seconds": 900.0,
+  "reserved_utc": "2026-10-22T02:20:15.681485+00:00"
+}

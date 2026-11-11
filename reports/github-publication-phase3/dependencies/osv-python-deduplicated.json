@@ -1,0 +1,566 @@
+{
+  "record_count": 34,
+  "fetch_errors": [],
+  "alias_groups": 31,
+  "groups_per_package": {
+    "torch": 19,
+    "filelock": 12
+  },
+  "withdrawn_record_count": 0,
+  "deduplicated_findings": [
+    {
+      "primary_id": "GHSA-3749-ghw9-m3mg",
+      "ids": [
+        "BIT-pytorch-2025-2953",
+        "CVE-2025-2953",
+        "GHSA-3749-ghw9-m3mg",
+        "PYSEC-2025-191"
+      ],
+      "record_ids": [
+        "GHSA-3749-ghw9-m3mg",
+        "PYSEC-2025-191"
+      ],
+      "summary": "PyTorch susceptible to local Denial of Service",
+      "package": "torch",
+      "severity": "LOW",
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.1-rc1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-567q-5qvw-pf92",
+      "ids": [
+        "CVE-2026-112907",
+        "GHSA-567q-5qvw-pf92"
+      ],
+      "record_ids": [
+        "GHSA-567q-5qvw-pf92"
+      ],
+      "summary": "filelock: On Windows an oplock on a soft lock's marker holds SoftFileLock.acquire() past its timeout and blocks the stale break",
+      "package": "filelock",
+      "severity": "LOW",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-63cw-57p8-fm3p",
+      "ids": [
+        "BIT-pytorch-2026-24747",
+        "CVE-2026-24747",
+        "GHSA-63cw-57p8-fm3p",
+        "PYSEC-2026-1856",
+        "PYSEC-2026-2286"
+      ],
+      "record_ids": [
+        "GHSA-63cw-57p8-fm3p",
+        "PYSEC-2026-2286"
+      ],
+      "summary": "PyTorch Vulnerable to Remote Code Execution via Untrusted Checkpoint Files",
+      "package": "torch",
+      "severity": "HIGH",
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.10.0"
+      ]
+    },
+    {
+      "primary_id": "GHSA-6627-m3xw-93mp",
+      "ids": [
+        "CVE-2026-112908",
+        "GHSA-6627-m3xw-93mp"
+      ],
+      "record_ids": [
+        "GHSA-6627-m3xw-93mp"
+      ],
+      "summary": "filelock: StrictSoftFileLock creates its claim directories without the lock mode, so another local user with a write bit on them can end a live hold",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-69hj-f68j-2879",
+      "ids": [
+        "CVE-2026-112909",
+        "GHSA-69hj-f68j-2879"
+      ],
+      "record_ids": [
+        "GHSA-69hj-f68j-2879"
+      ],
+      "summary": "filelock: UnixFileLock truncates and chmods any regular file another user renames or hard-links onto the lock path",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-887c-mr87-cxwp",
+      "ids": [
+        "BIT-pytorch-2025-3730",
+        "CVE-2025-3730",
+        "GHSA-887c-mr87-cxwp",
+        "PYSEC-2026-1970"
+      ],
+      "record_ids": [
+        "GHSA-887c-mr87-cxwp",
+        "PYSEC-2026-1970"
+      ],
+      "summary": "PyTorch Improper Resource Shutdown or Release vulnerability",
+      "package": "torch",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.8.0"
+      ]
+    },
+    {
+      "primary_id": "GHSA-8mx5-7m5m-r77g",
+      "ids": [
+        "CVE-2026-112910",
+        "GHSA-8mx5-7m5m-r77g"
+      ],
+      "record_ids": [
+        "GHSA-8mx5-7m5m-r77g"
+      ],
+      "summary": "filelock: WindowsFileLock ignores mode: a 0o600 lock file and the ReadWriteLock database inherit the directory ACL",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-9c4x-gm8v-wgc4",
+      "ids": [
+        "CVE-2026-112911",
+        "GHSA-9c4x-gm8v-wgc4"
+      ],
+      "record_ids": [
+        "GHSA-9c4x-gm8v-wgc4"
+      ],
+      "summary": "filelock: StrictSoftFileLock and SoftReadWriteLock adopt a protocol directory another user created first, losing mutual exclusion",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-9vhv-jxww-xfm5",
+      "ids": [
+        "CVE-2026-112913",
+        "GHSA-9vhv-jxww-xfm5"
+      ],
+      "record_ids": [
+        "GHSA-9vhv-jxww-xfm5"
+      ],
+      "summary": "filelock: ReadWriteLock on Windows acts on SQLite side files another local user places beside its database",
+      "package": "filelock",
+      "severity": "LOW",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-cwqr-hh33-gh44",
+      "ids": [
+        "CVE-2026-112915",
+        "GHSA-cwqr-hh33-gh44"
+      ],
+      "record_ids": [
+        "GHSA-cwqr-hh33-gh44"
+      ],
+      "summary": "filelock ReadWriteLock: a crafted lock database makes every acquire stall or hang regardless of timeout",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-fq56-3cx3-fjxp",
+      "ids": [
+        "CVE-2026-112935",
+        "GHSA-fq56-3cx3-fjxp"
+      ],
+      "record_ids": [
+        "GHSA-fq56-3cx3-fjxp"
+      ],
+      "summary": "filelock: SoftFileLock stale-lock break removes a live lock file on a reused inode number and admits two holders",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-j8f7-rjxc-mr56",
+      "ids": [
+        "CVE-2026-112936",
+        "GHSA-j8f7-rjxc-mr56"
+      ],
+      "record_ids": [
+        "GHSA-j8f7-rjxc-mr56"
+      ],
+      "summary": "filelock: ReadWriteLock follows a symlink at the lock path into SQLite",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.0.9"
+      ]
+    },
+    {
+      "primary_id": "GHSA-m462-7rxw-wvpg",
+      "ids": [
+        "CVE-2026-112938",
+        "GHSA-m462-7rxw-wvpg"
+      ],
+      "record_ids": [
+        "GHSA-m462-7rxw-wvpg"
+      ],
+      "summary": "filelock: StrictSoftFileLock follows a symbolic link swapped in at <path>.filelock and creates claim files in a directory another local user chooses",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-qfhq-4f3w-5fph",
+      "ids": [
+        "BIT-pytorch-2025-3001",
+        "CVE-2025-3001",
+        "GHSA-qfhq-4f3w-5fph",
+        "PYSEC-2025-195"
+      ],
+      "record_ids": [
+        "GHSA-qfhq-4f3w-5fph"
+      ],
+      "summary": "PyTorch is vulnerable to memory corruption through its torch.lstm_cell function",
+      "package": "torch",
+      "severity": "LOW",
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.10.0"
+      ]
+    },
+    {
+      "primary_id": "GHSA-rfpc-qcw5-3pc4",
+      "ids": [
+        "CVE-2026-112939",
+        "GHSA-rfpc-qcw5-3pc4"
+      ],
+      "record_ids": [
+        "GHSA-rfpc-qcw5-3pc4"
+      ],
+      "summary": "filelock: SoftFileLock removes a live holder's marker when another user forges the PID in a writable marker",
+      "package": "filelock",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-rrmf-rvhw-rf47",
+      "ids": [
+        "BIT-pytorch-2025-3000",
+        "CVE-2025-3000",
+        "GHSA-rrmf-rvhw-rf47",
+        "PYSEC-2025-194"
+      ],
+      "record_ids": [
+        "GHSA-rrmf-rvhw-rf47"
+      ],
+      "summary": "PyTorch is vulnerable to memory corruption through its torch.jit.script function",
+      "package": "torch",
+      "severity": "LOW",
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.13.0"
+      ]
+    },
+    {
+      "primary_id": "GHSA-v4x8-3wr5-3wq8",
+      "ids": [
+        "CVE-2026-112940",
+        "GHSA-v4x8-3wr5-3wq8"
+      ],
+      "record_ids": [
+        "GHSA-v4x8-3wr5-3wq8"
+      ],
+      "summary": "filelock ReadWriteLock: SQLite reopens the lock database by name, so a planted symlink or journal file makes the lock user's process overwrite or unlink its own files",
+      "package": "filelock",
+      "severity": "HIGH",
+      "withdrawn": false,
+      "fixed_versions": [
+        "4.2.1"
+      ]
+    },
+    {
+      "primary_id": "GHSA-vgrw-7cvw-pwgx",
+      "ids": [
+        "BIT-pytorch-2025-2999",
+        "CVE-2025-2999",
+        "GHSA-vgrw-7cvw-pwgx",
+        "PYSEC-2025-193"
+      ],
+      "record_ids": [
+        "GHSA-vgrw-7cvw-pwgx"
+      ],
+      "summary": "PyTorch is vulnerable to memory corruption through its unpack_sequence function",
+      "package": "torch",
+      "severity": "MODERATE",
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.9.1"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-198",
+      "ids": [
+        "BIT-pytorch-2025-46148",
+        "CVE-2025-46148",
+        "PYSEC-2025-198"
+      ],
+      "record_ids": [
+        "PYSEC-2025-198"
+      ],
+      "summary": "In PyTorch through 2.6.0, when eager is used, nn.PairwiseDistance(p=2) produces incorrect results.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-199",
+      "ids": [
+        "BIT-pytorch-2025-46149",
+        "CVE-2025-46149",
+        "PYSEC-2025-199"
+      ],
+      "record_ids": [
+        "PYSEC-2025-199"
+      ],
+      "summary": "In PyTorch before 2.7.0, when inductor is used, nn.Fold has an assertion error.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-200",
+      "ids": [
+        "BIT-pytorch-2025-46150",
+        "CVE-2025-46150",
+        "PYSEC-2025-200"
+      ],
+      "record_ids": [
+        "PYSEC-2025-200"
+      ],
+      "summary": "In PyTorch before 2.7.0, when torch.compile is used, FractionalMaxPool2d has inconsistent results.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-201",
+      "ids": [
+        "BIT-pytorch-2025-46152",
+        "CVE-2025-46152",
+        "PYSEC-2025-201"
+      ],
+      "record_ids": [
+        "PYSEC-2025-201"
+      ],
+      "summary": "In PyTorch before 2.7.0, bitwise_right_shift produces incorrect output for certain out-of-bounds values of the \"other\" argument.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-202",
+      "ids": [
+        "BIT-pytorch-2025-46153",
+        "CVE-2025-46153",
+        "PYSEC-2025-202"
+      ],
+      "record_ids": [
+        "PYSEC-2025-202"
+      ],
+      "summary": "PyTorch before 3.7.0 has a bernoulli_p decompose function in decompositions.py even though it lacks full consistency with the eager CPU implementation, negatively affecting nn.Dropout1d, nn.Dropout2d, and nn.Dropout3d for fallback_random=True.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-203",
+      "ids": [
+        "BIT-pytorch-2025-55551",
+        "CVE-2025-55551",
+        "PYSEC-2025-203"
+      ],
+      "record_ids": [
+        "PYSEC-2025-203"
+      ],
+      "summary": "An issue in the component torch.linalg.lu of pytorch v2.8.0 allows attackers to cause a Denial of Service (DoS) when performing a slice operation.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.9.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-204",
+      "ids": [
+        "BIT-pytorch-2025-55552",
+        "CVE-2025-55552",
+        "PYSEC-2025-204"
+      ],
+      "record_ids": [
+        "PYSEC-2025-204"
+      ],
+      "summary": "pytorch v2.8.0 was discovered to display unexpected behavior when the components torch.rot90 and torch.randn_like are used together.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.9.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-205",
+      "ids": [
+        "BIT-pytorch-2025-55553",
+        "CVE-2025-55553",
+        "PYSEC-2025-205"
+      ],
+      "record_ids": [
+        "PYSEC-2025-205"
+      ],
+      "summary": "A syntax error in the component proxy_tensor.py of pytorch v2.7.0 allows attackers to cause a Denial of Service (DoS).",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.1"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-206",
+      "ids": [
+        "BIT-pytorch-2025-55554",
+        "CVE-2025-55554",
+        "PYSEC-2025-206"
+      ],
+      "record_ids": [
+        "PYSEC-2025-206"
+      ],
+      "summary": "pytorch v2.8.0 was discovered to contain an integer overflow in the component torch.nan_to_num-.long().",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.9.0"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-207",
+      "ids": [
+        "BIT-pytorch-2025-55557",
+        "CVE-2025-55557",
+        "PYSEC-2025-207"
+      ],
+      "record_ids": [
+        "PYSEC-2025-207"
+      ],
+      "summary": "A Name Error occurs in pytorch v2.7.0 when a PyTorch model consists of torch.cummin and is compiled by Inductor, leading to a Denial of Service (DoS).",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.1"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-208",
+      "ids": [
+        "BIT-pytorch-2025-55558",
+        "CVE-2025-55558",
+        "PYSEC-2025-208"
+      ],
+      "record_ids": [
+        "PYSEC-2025-208"
+      ],
+      "summary": "A buffer overflow occurs in pytorch v2.7.0 when a PyTorch model consists of torch.nn.Conv2d, torch.nn.functional.hardshrink, and torch.Tensor.view-torch.mv() and is compiled by Inductor, leading to a Denial of Service (DoS).",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.1"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2025-209",
+      "ids": [
+        "BIT-pytorch-2025-55560",
+        "CVE-2025-55560",
+        "PYSEC-2025-209"
+      ],
+      "record_ids": [
+        "PYSEC-2025-209"
+      ],
+      "summary": "An issue in pytorch v2.7.0 can lead to a Denial of Service (DoS) when a PyTorch model consists of torch.Tensor.to_sparse() and torch.Tensor.to_dense() and is compiled by Inductor.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": [
+        "2.7.1"
+      ]
+    },
+    {
+      "primary_id": "PYSEC-2026-139",
+      "ids": [
+        "BIT-pytorch-2026-4538",
+        "CVE-2026-4538",
+        "PYSEC-2026-139"
+      ],
+      "record_ids": [
+        "PYSEC-2026-139"
+      ],
+      "summary": "A vulnerability was identified in PyTorch 2.10.0. The affected element is an unknown function of the component pt2 Loading Handler. The manipulation leads to deserialization. The attack can only be performed from a local environment. The exploit is publicly available and might be used. The project was informed of the problem early through a pull request but has not reacted yet.",
+      "package": "torch",
+      "severity": null,
+      "withdrawn": false,
+      "fixed_versions": []
+    }
+  ]
+}

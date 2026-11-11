@@ -1,0 +1,119 @@
+{
+  "committed_at_utc": "2026-10-21T17:44:29.034528+00:00",
+  "decisions": [
+    {
+      "calibrated_radius_eV_atom": 0.09515807347357043,
+      "diversity_distance_at_selection": 0.45079131214272833,
+      "material_id": "wbm-4-27074",
+      "position": 0,
+      "predicted_mean_eV_atom": 0.11070984307291667,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.5329723070798323,
+      "diversity_distance_at_selection": 0.5366754993013662,
+      "material_id": "wbm-2-33277",
+      "position": 1,
+      "predicted_mean_eV_atom": 0.21740540325520824,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.16188636778216497,
+      "diversity_distance_at_selection": 0.3157755731367122,
+      "material_id": "wbm-5-15421",
+      "position": 2,
+      "predicted_mean_eV_atom": -0.07981697473958335,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.21840424573554593,
+      "diversity_distance_at_selection": 0.529367941103667,
+      "material_id": "wbm-1-37537",
+      "position": 3,
+      "predicted_mean_eV_atom": 0.17275374408854166,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.14513226316308553,
+      "diversity_distance_at_selection": 0.47230549361213064,
+      "material_id": "wbm-2-33705",
+      "position": 4,
+      "predicted_mean_eV_atom": 0.45715527627604197,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.21472149899640441,
+      "diversity_distance_at_selection": 0.5599672748445355,
+      "material_id": "wbm-3-51297",
+      "position": 5,
+      "predicted_mean_eV_atom": 0.2924321107812499,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.12610233207506538,
+      "diversity_distance_at_selection": 0.46448625406985167,
+      "material_id": "wbm-3-51319",
+      "position": 6,
+      "predicted_mean_eV_atom": 0.1382835864322917,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.2059881766596131,
+      "diversity_distance_at_selection": 0.43125659634017166,
+      "material_id": "wbm-3-51770",
+      "position": 7,
+      "predicted_mean_eV_atom": 0.22930634169270844,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.20460681843165662,
+      "diversity_distance_at_selection": 0.38949685739102485,
+      "material_id": "wbm-3-50932",
+      "position": 8,
+      "predicted_mean_eV_atom": 0.018411244088541667,
+      "role": "random",
+      "score": null
+    },
+    {
+      "calibrated_radius_eV_atom": 0.18146599556579263,
+      "diversity_distance_at_selection": 0.40080576562651893,
+      "material_id": "wbm-1-40455",
+      "position": 9,
+      "predicted_mean_eV_atom": 0.09100219088541664,
+      "role": "random",
+      "score": null
+    }
+  ],
+  "known_ids_sha256": "32439a933fb9e04ac6083ef4beb93ace9310e992feaae65f37fb917b9953e88e",
+  "material_ids": [
+    "wbm-4-27074",
+    "wbm-2-33277",
+    "wbm-5-15421",
+    "wbm-1-37537",
+    "wbm-2-33705",
+    "wbm-3-51297",
+    "wbm-3-51319",
+    "wbm-3-51770",
+    "wbm-3-50932",
+    "wbm-1-40455"
+  ],
+  "model_training_ids_sha256": "32439a933fb9e04ac6083ef4beb93ace9310e992feaae65f37fb917b9953e88e",
+  "oracle_labels_supplied_to_acquisition": 0,
+  "paired_seed": 20261022,
+  "policy": "random",
+  "pool_prediction_sha256": "a11faae65709a8f865ed5b3defb8f67f9434b9098d021ede97d3e15041e1698f",
+  "random_seed_sequence": [
+    20261022,
+    1,
+    101
+  ],
+  "round_index": 1
+}

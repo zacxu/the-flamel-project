@@ -1,0 +1,1248 @@
+{
+  "phase": 5,
+  "created_utc": "2026-10-22T02:36:00.516256+00:00",
+  "status": "complete",
+  "phase5_end_budget": {
+    "frozen_utc": "2026-10-22T02:36:00.516256+00:00",
+    "budget_ledger": {
+      "schema_version": 1,
+      "as_of_utc": "2026-10-22T02:33:49.702135+00:00",
+      "phase": 5,
+      "generation": {
+        "ceiling_attempts": 128,
+        "charged_attempts": 96,
+        "remaining_attempts": 32,
+        "cumulative_sampling_seconds": 38.38882739999826,
+        "cumulative_run_seconds_including_initialization_and_conversion": 55.423395199999504,
+        "source_ledgers": [
+          "artifacts/phase1/generator/ledger.jsonl",
+          "artifacts/phase2/budgets/prototype_attempts.jsonl",
+          "artifacts/runtime_budget_events.jsonl"
+        ],
+        "CrystalFormer_sample_attempts": 92,
+        "deterministic_prototype_attempts": 4,
+        "cumulative_new_job_wall_seconds": 654.5083171999968,
+        "CrystalFormer_sample_attempts_interpretation": "Conservatively charged CrystalFormer reservation slots, not the number of emitted model draws. Unemitted slots remain charged after a failed reservation; use cohort evidence to identify actual draws. The Phase3 early cohort charged 12 slots for 8 actual draws plus 4 unemitted engineering slots.",
+        "timing_scope": "cumulative_sampling_seconds and cumulative_run_seconds_including_initialization_and_conversion retain only the measured Phase1 baseline captured in Phase2; they are not total timings for later sampling. cumulative_new_job_wall_seconds sums finished post-baseline generation-job walltime, including failures and recovery. Phase3 pure sampling time was not completely recovered and must not be inferred from these totals.",
+        "active_reservations": []
+      },
+      "chgnet": {
+        "ceiling_attempts": 40,
+        "charged_attempts": 19,
+        "remaining_attempts": 21,
+        "actual_relaxations": 15,
+        "pre_model_launcher_rejections": 4,
+        "ceiling_seconds": 14400,
+        "charged_wall_seconds": 159.011884800002,
+        "remaining_seconds": 14240.988115199998,
+        "charging_rule": "Conservatively count every launch, including four guard rejections before model imports; charge entire subprocess walltime, including imports, load and relaxation.",
+        "source_ledgers": [
+          "artifacts/phase1/chgnet/ledger.jsonl",
+          "artifacts/phase1/chgnet_relaxation/ledger.jsonl",
+          "artifacts/runtime_budget_events.jsonl"
+        ],
+        "reserved_inflight_seconds": 0,
+        "available_unreserved_seconds": 14240.988115199998,
+        "new_runtime_launches": 11,
+        "active_reservations": [],
+        "phase3_and_later_category_charged_attempts": {
+          "symmetry": 3,
+          "new_composition_shortlist": 0,
+          "prototype": 4,
+          "same_composition_reference": 3,
+          "contingency": 1
+        }
+      },
+      "qe": {
+        "ceiling_seconds": 21600,
+        "charged_wall_seconds": 2558.920391600004,
+        "remaining_seconds": 19041.079608399996,
+        "completed_jobs": 19,
+        "source_ledgers": [
+          "artifacts/phase1/qe/qe_jobs.jsonl",
+          "artifacts/runtime_budget_events.jsonl"
+        ],
+        "reserved_inflight_seconds": 0,
+        "available_unreserved_seconds": 19041.079608399996,
+        "active_reservations": []
+      },
+      "project_started_utc": "2026-10-21T16:24:44+00:00",
+      "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+      "all_caps_remain_binding": true,
+      "note": "Canonical state reconstructed from immutable Phase2 totals plus append-only runtime reservations. Counts are charged before dispatch; unfinished runtime reservations remain unavailable. Every failed/retried job is retained.",
+      "runtime_event_ledger": "artifacts/runtime_budget_events.jsonl"
+    },
+    "budget_ledger_sha256": "53d08b6ccb93952a8677e97a4116259ce50173f40eaa3fc843fadc4311b6d0c6",
+    "runtime_events_sha256": "13e65aaac3f4ca03558d26638579d43664cdae36451355102307cc78a5e06c46",
+    "runtime_event_count": 82,
+    "scope": "Historical Phase5 close. Later phases may advance the ledger; this close must remain unchanged."
+  },
+  "files": [
+    {
+      "path": ".envs/analysis/Lib/site-packages/ase/filters.py",
+      "sha256": "aa6f146d080111d5263cd2dd9881dace91d57f6a29ddb092f6fce1f09e66f0e0",
+      "bytes": 32890
+    },
+    {
+      "path": ".envs/analysis/Lib/site-packages/ase/optimize/fire.py",
+      "sha256": "fe55cc89b46fcadd2b0b741d51231ccc05d9974caee5e20d3773fb43ee0ad107",
+      "bytes": 7150
+    },
+    {
+      "path": ".envs/analysis/Lib/site-packages/chgnet/model/dynamics.py",
+      "sha256": "e0387c0e121e945898a9b303b9a6ccf93398ff3cff881e180ab22cb3b4f37afb",
+      "bytes": 36966
+    },
+    {
+      "path": ".envs/analysis/Lib/site-packages/chgnet/pretrained/0.3.0/chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1",
+      "bytes": 4863221
+    },
+    {
+      "path": "README.md",
+      "sha256": "de122ae9b35236881f41fe17b1e2ef146ffdccbe1e4327b41ce64c4ebb061240",
+      "bytes": 4659
+    },
+    {
+      "path": "artifacts/budget_ledger.json",
+      "sha256": "53d08b6ccb93952a8677e97a4116259ce50173f40eaa3fc843fadc4311b6d0c6",
+      "bytes": 3435
+    },
+    {
+      "path": "artifacts/phase1/generator/structure_000.json",
+      "sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035",
+      "bytes": 3309
+    },
+    {
+      "path": "artifacts/phase1/qe/qe_jobs.jsonl",
+      "sha256": "c1daa2ef190bbb8d3fd98c9655f232f6ecf3663c959f37270a085fb9970432bd",
+      "bytes": 109069
+    },
+    {
+      "path": "artifacts/phase2/budgets/prototype_attempts.jsonl",
+      "sha256": "fec726c850b1e6d9864c076d3380684155bc8905fbdb82b2a0733c7f27b5b7be",
+      "bytes": 3105
+    },
+    {
+      "path": "artifacts/phase2/compositions/generation_protocol.json",
+      "sha256": "39b7fa1771bdf5f2214659de6d37bb69677d9e9c4df06a72c3788b1ef9d5b75f",
+      "bytes": 19334
+    },
+    {
+      "path": "artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "sha256": "4b127f0ba7ab22e0d9dfaa12c2d551ecfa11c04e7c437b1ab74c6cffeac11340",
+      "bytes": 901
+    },
+    {
+      "path": "artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "sha256": "f75934ac0be48dda22984e8bec7e633d6a06b0a15dc82eb34073bca4aa2efa53",
+      "bytes": 1012
+    },
+    {
+      "path": "artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "sha256": "201903f0a8002802b6c24bd9216ff03d2e73aa1eba7bbba1efe607a5f9c3f557",
+      "bytes": 1012
+    },
+    {
+      "path": "artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "sha256": "7bb6335a3ed48cec7ed0c8b322b2732c71c1e9e01e1313711f510b4dcd573b0c",
+      "bytes": 901
+    },
+    {
+      "path": "artifacts/phase2/controls/same_composition_anatase_reference.cif",
+      "sha256": "d6ada6ef1d2bac40b16327033da36a928745602750abffdff89cf5c87fe4358f",
+      "bytes": 1300
+    },
+    {
+      "path": "artifacts/phase2/controls/same_composition_reference_plan.json",
+      "sha256": "53b35c6248f2e267c51723da38ae0b05df472942fc2f00ab58eac4892192b1ce",
+      "bytes": 1320
+    },
+    {
+      "path": "artifacts/phase2/controls/same_composition_rocksalt_reference.cif",
+      "sha256": "146a234cda4e045125fd60e4e5f1bedb3cad52eb0aa606023e80d0f131e19bac",
+      "bytes": 1091
+    },
+    {
+      "path": "artifacts/phase2/controls/same_composition_rutile_reference.cif",
+      "sha256": "f414d51475a787c3147a7d23e8536587ce9bfbabcd431fb5907ee0ece102060f",
+      "bytes": 987
+    },
+    {
+      "path": "artifacts/phase2/dft/numerical_protocol.json",
+      "sha256": "f6ade07bde4d73b44eaa6efd3ace923faf4646ed323d0fe0ea5441562b7d59dd",
+      "bytes": 6463
+    },
+    {
+      "path": "artifacts/phase2/dft/primary_reference_plan.json",
+      "sha256": "a53d3e35f95a5208f7ef9e0c291b889f6b16769b2341d22f7ffbe462e7225843",
+      "bytes": 578519
+    },
+    {
+      "path": "artifacts/phase2/protocol/manifest.json",
+      "sha256": "ff2f2a38d4b96de4e8cb091f956b19f5f309684a3cda22b825c4cbcbf9a852ba",
+      "bytes": 428
+    },
+    {
+      "path": "artifacts/phase3/budget_baseline.json",
+      "sha256": "932bebff93a97fae4b9b63d189748403256c33f0df1abf550c35772be024d3da",
+      "bytes": 2203
+    },
+    {
+      "path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/final.json",
+      "sha256": "b1061f40c75055c65981ff7c159de569dcf80d85b06abc261b5760177e21ec88",
+      "bytes": 4340
+    },
+    {
+      "path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/parent_result.json",
+      "sha256": "ad1c945a30c771c69b24f59380bde7e1406f99ee074502c04d0e2333d769898e",
+      "bytes": 1789
+    },
+    {
+      "path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/result.json",
+      "sha256": "2827cc362f99075292757538ca2c788b974d726654b5ff1d4eeb4a4054bfc142",
+      "bytes": 1430
+    },
+    {
+      "path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/trajectory.pkl",
+      "sha256": "9470acc1d2878fc97d4369f8904998c3624ba2e68c7cee93b8f9fa2d86128c95",
+      "bytes": 12242
+    },
+    {
+      "path": "artifacts/phase3/models/fresh_selector_seed_20261022.joblib",
+      "sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+      "bytes": 25544031
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_candidate_mgo_fallback_90/final_geometry.json",
+      "sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf",
+      "bytes": 3959
+    },
+    {
+      "path": "artifacts/phase3/qe/summary.json",
+      "sha256": "726af170b17a48ca980252aa017757399d6a2b8b72aca5124ee7cb3d17e128a9",
+      "bytes": 85019
+    },
+    {
+      "path": "artifacts/phase3/replay/seed_20261022/query_journal.csv",
+      "sha256": "163a8759f495b8c3c3c4c0992d246dc25fed61d3a1fa568fa02955e5a4eb41fc",
+      "bytes": 82125
+    },
+    {
+      "path": "artifacts/phase4/generation/phase4_tio2_rutile_nontrivial/structure_000.json",
+      "sha256": "11f71fa7ff72dac2a3e9b4f1ed433f3a491e035fd10a0f669527f58594c46332",
+      "bytes": 2813
+    },
+    {
+      "path": "artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "sha256": "efc1251fea8c6eda7e10a9a0a6bd3a09d5d9882dc5cf386fd0fdfe189c5e6b68",
+      "bytes": 3027
+    },
+    {
+      "path": "artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "sha256": "12d3b14ed509fefc17db08ffac56c073fc855c25f99b2d80299ad07d9dd9b9f0",
+      "bytes": 3804
+    },
+    {
+      "path": "artifacts/phase4/manifest.json",
+      "sha256": "95175b4ed0b3b6f2d7f102443a77bb49afbad88b59258bb623c88e2d8a3ab216",
+      "bytes": 278346
+    },
+    {
+      "path": "artifacts/phase4/qe/summary.json",
+      "sha256": "9a38c1729a935ffba6a86d64535a411e1180653cf6f446b529763eb2b76c4ad1",
+      "bytes": 21212
+    },
+    {
+      "path": "artifacts/phase4/readiness.json",
+      "sha256": "660ba23ea2604a5952418ebf3c0676abe3da02c4dfd71bf6b3b670e9f51e3e37",
+      "bytes": 2950
+    },
+    {
+      "path": "artifacts/phase4/replay/aggregate_summary.json",
+      "sha256": "0af681b1c46325cd5532e3bf6f0b0bc1781b78f14fb5778f1abed559ff3406fb",
+      "bytes": 35735
+    },
+    {
+      "path": "artifacts/phase4/replay/seed_20261023/query_journal.csv",
+      "sha256": "13a50b77151dbfd7c55f1a2ec150922069d10de1b3a62147b71c16a671514e7f",
+      "bytes": 82109
+    },
+    {
+      "path": "artifacts/phase4/replay/seed_20261024/query_journal.csv",
+      "sha256": "ced4e3b20107e8e51e015b8e9aef58fc3771585553d60b59d6593896463178d5",
+      "bytes": 82081
+    },
+    {
+      "path": "artifacts/phase4/replay/seed_20261025/query_journal.csv",
+      "sha256": "f45fdb8dc4565cb2ed167b4a4853bf38c842f8cc20c2b7004b7fd01720b568a3",
+      "bytes": 82058
+    },
+    {
+      "path": "artifacts/phase4/replay/seed_20261026/query_journal.csv",
+      "sha256": "b98acdf56d6e7a54c07c888ac20273d58da0eb12a945bb7c053aa632f1639b0f",
+      "bytes": 82203
+    },
+    {
+      "path": "artifacts/phase4/selection/fresh_shortlist.json",
+      "sha256": "1ac7ab017c8e10a5536bf6ed8977de73c413f583be1e6602c0f77116b055ddbc",
+      "bytes": 3363
+    },
+    {
+      "path": "artifacts/phase4/selection/initial_features.npz",
+      "sha256": "d833c6ec606d68b20d2f84848912195e31d571f3d85ab5c73be4035f9c85a2fe",
+      "bytes": 398
+    },
+    {
+      "path": "artifacts/phase4/selection/symmetry_relaxation_plan.json",
+      "sha256": "d1f86ea12e60cce1d7440e40cc4ee0344d556db3b31fd17aafa5eb048cf2f200",
+      "bytes": 5048
+    },
+    {
+      "path": "artifacts/phase5/audit.json",
+      "sha256": "2aecfffe7a6da8d9d789118efc4ddb5b60e0f02e6cf3ede3fe9c2bbbdf55122e",
+      "bytes": 37544
+    },
+    {
+      "path": "artifacts/phase5/chgnet/audit.json",
+      "sha256": "c5fa33d48da8ab704577ca65390dde4df3e6b538a8ed906d85f3c8a310164249",
+      "bytes": 25969
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/00_phase3_candidates.py",
+      "sha256": "29e2288a251920602c713d29fe62e21563f61c86eec06472324c1cbcc50ecb0c",
+      "bytes": 19639
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/01_phase5_chgnet.py",
+      "sha256": "f1fc5a435e9d5151140d06ddb5c0d1e3bf8f25e481344d26f19727d83c95a696",
+      "bytes": 24232
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/02_research_features.py",
+      "sha256": "8ce7f03a3b1f7aaa4d15a3b2bb85cb33c0c98c263c805c6454d7ecb993a1a6aa",
+      "bytes": 9384
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/03_phase2_dft_inputs.py",
+      "sha256": "785adbd40abe43c026c874ff36b98b2effa4809eec2409961fd5f6bac33e503a",
+      "bytes": 6084
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/04_research_budget.py",
+      "sha256": "d44d505552dae135ab0189f6dc4c1c727510d94ab022dd81d16d3bf367f8cbfa",
+      "bytes": 11433
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/05_dynamics.py",
+      "sha256": "e0387c0e121e945898a9b303b9a6ccf93398ff3cff881e180ab22cb3b4f37afb",
+      "bytes": 36966
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/06_fire.py",
+      "sha256": "fe55cc89b46fcadd2b0b741d51231ccc05d9974caee5e20d3773fb43ee0ad107",
+      "bytes": 7150
+    },
+    {
+      "path": "artifacts/phase5/chgnet/executed_sources/07_filters.py",
+      "sha256": "aa6f146d080111d5263cd2dd9881dace91d57f6a29ddb092f6fce1f09e66f0e0",
+      "bytes": 32890
+    },
+    {
+      "path": "artifacts/phase5/chgnet/initial_structures/prototype_BaSnO2.json",
+      "sha256": "b2d75a2ce10a94a2694bbb7c418a43435cef8ff0ddad95e4996e51f90004630b",
+      "bytes": 1912
+    },
+    {
+      "path": "artifacts/phase5/chgnet/initial_structures/prototype_CaMg2O3.json",
+      "sha256": "aa12c8b9449c232e5fb84012e29c8c797e031606de444493855b11d079caa69c",
+      "bytes": 2763
+    },
+    {
+      "path": "artifacts/phase5/chgnet/initial_structures/prototype_Mg2SrO3.json",
+      "sha256": "74cfede6f60ce8667a88459e323445002df91b9b43d2aef1308b7e3881b12c16",
+      "bytes": 2763
+    },
+    {
+      "path": "artifacts/phase5/chgnet/initial_structures/prototype_SnSrO2.json",
+      "sha256": "4f2e60f58f1f7617784b8dd50b6b1bba6b1ae0427fddaf9f6dab7d0140f23332",
+      "bytes": 1903
+    },
+    {
+      "path": "artifacts/phase5/chgnet/initial_structures/reference_anatase.json",
+      "sha256": "7f6cc441bb52ef458863920213fb4730686cb7589a1b34fd89dd8383bc06ab5d",
+      "bytes": 4523
+    },
+    {
+      "path": "artifacts/phase5/chgnet/initial_structures/reference_rocksalt.json",
+      "sha256": "5752f5779ce676224436fae4e5ef299796d77f8c771a1de71c554c649e32e942",
+      "bytes": 3206
+    },
+    {
+      "path": "artifacts/phase5/chgnet/initial_structures/reference_rutile.json",
+      "sha256": "2917e144bd26187895c15607a293b8c2385f2675c8e6ebe4b2a69500f9258e01",
+      "bytes": 2670
+    },
+    {
+      "path": "artifacts/phase5/chgnet/ledger.jsonl",
+      "sha256": "5723f774bb999ad981479a8caecaec76ac2d3a2c56eca572488ae5d9a74dfc9f",
+      "bytes": 25525
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/final.cif",
+      "sha256": "7504888d5309af1c6bd61eb25fca7edba2c7131198b54d701db3d8393accd56e",
+      "bytes": 1094
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/final.json",
+      "sha256": "4f6347e27693dc01eaf954efd81d21373e37981b8fa3fc7a0da3c82dd511f482",
+      "bytes": 4244
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/parent_result.json",
+      "sha256": "bf68842b375a8ac8357df16d2298d90e8bfa6d88abb84c20a9156b744f7c6588",
+      "bytes": 1972
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/relaxation_started.json",
+      "sha256": "41a039435db54375e7f6ccfdb96f3ce5724593c2136bec963b3686e1248f069a",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/reservation.json",
+      "sha256": "1b452127d2ccbadc785ee1ce1ccfe6ca26535140df5c6831f0e3b599cb6365a6",
+      "bytes": 207
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/result.json",
+      "sha256": "86d4411e6bfe64e8c6d564267d553c030b77714d8c5deb4668dab364f17f5460",
+      "bytes": 1478
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/run.log",
+      "sha256": "1de29fa3a976aa84b2021c3d86c04f7518d4c8cb72c892191031bc207e0e1784",
+      "bytes": 8967
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/spec.json",
+      "sha256": "ec41fa4a25414cdd0d7fd2ef4d5407fe7beb553bdcdab79c1125d35c00b13e96",
+      "bytes": 2052
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/trajectory.pkl",
+      "sha256": "a10f11ce9962e5916994be2ebb693c235da14b7650a4a13dfcee6e44ae2b66ac",
+      "bytes": 78868
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/worker_started.json",
+      "sha256": "5e4a79f3198dad940247fefa5b878470ebd485513646182d4eed51f7a7ee660e",
+      "bytes": 65
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/final.cif",
+      "sha256": "973a260cbc5bf1c889264efb2bd6da12fee3abd9d2d69f23698d5f974218befd",
+      "bytes": 990
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/final.json",
+      "sha256": "bfa90552c9bb9c76350c0f3aecf150104abd3d410cd04117829a5fbbe89079a6",
+      "bytes": 3420
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/parent_result.json",
+      "sha256": "557b326c75d2c9ea20c3af75ee7fd284c17fb48182cbf68f69f1542905ff9596",
+      "bytes": 1946
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/relaxation_started.json",
+      "sha256": "6fc91584a386243261d59882712ac76a9eb46228090db9c72630483d177b3718",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/reservation.json",
+      "sha256": "86318fc91b53dd19b638a333ceabb20ab22676fea03944ed3f5427e7fbc2e5c4",
+      "bytes": 200
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/result.json",
+      "sha256": "20f09db753a485890e2ce7f7713deb649c16481dfb8e4465fc9cd895f43e0abb",
+      "bytes": 1466
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/run.log",
+      "sha256": "8081bf09fb1a99e39707b344544ee2f21007a88ec41edf2a455e361bb4638126",
+      "bytes": 2733
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/spec.json",
+      "sha256": "a1ab83b79c711abf99fef612cd173d3fb3ecf22825e2df13d08d339dac178e81",
+      "bytes": 2041
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/trajectory.pkl",
+      "sha256": "0aa1e0ac08c78afd78ce2949ef3f92daedf8ee966947b219b7d65c2e5da777d3",
+      "bytes": 11139
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/worker_started.json",
+      "sha256": "565e0118a7090e06387b2feb8e989255242e0543a00f40d16c563d10e6da1eef",
+      "bytes": 65
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/final.cif",
+      "sha256": "0723655f54f165072af6d992f7b5fe387703e2c00e40f692ad4b2d42e9b27dec",
+      "bytes": 987
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/final.json",
+      "sha256": "aec9f8f155b3561901c6127e4bb307a29280ff25cceea060617c7083face6b8e",
+      "bytes": 3356
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/parent_result.json",
+      "sha256": "85f1bf2f8e1d497d858ae3a462a6d765e8ff840092f927c6405b5b157d1bb7a5",
+      "bytes": 1912
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/relaxation_started.json",
+      "sha256": "3b8a30835c03b6ee04c339919e643e74190e95bcd0a28cfe902cf9d1e48e468f",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/reservation.json",
+      "sha256": "36c2a54afd73a569ca1214ba47f8d365294f09b400ce1723303922a47f866bda",
+      "bytes": 192
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/result.json",
+      "sha256": "20ab33feddbad94ef2d7695f03ddadf5f696a4914b2573fbc2c6c224cc3a1dcc",
+      "bytes": 1448
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/run.log",
+      "sha256": "3642c9acdeab78739175f06fc5ac98e0c030397595562ac2cfb06f58b45fe18b",
+      "bytes": 8083
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/spec.json",
+      "sha256": "1694ccf1eb4ce2d580b30abd1c8e0d4686aec997ea8f02b93cbaec594de53be9",
+      "bytes": 1993
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/trajectory.pkl",
+      "sha256": "3eb1d36d657a35708c3e81cde1df4e0173cf1e1f0963ff2c0d32a5ff3a2532dc",
+      "bytes": 61191
+    },
+    {
+      "path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/worker_started.json",
+      "sha256": "33699703c71065ae3f3669d1d05eca6d62b76cda12b32b6eab7855ca3af12afb",
+      "bytes": 64
+    },
+    {
+      "path": "artifacts/phase5/chgnet/plan.json",
+      "sha256": "3c50412313cebf76a063e2a6f8501fc5cf75c41bfb14eb73a4e76787e06ff256",
+      "bytes": 13752
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/final.cif",
+      "sha256": "d90b2a6af2bbb95454f2c67e013b0db554ee5769a5505f25fa88a60c6beef7a1",
+      "bytes": 895
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/final.json",
+      "sha256": "0231b366983f544c4e3fa05fd7fa164e200ed34779490edc461d14d9f0d6565d",
+      "bytes": 2565
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/parent_result.json",
+      "sha256": "32edc2025840747980396fd72a2731881888559cfced6cf6debf39561d930546",
+      "bytes": 1849
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/relaxation_started.json",
+      "sha256": "b4e664eee5ec1424f0a4df9d1ceba337582ae157b70e2e0dde3904137ccc2167",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/reservation.json",
+      "sha256": "6a090f83ac678f2f22c2e26656abc8a47c296ef17a98c043e09307ac58bc39d8",
+      "bytes": 175
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/result.json",
+      "sha256": "a767066306ba59e9ebdf69f435dfda817031c48ebfdd2109b199c5c04e10bc4e",
+      "bytes": 1418
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/run.log",
+      "sha256": "1fe5661a8ca39afd3fbb069948bb3c798fe3460d9c1099ca0a1f2dbde5f28ce2",
+      "bytes": 1831
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/spec.json",
+      "sha256": "57227e415d5bd04e732e317a83ca9f5a2c7c3cd80080ed7fb3742b833c28ffd2",
+      "bytes": 1991
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/trajectory.pkl",
+      "sha256": "7a679ac118211829d75c7383233b33e8a11ae242f6eacadfc9867a692c9ca36e",
+      "bytes": 3342
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_BaSnO2/worker_started.json",
+      "sha256": "7a14e0bf4a9e2415cbc7a3d846194fb443c832d4ffc080a539a597e7bf96cc4e",
+      "bytes": 64
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/final.cif",
+      "sha256": "2cfb9449ef1f9c9135fba688b1df23fb608fb2f9be9ac97f258a085843310833",
+      "bytes": 1003
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+      "sha256": "239c24ee68eb9b805688f880eff9c5cc1344b29c95fa41a2aff8b06230d9db8b",
+      "bytes": 3433
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/parent_result.json",
+      "sha256": "099cf73625dea07910d5d7b4328d47c240ab6a208df5d2d601beda4f0bd0e6bb",
+      "bytes": 1851
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/relaxation_started.json",
+      "sha256": "a5c30aca0adf0b5c0a9ec870e1c5b267a62f16f963ef4f172ed58c463d2f32d5",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/reservation.json",
+      "sha256": "729c7e81eb39f9efc04ace04b9dfff23619393c3778bfafc6cdcf06ecd38d72e",
+      "bytes": 176
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/result.json",
+      "sha256": "b0c9bf9af1baf51dd41629adc0f9e9d6d346745d2df0c97da207f8e934c4450f",
+      "bytes": 1417
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/run.log",
+      "sha256": "532801e7b0e250806295544d2f44e08bc93952b1a2519cb69d2c1776cdda5355",
+      "bytes": 3782
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/spec.json",
+      "sha256": "072b95b1491b71c9f234d727a8cbb214404e30763d818be1021a17c7a5ce6a3c",
+      "bytes": 1998
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/trajectory.pkl",
+      "sha256": "f492aa5011074ca5c77c7a9925c1aa2cccd2ef25821f21a6421cb5949562467f",
+      "bytes": 20373
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_CaMg2O3/worker_started.json",
+      "sha256": "1903be7f94a3fb415cdcf5a98a16ea7ababd2f7f64273d27824c31e8471b15f1",
+      "bytes": 65
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/final.cif",
+      "sha256": "942267aa802873d874f44ccd020c03ac3ab98129cf51734979ecd2a40b0f4026",
+      "bytes": 1001
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/final.json",
+      "sha256": "a8c85d221ef26cd2fc3929f1fa1fd784df39660d5ac048518c34e2060eba0196",
+      "bytes": 3426
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/parent_result.json",
+      "sha256": "3330f2275131a203813ae143ac939a6b1846ac17825a9664c8a6e84e2194ea31",
+      "bytes": 1850
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/relaxation_started.json",
+      "sha256": "dac933c732c83b128942190fe43ea08ef7322ce6974e636a86449afbe6bf5c41",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/reservation.json",
+      "sha256": "2b7ced7ad57780fbf079b5b44b64d13d68d61115e0cb2d1e82e38e7fbfaeeb22",
+      "bytes": 176
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/result.json",
+      "sha256": "83b420e5b6c95b133ed1c2a438853a4c24deeb9447bf9af0f821332c5d6668ef",
+      "bytes": 1417
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/run.log",
+      "sha256": "db6b19ba04f0a566c19998c7c16b0679b2736bc346a5c7edc04e25dd119d07c8",
+      "bytes": 3721
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/spec.json",
+      "sha256": "8e482a02ff60902431e9584044151c5d074bca2146104ec18c24c5b3ebac20a4",
+      "bytes": 1998
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/trajectory.pkl",
+      "sha256": "a751c287df7d809e18f82cf3a148aeef8234afa9d7022533e18b97e420b365e6",
+      "bytes": 19860
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/worker_started.json",
+      "sha256": "86b0aac24d9f7300b39405ef44d50a3a4f457a10000a341ada0645041a4efb35",
+      "bytes": 64
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/final.cif",
+      "sha256": "ff8bfc7784170fdfbe38f74a84dde78710e525a2922bd60c423201c2bfb1893d",
+      "bytes": 895
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/final.json",
+      "sha256": "ef66dbff26e23a170659ad46a47577014a7ad7878ac097189b3975a1cea22715",
+      "bytes": 2572
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/parent_result.json",
+      "sha256": "41a5223caed15a721d9762637e64099db7e853b900abf01ba91c47383ac99484",
+      "bytes": 1851
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/relaxation_started.json",
+      "sha256": "06af42a6de9635eb682df24a041310d47c47bc179da110bd3ae09ba7acc6939c",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/reservation.json",
+      "sha256": "f56c71b574d09926d55ca6b2288c438ef4585c230d74070fbb40e0fb39da6866",
+      "bytes": 175
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/result.json",
+      "sha256": "ecff1a89f87cf598aedea78901bb698983df1626b8cb32779d5f6c663f8a1a94",
+      "bytes": 1419
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/run.log",
+      "sha256": "580b203d88b776e5cb9add2275a7965b1f63dcf45ea4d401cc4be48116a46068",
+      "bytes": 1832
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/spec.json",
+      "sha256": "18a0385ecc48d260179ba6a690e6dc3b681720f914ba6bf0eedfc5e30bb95218",
+      "bytes": 1992
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/trajectory.pkl",
+      "sha256": "fe89093a403c45c0ac95d5c31af9cf4c022ae18e2a524e5416fc3817424cc1ca",
+      "bytes": 3342
+    },
+    {
+      "path": "artifacts/phase5/chgnet/prototype_SnSrO2/worker_started.json",
+      "sha256": "b1909c47e2fb4293a276bb0ae95eaf1d5e92b020090cd47dfcc7a84b4e2ea019",
+      "bytes": 64
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/final.cif",
+      "sha256": "d414b5dd9bc8596bd59b3f871353e2128ae55c21330915c5287b643dfaf2c35b",
+      "bytes": 1306
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/final.json",
+      "sha256": "85ddec320f31a3188a3360a1a2524d3778e255a7b1c84e117cb2e90c32ec0e62",
+      "bytes": 6086
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/parent_result.json",
+      "sha256": "1236fb8bdc5cbf6fc665be8fd1acc13715b920807cfde26c6f0bac4b9cad9a58",
+      "bytes": 1868
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/relaxation_started.json",
+      "sha256": "32fc7efb30c3ecfd6fb36d4656ec97698cde8db2bc2fe702b1e6fc1e328d86ac",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/reservation.json",
+      "sha256": "60293a21aecbabf71979383fbc3bb33bbeabde87a5bd739a437217d166d5df08",
+      "bytes": 176
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/result.json",
+      "sha256": "e754f695447e34fd0621d71386e6133f49787eafd9f3bcdc9d65a19476fead54",
+      "bytes": 1418
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/run.log",
+      "sha256": "29a4b137d2c495a80f3797da755b4480378c07ef9d000a45d1637bbe332add32",
+      "bytes": 1770
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/spec.json",
+      "sha256": "d86dead544a2be1597193245ce233e58c7e722b236c5307663c1add2ac1a7132",
+      "bytes": 1974
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/trajectory.pkl",
+      "sha256": "d607e304c81a59505f06381b9a5d5b200dfdbe322c466aaeff893694bd54c368",
+      "bytes": 4917
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_anatase/worker_started.json",
+      "sha256": "7e68358f362a8e2037d167eb644bef8557241f98ae195ec65ab46b3e8bbe7563",
+      "bytes": 65
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/final.cif",
+      "sha256": "146a234cda4e045125fd60e4e5f1bedb3cad52eb0aa606023e80d0f131e19bac",
+      "bytes": 1091
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/final.json",
+      "sha256": "8999cc61f02892bd4565b8faaf0355167232e2d86d4a06e1359a2c70ed1e39b5",
+      "bytes": 3622
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/parent_result.json",
+      "sha256": "177cc29d3ed1cf9a13bc785e68886b1d435a21790eddf990888d34625ad1ff6f",
+      "bytes": 1873
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/relaxation_started.json",
+      "sha256": "c0c9f036568a8c3eabaad28e23f1d6b1b98cbf80e18cff6bde20b288a19db639",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/reservation.json",
+      "sha256": "35cd2b72dbb6b3d59ae12391ea1803f8d33338d0c777d796f7c53660f5156450",
+      "bytes": 177
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/result.json",
+      "sha256": "a05e1de2e30a24070aef1285a29c17d1c9572af8c4e80befc487dcd9f3a78419",
+      "bytes": 1421
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/run.log",
+      "sha256": "4eaa547097274273eadf6013e5067f1da5c7ff09155a95832da7709b50c9ec71",
+      "bytes": 1529
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/spec.json",
+      "sha256": "17ab4c5240a6a159083403b416faad1bb56f61ab71f647c7abecd0dff3ca21d4",
+      "bytes": 1979
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/trajectory.pkl",
+      "sha256": "5aeec798c8899d9e1fe5a80d5b19f542647c444851c4eee80251040d5a85d535",
+      "bytes": 1559
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rocksalt/worker_started.json",
+      "sha256": "186d6db3f5bfd962a5b3c3212891b27bb2d14d2de7bfbe805721bf2d0bedd88b",
+      "bytes": 64
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/final.cif",
+      "sha256": "f414d51475a787c3147a7d23e8536587ce9bfbabcd431fb5907ee0ece102060f",
+      "bytes": 987
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/final.json",
+      "sha256": "c20a55c43850b1a2a9880c705b864d7c7244f3bc19a9538288f65928f751478a",
+      "bytes": 2991
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/parent_result.json",
+      "sha256": "2e2d1fdff235a65b48b672ba1e98dcb9b543e535240e2427a155996d32a861a0",
+      "bytes": 1861
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/relaxation_started.json",
+      "sha256": "46273d4e8eed8041955e4bff3bb7cc0efbe8f2d6238ff7bcaa60502127e5bfdf",
+      "bytes": 80
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/reservation.json",
+      "sha256": "34ae00a1eddfe82a90e5f821760b358109ae642f2c3fa9d1d75b57472dd3cb83",
+      "bytes": 175
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/result.json",
+      "sha256": "fbf3e73001ef91df54bf852320015075c5ac57ca5b6317621d0c26c86c71ed03",
+      "bytes": 1413
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/run.log",
+      "sha256": "446ea1087491f53e7478b914f0442e335875642ba43d16704e3252d701372963",
+      "bytes": 1521
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/spec.json",
+      "sha256": "e93be4a82d33f1d6e6b05132c5de9d1c570809e0e4ac8fa918551efe5668f683",
+      "bytes": 1967
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/trajectory.pkl",
+      "sha256": "01d51220d713f68c968586c7496f11657f97fd1d0c2cf1e08bc06d81c48cff1b",
+      "bytes": 1383
+    },
+    {
+      "path": "artifacts/phase5/chgnet/reference_rutile/worker_started.json",
+      "sha256": "4e2f79fc9865930e094341c5f6ff020b7569139dd0128b98a547292c9f33f12f",
+      "bytes": 65
+    },
+    {
+      "path": "artifacts/phase5/chgnet/summary.json",
+      "sha256": "20e61876771247e1609a98ed3834555316c374a922548994e80a35aafb613fc5",
+      "bytes": 48647
+    },
+    {
+      "path": "artifacts/phase5/chgnet/summary_before_scope_annotation.json",
+      "sha256": "6ca59e4faa4971b59908d826291e7be35bb9a8525d45162cc8d58d5048bb105e",
+      "bytes": 33322
+    },
+    {
+      "path": "artifacts/phase5/execution_plan.json",
+      "sha256": "64a6b85a99d605e37463425ae0e10c6167804eb736352076f5f3531007bf3d27",
+      "bytes": 2462
+    },
+    {
+      "path": "artifacts/phase5/figures/within_composition_energies.pdf",
+      "sha256": "741891dc87dcd6b330190dbd656c43394d6e9ec48609e54c3ae576c71756e2e9",
+      "bytes": 20123
+    },
+    {
+      "path": "artifacts/phase5/figures/within_composition_energies.png",
+      "sha256": "3fc676c6f4830fc7939c54851f55ef0d7f17084b701dcf50541b3f7233129c89",
+      "bytes": 128643
+    },
+    {
+      "path": "artifacts/phase5/preflight/budget_ledger.json",
+      "sha256": "f6e22f07dc448ebf70939ea5a586006badd8c2f806acd316b13d3331ee9f2b40",
+      "bytes": 3435
+    },
+    {
+      "path": "artifacts/phase5/preflight/manifest.json",
+      "sha256": "95175b4ed0b3b6f2d7f102443a77bb49afbad88b59258bb623c88e2d8a3ab216",
+      "bytes": 278346
+    },
+    {
+      "path": "artifacts/phase5/preflight/phase4_finalize.py",
+      "sha256": "db0a42d3b73f8adb690497260ed7fe6f5e62febd9c87f68f85bb9dc0566fedea",
+      "bytes": 42634
+    },
+    {
+      "path": "artifacts/phase5/preflight/readiness.json",
+      "sha256": "660ba23ea2604a5952418ebf3c0676abe3da02c4dfd71bf6b3b670e9f51e3e37",
+      "bytes": 2950
+    },
+    {
+      "path": "artifacts/phase5/preflight/research_budget.py",
+      "sha256": "d44d505552dae135ab0189f6dc4c1c727510d94ab022dd81d16d3bf367f8cbfa",
+      "bytes": 11433
+    },
+    {
+      "path": "artifacts/phase5/qe/README.md",
+      "sha256": "23a370b3846c9fb376e890ece9131caf891ef97c07e61f684a7c32db24829730",
+      "bytes": 3411
+    },
+    {
+      "path": "artifacts/phase5/qe/audit.json",
+      "sha256": "f60af6010de4af508b827187d5eb36ce675aab3e52cf5ee8aa8465285e83d23a",
+      "bytes": 13026
+    },
+    {
+      "path": "artifacts/phase5/qe/comparison_protocol.json",
+      "sha256": "54980206f5720810b65670104aec0d9157dad7e30b2e596d39539cf4ee699f87",
+      "bytes": 610
+    },
+    {
+      "path": "artifacts/phase5/qe/events.jsonl",
+      "sha256": "47062868e0a018c60a88f0a692a408198428c2fa62c4d4818334325c77861688",
+      "bytes": 657
+    },
+    {
+      "path": "artifacts/phase5/qe/executed_sources/research_budget.py",
+      "sha256": "d44d505552dae135ab0189f6dc4c1c727510d94ab022dd81d16d3bf367f8cbfa",
+      "bytes": 11433
+    },
+    {
+      "path": "artifacts/phase5/qe/executed_sources/scripts__phase2_dft_inputs.py",
+      "sha256": "785adbd40abe43c026c874ff36b98b2effa4809eec2409961fd5f6bac33e503a",
+      "bytes": 6084
+    },
+    {
+      "path": "artifacts/phase5/qe/executed_sources/scripts__phase3_qe_parser.py",
+      "sha256": "2b29dbbb3b183bf609a31436ce33b1688a542ea6a61c02940e56c870fd92d9bf",
+      "bytes": 7495
+    },
+    {
+      "path": "artifacts/phase5/qe/executed_sources/scripts__phase5_qe.py",
+      "sha256": "cb0c7401ba3775bc4546ad8416b913f7b1c176d8594e081f4215587ce420e41d",
+      "bytes": 21289
+    },
+    {
+      "path": "artifacts/phase5/qe/executed_sources/scripts__phase5_qe_queue.py",
+      "sha256": "058b3bedb30129a74b47f24528ca211733b08e89408c93712458475d24627b4c",
+      "bytes": 10438
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/budget_after.json",
+      "sha256": "53d08b6ccb93952a8677e97a4116259ce50173f40eaa3fc843fadc4311b6d0c6",
+      "bytes": 3435
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/final_geometry.cif",
+      "sha256": "3ca87dbd3a15818f66dab078df8681dd0854ef6254c98a9bfc62cde07b6fb35d",
+      "bytes": 1094
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/final_geometry.json",
+      "sha256": "046c280e1d051c379ff1117630fe910a72fce76a70c8a5f5e746ae40a7629de7",
+      "bytes": 3905
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/initial_geometry.cif",
+      "sha256": "cdfc0ab88e2f8d24e304fa9d7015e6e10c4b93704ea5a41f7c15de5130175630",
+      "bytes": 1091
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/initial_geometry.json",
+      "sha256": "b510d3b6d0efce6f96a104f102be85fa5fe25c5583cb44cbeaa6404a13f8ad88",
+      "bytes": 3875
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "sha256": "f057a22e5d8484686a1b3fe3724aa01af4236fe8a845e5c2f772c472f107639f",
+      "bytes": 1013584
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "sha256": "7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa",
+      "bytes": 930566
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/pw.in",
+      "sha256": "deabb6530e50b1978a10dc015f62a58789f6689a9a1f46f5bc2ee3317efa0182",
+      "bytes": 1330
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/pw.out",
+      "sha256": "fc5f3e9f6e4bddbc0a4bcc6ec232b260b626410a39ff04c76057ac0e72525334",
+      "bytes": 556040
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/pw.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/queue_binding.json",
+      "sha256": "9eefcad70b1abe0761d00d08a39f742741cff9474968602412a2d80f4aee0f4d",
+      "bytes": 366
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/result.json",
+      "sha256": "324361f8f383f03084e3d8190d7da8e87196009d0d3ed16544d457b72edcc931",
+      "bytes": 5586
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.bfgs",
+      "sha256": "01dccae2dbf7efa6cb313309e1a8e9f10e083b3c80f968ff8aa49d1822a36923",
+      "bytes": 31984
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.mix1",
+      "sha256": "51863901438538258e815379606d5518d0fbae4759c01444752618f30bac6091",
+      "bytes": 3844800
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.restart_k",
+      "sha256": "82f4e9c6c34877082540983e954568dc2f18fe68eb80a1d9d70b5bdac5e67d27",
+      "bytes": 49396
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.restart_scf",
+      "sha256": "d39c8cb8a9a1587dab4347e247a6cb90d3f7b4090c1b027b78076ed3a579308b",
+      "bytes": 49396
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.save/charge-density.dat",
+      "sha256": "da912dfff6e715dee8e219cb0b6ea044b870612d0cab88dc69b6a0fe96f495c2",
+      "bytes": 4745416
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.save/data-file-schema.xml",
+      "sha256": "f2e89943f8085c07b330d7269a75376ef9ae959281590d2bfbe8d2ef9fdb7792",
+      "bytes": 184734
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.save/paw.txt",
+      "sha256": "af5bd72c807f2628490609f6ba32fd9ee2ea293825f447eac77c5cb5cb1823d2",
+      "bytes": 7104
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.update",
+      "sha256": "795f34cd5a35a3fe0c04e48e3cb633a0a3b1478b38911dda54dafbcc0693c8ff",
+      "bytes": 1790
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/scratch/p5_mgo_perturb_90.wfc1",
+      "sha256": "5c025f8616a8dcab09116242d5b6464b4f4084d413fcebc409987ffd74ec2cbe",
+      "bytes": 239904000
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/settings.json",
+      "sha256": "be5f9603eb27f09d36a8b7b74bbae9c66142ecd35503e020e64b2efe95cfb5d5",
+      "bytes": 1378
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90/stage.json",
+      "sha256": "48c22b5bb5428903d9e07727c0f57bd6d8e75ae099d2d06467e19937c5caec35",
+      "bytes": 3517
+    },
+    {
+      "path": "artifacts/phase5/qe/p5_mgo_perturb_90_dispatch.json",
+      "sha256": "d423c10cb14f2e8716a37c45313379a5b67aa7f79251d33cde72a05c0636b94c",
+      "bytes": 646
+    },
+    {
+      "path": "artifacts/phase5/qe/perturbation/final_geometry.json",
+      "sha256": "b510d3b6d0efce6f96a104f102be85fa5fe25c5583cb44cbeaa6404a13f8ad88",
+      "bytes": 3875
+    },
+    {
+      "path": "artifacts/phase5/qe/perturbation/initial_geometry.cif",
+      "sha256": "cdfc0ab88e2f8d24e304fa9d7015e6e10c4b93704ea5a41f7c15de5130175630",
+      "bytes": 1091
+    },
+    {
+      "path": "artifacts/phase5/qe/perturbation/manifest.json",
+      "sha256": "095d8211cd06e2f6a0a71f068b45fbcd70a88b0e2902ee195fc8f202b1b8ed3b",
+      "bytes": 2518
+    },
+    {
+      "path": "artifacts/phase5/qe/perturbation/settings.json",
+      "sha256": "b01947682028a081b15896c54b7e63d2eaf24990e999b14af9cd6e9c92bdef31",
+      "bytes": 1439
+    },
+    {
+      "path": "artifacts/phase5/qe/queue_plan.json",
+      "sha256": "492c017933ab5dc448034ef72df8d2dbe2405282ff99b539d7c0480f780ef5e4",
+      "bytes": 4366
+    },
+    {
+      "path": "artifacts/phase5/qe/summary.json",
+      "sha256": "939720f69afbd2f3443b3ed37d6698be0ae274961194485c9bf5424416c0d7ab",
+      "bytes": 6945
+    },
+    {
+      "path": "artifacts/phase5/readiness.json",
+      "sha256": "76bb6f25faefe17e41168ca929aacbb97fbd68d5e046878082f0bc8c0b52ee86",
+      "bytes": 3507
+    },
+    {
+      "path": "artifacts/runtime_budget_events.jsonl",
+      "sha256": "13e65aaac3f4ca03558d26638579d43664cdae36451355102307cc78a5e06c46",
+      "bytes": 54492
+    },
+    {
+      "path": "config/phase2_protocol.json",
+      "sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+      "bytes": 12228
+    },
+    {
+      "path": "one_day_research_proposal.md",
+      "sha256": "7273b5a0eb9ea235477189487dcfa3c7c8712fc41b11a0db9d1bb72217bd44e6",
+      "bytes": 47272
+    },
+    {
+      "path": "reports/phase5_report.md",
+      "sha256": "6f4023c4b6d9dd1dcf86f3fee36622d0a4499148ab47f99cf7a464dacf4e0be7",
+      "bytes": 13678
+    },
+    {
+      "path": "research_acquisition.py",
+      "sha256": "68374dd88f03cf6f3652c79a46774993bdc3bb936459da214870ddfec07e1f7c",
+      "bytes": 9947
+    },
+    {
+      "path": "research_budget.py",
+      "sha256": "d44d505552dae135ab0189f6dc4c1c727510d94ab022dd81d16d3bf367f8cbfa",
+      "bytes": 11433
+    },
+    {
+      "path": "research_features.py",
+      "sha256": "8ce7f03a3b1f7aaa4d15a3b2bb85cb33c0c98c263c805c6454d7ecb993a1a6aa",
+      "bytes": 9384
+    },
+    {
+      "path": "scripts/phase2_dft_inputs.py",
+      "sha256": "785adbd40abe43c026c874ff36b98b2effa4809eec2409961fd5f6bac33e503a",
+      "bytes": 6084
+    },
+    {
+      "path": "scripts/phase3_candidates.py",
+      "sha256": "29e2288a251920602c713d29fe62e21563f61c86eec06472324c1cbcc50ecb0c",
+      "bytes": 19639
+    },
+    {
+      "path": "scripts/phase3_qe_parser.py",
+      "sha256": "2b29dbbb3b183bf609a31436ce33b1688a542ea6a61c02940e56c870fd92d9bf",
+      "bytes": 7495
+    },
+    {
+      "path": "scripts/phase5_chgnet.py",
+      "sha256": "f1fc5a435e9d5151140d06ddb5c0d1e3bf8f25e481344d26f19727d83c95a696",
+      "bytes": 24232
+    },
+    {
+      "path": "scripts/phase5_chgnet_handoff.py",
+      "sha256": "8cd7ba5b98b24ba55f524358a17bb2debef8ab5e052c740460dd376a5631b88d",
+      "bytes": 5148
+    },
+    {
+      "path": "scripts/phase5_chgnet_scope.py",
+      "sha256": "85490c1c9d430e6babb83fda8cdf3083e96ab13b4c17c91364b87fe04239dcaf",
+      "bytes": 2662
+    },
+    {
+      "path": "scripts/phase5_finalize.py",
+      "sha256": "82765bbf55b1f265f4abd11eaa2eb04541a199b1eff77fed0e028d308ff3a4b9",
+      "bytes": 39985
+    },
+    {
+      "path": "scripts/phase5_plot.py",
+      "sha256": "fd4c34b7020cb3cf0d68127a5efba08c7222dac552d9fd3bbabc61d5a930b3df",
+      "bytes": 2928
+    },
+    {
+      "path": "scripts/phase5_qe.py",
+      "sha256": "cb0c7401ba3775bc4546ad8416b913f7b1c176d8594e081f4215587ce420e41d",
+      "bytes": 21289
+    },
+    {
+      "path": "scripts/phase5_qe_audit.py",
+      "sha256": "9e8f9fb29f046d88033268141a58c85d15756055a039caeb9c7157f07f10f0d3",
+      "bytes": 22305
+    },
+    {
+      "path": "scripts/phase5_qe_queue.py",
+      "sha256": "058b3bedb30129a74b47f24528ca211733b08e89408c93712458475d24627b4c",
+      "bytes": 10438
+    },
+    {
+      "path": "scripts/phase5_report.py",
+      "sha256": "70ebd062733d28f79291790ce8be9c66d03ae58670b812ee61ea4b2389efd550",
+      "bytes": 17870
+    },
+    {
+      "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/bin/pw.exe",
+      "sha256": "287ea5f329fd31d68f55516747ee6d67e5fdab7d05eb67403538944c54df0107",
+      "bytes": 16127600
+    }
+  ],
+  "scope": "Frozen protocols, sources, selected initial geometries, saved CHGNet trajectories/results, QE XML/input/output/pseudopotentials, lane audits, report/docs and the final budget. No oracle labels were opened."
+}

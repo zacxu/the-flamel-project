@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-11-11T04:22:36.887044+00:00",
+  "phase": 4,
+  "source_selected_files": 5260,
+  "new_files": 60,
+  "phase4_controls": 71,
+  "aggregate_current_controls": 147,
+  "source_export": {
+    "files": 5200,
+    "bytes": 310824522,
+    "remote_clone": false
+  },
+  "python": {
+    "standalone": "3.11.14",
+    "bootstrap_uv": "0.13.7",
+    "profiles": {
+      "analysis-historical": 51,
+      "generator-historical": 61,
+      "analysis-maintenance-cpu": 52
+    },
+    "installer_all_profiles_passed": true,
+    "fresh_maintenance_generator_osv_records": 0,
+    "fresh_bootstrap_osv_records": 0,
+    "historical_advisory_groups_retained": 31,
+    "guard_tests_passed": 9
+  },
+  "website": {
+    "node": "24.22.1",
+    "npm": "12.2.1",
+    "npm_ci": true,
+    "matching_build_files": 86,
+    "http_files_verified": 86,
+    "source_regressions": 224507,
+    "integration_checks": 384,
+    "tour_checks": 123,
+    "publication_guard_scenarios": 11,
+    "npm_audit_reported_findings": 0,
+    "native_browser_acceptance": false
+  },
+  "assets": {
+    "permitted_archives_with_notices": 12,
+    "members": 907,
+    "project_files_hydrated": 777,
+    "production_files_hydrated": 140,
+    "asset_safety_tests_passed": 34,
+    "real_upstream_https_fetches": 1,
+    "canonical_upfs": 3,
+    "exact_input_placements": 41,
+    "private_serialized_scratch_not_recreated": 36
+  },
+  "saved_evidence": {
+    "source_inputs": 103,
+    "payloads": 75,
+    "tests_passed": 11,
+    "historical_checks_reexecuted": false
+  },
+  "shared_integrity_tests": {
+    "passed": 24,
+    "skipped": 1,
+    "failed": 0
+  },
+  "no_new_scientific_experiments": true,
+  "root_git_initialized": false,
+  "staged": false,
+  "pushed": false,
+  "release_uploaded": false,
+  "deployed": false,
+  "external_full_selection_seal": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\selected-files.json",
+  "external_control_seal": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\current-controls.json",
+  "self_hash_policy": "Complete seal digests/final independent verification live in external PHASE4_COMPLETION.json; source mirror does not hash itself.",
+  "next": "Phase5 first Git import/push and real clone verification; actual release download/live acceptance remain later.",
+  "final_credential_scan": {
+    "selected_files": 5260,
+    "raw_matches": 13,
+    "exact_reviewed_worker_uuid_matches": 13,
+    "unresolved_findings": 0
+  },
+  "final_git_policy": {
+    "selected_files": 5260,
+    "excluded_paths": 100449,
+    "exact_vendor_exceptions": 8,
+    "all_text_attributes_unset": true
+  },
+  "cleanup_receipts": {
+    "python": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\PYTHON_CLEANUP.json",
+    "website": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\website-audit\\CLEANUP.json",
+    "assets": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\assets\\CLEANUP.json"
+  }
+}

@@ -1,0 +1,691 @@
+{
+  "angle_tolerance_degrees": 5.0,
+  "budget_clarification": "The approved shared 128-structure cap includes deterministic prototype-substitution candidates. Four were prepared once in Phase 2; copies, versions and reference geometries add no new candidates. CF primary denominators are unchanged.",
+  "budgets": {
+    "control_attempts_including_phase1": 32,
+    "crystalformer_attempts_consumed_at_phase2_end": 8,
+    "default_crystalformer_total": 80,
+    "default_new_attempts": 48,
+    "default_remaining_headroom": 44,
+    "default_total": 84,
+    "deterministic_prototype_candidates": 4,
+    "prototype_candidates_consumed_at_phase2_end": 4,
+    "remaining_structure_capacity_at_phase2_end": 116,
+    "stretch_crystalformer_total": 96,
+    "stretch_new_attempts": 64,
+    "stretch_remaining_headroom": 28,
+    "stretch_total": 100,
+    "total_candidates_consumed_at_phase2_end": 12
+  },
+  "checkpoint_revision": "b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+  "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+  "compatibility_limit": "Counts only: distinct one-fold sites handle odd amounts and independent two-fold general orbits handle pairs; this does not guarantee non-overlap, successful sampling, or stable chemistry.",
+  "control_protocol": "artifacts/phase2/controls/matched_protocol.json",
+  "deduplication": {
+    "angle_tol": 5.0,
+    "attempt_supercell": false,
+    "ltol": 0.05,
+    "primitive_cell": true,
+    "scale": true,
+    "stol": 0.1
+  },
+  "deterministic_prototype_candidates": [
+    {
+      "candidate_id": "prototype_SnSrO2",
+      "cif": "artifacts/phase2/compositions/prototype_SnSrO2.cif",
+      "cif_sha256": "7bb6335a3ed48cec7ed0c8b322b2732c71c1e9e01e1313711f510b4dcd573b0c",
+      "parent_material_id": "mp-1018032",
+      "structure_budget_charge": 1,
+      "target_formula": "SnSrO2"
+    },
+    {
+      "candidate_id": "prototype_BaSnO2",
+      "cif": "artifacts/phase2/compositions/prototype_BaSnO2.cif",
+      "cif_sha256": "4b127f0ba7ab22e0d9dfaa12c2d551ecfa11c04e7c437b1ab74c6cffeac11340",
+      "parent_material_id": "mp-753619",
+      "structure_budget_charge": 1,
+      "target_formula": "BaSnO2"
+    },
+    {
+      "candidate_id": "prototype_CaMg2O3",
+      "cif": "artifacts/phase2/compositions/prototype_CaMg2O3.cif",
+      "cif_sha256": "f75934ac0be48dda22984e8bec7e633d6a06b0a15dc82eb34073bca4aa2efa53",
+      "parent_material_id": "mp-1222123",
+      "structure_budget_charge": 1,
+      "target_formula": "CaMg2O3"
+    },
+    {
+      "candidate_id": "prototype_Mg2SrO3",
+      "cif": "artifacts/phase2/compositions/prototype_Mg2SrO3.cif",
+      "cif_sha256": "201903f0a8002802b6c24bd9216ff03d2e73aa1eba7bbba1efe607a5f9c3f557",
+      "parent_material_id": "mp-1222123",
+      "structure_budget_charge": 1,
+      "target_formula": "Mg2SrO3"
+    }
+  ],
+  "exact_count_filter": true,
+  "expanded_atom_cap": 20,
+  "formulas": [
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "O-Sn-Sr",
+      "cohort": "default",
+      "conditioning_formula": "SnSrO2",
+      "count_compatibility_witness": [
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sn",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "Sr",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        }
+      ],
+      "evaluated_formula": "SnSrO2",
+      "evaluated_n_atoms": 4,
+      "exact_expanded_counts": {
+        "O": 2,
+        "Sn": 1,
+        "Sr": 1
+      },
+      "formula": "SnSrO2",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262022,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ba-O-Sn",
+      "cohort": "default",
+      "conditioning_formula": "BaSnO2",
+      "count_compatibility_witness": [
+        {
+          "element": "Ba",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sn",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        }
+      ],
+      "evaluated_formula": "BaSnO2",
+      "evaluated_n_atoms": 4,
+      "exact_expanded_counts": {
+        "Ba": 1,
+        "O": 2,
+        "Sn": 1
+      },
+      "formula": "BaSnO2",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262023,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ca-Mg-O",
+      "cohort": "default",
+      "conditioning_formula": "CaMg2O3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ca",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "Mg",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        }
+      ],
+      "evaluated_formula": "CaMg2O3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ca": 1,
+        "Mg": 2,
+        "O": 3
+      },
+      "formula": "CaMg2O3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262024,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Mg-O-Sr",
+      "cohort": "default",
+      "conditioning_formula": "Mg2SrO3",
+      "count_compatibility_witness": [
+        {
+          "element": "Mg",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sr",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        }
+      ],
+      "evaluated_formula": "Mg2SrO3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Mg": 2,
+        "O": 3,
+        "Sr": 1
+      },
+      "formula": "Mg2SrO3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262025,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ca-O-Zn",
+      "cohort": "default",
+      "conditioning_formula": "Ca2ZnO3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ca",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Zn",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        }
+      ],
+      "evaluated_formula": "Ca2ZnO3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ca": 2,
+        "O": 3,
+        "Zn": 1
+      },
+      "formula": "Ca2ZnO3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262026,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ca-O-Sr",
+      "cohort": "default",
+      "conditioning_formula": "Ca2SrO3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ca",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sr",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        }
+      ],
+      "evaluated_formula": "Ca2SrO3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ca": 2,
+        "O": 3,
+        "Sr": 1
+      },
+      "formula": "Ca2SrO3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262027,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ba-Mg-O",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "BaMg2O3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ba",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "Mg",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        }
+      ],
+      "evaluated_formula": "BaMg2O3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ba": 1,
+        "Mg": 2,
+        "O": 3
+      },
+      "formula": "BaMg2O3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262028,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ba-Ca-O",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "BaCa2O3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ba",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "Ca",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        }
+      ],
+      "evaluated_formula": "BaCa2O3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ba": 1,
+        "Ca": 2,
+        "O": 3
+      },
+      "formula": "BaCa2O3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262029,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "O-Sr-Zn",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "SrZn2O3",
+      "count_compatibility_witness": [
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sr",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        },
+        {
+          "element": "Zn",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        }
+      ],
+      "evaluated_formula": "SrZn2O3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "O": 3,
+        "Sr": 1,
+        "Zn": 2
+      },
+      "formula": "SrZn2O3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262030,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ba-O-Zn",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "BaZn2O3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ba",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Zn",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        }
+      ],
+      "evaluated_formula": "BaZn2O3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ba": 1,
+        "O": 3,
+        "Zn": 2
+      },
+      "formula": "BaZn2O3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262031,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ba-O-Sr",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "BaSr2O3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ba",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sr",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        }
+      ],
+      "evaluated_formula": "BaSr2O3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ba": 1,
+        "O": 3,
+        "Sr": 2
+      },
+      "formula": "BaSr2O3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262032,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Mg-O-Sn",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "Mg2SnO3",
+      "count_compatibility_witness": [
+        {
+          "element": "Mg",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sn",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        }
+      ],
+      "evaluated_formula": "Mg2SnO3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Mg": 2,
+        "O": 3,
+        "Sn": 1
+      },
+      "formula": "Mg2SnO3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262033,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "Ca-O-Sn",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "Ca2SnO3",
+      "count_compatibility_witness": [
+        {
+          "element": "Ca",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sn",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        }
+      ],
+      "evaluated_formula": "Ca2SnO3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "Ca": 2,
+        "O": 3,
+        "Sn": 1
+      },
+      "formula": "Ca2SnO3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262034,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    },
+    {
+      "attempts": 8,
+      "batch_size": 4,
+      "batches": 2,
+      "chemical_system": "O-Sn-Zn",
+      "cohort": "stretch_or_reserve",
+      "conditioning_formula": "SnZn2O3",
+      "count_compatibility_witness": [
+        {
+          "element": "O",
+          "multiplicity": 1,
+          "wyckoff_letter": "a"
+        },
+        {
+          "element": "O",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        },
+        {
+          "element": "Sn",
+          "multiplicity": 1,
+          "wyckoff_letter": "b"
+        },
+        {
+          "element": "Zn",
+          "multiplicity": 2,
+          "wyckoff_letter": "i"
+        }
+      ],
+      "evaluated_formula": "SnZn2O3",
+      "evaluated_n_atoms": 6,
+      "exact_expanded_counts": {
+        "O": 3,
+        "Sn": 1,
+        "Zn": 2
+      },
+      "formula": "SnZn2O3",
+      "formula_unit_scale": 1,
+      "key_schedule": "jax.random.fold_in(PRNGKey(sampling_seed), batch_index)",
+      "sampling_seed": 20262035,
+      "spacegroup": 2,
+      "spacegroup_symbol": "P-1"
+    }
+  ],
+  "global_generation_cap_including_phase1": 128,
+  "global_structure_candidate_cap_including_phase1": 128,
+  "minimum_distance_angstrom": 0.75,
+  "model_initialization_seed": 42,
+  "multiplicity_table_sha256": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+  "no_post_outcome_group_changes": true,
+  "phase2_crystalformer_draws": 0,
+  "phase2_deterministic_prototype_candidates_prepared": 4,
+  "phase2_samples_generated": 0,
+  "phase2_samples_generated_scope": "phase2_samples_generated counts CrystalFormer draws only; deterministic candidates are separately charged below.",
+  "phase2_structure_candidates_prepared": 4,
+  "selection_sha256": "02cf8e4b607494f805bcaccb6d025d73ac93f9b8ae0c4c48f78926d22f625030",
+  "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+  "spacegroup_2_wyckoff_multiplicities_alphabetical": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "spacegroup_policy": "Fixed SG2 for every new composition, chosen before candidate outcomes.",
+  "symprec_angstrom": 0.01,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "version": "phase2-new-composition-generation-v2-budget-clarification"
+}

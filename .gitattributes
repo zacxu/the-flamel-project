@@ -1,0 +1,4 @@
+# Preserve committed bytes for SHA-256-bound research and release inputs.
+# Keep this policy even when a contributor has core.autocrlf=true.
+# Do not run git add --renormalize on the frozen evidence.
+* -text

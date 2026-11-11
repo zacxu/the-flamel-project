@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-10T20:14:05.168053+00:00",
+  "scanner_sha256": "3319d64539b7f3e5a8d840f1ba2b4305d5387b793dc3861c631a0191eb9f0f13",
+  "gitleaks_version": "8.30.1",
+  "scope": "Disposable tiny fixtures and pinned real Gitleaks; no project edits; no full-archive rescan",
+  "checks": [
+    {
+      "case": "clean exit status",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "clean no secret values in output",
+      "passed": true
+    },
+    {
+      "case": "clean raw scratch auto-cleaned",
+      "passed": true
+    },
+    {
+      "case": "clean no findings",
+      "passed": true
+    },
+    {
+      "case": "unknown-new-control exit status",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "case": "unknown-new-control no secret values in output",
+      "passed": true
+    },
+    {
+      "case": "unknown-new-control raw scratch auto-cleaned",
+      "passed": true
+    },
+    {
+      "case": "all custom credential detectors trigger",
+      "passed": true,
+      "detected_rules": [
+        "credential-in-url",
+        "hosting-session-reference",
+        "http-cookie-value",
+        "signed-download-query"
+      ]
+    },
+    {
+      "case": "unknown new control fails closed",
+      "passed": true,
+      "findings": 5
+    },
+    {
+      "case": "inline gitleaks allow cannot suppress hosting token",
+      "passed": true
+    },
+    {
+      "case": "reviewed-worker exit status",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "reviewed-worker no secret values in output",
+      "passed": true
+    },
+    {
+      "case": "reviewed-worker raw scratch auto-cleaned",
+      "passed": true
+    },
+    {
+      "case": "exact reviewed worker exception passes",
+      "passed": true
+    },
+    {
+      "case": "reviewed-worker-hash-mismatch exit status",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "case": "reviewed-worker-hash-mismatch no secret values in output",
+      "passed": true
+    },
+    {
+      "case": "reviewed-worker-hash-mismatch raw scratch auto-cleaned",
+      "passed": true
+    },
+    {
+      "case": "same finding with changed file hash fails closed",
+      "passed": true
+    },
+    {
+      "case": "duplicate-case-allowlist",
+      "passed": true
+    },
+    {
+      "case": "duplicate-case-allowlist private scratch cleaned",
+      "passed": true
+    },
+    {
+      "case": "allowlist-traversal",
+      "passed": true
+    },
+    {
+      "case": "allowlist-traversal private scratch cleaned",
+      "passed": true
+    },
+    {
+      "case": "exception-traversal",
+      "passed": true
+    },
+    {
+      "case": "exception-traversal private scratch cleaned",
+      "passed": true
+    },
+    {
+      "case": "internal ancestor reparse rejected",
+      "passed": true
+    },
+    {
+      "case": "archive-name-traversal",
+      "passed": true
+    },
+    {
+      "case": "archive-name-traversal private scratch cleaned",
+      "passed": true
+    },
+    {
+      "case": "archive-case-collision",
+      "passed": true
+    },
+    {
+      "case": "archive-case-collision private scratch cleaned",
+      "passed": true
+    },
+    {
+      "case": "archive-hash-mismatch",
+      "passed": true
+    },
+    {
+      "case": "archive-hash-mismatch private scratch cleaned",
+      "passed": true
+    },
+    {
+      "case": "report-inside-project rejected",
+      "passed": true
+    },
+    {
+      "case": "report-inside-project no write",
+      "passed": true
+    },
+    {
+      "case": "report-inside-archive rejected",
+      "passed": true
+    },
+    {
+      "case": "report-inside-archive no write",
+      "passed": true
+    },
+    {
+      "case": "existing-report rejected",
+      "passed": true
+    },
+    {
+      "case": "existing-report no write",
+      "passed": true
+    },
+    {
+      "case": "source fixtures never initialized as Git",
+      "passed": true
+    }
+  ],
+  "check_count": 38,
+  "passed": true,
+  "raw_reports_retained": false,
+  "synthetic_values_emitted": false
+}

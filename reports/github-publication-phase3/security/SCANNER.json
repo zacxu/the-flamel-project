@@ -1,0 +1,14 @@
+{
+  "version": "8.30.1",
+  "official_release": "https://github.com/gitleaks/gitleaks/releases/tag/v8.30.1",
+  "binary_archive_url": "https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_windows_x64.zip",
+  "archive_bytes": 8438883,
+  "archive_sha256": "d29144deff3a68aa93ced33dddf84b7fdc26070add4aa0f4513094c8332afc4e",
+  "checksum_file_sha256": "061476c21adaf5441516f96f185c1a4706a83cd6329b9b38762271b3d4a52fae",
+  "verification": "ZIP digest matched the official GitHub release API digest and official checksums file; checksums file digest independently matched API metadata",
+  "executable_sha256": "17157e2ee8b76fc8b1d8bee607a250e34b8a8023c8bc81822d4b5ee4d78fcb7c",
+  "tool_not_committed": true,
+  "reusable_command": "python -I -B scripts/github_publication/scan_secrets.py --gitleaks <verified-gitleaks-exe> --work-dir <private-existing-outside-directory> --report <new-safe-report-json>",
+  "all_archive_option": "--archive-dir <private-local-14-archive-directory>",
+  "report_policy": "Raw report exists only in private temporary scan scope and is removed; returned report includes no matched values. Custom rules extend upstream defaults; inline allow comments ignored."
+}

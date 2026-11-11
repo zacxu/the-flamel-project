@@ -1,0 +1,77 @@
+{
+  "all_values_finite": true,
+  "columns": 408,
+  "completed_at_utc": "2026-10-21T16:54:57.054756+00:00",
+  "copied_initial_file_order": "Source WBM initial-structure order; join by material_id, not row number",
+  "dtype": "float32",
+  "elapsed_seconds": 10.997524599999451,
+  "implementation": {
+    "extraction_script_sha256": "e4e4ef23f59808b29a2bcb35399b4fc675bd00c4af238fcb1f45c0b93316cd00",
+    "module": "research_features.py",
+    "module_sha256": "8ce7f03a3b1f7aaa4d15a3b2bb85cb33c0c98c263c805c6454d7ecb993a1a6aa",
+    "public_entrypoint": "research_features.describe_structure(structure)",
+    "public_function_source_sha256": "8f9b8a882489dc422239d8c3b852a000fc51d9746ce52864c3c54ab6f4dd612a"
+  },
+  "input_sources": {
+    "eligible_population": {
+      "path": "artifacts\\phase1\\data\\eligible_population.csv",
+      "sha256": "15465b2c0a5c1446f825acc6e31773e7c0176ee38eee0ec350c4915d0616d4ee"
+    },
+    "initial_structures": {
+      "path": "data\\wbm\\2022-10-19-wbm-init-structs.jsonl.gz",
+      "sha256": "98d545172c1ea9060f03f40cace6f8173a4ac06f1ee875ccd963765211519b58"
+    },
+    "phase1_manifest": {
+      "path": "artifacts\\phase1\\data\\dataset_manifest.json",
+      "sha256": "e7a69680d4f4e9818dbfef496aeeb7fd607f1400c3eb8fb00066cffc72f5ec44"
+    }
+  },
+  "oracle_labels_in_features_archive": false,
+  "outputs": {
+    "feature_schema.json": {
+      "path": "artifacts\\phase2\\features\\feature_schema.json",
+      "sha256": "46cca6ca0b86421a4503e67eb24b0fb2ca172a8b0d5c84ce96cfcc6bab8410a4",
+      "size_bytes": 43671
+    },
+    "features.npz": {
+      "path": "artifacts\\phase2\\features\\features.npz",
+      "sha256": "552dfe84938b87ee213fb71b7ffcbd2489c2b1b8669f968ba38079b466ebebb9",
+      "size_bytes": 602611
+    },
+    "initial_structures.jsonl.gz": {
+      "path": "artifacts\\phase2\\features\\initial_structures.jsonl.gz",
+      "sha256": "7f9c68f9c4534eb91831cfcc23471fe1fb139558655c3ac047767a0f2c9e0450",
+      "size_bytes": 1633197
+    },
+    "row_metadata.csv": {
+      "path": "artifacts\\phase2\\features\\row_metadata.csv",
+      "sha256": "bf25e8f85a5939ae8f2d6b153f6049eb09864719fc43a4f31f362b02a8f6bcb6",
+      "size_bytes": 623276
+    },
+    "structural_errors.json": {
+      "path": "artifacts\\phase2\\features\\structural_errors.json",
+      "sha256": "b1424f4ac06da81491ad0f39bfc1d599d771a998978b698405bfa9ee6a652a39",
+      "size_bytes": 37
+    },
+    "validation_report.json": {
+      "path": "artifacts\\phase2\\features\\validation_report.json",
+      "sha256": "6558dc65a19128edcbf85a39a0497a5615309d84a45724ffd86dd5ef82afe355",
+      "size_bytes": 4601
+    }
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "pymatgen": "2025.10.7",
+    "spglib": "2.8.0"
+  },
+  "row_order": "Phase 1 eligible_population.csv order; NPZ material_ids, metadata rows and X align",
+  "rows": 8294,
+  "scanned_initial_records": 256963,
+  "selected_initial_records": 8294,
+  "status": "passed",
+  "structural_failures": 0,
+  "summary_csv_read": false,
+  "symmetry_fallback_rows": 0,
+  "threads_per_worker": 1,
+  "worker_count": 4
+}

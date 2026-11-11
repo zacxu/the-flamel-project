@@ -1,0 +1,8 @@
+{"check":"local-desktop-logo","passed":true,"observation":{"centerDot":"4","color":"rgb(146, 82, 47)","height":44,"link":"The Flamel Project overview","maskPresent":true,"viewBox":"0 0 40 44","width":37}}
+{"check":"local-mobile-logo","passed":true,"observation":{"height":37,"pageScrollWidth":375,"pageWidth":375,"width":29}}
+{"check":"immutable-files-uploaded-before-entry","passed":true,"assetRows":[{"name":"CrystalViewer-DXdhL6QJ.js","text":"CrystalViewer-DXdhL6QJ.js\njs\n554.19 KB\nOct 22 10:52"},{"name":"index-BlMJwgMw.js","text":"index-BlMJwgMw.js\njs\n418.88 KB\nOct 22 10:52"},{"name":"ReplayChart-DovE-fiI.js","text":"ReplayChart-DovE-fiI.js\njs\n365.94 KB\nOct 22 10:52"}],"manifestRows":[{"name":"ui-w6-b9a4161a2557c7e7620c.files.csv","text":"ui-w6-b9a4161a2557c7e7620c.files.csv\ncsv\n17.14 KB\nOct 22 10:52"},{"name":"ui-w6-b9a4161a2557c7e7620c.json","text":"ui-w6-b9a4161a2557c7e7620c.json\njson\n25.31 KB\nOct 22 10:52"}]}
+{"check":"live-desktop-logo","passed":true,"observation":{"alerts":[],"build":"ui-w6-b9a4161a2557c7e7620c","color":"rgb(146, 82, 47)","dot":"4","height":44,"mask":true,"width":37}}
+{"check":"live-mobile-logo","passed":true,"observation":{"color":"rgb(146, 82, 47)","dot":"4","height":37,"pageWidth":375,"scrollWidth":375,"width":29}}
+{"check":"live-replay-chunk","passed":true,"observation":{"chart":true,"heading":"Compare the search policies.","mask":true}}
+{"check":"live-viewer-chunk-and-console","passed":true,"observation":{"canvas":true,"heading":"Inspect the actual cells.","mask":true},"errors":[]}
+{"check":"live-release-manifest","passed":true,"sha256":"28bcae1fc9d6d039f42cad79fad8bee508993dc3b55e343e274be180cd8d5a35"}

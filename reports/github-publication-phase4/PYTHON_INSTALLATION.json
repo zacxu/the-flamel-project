@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE_PYTHON_REPRODUCTION",
+  "verified_at_utc": "2026-11-11T04:15:36.873781+00:00",
+  "clean_source_root": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source",
+  "actual_powershell_installation_receipt": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\INSTALLATION.json",
+  "command": "powershell -NoProfile -ExecutionPolicy Bypass -File <clean-source>/scripts/github_publication/install_python.ps1 -Destination <new-external-folder> -Environment all -CacheDirectory <verified-external-package-cache>",
+  "machine_python_or_codex_required_by_final_installer": false,
+  "runtime_version": "3.11.14",
+  "uv_installer_version": "0.13.7",
+  "uv_version_output": "uv 0.13.7 (316c827e0 2026-11-03 x86_64-pc-windows-msvc)",
+  "bootstrap": {
+    "schema_version": 1,
+    "platform": "Windowsx86_64",
+    "python_version": "3.11.14",
+    "uv": {
+      "version": "0.13.7",
+      "url": "https://files.pythonhosted.org/packages/8e/4f/041b59d2a38807a3e31ef41064cf3e45d2752fe0409d89040d52778049ae/uv-0.13.7-py3-none-win_amd64.whl",
+      "bytes": 15330939,
+      "sha256": "2835e2ab397d0db86323b9975dce75ecd76aa9cfa0d6a2aea84734aae7f8c9b3",
+      "entry": "uv-0.13.7.data/scripts/uv.exe",
+      "executable_sha256": "1791d7a9ed5b6df13ccf80f102e025c333010d96326b4ff0262aa3b578835c5a"
+    },
+    "python": {
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20251028/cpython-3.11.14%2B20251028-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+      "bytes": 25995224,
+      "sha256": "e8e3d35b8a0d1f3151690410397e7aaf76506d392cd7521f647aa8bac8c20343",
+      "executable_sha256": "152cf7bfa7f4de21992af513068e18f329719e45768a1985203adbefcf079301",
+      "archive_release_api": "https://api.github.com/repos/astral-sh/python-build-standalone/releases/tags/20251028"
+    },
+    "bootstrap_security_decision": "uv0.9.7 retained only as historical lock-generation provenance; three alias-deduplicated advisorygroups affectit. uv0.13.7 has zeroOSVmatches in separate currentquery and is used for newinstallation."
+  },
+  "lock_generation_provenance": {
+    "tool": "uv0.9.7",
+    "status": "historical generation only; not used as final installer",
+    "known_records": 4,
+    "alias_groups": 3,
+    "fixed_events": [
+      "0.11.6",
+      "0.11.15",
+      "0.13.4"
+    ],
+    "new_installer_bootstrap_osv_matches": 0
+  },
+  "profiles": [
+    {
+      "name": "analysis-historical",
+      "packages": 51,
+      "pip_check": "PASS",
+      "installed_versions": "PASS",
+      "import_numeric_checks": "PASS",
+      "python": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\envs\\analysis-historical\\Scripts\\python.exe"
+    },
+    {
+      "name": "generator-historical",
+      "packages": 61,
+      "pip_check": "PASS",
+      "installed_versions": "PASS",
+      "import_numeric_checks": "PASS",
+      "python": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\envs\\generator-historical\\Scripts\\python.exe"
+    },
+    {
+      "name": "analysis-maintenance-cpu",
+      "packages": 52,
+      "pip_check": "PASS",
+      "installed_versions": "PASS",
+      "import_numeric_checks": "PASS",
+      "python": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation\\envs\\analysis-maintenance-cpu\\Scripts\\python.exe"
+    }
+  ],
+  "maintenance_changes": {
+    "torch": "2.15.0+cpu",
+    "filelock": "4.2.10",
+    "sympy": "1.14.0",
+    "additional_required_runtime_dependency": {
+      "setuptools": "84.2.1"
+    },
+    "original_analysis_pins_retained": 48
+  },
+  "security_query": {
+    "registry_package_versions": 77,
+    "maintenance_installed_packages": 52,
+    "generator_registry_versions": 60,
+    "returned_vulnerability_records": 0,
+    "pagination": false,
+    "local_crystalformer_registry_coverage": false,
+    "scope_note": "Time-scoped OSV matching; not proof of complete security."
+  },
+  "trusted_checkpoint": {
+    "source": "Fresh official PyPI CHGNet0.4.2 package, installed wheel RECORD SHA256 checked before load",
+    "sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1",
+    "model": "0.3.0",
+    "device": "cpu",
+    "loaded": true,
+    "inference_or_relaxation_run": false
+  },
+  "generator_resource_hashes": {
+    "wyckoff_list.csv": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+    "wyckoff_symbols.csv": "035035df9fb581f1a0955da371feb1cdee8034d875b432405090254dfef43fd0"
+  },
+  "guard_tests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "historical_locks_and_old_setup_unchanged": [
+    "requirements/analysis-lock.txt",
+    "requirements/generator-lock.txt",
+    "requirements/generator-portable.txt",
+    "scripts/setup_environments.ps1"
+  ],
+  "source_files": [
+    {
+      "path": "requirements/phase4/analysis-historical-lock.txt",
+      "bytes": 96300,
+      "sha256": "b6c230c681a3f7ae1d72918e4c9a98a3813d440a3fe07eccb3a34bc28f76b220"
+    },
+    {
+      "path": "requirements/phase4/analysis-historical.txt",
+      "bytes": 1153,
+      "sha256": "3ee3dd567abebdf92a895d83d476815cb19af7c4d3cde473dd64634852d0a50f"
+    },
+    {
+      "path": "requirements/phase4/analysis-maintenance-cpu-lock.txt",
+      "bytes": 96486,
+      "sha256": "43caf3ebe282599aab12289247724a643cbcfd811167dd074d83efc7f176fdb3"
+    },
+    {
+      "path": "requirements/phase4/analysis-maintenance-cpu.txt",
+      "bytes": 1173,
+      "sha256": "713ea23d968406b4e8304b8a449b14ec4dec14066b7727ffbc8598b22eedc363"
+    },
+    {
+      "path": "requirements/phase4/bootstrap.json",
+      "bytes": 1287,
+      "sha256": "6d9b85f81cb72c41f0cad7e907cb2cfede9a164e50882fc33642623596bf173c"
+    },
+    {
+      "path": "requirements/phase4/build-tools-lock.txt",
+      "bytes": 559,
+      "sha256": "6e7910c87ddfeaefcae794df890eeeb6be8ad963297bf693b09fba962a24ce6f"
+    },
+    {
+      "path": "requirements/phase4/build-tools.txt",
+      "bytes": 35,
+      "sha256": "be61d0255f906f5d7738d285977f1e40a9a07e7c5087a7fe4d39868bb5e58fb1"
+    },
+    {
+      "path": "requirements/phase4/generator-historical-lock.txt",
+      "bytes": 105446,
+      "sha256": "bf47b3831689e57e700925fee2ed7b9345d9df35628808b183df9e46e9c2fb18"
+    },
+    {
+      "path": "requirements/phase4/generator-historical.txt",
+      "bytes": 1044,
+      "sha256": "f8e5d69d03d5c400e9ae5c52b896d8ac1fb5330eb7989462d4fa7ce9a47918b6"
+    },
+    {
+      "path": "requirements/phase4/README.md",
+      "bytes": 6122,
+      "sha256": "7e621f6f52d8e532ccc116bc96a8ce16cf92ac18c0474919af6317ac4d813701"
+    },
+    {
+      "path": "scripts/github_publication/install_python.ps1",
+      "bytes": 9861,
+      "sha256": "1f943d00328597e7486b69d80827575b4a73e6d4acd1814923e959552e877eb2"
+    },
+    {
+      "path": "scripts/github_publication/test_python_installation.py",
+      "bytes": 5488,
+      "sha256": "47214b08debf56cf8be6fbcc042c839d2afd0d119c2cccf60ba4fa71f391a330"
+    },
+    {
+      "path": "scripts/github_publication/verify_python_environment.py",
+      "bytes": 7249,
+      "sha256": "03c705d30955137464cb61ae40ec1a683b71055ba0160c1e5f9a6578ae616359"
+    }
+  ],
+  "new_scientific_experiments": 0,
+  "models_evaluated_for_properties": 0,
+  "new_DFT": 0,
+  "root_git_initialized": false,
+  "cleanup_receipt": "PYTHON_CLEANUP.json",
+  "retained_final_runtime_root": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\python\\final-installer-validation",
+  "limitations": [
+    "Windowsx64tested; Linux/WSLandGPUMaintenanceprofileuntested",
+    "HistoricalCUDAavailabilitycheckdoesnotvalidatearbitraryGPUkernelsorothermachines",
+    "MaintenanceCPUimport/model-loadcompatibilitydoesnotestablishnewscientificresultsorequivalenceofnewrelaxations",
+    "Officialpackagecachewasreusedforfinalinstaller; alltargetenvironmentsandbootstraparchiveswerenewandhash-verified",
+    "Historicalresearchdependenciesretain31knownadvisorygroups; usemaintenanceCPUforcurrentevidencetooling",
+    "LocalCFsourceandPythonruntimeareoutsidePyPIOSVdependencyqueryscope"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "actual_new_supplementary_draws": 8,
+  "arms": [
+    {
+      "arm": "nontrivial",
+      "attempts": 4,
+      "candidate_ids": [
+        "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+        "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+        "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+        "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011"
+      ],
+      "output_dir": "artifacts/phase4/generation/supplementary_mgo/nontrivial",
+      "run_id": "phase4_supplementary_mgo_rocksalt_nontrivial",
+      "spacegroup": 225
+    },
+    {
+      "arm": "p1",
+      "attempts": 4,
+      "candidate_ids": [
+        "phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+        "phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+        "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+        "phase4_supplementary_mgo_rocksalt_p1_attempt_011"
+      ],
+      "output_dir": "artifacts/phase4/generation/supplementary_mgo/p1",
+      "run_id": "phase4_supplementary_mgo_rocksalt_p1",
+      "spacegroup": 1
+    }
+  ],
+  "authorization_scope": "Exactly four supplementary draws per MgO arm, once. No TiO2 topups, no formula stretch, no further draw regardless of outcome.",
+  "base_primary_sampler_source": {
+    "path": "scripts/phase3_generate.py",
+    "sha256": "93cb9bafc5a1d79a5a1a9a682a8847fb981eeac5307ac7c0d99d74a64c39bf3a"
+  },
+  "batch_index": 2,
+  "batch_size": 4,
+  "charged_supplementary_slots": 8,
+  "cohorts_concurrent": 1,
+  "cpu_affinity_mask": "0xF",
+  "frozen_at_utc": "2026-10-22T01:53:04.168809+00:00",
+  "frozen_primary_artifacts": [
+    {
+      "path": "artifacts/phase4/generation/run_plan.json",
+      "sha256": "26efda2c7040e0b55acb87cffd4e88ec3b69bc5901ce838302357ac738584cbc"
+    },
+    {
+      "path": "artifacts/phase4/generation/sampling_complete.json",
+      "sha256": "1dbf5e100b8f342d8157c43f53b9eca707327cee311ffcf2bb49f56c6803d979"
+    },
+    {
+      "path": "artifacts/phase4/generation/summary.json",
+      "sha256": "111b73d7da96d425306de2b1e9fabd4ad109c593fcef913b26541431781abde8"
+    },
+    {
+      "path": "artifacts/phase4/generation/audit.json",
+      "sha256": "65138e7059f2dc0025888fb7f14385680b0d194f8717c7c85b2d9a2f1822ccbd"
+    }
+  ],
+  "key_rule": "jax.random.fold_in(jax.random.PRNGKey(20261022), 2)",
+  "orchestrator_source_sha256": "5830b3d5fb906c85047c91684273d4642ac381cc581396eef943685e4787d849",
+  "primary_attempts_unchanged": 80,
+  "primary_batches_resampled": false,
+  "primary_new_draws_phase4_unchanged": 64,
+  "reason": "MgO P1 primary arm has zero exact-cell valid candidates; one balanced pair may enable the later within-formula relaxation comparison.",
+  "relaxation_selection": "No selection or relaxation here. Later seeded selection must use within-arm combined deduplicated pools and equal quotas, labelled supplementary.",
+  "sampler_source": {
+    "path": "scripts/phase4_supplementary_generate.py",
+    "sha256": "6ffeaa4edc53e3a5fac539e797f418324020e81a90f755cba3a805f4c36dde4a",
+    "snapshot": "artifacts/phase4/generation/supplementary_mgo/executed_sampler.py"
+  },
+  "sampling_seed": 20261022,
+  "source_protocol": {
+    "path": "artifacts/phase2/controls/matched_protocol.json",
+    "sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67"
+  },
+  "status": "frozen_before_supplementary_draws"
+}

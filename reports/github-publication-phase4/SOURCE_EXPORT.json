@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "VERIFIED_FRESH_SOURCE_EXPORT",
+  "created_utc": "2026-11-11T03:38:34.189830+00:00",
+  "source": "D:\\bears",
+  "destination": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\source",
+  "files": 5200,
+  "bytes": 310824522,
+  "phase3_seal_sha256": "ba18d61ab6316c92e7baa137a0b90eca715ea6cffa4fe429f6a97370679a2f1d",
+  "not_a_git_clone": "Root Git and remote publication remain Phase5; this exact selected-byte export simulates fresh checkout content without environments/caches/Codex tooling.",
+  "existing_envs_runtime_node_modules_included": false
+}

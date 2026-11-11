@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "as_of_utc": "2026-10-21T17:53:56.841827+00:00",
+  "phase": 3,
+  "generation": {
+    "ceiling_attempts": 128,
+    "charged_attempts": 24,
+    "remaining_attempts": 104,
+    "cumulative_sampling_seconds": 38.38882739999826,
+    "cumulative_run_seconds_including_initialization_and_conversion": 55.423395199999504,
+    "source_ledgers": [
+      "artifacts/phase1/generator/ledger.jsonl",
+      "artifacts/phase2/budgets/prototype_attempts.jsonl",
+      "artifacts/runtime_budget_events.jsonl"
+    ],
+    "CrystalFormer_sample_attempts": 20,
+    "deterministic_prototype_attempts": 4,
+    "cumulative_new_job_wall_seconds": 67.578750699995,
+    "active_reservations": []
+  },
+  "chgnet": {
+    "ceiling_attempts": 40,
+    "charged_attempts": 9,
+    "remaining_attempts": 31,
+    "actual_relaxations": 5,
+    "pre_model_launcher_rejections": 4,
+    "ceiling_seconds": 14400,
+    "charged_wall_seconds": 30.289442600002076,
+    "remaining_seconds": 14369.710557399998,
+    "charging_rule": "Conservatively count every launch, including four guard rejections before model imports; charge entire subprocess walltime, including imports, load and relaxation.",
+    "source_ledgers": [
+      "artifacts/phase1/chgnet/ledger.jsonl",
+      "artifacts/phase1/chgnet_relaxation/ledger.jsonl",
+      "artifacts/runtime_budget_events.jsonl"
+    ],
+    "reserved_inflight_seconds": 0,
+    "available_unreserved_seconds": 14369.710557399998,
+    "new_runtime_launches": 1,
+    "active_reservations": [],
+    "phase3_and_later_category_charged_attempts": {
+      "symmetry": 0,
+      "new_composition_shortlist": 0,
+      "prototype": 0,
+      "same_composition_reference": 0,
+      "contingency": 1
+    }
+  },
+  "qe": {
+    "ceiling_seconds": 21600,
+    "charged_wall_seconds": 399.0851096000042,
+    "remaining_seconds": 21200.914890399996,
+    "completed_jobs": 10,
+    "source_ledgers": [
+      "artifacts/phase1/qe/qe_jobs.jsonl",
+      "artifacts/runtime_budget_events.jsonl"
+    ],
+    "reserved_inflight_seconds": 0,
+    "available_unreserved_seconds": 21200.914890399996,
+    "active_reservations": []
+  },
+  "project_started_utc": "2026-10-21T16:24:44+00:00",
+  "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "all_caps_remain_binding": true,
+  "note": "Canonical state reconstructed from immutable Phase2 totals plus append-only runtime reservations. Counts are charged before dispatch; unfinished runtime reservations remain unavailable. Every failed/retried job is retained.",
+  "runtime_event_ledger": "artifacts/runtime_budget_events.jsonl"
+}

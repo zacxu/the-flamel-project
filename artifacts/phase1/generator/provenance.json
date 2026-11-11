@@ -1,0 +1,452 @@
+{
+  "source_repository": "https://github.com/deepmodeling/CrystalFormer",
+  "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+  "archive_sha256": "1f440e96fd598139067c9d7eb2c4cbd8204a9bf79505e4fcdabe8dc2b372e975",
+  "original_files_match_pinned_archive": true,
+  "original_file_count": 87,
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "64ef294d2bbd002a40aa1657ebc0df6d07ee73e74d68e570511dd42457998778",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "def82801b533ea347b3d2361f684f3561aad1040c9f8bd21c1eb7ef1c40516ec",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "147c6437df624c721f3911202e6e254e8d19789538247b79375acd0034fa1108",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "sha256": "def204425172d4430d27f565dae54fb3564330fdfd8cea41b2a04f03a0e896e8",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "c1c6fad09b512f35f85cf7e2a749a054e11cdcd846d2c0c7d02551450e367b1b",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/cli/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/cli/classifier.py",
+      "sha256": "6e8ff3c2b8de90a21e3ba21f685fe3adb1a66e0d9151ea2c4d561095e1163941",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/cli/cond_gen.py",
+      "sha256": "e00e84aabe7d1e4b3e8285558997ff9f5f09719e5a570e16325e4f2c9df5c1cf",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/cli/dataset.py",
+      "sha256": "eca179b1ea93ac79de0e80f01e221755863fa8764001f7ecf4f614d2cb1bc8ff",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/cli/train_dpo.py",
+      "sha256": "339c3ef398a79b36fef46e56060720241456304a3acfd77e44f32a00e40a022f",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/cli/train_ppo.py",
+      "sha256": "a739648d548499fc5329d09c042eb222a305f96c16c309ad96d5ed80012fdf0c",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/data/wyckoff_list.csv",
+      "sha256": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/data/wyckoff_symbols.csv",
+      "sha256": "035035df9fb581f1a0955da371feb1cdee8034d875b432405090254dfef43fd0",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/extension/__init__.py",
+      "sha256": "b47f9d2831e23218e0f44279617e6fd32e7052867a75a3a23464cfe743fba0db",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/extension/experimental.py",
+      "sha256": "20b4944f119946875358f92493cec5a582805aa145ab8e9f3a852381874b75bc",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/extension/loss.py",
+      "sha256": "ad9d4b9714ce17bb1c6cf0503894b0507fa4fb44a0fe194293d97bc94d75b627",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/extension/mcmc.py",
+      "sha256": "6e5c919b9915e7e0f56b86e93f489c4aca60ecb6266a16aa76e07848343d2a5d",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/extension/model.py",
+      "sha256": "ca1f8cc022010de617a3925cd397a28f699c43563a1d8be7d021270387c9c6ac",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/extension/train.py",
+      "sha256": "880d0a992ab45c98b49206e2067af7b02ceff01ab0245d6555bf0a9de0f63f4b",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/extension/transformer.py",
+      "sha256": "9398fa6b6b63b84536a373f66bfdb9ed1f7fa2e0df15f3ee56463cc0907c4870",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/reinforce/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/reinforce/dpo.py",
+      "sha256": "55a5a697895caa0e7398d51377fefbe3d41aba0c19ab3947f051b3022d366e0a",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/reinforce/ehull.py",
+      "sha256": "d7f50a8ec0ddd92d5d707f367598985c7788be9a77de9b74e04c792f767ff485",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/reinforce/ppo.py",
+      "sha256": "9e7ada1f004059704be575b49a3b5c64611e0c811eb1d58a6a2d50a26d002731",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/reinforce/reward.py",
+      "sha256": "25cf760bc1a2277180e5a8ab09100182e37147bc0b76942425afd9b05e3dc68d",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/reinforce/vanilla.py",
+      "sha256": "05224504bb7b6304d6ae5e356c824afcdb406dbeeedc41600120418e414122c4",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/attention.py",
+      "sha256": "81379c1ecd69fa147a75b13c0c9535051bc85b3e69a51c8d048a54c9e7f663e2",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/checkpoint.py",
+      "sha256": "852748a491e28b5432706a649aa71f170f35977cbffd3840478b06fc05145991",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/elements.py",
+      "sha256": "a19bec1f0acf89ff4c35e9644072a88bde2063594253f264677f7bfff866e9af",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/formula.py",
+      "sha256": "1d37b87a43813eb6bba2052f61680a3aff4b9dece93559464ab99adec09a74ff",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/lattice.py",
+      "sha256": "0387916197fe0d4b7556b161274056539d5d5f4f109b3f3ac917a45f92425e51",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/loss.py",
+      "sha256": "1d0b815c52dab6fce0b3a598c86902f0a684dac9ec954e43f72c40792b6ac7c4",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/mcmc.py",
+      "sha256": "4b99f2e3be76fa1a7c64446b67a355d074b06b5118817fdbd9684401ae360c80",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/rope.py",
+      "sha256": "d5288be656e15323a85513a39f057a1b43c011336b94005ac9a471ddbd0ce14f",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/sample.py",
+      "sha256": "2eaaccd93a6daf839f3d5988ada555166820dfe5ffb3b51451f3d3586e32814f",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/train.py",
+      "sha256": "3c0aebddc58f18abc41ac85580fc6471187b4d82e914d31241061443b8756049",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/transformer.py",
+      "sha256": "e710d2e300513c47885b9e0dd1b9549616fb27c9795e4466c1e3da806b91e5d5",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/utils.py",
+      "sha256": "2557a38439d7aa984d1c6fdde4c6e9f97b04a6e42cd1278f8820f9d58ee119c2",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/von_mises.py",
+      "sha256": "ed363d5ea04e791d77c6a00173e9c778b46ae5cda19df339c25386bcaf4e4cca",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "crystalformer/src/wyckoff.py",
+      "sha256": "87ed611649bd6361e84c837a73e26c71d94d173aa4532ce470dc7dd2028396df",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "data/atoms.json",
+      "sha256": "b47c05295398f4cd788a0629c19138e19a39a2cbedf2d8da7f6430c7b027aa2f",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "data/mini.csv",
+      "sha256": "dc19ddf49356db2d225a1c5d13b8fec1775d6d7324dd555974b1fbbd858f680b",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "imgs/crystalformer.png",
+      "sha256": "333fd3808243a273842fbbd10165f044a0121311e04dfb535fe2aae3312347b6",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "imgs/csp.png",
+      "sha256": "305f890426c9ad1a4f9467fb129daed85d860db6317abc774687403960fef980",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "imgs/output.gif",
+      "sha256": "fa8ccf732edda02b82ab61fc8a80dc00a1325caefe1bbbaa0aaa6337109f5d5b",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "main.py",
+      "sha256": "45adb93b1d0de3d0ded9cab1d89d4024ce2927f478899bb65c5817b0f0e78636",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "mcp/.env",
+      "sha256": "8741e3436beb8896c182555c90c2c7cdc374d4447bf15572352970081078b08e",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "mcp/README.md",
+      "sha256": "19185fd1a8b57caa197119387dab47daf774e09114be3b3387c10f714a51d460",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "mcp/csp_mcp.py",
+      "sha256": "6d96916265d4810f79954e0432f060379c57e2213efa54ac1745a4542e18e4cf",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "postprocess.sh",
+      "sha256": "7f021ef1ebca63da1f550e1ee113be7e16a2fb05ff9efc5cf3bd714a9795f3c3",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "03832d8f98e10368d77608944a9bb376d7061924b66b90966c91841570ea4462",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "run/config/bright90.py",
+      "sha256": "de786b0259f40fc8bafd8ecd606822d74c77b65a037a4644c2abdb6a1099eee4",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "run/config/pmax.py",
+      "sha256": "e20bd7fcc9f48223c6c40312ab2cb71bfad633e77a0e155f4f4411996458e08d",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "run/submit.py",
+      "sha256": "abc84d39767601db388f36ca29c60dfb4829fadc946ab2438ea07a0dc777640c",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/README.md",
+      "sha256": "b67e1ca851245e477563a308b6e2727f98d3fd1d897ddf06144a1de116196d4c",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/analysis.ipynb",
+      "sha256": "9050fcfc3968cb52fabda751b866639b37ad1acf03488ea3525cf0c2c3877322",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/awl2struct.py",
+      "sha256": "66f7a5e6f9186733aca9108fcca0cde752ec4e93b5e76fe82c80d4d8333a9ce0",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/check_sun_materials.py",
+      "sha256": "da143f5564a2f0a2a77b4bb699a57f148083ee56d262ee518c5cdb816d8d452a",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/compute_csp_metrics.py",
+      "sha256": "730b60ac4ded37bdd2c705bd958ce24b3d34c75ba72744035146881a4264acfa",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/compute_metrics.py",
+      "sha256": "0aa7044fa6eb968271de7a45c91f040179948fd3e48baeca8ece4b9300708433",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/compute_metrics_matbench.py",
+      "sha256": "a5ff52c348824769031375982ffa7f265f176d4841f8f0068f71806c223f1599",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/config.py",
+      "sha256": "15abf79d9929736c3e4dca77fc767424b98e0372b025caeacf94870e247d13ae",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/e_above_hull.py",
+      "sha256": "4a0630ccc9ffc3134d426a27ef5b43d56cd42b87cf380327ee753a8d2f6f2cb4",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/e_above_hull_alex.py",
+      "sha256": "995682d82fbf98c3228996c43a215e9e81d300625d4c11cb92fb4155993a4b13",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/element_substition.py",
+      "sha256": "9b076081d401677a5c26b0a00cc20f6a2a06a343674aeaa14c20237f6e4e8186",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/eval_utils.py",
+      "sha256": "30ceaf92bf3ced08af18dbacc9d2ff3359edf88e909a4db69a6f24c4255832da",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/inspect_dataset.ipynb",
+      "sha256": "19eb37c39611a6c30025db2683468d2fd74837ed9fc49b77c2a9965006f3b58d",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/mlff_relax.py",
+      "sha256": "9870da4b86b7cd0afdb8374106cec7312dc45715a7ef3a8566e6740d7abd131a",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/mlff_relax_batch.py",
+      "sha256": "0e40fc1fc7bdd3593c971c4f8f91bb923691060b457c1bfb8de6ad2350563055",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/plot_embedding.py",
+      "sha256": "2007d207d05540dd87d2d3bedf0679c9f517b4538e6d52ec52bbb732083b6908",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/predict_g.py",
+      "sha256": "d6f532e816ebbb86f3f83a84f51aa9044c1dde835e48aefc0c5af4387b680f8f",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/process_alex.py",
+      "sha256": "553e56df83f147845d956de75c84d446f208ccbefa2a07798cc0985f351efc07",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/structure_visualization.ipynb",
+      "sha256": "64459408d4716281ab7c884dd34fc0031bba8374b8f29df6e940967f6ab30aef",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "scripts/symmetry.py",
+      "sha256": "9748e11b931397a0e254d9f8b3036daf953983e469471449798198b5a13de997",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/config.py",
+      "sha256": "c638a855afdd6723412692066e8c7671909bf34746bbee59f283b8f67c2e452b",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_attention.py",
+      "sha256": "d0d4eb1095ea9532bf7aab5cba3ccc412259363b55d672c9ed28e027aefd582a",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_fc_mask.py",
+      "sha256": "a176b354954802b8ce639e004d6683a1ca3ca27a3038b9c42787bf64dbdda63a",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_formula.py",
+      "sha256": "e8652b592cb96e7f0c676ee4d941da73892a231358f8347bb2aeeb0fd90c710d",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_lattice.py",
+      "sha256": "bfa970599f2b517945443a02bf9ebab0fd0b65a293cce4b437ee490985d04da1",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_project.py",
+      "sha256": "bde530a4b49580cf3c4896b3408609d309d919dcdb035298c86a8b8748e7e466",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_sampling.py",
+      "sha256": "68be92bbfeecfa3dea314162a0bf5f68acda876b7d14fbaf9ba6dde41d4b1cbc",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_transformer.py",
+      "sha256": "115ce75e450b3e41616842f6ed1aca3dddfc6157e6e1cf3b6757327558f30040",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_utils.py",
+      "sha256": "09baf19b6a8af9545fa28a101b56c9b22f7c980d836bf041a84292d5e66772bf",
+      "matches_pinned_archive": true
+    },
+    {
+      "path": "tests/test_wyckoff.py",
+      "sha256": "790a52222901e99e88d798b5ae7a152b0c812f15db2ac1163020383b1e4fa6c3",
+      "matches_pinned_archive": true
+    }
+  ],
+  "entrypoint_review": [
+    "main.py can continue from random parameters when checkpoint missing; bypassed with strict verified direct API load",
+    "No source changes; fixed CPU backend and four-logical-CPU process affinity in wrapper",
+    "Training reduces composition by GCD; parser does not, so conditioning MgO vs evaluated Mg4O4 is explicit",
+    "Upstream trusted CSV has eval-based parsing; source and data were reviewed before executing pinned package"
+  ],
+  "wrapper_sha256": "50dfa44b2f8a8ab939728ed51a4a32522f1ad4ac800dc139eab79f13c4e5ea40",
+  "environment_lock_sha256": "6e5d83432f5e10ed8d54fb3a11a68db367b1ebd512ed86bb870afe25b767bc2f"
+}

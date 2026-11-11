@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.cache/
+.tooling/
+*.tsbuildinfo
+*.local
+*.log
+__pycache__/

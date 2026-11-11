@@ -1,0 +1,12 @@
+{
+  "attempt_ledger": "artifacts/phase4/generation/phase4_new_Ca2ZnO3/ledger.jsonl",
+  "canonical_generation_charged_attempts": 80,
+  "canonical_generation_remaining_attempts": 48,
+  "emitted_attempt_records": 8,
+  "job_wall_seconds": 65.69398739999997,
+  "output_dir": "artifacts/phase4/generation/phase4_new_Ca2ZnO3",
+  "returncode": 0,
+  "status": "completed",
+  "valid_count": 0,
+  "valid_unique_count": 0
+}

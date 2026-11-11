@@ -1,0 +1,1028 @@
+{
+  "audited_utc": "2026-10-22T02:20:51.367397+00:00",
+  "status": "passed",
+  "checks_count": 247,
+  "failures": [],
+  "checks": [
+    {
+      "check": "summary_plan_hash",
+      "passed": true
+    },
+    {
+      "check": "exactly_ten_new_reservations",
+      "passed": true
+    },
+    {
+      "check": "predeclared_job_set_only",
+      "passed": true
+    },
+    {
+      "check": "all_reservations_after_freeze",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:result_hash",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:final_hash",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:total_energy",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:stress_units",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.046494318454601835,
+      "reported_eV_A": 0.046494318454601835
+    },
+    {
+      "check": "phase1_mgo_attempt_000:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:no_new_reservation",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:no_new_charge",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:result_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:final_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:total_energy",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:stress_units",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.04922557513628211,
+      "reported_eV_A": 0.04922557513628211
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:one_finish",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:category",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:result_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:final_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:total_energy",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:stress_units",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.048491490817944655,
+      "reported_eV_A": 0.048491490817944655
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:one_finish",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:category",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:result_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:final_hash",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:total_energy",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:stress_units",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.04024660438745308,
+      "reported_eV_A": 0.04024660438745308
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:one_finish",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:category",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:result_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:final_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:total_energy",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:stress_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.042908310906399426,
+      "reported_eV_A": 0.042908310906399426
+    },
+    {
+      "check": "prototype_SnSrO2:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:one_finish",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:category",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:result_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:final_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:total_energy",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:stress_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.04502489640238438,
+      "reported_eV_A": 0.04502489640238438
+    },
+    {
+      "check": "prototype_BaSnO2:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:one_finish",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:category",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:result_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:final_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:total_energy",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:stress_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.0475237682705153,
+      "reported_eV_A": 0.0475237682705153
+    },
+    {
+      "check": "prototype_CaMg2O3:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:one_finish",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:category",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:result_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:final_hash",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:total_energy",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:stress_units",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.041220061230245596,
+      "reported_eV_A": 0.041220061230245596
+    },
+    {
+      "check": "prototype_Mg2SrO3:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:one_finish",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:category",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:source_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:result_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:final_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:total_energy",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:stress_units",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.0013373090224814274,
+      "reported_eV_A": 0.0013373090224814274
+    },
+    {
+      "check": "reference_rocksalt:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:one_finish",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:category",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:source_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:result_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:final_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:total_energy",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:stress_units",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.04215910271519237,
+      "reported_eV_A": 0.04215910271519237
+    },
+    {
+      "check": "reference_rutile:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:one_finish",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:category",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:source_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:original_source_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:result_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:checkpoint",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:model_and_device",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:final_hash",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:same_composition_count",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:total_energy",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:per_atom_normalization",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:atomic_force_units",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:stress_units",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:filter_force_reconstructed",
+      "passed": true,
+      "reconstructed_eV_A": 0.04457446575337534,
+      "reported_eV_A": 0.04457446575337534
+    },
+    {
+      "check": "reference_anatase:convergence_consistent",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:maximum_steps",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:trajectory_atomic_numbers",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:finite_saved_geometry",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:one_finish",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:charged_wall",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:category",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:reservation_before_worker",
+      "passed": true
+    },
+    {
+      "check": "empty_transformer_shortlist_retained",
+      "passed": true
+    },
+    {
+      "check": "brookite_excluded_without_replacement",
+      "passed": true
+    },
+    {
+      "check": "no_discovery_claim",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "phase1_mgo_attempt_000:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "phase4_supplementary_mgo_rocksalt_p1_attempt_010:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_nontrivial_attempt_000:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "phase4_tio2_rutile_p1_attempt_000:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "prototype_SnSrO2:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "prototype_BaSnO2:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "prototype_CaMg2O3:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "prototype_Mg2SrO3:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "reference_rocksalt:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "reference_rutile:no_new_DFT_authorization",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:parent_result_identity",
+      "passed": true
+    },
+    {
+      "check": "reference_anatase:no_new_DFT_authorization",
+      "passed": true
+    }
+  ],
+  "new_model_inferences": 0,
+  "new_relaxations": 0,
+  "scope": "Recorded checkpoint/source lineage, saved trajectory energy/force/stress and reconstructed cell-filter forces; not DFT validation",
+  "handoff_schema_annotation": {
+    "created_utc": "2026-10-22T02:21:53.598406+00:00",
+    "script": "scripts/phase5_chgnet_handoff.py",
+    "script_sha256": "8cd7ba5b98b24ba55f524358a17bb2debef8ab5e052c740460dd376a5631b88d",
+    "new_model_inferences": 0,
+    "new_relaxations": 0
+  }
+}

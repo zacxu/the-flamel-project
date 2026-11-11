@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-11T04:43:46.604308+00:00",
+  "actions": [
+    {
+      "repository": "actions/checkout",
+      "tag": "v7.0.1",
+      "commit": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "primary_release": "https://github.com/actions/checkout/releases/tag/v7.0.1",
+      "resolution": "Official git tag resolved with git ls-remote; action runtime node24"
+    },
+    {
+      "repository": "actions/setup-python",
+      "tag": "v7.1.0",
+      "commit": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+      "primary_release": "https://github.com/actions/setup-python/releases/tag/v7.1.0",
+      "resolution": "Official git tag resolved with git ls-remote"
+    }
+  ],
+  "python": {
+    "version": "3.11.14",
+    "runner": "ubuntu-24.04",
+    "primary_manifest": "https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.json",
+    "exact_linux_x64_release": "https://github.com/actions/python-versions/releases/tag/3.11.14-18393181605",
+    "windows_note": "This action manifest has no Windows3.11.14 distribution; baseline usesLinux, websiteusesits testedWindowsNodeinstaller. ScientificWindowsprofilesretainPhase4standalonePython."
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "website": {
+    "runner": "windows-2025",
+    "node": "24.22.1",
+    "npm": "12.2.1",
+    "uses_existing_hash_verified_installer": true
+  },
+  "no_research_installation_or_experiments": true
+}

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrCa5O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28771257
+_cell_length_b   6.99200487
+_cell_length_c   8.13716793
+_cell_angle_alpha   62.81287384
+_cell_angle_beta   89.32238007
+_cell_angle_gamma   70.09368134
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCa5O6
+_chemical_formula_sum   'Sr1 Ca5 O6'
+_cell_volume   200.99681977
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000000  0.00000000  0.00000000  1
+  Sr  Sr1  1  0.50000000  0.00000000  0.50000000  1
+  O  O2  1  0.09910502  0.03598864  0.24505553  1
+  O  O3  1  0.90089500  0.96401137  0.75494444  1
+  O  O4  1  0.34006095  0.34860471  0.63725471  1
+  O  O5  1  0.65993905  0.65139532  0.36274529  1
+  Ca  Ca6  1  0.69845229  0.60766315  0.07481945  1
+  Ca  Ca7  1  0.30154771  0.39233685  0.92518055  1
+  O  O8  1  0.69830447  0.67964309  0.88552153  1
+  O  O9  1  0.30169553  0.32035691  0.11447847  1
+  Ca  Ca10  1  0.91966838  0.32585135  0.37185615  1
+  Ca  Ca11  1  0.08033162  0.67414868  0.62814385  1

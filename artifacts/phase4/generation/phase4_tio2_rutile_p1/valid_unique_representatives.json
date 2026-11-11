@@ -1,0 +1,30 @@
+{
+  "formula": "Ti2O4",
+  "representatives": [
+    {
+      "attempt_id": 0,
+      "batch_index": 0,
+      "candidate_id": "phase4_tio2_rutile_p1_attempt_000",
+      "cif": "artifacts/phase4/generation/phase4_tio2_rutile_p1/cifs/attempt_000.cif",
+      "cif_sha256": "31bdb8c56c9381f5391ea43de3f126d980cea26a1274069fe6042c7c206f127f",
+      "counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 1,
+      "measured_spacegroup_symbol": "P1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.3875632304885561,
+      "minimum_periodic_distance_angstrom": 1.3875632304885561,
+      "minimum_self_image_distance_angstrom": 3.570539712905884,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/phase4_tio2_rutile_p1/raw_attempt_000.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/phase4_tio2_rutile_p1/structure_000.json",
+      "valid": true,
+      "volume_angstrom3": 98.35022597473815
+    }
+  ],
+  "run_id": "phase4_tio2_rutile_p1",
+  "source_protocol_sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67"
+}

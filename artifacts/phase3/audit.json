@@ -1,0 +1,1455 @@
+{
+  "phase": 3,
+  "audited_utc": "2026-10-21T18:11:31.882891+00:00",
+  "status": "passed",
+  "check_count": 361,
+  "checks": [
+    {
+      "passed": true,
+      "check": "Phase 2 prerequisites complete"
+    },
+    {
+      "passed": true,
+      "check": "Frozen Phase 2 protocol unchanged after outcomes"
+    },
+    {
+      "passed": true,
+      "check": "Frozen protocol source: config/phase2_protocol.json"
+    },
+    {
+      "passed": true,
+      "check": "Frozen protocol source: research_acquisition.py"
+    },
+    {
+      "passed": true,
+      "check": "Fresh selector hash matches pre-query commitment"
+    },
+    {
+      "passed": true,
+      "check": "Fresh snapshot precedes query/evaluation access"
+    },
+    {
+      "passed": true,
+      "check": "Fresh model uses fixed train/calibration IDs"
+    },
+    {
+      "passed": true,
+      "check": "Calibration rank and floor remain frozen"
+    },
+    {
+      "passed": true,
+      "check": "Executed replay input/source unchanged: artifacts/phase2/features/features.npz"
+    },
+    {
+      "passed": true,
+      "check": "Executed replay input/source unchanged: artifacts/phase2/features/feature_manifest.json"
+    },
+    {
+      "passed": true,
+      "check": "Executed replay input/source unchanged: research_features.py"
+    },
+    {
+      "passed": true,
+      "check": "Executed replay input/source unchanged: research_models.py"
+    },
+    {
+      "passed": true,
+      "check": "Executed replay input/source unchanged: scripts/phase3_replay.py"
+    },
+    {
+      "passed": true,
+      "check": "Executed replay input/source unchanged: artifacts/phase2/splits/seed_20261022.json"
+    },
+    {
+      "passed": true,
+      "check": "Replay decision, bootstrap, calibration and label-boundary audit passed"
+    },
+    {
+      "passed": true,
+      "check": "All 25 decisions, 125 bootstrap plans and 26 models audited"
+    },
+    {
+      "passed": true,
+      "check": "Query journal matches replay audit"
+    },
+    {
+      "passed": true,
+      "check": "Five policies complete 250 retrospective queries"
+    },
+    {
+      "passed": true,
+      "check": "Evaluation labels accessed after every policy finished"
+    },
+    {
+      "passed": true,
+      "check": "Fixed 3418-row evaluation cohort remains untouched by training/querying"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\initial_eval_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\random\\round_01\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\random\\round_02\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\random\\round_03\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\random\\round_04\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\random\\round_05\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality\\round_01\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality\\round_02\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality\\round_03\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality\\round_04\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality\\round_05\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality_diversity\\round_01\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality_diversity\\round_02\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality_diversity\\round_03\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality_diversity\\round_04\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\quality_diversity\\round_05\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\uncertainty\\round_01\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\uncertainty\\round_02\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\uncertainty\\round_03\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\uncertainty\\round_04\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\uncertainty\\round_05\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\full\\round_01\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\full\\round_02\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\full\\round_03\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\full\\round_04\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Immutable evaluation prediction: artifacts\\phase3\\replay\\seed_20261022\\full\\round_05\\evaluation_predictions.npz"
+    },
+    {
+      "passed": true,
+      "check": "Exactly 50 distinct pool-only queries: random"
+    },
+    {
+      "passed": true,
+      "check": "Hits reproduce from revealed labels: random"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: random/1"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: random/1"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/1/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/1/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/1/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: random/1"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: random/2"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: random/2"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/2/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/2/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/2/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: random/2"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: random/3"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: random/3"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/3/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/3/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/3/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: random/3"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: random/4"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: random/4"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/4/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/4/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/4/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: random/4"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: random/5"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: random/5"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/5/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/5/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: random/5/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: random/5"
+    },
+    {
+      "passed": true,
+      "check": "Exactly 50 distinct pool-only queries: quality"
+    },
+    {
+      "passed": true,
+      "check": "Hits reproduce from revealed labels: quality"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality/1"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality/1"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/1/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/1/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/1/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality/1"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality/2"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality/2"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/2/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/2/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/2/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality/2"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality/3"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality/3"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/3/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/3/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/3/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality/3"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality/4"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality/4"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/4/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/4/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/4/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality/4"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality/5"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality/5"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/5/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/5/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality/5/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality/5"
+    },
+    {
+      "passed": true,
+      "check": "Exactly 50 distinct pool-only queries: quality_diversity"
+    },
+    {
+      "passed": true,
+      "check": "Hits reproduce from revealed labels: quality_diversity"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality_diversity/1"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality_diversity/1"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/1/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/1/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/1/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality_diversity/1"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality_diversity/2"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality_diversity/2"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/2/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/2/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/2/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality_diversity/2"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality_diversity/3"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality_diversity/3"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/3/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/3/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/3/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality_diversity/3"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality_diversity/4"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality_diversity/4"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/4/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/4/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/4/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality_diversity/4"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: quality_diversity/5"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: quality_diversity/5"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/5/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/5/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: quality_diversity/5/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: quality_diversity/5"
+    },
+    {
+      "passed": true,
+      "check": "Exactly 50 distinct pool-only queries: uncertainty"
+    },
+    {
+      "passed": true,
+      "check": "Hits reproduce from revealed labels: uncertainty"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: uncertainty/1"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: uncertainty/1"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/1/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/1/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/1/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: uncertainty/1"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: uncertainty/2"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: uncertainty/2"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/2/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/2/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/2/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: uncertainty/2"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: uncertainty/3"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: uncertainty/3"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/3/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/3/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/3/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: uncertainty/3"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: uncertainty/4"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: uncertainty/4"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/4/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/4/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/4/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: uncertainty/4"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: uncertainty/5"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: uncertainty/5"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/5/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/5/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: uncertainty/5/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: uncertainty/5"
+    },
+    {
+      "passed": true,
+      "check": "Exactly 50 distinct pool-only queries: full"
+    },
+    {
+      "passed": true,
+      "check": "Hits reproduce from revealed labels: full"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: full/1"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: full/1"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/1/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/1/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/1/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: full/1"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: full/2"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: full/2"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/2/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/2/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/2/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: full/2"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: full/3"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: full/3"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/3/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/3/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/3/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: full/3"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: full/4"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: full/4"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/4/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/4/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/4/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: full/4"
+    },
+    {
+      "passed": true,
+      "check": "Pre-reveal decision: full/5"
+    },
+    {
+      "passed": true,
+      "check": "Own-policy training labels only: full/5"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/5/decision.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/5/reveals.json"
+    },
+    {
+      "passed": true,
+      "check": "Round evidence hash: full/5/fit_audit.json"
+    },
+    {
+      "passed": true,
+      "check": "Adapted model hash: full/5"
+    },
+    {
+      "passed": true,
+      "check": "Generation protocol remains unchanged after the zero-yield result"
+    },
+    {
+      "passed": true,
+      "check": "Generation read-only audit passed"
+    },
+    {
+      "passed": true,
+      "check": "Eight original draws retained; zero exact-cell primary survivors"
+    },
+    {
+      "passed": true,
+      "check": "Generation audit covers all eight retained results"
+    },
+    {
+      "passed": true,
+      "check": "Logging failure/recovery conservatively charged"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_000.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_000.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_000.cif"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_001.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_001.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_001.cif"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_002.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_002.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_002.cif"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_003.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_003.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_003.cif"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_004.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_004.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_004.cif"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_005.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_005.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_005.cif"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_006.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_006.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_006.cif"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/raw_attempt_007.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/structure_007.json"
+    },
+    {
+      "passed": true,
+      "check": "Preserved generator output: artifacts/phase3/generation/early_CaMg2O3/cifs/attempt_007.cif"
+    },
+    {
+      "passed": true,
+      "check": "Empty primary selection frozen from unchanged initial model"
+    },
+    {
+      "passed": true,
+      "check": "Predeclared known MgO fallback used without energy-based substitution"
+    },
+    {
+      "passed": true,
+      "check": "Fallback CHGNet converged and passed workload gates"
+    },
+    {
+      "passed": true,
+      "check": "One known-control DFT handoff frozen before QE"
+    },
+    {
+      "passed": true,
+      "check": "Fallback and DFT handoff bind the same frozen primary selection"
+    },
+    {
+      "passed": true,
+      "check": "Unique reservations all have terminal records; no unresolved jobs"
+    },
+    {
+      "passed": true,
+      "check": "No active numerical jobs at Phase 3 close"
+    },
+    {
+      "passed": true,
+      "check": "Shared generation/CHGNet counts reconcile with all failures and pilots"
+    },
+    {
+      "passed": true,
+      "check": "All original numerical caps unchanged and respected"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_candidate_mgo_fallback_90"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_candidate_mgo_fallback_90"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_candidate_mgo_fallback_90/O"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_candidate_mgo_fallback_90/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_candidate_mgo_fallback_90"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_candidate_mgo_fallback_90"
+    },
+    {
+      "passed": true,
+      "check": "Candidate bound to pre-QE frozen handoff"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_fallback_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_fallback_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_fallback_final_final_cut75/O"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_fallback_final_final_cut75/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_fallback_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_fallback_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_fallback_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_fallback_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_fallback_final_final_k045/O"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_fallback_final_final_k045/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_fallback_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_fallback_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_mgo_cut60"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_mgo_cut60"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_cut60/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_cut60/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_mgo_cut60"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_mgo_cut60"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_mgo_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_mgo_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_cut75/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_cut75/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_mgo_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_mgo_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_mgo_cut90"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_mgo_cut90"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_cut90/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_cut90/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_mgo_cut90"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_mgo_cut90"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_mgo_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_mgo_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_final_final_cut75/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_final_final_cut75/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_mgo_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_mgo_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_mgo_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_mgo_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_final_final_k045/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_final_final_k045/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_mgo_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_mgo_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_mgo_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_mgo_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_k035/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_k035/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_mgo_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_mgo_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_mgo_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_mgo_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_k045/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_mgo_k045/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_mgo_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_mgo_k045"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_ref_cao_base"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_ref_cao_base"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_cao_base/Ca"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_cao_base/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_ref_cao_base"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_ref_cao_base"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_ref_mgo_90_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_ref_mgo_90_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_mgo_90_k035/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_mgo_90_k035/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_ref_mgo_90_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_ref_mgo_90_k035"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_ref_mgo_90_k035_cont1"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_ref_mgo_90_k035_cont1"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_mgo_90_k035_cont1/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_mgo_90_k035_cont1/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_ref_mgo_90_k035_cont1"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_ref_mgo_90_k035_cont1"
+    },
+    {
+      "passed": true,
+      "check": "QE input/output/settings hashes: p3_ref_mgo_base"
+    },
+    {
+      "passed": true,
+      "check": "QE source/executable hashes: p3_ref_mgo_base"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_mgo_base/Mg"
+    },
+    {
+      "passed": true,
+      "check": "QE pseudopotential hash: p3_ref_mgo_base/O"
+    },
+    {
+      "passed": true,
+      "check": "QE SCF/force/full-stress result independently reparsed: p3_ref_mgo_base"
+    },
+    {
+      "passed": true,
+      "check": "QE pre-dispatch reservation and full walltime charging: p3_ref_mgo_base"
+    },
+    {
+      "passed": true,
+      "check": "Real candidate and reference QE jobs executed with preserved outcomes"
+    },
+    {
+      "passed": true,
+      "check": "Only one QE job executes at a time"
+    },
+    {
+      "passed": true,
+      "check": "Legacy and canonical cumulative QE runtime ledgers reconcile"
+    },
+    {
+      "passed": true,
+      "check": "Phase 3 QE work respects its additional 45-minute local allocation"
+    },
+    {
+      "passed": true,
+      "check": "QE lane summary is final and covers every completed Phase 3 job"
+    },
+    {
+      "passed": true,
+      "check": "QE summary inventory matches current result hashes"
+    },
+    {
+      "passed": true,
+      "check": "QE summary budget is current at audit close"
+    },
+    {
+      "passed": true,
+      "check": "Final-geometry sensitivity attempt retained: p3_mgo_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "Sensitivity result independently recomputed: p3_mgo_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "Final-geometry sensitivity attempt retained: p3_mgo_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "Sensitivity result independently recomputed: p3_mgo_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "Final-setting stationarity and numerical checks agree: reference_validation"
+    },
+    {
+      "passed": true,
+      "check": "Final-geometry sensitivity attempt retained: p3_fallback_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "Sensitivity result independently recomputed: p3_fallback_final_final_cut75"
+    },
+    {
+      "passed": true,
+      "check": "Final-geometry sensitivity attempt retained: p3_fallback_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "Sensitivity result independently recomputed: p3_fallback_final_final_k045"
+    },
+    {
+      "passed": true,
+      "check": "Final-setting stationarity and numerical checks agree: candidate_validation"
+    },
+    {
+      "passed": true,
+      "check": "Compatible per-atom known-MgO energy difference independently reproduced"
+    },
+    {
+      "passed": true,
+      "check": "Generated control independently matches known MgO prototype without rescaling"
+    },
+    {
+      "passed": true,
+      "check": "QE lane final provenance audit passed"
+    },
+    {
+      "passed": true,
+      "check": "Unsupported metal/O2 checks rejected before job creation or charging"
+    },
+    {
+      "passed": true,
+      "check": "Atomic reservation, cap, failure and competing-process guards passed"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: research_models.py"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: research_budget.py"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: scripts/phase3_replay.py"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: scripts/phase3_generate.py"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: scripts/phase3_candidates.py"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: scripts/phase3_qe.py"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: scripts/phase3_qe_parser.py"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: reports/phase3_report.md"
+    },
+    {
+      "passed": true,
+      "check": "Reviewable deliverable exists: artifacts/phase3/figures/first_seed_acquisition.png"
+    },
+    {
+      "passed": true,
+      "check": "Execution report contains final results without pending placeholders"
+    }
+  ],
+  "new_fits_samples_relaxations_or_QE_jobs_in_audit": 0,
+  "audit_source_sha256": "f69250a91bcfc35357281d7db2ee6a47a84d6b2e8b745921c3e1d3eb2a063afe",
+  "qe_jobs_verified": 14
+}

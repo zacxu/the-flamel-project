@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-11-11T03:53:19.159331+00:00",
+  "http_status": 200,
+  "queried_registry_package_versions": 77,
+  "maintenance_installed_packages": 52,
+  "generator_registry_pins": 60,
+  "local_crystalformer_source_excluded_from_registry_query": true,
+  "pagination": [],
+  "findings": [],
+  "vulnerability_records_returned": 0,
+  "version_normalization": {
+    "torch": "Installed2.15.0+cpu queried as canonical2.15.0; localbackendtag is not a different upstreamsourceversion."
+  },
+  "limits": "Time-scoped OSV matching, not a proof ofabsenceofvulnerabilities or full static/dynamic security review. Historicalanalysispins remain31knownadvisorygroups and are not recommendedfornewresearch execution."
+}

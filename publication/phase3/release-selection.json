@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "status": "AUDITED_LOCAL_ONLY_NOT_UPLOADED",
+  "historical_manifest": "publication/artifacts.json",
+  "historical_manifest_sha256": "afcd6f3ce400e68a075f7dc87bc5d08c8040a9042ae1669986ed25f8fc8dcc6b",
+  "precedence": "This selection overrides the old planned-all-archives publication scope. artifact_io remains a local recovery tool, not publication permission.",
+  "archives": [
+    {
+      "name": "flamel-active-production-001.zip",
+      "bytes": 8510319,
+      "sha256": "5927d463cc2ad586bad6b4bac83cd8e5c4d73fff625f62f77ffafa55eda3b155",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-composition-catalogs-001.zip",
+      "bytes": 61558121,
+      "sha256": "2dd58d6cb0ce8e750bf19327fa2d862e9641b8f04b43857e7f5dc07c28e5ea31",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-crystalformer-checkpoint-001.zip",
+      "bytes": 166094303,
+      "sha256": "efd0a1caf4b1e6c43ba7071572eea7a2d952e00306e32f5187a3342609a87cfa",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-historical-datasets-001.zip",
+      "bytes": 241635204,
+      "sha256": "393e6fe4fc524d9d13181504bbd129177268e6c4bdc2b316da044749d8c7c618",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-qe-scratch-001.zip",
+      "bytes": 804920049,
+      "sha256": "9549f8cacc1c8e0820636cbe9ac5037e90e2b98d4a9d36daad38c90fd73d7855",
+      "publication_disposition": "private-only",
+      "upf_members": 20,
+      "reason": "Contains GPL-family UPFs; use exact pinned upstream retrieval. Existing complete private archive remains unchanged.",
+      "required_notice_sidecars": []
+    },
+    {
+      "name": "flamel-qe-scratch-002.zip",
+      "bytes": 582234847,
+      "sha256": "25dd2a0bbd82fc109f668f069d47a6755f60355755b80e9871ff7ed8280d48d9",
+      "publication_disposition": "private-only",
+      "upf_members": 16,
+      "reason": "Contains GPL-family UPFs; use exact pinned upstream retrieval. Existing complete private archive remains unchanged.",
+      "required_notice_sidecars": []
+    },
+    {
+      "name": "flamel-qe-scratch-003.zip",
+      "bytes": 239904254,
+      "sha256": "37e8143b5eeeadd4f67792c4f1f7a5416305dc5a4bf6da14783819cfd8303d1a",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-research-inputs-001.zip",
+      "bytes": 37717958,
+      "sha256": "a8a5375affed77d488761ea00431bc5124e29b0e91c48a21e2751ba1fecae575",
+      "publication_disposition": "private-only",
+      "upf_members": 41,
+      "reason": "Contains GPL-family UPFs; use exact pinned upstream retrieval. Existing complete private archive remains unchanged.",
+      "required_notice_sidecars": []
+    },
+    {
+      "name": "flamel-research-models-001.zip",
+      "bytes": 791135064,
+      "sha256": "ff7f61ce5c4fb207e1025bf03739ac86ebf707b090a11069a011d8e08d46bc77",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-research-models-002.zip",
+      "bytes": 790600275,
+      "sha256": "6aa783d52cddd55d010e50da39c817e61c59f69b0dab6510f86c926f51cfe716",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-research-models-003.zip",
+      "bytes": 790731084,
+      "sha256": "f135aed7384dad7df65870958d2ba6006e61cfcc8f77c00676c04ca1f4c8baa3",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-research-models-004.zip",
+      "bytes": 790882986,
+      "sha256": "df46571daea5dad738a3f26b8d0c1272d94f4a69685c7eec83a79eba9290e566",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-research-models-005.zip",
+      "bytes": 153282397,
+      "sha256": "820b020cc654bb085e18187933b8349c86136aa987afd4ed3e942695d4c505ec",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    },
+    {
+      "name": "flamel-website-builds-001.zip",
+      "bytes": 123418694,
+      "sha256": "7eb744a319f6400406477408c5f1158103f609116429dc591efb10468dff70c9",
+      "publication_disposition": "candidate-for-later-release",
+      "upf_members": 0,
+      "reason": "Subject to final credential scan, exact digest, notice sidecars and later release verification.",
+      "required_notice_sidecars": [
+        "THIRD_PARTY_NOTICES.md",
+        "publication/third-party/"
+      ]
+    }
+  ],
+  "no_release_created": true,
+  "download_urls_remain_unpublished": true,
+  "required_notice_bundle_record": "publication/phase3/notice-bundle.json",
+  "public_hydration_follow_up": "Phase 4 must validate a reduced-scope public retrieval workflow; existing artifact_io full-scope commands retain private recovery semantics and require all14 archives."
+}

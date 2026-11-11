@@ -1,0 +1,213 @@
+{
+  "phase": "W2",
+  "status": "passed",
+  "checkedAt": "2026-10-22T07:58:02.061Z",
+  "browser": "ChatGPT in-app browser",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "checksPassed": 42,
+  "checksTotal": 42,
+  "checks": [
+    {
+      "name": "Default aggregate quality/full at50",
+      "passed": true
+    },
+    {
+      "name": "Zero-query precision unavailable",
+      "passed": true
+    },
+    {
+      "name": "Selections survive reload",
+      "passed": true
+    },
+    {
+      "name": "Browser Back restores previous inspected policy",
+      "passed": true
+    },
+    {
+      "name": "Browser Forward restores uncertainty selection",
+      "passed": true
+    },
+    {
+      "name": "Source drawer opens modally",
+      "passed": true
+    },
+    {
+      "name": "Source empty state is explicit",
+      "passed": true
+    },
+    {
+      "name": "Escape closes drawer and restores opener",
+      "passed": true
+    },
+    {
+      "name": "Workflow node 1 has input,output,status",
+      "passed": true
+    },
+    {
+      "name": "Workflow node 2 has input,output,status",
+      "passed": true
+    },
+    {
+      "name": "Workflow node 3 has input,output,status",
+      "passed": true
+    },
+    {
+      "name": "Workflow node 4 has input,output,status",
+      "passed": true
+    },
+    {
+      "name": "Workflow node 5 has input,output,status",
+      "passed": true
+    },
+    {
+      "name": "Workflow node 6 has input,output,status",
+      "passed": true
+    },
+    {
+      "name": "Workflow node 7 has input,output,status",
+      "passed": true
+    },
+    {
+      "name": "Both workflow tracks and empty new-formula path visible",
+      "passed": true
+    },
+    {
+      "name": "Mobile workflow stays within viewport",
+      "passed": true
+    },
+    {
+      "name": "Mobile glossary modal fits viewport",
+      "passed": true
+    },
+    {
+      "name": "Uncertainty glossary search resolves calibration and disagreement",
+      "passed": true
+    },
+    {
+      "name": "Delayed manifest keeps narrative/navigation visible",
+      "passed": true,
+      "detail": "Actual held-manifest test on fixture was checked before release to ok."
+    },
+    {
+      "name": "Delayed manifest recovers after response is released",
+      "passed": true
+    },
+    {
+      "name": "Missing manifest produces scoped error with retry and six-view navigation",
+      "passed": true
+    },
+    {
+      "name": "Retry recovers without changing the pinned release",
+      "passed": true,
+      "detail": "Verified after waiting for the asynchronous verified-core load to finish."
+    },
+    {
+      "name": "Corrupt manifest fails integrity validation without fabricated results",
+      "passed": true
+    },
+    {
+      "name": "Missing stage is scoped to Crystal Lab while core controls remain",
+      "passed": true,
+      "detail": "Passed after retrying the prior intentionally corrupt core instance."
+    },
+    {
+      "name": "Image failure retains saved stage metadata and a figure retry",
+      "passed": true
+    },
+    {
+      "name": "Crystal headline action selects eight-atom accepted MgO",
+      "passed": true
+    },
+    {
+      "name": "Excluded12atom draw retains its status and single actual stage",
+      "passed": true
+    },
+    {
+      "name": "Accepted source MgO is separate2atom reference with one stage",
+      "passed": true
+    },
+    {
+      "name": "Mobile CrystalLab stays within page width",
+      "passed": true
+    },
+    {
+      "name": "All14 scoped findings are available",
+      "passed": true
+    },
+    {
+      "name": "Evidence shows2/161 and1/57 source coverage",
+      "passed": true
+    },
+    {
+      "name": "Mobile evidence table scroll is contained",
+      "passed": true
+    },
+    {
+      "name": "Modal keyboard focus remains within the source drawer",
+      "passed": true
+    },
+    {
+      "name": "Back closes modal and moves focus to the restored view",
+      "passed": true,
+      "detail": "Fixed focus to run after modal unmount without waiting for a repaint."
+    },
+    {
+      "name": "Malformed route normalizes budget and actual candidate-stage relation",
+      "passed": true,
+      "detail": "Native duplicate popstate/hashchange notices now preserve the repair explanation."
+    },
+    {
+      "name": "Full reset restores canonical route defaults",
+      "passed": true
+    },
+    {
+      "name": "360px overview has no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "Desktop overview has two-column hero without page overflow",
+      "passed": true,
+      "detail": "Verified after viewport restoration completed its layout update."
+    },
+    {
+      "name": "Final production build loads the overview and real known-MgO image",
+      "passed": true
+    },
+    {
+      "name": "Final normal production navigation has no browser console errors",
+      "passed": true
+    },
+    {
+      "name": "Final production primary action retains the negative aggregate result",
+      "passed": true
+    }
+  ],
+  "viewportTests": [
+    {
+      "width": 360,
+      "height": 800,
+      "view": "overview",
+      "pageOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "views": [
+        "workflow",
+        "glossary",
+        "crystals",
+        "evidence"
+      ],
+      "pageOverflow": false
+    },
+    {
+      "width": 1101,
+      "height": 828,
+      "view": "overview",
+      "twoColumnHero": true,
+      "pageOverflow": false
+    }
+  ],
+  "captureLimit": "Repeated IAB Page.captureScreenshot timeouts. No screenshot or pixel review is claimed; actual browser DOM/accessibility and measured layout checks passed.",
+  "scope": "Actual browser interactions in development and final production build. Fault modes served unchanged built files through a loopback-only fixture. No external hosting or scientific dispatch."
+}

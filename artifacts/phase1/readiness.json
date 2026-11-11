@@ -1,0 +1,31 @@
+{
+  "phase": 1,
+  "completed_utc": "2026-10-21T16:42:25.736270+00:00",
+  "status": "complete",
+  "ready_for_phase2": true,
+  "data_ready": true,
+  "generator_ready": true,
+  "chgnet_cpu_and_cuda_ready": true,
+  "qe_scf_ready": true,
+  "thread_allocation": {
+    "generator_cpu_affinity_logical_processors": 4,
+    "chgnet_device": "cuda:0",
+    "chgnet_cpu_threads": 2,
+    "qe_simultaneous_jobs": 1,
+    "qe_omp_threads": 4,
+    "qe_mkl_threads": 4,
+    "qe_openblas_threads": 1
+  },
+  "reserved_chemical_systems_all_predictor_seeds": [
+    "Mg-O"
+  ],
+  "future_required_checks": [
+    "Freeze the second matched control and all prospective fresh chemical systems before fitting predictor splits.",
+    "Exclude the union of fresh chemical systems from training and calibration in every seed; enforce an initial-data feature allowlist.",
+    "MgO/SG225 has one unique topology; no more than one balanced unique candidate per arm. Treat it as a recovery/validity control; richer-control selection must precede its generation.",
+    "Rebalance future CHGNet suballocations to the actual remaining 32 launches before dispatching research relaxations.",
+    "Measure first new-formula sampling time; this pilot only measured one formula and two equal-shape batches.",
+    "QE candidate/reference relaxations, cutoff/k-mesh convergence, complete reference inventory and novelty checks remain required for stability claims."
+  ],
+  "no_phase2_training_or_discovery_claims": true
+}

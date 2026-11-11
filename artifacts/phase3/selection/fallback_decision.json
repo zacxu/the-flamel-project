@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-10-21T17:52:16.975821+00:00",
+  "trigger": "No valid primary structure or none of the preselected primary structures passed CHGNet/DFT workload eligibility",
+  "candidate_id": "phase1_mgo_attempt_000",
+  "source_structure": "artifacts/phase1/generator/structure_000.json",
+  "source_sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035",
+  "initial_selector_sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+  "predicted_mean_eV_atom": 0.18376631971354163,
+  "ensemble_std_eV_atom": 0.09691635535087686,
+  "calibrated_radius_eV_atom": 0.6410597103778171,
+  "predetermined_candidate_not_replaced_by_scoring": true,
+  "original_selection_sha256": "21fecd0ba4e4f5aa2735c013290e2737c43156850b691783fdf91b8827c1b63a",
+  "original_attempts_and_failures_retained": true,
+  "DFT_energies_used": false
+}

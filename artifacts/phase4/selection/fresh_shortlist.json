@@ -1,0 +1,71 @@
+{
+  "frozen_utc": "2026-10-22T01:52:08.414882+00:00",
+  "status": "frozen_before_Phase5_CHGNet_or_DFT",
+  "research_protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "fresh_selector_path": "artifacts/phase3/models/fresh_selector_seed_20261022.joblib",
+  "fresh_selector_sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+  "feature_source_sha256": "8ce7f03a3b1f7aaa4d15a3b2bb85cb33c0c98c263c805c6454d7ecb993a1a6aa",
+  "acquisition_source_sha256": "68374dd88f03cf6f3652c79a46774993bdc3bb936459da214870ddfec07e1f7c",
+  "selection_source_sha256": "8d398b89be13245cc3320111d4bdf39ec59cf38b9ac7d9ca0594d99c06a77a9c",
+  "formulas": [
+    {
+      "formula": "SnSrO2",
+      "source_summary": "artifacts/phase4/generation/phase4_new_SnSrO2/summary.json",
+      "source_summary_sha256": "85421d816beda76b3ae25d48913042bdeda4c0fe6773175823415f39fb7f54b8",
+      "primary_attempts": 8,
+      "valid_unique_candidates": [],
+      "selected": []
+    },
+    {
+      "formula": "BaSnO2",
+      "source_summary": "artifacts/phase4/generation/phase4_new_BaSnO2/summary.json",
+      "source_summary_sha256": "31c813c346108b8f54d7f825ba4d02fcacc74f1a39772d1a66c2dbb471514bfc",
+      "primary_attempts": 8,
+      "valid_unique_candidates": [],
+      "selected": []
+    },
+    {
+      "formula": "CaMg2O3",
+      "source_summary": "artifacts/phase3/generation/early_CaMg2O3/summary.json",
+      "source_summary_sha256": "05dca415e70331a8d6aa4990921e4f954870408294716ad5c2defe5d6c054085",
+      "primary_attempts": 8,
+      "valid_unique_candidates": [],
+      "selected": []
+    },
+    {
+      "formula": "Mg2SrO3",
+      "source_summary": "artifacts/phase4/generation/phase4_new_Mg2SrO3/summary.json",
+      "source_summary_sha256": "ea9e4bf14db8bc71e5fe59b01157ecbac61dad268d727204f64a3a312e680dc0",
+      "primary_attempts": 8,
+      "valid_unique_candidates": [],
+      "selected": []
+    },
+    {
+      "formula": "Ca2ZnO3",
+      "source_summary": "artifacts/phase4/generation/phase4_new_Ca2ZnO3/summary.json",
+      "source_summary_sha256": "b1df169d0ff802246158bdc731c14a9bcc612f0eefbff3de443f5b51a6c93845",
+      "primary_attempts": 8,
+      "valid_unique_candidates": [],
+      "selected": []
+    },
+    {
+      "formula": "Ca2SrO3",
+      "source_summary": "artifacts/phase4/generation/phase4_new_Ca2SrO3/summary.json",
+      "source_summary_sha256": "79567b96c618285d6f77fb5ca1839b12a61f24cf3bcb905355de10d4128c2b66",
+      "primary_attempts": 8,
+      "valid_unique_candidates": [],
+      "selected": []
+    }
+  ],
+  "selected_in_formula_and_pair_order": [],
+  "selected_count": 0,
+  "initial_features": "artifacts/phase4/selection/initial_features.npz",
+  "initial_features_sha256": "d833c6ec606d68b20d2f84848912195e31d571f3d85ab5c73be4035f9c85a2fe",
+  "prediction_target": "Signed historical WBM distance to fixed MP hull; not compatible new QE hull energy",
+  "initial_geometry_only": true,
+  "adapted_or_other_seed_models_used": false,
+  "CHGNet_or_QE_energies_used": false,
+  "additional_generation_or_relaxations_in_selection": 0,
+  "default_CaMg_DFT_queue_changed": false,
+  "phase5_handoff": "Validate each selected candidate once in frozen within-formula order; retain exclusions/collapses without outcome-based replacement"
+}

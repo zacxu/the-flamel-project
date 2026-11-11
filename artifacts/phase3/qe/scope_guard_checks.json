@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {
+      "case": "pure_O2",
+      "rejected": true,
+      "reason": "Phase3 supports nonmagnetic Ca/Mg oxides only; metals, O2, unsupported elements, and inherited spin/occupation-review jobs require a separately authorized protocol",
+      "job_directory_created": false
+    },
+    {
+      "case": "metal_explicit",
+      "rejected": true,
+      "reason": "Phase3 supports nonmagnetic Ca/Mg oxides only; metals, O2, unsupported elements, and inherited spin/occupation-review jobs require a separately authorized protocol",
+      "job_directory_created": false
+    }
+  ],
+  "all_rejected_before_job_creation": true
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "phase": "Short URL update",
+  "status": "live_verified",
+  "recordedAt": "2026-10-22T16:14:48.759620+00:00",
+  "localDate": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "url": "https://theflamelproject.42web.io/",
+  "documentRoot": "/htdocs",
+  "uiBuildId": "ui-w6-37bfb28892a8c9f8cb22",
+  "predecessorUiBuildId": "ui-w6-61a05eb4a69162cc438b",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "researchManifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "uiManifestPath": "release-manifests/ui-w6-37bfb28892a8c9f8cb22.json",
+  "uiManifestSha256": "1f9401f753210707e088213f740a7e842b6cf10473c35a721c671cbf037af235",
+  "change": "Canonical links omit default fields, derived reveal state and aggregate batch. The default homepage has no hash; other default views use only their short view hash.",
+  "sourceChanges": [
+    "scripts/verify-short-urls.mjs",
+    "scripts/verify-state.mjs",
+    "src/state/route.ts",
+    "src/generated/uiRelease.ts (automatic build identity)"
+  ],
+  "contractChange": "contracts/ROUTE_STATE.md",
+  "statePreservation": "Changed controls still add only necessary nondefault parameters. Legacy long links normalize to compact links; reload and browser Back/Forward preserve meaningful selections.",
+  "copyView": "Existing Copy view remains available; this update adds no separate Share feature.",
+  "uploadOrder": [
+    "Three new hashed JavaScript chunks and the versioned release manifest/CSV uploaded first.",
+    "Exact 1150-byte production index.html published last."
+  ],
+  "immutableFiles": [
+    {
+      "path": "assets/CrystalViewer-BC1UYdGn.js",
+      "bytes": 567490,
+      "sha256": "6d7cded405ca002b69c0f6346d3224dd060ea22b19b4bdb9fd9313179e97a50a"
+    },
+    {
+      "path": "assets/ReplayChart-DuUWElpe.js",
+      "bytes": 374724,
+      "sha256": "b3d9f749451e335c09d9c4f9d3282cf134e681e4d28daef6b64cb221c95d233b"
+    },
+    {
+      "path": "assets/index-CDDyK9Gf.js",
+      "bytes": 428634,
+      "sha256": "9e403790b350fdf9beeabac8d2ebd34f69ce0dd747f0815668180361bcf386d0"
+    },
+    {
+      "path": "release-manifests/ui-w6-37bfb28892a8c9f8cb22.files.csv",
+      "bytes": 17551,
+      "sha256": "8ffbc010bd0e8e685b113e44844a725d444ab0fa1fcdde79af7ff1d81d524732"
+    },
+    {
+      "path": "release-manifests/ui-w6-37bfb28892a8c9f8cb22.json",
+      "bytes": 25919,
+      "sha256": "1f9401f753210707e088213f740a7e842b6cf10473c35a721c671cbf037af235"
+    }
+  ],
+  "entryLast": {
+    "path": "deployment/short-url-update/entry/index.html",
+    "bytes": 1150,
+    "sha256": "12b053fe2a122bc53368181e396e9d0a3ff94267d2d87fcc436b7552da0c95a5",
+    "remotePath": "index.html"
+  },
+  "checks": {
+    "localIntegrity": 984,
+    "state": 606,
+    "compactUrlRegression": 76491,
+    "liveBrowser": 9,
+    "liveFailures": 0
+  },
+  "browserObservations": [
+    {
+      "name": "bare_homepage",
+      "pass": true,
+      "url": "https://theflamelproject.42web.io/",
+      "build": "ui-w6-37bfb28892a8c9f8cb22",
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "default_section_links",
+      "pass": true,
+      "hashes": [
+        "",
+        "#/workflow",
+        "#/replay",
+        "#/crystals",
+        "#/findings",
+        "#/evidence"
+      ],
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "replay_short_navigation",
+      "pass": true,
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "custom_preview_reload",
+      "pass": true,
+      "before": {
+        "budget": "0",
+        "split": "20261024",
+        "url": "https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024&budget=0&batch=1"
+      },
+      "after": {
+        "budget": "0",
+        "split": "20261024",
+        "url": "https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024&budget=0&batch=1"
+      },
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "browser_back_forward",
+      "pass": true,
+      "back": {
+        "budget": "50",
+        "url": "https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024"
+      },
+      "forward": {
+        "budget": "0",
+        "url": "https://theflamelproject.42web.io/#/replay?mode=seed&seed=20261024&budget=0&batch=1"
+      },
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "reset_bare_homepage",
+      "pass": true,
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "crystal_viewer_short_route",
+      "pass": true,
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "console_errors",
+      "pass": true,
+      "errors": [],
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    },
+    {
+      "name": "live_manifest_hash",
+      "pass": true,
+      "sha256": "1f9401f753210707e088213f740a7e842b6cf10473c35a721c671cbf037af235",
+      "recorded_at": "2026-10-22T16:13:29.104Z"
+    }
+  ],
+  "unchanged": [
+    "Frozen research and numerical artifacts",
+    "Paper/copper outline logo",
+    "CSS and all images/sidecars",
+    "Hosting .htaccess configurations",
+    "Credentials",
+    "Historical W1-W7 and previous logo evidence/releases",
+    "Original cached W6 source-input record"
+  ],
+  "rollback": {
+    "entry": "deployment/short-url-update/previous-dist/index.html",
+    "uiBuildId": "ui-w6-61a05eb4a69162cc438b",
+    "sha256": "f1bbd5b59345dac0e7db1881cb152b6146d824aaf82759c4a473d7b98247d4fa",
+    "instructions": "Upload the saved previous entry to /htdocs/index.html, retain all immutable assets and existing image routing, then verify HTTPS."
+  },
+  "evidence": [
+    "reports/SHORT_URL_BROWSER_CHECKS.jsonl",
+    "reports/SHORT_URL_LIVE_HOME.jpg",
+    "reports/SHORT_URL_LIVE_STATE.txt"
+  ],
+  "verificationLimit": "Targeted route, state and browser checks; the full historical W6/W7 suite was not rerun."
+}

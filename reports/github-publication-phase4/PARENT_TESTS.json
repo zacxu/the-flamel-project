@@ -1,0 +1,19 @@
+{
+  "saved_evidence_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "shared_integrity_tests": {
+    "total": 25,
+    "passed": 24,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "OS denied real symlink creation; simulated reparse test passed"
+  },
+  "scientific_experiments": 0,
+  "note": "Current source hash seal and final installer results are recorded separately.",
+  "saved_evidence_tested_runtimes": [
+    "standalone CPython3.11.14",
+    "machine CPython3.12"
+  ]
+}

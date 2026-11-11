@@ -1,0 +1,139 @@
+{
+  "frozen_at_utc": "2026-10-21T17:08:27.049770+00:00",
+  "primary_system": "Ca-Mg-O",
+  "primary_formula": "CaMg2O3",
+  "primary_formula_n_atoms": 6,
+  "formula_selection_manifest": "artifacts\\phase2\\compositions\\selection.json",
+  "formula_selection_sha256": "02cf8e4b607494f805bcaccb6d025d73ac93f9b8ae0c4c48f78926d22f625030",
+  "formula_catalog_absence": {
+    "atomic_number_sum_proxy": 68,
+    "chemical_system": "Ca-Mg-O",
+    "closed_shell_by_assigned_states_heuristic": true,
+    "counts": {
+      "Ca": 1,
+      "Mg": 2,
+      "O": 3
+    },
+    "formula": "CaMg2O3",
+    "n_atoms_reduced": 6,
+    "new_to_both_checked_catalogs": true,
+    "oxidation_state_witnesses": [
+      {
+        "Ca": 2,
+        "Mg": 2,
+        "O": -2
+      }
+    ],
+    "present_in_full_wbm": false,
+    "present_in_mp_snapshot": false,
+    "ranking_key": [
+      6,
+      0,
+      68,
+      "CaMg2O3"
+    ],
+    "redox_ambiguity_penalty": 0
+  },
+  "primary_reference_inventory": "artifacts/phase2/dft/primary_reference_plan.json",
+  "primary_all_entries": 161,
+  "fallback_system": "Mg-O",
+  "fallback_all_entries": 57,
+  "reference_inventory_scope": "MP2022 snapshot only; additional WBM structures are not included in the fresh QE inventory, and this is not a universal all-known-phase hull",
+  "fallback_reference_inventory": "artifacts/phase2/dft/fallback_Mg-O_reference_plan.json",
+  "known_reference_controls": {
+    "CaO_rocksalt": "mp-2605",
+    "MgO_rocksalt": "mp-1265",
+    "Mg_hcp": "mp-153",
+    "Ca_fcc": "mp-45"
+  },
+  "direct_reaction": {
+    "equation": "CaMg2O3 -> CaO + 2 MgO",
+    "mole_coefficients": {
+      "CaMg2O3": -1,
+      "CaO": 1,
+      "MgO": 2
+    },
+    "delta_definition": "e_candidate - (1/3)*e_CaO - (2/3)*e_MgO, all energies eV/atom",
+    "reference_weights_exact": {
+      "CaO": "1/3",
+      "MgO": "2/3"
+    },
+    "total_energy_equivalent": "(E_candidate_per_6_atom_formula - E_CaO_per_2_atom_formula - 2*E_MgO_per_2_atom_formula)/6",
+    "positive_resolved_margin": "Candidate is unstable against this explicit compatible decomposition",
+    "negative_resolved_margin": "Candidate beats these two anchors only; not a full161-entry stability result"
+  },
+  "initial_execution_queue": [
+    {
+      "material_id": "mp-2605",
+      "formula": "CaO",
+      "chemical_system": "Ca-O",
+      "primitive_n_sites": 2,
+      "QE_input_n_sites": 2,
+      "QE_input_geometry": "data\\references\\mp_2022_10_28\\mp-2605.source.json",
+      "QE_input_cell_policy": "original source cell; no primitive reduction used for execution",
+      "space_group": 225,
+      "priority": "mandatory_direct_oxide_anchor",
+      "large_over_20_sites": false,
+      "spin_or_occupation_review_required": false,
+      "phase2_status": "not_run",
+      "input_template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-2605\\pw.in"
+    },
+    {
+      "material_id": "mp-1265",
+      "formula": "MgO",
+      "chemical_system": "Mg-O",
+      "primitive_n_sites": 2,
+      "QE_input_n_sites": 2,
+      "QE_input_geometry": "data\\references\\mp_2022_10_28\\mp-1265.source.json",
+      "QE_input_cell_policy": "original source cell; no primitive reduction used for execution",
+      "space_group": 225,
+      "priority": "mandatory_direct_oxide_anchor",
+      "large_over_20_sites": false,
+      "spin_or_occupation_review_required": false,
+      "phase2_status": "not_run",
+      "input_template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-1265\\pw.in"
+    },
+    {
+      "material_id": "mp-153",
+      "formula": "Mg",
+      "chemical_system": "Mg",
+      "primitive_n_sites": 2,
+      "QE_input_n_sites": 2,
+      "QE_input_geometry": "data\\references\\mp_2022_10_28\\mp-153.source.json",
+      "QE_input_cell_policy": "original source cell; no primitive reduction used for execution",
+      "space_group": 194,
+      "priority": "elemental_metal_control",
+      "large_over_20_sites": false,
+      "spin_or_occupation_review_required": false,
+      "phase2_status": "not_run",
+      "input_template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-153\\pw.in"
+    },
+    {
+      "material_id": "mp-45",
+      "formula": "Ca",
+      "chemical_system": "Ca",
+      "primitive_n_sites": 1,
+      "QE_input_n_sites": 1,
+      "QE_input_geometry": "data\\references\\mp_2022_10_28\\mp-45.source.json",
+      "QE_input_cell_policy": "original source cell; no primitive reduction used for execution",
+      "space_group": 225,
+      "priority": "elemental_metal_control",
+      "large_over_20_sites": false,
+      "spin_or_occupation_review_required": false,
+      "phase2_status": "not_run",
+      "input_template": "artifacts\\phase2\\dft\\input_templates\\primary\\mp-45\\pw.in"
+    }
+  ],
+  "O2_templates": [
+    "artifacts/phase2/dft/input_templates/O2_triplet_box_12A",
+    "artifacts/phase2/dft/input_templates/O2_triplet_box_15A",
+    "artifacts/phase2/dft/input_templates/O2_triplet_box_18A"
+  ],
+  "numerical_protocol": "artifacts/phase2/dft/numerical_protocol.json",
+  "budget": "artifacts/phase2/dft/budget_forecast.json",
+  "early_candidate_freeze": "Phase3 must freeze early cohort IDs/geometry hashes/pool snapshot/selector/tie-breaks before candidate QE outcomes; no claim that they are best from a later completed pool. Retain failed attempts and reserve use.",
+  "phase2_QE_jobs_executed": 0,
+  "phase2_CHGNet_jobs_executed": 0,
+  "reference_source_energies_used": false,
+  "no_result_claim": "All Phase2 energies are pending; neither candidates nor reference phases were evaluated in Phase2"
+}

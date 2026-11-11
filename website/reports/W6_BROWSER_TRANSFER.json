@@ -1,0 +1,108 @@
+{
+  "phase": "W6",
+  "status": "passed",
+  "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "bodyBytes": 629448,
+  "files": [
+    {
+      "time": "2026-10-22T14:26:31.114Z",
+      "path": "/",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 1150
+    },
+    {
+      "time": "2026-10-22T14:26:31.136Z",
+      "path": "/assets/index-C2FiRLoA.js",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 428395
+    },
+    {
+      "time": "2026-10-22T14:26:31.137Z",
+      "path": "/assets/index-qjnWrLjY.css",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 45913
+    },
+    {
+      "time": "2026-10-22T14:26:31.222Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/manifest.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 22605
+    },
+    {
+      "time": "2026-10-22T14:26:31.229Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/summary.a7d9d82dcd2b3228.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 9311
+    },
+    {
+      "time": "2026-10-22T14:26:31.231Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/theme.27686804a7596fef.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 1178
+    },
+    {
+      "time": "2026-10-22T14:26:31.232Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/methods.b0a9177693439d24.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 4904
+    },
+    {
+      "time": "2026-10-22T14:26:31.234Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/glossary.7541be1fbd9a40e4.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 3003
+    },
+    {
+      "time": "2026-10-22T14:26:31.234Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/claims.5c3cf01b895935f0.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 5106
+    },
+    {
+      "time": "2026-10-22T14:26:31.235Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/provenance.58425544f5e7e1e1.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 24478
+    },
+    {
+      "time": "2026-10-22T14:26:31.236Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/structures/index.8be3595e5f4488c5.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 22133
+    },
+    {
+      "time": "2026-10-22T14:26:31.238Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/replay/curves.c27a1c520d6a0fb9.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 22068
+    },
+    {
+      "time": "2026-10-22T14:26:31.271Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--accepted_dft.89c1ef588513d61e.json",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 4080
+    },
+    {
+      "time": "2026-10-22T14:26:31.279Z",
+      "path": "/research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "method": "GET",
+      "status": 200,
+      "bodyBytes": 35124
+    }
+  ],
+  "noChartOrViewerRequested": true,
+  "scope": "Actual cold production Overview GET response bodies, uncompressed; excludes headers and provider behavior. Mode ok, unmodified production HTML/JS/CSS."
+}

@@ -1,0 +1,12 @@
+{
+  "attempt_ledger": "artifacts/phase4/generation/phase4_new_SnSrO2/ledger.jsonl",
+  "canonical_generation_charged_attempts": 56,
+  "canonical_generation_remaining_attempts": 72,
+  "emitted_attempt_records": 8,
+  "job_wall_seconds": 58.21173320000071,
+  "output_dir": "artifacts/phase4/generation/phase4_new_SnSrO2",
+  "returncode": 0,
+  "status": "completed",
+  "valid_count": 0,
+  "valid_unique_count": 0
+}

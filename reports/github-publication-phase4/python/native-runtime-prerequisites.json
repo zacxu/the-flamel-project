@@ -1,0 +1,11 @@
+{
+  "measured": [
+    "vcruntime140.dll",
+    "vcruntime140_1.dll",
+    "msvcp140.dll"
+  ],
+  "file_version": "14.50.35719.0",
+  "location": "C:/Windows/System32",
+  "global_runtime_changed": false,
+  "documentation": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist"
+}

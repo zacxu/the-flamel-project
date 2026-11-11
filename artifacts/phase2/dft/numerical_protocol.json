@@ -1,0 +1,84 @@
+{
+  "functional": "PBE",
+  "pseudopotential_library": "SSSP 1.3.0 PBE efficiency",
+  "pseudopotential_rule": "Same checksum-identified file per element across every candidate/reference",
+  "initial_common_ecutwfc_Ry": 50.0,
+  "initial_common_ecutrho_Ry": 400.0,
+  "cutoff_sensitivity_pairs_Ry": [
+    [
+      50,
+      400
+    ],
+    [
+      60,
+      480
+    ],
+    [
+      75,
+      600
+    ]
+  ],
+  "initial_reciprocal_spacing_inv_angstrom": 0.6,
+  "reciprocal_spacing_probe_inv_angstrom": [
+    0.6,
+    0.45,
+    0.35
+  ],
+  "k_grid_rule": "ceil(|reciprocal lattice vector including 2*pi| / spacing), at least 1; unshifted; never assume the starting mesh is converged",
+  "conv_thr_Ry": 1e-08,
+  "scf_must_converge": true,
+  "electron_maxstep": 100,
+  "forc_conv_thr_Ry_per_Bohr": 0.0008,
+  "force_target_eV_per_angstrom": 0.0205688269904,
+  "etot_conv_thr_Ry": 1e-05,
+  "press_conv_thr_kbar": 0.5,
+  "final_stress_acceptance": "For solids require both abs(scalar pressure)<=0.5 kbar AND max(abs(full3x3 stress tensor minus zero target))<=0.5 kbar; tighten/continue if either fails. A small hydrostatic trace alone does not establish shear convergence. Molecular fixed-box stress is not a solid acceptance test.",
+  "solid_relaxation": "vc-relax, BFGS atomic and cell, target pressure zero, cell_dofree all",
+  "final_constraints": "nosym=true, noinv=true; no imposed Wyckoff/space-group constraint; report any exception",
+  "perturbation_check": "Where budget permits, deterministic seed 260022, 0.01-A random atomic displacement and 0.5-percent cell strain, followed by unconstrained re-relaxation; not a phonon test",
+  "spin": {
+    "balanced_CaMg2O3_candidate_and_MgO_CaO_anchors": "nonmagnetic starting hypothesis; if signs of metallicity or spin instability arise, review before acceptance",
+    "Mg_and_Ca_metals": "nonmagnetic starting hypothesis; cold smearing, degauss 0.01 Ry, probe 0.005 and 0.0025 Ry and comparable dense k meshes",
+    "isolated_O2": "triplet: nspin=2, total magnetization 2 muB, nbnd=8, fixed occupations, bond initialized 1.23 A",
+    "O2_box_sizes_A": [
+      12,
+      15,
+      18
+    ],
+    "unknown_reference_phases": "Source moment >0.1muB OR O/cation counts other than balanced MO are flagged. Nonmagnetic templates alone do not establish a ground-spin reference; inspect and test appropriate spin/occupation branches before acceptance"
+  },
+  "numerical_acceptance": [
+    "Electronic SCF, ionic force and (solid) pressure criteria must all pass; process exit and JOB DONE alone are insufficient",
+    "QE forc_conv_thr is a component criterion; independently verify maximum atomic force-vector norm <=0.0205688269904 eV/A, tightening the continuation threshold if necessary",
+    "At fixed final geometries, increase cutoffs and k density separately; require each reference/candidate used in a phase comparison to have recorded sensitivity checks",
+    "After accepting final cutoff/k settings, recompute forces and the full stress tensor at those same settings. If max force-vector norm or any residual stress component fails acceptance, continue geometry/cell relaxation at the accepted settings and repeat checks before accepting the energy. Small energy shifts alone do not establish stationarity",
+    "Target last-step changes in relevant per-atom and reaction energies <=0.005 eV/atom; extend refinement if not met and mark any untested value incomplete",
+    "For O2, require vacuum/bond/spin/cutoff checks; solid oxygen catalog phases remain in the inventory and are not silently replaced by gas",
+    "For metals inspect smearing/entropy contributions and demonstrate the final small-smearing result is insensitive within the stated energy tolerance",
+    "Finite-k/cutoff sensitivity is a measured convergence diagnostic, not a rigorous total DFT error bound",
+    "Do not label a sign as resolved when its margin is comparable to achieved sensitivity; use at least a 5-meV/atom guard band and enlarge it for larger observed shifts"
+  ],
+  "completeness": [
+    "All 161 catalog entries are retained; none is excluded using source energy, hull distance or candidate outcome",
+    "Every QE template uses its original source cell. Original site properties/magnetic-order metadata are retained in source JSON, but are not automatically converted to QE spin settings: moment/order-flagged references require explicit spin initialization/review before execution and acceptance. Primitive copies are informational and unverified. Any later reduction requires tight geometry/supercell equivalence and unambiguous property/magnetic-order mapping, otherwise retain the source cell",
+    "This reference geometry inventory covers the named MP2022 snapshot only. WBM supplies the broader composition-absence check and replay, but additional WBM structures are not included in this fresh QE reference inventory. Even complete recalculation supports only the frozen MP-inventory statement, not all known/published phases",
+    "A full frozen-inventory assessment needs compatible converged energies and reviewed spin/occupations for every required entry or a documented exact geometry equivalence",
+    "An unfinished/failed/large/spin-ambiguous reference blocks a complete-inventory hull claim; list it explicitly",
+    "Compare every completed generated structure with each other as well as against the reference-only hull",
+    "MP/VASP stored energies, WBM targets and CHGNet energies are never substituted for fresh compatible QE reference energies"
+  ],
+  "executor_requirements": {
+    "simultaneous_QE_jobs": 1,
+    "OMP_NUM_THREADS": 4,
+    "MKL_NUM_THREADS": 4,
+    "OPENBLAS_NUM_THREADS": 1,
+    "default_QE_max_seconds": 900,
+    "outer_process_timeout_seconds": 930,
+    "O2_max_seconds": 1200,
+    "O2_outer_timeout_seconds": 1230,
+    "resume_policy": "Preserve restart files and append every attempt, including failures, to the Phase1 QE job ledger",
+    "additional_global_stop": "All numerical experiments stop at execution hour18",
+    "path_staging": "Before execution create job-local scratch/pseudo directories and copy only checksum-verified required UPFs from the manifest"
+  },
+  "stable_claim_scope": "Approximate zero-temperature, target-zero-pressure PBE energetics under the documented oxygen convention; neither phonon stability, finite-temperature Gibbs stability nor experimental synthesizability"
+}

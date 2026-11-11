@@ -1,0 +1,27 @@
+{
+  "total_cumulative_qe_walltime_seconds": 21600,
+  "consumed_QE_walltime_seconds": 2.103912800001126,
+  "remaining_QE_walltime_seconds": 21597.8960872,
+  "existing_QE_jobs": 1,
+  "existing_QE_ledger_sha256": "97097d2c3ea045848b5538c04b1476a3689f1a0cc71894c4a98819722079a2e4",
+  "phase2_QE_jobs_executed": 0,
+  "pilot_grounding": {
+    "phase1_MgO_2_atom_SCF_wall_seconds": 2.103912800001126,
+    "pilot_irreducible_k_points": 8,
+    "pilot_threads": 4,
+    "limitation": "A symmetric two-atom, 13-iteration SCF timing is not a relaxation, spin, molecule, metallic, large-cell or nosym workload forecast"
+  },
+  "planning_allocations_seconds": {
+    "reference_geometries_and_anchors": 9000,
+    "one_or_two_candidate_relaxations": 5400,
+    "cutoff_k_smearing_O2_vacuum_spin_sensitivity": 5400,
+    "failure_and_restart_reserve": 1797.8960871999989
+  },
+  "allocation_rule": "Planning envelopes only; no cap can be increased. A recorded reallocation is allowed inside the global cap before outcomes are used as selection criteria.",
+  "feasibility_gate": "After first Phase3 reference/candidate jobs, forecast remaining queue from observed phase/size/k-mesh timings. Stop adding jobs if convergence and references cannot fit. Prefer one complete limited-set comparison over two incomplete cases.",
+  "all_161_reference_only_average_budget_seconds": 55.900621118012424,
+  "execution_over_20_source_sites": 21,
+  "execution_max_source_sites": 150,
+  "full_inventory_forecast": "Not promised: 161 original source cells, 21 >20-atom phases, maximum150 atoms and unresolved spin cases make a full convergence-checked recalculation unlikely within the 9000-second reference envelope.",
+  "fallback_full_inventory_forecast": "Mg-O still has57 source cells and14 >20-atom phases; fallback means a smaller same-composition/limited-reference study, not an automatic complete hull"
+}

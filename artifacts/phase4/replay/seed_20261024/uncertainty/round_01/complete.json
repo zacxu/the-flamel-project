@@ -1,0 +1,13 @@
+{
+  "completed_at_utc": "2026-10-22T01:49:41.185521+00:00",
+  "cumulative_queries": 10,
+  "decision_sha256": "be9113b1a769e6f72765b1ac161fc8efb0e1c0396a36a61c8c36cc0f3ebc3c7e",
+  "fit_audit_sha256": "3e9815429c92b702b40bc5ab64bd7eb624c245779106e0d8a2654e0a617317b8",
+  "fit_calibration_seconds": 11.275219299999662,
+  "model_path": "artifacts\\phase4\\replay\\seed_20261024\\uncertainty\\round_01\\adapted_model.joblib",
+  "model_sha256": "71bfe8d7a1420e0bcfc8845a601e2b7a41af99eb733030c3661bdf2c7e156f22",
+  "policy": "uncertainty",
+  "reveal_sha256": "86100b8ab2d21423ef07d9ec99382fc201a855a0427484c3973d69d9f2251330",
+  "round_index": 1,
+  "training_rows": 2010
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "scope": "Small retained licence texts and compact primary-source metadata observations; no model/data/UPF payloads and no publication claim",
+  "retained_texts": [
+    {
+      "file": "APACHE-2.0-CrystalFormer.txt",
+      "source_url": "https://raw.githubusercontent.com/deepmodeling/CrystalFormer/31bb734a3fd006af49a021921839061e6184cbf1/LICENSE",
+      "bytes": 11335,
+      "sha256": "147c6437df624c721f3911202e6e254e8d19789538247b79375acd0034fa1108",
+      "retrieved_at_utc": "2026-11-10T19:56:50.763170+00:00"
+    },
+    {
+      "file": "CrystalFormer-checkpoint-README.md",
+      "source_url": "https://huggingface.co/zdcao/CrystalFormer/raw/b203f4273158d95b49b60a13433bf1dcc4ccf5d9/README.md",
+      "bytes": 518,
+      "sha256": "100d084a3c15e7fbc4338521cd17fa97fc33332a06dc55540589c6c92ed2cb6d",
+      "retrieved_at_utc": "2026-11-10T19:56:50.407535+00:00"
+    },
+    {
+      "file": "CHGNet-0.4.2-LICENSE.txt",
+      "source_url": "https://raw.githubusercontent.com/CederGroupHub/chgnet/v0.4.2/LICENSE",
+      "bytes": 2519,
+      "sha256": "a06789a2624485a9de5903d3d4cceeec6127a36042dd7364999ff994587a4a41",
+      "retrieved_at_utc": "2026-11-10T19:56:50.801698+00:00"
+    },
+    {
+      "file": "SSSP-LICENSE.txt",
+      "source_url": "https://archive.materialscloud.org/records/rcyfm-68h65/files/LICENSE.txt?download=1",
+      "bytes": 3673,
+      "sha256": "8028d9d7fcad7932bb5551dc0a60cff6c6b7f7aa2bd480f516a2faaa09d943a1",
+      "retrieved_at_utc": "2026-11-10T19:56:51.914177+00:00"
+    },
+    {
+      "file": "CC-BY-4.0.txt",
+      "source_url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/main/docs/licenses/by/4.0/legalcode.txt",
+      "canonical_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "retrieved_at_utc": "2026-11-10T20:06:27.339973+00:00"
+    }
+  ],
+  "metadata_observations": [
+    {
+      "source_url": "https://huggingface.co/api/models/zdcao/CrystalFormer/revision/b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+      "retrieved_at_utc": "2026-11-10T19:56:50.128694+00:00",
+      "original_response_sha256": "78e4ced9a76ead9e4ce349e53a75b0856c4d6eafb8d5b5ce3a3a6a5ed712cd07",
+      "original_response_bytes": 951,
+      "observed_fields": {
+        "repository": "zdcao/CrystalFormer",
+        "revision": "b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+        "cardData": {
+          "license": "apache-2.0",
+          "datasets": [
+            "zdcao/alex-20"
+          ],
+          "tags": [
+            "chemistry",
+            "materials"
+          ]
+        },
+        "tags": [
+          "chemistry",
+          "materials",
+          "dataset:zdcao/alex-20",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "source_url": "https://api.figshare.com/v2/articles/22715158/versions/39",
+      "retrieved_at_utc": "2026-11-10T19:56:54.727699+00:00",
+      "original_response_sha256": "2e367fe10db4d357076a35f0ebc7e54b5d3eaf34690a7a355cd50f74a39c5c17",
+      "original_response_bytes": 13786,
+      "observed_fields": {
+        "version": 39,
+        "doi": "10.6084/m9.figshare.22715158.v39",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "citation": "Riebesell, Janosh (2023). Matbench Discovery - Data Files. figshare. Dataset. https://doi.org/10.6084/m9.figshare.22715158.v39",
+        "authors": [
+          {
+            "id": 13245669,
+            "full_name": "Janosh Riebesell",
+            "first_name": "Janosh",
+            "last_name": "Riebesell",
+            "is_active": true,
+            "url_name": "Janosh_Riebesell",
+            "orcid_id": "0000-0001-5233-3462"
+          }
+        ],
+        "files": [
+          {
+            "id": 40344436,
+            "name": "2023-02-07-mp-computed-structure-entries.json.gz",
+            "size": 179351659,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/40344436",
+            "supplied_md5": "76fc748db6b175bb80de4c276d27c235",
+            "computed_md5": "76fc748db6b175bb80de4c276d27c235",
+            "mimetype": "application/gzip"
+          },
+          {
+            "id": 53161835,
+            "name": "wbm/2022-10-19-wbm-init-structs.jsonl.gz",
+            "size": 49537334,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/53161835",
+            "supplied_md5": "b809f101dd42a745ec2baabe7eb16f11",
+            "computed_md5": "b809f101dd42a745ec2baabe7eb16f11",
+            "mimetype": "application/gzip"
+          },
+          {
+            "id": 64706751,
+            "name": "wbm/2023-12-13-wbm-summary.csv.gz",
+            "size": 12745623,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/64706751",
+            "supplied_md5": "1555268d3aa59d20262cb9d01ce0994b",
+            "computed_md5": "1555268d3aa59d20262cb9d01ce0994b",
+            "mimetype": "application/gzip"
+          }
+        ]
+      }
+    },
+    {
+      "source_url": "https://archive.materialscloud.org/api/records/rcyfm-68h65",
+      "retrieved_at_utc": "2026-11-10T19:56:53.927255+00:00",
+      "original_response_sha256": "4e8b86ffae2a735412be79a5e04f11513dadc9cbc24f527528f427205d34073d",
+      "original_response_bytes": 38464,
+      "observed_fields": {
+        "record_id": "rcyfm-68h65",
+        "title": "A Standard Solid State Pseudopotentials (SSSP) library optimized for precision and efficiency",
+        "rights": [
+          {
+            "id": "cc-by-4.0",
+            "title": {
+              "en": "Creative Commons Attribution 4.0 International"
+            },
+            "description": {
+              "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+            },
+            "icon": "cc-by-icon",
+            "props": {
+              "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "scheme": "spdx"
+            }
+          }
+        ],
+        "family_exceptions": "See retained SSSP-LICENSE.txt; collection licence is not uniform across UPFs"
+      }
+    }
+  ],
+  "local_verification": {
+    "used_upfs_md5_match": "3 of 3 matched exact SSSP JSON records; payloads not included",
+    "chgnet_installed_vs_pinned": "Licence text identical after newline normalization; source copy preserved exactly",
+    "crystalformer_upstream_source": "Phase 2 recorded all 87 original files identical; 86 non-environment originals selected for Git; this licence audit did not rerun the source comparison"
+  },
+  "website_asset_provenance": [
+    "../../website/THIRD_PARTY_NOTICES.md",
+    "../../website/reports/WORKFLOW_VISUALS_UPDATE.md",
+    "../../website/reports/WORKFLOW_VISUALS_SCIENCE_REVIEW.md"
+  ]
+}

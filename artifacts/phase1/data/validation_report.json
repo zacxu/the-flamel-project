@@ -1,0 +1,111 @@
+{
+  "completed_at_utc": "2026-10-21T16:32:45.495694+00:00",
+  "elapsed_seconds": 25.65369930000088,
+  "errors": [],
+  "initial_structures": {
+    "all_cells_finite_nonzero_and_volume_consistent": true,
+    "all_formulas_and_site_counts_match_summary": true,
+    "all_site_coordinates_finite_and_cartesian_consistent": true,
+    "duplicate_initial_ids": 0,
+    "extra_initial_ids": 0,
+    "fractional_sites_outside_unit_cell": 0,
+    "fractional_wrapping_note": "Finite fractional coordinates outside [0,1) are valid periodic representations; no coordinates were changed.",
+    "gzip_crc_verified_by_full_stream_read": true,
+    "initial_record_columns": [
+      "formula_from_cse",
+      "initial_structure",
+      "material_id"
+    ],
+    "initial_volume_range_angstrom_cubed": [
+      12.6566459369,
+      3570.0781120215
+    ],
+    "matched_summary_ids": 256963,
+    "max_cartesian_consistency_error_angstrom": 8.189289246729459e-10,
+    "missing_initial_ids": 0,
+    "unique_initial_ids": 256963,
+    "validated_sites": 1994133
+  },
+  "population": {
+    "counts": {
+      "all_mg_o_at_most_20_sites": 10,
+      "all_mg_o_near_stable_le_0.05": 2,
+      "all_mg_o_reference_hull_le_0": 0,
+      "all_mg_o_rows": 10,
+      "all_near_stable_le_0.05": 102826,
+      "all_negative_signed_hull_distances": 42825,
+      "all_reference_hull_le_0": 42825,
+      "all_rows": 256963,
+      "eligible_chemical_systems": 1866,
+      "eligible_near_stable_le_0.05": 1934,
+      "eligible_not_reserved_mg_o": 8289,
+      "eligible_reference_hull_le_0": 700,
+      "eligible_reserved_mg_o": 5,
+      "eligible_rows": 8294,
+      "unique_prototype_mg_o_rows": 5
+    },
+    "excluded_element_occurrences_after_first_four_filters": {
+      "As": 272,
+      "B": 84,
+      "Br": 199,
+      "C": 131,
+      "Cl": 218,
+      "F": 277,
+      "Ge": 184,
+      "H": 249,
+      "I": 163,
+      "N": 117,
+      "P": 187,
+      "S": 251,
+      "Sb": 225,
+      "Se": 240,
+      "Si": 128,
+      "Te": 151
+    },
+    "proposal_count_comparison": {
+      "expected_chemical_systems": 1866,
+      "expected_eligible": 8294,
+      "expected_near_stable": 1934,
+      "observed_chemical_systems": 1866,
+      "observed_eligible": 8294,
+      "observed_near_stable": 1934
+    },
+    "sequential_eligibility_counts": {
+      "then_at_most_20_sites": 11279,
+      "then_no_excluded_nonoxygen_elements": 8294,
+      "then_oxygen_present": 23821,
+      "then_two_or_three_elements": 11529,
+      "unique_prototype": 215488
+    },
+    "signed_target_range_eV_per_atom": [
+      -2.728363,
+      6.483111
+    ],
+    "summary_columns": [
+      "material_id",
+      "formula",
+      "n_sites",
+      "volume",
+      "uncorrected_energy",
+      "e_form_per_atom_wbm",
+      "e_above_hull_wbm",
+      "bandgap_pbe",
+      "protostructure_spglib_initial_structure",
+      "uncorrected_energy_from_cse",
+      "e_correction_per_atom_mp2020",
+      "e_correction_per_atom_mp_legacy",
+      "e_form_per_atom_uncorrected",
+      "e_form_per_atom_mp2020_corrected",
+      "e_above_hull_mp2020_corrected_ppd_mp",
+      "site_stats_fingerprint_init_final_norm_diff",
+      "protostructure_spglib",
+      "unique_prototype"
+    ],
+    "summary_unique_ids": 256963
+  },
+  "proposal_population_counts_reproduced": true,
+  "started_at_utc": "2026-10-21T16:32:19.841517+00:00",
+  "status": "passed",
+  "summary_gzip_crc_verified_by_full_stream_read": true,
+  "warnings": []
+}

@@ -1,0 +1,680 @@
+{
+  "DFT_validation": {
+    "competitor_coverage": {
+      "Ca-Mg-O": {
+        "accepted_material_ids": [
+          "mp-1265",
+          "mp-2605"
+        ],
+        "accepted_original_source_references": 2,
+        "frozen_entries": 161,
+        "full_inventory_hull_established": false,
+        "uncomputed_original_source_entries": 159
+      },
+      "Mg-O": {
+        "accepted_material_ids": [
+          "mp-1265"
+        ],
+        "accepted_original_source_references": 1,
+        "frozen_entries": 57,
+        "full_inventory_hull_established": false,
+        "uncomputed_original_source_entries": 56
+      }
+    },
+    "known_control": {
+      "candidate_atoms": 8,
+      "candidate_energy_eV_per_atom": -513.8780495045822,
+      "candidate_job_id": "p3_candidate_mgo_fallback_90",
+      "candidate_minus_reference_eV_per_atom": -5.5332391184492735e-06,
+      "candidate_spacegroup": 225,
+      "comparison_tolerance_eV_per_atom": 0.01,
+      "energy_ordering_resolved": false,
+      "finite_cutoff_and_kpoint_validation_passed": true,
+      "formula": "MgO",
+      "normalized_RMS_and_max_distance": [
+        4.4149697467615035e-08,
+        4.4149697467615035e-08
+      ],
+      "outcome": "Known rock-salt recovery, numerically indistinguishable energy",
+      "reference_atoms": 2,
+      "reference_energy_eV_per_atom": -513.8780439713431,
+      "reference_job_id": "p3_ref_mgo_90_k035_cont1",
+      "reference_spacegroup": 225,
+      "structure_match": true
+    },
+    "local_minimum_proven": false,
+    "new_DFT_confirmed_stable_materials": 0,
+    "new_QE_jobs_in_phase6": 0,
+    "perturbation_accepted_terminal_geometry": false,
+    "perturbation_validation_incomplete": true,
+    "phonon_check_performed": false,
+    "scope": "Static PBE known-control comparison, not full thermodynamic stability or finite-temperature stability"
+  },
+  "audit_path": "artifacts/phase6/structures/audit.json",
+  "claim_limits": [
+    "Within-architecture sampling contrast only; one energy pair per composition",
+    "MgO topup results supplementary; primary first-eight denominators unchanged",
+    "New-to-reference composition means absent only from two pinned historical catalogs",
+    "P1 geometry unmatched to pinned same-composition subset does not prove global novelty",
+    "Prototype CHGNet convergence and absolute raw energies are not formation energies or hull stability",
+    "No fresh candidate CaMg2O3 QE result; 159 primary and 56 fallback reference entries uncomputed",
+    "Known MgO recovery is not discovery; perturbation incomplete; no phonon local-minimum proof"
+  ],
+  "completed_utc": "2026-10-22T02:47:04.165345+00:00",
+  "composition_novelty": {
+    "MP_snapshot": "Figshare file 40344436; MP database release 2022.10.28, queried 2023-02-07",
+    "WBM_snapshot": "Full released WBM 256963-row snapshot, not the experiment's filtered replay subset",
+    "catalog_populations": {
+      "mp": {
+        "records": 154718,
+        "unique_compositions": 105583
+      },
+      "wbm": {
+        "records": 256963,
+        "unique_compositions": 168150
+      }
+    },
+    "composition_rechecks": [
+      {
+        "DFT_confirmed_stability": false,
+        "absent_from_both_pinned_snapshots": true,
+        "counts": {
+          "O": 2,
+          "Sn": 1,
+          "Sr": 1
+        },
+        "formula": "SnSrO2",
+        "generator_pretraining_OOD_established": false,
+        "global_composition_novelty_established": false,
+        "mp_matching_composition_records": 0,
+        "wbm_matching_composition_records": 0
+      },
+      {
+        "DFT_confirmed_stability": false,
+        "absent_from_both_pinned_snapshots": true,
+        "counts": {
+          "Ba": 1,
+          "O": 2,
+          "Sn": 1
+        },
+        "formula": "BaSnO2",
+        "generator_pretraining_OOD_established": false,
+        "global_composition_novelty_established": false,
+        "mp_matching_composition_records": 0,
+        "wbm_matching_composition_records": 0
+      },
+      {
+        "DFT_confirmed_stability": false,
+        "absent_from_both_pinned_snapshots": true,
+        "counts": {
+          "Ca": 1,
+          "Mg": 2,
+          "O": 3
+        },
+        "formula": "CaMg2O3",
+        "generator_pretraining_OOD_established": false,
+        "global_composition_novelty_established": false,
+        "mp_matching_composition_records": 0,
+        "wbm_matching_composition_records": 0
+      },
+      {
+        "DFT_confirmed_stability": false,
+        "absent_from_both_pinned_snapshots": true,
+        "counts": {
+          "Mg": 2,
+          "O": 3,
+          "Sr": 1
+        },
+        "formula": "Mg2SrO3",
+        "generator_pretraining_OOD_established": false,
+        "global_composition_novelty_established": false,
+        "mp_matching_composition_records": 0,
+        "wbm_matching_composition_records": 0
+      },
+      {
+        "DFT_confirmed_stability": false,
+        "absent_from_both_pinned_snapshots": true,
+        "counts": {
+          "Ca": 2,
+          "O": 3,
+          "Zn": 1
+        },
+        "formula": "Ca2ZnO3",
+        "generator_pretraining_OOD_established": false,
+        "global_composition_novelty_established": false,
+        "mp_matching_composition_records": 0,
+        "wbm_matching_composition_records": 0
+      },
+      {
+        "DFT_confirmed_stability": false,
+        "absent_from_both_pinned_snapshots": true,
+        "counts": {
+          "Ca": 2,
+          "O": 3,
+          "Sr": 1
+        },
+        "formula": "Ca2SrO3",
+        "generator_pretraining_OOD_established": false,
+        "global_composition_novelty_established": false,
+        "mp_matching_composition_records": 0,
+        "wbm_matching_composition_records": 0
+      }
+    ],
+    "index_scope": "All rows in hash-pinned complete composition indexes linked to audited raw archives",
+    "raw_snapshot_hashes_verified": true,
+    "saved_control_geometry_coverage": {
+      "MgO": {
+        "full_snapshot_composition_entries": 23,
+        "not_tested_larger_source_geometry_ids": [
+          "mp-1244962",
+          "mp-1245039",
+          "mp-1245045",
+          "mp-1245128",
+          "mp-1245143",
+          "mp-1245157",
+          "mp-1245195",
+          "mp-1245232"
+        ],
+        "saved_geometries_tested": 15,
+        "saved_geometry_source_site_cap": 30
+      },
+      "TiO2": {
+        "full_snapshot_composition_entries": 44,
+        "not_tested_larger_source_geometry_ids": [
+          "mp-1044853",
+          "mp-1201727",
+          "mp-1245098",
+          "mp-1245134",
+          "mp-1245308",
+          "mp-1245321",
+          "mp-1350429",
+          "mp-1380335",
+          "mp-775938",
+          "mp-777129"
+        ],
+        "saved_geometries_tested": 34,
+        "saved_geometry_source_site_cap": 30
+      }
+    },
+    "scope": "Absence in these two historical catalogs only; no current/global novelty claim and no proof of generator-pretraining OOD"
+  },
+  "generation": {
+    "actual_transformer_draws": 88,
+    "excluded_larger_cell_diagnostics": 12,
+    "new_formula_cohorts": [
+      {
+        "arm": null,
+        "control": null,
+        "draws": 8,
+        "exact_valid": 0,
+        "exact_valid_unique": 0,
+        "excluded_larger_cell_diagnostics": 2,
+        "formula": "CaMg2O3",
+        "kind": "new_composition",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 0
+      },
+      {
+        "arm": null,
+        "control": null,
+        "draws": 8,
+        "exact_valid": 0,
+        "exact_valid_unique": 0,
+        "excluded_larger_cell_diagnostics": 5,
+        "formula": "SnSrO2",
+        "kind": "new_composition",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 0
+      },
+      {
+        "arm": null,
+        "control": null,
+        "draws": 8,
+        "exact_valid": 0,
+        "exact_valid_unique": 0,
+        "excluded_larger_cell_diagnostics": 1,
+        "formula": "BaSnO2",
+        "kind": "new_composition",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 0
+      },
+      {
+        "arm": null,
+        "control": null,
+        "draws": 8,
+        "exact_valid": 0,
+        "exact_valid_unique": 0,
+        "excluded_larger_cell_diagnostics": 1,
+        "formula": "Mg2SrO3",
+        "kind": "new_composition",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 0
+      },
+      {
+        "arm": null,
+        "control": null,
+        "draws": 8,
+        "exact_valid": 0,
+        "exact_valid_unique": 0,
+        "excluded_larger_cell_diagnostics": 2,
+        "formula": "Ca2ZnO3",
+        "kind": "new_composition",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 0
+      },
+      {
+        "arm": null,
+        "control": null,
+        "draws": 8,
+        "exact_valid": 0,
+        "exact_valid_unique": 0,
+        "excluded_larger_cell_diagnostics": 1,
+        "formula": "Ca2SrO3",
+        "kind": "new_composition",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 0
+      }
+    ],
+    "new_formula_exact_valid": 0,
+    "new_formula_primary_draws": 48,
+    "primary_control_arms": [
+      {
+        "arm": "nontrivial",
+        "control": "mgo_rocksalt",
+        "draws": 8,
+        "exact_valid": 7,
+        "exact_valid_unique": 1,
+        "excluded_larger_cell_diagnostics": 0,
+        "formula": "Mg4O4",
+        "kind": "control",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 7
+      },
+      {
+        "arm": "p1",
+        "control": "mgo_rocksalt",
+        "draws": 8,
+        "exact_valid": 0,
+        "exact_valid_unique": 0,
+        "excluded_larger_cell_diagnostics": 1,
+        "formula": "Mg4O4",
+        "kind": "control",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 0
+      },
+      {
+        "arm": "nontrivial",
+        "control": "tio2_rutile",
+        "draws": 8,
+        "exact_valid": 6,
+        "exact_valid_unique": 1,
+        "excluded_larger_cell_diagnostics": 0,
+        "formula": "Ti2O4",
+        "kind": "control",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 6
+      },
+      {
+        "arm": "p1",
+        "control": "tio2_rutile",
+        "draws": 8,
+        "exact_valid": 1,
+        "exact_valid_unique": 1,
+        "excluded_larger_cell_diagnostics": 3,
+        "formula": "Ti2O4",
+        "kind": "control",
+        "scope": "primary_first8",
+        "valid_requested_spacegroup": 1
+      }
+    ],
+    "primary_yield_denominators_unchanged": true,
+    "scope": "Sampling group contrast within one fixed trained architecture; no architecture causality claim",
+    "supplementary_control_arms": [
+      {
+        "arm": "nontrivial",
+        "control": "mgo_rocksalt",
+        "draws": 4,
+        "exact_valid": 4,
+        "exact_valid_unique": 1,
+        "excluded_larger_cell_diagnostics": 0,
+        "formula": "Mg4O4",
+        "kind": "control",
+        "scope": "supplementary_topup_only",
+        "valid_requested_spacegroup": 4
+      },
+      {
+        "arm": "p1",
+        "control": "mgo_rocksalt",
+        "draws": 4,
+        "exact_valid": 1,
+        "exact_valid_unique": 1,
+        "excluded_larger_cell_diagnostics": 0,
+        "formula": "Mg4O4",
+        "kind": "control",
+        "scope": "supplementary_topup_only",
+        "valid_requested_spacegroup": 1
+      }
+    ]
+  },
+  "new_CHGNet_launches": 0,
+  "new_QE_jobs": 0,
+  "new_generator_draws": 0,
+  "new_predictor_fits_or_predictions": 0,
+  "phase": 6,
+  "relaxed_structures": {
+    "CHGNet_converged": 11,
+    "energy_scope": "Within-composition CHGNet predictions only; raw cross-composition energies do not define stability",
+    "matcher_settings": {
+      "angle_tol": 5.0,
+      "attempt_supercell": false,
+      "ltol": 0.05,
+      "primitive_cell": true,
+      "scale": true,
+      "stol": 0.1
+    },
+    "new_relaxation_launches_in_phase6": 0,
+    "novelty_scope": "Saved original-source <=30-site MP geometry subset tested: 15 of 23 MgO entries and 34 of 44 TiO2 entries. Larger-source-cell geometries not tested; unmatched outputs do not establish global novelty",
+    "prototype_baselines": [
+      {
+        "CHGNet_converged": true,
+        "CHGNet_energy_eV_per_atom": -6.041627883911133,
+        "atoms": 4,
+        "candidate_id": "prototype_SnSrO2",
+        "final_spacegroup": 123,
+        "fresh_DFT_submitted": false,
+        "initial_geometry_valid": true,
+        "parent_material_id": "mp-1018032",
+        "stable_material_established": false,
+        "target_formula": "SnSrO2"
+      },
+      {
+        "CHGNet_converged": true,
+        "CHGNet_energy_eV_per_atom": -5.952028751373291,
+        "atoms": 4,
+        "candidate_id": "prototype_BaSnO2",
+        "final_spacegroup": 123,
+        "fresh_DFT_submitted": false,
+        "initial_geometry_valid": true,
+        "parent_material_id": "mp-753619",
+        "stable_material_established": false,
+        "target_formula": "BaSnO2"
+      },
+      {
+        "CHGNet_converged": true,
+        "CHGNet_energy_eV_per_atom": -6.384627024332683,
+        "atoms": 6,
+        "candidate_id": "prototype_CaMg2O3",
+        "final_spacegroup": 164,
+        "fresh_DFT_submitted": false,
+        "initial_geometry_valid": true,
+        "parent_material_id": "mp-1222123",
+        "stable_material_established": false,
+        "target_formula": "CaMg2O3"
+      },
+      {
+        "CHGNet_converged": true,
+        "CHGNet_energy_eV_per_atom": -6.140673955281575,
+        "atoms": 6,
+        "candidate_id": "prototype_Mg2SrO3",
+        "final_spacegroup": 164,
+        "fresh_DFT_submitted": false,
+        "initial_geometry_valid": true,
+        "parent_material_id": "mp-1222123",
+        "stable_material_established": false,
+        "target_formula": "Mg2SrO3"
+      }
+    ],
+    "reference_anatase_minus_rutile_CHGNet_eV_per_atom": -0.019908905029296875,
+    "relaxed_selections": 11,
+    "structures": [
+      {
+        "CHGNet_energy_eV_per_atom": -6.3137712478637695,
+        "actual_atoms": 8,
+        "arm": "nontrivial",
+        "candidate_id": "phase1_mgo_attempt_000",
+        "control": "mgo_rocksalt",
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.046494318454601835,
+        "final_formula": "MgO",
+        "final_spacegroup_symprec_0p01": 225,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [
+          "mp-1265"
+        ],
+        "new_stable_material_established": false,
+        "optimizer_steps": 18,
+        "role": "symmetry",
+        "same_composition_MP_geometries_tested": 15,
+        "source_final_structure": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/final.json",
+        "source_sha256": "b1061f40c75055c65981ff7c159de569dcf80d85b06abc261b5760177e21ec88"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -5.956892013549805,
+        "actual_atoms": 8,
+        "arm": "p1",
+        "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+        "control": "mgo_rocksalt",
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.04922557513628211,
+        "final_formula": "MgO",
+        "final_spacegroup_symprec_0p01": 1,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [],
+        "new_stable_material_established": false,
+        "optimizer_steps": 121,
+        "role": "symmetry",
+        "same_composition_MP_geometries_tested": 15,
+        "source_final_structure": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/final.json",
+        "source_sha256": "4f6347e27693dc01eaf954efd81d21373e37981b8fa3fc7a0da3c82dd511f482"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -9.388800303141275,
+        "actual_atoms": 6,
+        "arm": "nontrivial",
+        "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_000",
+        "control": "tio2_rutile",
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.048491490817944655,
+        "final_formula": "TiO2",
+        "final_spacegroup_symprec_0p01": 136,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [
+          "mp-1041565",
+          "mp-2657"
+        ],
+        "new_stable_material_established": false,
+        "optimizer_steps": 19,
+        "role": "symmetry",
+        "same_composition_MP_geometries_tested": 34,
+        "source_final_structure": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/final.json",
+        "source_sha256": "bfa90552c9bb9c76350c0f3aecf150104abd3d410cd04117829a5fbbe89079a6"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -9.332993825276693,
+        "actual_atoms": 6,
+        "arm": "p1",
+        "candidate_id": "phase4_tio2_rutile_p1_attempt_000",
+        "control": "tio2_rutile",
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.04024660438745308,
+        "final_formula": "TiO2",
+        "final_spacegroup_symprec_0p01": 1,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [],
+        "new_stable_material_established": false,
+        "optimizer_steps": 107,
+        "role": "symmetry",
+        "same_composition_MP_geometries_tested": 34,
+        "source_final_structure": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/final.json",
+        "source_sha256": "aec9f8f155b3561901c6127e4bb307a29280ff25cceea060617c7083face6b8e"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -6.041627883911133,
+        "actual_atoms": 4,
+        "arm": null,
+        "candidate_id": "prototype_SnSrO2",
+        "control": null,
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.042908310906399426,
+        "final_formula": "SrSnO2",
+        "final_spacegroup_symprec_0p01": 123,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [],
+        "new_stable_material_established": false,
+        "optimizer_steps": 5,
+        "role": "prototype",
+        "same_composition_MP_geometries_tested": 0,
+        "source_final_structure": "artifacts/phase5/chgnet/prototype_SnSrO2/final.json",
+        "source_sha256": "ef66dbff26e23a170659ad46a47577014a7ad7878ac097189b3975a1cea22715"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -5.952028751373291,
+        "actual_atoms": 4,
+        "arm": null,
+        "candidate_id": "prototype_BaSnO2",
+        "control": null,
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.04502489640238438,
+        "final_formula": "BaSnO2",
+        "final_spacegroup_symprec_0p01": 123,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [],
+        "new_stable_material_established": false,
+        "optimizer_steps": 5,
+        "role": "prototype",
+        "same_composition_MP_geometries_tested": 0,
+        "source_final_structure": "artifacts/phase5/chgnet/prototype_BaSnO2/final.json",
+        "source_sha256": "0231b366983f544c4e3fa05fd7fa164e200ed34779490edc461d14d9f0d6565d"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -6.384627024332683,
+        "actual_atoms": 6,
+        "arm": null,
+        "candidate_id": "prototype_CaMg2O3",
+        "control": null,
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.0475237682705153,
+        "final_formula": "CaMg2O3",
+        "final_spacegroup_symprec_0p01": 164,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [],
+        "new_stable_material_established": false,
+        "optimizer_steps": 37,
+        "role": "prototype",
+        "same_composition_MP_geometries_tested": 0,
+        "source_final_structure": "artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+        "source_sha256": "239c24ee68eb9b805688f880eff9c5cc1344b29c95fa41a2aff8b06230d9db8b"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -6.140673955281575,
+        "actual_atoms": 6,
+        "arm": null,
+        "candidate_id": "prototype_Mg2SrO3",
+        "control": null,
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.041220061230245596,
+        "final_formula": "SrMg2O3",
+        "final_spacegroup_symprec_0p01": 164,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [],
+        "new_stable_material_established": false,
+        "optimizer_steps": 36,
+        "role": "prototype",
+        "same_composition_MP_geometries_tested": 0,
+        "source_final_structure": "artifacts/phase5/chgnet/prototype_Mg2SrO3/final.json",
+        "source_sha256": "a8c85d221ef26cd2fc3929f1fa1fd784df39660d5ac048518c34e2060eba0196"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -6.313931941986084,
+        "actual_atoms": 8,
+        "arm": null,
+        "candidate_id": "reference_rocksalt",
+        "control": null,
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.0013373090224814274,
+        "final_formula": "MgO",
+        "final_spacegroup_symprec_0p01": 225,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [
+          "mp-1265"
+        ],
+        "new_stable_material_established": false,
+        "optimizer_steps": 0,
+        "role": "same_composition_reference",
+        "same_composition_MP_geometries_tested": 15,
+        "source_final_structure": "artifacts/phase5/chgnet/reference_rocksalt/final.json",
+        "source_sha256": "8999cc61f02892bd4565b8faaf0355167232e2d86d4a06e1359a2c70ed1e39b5"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -9.389032363891602,
+        "actual_atoms": 6,
+        "arm": null,
+        "candidate_id": "reference_rutile",
+        "control": null,
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.04215910271519237,
+        "final_formula": "TiO2",
+        "final_spacegroup_symprec_0p01": 136,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [
+          "mp-1041565",
+          "mp-2657"
+        ],
+        "new_stable_material_established": false,
+        "optimizer_steps": 0,
+        "role": "same_composition_reference",
+        "same_composition_MP_geometries_tested": 34,
+        "source_final_structure": "artifacts/phase5/chgnet/reference_rutile/final.json",
+        "source_sha256": "c20a55c43850b1a2a9880c705b864d7c7244f3bc19a9538288f65928f751478a"
+      },
+      {
+        "CHGNet_energy_eV_per_atom": -9.408941268920898,
+        "actual_atoms": 12,
+        "arm": null,
+        "candidate_id": "reference_anatase",
+        "control": null,
+        "converged": true,
+        "filter_fmax_eV_per_angstrom": 0.04457446575337534,
+        "final_formula": "TiO2",
+        "final_spacegroup_symprec_0p01": 141,
+        "global_structure_novelty_established": false,
+        "matches_pinned_MP_same_composition_geometry_ids": [
+          "mp-34688",
+          "mp-390"
+        ],
+        "new_stable_material_established": false,
+        "optimizer_steps": 4,
+        "role": "same_composition_reference",
+        "same_composition_MP_geometries_tested": 34,
+        "source_final_structure": "artifacts/phase5/chgnet/reference_anatase/final.json",
+        "source_sha256": "85ddec320f31a3188a3360a1a2524d3778e255a7b1c84e117cb2e90c32ec0e62"
+      }
+    ],
+    "symmetry_pairs": [
+      {
+        "DFT_stability_comparison": false,
+        "P1_minus_nontrivial_CHGNet_eV_per_atom": 0.35687923431396484,
+        "control": "mgo_rocksalt",
+        "energy_distribution_established": false,
+        "nontrivial_candidate_id": "phase1_mgo_attempt_000",
+        "p1_candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+        "quota_per_arm": 1,
+        "relaxed_pair_structure_match": false,
+        "scope": "supplementary_primary_plus_topup_pool"
+      },
+      {
+        "DFT_stability_comparison": false,
+        "P1_minus_nontrivial_CHGNet_eV_per_atom": 0.05580647786458215,
+        "control": "tio2_rutile",
+        "energy_distribution_established": false,
+        "nontrivial_candidate_id": "phase4_tio2_rutile_nontrivial_attempt_000",
+        "p1_candidate_id": "phase4_tio2_rutile_p1_attempt_000",
+        "quota_per_arm": 1,
+        "relaxed_pair_structure_match": false,
+        "scope": "primary_first8_per_arm"
+      }
+    ]
+  },
+  "representative_structure_figure": "artifacts/phase6/structures/representative_structures.png",
+  "status": "complete"
+}

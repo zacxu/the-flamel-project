@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "phase": "Footer cleanup",
+  "status": "live_verified",
+  "recordedAt": "2026-10-22T16:27:30.391809+00:00",
+  "localDate": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "url": "https://theflamelproject.42web.io/",
+  "documentRoot": "/htdocs",
+  "uiBuildId": "ui-w6-066edb222a3354b8bced",
+  "predecessorUiBuildId": "ui-w6-37bfb28892a8c9f8cb22",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "researchManifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "uiManifestPath": "release-manifests/ui-w6-066edb222a3354b8bced.json",
+  "uiManifestSha256": "af9c36fa3e1628c126bc17937a0b0c5a9182da958484cd849572cb09cb5d7576",
+  "change": "Removed the entire footer-note paragraph containing the frozen-study date, guided-presentation description and local release text. Retained build identity only as a nonvisible data-ui-build footer attribute.",
+  "sourceChanges": [
+    "src/App.tsx",
+    "src/generated/uiRelease.ts (automatic build identity)"
+  ],
+  "uploadOrder": [
+    "Three new hashed JavaScript chunks and versioned release manifest/CSV uploaded first.",
+    "Exact 1150-byte production index.html published last."
+  ],
+  "immutableFiles": [
+    {
+      "path": "assets/CrystalViewer-CuTyLY5X.js",
+      "bytes": 567490,
+      "sha256": "aacd03ffc843c0196538d9a0d2dab3ee73b194e5f2b38a6d211670e4c6e2d8c8"
+    },
+    {
+      "path": "assets/ReplayChart-Cic60Y6o.js",
+      "bytes": 374724,
+      "sha256": "126019ff3a858ac136b2762517cfd3aed0bd3d313b13dd8d5f6d08335117e19c"
+    },
+    {
+      "path": "assets/index-CoHu-qaJ.js",
+      "bytes": 428435,
+      "sha256": "2e1dfbc874b27c3e0372a8e3cc2f1000b7aaa3aae5a566664b08d17aff833c1f"
+    },
+    {
+      "path": "release-manifests/ui-w6-066edb222a3354b8bced.files.csv",
+      "bytes": 17551,
+      "sha256": "3b5dd86a47ccd0b477961d9f57c1fd576f0068983b5f8b4161895e49ff17a745"
+    },
+    {
+      "path": "release-manifests/ui-w6-066edb222a3354b8bced.json",
+      "bytes": 25919,
+      "sha256": "af9c36fa3e1628c126bc17937a0b0c5a9182da958484cd849572cb09cb5d7576"
+    }
+  ],
+  "entryLast": {
+    "path": "deployment/footer-cleanup/entry/index.html",
+    "bytes": 1150,
+    "sha256": "dd49266b699f007f02a872c2fcc50d9522aa2b4a626f2bec99f5abd44a5999c4",
+    "remotePath": "index.html"
+  },
+  "localIntegrityChecksPassed": 1097,
+  "browserChecksPassed": 7,
+  "browserChecksFailed": 0,
+  "browserObservations": [
+    {
+      "name": "live_release",
+      "pass": true,
+      "ui_build": "ui-w6-066edb222a3354b8bced",
+      "recorded_at": "2026-10-22T16:27:08.395Z"
+    },
+    {
+      "name": "desktop_footer_text_removed",
+      "pass": true,
+      "footer": "The Flamel Project\n\nA research prototype. Evidence before discovery claims.\n\nCopy view link \u00e2\u2020\u2014\nReset exploration",
+      "recorded_at": "2026-10-22T16:27:08.395Z"
+    },
+    {
+      "name": "mobile_footer_text_removed",
+      "pass": true,
+      "footer": "The Flamel Project\n\nA research prototype. Evidence before discovery claims.\n\nCopy view link \u00e2\u2020\u2014\nReset exploration",
+      "footerNoteCount": 0,
+      "noOverflow": true,
+      "removed": true,
+      "recorded_at": "2026-10-22T16:27:08.395Z"
+    },
+    {
+      "name": "footer_controls_retained",
+      "pass": true,
+      "controls": [
+        "Copy view link \u00e2\u2020\u2014",
+        "Reset exploration"
+      ],
+      "recorded_at": "2026-10-22T16:27:08.395Z"
+    },
+    {
+      "name": "bare_homepage_retained",
+      "pass": true,
+      "url": "https://theflamelproject.42web.io/",
+      "recorded_at": "2026-10-22T16:27:08.395Z"
+    },
+    {
+      "name": "console_errors",
+      "pass": true,
+      "errors": [],
+      "recorded_at": "2026-10-22T16:27:08.395Z"
+    },
+    {
+      "name": "live_manifest_hash",
+      "pass": true,
+      "sha256": "af9c36fa3e1628c126bc17937a0b0c5a9182da958484cd849572cb09cb5d7576",
+      "recorded_at": "2026-10-22T16:27:08.395Z"
+    }
+  ],
+  "unchanged": [
+    "Footer brand, research-prototype description and Copy view link/Reset exploration controls",
+    "Paper/copper outline logo and compact URL behavior",
+    "CSS, research, images, sidecars and hosting configurations",
+    "Credentials and all historical W1-W7/logo/short-URL evidence/releases",
+    "Historical W6 source-input cache"
+  ],
+  "rollback": {
+    "entry": "deployment/footer-cleanup/previous-dist/index.html",
+    "uiBuildId": "ui-w6-37bfb28892a8c9f8cb22",
+    "sha256": "12b053fe2a122bc53368181e396e9d0a3ff94267d2d87fcc436b7552da0c95a5",
+    "instructions": "Upload the saved previous entry to /htdocs/index.html, retain every immutable asset and existing image routing, then verify HTTPS."
+  },
+  "verificationLimit": "Cosmetic update: typecheck/build, package integrity and targeted live checks. No new test suite or broad historical-suite rerun."
+}

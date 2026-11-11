@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "phase": "W7",
+  "status": "reencoding_observed_one_sample",
+  "checkedAt": "2026-10-22T14:53:50.424384+00:00",
+  "scope": "One actual remote image downloaded through the normal browser before transport repair, compared with the frozen W6 payload. This does not certify all33 binary images or identify the responsible hosting/upload component.",
+  "documentRootRelativePath": "research/releases/data-v1-2a138b7808f0d12c5151/figures/generation.59e6ca927809464f.png",
+  "localPayload": {
+    "bytes": 120046,
+    "sha256": "59e6ca927809464fd93e31dc4310525a3c602413ad08c5e2f14d0851966e6104",
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 2400,
+    "height": 940,
+    "rgbaPixelSha256": "4c94b0d16469a10c6accce75731e56e63de41b855987277cdcc1826f4a28646e",
+    "metadata": {
+      "Software": "Matplotlib version3.10.9, https://matplotlib.org/",
+      "dpi": [
+        199.9996,
+        199.9996
+      ]
+    },
+    "pngChunks": [
+      {
+        "kind": "IHDR",
+        "bytes": 13
+      },
+      {
+        "kind": "tEXt",
+        "bytes": 58
+      },
+      {
+        "kind": "pHYs",
+        "bytes": 9
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 65536
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 54350
+      },
+      {
+        "kind": "IEND",
+        "bytes": 0
+      }
+    ]
+  },
+  "retainedRemoteDownload": {
+    "path": "deployment/transport-diagnostics/generation-remote-pre-repair.png",
+    "bytes": 143059,
+    "sha256": "f19a03788ae217e1f87d49e67341e27321b3fcca8dbb1a0fd9ecf32261eccad0",
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 2400,
+    "height": 940,
+    "rgbaPixelSha256": "4c94b0d16469a10c6accce75731e56e63de41b855987277cdcc1826f4a28646e",
+    "metadata": {
+      "dpi": [
+        199.9996,
+        199.9996
+      ]
+    },
+    "pngChunks": [
+      {
+        "kind": "IHDR",
+        "bytes": 13
+      },
+      {
+        "kind": "pHYs",
+        "bytes": 9
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 8192
+      },
+      {
+        "kind": "IDAT",
+        "bytes": 3513
+      },
+      {
+        "kind": "IEND",
+        "bytes": 0
+      }
+    ]
+  },
+  "sameFileBytes": false,
+  "sameDimensions": true,
+  "sameRgbaPixels": true,
+  "interpretation": "Valid PNG with identical RGBA pixels/dimensions, changed compressed image chunks and removed Software text metadata: image decode/re-encode is observed rather than arbitrary binary corruption. Source of the re-encoding is not established by this evidence. Exact byte-immutable deployment remains unresolved until corrected or explicitly dispositioned."
+}

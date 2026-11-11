@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "mode": "read-only-saved-evidence-integrity",
+  "source_inputs_verified": 103,
+  "baseline_hashes_verified": 4,
+  "public_payloads_verified": 75,
+  "historical_audit_checks_recorded": 3587,
+  "historical_checks_reexecuted": false,
+  "new_experiments": 0,
+  "models_deserialized": 0,
+  "data_release": "data-v1-2a138b7808f0d12c5151",
+  "scope": "Authenticates retained inputs, public payloads, saved audit and numerical freeze. Does not recompute metrics, repeat experiments, establish model validity or inspect private scratch history."
+}

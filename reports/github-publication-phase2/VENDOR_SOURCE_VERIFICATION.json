@@ -1,0 +1,1706 @@
+{
+  "schema_version": 1,
+  "status": "PASSED",
+  "verified_at_utc": "2026-11-10T18:43:36.017790+00:00",
+  "scope": "Read-only comparison of pinned upstream archive, immutable Phase 1 file hashes and Phase 2 Git selection. No HDD rescan or source changes.",
+  "phase1_inventory_sha256": "0a224fb688a3bd99825e5e53dd999ad2c4874c42675b8715a6a05e580b6aa17d",
+  "phase2_git_manifest_sha256": "66018230feb1c1ca1198536f8824816720a88438cee90f2f2e8225b22bc09525",
+  "crystalformer": {
+    "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+    "archive_prefix": "CrystalFormer-31bb734a3fd006af49a021921839061e6184cbf1/",
+    "archive_bytes": 2212229,
+    "archive_sha256": "1f440e96fd598139067c9d7eb2c4cbd8204a9bf79505e4fcdabe8dc2b372e975",
+    "upstream_original_files": 87,
+    "git_original_files": 86,
+    "original_members": [
+      {
+        "path": "vendor/CrystalFormer/.github/workflows/tests.yml",
+        "archive_member_sha256": "64ef294d2bbd002a40aa1657ebc0df6d07ee73e74d68e570511dd42457998778",
+        "phase1_sha256": "64ef294d2bbd002a40aa1657ebc0df6d07ee73e74d68e570511dd42457998778",
+        "bytes": 729,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/.gitignore",
+        "archive_member_sha256": "def82801b533ea347b3d2361f684f3561aad1040c9f8bd21c1eb7ef1c40516ec",
+        "phase1_sha256": "def82801b533ea347b3d2361f684f3561aad1040c9f8bd21c1eb7ef1c40516ec",
+        "bytes": 97,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/LICENSE",
+        "archive_member_sha256": "147c6437df624c721f3911202e6e254e8d19789538247b79375acd0034fa1108",
+        "phase1_sha256": "147c6437df624c721f3911202e6e254e8d19789538247b79375acd0034fa1108",
+        "bytes": 11335,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/MODEL_CARD.md",
+        "archive_member_sha256": "def204425172d4430d27f565dae54fb3564330fdfd8cea41b2a04f03a0e896e8",
+        "phase1_sha256": "def204425172d4430d27f565dae54fb3564330fdfd8cea41b2a04f03a0e896e8",
+        "bytes": 2087,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/README.md",
+        "archive_member_sha256": "c1c6fad09b512f35f85cf7e2a749a054e11cdcd846d2c0c7d02551450e367b1b",
+        "phase1_sha256": "c1c6fad09b512f35f85cf7e2a749a054e11cdcd846d2c0c7d02551450e367b1b",
+        "bytes": 20233,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/__init__.py",
+        "archive_member_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "phase1_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/cli/__init__.py",
+        "archive_member_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "phase1_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/cli/classifier.py",
+        "archive_member_sha256": "6e8ff3c2b8de90a21e3ba21f685fe3adb1a66e0d9151ea2c4d561095e1163941",
+        "phase1_sha256": "6e8ff3c2b8de90a21e3ba21f685fe3adb1a66e0d9151ea2c4d561095e1163941",
+        "bytes": 9305,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/cli/cond_gen.py",
+        "archive_member_sha256": "e00e84aabe7d1e4b3e8285558997ff9f5f09719e5a570e16325e4f2c9df5c1cf",
+        "phase1_sha256": "e00e84aabe7d1e4b3e8285558997ff9f5f09719e5a570e16325e4f2c9df5c1cf",
+        "bytes": 12981,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/cli/dataset.py",
+        "archive_member_sha256": "eca179b1ea93ac79de0e80f01e221755863fa8764001f7ecf4f614d2cb1bc8ff",
+        "phase1_sha256": "eca179b1ea93ac79de0e80f01e221755863fa8764001f7ecf4f614d2cb1bc8ff",
+        "bytes": 1835,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/cli/train_dpo.py",
+        "archive_member_sha256": "339c3ef398a79b36fef46e56060720241456304a3acfd77e44f32a00e40a022f",
+        "phase1_sha256": "339c3ef398a79b36fef46e56060720241456304a3acfd77e44f32a00e40a022f",
+        "bytes": 8270,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/cli/train_ppo.py",
+        "archive_member_sha256": "a739648d548499fc5329d09c042eb222a305f96c16c309ad96d5ed80012fdf0c",
+        "phase1_sha256": "a739648d548499fc5329d09c042eb222a305f96c16c309ad96d5ed80012fdf0c",
+        "bytes": 13634,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/data/.gitkeep",
+        "archive_member_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "phase1_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/data/wyckoff_list.csv",
+        "archive_member_sha256": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+        "phase1_sha256": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+        "bytes": 251743,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/data/wyckoff_symbols.csv",
+        "archive_member_sha256": "035035df9fb581f1a0955da371feb1cdee8034d875b432405090254dfef43fd0",
+        "phase1_sha256": "035035df9fb581f1a0955da371feb1cdee8034d875b432405090254dfef43fd0",
+        "bytes": 12201,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/extension/__init__.py",
+        "archive_member_sha256": "b47f9d2831e23218e0f44279617e6fd32e7052867a75a3a23464cfe743fba0db",
+        "phase1_sha256": "b47f9d2831e23218e0f44279617e6fd32e7052867a75a3a23464cfe743fba0db",
+        "bytes": 310,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/extension/experimental.py",
+        "archive_member_sha256": "20b4944f119946875358f92493cec5a582805aa145ab8e9f3a852381874b75bc",
+        "phase1_sha256": "20b4944f119946875358f92493cec5a582805aa145ab8e9f3a852381874b75bc",
+        "bytes": 8776,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/extension/loss.py",
+        "archive_member_sha256": "ad9d4b9714ce17bb1c6cf0503894b0507fa4fb44a0fe194293d97bc94d75b627",
+        "phase1_sha256": "ad9d4b9714ce17bb1c6cf0503894b0507fa4fb44a0fe194293d97bc94d75b627",
+        "bytes": 6625,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/extension/mcmc.py",
+        "archive_member_sha256": "6e5c919b9915e7e0f56b86e93f489c4aca60ecb6266a16aa76e07848343d2a5d",
+        "phase1_sha256": "6e5c919b9915e7e0f56b86e93f489c4aca60ecb6266a16aa76e07848343d2a5d",
+        "bytes": 8965,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/extension/model.py",
+        "archive_member_sha256": "ca1f8cc022010de617a3925cd397a28f699c43563a1d8be7d021270387c9c6ac",
+        "phase1_sha256": "ca1f8cc022010de617a3925cd397a28f699c43563a1d8be7d021270387c9c6ac",
+        "bytes": 1818,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/extension/train.py",
+        "archive_member_sha256": "880d0a992ab45c98b49206e2067af7b02ceff01ab0245d6555bf0a9de0f63f4b",
+        "phase1_sha256": "880d0a992ab45c98b49206e2067af7b02ceff01ab0245d6555bf0a9de0f63f4b",
+        "bytes": 3518,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/extension/transformer.py",
+        "archive_member_sha256": "9398fa6b6b63b84536a373f66bfdb9ed1f7fa2e0df15f3ee56463cc0907c4870",
+        "phase1_sha256": "9398fa6b6b63b84536a373f66bfdb9ed1f7fa2e0df15f3ee56463cc0907c4870",
+        "bytes": 11475,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/reinforce/__init__.py",
+        "archive_member_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "phase1_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/reinforce/dpo.py",
+        "archive_member_sha256": "55a5a697895caa0e7398d51377fefbe3d41aba0c19ab3947f051b3022d366e0a",
+        "phase1_sha256": "55a5a697895caa0e7398d51377fefbe3d41aba0c19ab3947f051b3022d366e0a",
+        "bytes": 9378,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/reinforce/ehull.py",
+        "archive_member_sha256": "d7f50a8ec0ddd92d5d707f367598985c7788be9a77de9b74e04c792f767ff485",
+        "phase1_sha256": "d7f50a8ec0ddd92d5d707f367598985c7788be9a77de9b74e04c792f767ff485",
+        "bytes": 2440,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/reinforce/ppo.py",
+        "archive_member_sha256": "9e7ada1f004059704be575b49a3b5c64611e0c811eb1d58a6a2d50a26d002731",
+        "phase1_sha256": "9e7ada1f004059704be575b49a3b5c64611e0c811eb1d58a6a2d50a26d002731",
+        "bytes": 11827,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/reinforce/reward.py",
+        "archive_member_sha256": "25cf760bc1a2277180e5a8ab09100182e37147bc0b76942425afd9b05e3dc68d",
+        "phase1_sha256": "25cf760bc1a2277180e5a8ab09100182e37147bc0b76942425afd9b05e3dc68d",
+        "bytes": 12547,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/reinforce/vanilla.py",
+        "archive_member_sha256": "05224504bb7b6304d6ae5e356c824afcdb406dbeeedc41600120418e414122c4",
+        "phase1_sha256": "05224504bb7b6304d6ae5e356c824afcdb406dbeeedc41600120418e414122c4",
+        "bytes": 2886,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/__init__.py",
+        "archive_member_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "phase1_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/attention.py",
+        "archive_member_sha256": "81379c1ecd69fa147a75b13c0c9535051bc85b3e69a51c8d048a54c9e7f663e2",
+        "phase1_sha256": "81379c1ecd69fa147a75b13c0c9535051bc85b3e69a51c8d048a54c9e7f663e2",
+        "bytes": 6582,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/checkpoint.py",
+        "archive_member_sha256": "852748a491e28b5432706a649aa71f170f35977cbffd3840478b06fc05145991",
+        "phase1_sha256": "852748a491e28b5432706a649aa71f170f35977cbffd3840478b06fc05145991",
+        "bytes": 1450,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/elements.py",
+        "archive_member_sha256": "a19bec1f0acf89ff4c35e9644072a88bde2063594253f264677f7bfff866e9af",
+        "phase1_sha256": "a19bec1f0acf89ff4c35e9644072a88bde2063594253f264677f7bfff866e9af",
+        "bytes": 2195,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/formula.py",
+        "archive_member_sha256": "1d37b87a43813eb6bba2052f61680a3aff4b9dece93559464ab99adec09a74ff",
+        "phase1_sha256": "1d37b87a43813eb6bba2052f61680a3aff4b9dece93559464ab99adec09a74ff",
+        "bytes": 6720,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/lattice.py",
+        "archive_member_sha256": "0387916197fe0d4b7556b161274056539d5d5f4f109b3f3ac917a45f92425e51",
+        "phase1_sha256": "0387916197fe0d4b7556b161274056539d5d5f4f109b3f3ac917a45f92425e51",
+        "bytes": 1965,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/loss.py",
+        "archive_member_sha256": "1d0b815c52dab6fce0b3a598c86902f0a684dac9ec954e43f72c40792b6ac7c4",
+        "phase1_sha256": "1d0b815c52dab6fce0b3a598c86902f0a684dac9ec954e43f72c40792b6ac7c4",
+        "bytes": 5628,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/mcmc.py",
+        "archive_member_sha256": "4b99f2e3be76fa1a7c64446b67a355d074b06b5118817fdbd9684401ae360c80",
+        "phase1_sha256": "4b99f2e3be76fa1a7c64446b67a355d074b06b5118817fdbd9684401ae360c80",
+        "bytes": 6058,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/rope.py",
+        "archive_member_sha256": "d5288be656e15323a85513a39f057a1b43c011336b94005ac9a471ddbd0ce14f",
+        "phase1_sha256": "d5288be656e15323a85513a39f057a1b43c011336b94005ac9a471ddbd0ce14f",
+        "bytes": 3122,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/sample.py",
+        "archive_member_sha256": "2eaaccd93a6daf839f3d5988ada555166820dfe5ffb3b51451f3d3586e32814f",
+        "phase1_sha256": "2eaaccd93a6daf839f3d5988ada555166820dfe5ffb3b51451f3d3586e32814f",
+        "bytes": 11585,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/train.py",
+        "archive_member_sha256": "3c0aebddc58f18abc41ac85580fc6471187b4d82e914d31241061443b8756049",
+        "phase1_sha256": "3c0aebddc58f18abc41ac85580fc6471187b4d82e914d31241061443b8756049",
+        "bytes": 7400,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/transformer.py",
+        "archive_member_sha256": "e710d2e300513c47885b9e0dd1b9549616fb27c9795e4466c1e3da806b91e5d5",
+        "phase1_sha256": "e710d2e300513c47885b9e0dd1b9549616fb27c9795e4466c1e3da806b91e5d5",
+        "bytes": 13183,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/utils.py",
+        "archive_member_sha256": "2557a38439d7aa984d1c6fdde4c6e9f97b04a6e42cd1278f8820f9d58ee119c2",
+        "phase1_sha256": "2557a38439d7aa984d1c6fdde4c6e9f97b04a6e42cd1278f8820f9d58ee119c2",
+        "bytes": 7830,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/von_mises.py",
+        "archive_member_sha256": "ed363d5ea04e791d77c6a00173e9c778b46ae5cda19df339c25386bcaf4e4cca",
+        "phase1_sha256": "ed363d5ea04e791d77c6a00173e9c778b46ae5cda19df339c25386bcaf4e4cca",
+        "bytes": 4050,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/crystalformer/src/wyckoff.py",
+        "archive_member_sha256": "87ed611649bd6361e84c837a73e26c71d94d173aa4532ce470dc7dd2028396df",
+        "phase1_sha256": "87ed611649bd6361e84c837a73e26c71d94d173aa4532ce470dc7dd2028396df",
+        "bytes": 6277,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/data/atoms.json",
+        "archive_member_sha256": "b47c05295398f4cd788a0629c19138e19a39a2cbedf2d8da7f6430c7b027aa2f",
+        "phase1_sha256": "b47c05295398f4cd788a0629c19138e19a39a2cbedf2d8da7f6430c7b027aa2f",
+        "bytes": 274,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/data/mini.csv",
+        "archive_member_sha256": "dc19ddf49356db2d225a1c5d13b8fec1775d6d7324dd555974b1fbbd858f680b",
+        "phase1_sha256": "dc19ddf49356db2d225a1c5d13b8fec1775d6d7324dd555974b1fbbd858f680b",
+        "bytes": 36459,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/imgs/crystalformer.png",
+        "archive_member_sha256": "333fd3808243a273842fbbd10165f044a0121311e04dfb535fe2aae3312347b6",
+        "phase1_sha256": "333fd3808243a273842fbbd10165f044a0121311e04dfb535fe2aae3312347b6",
+        "bytes": 314457,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/imgs/csp.png",
+        "archive_member_sha256": "305f890426c9ad1a4f9467fb129daed85d860db6317abc774687403960fef980",
+        "phase1_sha256": "305f890426c9ad1a4f9467fb129daed85d860db6317abc774687403960fef980",
+        "bytes": 658537,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/imgs/output.gif",
+        "archive_member_sha256": "fa8ccf732edda02b82ab61fc8a80dc00a1325caefe1bbbaa0aaa6337109f5d5b",
+        "phase1_sha256": "fa8ccf732edda02b82ab61fc8a80dc00a1325caefe1bbbaa0aaa6337109f5d5b",
+        "bytes": 685036,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/main.py",
+        "archive_member_sha256": "45adb93b1d0de3d0ded9cab1d89d4024ce2927f478899bb65c5817b0f0e78636",
+        "phase1_sha256": "45adb93b1d0de3d0ded9cab1d89d4024ce2927f478899bb65c5817b0f0e78636",
+        "bytes": 15376,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/mcp/.env",
+        "archive_member_sha256": "8741e3436beb8896c182555c90c2c7cdc374d4447bf15572352970081078b08e",
+        "phase1_sha256": "8741e3436beb8896c182555c90c2c7cdc374d4447bf15572352970081078b08e",
+        "bytes": 1053,
+        "present": true,
+        "unchanged": true,
+        "git_selected": false,
+        "private_env": true
+      },
+      {
+        "path": "vendor/CrystalFormer/mcp/README.md",
+        "archive_member_sha256": "19185fd1a8b57caa197119387dab47daf774e09114be3b3387c10f714a51d460",
+        "phase1_sha256": "19185fd1a8b57caa197119387dab47daf774e09114be3b3387c10f714a51d460",
+        "bytes": 2038,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/mcp/csp_mcp.py",
+        "archive_member_sha256": "6d96916265d4810f79954e0432f060379c57e2213efa54ac1745a4542e18e4cf",
+        "phase1_sha256": "6d96916265d4810f79954e0432f060379c57e2213efa54ac1745a4542e18e4cf",
+        "bytes": 7593,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/postprocess.sh",
+        "archive_member_sha256": "7f021ef1ebca63da1f550e1ee113be7e16a2fb05ff9efc5cf3bd714a9795f3c3",
+        "phase1_sha256": "7f021ef1ebca63da1f550e1ee113be7e16a2fb05ff9efc5cf3bd714a9795f3c3",
+        "bytes": 11515,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/pyproject.toml",
+        "archive_member_sha256": "03832d8f98e10368d77608944a9bb376d7061924b66b90966c91841570ea4462",
+        "phase1_sha256": "03832d8f98e10368d77608944a9bb376d7061924b66b90966c91841570ea4462",
+        "bytes": 1288,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/run/config/bright90.py",
+        "archive_member_sha256": "de786b0259f40fc8bafd8ecd606822d74c77b65a037a4644c2abdb6a1099eee4",
+        "phase1_sha256": "de786b0259f40fc8bafd8ecd606822d74c77b65a037a4644c2abdb6a1099eee4",
+        "bytes": 2673,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/run/config/pmax.py",
+        "archive_member_sha256": "e20bd7fcc9f48223c6c40312ab2cb71bfad633e77a0e155f4f4411996458e08d",
+        "phase1_sha256": "e20bd7fcc9f48223c6c40312ab2cb71bfad633e77a0e155f4f4411996458e08d",
+        "bytes": 6495,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/run/submit.py",
+        "archive_member_sha256": "abc84d39767601db388f36ca29c60dfb4829fadc946ab2438ea07a0dc777640c",
+        "phase1_sha256": "abc84d39767601db388f36ca29c60dfb4829fadc946ab2438ea07a0dc777640c",
+        "bytes": 5002,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/README.md",
+        "archive_member_sha256": "b67e1ca851245e477563a308b6e2727f98d3fd1d897ddf06144a1de116196d4c",
+        "phase1_sha256": "b67e1ca851245e477563a308b6e2727f98d3fd1d897ddf06144a1de116196d4c",
+        "bytes": 6040,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/analysis.ipynb",
+        "archive_member_sha256": "9050fcfc3968cb52fabda751b866639b37ad1acf03488ea3525cf0c2c3877322",
+        "phase1_sha256": "9050fcfc3968cb52fabda751b866639b37ad1acf03488ea3525cf0c2c3877322",
+        "bytes": 614270,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/awl2struct.py",
+        "archive_member_sha256": "66f7a5e6f9186733aca9108fcca0cde752ec4e93b5e76fe82c80d4d8333a9ce0",
+        "phase1_sha256": "66f7a5e6f9186733aca9108fcca0cde752ec4e93b5e76fe82c80d4d8333a9ce0",
+        "bytes": 6077,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/check_sun_materials.py",
+        "archive_member_sha256": "da143f5564a2f0a2a77b4bb699a57f148083ee56d262ee518c5cdb816d8d452a",
+        "phase1_sha256": "da143f5564a2f0a2a77b4bb699a57f148083ee56d262ee518c5cdb816d8d452a",
+        "bytes": 6024,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/compute_csp_metrics.py",
+        "archive_member_sha256": "730b60ac4ded37bdd2c705bd958ce24b3d34c75ba72744035146881a4264acfa",
+        "phase1_sha256": "730b60ac4ded37bdd2c705bd958ce24b3d34c75ba72744035146881a4264acfa",
+        "bytes": 8750,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/compute_metrics.py",
+        "archive_member_sha256": "0aa7044fa6eb968271de7a45c91f040179948fd3e48baeca8ece4b9300708433",
+        "phase1_sha256": "0aa7044fa6eb968271de7a45c91f040179948fd3e48baeca8ece4b9300708433",
+        "bytes": 5193,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/compute_metrics_matbench.py",
+        "archive_member_sha256": "a5ff52c348824769031375982ffa7f265f176d4841f8f0068f71806c223f1599",
+        "phase1_sha256": "a5ff52c348824769031375982ffa7f265f176d4841f8f0068f71806c223f1599",
+        "bytes": 2654,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/config.py",
+        "archive_member_sha256": "15abf79d9929736c3e4dca77fc767424b98e0372b025caeacf94870e247d13ae",
+        "phase1_sha256": "15abf79d9929736c3e4dca77fc767424b98e0372b025caeacf94870e247d13ae",
+        "bytes": 131,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/e_above_hull.py",
+        "archive_member_sha256": "4a0630ccc9ffc3134d426a27ef5b43d56cd42b87cf380327ee753a8d2f6f2cb4",
+        "phase1_sha256": "4a0630ccc9ffc3134d426a27ef5b43d56cd42b87cf380327ee753a8d2f6f2cb4",
+        "bytes": 4864,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/e_above_hull_alex.py",
+        "archive_member_sha256": "995682d82fbf98c3228996c43a215e9e81d300625d4c11cb92fb4155993a4b13",
+        "phase1_sha256": "995682d82fbf98c3228996c43a215e9e81d300625d4c11cb92fb4155993a4b13",
+        "bytes": 4975,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/element_substition.py",
+        "archive_member_sha256": "9b076081d401677a5c26b0a00cc20f6a2a06a343674aeaa14c20237f6e4e8186",
+        "phase1_sha256": "9b076081d401677a5c26b0a00cc20f6a2a06a343674aeaa14c20237f6e4e8186",
+        "bytes": 3885,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/eval_utils.py",
+        "archive_member_sha256": "30ceaf92bf3ced08af18dbacc9d2ff3359edf88e909a4db69a6f24c4255832da",
+        "phase1_sha256": "30ceaf92bf3ced08af18dbacc9d2ff3359edf88e909a4db69a6f24c4255832da",
+        "bytes": 2208,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/inspect_dataset.ipynb",
+        "archive_member_sha256": "19eb37c39611a6c30025db2683468d2fd74837ed9fc49b77c2a9965006f3b58d",
+        "phase1_sha256": "19eb37c39611a6c30025db2683468d2fd74837ed9fc49b77c2a9965006f3b58d",
+        "bytes": 9343,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/mlff_relax.py",
+        "archive_member_sha256": "9870da4b86b7cd0afdb8374106cec7312dc45715a7ef3a8566e6740d7abd131a",
+        "phase1_sha256": "9870da4b86b7cd0afdb8374106cec7312dc45715a7ef3a8566e6740d7abd131a",
+        "bytes": 7785,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/mlff_relax_batch.py",
+        "archive_member_sha256": "0e40fc1fc7bdd3593c971c4f8f91bb923691060b457c1bfb8de6ad2350563055",
+        "phase1_sha256": "0e40fc1fc7bdd3593c971c4f8f91bb923691060b457c1bfb8de6ad2350563055",
+        "bytes": 6697,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/plot_embedding.py",
+        "archive_member_sha256": "2007d207d05540dd87d2d3bedf0679c9f517b4538e6d52ec52bbb732083b6908",
+        "phase1_sha256": "2007d207d05540dd87d2d3bedf0679c9f517b4538e6d52ec52bbb732083b6908",
+        "bytes": 1933,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/predict_g.py",
+        "archive_member_sha256": "d6f532e816ebbb86f3f83a84f51aa9044c1dde835e48aefc0c5af4387b680f8f",
+        "phase1_sha256": "d6f532e816ebbb86f3f83a84f51aa9044c1dde835e48aefc0c5af4387b680f8f",
+        "bytes": 6309,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/process_alex.py",
+        "archive_member_sha256": "553e56df83f147845d956de75c84d446f208ccbefa2a07798cc0985f351efc07",
+        "phase1_sha256": "553e56df83f147845d956de75c84d446f208ccbefa2a07798cc0985f351efc07",
+        "bytes": 3355,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/structure_visualization.ipynb",
+        "archive_member_sha256": "64459408d4716281ab7c884dd34fc0031bba8374b8f29df6e940967f6ab30aef",
+        "phase1_sha256": "64459408d4716281ab7c884dd34fc0031bba8374b8f29df6e940967f6ab30aef",
+        "bytes": 181494,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/scripts/symmetry.py",
+        "archive_member_sha256": "9748e11b931397a0e254d9f8b3036daf953983e469471449798198b5a13de997",
+        "phase1_sha256": "9748e11b931397a0e254d9f8b3036daf953983e469471449798198b5a13de997",
+        "bytes": 390,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/config.py",
+        "archive_member_sha256": "c638a855afdd6723412692066e8c7671909bf34746bbee59f283b8f67c2e452b",
+        "phase1_sha256": "c638a855afdd6723412692066e8c7671909bf34746bbee59f283b8f67c2e452b",
+        "bytes": 297,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_attention.py",
+        "archive_member_sha256": "d0d4eb1095ea9532bf7aab5cba3ccc412259363b55d672c9ed28e027aefd582a",
+        "phase1_sha256": "d0d4eb1095ea9532bf7aab5cba3ccc412259363b55d672c9ed28e027aefd582a",
+        "bytes": 1703,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_fc_mask.py",
+        "archive_member_sha256": "a176b354954802b8ce639e004d6683a1ca3ca27a3038b9c42787bf64dbdda63a",
+        "phase1_sha256": "a176b354954802b8ce639e004d6683a1ca3ca27a3038b9c42787bf64dbdda63a",
+        "bytes": 1839,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_formula.py",
+        "archive_member_sha256": "e8652b592cb96e7f0c676ee4d941da73892a231358f8347bb2aeeb0fd90c710d",
+        "phase1_sha256": "e8652b592cb96e7f0c676ee4d941da73892a231358f8347bb2aeeb0fd90c710d",
+        "bytes": 11296,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_lattice.py",
+        "archive_member_sha256": "bfa970599f2b517945443a02bf9ebab0fd0b65a293cce4b437ee490985d04da1",
+        "phase1_sha256": "bfa970599f2b517945443a02bf9ebab0fd0b65a293cce4b437ee490985d04da1",
+        "bytes": 1256,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_project.py",
+        "archive_member_sha256": "bde530a4b49580cf3c4896b3408609d309d919dcdb035298c86a8b8748e7e466",
+        "phase1_sha256": "bde530a4b49580cf3c4896b3408609d309d919dcdb035298c86a8b8748e7e466",
+        "bytes": 441,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_sampling.py",
+        "archive_member_sha256": "68be92bbfeecfa3dea314162a0bf5f68acda876b7d14fbaf9ba6dde41d4b1cbc",
+        "phase1_sha256": "68be92bbfeecfa3dea314162a0bf5f68acda876b7d14fbaf9ba6dde41d4b1cbc",
+        "bytes": 3176,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_transformer.py",
+        "archive_member_sha256": "115ce75e450b3e41616842f6ed1aca3dddfc6157e6e1cf3b6757327558f30040",
+        "phase1_sha256": "115ce75e450b3e41616842f6ed1aca3dddfc6157e6e1cf3b6757327558f30040",
+        "bytes": 2214,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_utils.py",
+        "archive_member_sha256": "09baf19b6a8af9545fa28a101b56c9b22f7c980d836bf041a84292d5e66772bf",
+        "phase1_sha256": "09baf19b6a8af9545fa28a101b56c9b22f7c980d836bf041a84292d5e66772bf",
+        "bytes": 800,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      },
+      {
+        "path": "vendor/CrystalFormer/tests/test_wyckoff.py",
+        "archive_member_sha256": "790a52222901e99e88d798b5ae7a152b0c812f15db2ac1163020383b1e4fa6c3",
+        "phase1_sha256": "790a52222901e99e88d798b5ae7a152b0c812f15db2ac1163020383b1e4fa6c3",
+        "bytes": 12022,
+        "present": true,
+        "unchanged": true,
+        "git_selected": true,
+        "private_env": false
+      }
+    ],
+    "build_duplicate_files": 67,
+    "build_duplicate_bytes": 602616,
+    "build_mappings": [
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/__init__.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/__init__.py",
+        "bytes": 0,
+        "generated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/cli/__init__.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/cli/__init__.py",
+        "bytes": 0,
+        "generated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/cli/classifier.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/cli/classifier.py",
+        "bytes": 9305,
+        "generated_sha256": "6e8ff3c2b8de90a21e3ba21f685fe3adb1a66e0d9151ea2c4d561095e1163941",
+        "source_sha256": "6e8ff3c2b8de90a21e3ba21f685fe3adb1a66e0d9151ea2c4d561095e1163941",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/cli/cond_gen.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/cli/cond_gen.py",
+        "bytes": 12981,
+        "generated_sha256": "e00e84aabe7d1e4b3e8285558997ff9f5f09719e5a570e16325e4f2c9df5c1cf",
+        "source_sha256": "e00e84aabe7d1e4b3e8285558997ff9f5f09719e5a570e16325e4f2c9df5c1cf",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/cli/dataset.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/cli/dataset.py",
+        "bytes": 1835,
+        "generated_sha256": "eca179b1ea93ac79de0e80f01e221755863fa8764001f7ecf4f614d2cb1bc8ff",
+        "source_sha256": "eca179b1ea93ac79de0e80f01e221755863fa8764001f7ecf4f614d2cb1bc8ff",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/cli/train_dpo.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/cli/train_dpo.py",
+        "bytes": 8270,
+        "generated_sha256": "339c3ef398a79b36fef46e56060720241456304a3acfd77e44f32a00e40a022f",
+        "source_sha256": "339c3ef398a79b36fef46e56060720241456304a3acfd77e44f32a00e40a022f",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/cli/train_ppo.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/cli/train_ppo.py",
+        "bytes": 13634,
+        "generated_sha256": "a739648d548499fc5329d09c042eb222a305f96c16c309ad96d5ed80012fdf0c",
+        "source_sha256": "a739648d548499fc5329d09c042eb222a305f96c16c309ad96d5ed80012fdf0c",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/data/wyckoff_list.csv",
+        "source_path": "vendor/CrystalFormer/crystalformer/data/wyckoff_list.csv",
+        "bytes": 251743,
+        "generated_sha256": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+        "source_sha256": "712a7b3cd23f1aaffd90cbae6531809bfe686fef042bcc6c4b1549bc4e2ec3c6",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/data/wyckoff_symbols.csv",
+        "source_path": "vendor/CrystalFormer/crystalformer/data/wyckoff_symbols.csv",
+        "bytes": 12201,
+        "generated_sha256": "035035df9fb581f1a0955da371feb1cdee8034d875b432405090254dfef43fd0",
+        "source_sha256": "035035df9fb581f1a0955da371feb1cdee8034d875b432405090254dfef43fd0",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/extension/__init__.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/extension/__init__.py",
+        "bytes": 310,
+        "generated_sha256": "b47f9d2831e23218e0f44279617e6fd32e7052867a75a3a23464cfe743fba0db",
+        "source_sha256": "b47f9d2831e23218e0f44279617e6fd32e7052867a75a3a23464cfe743fba0db",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/extension/experimental.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/extension/experimental.py",
+        "bytes": 8776,
+        "generated_sha256": "20b4944f119946875358f92493cec5a582805aa145ab8e9f3a852381874b75bc",
+        "source_sha256": "20b4944f119946875358f92493cec5a582805aa145ab8e9f3a852381874b75bc",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/extension/loss.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/extension/loss.py",
+        "bytes": 6625,
+        "generated_sha256": "ad9d4b9714ce17bb1c6cf0503894b0507fa4fb44a0fe194293d97bc94d75b627",
+        "source_sha256": "ad9d4b9714ce17bb1c6cf0503894b0507fa4fb44a0fe194293d97bc94d75b627",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/extension/mcmc.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/extension/mcmc.py",
+        "bytes": 8965,
+        "generated_sha256": "6e5c919b9915e7e0f56b86e93f489c4aca60ecb6266a16aa76e07848343d2a5d",
+        "source_sha256": "6e5c919b9915e7e0f56b86e93f489c4aca60ecb6266a16aa76e07848343d2a5d",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/extension/model.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/extension/model.py",
+        "bytes": 1818,
+        "generated_sha256": "ca1f8cc022010de617a3925cd397a28f699c43563a1d8be7d021270387c9c6ac",
+        "source_sha256": "ca1f8cc022010de617a3925cd397a28f699c43563a1d8be7d021270387c9c6ac",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/extension/train.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/extension/train.py",
+        "bytes": 3518,
+        "generated_sha256": "880d0a992ab45c98b49206e2067af7b02ceff01ab0245d6555bf0a9de0f63f4b",
+        "source_sha256": "880d0a992ab45c98b49206e2067af7b02ceff01ab0245d6555bf0a9de0f63f4b",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/extension/transformer.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/extension/transformer.py",
+        "bytes": 11475,
+        "generated_sha256": "9398fa6b6b63b84536a373f66bfdb9ed1f7fa2e0df15f3ee56463cc0907c4870",
+        "source_sha256": "9398fa6b6b63b84536a373f66bfdb9ed1f7fa2e0df15f3ee56463cc0907c4870",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/reinforce/__init__.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/reinforce/__init__.py",
+        "bytes": 0,
+        "generated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/reinforce/dpo.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/reinforce/dpo.py",
+        "bytes": 9378,
+        "generated_sha256": "55a5a697895caa0e7398d51377fefbe3d41aba0c19ab3947f051b3022d366e0a",
+        "source_sha256": "55a5a697895caa0e7398d51377fefbe3d41aba0c19ab3947f051b3022d366e0a",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/reinforce/ehull.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/reinforce/ehull.py",
+        "bytes": 2440,
+        "generated_sha256": "d7f50a8ec0ddd92d5d707f367598985c7788be9a77de9b74e04c792f767ff485",
+        "source_sha256": "d7f50a8ec0ddd92d5d707f367598985c7788be9a77de9b74e04c792f767ff485",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/reinforce/ppo.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/reinforce/ppo.py",
+        "bytes": 11827,
+        "generated_sha256": "9e7ada1f004059704be575b49a3b5c64611e0c811eb1d58a6a2d50a26d002731",
+        "source_sha256": "9e7ada1f004059704be575b49a3b5c64611e0c811eb1d58a6a2d50a26d002731",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/reinforce/reward.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/reinforce/reward.py",
+        "bytes": 12547,
+        "generated_sha256": "25cf760bc1a2277180e5a8ab09100182e37147bc0b76942425afd9b05e3dc68d",
+        "source_sha256": "25cf760bc1a2277180e5a8ab09100182e37147bc0b76942425afd9b05e3dc68d",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/reinforce/vanilla.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/reinforce/vanilla.py",
+        "bytes": 2886,
+        "generated_sha256": "05224504bb7b6304d6ae5e356c824afcdb406dbeeedc41600120418e414122c4",
+        "source_sha256": "05224504bb7b6304d6ae5e356c824afcdb406dbeeedc41600120418e414122c4",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/__init__.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/__init__.py",
+        "bytes": 0,
+        "generated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/attention.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/attention.py",
+        "bytes": 6582,
+        "generated_sha256": "81379c1ecd69fa147a75b13c0c9535051bc85b3e69a51c8d048a54c9e7f663e2",
+        "source_sha256": "81379c1ecd69fa147a75b13c0c9535051bc85b3e69a51c8d048a54c9e7f663e2",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/checkpoint.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/checkpoint.py",
+        "bytes": 1450,
+        "generated_sha256": "852748a491e28b5432706a649aa71f170f35977cbffd3840478b06fc05145991",
+        "source_sha256": "852748a491e28b5432706a649aa71f170f35977cbffd3840478b06fc05145991",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/elements.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/elements.py",
+        "bytes": 2195,
+        "generated_sha256": "a19bec1f0acf89ff4c35e9644072a88bde2063594253f264677f7bfff866e9af",
+        "source_sha256": "a19bec1f0acf89ff4c35e9644072a88bde2063594253f264677f7bfff866e9af",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/formula.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/formula.py",
+        "bytes": 6720,
+        "generated_sha256": "1d37b87a43813eb6bba2052f61680a3aff4b9dece93559464ab99adec09a74ff",
+        "source_sha256": "1d37b87a43813eb6bba2052f61680a3aff4b9dece93559464ab99adec09a74ff",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/lattice.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/lattice.py",
+        "bytes": 1965,
+        "generated_sha256": "0387916197fe0d4b7556b161274056539d5d5f4f109b3f3ac917a45f92425e51",
+        "source_sha256": "0387916197fe0d4b7556b161274056539d5d5f4f109b3f3ac917a45f92425e51",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/loss.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/loss.py",
+        "bytes": 5628,
+        "generated_sha256": "1d0b815c52dab6fce0b3a598c86902f0a684dac9ec954e43f72c40792b6ac7c4",
+        "source_sha256": "1d0b815c52dab6fce0b3a598c86902f0a684dac9ec954e43f72c40792b6ac7c4",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/mcmc.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/mcmc.py",
+        "bytes": 6058,
+        "generated_sha256": "4b99f2e3be76fa1a7c64446b67a355d074b06b5118817fdbd9684401ae360c80",
+        "source_sha256": "4b99f2e3be76fa1a7c64446b67a355d074b06b5118817fdbd9684401ae360c80",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/rope.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/rope.py",
+        "bytes": 3122,
+        "generated_sha256": "d5288be656e15323a85513a39f057a1b43c011336b94005ac9a471ddbd0ce14f",
+        "source_sha256": "d5288be656e15323a85513a39f057a1b43c011336b94005ac9a471ddbd0ce14f",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/sample.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/sample.py",
+        "bytes": 11585,
+        "generated_sha256": "2eaaccd93a6daf839f3d5988ada555166820dfe5ffb3b51451f3d3586e32814f",
+        "source_sha256": "2eaaccd93a6daf839f3d5988ada555166820dfe5ffb3b51451f3d3586e32814f",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/train.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/train.py",
+        "bytes": 7400,
+        "generated_sha256": "3c0aebddc58f18abc41ac85580fc6471187b4d82e914d31241061443b8756049",
+        "source_sha256": "3c0aebddc58f18abc41ac85580fc6471187b4d82e914d31241061443b8756049",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/transformer.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/transformer.py",
+        "bytes": 13183,
+        "generated_sha256": "e710d2e300513c47885b9e0dd1b9549616fb27c9795e4466c1e3da806b91e5d5",
+        "source_sha256": "e710d2e300513c47885b9e0dd1b9549616fb27c9795e4466c1e3da806b91e5d5",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/utils.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/utils.py",
+        "bytes": 7830,
+        "generated_sha256": "2557a38439d7aa984d1c6fdde4c6e9f97b04a6e42cd1278f8820f9d58ee119c2",
+        "source_sha256": "2557a38439d7aa984d1c6fdde4c6e9f97b04a6e42cd1278f8820f9d58ee119c2",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/von_mises.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/von_mises.py",
+        "bytes": 4050,
+        "generated_sha256": "ed363d5ea04e791d77c6a00173e9c778b46ae5cda19df339c25386bcaf4e4cca",
+        "source_sha256": "ed363d5ea04e791d77c6a00173e9c778b46ae5cda19df339c25386bcaf4e4cca",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/crystalformer/src/wyckoff.py",
+        "source_path": "vendor/CrystalFormer/crystalformer/src/wyckoff.py",
+        "bytes": 6277,
+        "generated_sha256": "87ed611649bd6361e84c837a73e26c71d94d173aa4532ce470dc7dd2028396df",
+        "source_sha256": "87ed611649bd6361e84c837a73e26c71d94d173aa4532ce470dc7dd2028396df",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/mcp/csp_mcp.py",
+        "source_path": "vendor/CrystalFormer/mcp/csp_mcp.py",
+        "bytes": 7593,
+        "generated_sha256": "6d96916265d4810f79954e0432f060379c57e2213efa54ac1745a4542e18e4cf",
+        "source_sha256": "6d96916265d4810f79954e0432f060379c57e2213efa54ac1745a4542e18e4cf",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/run/config/bright90.py",
+        "source_path": "vendor/CrystalFormer/run/config/bright90.py",
+        "bytes": 2673,
+        "generated_sha256": "de786b0259f40fc8bafd8ecd606822d74c77b65a037a4644c2abdb6a1099eee4",
+        "source_sha256": "de786b0259f40fc8bafd8ecd606822d74c77b65a037a4644c2abdb6a1099eee4",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/run/config/pmax.py",
+        "source_path": "vendor/CrystalFormer/run/config/pmax.py",
+        "bytes": 6495,
+        "generated_sha256": "e20bd7fcc9f48223c6c40312ab2cb71bfad633e77a0e155f4f4411996458e08d",
+        "source_sha256": "e20bd7fcc9f48223c6c40312ab2cb71bfad633e77a0e155f4f4411996458e08d",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/run/submit.py",
+        "source_path": "vendor/CrystalFormer/run/submit.py",
+        "bytes": 5002,
+        "generated_sha256": "abc84d39767601db388f36ca29c60dfb4829fadc946ab2438ea07a0dc777640c",
+        "source_sha256": "abc84d39767601db388f36ca29c60dfb4829fadc946ab2438ea07a0dc777640c",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/awl2struct.py",
+        "source_path": "vendor/CrystalFormer/scripts/awl2struct.py",
+        "bytes": 6077,
+        "generated_sha256": "66f7a5e6f9186733aca9108fcca0cde752ec4e93b5e76fe82c80d4d8333a9ce0",
+        "source_sha256": "66f7a5e6f9186733aca9108fcca0cde752ec4e93b5e76fe82c80d4d8333a9ce0",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/check_sun_materials.py",
+        "source_path": "vendor/CrystalFormer/scripts/check_sun_materials.py",
+        "bytes": 6024,
+        "generated_sha256": "da143f5564a2f0a2a77b4bb699a57f148083ee56d262ee518c5cdb816d8d452a",
+        "source_sha256": "da143f5564a2f0a2a77b4bb699a57f148083ee56d262ee518c5cdb816d8d452a",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/compute_csp_metrics.py",
+        "source_path": "vendor/CrystalFormer/scripts/compute_csp_metrics.py",
+        "bytes": 8750,
+        "generated_sha256": "730b60ac4ded37bdd2c705bd958ce24b3d34c75ba72744035146881a4264acfa",
+        "source_sha256": "730b60ac4ded37bdd2c705bd958ce24b3d34c75ba72744035146881a4264acfa",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/compute_metrics.py",
+        "source_path": "vendor/CrystalFormer/scripts/compute_metrics.py",
+        "bytes": 5193,
+        "generated_sha256": "0aa7044fa6eb968271de7a45c91f040179948fd3e48baeca8ece4b9300708433",
+        "source_sha256": "0aa7044fa6eb968271de7a45c91f040179948fd3e48baeca8ece4b9300708433",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/compute_metrics_matbench.py",
+        "source_path": "vendor/CrystalFormer/scripts/compute_metrics_matbench.py",
+        "bytes": 2654,
+        "generated_sha256": "a5ff52c348824769031375982ffa7f265f176d4841f8f0068f71806c223f1599",
+        "source_sha256": "a5ff52c348824769031375982ffa7f265f176d4841f8f0068f71806c223f1599",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/config.py",
+        "source_path": "vendor/CrystalFormer/scripts/config.py",
+        "bytes": 131,
+        "generated_sha256": "15abf79d9929736c3e4dca77fc767424b98e0372b025caeacf94870e247d13ae",
+        "source_sha256": "15abf79d9929736c3e4dca77fc767424b98e0372b025caeacf94870e247d13ae",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/e_above_hull.py",
+        "source_path": "vendor/CrystalFormer/scripts/e_above_hull.py",
+        "bytes": 4864,
+        "generated_sha256": "4a0630ccc9ffc3134d426a27ef5b43d56cd42b87cf380327ee753a8d2f6f2cb4",
+        "source_sha256": "4a0630ccc9ffc3134d426a27ef5b43d56cd42b87cf380327ee753a8d2f6f2cb4",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/e_above_hull_alex.py",
+        "source_path": "vendor/CrystalFormer/scripts/e_above_hull_alex.py",
+        "bytes": 4975,
+        "generated_sha256": "995682d82fbf98c3228996c43a215e9e81d300625d4c11cb92fb4155993a4b13",
+        "source_sha256": "995682d82fbf98c3228996c43a215e9e81d300625d4c11cb92fb4155993a4b13",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/element_substition.py",
+        "source_path": "vendor/CrystalFormer/scripts/element_substition.py",
+        "bytes": 3885,
+        "generated_sha256": "9b076081d401677a5c26b0a00cc20f6a2a06a343674aeaa14c20237f6e4e8186",
+        "source_sha256": "9b076081d401677a5c26b0a00cc20f6a2a06a343674aeaa14c20237f6e4e8186",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/eval_utils.py",
+        "source_path": "vendor/CrystalFormer/scripts/eval_utils.py",
+        "bytes": 2208,
+        "generated_sha256": "30ceaf92bf3ced08af18dbacc9d2ff3359edf88e909a4db69a6f24c4255832da",
+        "source_sha256": "30ceaf92bf3ced08af18dbacc9d2ff3359edf88e909a4db69a6f24c4255832da",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/mlff_relax.py",
+        "source_path": "vendor/CrystalFormer/scripts/mlff_relax.py",
+        "bytes": 7785,
+        "generated_sha256": "9870da4b86b7cd0afdb8374106cec7312dc45715a7ef3a8566e6740d7abd131a",
+        "source_sha256": "9870da4b86b7cd0afdb8374106cec7312dc45715a7ef3a8566e6740d7abd131a",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/mlff_relax_batch.py",
+        "source_path": "vendor/CrystalFormer/scripts/mlff_relax_batch.py",
+        "bytes": 6697,
+        "generated_sha256": "0e40fc1fc7bdd3593c971c4f8f91bb923691060b457c1bfb8de6ad2350563055",
+        "source_sha256": "0e40fc1fc7bdd3593c971c4f8f91bb923691060b457c1bfb8de6ad2350563055",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/plot_embedding.py",
+        "source_path": "vendor/CrystalFormer/scripts/plot_embedding.py",
+        "bytes": 1933,
+        "generated_sha256": "2007d207d05540dd87d2d3bedf0679c9f517b4538e6d52ec52bbb732083b6908",
+        "source_sha256": "2007d207d05540dd87d2d3bedf0679c9f517b4538e6d52ec52bbb732083b6908",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/predict_g.py",
+        "source_path": "vendor/CrystalFormer/scripts/predict_g.py",
+        "bytes": 6309,
+        "generated_sha256": "d6f532e816ebbb86f3f83a84f51aa9044c1dde835e48aefc0c5af4387b680f8f",
+        "source_sha256": "d6f532e816ebbb86f3f83a84f51aa9044c1dde835e48aefc0c5af4387b680f8f",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/process_alex.py",
+        "source_path": "vendor/CrystalFormer/scripts/process_alex.py",
+        "bytes": 3355,
+        "generated_sha256": "553e56df83f147845d956de75c84d446f208ccbefa2a07798cc0985f351efc07",
+        "source_sha256": "553e56df83f147845d956de75c84d446f208ccbefa2a07798cc0985f351efc07",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/scripts/symmetry.py",
+        "source_path": "vendor/CrystalFormer/scripts/symmetry.py",
+        "bytes": 390,
+        "generated_sha256": "9748e11b931397a0e254d9f8b3036daf953983e469471449798198b5a13de997",
+        "source_sha256": "9748e11b931397a0e254d9f8b3036daf953983e469471449798198b5a13de997",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/config.py",
+        "source_path": "vendor/CrystalFormer/tests/config.py",
+        "bytes": 297,
+        "generated_sha256": "c638a855afdd6723412692066e8c7671909bf34746bbee59f283b8f67c2e452b",
+        "source_sha256": "c638a855afdd6723412692066e8c7671909bf34746bbee59f283b8f67c2e452b",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_attention.py",
+        "source_path": "vendor/CrystalFormer/tests/test_attention.py",
+        "bytes": 1703,
+        "generated_sha256": "d0d4eb1095ea9532bf7aab5cba3ccc412259363b55d672c9ed28e027aefd582a",
+        "source_sha256": "d0d4eb1095ea9532bf7aab5cba3ccc412259363b55d672c9ed28e027aefd582a",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_fc_mask.py",
+        "source_path": "vendor/CrystalFormer/tests/test_fc_mask.py",
+        "bytes": 1839,
+        "generated_sha256": "a176b354954802b8ce639e004d6683a1ca3ca27a3038b9c42787bf64dbdda63a",
+        "source_sha256": "a176b354954802b8ce639e004d6683a1ca3ca27a3038b9c42787bf64dbdda63a",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_formula.py",
+        "source_path": "vendor/CrystalFormer/tests/test_formula.py",
+        "bytes": 11296,
+        "generated_sha256": "e8652b592cb96e7f0c676ee4d941da73892a231358f8347bb2aeeb0fd90c710d",
+        "source_sha256": "e8652b592cb96e7f0c676ee4d941da73892a231358f8347bb2aeeb0fd90c710d",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_lattice.py",
+        "source_path": "vendor/CrystalFormer/tests/test_lattice.py",
+        "bytes": 1256,
+        "generated_sha256": "bfa970599f2b517945443a02bf9ebab0fd0b65a293cce4b437ee490985d04da1",
+        "source_sha256": "bfa970599f2b517945443a02bf9ebab0fd0b65a293cce4b437ee490985d04da1",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_project.py",
+        "source_path": "vendor/CrystalFormer/tests/test_project.py",
+        "bytes": 441,
+        "generated_sha256": "bde530a4b49580cf3c4896b3408609d309d919dcdb035298c86a8b8748e7e466",
+        "source_sha256": "bde530a4b49580cf3c4896b3408609d309d919dcdb035298c86a8b8748e7e466",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_sampling.py",
+        "source_path": "vendor/CrystalFormer/tests/test_sampling.py",
+        "bytes": 3176,
+        "generated_sha256": "68be92bbfeecfa3dea314162a0bf5f68acda876b7d14fbaf9ba6dde41d4b1cbc",
+        "source_sha256": "68be92bbfeecfa3dea314162a0bf5f68acda876b7d14fbaf9ba6dde41d4b1cbc",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_transformer.py",
+        "source_path": "vendor/CrystalFormer/tests/test_transformer.py",
+        "bytes": 2214,
+        "generated_sha256": "115ce75e450b3e41616842f6ed1aca3dddfc6157e6e1cf3b6757327558f30040",
+        "source_sha256": "115ce75e450b3e41616842f6ed1aca3dddfc6157e6e1cf3b6757327558f30040",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_utils.py",
+        "source_path": "vendor/CrystalFormer/tests/test_utils.py",
+        "bytes": 800,
+        "generated_sha256": "09baf19b6a8af9545fa28a101b56c9b22f7c980d836bf041a84292d5e66772bf",
+        "source_sha256": "09baf19b6a8af9545fa28a101b56c9b22f7c980d836bf041a84292d5e66772bf",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      },
+      {
+        "generated_path": "vendor/CrystalFormer/build/lib/tests/test_wyckoff.py",
+        "source_path": "vendor/CrystalFormer/tests/test_wyckoff.py",
+        "bytes": 12022,
+        "generated_sha256": "790a52222901e99e88d798b5ae7a152b0c812f15db2ac1163020383b1e4fa6c3",
+        "source_sha256": "790a52222901e99e88d798b5ae7a152b0c812f15db2ac1163020383b1e4fa6c3",
+        "same_bytes": true,
+        "generated_git_selected": false,
+        "source_git_selected": true
+      }
+    ],
+    "unique_or_changed_build_files": [],
+    "private_environment": {
+      "path": "vendor/CrystalFormer/mcp/.env",
+      "bytes": 1053,
+      "sha256": "8741e3436beb8896c182555c90c2c7cdc374d4447bf15572352970081078b08e",
+      "git_selected": false,
+      "disposition": "private-review; exact original retained in Phase 1 backup",
+      "values_inspected_or_disclosed": false
+    },
+    "checkpoint_revision": "b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+    "checkpoint_path": "checkpoints/epoch_044000.pkl",
+    "checkpoint_bytes": 166094129,
+    "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+    "local_source_license_notice": "Apache License 2.0",
+    "checkpoint_license_approval": false,
+    "checkpoint_license_status": "Local MODEL_CARD.md has no explicit checkpoint licence; Phase 3 review required"
+  },
+  "qe_notices": {
+    "files": 13,
+    "bytes": 434734,
+    "paths": [
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/README.txt",
+        "bytes": 3831,
+        "phase1_sha256": "1b82f3ae2b4a86d5297e589b97bad3bd674db93e1d6b4568bc849f7fbe21c5a6",
+        "git_selected": true,
+        "git_sha256": "1b82f3ae2b4a86d5297e589b97bad3bd674db93e1d6b4568bc849f7fbe21c5a6",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/THIRD_PARTY_NOTICES.txt",
+        "bytes": 1508,
+        "phase1_sha256": "31c72cbb626f1e0337e58bfc5b05c6b7a483eaae0d4cdfc53c9e2d228cebf68f",
+        "git_selected": true,
+        "git_sha256": "31c72cbb626f1e0337e58bfc5b05c6b7a483eaae0d4cdfc53c9e2d228cebf68f",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/intel-oneapi/license.htm",
+        "bytes": 94765,
+        "phase1_sha256": "c31e086950c5206a59718a95c0b3879d316a5f44188f42bae6f1971d3f13e72a",
+        "git_selected": true,
+        "git_sha256": "c31e086950c5206a59718a95c0b3879d316a5f44188f42bae6f1971d3f13e72a",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/microsoft-msmpi/MPI-Redistributables-TPN.txt",
+        "bytes": 13491,
+        "phase1_sha256": "e202e6c77b4ecb7be69e39d647be54bb5d076d90522e533d11dbaaacd618d7f8",
+        "git_selected": true,
+        "git_sha256": "e202e6c77b4ecb7be69e39d647be54bb5d076d90522e533d11dbaaacd618d7f8",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/microsoft-msmpi/MicrosoftMPI-Redistributable-EULA.rtf",
+        "bytes": 224476,
+        "phase1_sha256": "125d29a463c724ddb5eed6a14370f5ce74dfd063cfca3eddad2d50082eb62106",
+        "git_selected": true,
+        "git_sha256": "125d29a463c724ddb5eed6a14370f5ce74dfd063cfca3eddad2d50082eb62106",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/License",
+        "bytes": 18349,
+        "phase1_sha256": "19404e184cf45ec991b54e1e6f05f847ad8f13fee2a51f3a2d9a960c8f7cb26b",
+        "git_selected": true,
+        "git_sha256": "19404e184cf45ec991b54e1e6f05f847ad8f13fee2a51f3a2d9a960c8f7cb26b",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/EPW/License",
+        "bytes": 18349,
+        "phase1_sha256": "19404e184cf45ec991b54e1e6f05f847ad8f13fee2a51f3a2d9a960c8f7cb26b",
+        "git_selected": true,
+        "git_sha256": "19404e184cf45ec991b54e1e6f05f847ad8f13fee2a51f3a2d9a960c8f7cb26b",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/d3q/License",
+        "bytes": 391,
+        "phase1_sha256": "6231136db884b2af722fc1cbc3f810ac77b6e57ba790c2fe1e515d9cb87a199e",
+        "git_selected": true,
+        "git_sha256": "6231136db884b2af722fc1cbc3f810ac77b6e57ba790c2fe1e515d9cb87a199e",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/fox/LICENSE",
+        "bytes": 3482,
+        "phase1_sha256": "6533da3a3d40cb690098301b4aa5880ed57663f350a774fe0051fbbbe095d946",
+        "git_selected": true,
+        "git_sha256": "6533da3a3d40cb690098301b4aa5880ed57663f350a774fe0051fbbbe095d946",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/lapack/LICENSE",
+        "bytes": 2314,
+        "phase1_sha256": "c40f5754e72de9812691410e966c434b1dcb43966110b526c8d7702e1b0d4c42",
+        "git_selected": true,
+        "git_sha256": "c40f5754e72de9812691410e966c434b1dcb43966110b526c8d7702e1b0d4c42",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/mbd/LICENSE",
+        "bytes": 17099,
+        "phase1_sha256": "cde215e5b42363eb28ca2462c4558ff4807b38f383c537624c31e44657ac58f4",
+        "git_selected": true,
+        "git_sha256": "cde215e5b42363eb28ca2462c4558ff4807b38f383c537624c31e44657ac58f4",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/qe-gipaw/LICENSE",
+        "bytes": 18349,
+        "phase1_sha256": "1f485e4427b3fa6dc43cf5ad8161d249c6ef18c3e7e4e40db47614ae6f635387",
+        "git_selected": true,
+        "git_sha256": "1f485e4427b3fa6dc43cf5ad8161d249c6ef18c3e7e4e40db47614ae6f635387",
+        "unchanged_git_selection": true
+      },
+      {
+        "path": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi/licenses/quantum-espresso/external/wannier90/LICENSE",
+        "bytes": 18330,
+        "phase1_sha256": "12f34a96938fa3624518ed2c6dfd644746626f12f9e7cdbd0bf067c44a7f0e8c",
+        "git_selected": true,
+        "git_sha256": "12f34a96938fa3624518ed2c6dfd644746626f12f9e7cdbd0bf067c44a7f0e8c",
+        "unchanged_git_selection": true
+      }
+    ],
+    "redistribution_approved": false,
+    "note": "Retained notices only; no legal or redistribution approval is inferred"
+  },
+  "checks": {
+    "source_archive_pinned_sha_matches": true,
+    "phase1_inventory_sidecar_matches": true,
+    "all_87_original_members_present_unchanged": true,
+    "all_86_non_env_original_files_selected_git": true,
+    "private_env_not_selected_git": true,
+    "all_67_build_files_exact_duplicates": true,
+    "all_build_duplicates_omitted_git": true,
+    "all_build_sources_selected_git": true,
+    "all_13_qe_notices_selected_unchanged": true
+  },
+  "checks_passed": 9,
+  "checks_failed": 0,
+  "source_files_changed": false,
+  "phase1_files_changed": false,
+  "upstream_downloads_performed": false
+}

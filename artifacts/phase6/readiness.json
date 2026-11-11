@@ -1,0 +1,52 @@
+{
+  "phase": 6,
+  "status": "complete",
+  "completed_utc": "2026-10-22T02:55:47.255190+00:00",
+  "ready_for_phase7": true,
+  "numerical_evidence_frozen": true,
+  "scientific_protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "original_fresh_selector_sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+  "all_five_paired_replay_seeds_complete": true,
+  "saved_evaluation_prediction_sets_recomputed": 130,
+  "full_minus_quality_hits": {
+    "max": -8.0,
+    "mean": -11.8,
+    "min": -19.0,
+    "sample_std": 4.43846820423443,
+    "values": [
+      -9.0,
+      -8.0,
+      -19.0,
+      -10.0,
+      -13.0
+    ]
+  },
+  "symmetry_energy_scope": "One structure per arm; same architecture with changed conditioning; supplemented MgO kept separate",
+  "fresh_primary_transformer_candidates": 0,
+  "converged_CHGNet_selections": 11,
+  "accepted_QE_source_reference_entries": 2,
+  "frozen_primary_reference_entries": 161,
+  "not_completed_primary_reference_entries": 159,
+  "perturbation_validation_incomplete": true,
+  "new_stable_material_established": false,
+  "complete_hull_established": false,
+  "remaining_generation_slots_unused": 32,
+  "remaining_CHGNet_launches_unused": 21,
+  "remaining_QE_seconds_unused": 19041.079608399996,
+  "report": "reports/phase6_report.md",
+  "main_figure": "artifacts/phase6/figures/research_overview.png",
+  "phase7_tasks": [
+    "Write the one-page research account using frozen claims and figures",
+    "Prepare and record a presentation of at most four minutes",
+    "Package reproducible code/configurations and representative structures",
+    "Prepare public repository/video-post links and the Moment team entry"
+  ],
+  "phase8_tasks": [
+    "Check public access, duration/page limits, repository contents and all scientific claims",
+    "Verify Moment team membership and platform declaration; perform the authorized final submission"
+  ],
+  "submission_requirements": "artifacts/phase6/current_submission_requirements.md",
+  "submission_deadline_utc": "2026-10-23T00:00:00+00:00",
+  "publication_or_submission_performed": false,
+  "review_command": ".envs/analysis/Scripts/python.exe scripts/phase6_finalize.py"
+}

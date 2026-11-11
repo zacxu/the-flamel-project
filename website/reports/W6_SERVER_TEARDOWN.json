@@ -1,0 +1,23 @@
+{
+  "phase": "W6",
+  "checkedAt": "2026-10-22T14:28:30.6756466Z",
+  "ownedServersStopped": true,
+  "ownedSessionIds": [
+    7854,
+    41828
+  ],
+  "checkedPorts": [
+    4177
+  ],
+  "listeners": [],
+  "networkFixtureMode": "ok",
+  "browserTestTabsClosed": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "viewportOverrideReset": true,
+  "unrelatedProcessesModified": false
+}

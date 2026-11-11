@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "scope": "Compact route serialization, old-link compatibility and history preservation",
+  "generatedAt": "2026-10-22T16:10:26.526Z",
+  "checksPassed": 76491,
+  "groups": {
+    "default sections": 51,
+    "aggregate policies and budgets": 3360,
+    "seed policies budgets and batches": 72000,
+    "seed preview identity": 3,
+    "findings selections": 840,
+    "saved structures": 208,
+    "legacy and malformed normalization": 18,
+    "history and controller": 11
+  },
+  "examples": {
+    "overview": "",
+    "workflow": "#/workflow",
+    "replay": "#/replay",
+    "crystals": "#/crystals",
+    "findings": "#/findings",
+    "evidence": "#/evidence",
+    "replayPreview": "#/replay?mode=seed&budget=10&batch=2"
+  },
+  "structureCandidates": 14,
+  "structureStages": 26,
+  "researchChanged": false,
+  "historicalReportsOverwritten": false
+}

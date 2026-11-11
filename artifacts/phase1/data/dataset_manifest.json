@@ -1,0 +1,188 @@
+{
+  "audit_script": {
+    "md5": "132a25b8d984ad57290622c5cb4f152f",
+    "path": "scripts/phase1_data.py",
+    "sha256": "55cfabdcac1e969b49e89d8bcd250fede009ad89c367270863c88c064872e2eb",
+    "size_bytes": 26484
+  },
+  "counts": {
+    "all_mg_o_at_most_20_sites": 10,
+    "all_mg_o_near_stable_le_0.05": 2,
+    "all_mg_o_reference_hull_le_0": 0,
+    "all_mg_o_rows": 10,
+    "all_near_stable_le_0.05": 102826,
+    "all_negative_signed_hull_distances": 42825,
+    "all_reference_hull_le_0": 42825,
+    "all_rows": 256963,
+    "eligible_chemical_systems": 1866,
+    "eligible_near_stable_le_0.05": 1934,
+    "eligible_not_reserved_mg_o": 8289,
+    "eligible_reference_hull_le_0": 700,
+    "eligible_reserved_mg_o": 5,
+    "eligible_rows": 8294,
+    "unique_prototype_mg_o_rows": 5
+  },
+  "created_at_utc": "2026-10-21T16:32:45.497695+00:00",
+  "dataset": "Matbench Discovery WBM released historical data",
+  "expected_records": 256963,
+  "feature_lineage": {
+    "excluded_feature_columns": [
+      "volume",
+      "uncorrected_energy",
+      "e_form_per_atom_wbm",
+      "e_above_hull_wbm",
+      "bandgap_pbe",
+      "uncorrected_energy_from_cse",
+      "e_correction_per_atom_mp2020",
+      "e_correction_per_atom_mp_legacy",
+      "e_form_per_atom_uncorrected",
+      "e_form_per_atom_mp2020_corrected",
+      "e_above_hull_mp2020_corrected_ppd_mp",
+      "site_stats_fingerprint_init_final_norm_diff",
+      "protostructure_spglib"
+    ],
+    "features_extracted": false,
+    "material_id": "Join/audit key only; substitution-round or ID order must not be predictor features.",
+    "n_sites": "Validated against initial_structure.sites for every row; descriptor implementation may derive it from initial geometry.",
+    "permitted_sources": [
+      "formula (composition only)",
+      "protostructure_spglib_initial_structure",
+      "initial_structure lattice and sites"
+    ],
+    "relaxed_geometry_not_used": true,
+    "unique_prototype": "Population definition only; never a predictor feature."
+  },
+  "files": {
+    "initial_structures": {
+      "cached": true,
+      "filename": "2022-10-19-wbm-init-structs.jsonl.gz",
+      "md5": "b809f101dd42a745ec2baabe7eb16f11",
+      "path": "data/wbm/2022-10-19-wbm-init-structs.jsonl.gz",
+      "registry_key": "wbm_initial_structures",
+      "sha256": "98d545172c1ea9060f03f40cace6f8173a4ac06f1ee875ccd963765211519b58",
+      "size_bytes": 49537334,
+      "url": "https://ndownloader.figshare.com/files/53161835"
+    },
+    "summary": {
+      "cached": true,
+      "filename": "2023-12-13-wbm-summary.csv.gz",
+      "md5": "1555268d3aa59d20262cb9d01ce0994b",
+      "path": "data/wbm/2023-12-13-wbm-summary.csv.gz",
+      "registry_key": "wbm_summary",
+      "sha256": "adbdd8b24086d4888195d8894c77f6d5fb29ce33bbb5d7d3898b4d79e964dc54",
+      "size_bytes": 12745623,
+      "url": "https://ndownloader.figshare.com/files/64706751"
+    }
+  },
+  "outputs": {
+    "eligible_population.csv": {
+      "md5": "5a3e4816098451a065fab67c037a9757",
+      "path": "artifacts/phase1/data/eligible_population.csv",
+      "sha256": "15465b2c0a5c1446f825acc6e31773e7c0176ee38eee0ec350c4915d0616d4ee",
+      "size_bytes": 378488
+    },
+    "reserved_mg_o_controls.csv": {
+      "md5": "09017f899a1bd616c1f3ef947e977f79",
+      "path": "artifacts/phase1/data/reserved_mg_o_controls.csv",
+      "sha256": "422e0af57121008b9705856a2a8a6f5db320d5b5e51a4a936431579a29132013",
+      "size_bytes": 591
+    },
+    "validation_report.json": {
+      "md5": "76df81d0c0d09c4449b2ef9fb95cc11a",
+      "path": "artifacts/phase1/data/validation_report.json",
+      "sha256": "ea0d23d4114eb0729e796cbd003c33f5df2b55c119074871de815737dd061811",
+      "size_bytes": 3534
+    }
+  },
+  "phase": 1,
+  "phase2_operations_performed": {
+    "features_extracted": false,
+    "models_trained": false,
+    "splits_created": false
+  },
+  "population_definition": {
+    "definition_note": "Operational proposal family; published unique_prototype is a retrospective population flag, not a prospective novelty screen.",
+    "excluded_nonoxygen_elements": [
+      "Ar",
+      "As",
+      "At",
+      "B",
+      "Br",
+      "C",
+      "Cl",
+      "F",
+      "Ge",
+      "H",
+      "He",
+      "I",
+      "Kr",
+      "N",
+      "Ne",
+      "Og",
+      "P",
+      "Rn",
+      "S",
+      "Sb",
+      "Se",
+      "Si",
+      "Te",
+      "Ts",
+      "Xe"
+    ],
+    "max_sites_in_initial_cell": 20,
+    "number_of_elements_inclusive": [
+      2,
+      3
+    ],
+    "required_element": "O",
+    "unique_prototype": true
+  },
+  "registry": {
+    "md5": "ecd77e60c73baaab91efdab3a17da7c9",
+    "path": "data/wbm/data-files-2b7bff925a6aff10240cf6ef0f59149f51adff7b.yml",
+    "pinned_file_checks": {
+      "wbm_initial_structures": {
+        "file_id_matches": true,
+        "md5_matches": true
+      },
+      "wbm_summary": {
+        "file_id_matches": true,
+        "md5_matches": true
+      }
+    },
+    "repository": "https://github.com/janosh/matbench-discovery",
+    "retrieved_at_utc": "2026-10-21T16:31:09.610388+00:00",
+    "revision": "2b7bff925a6aff10240cf6ef0f59149f51adff7b",
+    "revision_api": "https://api.github.com/repos/janosh/matbench-discovery/commits/main",
+    "sha256": "800adb56ea0d6b17ee7e34a5e0e38b3c757dd4e0ff121533ca941d2490f69f00",
+    "size_bytes": 9182,
+    "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/2b7bff925a6aff10240cf6ef0f59149f51adff7b/matbench_discovery/data-files.yml"
+  },
+  "reserved_control": {
+    "additional_fresh_systems": "To be reserved in Phase 2 before any splits are frozen.",
+    "chemical_system": "Mg-O",
+    "count_all_summary": 10,
+    "count_in_eligible_population": 5,
+    "flag_written": "reserved_mg_o_control",
+    "rows_excluded_from_splits_now": false,
+    "scope": "All Mg-O entries must remain outside future training and calibration across every seed."
+  },
+  "runtime": {
+    "dependencies": "Python standard library only",
+    "executable": "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]"
+  },
+  "schema_version": 1,
+  "status": "passed",
+  "target": {
+    "column": "e_above_hull_mp2020_corrected_ppd_mp",
+    "meaning": "Released signed distance to the fixed historical MP reference convex hull after MP2020 energy corrections",
+    "near_stable_threshold_inclusive": 0.05,
+    "negative_values_preserved": true,
+    "on_or_below_reference_hull_threshold_inclusive": 0.0,
+    "oracle_recomputed": false,
+    "scope": "Historical WBM label replay; not interchangeable with fresh Quantum ESPRESSO or CHGNet energies.",
+    "unit": "eV/atom"
+  }
+}

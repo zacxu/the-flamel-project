@@ -1,0 +1,4642 @@
+{
+  "schemaVersion": 1,
+  "phase": "W7",
+  "status": "passed",
+  "checkedAt": "2026-10-22T14:36:09.104418+00:00",
+  "scope": "Read-only local preflight; no build, export, dependency install, browser or network operations.",
+  "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "manifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "sourceFingerprint": "62f633585edb6b4dab66748b93d85a6d7b8fdb6c44f5c9c2a91841d9c66a63a5",
+  "checksPassed": 1138,
+  "checksFailed": 0,
+  "checks": [
+    {
+      "name": "W6 complete and locally ready",
+      "passed": true
+    },
+    {
+      "name": "W6 recorded no live deployment",
+      "passed": true
+    },
+    {
+      "name": "Exact UI release identity",
+      "passed": true
+    },
+    {
+      "name": "Source fingerprint identities agree",
+      "passed": true
+    },
+    {
+      "name": "103 frozen source hashes",
+      "passed": true
+    },
+    {
+      "name": "4 research baseline hashes",
+      "passed": true
+    },
+    {
+      "name": "75 curated files and two manifests only",
+      "passed": true
+    },
+    {
+      "name": "Two frozen manifest hashes",
+      "passed": true
+    },
+    {
+      "name": "75 curated file hashes",
+      "passed": true
+    },
+    {
+      "name": "W1 completed closure",
+      "passed": true
+    },
+    {
+      "name": "W1 frozen closure hash",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence inventory",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_EXPORT.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_EXPORT.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_LOADER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_LOADER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_DEPENDENCY_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_DEPENDENCY_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/dependency_audit.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/dependency_audit.json",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_TOOLING.md",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_TOOLING.md",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_CONTENT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_CONTENT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence exists: reports/W1_GEOMETRY_NOTES.md",
+      "passed": true
+    },
+    {
+      "name": "W1 evidence hash: reports/W1_GEOMETRY_NOTES.md",
+      "passed": true
+    },
+    {
+      "name": "W2 completed closure",
+      "passed": true
+    },
+    {
+      "name": "W2 frozen closure hash",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence inventory",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence exists: reports/W2_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence hash: reports/W2_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence exists: reports/W2_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence hash: reports/W2_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence exists: reports/W2_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence hash: reports/W2_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence exists: reports/W2_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence hash: reports/W2_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence exists: reports/W2_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence hash: reports/W2_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence exists: reports/W2_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence hash: reports/W2_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence exists: reports/W2_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W2 evidence hash: reports/W2_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W3 completed closure",
+      "passed": true
+    },
+    {
+      "name": "W3 frozen closure hash",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence inventory",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_REPLAY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_REPLAY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_REPLAY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_PLAYBACK_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_PLAYBACK_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_PLAYBACK_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_CHART_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_CHART_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_CHART_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/W3_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/W3_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/W3_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/downloads/flamel-comparison-20261022-10queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/downloads/flamel-comparison-20261022-10queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/downloads/flamel-comparison-20261022-10queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/downloads/flamel-comparison-20261022-50queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/downloads/flamel-comparison-20261022-50queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/downloads/flamel-comparison-20261022-50queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/downloads/flamel-comparison-aggregate-50queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/downloads/flamel-comparison-aggregate-50queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/downloads/flamel-comparison-aggregate-50queries.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/downloads/flamel-queries-20261022-full-batch-1-predictions.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/downloads/flamel-queries-20261022-full-batch-1-predictions.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/downloads/flamel-queries-20261022-full-batch-1-predictions.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence exists: reports/downloads/flamel-queries-20261022-full-batch-1-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence hash: reports/downloads/flamel-queries-20261022-full-batch-1-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "W3 evidence size: reports/downloads/flamel-queries-20261022-full-batch-1-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "W4 completed closure",
+      "passed": true
+    },
+    {
+      "name": "W4 frozen closure hash",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence inventory",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_GEOMETRY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_GEOMETRY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_GEOMETRY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_VIEWER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_VIEWER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_VIEWER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/W4_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/W4_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/W4_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/structure-downloads/flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/structure-downloads/flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/structure-downloads/flamel-phase1_mgo_attempt_000--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/structure-downloads/flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/structure-downloads/flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/structure-downloads/flamel-phase3_early_CaMg2O3_attempt_005--generated_excluded.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/structure-downloads/flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/structure-downloads/flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/structure-downloads/flamel-phase4_tio2_rutile_p1_attempt_000--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/structure-downloads/flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/structure-downloads/flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/structure-downloads/flamel-prototype_CaMg2O3--model_relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/structure-downloads/flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/structure-downloads/flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/structure-downloads/flamel-qe_source_reference_cao_mp2605--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence exists: reports/structure-downloads/flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence hash: reports/structure-downloads/flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W4 evidence size: reports/structure-downloads/flamel-qe_source_reference_mgo_mp1265--accepted_dft.cif",
+      "passed": true
+    },
+    {
+      "name": "W5 completed closure",
+      "passed": true
+    },
+    {
+      "name": "W5 frozen closure hash",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence inventory",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_GENERATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_GENERATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_GENERATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_UNCERTAINTY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_UNCERTAINTY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_UNCERTAINTY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_EVIDENCE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_EVIDENCE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_EVIDENCE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_DOWNLOAD_EXPECTATIONS.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_DOWNLOAD_EXPECTATIONS.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_DOWNLOAD_EXPECTATIONS.json",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-symmetry-primary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-symmetry-primary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-symmetry-primary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-selected-energy-pair-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-selected-energy-pair-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-selected-energy-pair-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-composition-attempts-CaMg2O3.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-composition-attempts-CaMg2O3.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-composition-attempts-CaMg2O3.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-prototype-baselines.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-prototype-baselines.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-prototype-baselines.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-historical-composition-absence.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-historical-composition-absence.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-historical-composition-absence.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-symmetry-primary-tio2_rutile.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-symmetry-primary-tio2_rutile.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-symmetry-primary-tio2_rutile.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-symmetry-supplementary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-symmetry-supplementary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-symmetry-supplementary-mgo_rocksalt.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-excluded-new-formula-diagnostics.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-excluded-new-formula-diagnostics.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-excluded-new-formula-diagnostics.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-uncertainty-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-uncertainty-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-uncertainty-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-retention-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-retention-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-retention-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-deciles-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-deciles-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-deciles-20261022-full.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-full-policy-roles.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-full-policy-roles.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-full-policy-roles.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-qe-all.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-qe-all.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-qe-all.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-reference-all.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-reference-all.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-reference-all.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-qe-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-qe-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-qe-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-reference-primary-missing.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-reference-primary-missing.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-reference-primary-missing.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-claim-evidence-matrix.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-claim-evidence-matrix.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-claim-evidence-matrix.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/analysis-downloads/flamel-frozen-computational-accounting.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/analysis-downloads/flamel-frozen-computational-accounting.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/analysis-downloads/flamel-frozen-computational-accounting.csv",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_FINDINGS_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_FINDINGS_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_FINDINGS_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_EVIDENCE_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_EVIDENCE_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_EVIDENCE_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence exists: reports/W5_FINDINGS_MOBILE.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence hash: reports/W5_FINDINGS_MOBILE.jpg",
+      "passed": true
+    },
+    {
+      "name": "W5 evidence size: reports/W5_FINDINGS_MOBILE.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 completed closure",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: releases/ui-w6-62f633585edb6b4dab66/package-record.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: releases/ui-w6-62f633585edb6b4dab66/package-record.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: releases/ui-w6-62f633585edb6b4dab66/package-record.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: releases/ui-w6-62f633585edb6b4dab66/README.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: releases/ui-w6-62f633585edb6b4dab66/README.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: releases/ui-w6-62f633585edb6b4dab66/README.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: releases/ui-w6-62f633585edb6b4dab66/ui-w6-62f633585edb6b4dab66.zip",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: releases/ui-w6-62f633585edb6b4dab66/ui-w6-62f633585edb6b4dab66.zip",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: releases/ui-w6-62f633585edb6b4dab66/ui-w6-62f633585edb6b4dab66.zip",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/w6-downloads/accepted-mgo.cif",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/w6-downloads/accepted-mgo.cif",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/w6-downloads/accepted-mgo.cif",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/w6-downloads/comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/w6-downloads/comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/w6-downloads/comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/w6-downloads/dft-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/w6-downloads/dft-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/w6-downloads/dft-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/w6-downloads/query-hidden.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/w6-downloads/query-hidden.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/w6-downloads/query-hidden.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/w6-downloads/query-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/w6-downloads/query-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/w6-downloads/query-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/w6-downloads/risk.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/w6-downloads/risk.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/w6-downloads/risk.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/w6-downloads/symmetry-primary.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/w6-downloads/symmetry-primary.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/w6-downloads/symmetry-primary.csv",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_BROWSER_QA.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_BROWSER_TRANSFER.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_BROWSER_TRANSFER.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_BROWSER_TRANSFER.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_COMPLETION.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_DATA_GUARDS.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_DEPENDENCY_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_DEPENDENCY_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_DEPENDENCY_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_DOWNLOAD_EXPECTATIONS.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_DOWNLOAD_EXPECTATIONS.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_DOWNLOAD_EXPECTATIONS.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_DOWNLOAD_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_EVIDENCE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_EVIDENCE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_EVIDENCE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_GENERATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_GENERATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_GENERATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_GEOMETRY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_GEOMETRY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_GEOMETRY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_IMAGE_OPTIMIZATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_IMAGE_OPTIMIZATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_IMAGE_OPTIMIZATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_INSTALLED_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_INSTALLED_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_INSTALLED_LICENSES.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_INTEGRATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_INTEGRATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_INTEGRATION_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_LOADER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_LOADER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_LOADER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_MOBILE_CRYSTAL.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_MOBILE_CRYSTAL.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_MOBILE_CRYSTAL.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_OVERVIEW_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_OVERVIEW_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_OVERVIEW_DESKTOP.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_PLAYBACK_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_PLAYBACK_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_PLAYBACK_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_RELEASE_PACKAGE.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_RELEASE_PACKAGE.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_RELEASE_PACKAGE.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_RELEASE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_RELEASE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_RELEASE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_REPLAY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_REPLAY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_REPLAY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_REQUIREMENTS_REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_RESEARCH_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_SERVER_TEARDOWN.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_STATE_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_TOOLING.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_TOUR_BROWSER_LOG.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_TOUR_BROWSER_LOG.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_TOUR_BROWSER_LOG.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_TOUR_COMPLETE.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_TOUR_COMPLETE.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_TOUR_COMPLETE.jpg",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_TOUR_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_TOUR_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_TOUR_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_UNCERTAINTY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_UNCERTAINTY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_UNCERTAINTY_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence exists: reports/W6_VIEWER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence hash: reports/W6_VIEWER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 evidence size: reports/W6_VIEWER_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: .cache/close-w6.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: .cache/close-w6.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: .cache/close-w6.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: index.html",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: index.html",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: index.html",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: package.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: package.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: package.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: public/ui/figures/overview.b8c1b84fa51da27e.webp",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: public/ui/figures/overview.b8c1b84fa51da27e.webp",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: public/ui/figures/overview.b8c1b84fa51da27e.webp",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: public/ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: public/ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: public/ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/bootstrap-npm.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/bootstrap-npm.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/bootstrap-npm.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/export_common.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/export_common.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/export_common.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/export_content.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/export_content.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/export_content.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/export_research.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/export_research.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/export_research.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/export_structures.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/export_structures.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/export_structures.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/export_tables.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/export_tables.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/export_tables.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/npm.ps1",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/npm.ps1",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/npm.ps1",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/optimize-figures.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/optimize-figures.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/optimize-figures.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/package-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/package-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/package-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/prepare-ui-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/prepare-ui-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/prepare-ui-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/qa-server.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/qa-server.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/qa-server.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/release-utils.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/release-utils.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/release-utils.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/run-python.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/run-python.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/run-python.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/validate_export.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/validate_export.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/validate_export.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-analysis-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-analysis-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-analysis-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-crystal.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-crystal.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-crystal.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-crystal.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-crystal.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-crystal.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-evidence.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-evidence.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-evidence.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-generation.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-generation.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-generation.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-guards.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-guards.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-guards.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-loader.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-loader.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-loader.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-playback.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-playback.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-playback.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-replay.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-replay.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-replay.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-state.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-state.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-state.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-structure-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-structure-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-structure-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-tooling.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-tooling.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-tooling.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-tour.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-tour.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-tour.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-uncertainty.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-uncertainty.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-uncertainty.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-viewer.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-viewer.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-viewer.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-w6-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-w6-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-w6-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: scripts/verify-w6-integration.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: scripts/verify-w6-integration.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: scripts/verify-w6-integration.mjs",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/App.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/App.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/App.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/components/CrystalCoordinates.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/components/CrystalCoordinates.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/components/CrystalCoordinates.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/components/CrystalDisplay.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/components/CrystalDisplay.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/components/CrystalDisplay.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/components/CrystalViewer.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/components/CrystalViewer.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/components/CrystalViewer.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/components/QueryDrawer.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/components/QueryDrawer.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/components/QueryDrawer.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/components/ReplayChart.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/components/ReplayChart.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/components/ReplayChart.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/components/Shared.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/components/Shared.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/components/Shared.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/components/TableDownload.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/components/TableDownload.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/components/TableDownload.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/crystal/camera.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/crystal/camera.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/crystal/camera.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/crystal/geometry.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/crystal/geometry.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/crystal/geometry.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/crystal/lab.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/crystal/lab.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/crystal/lab.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/crystal/lifecycle.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/crystal/lifecycle.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/crystal/lifecycle.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/crystal/useStructureDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/crystal/useStructureDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/crystal/useStructureDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/crystal/viewer.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/crystal/viewer.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/crystal/viewer.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/data/contracts.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/data/contracts.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/data/contracts.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/data/guards.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/data/guards.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/data/guards.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/data/loadRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/data/loadRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/data/loadRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/data/release.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/data/release.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/data/release.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/data/ResearchData.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/data/ResearchData.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/data/ResearchData.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/data/usePresentationAsset.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/data/usePresentationAsset.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/data/usePresentationAsset.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/evidence/evidence.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/evidence/evidence.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/evidence/evidence.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/evidence/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/evidence/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/evidence/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/findings/findings.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/findings/findings.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/findings/findings.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/findings/generation.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/findings/generation.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/findings/generation.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/findings/generation.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/findings/generation.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/findings/generation.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/findings/GenerationFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/findings/GenerationFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/findings/GenerationFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/findings/uncertainty.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/findings/uncertainty.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/findings/uncertainty.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/findings/uncertainty.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/findings/uncertainty.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/findings/uncertainty.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/findings/UncertaintyFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/findings/UncertaintyFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/findings/UncertaintyFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/generated/uiFigures.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/generated/uiFigures.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/generated/uiFigures.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/generated/uiRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/generated/uiRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/generated/uiRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/main.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/main.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/main.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/presentation/policyColours.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/presentation/policyColours.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/presentation/policyColours.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/replay/chart.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/replay/chart.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/replay/chart.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/replay/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/replay/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/replay/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/replay/playback.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/replay/playback.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/replay/playback.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/replay/replay.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/replay/replay.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/replay/replay.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/replay/useCsvDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/replay/useCsvDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/replay/useCsvDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/replay/useReplayPlayback.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/replay/useReplayPlayback.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/replay/useReplayPlayback.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/state/route.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/state/route.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/state/route.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/state/useRoute.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/state/useRoute.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/state/useRoute.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/styles.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/styles.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/styles.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/tour/GuidedTour.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/tour/GuidedTour.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/tour/GuidedTour.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/tour/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/tour/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/tour/model.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/tour/tour.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/tour/tour.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/tour/tour.css",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/tour/TourContext.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/tour/TourContext.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/tour/TourContext.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/tour/useTour.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/tour/useTour.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/tour/useTour.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/views/CrystalLab.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/views/CrystalLab.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/views/CrystalLab.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/views/Evidence.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/views/Evidence.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/views/Evidence.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/views/Findings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/views/Findings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/views/Findings.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/views/Overview.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/views/Overview.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/views/Overview.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/views/Replay.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/views/Replay.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/views/Replay.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/views/types.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/views/types.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/views/types.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: src/views/Workflow.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: src/views/Workflow.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: src/views/Workflow.tsx",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: tsconfig.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: tsconfig.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: tsconfig.json",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation exists: vite.config.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation hash: vite.config.ts",
+      "passed": true
+    },
+    {
+      "name": "W6 implementation size: vite.config.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: index.html",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: index.html",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: index.html",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: package.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: package.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: package.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: public/ui/figures/overview.b8c1b84fa51da27e.webp",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: public/ui/figures/overview.b8c1b84fa51da27e.webp",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: public/ui/figures/overview.b8c1b84fa51da27e.webp",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: public/ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: public/ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: public/ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/bootstrap-npm.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/bootstrap-npm.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/bootstrap-npm.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/export_common.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/export_common.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/export_common.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/export_content.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/export_content.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/export_content.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/export_research.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/export_research.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/export_research.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/export_structures.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/export_structures.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/export_structures.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/export_tables.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/export_tables.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/export_tables.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/npm.ps1",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/npm.ps1",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/npm.ps1",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/optimize-figures.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/optimize-figures.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/optimize-figures.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/package-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/package-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/package-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/prepare-ui-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/prepare-ui-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/prepare-ui-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/qa-server.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/qa-server.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/qa-server.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/release-utils.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/release-utils.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/release-utils.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/run-python.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/run-python.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/run-python.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/validate_export.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/validate_export.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/validate_export.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-analysis-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-analysis-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-analysis-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-crystal.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-crystal.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-crystal.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-crystal.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-crystal.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-crystal.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-evidence.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-evidence.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-evidence.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-generation.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-generation.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-generation.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-guards.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-guards.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-guards.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-loader.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-loader.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-loader.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-playback.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-playback.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-playback.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-release.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-replay.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-replay.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-replay.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-state.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-state.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-state.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-structure-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-structure-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-structure-downloads.py",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-tooling.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-tooling.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-tooling.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-tour.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-tour.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-tour.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-uncertainty.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-uncertainty.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-uncertainty.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-viewer.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-viewer.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-viewer.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-w6-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-w6-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-w6-downloads.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: scripts/verify-w6-integration.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: scripts/verify-w6-integration.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: scripts/verify-w6-integration.mjs",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/App.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/App.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/App.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/components/CrystalCoordinates.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/components/CrystalCoordinates.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/components/CrystalCoordinates.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/components/CrystalDisplay.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/components/CrystalDisplay.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/components/CrystalDisplay.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/components/CrystalViewer.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/components/CrystalViewer.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/components/CrystalViewer.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/components/QueryDrawer.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/components/QueryDrawer.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/components/QueryDrawer.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/components/ReplayChart.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/components/ReplayChart.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/components/ReplayChart.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/components/Shared.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/components/Shared.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/components/Shared.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/components/TableDownload.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/components/TableDownload.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/components/TableDownload.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/crystal/camera.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/crystal/camera.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/crystal/camera.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/crystal/geometry.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/crystal/geometry.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/crystal/geometry.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/crystal/lab.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/crystal/lab.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/crystal/lab.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/crystal/lifecycle.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/crystal/lifecycle.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/crystal/lifecycle.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/crystal/useStructureDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/crystal/useStructureDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/crystal/useStructureDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/crystal/viewer.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/crystal/viewer.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/crystal/viewer.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/data/ResearchData.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/data/ResearchData.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/data/ResearchData.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/data/contracts.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/data/contracts.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/data/contracts.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/data/guards.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/data/guards.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/data/guards.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/data/loadRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/data/loadRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/data/loadRelease.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/data/release.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/data/release.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/data/release.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/data/usePresentationAsset.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/data/usePresentationAsset.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/data/usePresentationAsset.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/evidence/evidence.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/evidence/evidence.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/evidence/evidence.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/evidence/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/evidence/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/evidence/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/findings/GenerationFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/findings/GenerationFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/findings/GenerationFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/findings/UncertaintyFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/findings/UncertaintyFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/findings/UncertaintyFindings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/findings/findings.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/findings/findings.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/findings/findings.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/findings/generation.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/findings/generation.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/findings/generation.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/findings/generation.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/findings/generation.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/findings/generation.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/findings/uncertainty.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/findings/uncertainty.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/findings/uncertainty.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/findings/uncertainty.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/findings/uncertainty.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/findings/uncertainty.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/generated/uiFigures.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/generated/uiFigures.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/generated/uiFigures.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/main.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/main.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/main.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/presentation/policyColours.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/presentation/policyColours.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/presentation/policyColours.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/replay/chart.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/replay/chart.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/replay/chart.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/replay/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/replay/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/replay/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/replay/playback.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/replay/playback.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/replay/playback.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/replay/replay.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/replay/replay.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/replay/replay.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/replay/useCsvDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/replay/useCsvDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/replay/useCsvDownload.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/replay/useReplayPlayback.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/replay/useReplayPlayback.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/replay/useReplayPlayback.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/state/route.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/state/route.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/state/route.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/state/useRoute.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/state/useRoute.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/state/useRoute.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/styles.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/styles.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/styles.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/tour/GuidedTour.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/tour/GuidedTour.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/tour/GuidedTour.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/tour/TourContext.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/tour/TourContext.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/tour/TourContext.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/tour/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/tour/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/tour/model.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/tour/tour.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/tour/tour.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/tour/tour.css",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/tour/useTour.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/tour/useTour.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/tour/useTour.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/views/CrystalLab.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/views/CrystalLab.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/views/CrystalLab.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/views/Evidence.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/views/Evidence.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/views/Evidence.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/views/Findings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/views/Findings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/views/Findings.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/views/Overview.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/views/Overview.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/views/Overview.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/views/Replay.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/views/Replay.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/views/Replay.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/views/Workflow.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/views/Workflow.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/views/Workflow.tsx",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: src/views/types.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: src/views/types.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: src/views/types.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: tsconfig.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: tsconfig.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: tsconfig.json",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input exists: vite.config.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input hash: vite.config.ts",
+      "passed": true
+    },
+    {
+      "name": "UI fingerprint input size: vite.config.ts",
+      "passed": true
+    },
+    {
+      "name": "Recomputed source fingerprint",
+      "passed": true
+    },
+    {
+      "name": "Dependency lock unchanged",
+      "passed": true
+    },
+    {
+      "name": "88 deployment files",
+      "passed": true
+    },
+    {
+      "name": "Exact package-to-dist inventory",
+      "passed": true
+    },
+    {
+      "name": "Exact closure-to-dist inventory",
+      "passed": true
+    },
+    {
+      "name": "Exact tooling-to-dist inventory",
+      "passed": true
+    },
+    {
+      "name": "Payload bytes",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/claims.5c3cf01b895935f0.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/dft.b680900fd8adafaf.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/generation.837fde064112ac20.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/glossary.7541be1fbd9a40e4.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/methods.b0a9177693439d24.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/provenance.58425544f5e7e1e1.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/summary.a7d9d82dcd2b3228.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/theme.27686804a7596fef.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/uncertainty.02d35add6771c23d.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/generation.59e6ca927809464f.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/model-energies.3fc676c6f4830fc7.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/overview.34c36fc0a433966a.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures.5aabdf89e40edca8.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/uncertainty.ecc942c162113844.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--catalog_initial.c3d3026afcff3a4e.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--model_relaxed.e6566251c9b4f684.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--catalog_initial.bd96802a07c9dc18.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--model_relaxed.698c6e268c59ea1b.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--catalog_initial.8c9231f39e285674.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--model_relaxed.7a74066d12729aa3.png",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/notices/dependency-licenses.5cac5df753bf3d89.txt",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/notices/third-party.653a426dddece4a3.txt",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/replay/curves.c27a1c520d6a0fb9.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261022.c82758dddddd9cff.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261023.bc0fc45c9510e91f.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261024.8b43112d97b4ddb2.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261025.a1fbdaceca7152e6.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261026.4ab9316a2b04c31e.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/index.8be3595e5f4488c5.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--accepted_dft.89c1ef588513d61e.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--generated.434804f89dace552.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--model_relaxed.afe5ab7b682d2bff.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.2127387a4831b5a7.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.de78aa219c9dfce6.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.e5d6a6e6844c316a.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.2c3c7eb2c33f5b31.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.27013c09e5d19190.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--generated.f3adf3b3811fb083.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.50eb8960a0f7d0d6.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--model_relaxed.9af486a88529cce1.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--prototype_initial.65ae27e4b432461d.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--model_relaxed.07ac16994a3e42b0.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--prototype_initial.a57125e29dde58dc.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--model_relaxed.b02b16c6d03303a6.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--prototype_initial.00d9e840dfa3f513.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--model_relaxed.6fb5f5e4b37a3cfb.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--prototype_initial.785b1d10f65c2ecf.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_cao_mp2605--accepted_dft.e5bfc2d31c095f10.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_mgo_mp1265--accepted_dft.fdf49e41059fdbc0.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--catalog_initial.4b755a349282f58b.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--model_relaxed.aa914ffc25a47a24.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--catalog_initial.d06f28bc1f6898b5.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--model_relaxed.37e14d1d9dc674bf.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--catalog_initial.98765d0384312e91.json",
+      "passed": true
+    },
+    {
+      "name": "Production research copy: releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--model_relaxed.19198f87636f4502.json",
+      "passed": true
+    },
+    {
+      "name": "Release archive exists: releases/ui-w6-62f633585edb6b4dab66/ui-w6-62f633585edb6b4dab66.zip",
+      "passed": true
+    },
+    {
+      "name": "Release archive hash: releases/ui-w6-62f633585edb6b4dab66/ui-w6-62f633585edb6b4dab66.zip",
+      "passed": true
+    },
+    {
+      "name": "Release archive size: releases/ui-w6-62f633585edb6b4dab66/ui-w6-62f633585edb6b4dab66.zip",
+      "passed": true
+    },
+    {
+      "name": "ZIP unique entry count",
+      "passed": true
+    },
+    {
+      "name": "ZIP document-root entry paths",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: assets/CrystalViewer-BEjZVKSn.css",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: assets/CrystalViewer-CObIW-KU.js",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: assets/index-C2FiRLoA.js",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: assets/index-qjnWrLjY.css",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: assets/ReplayChart--t-2jcxz.js",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: assets/ReplayChart-Cu8ZDifc.css",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: index.html",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: release-manifests/ui-w6-62f633585edb6b4dab66.files.csv",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: release-manifests/ui-w6-62f633585edb6b4dab66.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/claims.5c3cf01b895935f0.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/dft.b680900fd8adafaf.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/generation.59e6ca927809464f.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/model-energies.3fc676c6f4830fc7.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/overview.34c36fc0a433966a.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--accepted_dft.696b41195f25a4ba.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--generated.d7731342174754fe.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase1_mgo_attempt_000--model_relaxed.ece2ef654ffb9c08.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.e18baaa0196d2fdf.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.aa30b1a8f14fa1eb.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.93389af2b1c8b27e.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.73f4208e25406abd.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.b8aa4f908e12ae4c.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--generated.3f878c19cca7df28.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.75a41853c1617e44.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--model_relaxed.0300a6ab7fba76dc.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_BaSnO2--prototype_initial.07fff4988fa90c53.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--model_relaxed.1a893375eb3812b4.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_CaMg2O3--prototype_initial.3a1a09dfa990f3f0.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--model_relaxed.47ba7668945fe040.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_Mg2SrO3--prototype_initial.c21cb68d41b6fb00.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--model_relaxed.be34d6aefa2743b1.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/prototype_SnSrO2--prototype_initial.e9e6d6e412380b0b.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_cao_mp2605--accepted_dft.65dc44f39723a4cb.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/qe_source_reference_mgo_mp1265--accepted_dft.7c9995aff5a74357.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--catalog_initial.c3d3026afcff3a4e.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_anatase--model_relaxed.e6566251c9b4f684.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--catalog_initial.bd96802a07c9dc18.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rocksalt--model_relaxed.698c6e268c59ea1b.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--catalog_initial.8c9231f39e285674.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures/reference_rutile--model_relaxed.7a74066d12729aa3.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/structures.5aabdf89e40edca8.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/figures/uncertainty.ecc942c162113844.png",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/generation.837fde064112ac20.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/glossary.7541be1fbd9a40e4.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/methods.b0a9177693439d24.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/notices/dependency-licenses.5cac5df753bf3d89.txt",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/notices/third-party.653a426dddece4a3.txt",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/provenance.58425544f5e7e1e1.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/replay/curves.c27a1c520d6a0fb9.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261022.c82758dddddd9cff.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261023.bc0fc45c9510e91f.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261024.8b43112d97b4ddb2.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261025.a1fbdaceca7152e6.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/replay/seed-20261026.4ab9316a2b04c31e.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/index.8be3595e5f4488c5.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--accepted_dft.89c1ef588513d61e.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--generated.434804f89dace552.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase1_mgo_attempt_000--model_relaxed.afe5ab7b682d2bff.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.2127387a4831b5a7.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.de78aa219c9dfce6.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.e5d6a6e6844c316a.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.2c3c7eb2c33f5b31.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.27013c09e5d19190.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--generated.f3adf3b3811fb083.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.50eb8960a0f7d0d6.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--model_relaxed.9af486a88529cce1.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_BaSnO2--prototype_initial.65ae27e4b432461d.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--model_relaxed.07ac16994a3e42b0.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_CaMg2O3--prototype_initial.a57125e29dde58dc.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--model_relaxed.b02b16c6d03303a6.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_Mg2SrO3--prototype_initial.00d9e840dfa3f513.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--model_relaxed.6fb5f5e4b37a3cfb.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/prototype_SnSrO2--prototype_initial.785b1d10f65c2ecf.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_cao_mp2605--accepted_dft.e5bfc2d31c095f10.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/qe_source_reference_mgo_mp1265--accepted_dft.fdf49e41059fdbc0.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--catalog_initial.4b755a349282f58b.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_anatase--model_relaxed.aa914ffc25a47a24.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--catalog_initial.d06f28bc1f6898b5.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rocksalt--model_relaxed.37e14d1d9dc674bf.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--catalog_initial.98765d0384312e91.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/structures/reference_rutile--model_relaxed.19198f87636f4502.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/summary.a7d9d82dcd2b3228.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/theme.27686804a7596fef.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: research/releases/data-v1-2a138b7808f0d12c5151/uncertainty.02d35add6771c23d.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: ui/figures/overview.b8c1b84fa51da27e.webp",
+      "passed": true
+    },
+    {
+      "name": "ZIP byte identity: ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "passed": true
+    },
+    {
+      "name": "Release manifest hash",
+      "passed": true
+    },
+    {
+      "name": "Release manifest covers all other 87 deployment files",
+      "passed": true
+    }
+  ],
+  "historicalEvidence": [
+    {
+      "phase": "W1",
+      "evidenceFiles": 10,
+      "closureSha256": "64fd11564d81d4d3127951abad991a94f8f41dee3e173faa0487bbb6a84e92e0",
+      "allHashesUnchanged": true
+    },
+    {
+      "phase": "W2",
+      "evidenceFiles": 7,
+      "closureSha256": "fde7e6098683e149626640232b61d423b0e4a4564a3e69ad285a5a9cab5d5b4b",
+      "allHashesUnchanged": true
+    },
+    {
+      "phase": "W3",
+      "evidenceFiles": 18,
+      "closureSha256": "87f02b86b0a0844c24ffb814969adb8f21310d9bff93a8ee08117179a4f67c05",
+      "allHashesUnchanged": true
+    },
+    {
+      "phase": "W4",
+      "evidenceFiles": 18,
+      "closureSha256": "ba0e149810de7c7ab77e7fe983a9a99fef57a0768d46e8badd252ac1926ff129",
+      "allHashesUnchanged": true
+    },
+    {
+      "phase": "W5",
+      "evidenceFiles": 35,
+      "closureSha256": "0e74f6e6971c241afc4c0bbe8bf2a1770671b6722c53665c122b113820bb62bc",
+      "allHashesUnchanged": true
+    },
+    {
+      "phase": "W6",
+      "evidenceFiles": 41,
+      "closureSha256": "671c67fee0d52debff81c2f6a1728ff985c6ebcc4ba6859718b90a9d8d70d59d",
+      "allHashesUnchanged": true
+    }
+  ],
+  "researchIntegrity": {
+    "sourceFiles": 103,
+    "baselineFiles": 4,
+    "publicContentFiles": 75,
+    "manifests": 2,
+    "allHashesUnchanged": true
+  },
+  "sourceInputFiles": 93,
+  "implementationFiles": 95,
+  "payloadFiles": 88,
+  "payloadBytes": 5621072,
+  "archive": {
+    "path": "releases/ui-w6-62f633585edb6b4dab66/ui-w6-62f633585edb6b4dab66.zip",
+    "bytes": 3093510,
+    "sha256": "51520b426dcde523f9a60d490fe02db39676fd990106e2374d74f4b40fa2aada"
+  },
+  "archiveFilesByteIdentical": 88,
+  "uploadStages": {
+    "beforeIndex": 87,
+    "indexLast": 1
+  },
+  "predecessorFilesToPreserve": 84,
+  "predecessorOnlyPaths": 4,
+  "baselineRecord": {
+    "path": "reports/W7_BASELINE.json",
+    "bytes": 172977,
+    "sha256": "fdabd7e80a9e39b97721fef9b15ebbb67bac1a033043d1b4ad6c09f66aada3c3"
+  },
+  "newScientificExperiments": 0,
+  "deployed": false,
+  "deploymentAttemptedByThisVerifier": false,
+  "remainingW7": [
+    "Authenticated account/document-root and HTTPS inspection",
+    "Back up current remote content",
+    "Immutable-first upload and index last",
+    "Fresh HTTPS browser verification and closeout"
+  ]
+}

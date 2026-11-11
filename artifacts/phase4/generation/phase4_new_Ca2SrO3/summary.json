@@ -1,0 +1,246 @@
+{
+  "attempts": 8,
+  "batch_timings": [
+    {
+      "batch_index": 0,
+      "kind": "first_call_including_compilation",
+      "sampling_success": true,
+      "seconds": 33.44327799999974
+    },
+    {
+      "batch_index": 1,
+      "kind": "same_shape_warm_call",
+      "sampling_success": true,
+      "seconds": 9.53729899999962
+    }
+  ],
+  "conditioning_formula": "Ca2SrO3",
+  "formula": "Ca2SrO3",
+  "requested_spacegroup": 2,
+  "results": [
+    {
+      "attempt_id": 0,
+      "batch_index": 0,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_000",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_000.cif",
+      "cif_sha256": "7205e5fd3ff334a58af9af4ef1ede4aafb94998809b6c00474b9a5fb113fa9c7",
+      "counts": {
+        "Ca": 4,
+        "O": 10,
+        "Sr": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.2914074671249454,
+      "minimum_periodic_distance_angstrom": 1.2914074671249454,
+      "minimum_self_image_distance_angstrom": 6.550556659698487,
+      "n_atoms": 16,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_000.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_000.json",
+      "valid": false,
+      "volume_angstrom3": 253.73111956879112
+    },
+    {
+      "attempt_id": 1,
+      "batch_index": 0,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_001",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_001.cif",
+      "cif_sha256": "802c9ee164a57449b64d0cd971be231f6dad7f698245471891bbd3b845e14065",
+      "counts": {
+        "Ca": 3,
+        "O": 8,
+        "Sr": 3
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.3284918988269392,
+      "minimum_periodic_distance_angstrom": 1.3284918988269392,
+      "minimum_self_image_distance_angstrom": 6.251862525939942,
+      "n_atoms": 14,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_001.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_001.json",
+      "valid": false,
+      "volume_angstrom3": 219.2951758554857
+    },
+    {
+      "attempt_id": 2,
+      "batch_index": 0,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_002",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_002.cif",
+      "cif_sha256": "fdd7558039064812a3638afc29db2ba18bf29eefaf5d1d364a0458596922423d",
+      "counts": {
+        "Ca": 6,
+        "O": 4,
+        "Sr": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.2203368418028804,
+      "minimum_periodic_distance_angstrom": 1.2203368418028804,
+      "minimum_self_image_distance_angstrom": 6.489662647247314,
+      "n_atoms": 12,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_002.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_002.json",
+      "valid": false,
+      "volume_angstrom3": 203.46675625379268
+    },
+    {
+      "attempt_id": 3,
+      "batch_index": 0,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_003",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_003.cif",
+      "cif_sha256": "44243b873e097f811b5d119507395bf91e5e10b8e6f2fd11d839f3f67bca5e8c",
+      "counts": {
+        "Ca": 4,
+        "O": 8,
+        "Sr": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.4427562365015367,
+      "minimum_periodic_distance_angstrom": 1.4427562365015367,
+      "minimum_self_image_distance_angstrom": 6.227534770965576,
+      "n_atoms": 14,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_003.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_003.json",
+      "valid": false,
+      "volume_angstrom3": 228.56064722304902
+    },
+    {
+      "attempt_id": 4,
+      "batch_index": 1,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_004",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_004.cif",
+      "cif_sha256": "622f46f6bf9b4ea2fedf55cd172d9d3dd98ea6d9b1cac6b34a58ff40415e51b6",
+      "counts": {
+        "Ca": 4,
+        "O": 8,
+        "Sr": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.2804188764195554,
+      "minimum_periodic_distance_angstrom": 1.2804188764195554,
+      "minimum_self_image_distance_angstrom": 6.047579765319824,
+      "n_atoms": 14,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_004.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_004.json",
+      "valid": false,
+      "volume_angstrom3": 188.01688853713927
+    },
+    {
+      "attempt_id": 5,
+      "batch_index": 1,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_005",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_005.cif",
+      "cif_sha256": "e9109c2453e042f9e0354e6ca6c202a134bae5edab5b2505b36c2447601fdf0a",
+      "counts": {
+        "Ca": 4,
+        "O": 6,
+        "Sr": 2
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.4554030793808934,
+      "minimum_periodic_distance_angstrom": 1.4554030793808934,
+      "minimum_self_image_distance_angstrom": 6.098479270935059,
+      "n_atoms": 12,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_005.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_005.json",
+      "valid": false,
+      "volume_angstrom3": 217.18523156326737
+    },
+    {
+      "attempt_id": 6,
+      "batch_index": 1,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_006",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_006.cif",
+      "cif_sha256": "dc0bda0a5309610d5dc1deddcac5efe5e722f8734fb0455d4474ececf55e17d9",
+      "counts": {
+        "Ca": 5,
+        "O": 6,
+        "Sr": 1
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.3846916344311724,
+      "minimum_periodic_distance_angstrom": 1.3846916344311724,
+      "minimum_self_image_distance_angstrom": 4.287712574005127,
+      "n_atoms": 12,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_006.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_006.json",
+      "valid": false,
+      "volume_angstrom3": 200.99681977384694
+    },
+    {
+      "attempt_id": 7,
+      "batch_index": 1,
+      "candidate_id": "phase4_new_Ca2SrO3_attempt_007",
+      "cif": "artifacts/phase4/generation/phase4_new_Ca2SrO3/cifs/attempt_007.cif",
+      "cif_sha256": "f59df0a27d0f34cbdfd48d6d78d471d2e1d34270547d95eddc4bcbb86d8cd9c4",
+      "counts": {
+        "Ca": 6,
+        "O": 10,
+        "Sr": 4
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 2,
+      "measured_spacegroup_symbol": "P-1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.5078157491991169,
+      "minimum_periodic_distance_angstrom": 1.5078157491991169,
+      "minimum_self_image_distance_angstrom": 6.343995094299317,
+      "n_atoms": 20,
+      "raw_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/raw_attempt_007.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/phase4_new_Ca2SrO3/structure_007.json",
+      "valid": false,
+      "volume_angstrom3": 361.4807570335725
+    }
+  ],
+  "run_id": "phase4_new_Ca2SrO3",
+  "source_protocol_sha256": "39b7fa1771bdf5f2214659de6d37bb69677d9e9c4df06a72c3788b1ef9d5b75f",
+  "status": "completed",
+  "timing_interpretation": "First call includes SG-specific JIT compilation and sampling; later same-shape call is warm. Comparison with Phase 1 SG225 changes group and composition, and is not an isolated formula-change experiment.",
+  "valid_count": 0,
+  "valid_unique_count": 0,
+  "valid_unique_representatives": [],
+  "worker_wall_seconds": 59.72214459999941
+}

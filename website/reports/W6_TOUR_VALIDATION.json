@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "checkedAt": "2026-10-22T13:59:27.484Z",
+  "checkCount": 123,
+  "steps": 6,
+  "subscenes": 25,
+  "totalSeconds": 180,
+  "scope": "Actual pure controller, exact monotonic scheduling, cancellation, presets and saved structure/DFT joins. Browser rehearsal and visual/accessibility checks are recorded separately.",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "sourceFiles": [
+    {
+      "path": "src/tour/model.ts",
+      "bytes": 10638,
+      "sha256": "c4dc728c8e76c8cfdf1e4f09c06f9474766002520fd5a2f2d88ee30f87749c1c"
+    },
+    {
+      "path": "src/tour/useTour.ts",
+      "bytes": 1284,
+      "sha256": "9cd39e908547ddab588c3b7059d6ab292f70ede83937c8dff983a0bfc4a3f8df"
+    },
+    {
+      "path": "src/tour/TourContext.tsx",
+      "bytes": 274,
+      "sha256": "fa904ae67dd8a94c93f7ba5d5f408953c48ce4d21fca5a73a18b53a861875428"
+    },
+    {
+      "path": "src/tour/GuidedTour.tsx",
+      "bytes": 3044,
+      "sha256": "56e2df661f9c4086974c63dacb7bee53f859f1af5795a3cde9b8b9441898e9b7"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 8498,
+      "sha256": "bf2ec8aa391f53bffdca35813a38d492604bb8ede394d3564abdcdeba7149b2f"
+    },
+    {
+      "path": "src/views/Workflow.tsx",
+      "bytes": 10188,
+      "sha256": "cc4ec12be89754a3855fd305a6600ce7c3f2f26602519cf8aff7c843e8617093"
+    },
+    {
+      "path": "src/views/Replay.tsx",
+      "bytes": 15363,
+      "sha256": "813cdd1f045393f679fe7f5a6bc45b71a62207da9604ee1c066b0e787e8955c3"
+    },
+    {
+      "path": "src/views/CrystalLab.tsx",
+      "bytes": 16369,
+      "sha256": "5dccdb37044d2dc78ae887d3de3099a6f93254fc70999069bb3aeae5f87ad00a"
+    },
+    {
+      "path": "src/views/Evidence.tsx",
+      "bytes": 22663,
+      "sha256": "32906da2f00e1ed0a525fa66b3707f91d3ccb400e5a8b50cd692f02f62210b53"
+    },
+    {
+      "path": "src/findings/GenerationFindings.tsx",
+      "bytes": 24707,
+      "sha256": "d65d209895184286e8e048b124fc09a7d52a08103acee6be14f3dc2b9591c9b8"
+    },
+    {
+      "path": "src/components/CrystalViewer.tsx",
+      "bytes": 20547,
+      "sha256": "df01455c8a7a2dfe86825db16a5a72bf5015e542450c6d0f658b140bd7ab2af9"
+    }
+  ],
+  "checks": [
+    {
+      "check": "Exactly six required tour steps",
+      "passed": true
+    },
+    {
+      "check": "Required step durations remain 25/45/35/30/25/20 seconds",
+      "passed": true
+    },
+    {
+      "check": "Total script duration is exactly three minutes",
+      "passed": true
+    },
+    {
+      "check": "All scene identifiers are unique",
+      "passed": true
+    },
+    {
+      "check": "Step 1 begins at offset zero",
+      "passed": true
+    },
+    {
+      "check": "Step 1 subscenes are ordered inside their exact duration",
+      "passed": true
+    },
+    {
+      "check": "Step 2 begins at offset zero",
+      "passed": true
+    },
+    {
+      "check": "Step 2 subscenes are ordered inside their exact duration",
+      "passed": true
+    },
+    {
+      "check": "Step 3 begins at offset zero",
+      "passed": true
+    },
+    {
+      "check": "Step 3 subscenes are ordered inside their exact duration",
+      "passed": true
+    },
+    {
+      "check": "Step 4 begins at offset zero",
+      "passed": true
+    },
+    {
+      "check": "Step 4 subscenes are ordered inside their exact duration",
+      "passed": true
+    },
+    {
+      "check": "Step 5 begins at offset zero",
+      "passed": true
+    },
+    {
+      "check": "Step 5 subscenes are ordered inside their exact duration",
+      "passed": true
+    },
+    {
+      "check": "Step 6 begins at offset zero",
+      "passed": true
+    },
+    {
+      "check": "Step 6 subscenes are ordered inside their exact duration",
+      "passed": true
+    },
+    {
+      "check": "idea route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "idea has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "workflow-propose route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "workflow-propose has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "workflow-generate route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "workflow-generate has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "workflow-screen route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "workflow-screen has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-zero route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-zero has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-ten route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-ten has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-twenty route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-twenty has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-thirty route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-thirty has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-forty route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-forty has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-fifty route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-fifty has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-full route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-full has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "replay-aggregate route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "replay-aggregate has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "crystal-mgo resolves its actual core entity",
+      "passed": true
+    },
+    {
+      "check": "crystal-mgo resolves its requested saved stage",
+      "passed": true
+    },
+    {
+      "check": "crystal-mgo route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "crystal-mgo has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "crystal-prototype resolves its actual core entity",
+      "passed": true
+    },
+    {
+      "check": "crystal-prototype resolves its requested saved stage",
+      "passed": true
+    },
+    {
+      "check": "crystal-prototype route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "crystal-prototype has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "crystal-excluded resolves its actual core entity",
+      "passed": true
+    },
+    {
+      "check": "crystal-excluded resolves its requested saved stage",
+      "passed": true
+    },
+    {
+      "check": "crystal-excluded route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "crystal-excluded has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "symmetry-mgo route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "symmetry-mgo has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "symmetry-tio2 route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "symmetry-tio2 has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "symmetry-energy route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "symmetry-energy has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-low route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-low has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-high route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-high has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-retain route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-retain has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-all route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "uncertainty-all has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "evidence-jobs route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "evidence-jobs has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "evidence-incomplete route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "evidence-incomplete has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "evidence-sources route uses the exact requested view",
+      "passed": true
+    },
+    {
+      "check": "evidence-sources has no unavailable selection repair",
+      "passed": true
+    },
+    {
+      "check": "Replay visits all five ten-query boundaries in one fixed split",
+      "passed": true
+    },
+    {
+      "check": "Every split replay uses only Quality and Full",
+      "passed": true
+    },
+    {
+      "check": "The final replay shows five-split aggregate data",
+      "passed": true
+    },
+    {
+      "check": "Symmetry energy does not switch primary yield into the supplement",
+      "passed": true
+    },
+    {
+      "check": "Coverage demonstration uses the verified low/high Full splits",
+      "passed": true
+    },
+    {
+      "check": "Selective risk demonstration returns to the complete population",
+      "passed": true
+    },
+    {
+      "check": "Perturbation filter selects one real incomplete terminal-SCF record",
+      "passed": true
+    },
+    {
+      "check": "Tour never starts automatically",
+      "passed": true
+    },
+    {
+      "check": "Idle owns no timer",
+      "passed": true
+    },
+    {
+      "check": "Start presents the overview immediately",
+      "passed": true
+    },
+    {
+      "check": "Start owns one timer",
+      "passed": true
+    },
+    {
+      "check": "Immediately before 25s the current step remains 1",
+      "passed": true
+    },
+    {
+      "check": "At exact 25s boundary the correct step/status is selected",
+      "passed": true
+    },
+    {
+      "check": "Immediately before 70s the current step remains 2",
+      "passed": true
+    },
+    {
+      "check": "At exact 70s boundary the correct step/status is selected",
+      "passed": true
+    },
+    {
+      "check": "Immediately before 105s the current step remains 3",
+      "passed": true
+    },
+    {
+      "check": "At exact 105s boundary the correct step/status is selected",
+      "passed": true
+    },
+    {
+      "check": "Immediately before 135s the current step remains 4",
+      "passed": true
+    },
+    {
+      "check": "At exact 135s boundary the correct step/status is selected",
+      "passed": true
+    },
+    {
+      "check": "Immediately before 160s the current step remains 5",
+      "passed": true
+    },
+    {
+      "check": "At exact 160s boundary the correct step/status is selected",
+      "passed": true
+    },
+    {
+      "check": "Immediately before 180s the current step remains 6",
+      "passed": true
+    },
+    {
+      "check": "At exact 180s boundary the correct step/status is selected",
+      "passed": true
+    },
+    {
+      "check": "Complete walkthrough presents all scripted subscenes once",
+      "passed": true
+    },
+    {
+      "check": "Completed tour owns no timer",
+      "passed": true
+    },
+    {
+      "check": "Completion cannot continue changing the view",
+      "passed": true
+    },
+    {
+      "check": "Pause removes the timer",
+      "passed": true
+    },
+    {
+      "check": "Paused time does not advance presentation",
+      "passed": true
+    },
+    {
+      "check": "Cancelled/stale timer cannot present another scene",
+      "passed": true
+    },
+    {
+      "check": "Resume owns exactly one timer",
+      "passed": true
+    },
+    {
+      "check": "Resume keeps the remaining original-step time",
+      "passed": true
+    },
+    {
+      "check": "Resume reaches the correct remaining boundary",
+      "passed": true
+    },
+    {
+      "check": "Next while paused selects next step at zero, still paused",
+      "passed": true
+    },
+    {
+      "check": "Manual paused navigation owns no timer",
+      "passed": true
+    },
+    {
+      "check": "Previous restores exact previous step preset",
+      "passed": true
+    },
+    {
+      "check": "Next while running owns one fresh timer",
+      "passed": true
+    },
+    {
+      "check": "Exit returns ordinary browsing to idle",
+      "passed": true
+    },
+    {
+      "check": "Exit cancels timer",
+      "passed": true
+    },
+    {
+      "check": "Exited tour cannot later overwrite ordinary browsing",
+      "passed": true
+    },
+    {
+      "check": "Repeated start owns only one timer",
+      "passed": true
+    },
+    {
+      "check": "Restart begins at overview",
+      "passed": true
+    },
+    {
+      "check": "Disposal cleans all timers",
+      "passed": true
+    },
+    {
+      "check": "Five manual next commands reach step six",
+      "passed": true
+    },
+    {
+      "check": "Last next command finishes presentation",
+      "passed": true
+    },
+    {
+      "check": "Manual finish cleans timers",
+      "passed": true
+    },
+    {
+      "check": "Previous from completion allows paused rehearsal",
+      "passed": true
+    },
+    {
+      "check": "Resume cannot implicitly start an exited tour",
+      "passed": true
+    },
+    {
+      "check": "Next cannot implicitly start an exited tour",
+      "passed": true
+    },
+    {
+      "check": "A delayed callback safely reaches final completion",
+      "passed": true
+    },
+    {
+      "check": "Delayed completion selects the final evidence scene",
+      "passed": true
+    },
+    {
+      "check": "Delayed completion leaves no stale timer",
+      "passed": true
+    }
+  ]
+}

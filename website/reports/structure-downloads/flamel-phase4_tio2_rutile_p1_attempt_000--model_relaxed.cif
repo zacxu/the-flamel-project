@@ -1,0 +1,57 @@
+# Flamel saved structure; no new optimization or symmetry inference.
+# Explicit physical sites in P1; source symmetry remains separate recorded metadata.
+data_phase4_tio2_rutile_p1_attempt_000__model_relaxed
+_flamel_study_id 'flamel-frozen-study-20261022'
+_flamel_data_release_id 'data-v1-2a138b7808f0d12c5151'
+_flamel_candidate_id 'phase4_tio2_rutile_p1_attempt_000'
+_flamel_stage_id 'phase4_tio2_rutile_p1_attempt_000--model_relaxed'
+_flamel_stage_kind 'model_relaxed'
+_flamel_method 'chgnet'
+_flamel_excluded no
+_flamel_exact_cell_eligible yes
+_flamel_queue_selected no
+_flamel_source_id 'source-efee955768c3bdb3'
+_flamel_source_sha256 'aec9f8f155b3561901c6127e4bb307a29280ff25cceea060617c7083face6b8e'
+_flamel_physical_sites 6
+_flamel_pbc_a yes
+_flamel_pbc_b yes
+_flamel_pbc_c yes
+_flamel_recorded_spacegroup_number 1
+_flamel_recorded_symprec_angstrom 0.01
+_flamel_recorded_angle_tolerance_degrees 5
+_flamel_global_novelty_established no
+_flamel_new_stable_material_established no
+_chemical_formula_sum 'Ti2 O4'
+_cell_length_a 3.1947892566369402
+_cell_length_b 3.8148628365832398
+_cell_length_c 7.650337276760856
+_cell_angle_alpha 97.70771195348429
+_cell_angle_beta 75.35906157940875
+_cell_angle_gamma 89.60560833394194
+_cell_volume 89.3163084389224
+_space_group_name_H-M_alt 'P 1'
+_space_group_IT_number 1
+loop_
+_space_group_symop_operation_xyz
+'x,y,z'
+loop_
+_flamel_lattice_row
+_flamel_lattice_x_angstrom
+_flamel_lattice_y_angstrom
+_flamel_lattice_z_angstrom
+0 3.0806158053174864 0.06922181817138431 0.843618986415048
+1 0.14553641040741158 3.7397952808128627 -0.7388699972251485
+2 -0.09606752209416257 0.465635584301577 7.635549422407502
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O_0 O 0.1660991712978733 0.28635859563224747 0.2819323366443546 1
+O_1 O 0.3994442292523525 0.630698408114962 0.7009584998722073 1
+Ti_2 Ti 0.7260155850486529 0.2551603697232812 0.1572145277951932 1
+O_3 O 0.7584742846907548 0.1839690052797292 0.8933252650531892 1
+Ti_4 Ti 0.8385260271347121 0.6636677160029647 0.8255450562617326 1
+O_5 O 0.808841357563366 0.7367802703534211 0.08933798085651656 1

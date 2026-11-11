@@ -1,0 +1,157 @@
+[
+  {
+    "filename": "flamel-symmetry-primary-mgo_rocksalt.csv",
+    "originalFilename": "flamel-symmetry-primary-mgo_rocksalt.csv",
+    "kind": "generationCohortCsv",
+    "selection": {
+      "scope": "primary",
+      "control": "mgo_rocksalt"
+    }
+  },
+  {
+    "filename": "flamel-selected-energy-pair-mgo_rocksalt.csv",
+    "originalFilename": "flamel-selected-energy-pair-mgo_rocksalt.csv",
+    "kind": "modelEnergyCsv",
+    "selection": {
+      "control": "mgo_rocksalt",
+      "scope": "mgo_rocksalt; supplementary_primary_plus_topup_pool; selected one structure per arm"
+    }
+  },
+  {
+    "filename": "flamel-composition-attempts-CaMg2O3.csv",
+    "originalFilename": "flamel-composition-attempts-CaMg2O3.csv",
+    "kind": "generationDrawCsv",
+    "selection": {
+      "formula": "CaMg2O3",
+      "scope": "CaMg2O3; eight new-formula attempts"
+    }
+  },
+  {
+    "filename": "flamel-prototype-baselines.csv",
+    "originalFilename": "flamel-prototype-baselines.csv",
+    "kind": "prototypeCsv",
+    "selection": {}
+  },
+  {
+    "filename": "flamel-historical-composition-absence.csv",
+    "originalFilename": "flamel-historical-composition-absence.csv",
+    "kind": "compositionNoveltyCsv",
+    "selection": {}
+  },
+  {
+    "filename": "flamel-symmetry-primary-tio2_rutile.csv",
+    "originalFilename": "flamel-symmetry-primary-tio2_rutile.csv",
+    "kind": "generationCohortCsv",
+    "selection": {
+      "scope": "primary",
+      "control": "tio2_rutile"
+    }
+  },
+  {
+    "filename": "flamel-symmetry-supplementary-mgo_rocksalt.csv",
+    "originalFilename": "flamel-symmetry-supplementary-mgo_rocksalt.csv",
+    "kind": "generationCohortCsv",
+    "selection": {
+      "scope": "supplementary",
+      "control": "mgo_rocksalt"
+    }
+  },
+  {
+    "filename": "flamel-excluded-new-formula-diagnostics.csv",
+    "kind": "generationDrawCsv",
+    "selection": {
+      "excluded": true,
+      "scope": "All twelve new-formula larger-cell diagnostics"
+    }
+  },
+  {
+    "filename": "flamel-uncertainty-20261022-full.csv",
+    "kind": "uncertaintyMetricsCsv",
+    "selection": {
+      "seed": 20261022,
+      "endpoint": "full",
+      "retainedFraction": 0.1
+    }
+  },
+  {
+    "filename": "flamel-retention-20261022-full.csv",
+    "kind": "uncertaintyRiskCsv",
+    "selection": {
+      "seed": 20261022,
+      "endpoint": "full",
+      "retainedFraction": 0.1
+    }
+  },
+  {
+    "filename": "flamel-deciles-20261022-full.csv",
+    "originalFilename": "flamel-deciles-20261022-full.csv",
+    "kind": "uncertaintyDecilesCsv",
+    "selection": {
+      "seed": 20261022,
+      "endpoint": "full",
+      "retainedFraction": 0.1
+    }
+  },
+  {
+    "filename": "flamel-full-policy-roles.csv",
+    "originalFilename": "flamel-full-policy-roles.csv",
+    "kind": "uncertaintyRolesCsv",
+    "selection": {}
+  },
+  {
+    "filename": "flamel-qe-all.csv",
+    "originalFilename": "flamel-displayed-qe-jobs.csv",
+    "kind": "dftJobsCsv",
+    "selection": {
+      "role": "all",
+      "phase": "all",
+      "calculation": "all",
+      "status": "all"
+    }
+  },
+  {
+    "filename": "flamel-reference-all.csv",
+    "originalFilename": "flamel-displayed-reference-memberships.csv",
+    "kind": "referenceMembershipsCsv",
+    "selection": {
+      "system": "all",
+      "status": "all",
+      "elementalsOnly": false,
+      "spinOnly": false
+    }
+  },
+  {
+    "filename": "flamel-qe-perturbation.csv",
+    "originalFilename": "flamel-displayed-qe-jobs (1).csv",
+    "kind": "dftJobsCsv",
+    "selection": {
+      "role": "perturbation",
+      "phase": "all",
+      "calculation": "all",
+      "status": "all"
+    }
+  },
+  {
+    "filename": "flamel-reference-primary-missing.csv",
+    "originalFilename": "flamel-displayed-reference-memberships (1).csv",
+    "kind": "referenceMembershipsCsv",
+    "selection": {
+      "system": "Ca-Mg-O",
+      "status": "missing",
+      "elementalsOnly": false,
+      "spinOnly": false
+    }
+  },
+  {
+    "filename": "flamel-claim-evidence-matrix.csv",
+    "originalFilename": "flamel-claim-evidence-matrix.csv",
+    "kind": "claimsCsv",
+    "selection": {}
+  },
+  {
+    "filename": "flamel-frozen-computational-accounting.csv",
+    "originalFilename": "flamel-frozen-computational-accounting.csv",
+    "kind": "budget",
+    "selection": {}
+  }
+]

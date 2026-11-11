@@ -1,0 +1,59 @@
+2026-10-22T01:57:19.531378+00:00 fit/calibrate round=0 rows=2000 seconds=14.646 q=7.303856
+2026-10-22T01:57:21.005017+00:00 IMMUTABLE_PAIRED_INITIAL_READY path=artifacts\phase4\models\seed_20261026\initial_paired_seed_20261026.joblib sha256=edc502b0093b7f586c0cd71f8d74766c52401232271c6da23c2ba301ae18ced5
+2026-10-22T01:57:21.482132+00:00 policy start random
+2026-10-22T01:57:35.626194+00:00 fit/calibrate round=1 rows=2010 seconds=13.702 q=7.720357
+2026-10-22T01:57:37.386285+00:00 policy=random round=1 complete cumulative_queries=10
+2026-10-22T01:57:51.263831+00:00 fit/calibrate round=2 rows=2020 seconds=13.443 q=7.487708
+2026-10-22T01:57:53.280984+00:00 policy=random round=2 complete cumulative_queries=20
+2026-10-22T01:58:06.755586+00:00 fit/calibrate round=3 rows=2030 seconds=13.038 q=6.937015
+2026-10-22T01:58:08.658857+00:00 policy=random round=3 complete cumulative_queries=30
+2026-10-22T01:58:21.106090+00:00 fit/calibrate round=4 rows=2040 seconds=12.000 q=6.760999
+2026-10-22T01:58:22.728974+00:00 policy=random round=4 complete cumulative_queries=40
+2026-10-22T01:58:33.714674+00:00 fit/calibrate round=5 rows=2050 seconds=10.610 q=7.406304
+2026-10-22T01:58:35.135606+00:00 policy=random round=5 complete cumulative_queries=50
+2026-10-22T01:58:35.135606+00:00 policy start quality
+2026-10-22T01:58:44.684785+00:00 fit/calibrate round=1 rows=2010 seconds=9.218 q=7.525132
+2026-10-22T01:58:46.118620+00:00 policy=quality round=1 complete cumulative_queries=10
+2026-10-22T01:58:56.367826+00:00 fit/calibrate round=2 rows=2020 seconds=9.823 q=7.289673
+2026-10-22T01:58:57.770227+00:00 policy=quality round=2 complete cumulative_queries=20
+2026-10-22T01:59:08.109271+00:00 fit/calibrate round=3 rows=2030 seconds=10.030 q=7.784221
+2026-10-22T01:59:09.672836+00:00 policy=quality round=3 complete cumulative_queries=30
+2026-10-22T01:59:21.064316+00:00 fit/calibrate round=4 rows=2040 seconds=11.015 q=7.051778
+2026-10-22T01:59:22.894622+00:00 policy=quality round=4 complete cumulative_queries=40
+2026-10-22T01:59:35.852709+00:00 fit/calibrate round=5 rows=2050 seconds=12.508 q=8.113747
+2026-10-22T01:59:37.641850+00:00 policy=quality round=5 complete cumulative_queries=50
+2026-10-22T01:59:37.642852+00:00 policy start quality_diversity
+2026-10-22T01:59:50.777861+00:00 fit/calibrate round=1 rows=2010 seconds=12.695 q=7.437861
+2026-10-22T01:59:52.541628+00:00 policy=quality_diversity round=1 complete cumulative_queries=10
+2026-10-22T02:00:05.930629+00:00 fit/calibrate round=2 rows=2020 seconds=12.963 q=7.248378
+2026-10-22T02:00:08.047920+00:00 policy=quality_diversity round=2 complete cumulative_queries=20
+2026-10-22T02:00:21.736841+00:00 fit/calibrate round=3 rows=2030 seconds=13.195 q=7.098296
+2026-10-22T02:00:23.660661+00:00 policy=quality_diversity round=3 complete cumulative_queries=30
+2026-10-22T02:00:37.102230+00:00 fit/calibrate round=4 rows=2040 seconds=13.020 q=7.611803
+2026-10-22T02:00:38.930220+00:00 policy=quality_diversity round=4 complete cumulative_queries=40
+2026-10-22T02:00:52.060202+00:00 fit/calibrate round=5 rows=2050 seconds=12.662 q=7.465274
+2026-10-22T02:00:53.920343+00:00 policy=quality_diversity round=5 complete cumulative_queries=50
+2026-10-22T02:00:53.921340+00:00 policy start uncertainty
+2026-10-22T02:01:07.099070+00:00 fit/calibrate round=1 rows=2010 seconds=12.683 q=7.631645
+2026-10-22T02:01:08.891213+00:00 policy=uncertainty round=1 complete cumulative_queries=10
+2026-10-22T02:01:22.815803+00:00 fit/calibrate round=2 rows=2020 seconds=13.442 q=6.991475
+2026-10-22T02:01:24.705113+00:00 policy=uncertainty round=2 complete cumulative_queries=20
+2026-10-22T02:01:37.321141+00:00 fit/calibrate round=3 rows=2030 seconds=12.182 q=6.437592
+2026-10-22T02:01:38.845851+00:00 policy=uncertainty round=3 complete cumulative_queries=30
+2026-10-22T02:01:50.094220+00:00 fit/calibrate round=4 rows=2040 seconds=10.878 q=6.989242
+2026-10-22T02:01:51.636456+00:00 policy=uncertainty round=4 complete cumulative_queries=40
+2026-10-22T02:02:02.137926+00:00 fit/calibrate round=5 rows=2050 seconds=10.144 q=7.114896
+2026-10-22T02:02:03.454948+00:00 policy=uncertainty round=5 complete cumulative_queries=50
+2026-10-22T02:02:03.455956+00:00 policy start full
+2026-10-22T02:02:12.391208+00:00 fit/calibrate round=1 rows=2010 seconds=8.615 q=7.490588
+2026-10-22T02:02:13.747611+00:00 policy=full round=1 complete cumulative_queries=10
+2026-10-22T02:02:23.048002+00:00 fit/calibrate round=2 rows=2020 seconds=8.983 q=7.594204
+2026-10-22T02:02:24.418841+00:00 policy=full round=2 complete cumulative_queries=20
+2026-10-22T02:02:33.722242+00:00 fit/calibrate round=3 rows=2030 seconds=8.961 q=7.443989
+2026-10-22T02:02:35.023196+00:00 policy=full round=3 complete cumulative_queries=30
+2026-10-22T02:02:44.233021+00:00 fit/calibrate round=4 rows=2040 seconds=8.909 q=7.575786
+2026-10-22T02:02:45.515375+00:00 policy=full round=4 complete cumulative_queries=40
+2026-10-22T02:02:54.664341+00:00 fit/calibrate round=5 rows=2050 seconds=8.840 q=7.506869
+2026-10-22T02:02:55.974817+00:00 policy=full round=5 complete cumulative_queries=50
+2026-10-22T02:02:58.017159+00:00 ALL_FIVE_POLICIES_COMPLETE queries=250 evaluator_population=3418
+2026-10-22T02:02:58.077746+00:00 full run complete elapsed_seconds=353.240

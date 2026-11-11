@@ -1,0 +1,26 @@
+&CONTROL
+ calculation='scf', prefix='p3_mgo_final_final_k045', pseudo_dir='./pseudo', outdir='./scratch',
+ tprnfor=.true., tstress=.true., verbosity='high',
+ max_seconds=150, nstep=80, etot_conv_thr=1.0d-5, forc_conv_thr=8.0d-4,
+/
+&SYSTEM
+ ibrav=0, nat=2, ntyp=2,
+ ecutwfc=90.00000000, ecutrho=720.00000000, input_dft='PBE',
+ nosym=.true., noinv=.true.,
+ nspin=1, occupations='fixed',
+/
+&ELECTRONS
+ conv_thr=1.0d-8, electron_maxstep=100, scf_must_converge=.true., mixing_beta=0.4,
+/
+ATOMIC_SPECIES
+Mg 24.30500000 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+O 15.99940000 O.pbe-n-kjpaw_psl.0.1.UPF
+CELL_PARAMETERS angstrom
+-2.124744324402 -2.124743777972 0.000000674485
+-2.124743401669 -0.000000248247 -2.124742704685
+-0.000000632225 -2.124742471261 -2.124742320707
+ATOMIC_POSITIONS crystal
+Mg -0.000000024464 -0.000000012987 0.000000028092
+O 0.500000024464 0.500000012987 0.499999971908
+K_POINTS automatic
+6 6 6 0 0 0

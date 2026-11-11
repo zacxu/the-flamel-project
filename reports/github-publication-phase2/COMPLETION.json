@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "phase": 2,
+  "status": "COMPLETE",
+  "completed_utc": "2026-11-10T18:53:41.563299+00:00",
+  "source": "D:\\bears",
+  "work_root": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT",
+  "input_files": 105566,
+  "input_bytes": 19209861909,
+  "input_categories": {
+    "recreate": {
+      "files": 94868,
+      "bytes": 13340019207
+    },
+    "git": {
+      "files": 5118,
+      "bytes": 297230585
+    },
+    "release": {
+      "files": 5579,
+      "bytes": 5572611064
+    },
+    "private_backup": {
+      "files": 1,
+      "bytes": 1053
+    }
+  },
+  "generated_git_control_files": 28,
+  "final_source_files": 105594,
+  "final_git_selected_files": 5146,
+  "archives": 14,
+  "archive_bytes": 5582625555,
+  "project_release_files": 5579,
+  "production_recovery_members": 130,
+  "full_archive_and_member_verification": true,
+  "project_restore_verified": true,
+  "production_restore_verified": true,
+  "safety_fixtures_passed": 24,
+  "vendor_provenance_checks_passed": true,
+  "disposition_manifest_sha256": "0b541e73b2461410a64343f2ec5f4a562a6c61540caddd8bf19a694c01995c22",
+  "artifact_manifest_sha256": "afcd6f3ce400e68a075f7dc87bc5d08c8040a9042ae1669986ed25f8fc8dcc6b",
+  "generated_control_manifest_sha256": "1e63741d36bf31bb012a8d29b6f743501626899f24be48f17a5f7311db29d6c4",
+  "generated_control_manifest": "C:\\Users\\Admin\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\control-files.json",
+  "phase1_original_inventory_sha256": "0a224fb688a3bd99825e5e53dd999ad2c4874c42675b8715a6a05e580b6aa17d",
+  "archive_tool_sha256": "58f01a53b83f4e757f354b851129baca09895aa43c60c3f3d17b519c2dbc2917",
+  "preparer_sha256": "dcbda5628171cbcc60b83adf150675d25ba85bf9dd575714ef07f30df5d85237",
+  "portable_test_script_sha256": "0ad098e0b64e829c98fb977eda7c56e8ce3ba2e73206062975acadb720b2d8a4",
+  "git_lfs_selected": false,
+  "git_initialized": false,
+  "gitignore_changed": false,
+  "hosting_changed": false,
+  "uploaded": false,
+  "phase3_security_licence_clearance": false,
+  "phase4_installation_tested": false,
+  "production_scope": "Phase1 active-site recovery capture, not full physical hosting export",
+  "source_control_receipt_mirrors": [
+    "reports/github-publication-phase2/COMPLETION.json",
+    "reports/github-publication-phase2/COMPLETION.sha256"
+  ]
+}

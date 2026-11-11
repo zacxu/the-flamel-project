@@ -1,0 +1,987 @@
+{
+  "phase": "W6",
+  "status": "passed",
+  "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "checks": [
+    {
+      "name": "Final release cold Overview is 629339 bytes with no failing request",
+      "passed": true
+    },
+    {
+      "name": "Full timed native tour visits all 25 scenes and completes at 180 seconds",
+      "passed": true,
+      "detail": {
+        "seconds": 180.138,
+        "scenes": 25
+      }
+    },
+    {
+      "name": "Timed rehearsal has no intervention after Start",
+      "passed": true
+    },
+    {
+      "name": "Final Exit restores ordinary browsing and Start focus",
+      "passed": true
+    },
+    {
+      "name": "Final keyboard Start focuses Pause",
+      "passed": true
+    },
+    {
+      "name": "Paused Next shows zero-query Quality replay after settled render",
+      "passed": true
+    },
+    {
+      "name": "Previous returns to paused first step",
+      "passed": true
+    },
+    {
+      "name": "Resume restores running Pause action",
+      "passed": true
+    },
+    {
+      "name": "Ordinary navigation exits running tour",
+      "passed": true
+    },
+    {
+      "name": "All five policy toggles can be enabled",
+      "passed": true
+    },
+    {
+      "name": "Replay split selector 20261022",
+      "passed": true
+    },
+    {
+      "name": "Replay split selector 20261023",
+      "passed": true
+    },
+    {
+      "name": "Replay split selector 20261024",
+      "passed": true
+    },
+    {
+      "name": "Replay split selector 20261025",
+      "passed": true
+    },
+    {
+      "name": "Replay split selector 20261026",
+      "passed": true
+    },
+    {
+      "name": "Replay inspected policy quality",
+      "passed": true
+    },
+    {
+      "name": "Replay inspected policy full",
+      "passed": true
+    },
+    {
+      "name": "Replay inspected policy quality_diversity",
+      "passed": true
+    },
+    {
+      "name": "Replay inspected policy random",
+      "passed": true
+    },
+    {
+      "name": "Replay inspected policy uncertainty",
+      "passed": true
+    },
+    {
+      "name": "Random query dialog retains ten null scores and thirty hidden outcome fields",
+      "passed": true
+    },
+    {
+      "name": "Revealed query dialog removes every hidden-outcome placeholder",
+      "passed": true
+    },
+    {
+      "name": "Query drawer hands off to resolved source records",
+      "passed": true
+    },
+    {
+      "name": "Source Escape closes modal",
+      "passed": true
+    },
+    {
+      "name": "Ordinary replay autoplay starts after tour exit",
+      "passed": true
+    },
+    {
+      "name": "Ordinary autoplay completes all five batches without stopping after one",
+      "passed": true,
+      "detail": {
+        "hash": "#/replay?mode=seed&seed=20261026&policies=quality%2Cfull%2Cquality_diversity%2Crandom%2Cuncertainty&policy=quality&budget=50&batch=5&revealed=true&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+        "text": "All five batches revealed · 50 recorded queries"
+      }
+    },
+    {
+      "name": "Aggregate mode disables individual playback and query inspection",
+      "passed": true
+    },
+    {
+      "name": "Saved crystal camera changes and geometry remains accepted DFT",
+      "passed": true
+    },
+    {
+      "name": "Mobile Crystal Lab and canvas fit viewport",
+      "passed": true
+    },
+    {
+      "name": "Mobile overview contains page width",
+      "passed": true,
+      "detail": {
+        "heading": "Explore the search for new crystals.",
+        "scroll": 375,
+        "width": 390
+      }
+    },
+    {
+      "name": "Mobile workflow contains page width",
+      "passed": true,
+      "detail": {
+        "heading": "Follow the experiment.",
+        "scroll": 375,
+        "width": 390
+      }
+    },
+    {
+      "name": "Mobile replay contains page width",
+      "passed": true,
+      "detail": {
+        "heading": "Compare the search policies.",
+        "scroll": 375,
+        "width": 390
+      }
+    },
+    {
+      "name": "Mobile findings contains page width",
+      "passed": true,
+      "detail": {
+        "heading": "Results, with their limits.",
+        "scroll": 375,
+        "width": 390
+      }
+    },
+    {
+      "name": "Mobile evidence contains page width",
+      "passed": true,
+      "detail": {
+        "heading": "A claim needs a record.",
+        "scroll": 375,
+        "width": 390
+      }
+    },
+    {
+      "name": "Final mobile viewer controls use dark legible text",
+      "passed": true,
+      "detail": [
+        {
+          "color": "rgb(32, 42, 49)",
+          "text": " Auto-rotate"
+        },
+        {
+          "color": "rgb(32, 42, 49)",
+          "text": " Enable touch rotation"
+        },
+        {
+          "color": "rgb(32, 42, 49)",
+          "text": "Inspect physical site"
+        }
+      ]
+    },
+    {
+      "name": "Actual WebGL context loss retains fallback and CIF link",
+      "passed": true
+    },
+    {
+      "name": "Context-loss Retry restores actual canvas",
+      "passed": true
+    },
+    {
+      "name": "Corrupt optional image falls back to the verified original figure",
+      "passed": true,
+      "detail": [
+        {
+          "alt": "Saved primary-generation plot with first-eight validity and unique yield for MgO and TiO2 conditioning arms",
+          "height": 940,
+          "width": 2400
+        },
+        {
+          "alt": "Saved within-composition CHGNet energy comparisons for the selected MgO and TiO2 pairs and TiO2 references",
+          "height": 960,
+          "width": 2300
+        },
+        {
+          "alt": "Four-panel frozen figure: Full minus Quality hit endpoints are negative in all five splits; empirical interval coverage varies by split; selective-risk curves compare Initial, Quality and Full; decile error is plotted against disagreement. Interactive tables above provide the selected context's numeric values.",
+          "height": 1826,
+          "width": 2420
+        }
+      ]
+    },
+    {
+      "name": "QE perturbation filter retains one incomplete saved job",
+      "passed": true
+    },
+    {
+      "name": "Accepted inventory retains three memberships for two source IDs",
+      "passed": true
+    },
+    {
+      "name": "Final CSS-corrected cold release is under one MB",
+      "passed": true,
+      "detail": 629448
+    },
+    {
+      "name": "Overview loads the shared 3D viewer on intent",
+      "passed": true
+    },
+    {
+      "name": "Native Back restores Overview",
+      "passed": true
+    },
+    {
+      "name": "Native Forward restores Workflow",
+      "passed": true
+    },
+    {
+      "name": "Invalid deep link normalizes to available records and shows notice",
+      "passed": true
+    },
+    {
+      "name": "Normalized deep-link reload remains usable",
+      "passed": true
+    },
+    {
+      "name": "Clean production navigation has no console warning or error",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Reduced-motion fixture disables automatic crystal rotation",
+      "passed": true
+    }
+  ],
+  "captures": [
+    {
+      "path": "reports/W6_TOUR_COMPLETE.jpg",
+      "scope": "Final 3:00 completed presentation and methods panel"
+    },
+    {
+      "path": "reports/W6_MOBILE_CRYSTAL.jpg",
+      "scope": "390px actual saved-cell workspace"
+    },
+    {
+      "path": "reports/W6_OVERVIEW_DESKTOP.jpg",
+      "scope": "Final production Overview after contrast fix"
+    }
+  ],
+  "layouts": [
+    {
+      "view": "crystals",
+      "canvas": 299,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "view": "overview",
+      "heading": "Explore the search for new crystals.",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "view": "workflow",
+      "heading": "Follow the experiment.",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "view": "replay",
+      "heading": "Compare the search policies.",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "view": "findings",
+      "heading": "Results, with their limits.",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "view": "evidence",
+      "heading": "A claim needs a record.",
+      "scroll": 375,
+      "width": 390
+    }
+  ],
+  "tourObservations": [
+    {
+      "at": 1792677918340,
+      "caption": "An integrated crystal-discovery prototype. The historical acquisition study and fresh-structure study remain separate.",
+      "heading": "Step 1 of 6 · running0:00 / 3:00",
+      "hash": "#/overview?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 0,
+      "selects": []
+    },
+    {
+      "at": 1792677926481,
+      "caption": "Six formula proposals were absent from two pinned composition snapshots; this is a historical snapshot claim.",
+      "heading": "Step 1 of 6 · running0:08 / 3:00",
+      "hash": "#/workflow?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 8.12639999999851,
+      "selects": []
+    },
+    {
+      "at": 1792677932454,
+      "caption": "A pretrained symmetry-aware transformer generated the recorded draws. Both conditioning arms use the same architecture.",
+      "heading": "Step 1 of 6 · running0:14 / 3:00",
+      "hash": "#/workflow?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 14.11739999999851,
+      "selects": []
+    },
+    {
+      "at": 1792677938481,
+      "caption": "No new-formula transformer draw passed the exact-cell gate. The known-control and prototype branches keep their own scope.",
+      "heading": "Step 1 of 6 · running0:20 / 3:00",
+      "hash": "#/workflow?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 20.13760000000149,
+      "selects": []
+    },
+    {
+      "at": 1792677943458,
+      "caption": "0 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.",
+      "heading": "Step 2 of 6 · running0:25 / 3:00",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=0&batch=1&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 25.10020000000298,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "quality"
+        }
+      ]
+    },
+    {
+      "at": 1792677948388,
+      "caption": "10 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.",
+      "heading": "Step 2 of 6 · running0:30 / 3:00",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=10&batch=1&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 30.02460000000149,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "quality"
+        },
+        {
+          "label": "Inspected batchBatch 1 · revealedBatch 2 · pr",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "at": 1792677954366,
+      "caption": "20 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.",
+      "heading": "Step 2 of 6 · running0:36 / 3:00",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=20&batch=2&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 36.0075,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "quality"
+        },
+        {
+          "label": "Inspected batchBatch 1 · revealedBatch 2 · re",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "at": 1792677960610,
+      "caption": "30 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.",
+      "heading": "Step 2 of 6 · running0:42 / 3:00",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=30&batch=3&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 42.24970000000298,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "quality"
+        },
+        {
+          "label": "Inspected batchBatch 1 · revealedBatch 2 · re",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "at": 1792677966369,
+      "caption": "40 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.",
+      "heading": "Step 2 of 6 · running0:48 / 3:00",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=40&batch=4&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 48.007000000000005,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "quality"
+        },
+        {
+          "label": "Inspected batchBatch 1 · revealedBatch 2 · re",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "at": 1792677972597,
+      "caption": "50 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.",
+      "heading": "Step 2 of 6 · running0:54 / 3:00",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=50&batch=5&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 54.23939999999851,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "quality"
+        },
+        {
+          "label": "Inspected batchBatch 1 · revealedBatch 2 · re",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "at": 1792677978583,
+      "caption": "Inspect Full at the same 50-query endpoint. Broader chemistry coverage came with fewer historical near-stable hits.",
+      "heading": "Step 2 of 6 · running1:00 / 3:00",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 60.20870000000298,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "full"
+        },
+        {
+          "label": "Inspected batchBatch 1 · revealedBatch 2 · re",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "at": 1792677982474,
+      "caption": "Five overlapping splits: Quality retrieved more near-stable records in every paired split. Mean and sample SD describe saved retrieval outcomes.",
+      "heading": "Step 2 of 6 · running1:04 / 3:00",
+      "hash": "#/replay?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 64.1045,
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splitsSplit",
+          "value": "aggregate"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "full"
+        }
+      ]
+    },
+    {
+      "at": 1792677988447,
+      "caption": "Rotate the actual eight-atom, finite-checked known-MgO control. This is known-phase recovery.",
+      "heading": "Step 3 of 6 · running1:10 / 3:00",
+      "hash": "#/crystals?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 70.06860000000148,
+      "selects": [
+        {
+          "label": "CandidateMgO · CrystalFormer · nontrivial · 8",
+          "value": "phase1_mgo_attempt_000"
+        },
+        {
+          "label": "Saved stageGenerated · 8 atomsCHGNet relaxed ",
+          "value": "phase1_mgo_attempt_000--accepted_dft"
+        },
+        {
+          "label": "Comparison saved stageChoose a separate saved",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678000466,
+      "caption": "Six-atom CaMg₂O₃ is a prepared prototype baseline, relaxed by CHGNet. Model convergence is separate from DFT validation.",
+      "heading": "Step 3 of 6 · running1:22 / 3:00",
+      "hash": "#/crystals?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=prototype_CaMg2O3&stageId=prototype_CaMg2O3--model_relaxed&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 82.12110000000149,
+      "selects": [
+        {
+          "label": "CandidateMgO · CrystalFormer · nontrivial · 8",
+          "value": "prototype_CaMg2O3"
+        },
+        {
+          "label": "Saved stagePrototype initial geometry · 6 ato",
+          "value": "prototype_CaMg2O3--model_relaxed"
+        },
+        {
+          "label": "Comparison saved stageChoose a separate saved",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678012404,
+      "caption": "The twelve-atom transformer draw has a matching reduced ratio but fails the frozen six-atom exact-cell gate. Its saved geometry remains excluded.",
+      "heading": "Step 3 of 6 · running1:34 / 3:00",
+      "hash": "#/crystals?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 94.0635,
+      "selects": [
+        {
+          "label": "CandidateMgO · CrystalFormer · nontrivial · 8",
+          "value": "phase3_early_CaMg2O3_attempt_005"
+        },
+        {
+          "label": "Saved stageGenerated: excluded by protocol · ",
+          "value": "phase3_early_CaMg2O3_attempt_005--generated_excluded"
+        },
+        {
+          "label": "Comparison saved stageChoose a separate saved",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678023406,
+      "caption": "Primary MgO: 7/8 versus 0/8 exact-cell valid; unique yield 1/8 versus 0/8. Same architecture, different conditioning.",
+      "heading": "Step 4 of 6 · running1:45 / 3:00",
+      "hash": "#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 105.04920000000298,
+      "selects": []
+    },
+    {
+      "at": 1792678033605,
+      "caption": "Primary TiO₂: 6/8 versus 1/8 valid, but 1/8 unique in both arms. Validity and unique yield answer different questions.",
+      "heading": "Step 4 of 6 · running1:55 / 3:00",
+      "hash": "#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 115.25729999999702,
+      "selects": [
+        {
+          "label": "Symmetry control composition",
+          "value": "mgo_rocksalt"
+        },
+        {
+          "label": "Selected model-energy pair",
+          "value": "mgo_rocksalt"
+        },
+        {
+          "label": "Composition proposal",
+          "value": "CaMg2O3"
+        },
+        {
+          "label": "Uncertainty split",
+          "value": "20261022"
+        },
+        {
+          "label": "Advanced uncertainty endpoint",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678043526,
+      "caption": "One selected CHGNet structure per arm. The MgO energy pair comes from the supplementary primary-plus-top-up pool; it does not change the primary yield denominators.",
+      "heading": "Step 4 of 6 · running2:05 / 3:00",
+      "hash": "#/findings?mode=aggregate&seed=20261022&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 125.17570000000298,
+      "selects": [
+        {
+          "label": "Symmetry control composition",
+          "value": "tio2_rutile"
+        },
+        {
+          "label": "Selected model-energy pair",
+          "value": "mgo_rocksalt"
+        },
+        {
+          "label": "Composition proposal",
+          "value": "CaMg2O3"
+        },
+        {
+          "label": "Uncertainty split",
+          "value": "20261022"
+        },
+        {
+          "label": "Advanced uncertainty endpoint",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678053460,
+      "caption": "Full, split 20261023: empirical interval coverage is below the nominal 90% target. The displayed table gives the actual saved result.",
+      "heading": "Step 5 of 6 · running2:15 / 3:00",
+      "hash": "#/findings?mode=aggregate&seed=20261023&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 135.10460000000148,
+      "selects": [
+        {
+          "label": "Symmetry control composition",
+          "value": "tio2_rutile"
+        },
+        {
+          "label": "Selected model-energy pair",
+          "value": "mgo_rocksalt"
+        },
+        {
+          "label": "Composition proposal",
+          "value": "CaMg2O3"
+        },
+        {
+          "label": "Uncertainty split",
+          "value": "20261023"
+        },
+        {
+          "label": "Advanced uncertainty endpoint",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678061522,
+      "caption": "Full, split 20261024: coverage is above 90%. Calibration varies by held-out split.",
+      "heading": "Step 5 of 6 · running2:23 / 3:00",
+      "hash": "#/findings?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 143.16279999999702,
+      "selects": [
+        {
+          "label": "Symmetry control composition",
+          "value": "tio2_rutile"
+        },
+        {
+          "label": "Selected model-energy pair",
+          "value": "mgo_rocksalt"
+        },
+        {
+          "label": "Composition proposal",
+          "value": "CaMg2O3"
+        },
+        {
+          "label": "Uncertainty split",
+          "value": "20261024"
+        },
+        {
+          "label": "Advanced uncertainty endpoint",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678069586,
+      "caption": "Retain the saved lowest-uncertainty 10% subset: 342 of 3,418 rows after rounding. Subset MAE is a diagnostic, not a newly evaluated acquisition policy.",
+      "heading": "Step 5 of 6 · running2:31 / 3:00",
+      "hash": "#/findings?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=0.1",
+      "progress": 151.241299999997,
+      "selects": [
+        {
+          "label": "Symmetry control composition",
+          "value": "tio2_rutile"
+        },
+        {
+          "label": "Selected model-energy pair",
+          "value": "mgo_rocksalt"
+        },
+        {
+          "label": "Composition proposal",
+          "value": "CaMg2O3"
+        },
+        {
+          "label": "Uncertainty split",
+          "value": "20261024"
+        },
+        {
+          "label": "Advanced uncertainty endpoint",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678074581,
+      "caption": "Restore all 3,418 rows. Compare selected-subset error with all-row error without claiming improved predictions for the complete population.",
+      "heading": "Step 5 of 6 · running2:36 / 3:00",
+      "hash": "#/findings?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 156.2045,
+      "selects": [
+        {
+          "label": "Symmetry control composition",
+          "value": "tio2_rutile"
+        },
+        {
+          "label": "Selected model-energy pair",
+          "value": "mgo_rocksalt"
+        },
+        {
+          "label": "Composition proposal",
+          "value": "CaMg2O3"
+        },
+        {
+          "label": "Uncertainty split",
+          "value": "20261024"
+        },
+        {
+          "label": "Advanced uncertainty endpoint",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "at": 1792678078479,
+      "caption": "All nineteen real QE jobs remain visible. Process completion, terminal SCF, stationarity and full finite checks are separate fields.",
+      "heading": "Step 6 of 6 · running2:40 / 3:00",
+      "hash": "#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 160.1255,
+      "selects": []
+    },
+    {
+      "at": 1792678086551,
+      "caption": "The 900-second perturbation is incomplete: no accepted terminal energy, force or stress. Three accepted geometries correspond to two original source-reference IDs.",
+      "heading": "Step 6 of 6 · running2:48 / 3:00",
+      "hash": "#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 168.20560000000148,
+      "selects": [
+        {
+          "label": "Job roleAll rolesknown MgO engine pilotcandid",
+          "value": "all"
+        },
+        {
+          "label": "Research phaseAll research phasesResearch pha",
+          "value": "all"
+        },
+        {
+          "label": "Calculation stageSCF and cell relaxationscfvc",
+          "value": "all"
+        },
+        {
+          "label": "Recorded validation statusAll evidence levels",
+          "value": "all"
+        },
+        {
+          "label": "Inventory systemBoth inventories · membership",
+          "value": "all"
+        },
+        {
+          "label": "Reference statusAccepted and missingAccepted ",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "at": 1792678092500,
+      "caption": "Only 2/161 primary and 1/57 fallback memberships are computed. No complete competing-phase hull or new stable material was established. Open the public source records to reproduce the account.",
+      "heading": "Step 6 of 6 · running2:54 / 3:00",
+      "hash": "#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 174.1503999999985,
+      "selects": [
+        {
+          "label": "Job roleAll rolesknown MgO engine pilotcandid",
+          "value": "perturbation"
+        },
+        {
+          "label": "Research phaseAll research phasesResearch pha",
+          "value": "all"
+        },
+        {
+          "label": "Calculation stageSCF and cell relaxationscfvc",
+          "value": "all"
+        },
+        {
+          "label": "Recorded validation statusAll evidence levels",
+          "value": "all"
+        },
+        {
+          "label": "Inventory systemBoth inventories · membership",
+          "value": "all"
+        },
+        {
+          "label": "Reference statusAccepted and missingAccepted ",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "at": 1792678098478,
+      "caption": "The recorded study is ready to explore. Exit the tour to continue browsing, or restart the presentation.",
+      "heading": "Tour complete3:00 / 3:00",
+      "hash": "#/evidence?mode=aggregate&seed=20261024&policies=quality%2Cfull&policy=full&budget=50&batch=5&revealed=false&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1",
+      "progress": 180,
+      "selects": [
+        {
+          "label": "Job roleAll rolesknown MgO engine pilotcandid",
+          "value": "all"
+        },
+        {
+          "label": "Research phaseAll research phasesResearch pha",
+          "value": "all"
+        },
+        {
+          "label": "Calculation stageSCF and cell relaxationscfvc",
+          "value": "all"
+        },
+        {
+          "label": "Recorded validation statusAll evidence levels",
+          "value": "all"
+        },
+        {
+          "label": "Inventory systemBoth inventories · membership",
+          "value": "all"
+        },
+        {
+          "label": "Reference statusAccepted and missingAccepted ",
+          "value": "all"
+        }
+      ]
+    }
+  ],
+  "browserCoverage": {
+    "tested": [
+      "ChatGPT in-app browser, Windows host"
+    ],
+    "unavailable": [
+      {
+        "name": "Chrome",
+        "reason": "No Chrome browser connection available"
+      },
+      {
+        "name": "Edge",
+        "reason": "No Edge browser connection available"
+      }
+    ]
+  },
+  "verificationLimits": [
+    "Chrome and Edge were explicitly attempted but no browser connection was available. Native checks used the ChatGPT in-app browser on this Windows host.",
+    "390px viewport coverage is emulation; no physical touchscreen, screen-reader certification or native hidden-page event delivery is claimed. Reduced-motion and frame/timer lifecycle behavior is verified separately in source acceptance.",
+    "The complete 180-second timed rehearsal used a passive loopback DOM/input console observer. Production application JavaScript/CSS were unchanged by the observer.",
+    "After that run, only inherited crystal-panel text/background CSS was corrected; final source-bound build, contrast, mobile, viewer/fallback and cold-transfer checks were repeated. Tour/runtime/data/export source remained unchanged.",
+    "Four actual W6 downloads were freshly collected; three unchanged actual W5 exports were hash-bound and revalidated against current W6 projections.",
+    "Earlier interrupted/provisional observations and resolved assertion-scope/timing issues are retained separately and are excluded from final passing counts."
+  ],
+  "preliminaryTourObservations": [
+    {
+      "observedAt": "2026-10-22T13:57:44.578Z",
+      "caption": "An integrated crystal-discovery prototype. The historical acquisition study and fresh-structure study remain separate.",
+      "elapsed": "0",
+      "hash": "#/overview?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=0&batch=1&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "heading": "Explore the search for new crystals.",
+      "selects": [],
+      "tour": "Step 1 of 6 · running0:00 / 3:00"
+    },
+    {
+      "observedAt": "2026-10-22T13:58:38.001Z",
+      "caption": "40 of 50 historical queries, at recorded batch boundaries. Quality and Full use the same label budget.",
+      "elapsed": "53.53439999999851",
+      "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=40&batch=4&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+      "heading": "Compare the search policies.",
+      "selects": [
+        {
+          "label": "SplitAggregate · five overlapping splits",
+          "value": "20261022"
+        },
+        {
+          "label": "Inspected policyQualityFull",
+          "value": "quality"
+        },
+        {
+          "label": "Inspected batchBatch 1 · revealedBatch 2",
+          "value": "4"
+        }
+      ],
+      "tour": "Step 2 of 6 · running0:53 / 3:00"
+    }
+  ],
+  "preliminaryChecks": [
+    {
+      "name": "Cold Overview is under one megabyte and heavy chunks wait for intent",
+      "passed": true,
+      "detail": 628740
+    },
+    {
+      "name": "Final cold Overview loads below one MB with no missing resource",
+      "passed": true,
+      "detail": {
+        "bytes": 629141,
+        "requests": 14
+      }
+    },
+    {
+      "name": "Keyboard Start places focus on Pause tour",
+      "passed": true
+    },
+    {
+      "name": "Next while paused selects exact accepted MgO stage",
+      "passed": true,
+      "detail": {
+        "hash": "#/crystals?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=10&batch=1&revealed=true&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+        "tour": "Step 3 of 6 · paused1:10 / 3:00"
+      }
+    },
+    {
+      "name": "Previous returns to first replay boundary and stays paused",
+      "passed": true,
+      "detail": {
+        "hash": "#/replay?mode=seed&seed=20261022&policies=quality%2Cfull&policy=quality&budget=0&batch=1&revealed=false&candidateId=phase1_mgo_attempt_000&stageId=phase1_mgo_attempt_000--accepted_dft&scope=primary&endpoint=full&retainedFraction=1",
+        "tour": "Step 2 of 6 · paused0:25 / 3:00"
+      }
+    },
+    {
+      "name": "Resume resumes the paused tour",
+      "passed": true
+    },
+    {
+      "name": "Exit removes tour and returns keyboard focus to its launcher",
+      "passed": true
+    }
+  ],
+  "timedTourCompleted": true,
+  "full180SecondTourCompleted": true,
+  "timedTourDurationSeconds": 180.138,
+  "tourFixtureScope": "Passive loopback-only DOM mutation and input observer writes console records. No route, clock, click, model or data mutation; production JS/CSS unchanged.",
+  "resolvedTestIssues": [
+    {
+      "check": {
+        "name": "Paused Next applies the exact zero-query Quality replay preset",
+        "passed": false
+      },
+      "reason": "Read before the asynchronous route render settled. Rechecked the visible step and URL after its heading appeared."
+    },
+    {
+      "check": {
+        "name": "Predictions-only random batch has ten unavailable scores and hidden outcomes",
+        "passed": false
+      },
+      "reason": "Scoped the assertion to the query dialog; the underlying zero-query precision is also correctly unavailable."
+    }
+  ],
+  "timedTourBuildId": "ui-w6-b9b0eaf5f6cd87924a9e",
+  "finalRevision": "CSS-only correction to inherited crystal-control text colour after the completed timed run; App/tour/geometry/data/export code unchanged. Final native colour/mobile/fallback checks repeated.",
+  "checksPassed": 48,
+  "checkedAt": "2026-10-22T14:27:09.702Z"
+}

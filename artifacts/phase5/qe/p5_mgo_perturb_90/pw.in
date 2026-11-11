@@ -1,0 +1,38 @@
+&CONTROL
+ calculation='vc-relax', prefix='p5_mgo_perturb_90', pseudo_dir='./pseudo', outdir='./scratch',
+ tprnfor=.true., tstress=.true., verbosity='high',
+ max_seconds=900, nstep=80, etot_conv_thr=1.0d-5, forc_conv_thr=8.0d-4,
+/
+&SYSTEM
+ ibrav=0, nat=8, ntyp=2,
+ ecutwfc=90.00000000, ecutrho=720.00000000, input_dft='PBE',
+ nosym=.true., noinv=.true.,
+ nspin=1, occupations='fixed',
+/
+&ELECTRONS
+ conv_thr=1.0d-8, electron_maxstep=100, scf_must_converge=.true., mixing_beta=0.4,
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics='bfgs', press=0.0, press_conv_thr=0.1, cell_dofree='all',
+/
+ATOMIC_SPECIES
+Mg 24.30500000 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+O 15.99940000 O.pbe-n-kjpaw_psl.0.1.UPF
+CELL_PARAMETERS angstrom
+4.255533527276 -0.006101387504 -0.009820653568
+-0.006101387714 4.249432426742 0.009223903023
+-0.009820653425 0.009223902716 4.254417511217
+ATOMIC_POSITIONS crystal
+O 0.999670033330 0.998230169683 0.998491476196
+O 0.000411524281 0.501960371211 0.498758159993
+O 0.498051198998 0.998699250311 0.500225605673
+O 0.499684066656 0.497676739396 0.000218056796
+Mg 0.500633546460 0.498628335506 0.501809241397
+Mg 0.499791105560 0.002343116161 0.999954044588
+Mg 0.002153559342 0.500907322868 0.999732534169
+Mg 0.001667063251 0.000831930641 0.498568248949
+K_POINTS automatic
+5 5 5 0 0 0

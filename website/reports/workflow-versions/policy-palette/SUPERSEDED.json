@@ -1,0 +1,8 @@
+{
+  "uiBuildId": "ui-w6-c6c6cf9a1616ed274fb0",
+  "status": "packaged_not_deployed_superseded_by_scope_extension",
+  "recordedAt": "2026-10-22T16:49:26.931285+00:00",
+  "reason": "User extended the task to stronger contribution wording and more detailed generalized CrystalFormer/CHGNet architectures.",
+  "liveUiAtHold": "ui-w6-3d3b82bd8b716b165c7e",
+  "retained": "Exact package ZIP/record, source inputs, staging delta/entry, generated identity and complete packaged dist."
+}

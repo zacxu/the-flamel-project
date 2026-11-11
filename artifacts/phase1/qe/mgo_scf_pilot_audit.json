@@ -1,0 +1,35 @@
+{
+  "reported_mpi_processes": 1.0,
+  "reported_threads_per_process": 4.0,
+  "reported_electrons": 8.0,
+  "irreducible_k_points": 8.0,
+  "final_scf_accuracy_bound_Ry": 7.7e-11,
+  "pressure_kbar": 45.25,
+  "qe_estimated_max_dynamic_ram_MB_lower_bound": 25.06,
+  "stderr_empty": true,
+  "authenticode": {
+    "status": "Valid",
+    "StatusMessage": "Signature verified.",
+    "signer_subject": "CN=Haonan Huang, O=Haonan Huang, L=Princeton, S=New Jersey, C=US",
+    "signer_thumbprint": "2623874FE67146115160256473EC78D8341C0171"
+  },
+  "scf_ready": true,
+  "primitive_volume_angstrom3": 18.65461525,
+  "nearest_Mg_O_distance_angstrom": 2.105,
+  "energy_plausibility_checks": [
+    "Finite total energy at the explicitly specified pseudopotential convention",
+    "Two-atom rocksalt primitive geometry and 8 valence electrons confirmed",
+    "SCF residual below requested threshold; no failed eigenvalue/convergence status",
+    "Absolute total energy is not compared against MP/VASP or an elemental reference"
+  ],
+  "limitations": [
+    "Fixed geometry; no ionic or cell relaxation",
+    "Pressure is 45.25 kbar (4.525 GPa); the cell is not optimized",
+    "No cutoff or k-point convergence study; this is not a production accuracy claim",
+    "QE prints available memory as 0 MiB on this Windows build; do not interpret that as host exhaustion",
+    "Reported QE RAM is an internal estimate, not measured peak OS RSS",
+    "QE notes ibrav=0 with symmetry is discouraged; 48 symmetry operations were nevertheless detected",
+    "UPF radial-wavefunction renormalization messages are retained in the output",
+    "This is an engine readiness result, not a generated crystal or phase-stability validation"
+  ]
+}

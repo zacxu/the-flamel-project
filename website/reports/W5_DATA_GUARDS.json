@@ -1,0 +1,819 @@
+{
+  "phase": "W5",
+  "status": "passed",
+  "generatedAt": "2026-10-22T13:25:44.759Z",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "actualDatasets": 42,
+  "checksPassed": 202,
+  "checks": [
+    {
+      "check": "Actual claims.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "claims.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "claims.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "claims.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual dft.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "dft.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "dft.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "dft.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual generation.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "generation.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "generation.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "generation.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual glossary.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "glossary.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "glossary.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "glossary.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual methods.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "methods.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "methods.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "methods.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual provenance.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "provenance.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "provenance.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "provenance.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual replay/curves.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "replay/curves.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "replay/curves.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "replay/curves.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual replay/seed-20261022.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261022.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261022.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261022.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual replay/seed-20261023.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261023.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261023.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261023.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual replay/seed-20261024.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261024.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261024.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261024.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual replay/seed-20261025.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261025.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261025.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261025.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual replay/seed-20261026.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261026.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261026.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "replay/seed-20261026.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/index.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/index.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/index.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/index.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase1_mgo_attempt_000--accepted_dft.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--accepted_dft.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--accepted_dft.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--accepted_dft.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase1_mgo_attempt_000--generated.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--generated.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--generated.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--generated.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase1_mgo_attempt_000--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase1_mgo_attempt_000--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase3_early_CaMg2O3_attempt_005--generated_excluded.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--generated.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_supplementary_mgo_rocksalt_p1_attempt_010--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_nontrivial_attempt_000--generated.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_nontrivial_attempt_000--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase4_tio2_rutile_p1_attempt_000--generated.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_p1_attempt_000--generated.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_p1_attempt_000--generated.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_p1_attempt_000--generated.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/phase4_tio2_rutile_p1_attempt_000--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_BaSnO2--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_BaSnO2--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_BaSnO2--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_BaSnO2--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_BaSnO2--prototype_initial.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_BaSnO2--prototype_initial.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_BaSnO2--prototype_initial.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_BaSnO2--prototype_initial.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_CaMg2O3--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_CaMg2O3--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_CaMg2O3--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_CaMg2O3--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_CaMg2O3--prototype_initial.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_CaMg2O3--prototype_initial.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_CaMg2O3--prototype_initial.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_CaMg2O3--prototype_initial.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_Mg2SrO3--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_Mg2SrO3--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_Mg2SrO3--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_Mg2SrO3--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_Mg2SrO3--prototype_initial.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_Mg2SrO3--prototype_initial.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_Mg2SrO3--prototype_initial.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_Mg2SrO3--prototype_initial.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_SnSrO2--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_SnSrO2--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_SnSrO2--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_SnSrO2--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/prototype_SnSrO2--prototype_initial.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_SnSrO2--prototype_initial.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_SnSrO2--prototype_initial.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/prototype_SnSrO2--prototype_initial.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/qe_source_reference_cao_mp2605--accepted_dft.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/qe_source_reference_cao_mp2605--accepted_dft.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/qe_source_reference_cao_mp2605--accepted_dft.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/qe_source_reference_cao_mp2605--accepted_dft.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/qe_source_reference_mgo_mp1265--accepted_dft.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/qe_source_reference_mgo_mp1265--accepted_dft.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/qe_source_reference_mgo_mp1265--accepted_dft.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/qe_source_reference_mgo_mp1265--accepted_dft.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/reference_anatase--catalog_initial.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_anatase--catalog_initial.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_anatase--catalog_initial.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_anatase--catalog_initial.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/reference_anatase--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_anatase--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_anatase--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_anatase--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/reference_rocksalt--catalog_initial.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rocksalt--catalog_initial.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rocksalt--catalog_initial.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rocksalt--catalog_initial.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/reference_rocksalt--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rocksalt--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rocksalt--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rocksalt--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/reference_rutile--catalog_initial.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rutile--catalog_initial.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rutile--catalog_initial.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rutile--catalog_initial.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual structures/reference_rutile--model_relaxed.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rutile--model_relaxed.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rutile--model_relaxed.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "structures/reference_rutile--model_relaxed.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual summary.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "summary.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "summary.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "summary.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual theme.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "theme.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "theme.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "theme.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "Actual uncertainty.json validates without coercion or mutation",
+      "passed": true
+    },
+    {
+      "check": "uncertainty.json rejects an invalid schemaVersion",
+      "passed": true
+    },
+    {
+      "check": "uncertainty.json rejects an invalid studyId",
+      "passed": true
+    },
+    {
+      "check": "uncertainty.json rejects an invalid dataset",
+      "passed": true
+    },
+    {
+      "check": "A missing policy statistic fails before rendering",
+      "passed": true
+    },
+    {
+      "check": "A numeric string is rejected rather than coerced",
+      "passed": true
+    },
+    {
+      "check": "Non-finite nested statistics are rejected",
+      "passed": true
+    },
+    {
+      "check": "A null count is rejected rather than shown as zero",
+      "passed": true
+    },
+    {
+      "check": "A discovery flag inconsistent with the closed prototype is rejected",
+      "passed": true
+    },
+    {
+      "check": "Unsupported live computation metadata is rejected",
+      "passed": true
+    },
+    {
+      "check": "A JavaScript attribution URL is rejected",
+      "passed": true
+    },
+    {
+      "check": "A missing workflow label is rejected",
+      "passed": true
+    },
+    {
+      "check": "A missing frozen policy colour is rejected",
+      "passed": true
+    },
+    {
+      "check": "A claim without its evidence identities is rejected",
+      "passed": true
+    },
+    {
+      "check": "Duplicate claim identities are rejected",
+      "passed": true
+    },
+    {
+      "check": "A missing glossary definition is rejected",
+      "passed": true
+    },
+    {
+      "check": "Malformed source checksums are rejected",
+      "passed": true
+    },
+    {
+      "check": "Duplicate source identities are rejected",
+      "passed": true
+    },
+    {
+      "check": "Curve array truncation is rejected",
+      "passed": true
+    },
+    {
+      "check": "Duplicate curve observations are rejected",
+      "passed": true
+    },
+    {
+      "check": "A made-up zero-query precision is rejected",
+      "passed": true
+    },
+    {
+      "check": "A history with a different filename seed is rejected",
+      "passed": true
+    },
+    {
+      "check": "A history query without formula metadata is rejected",
+      "passed": true
+    },
+    {
+      "check": "A string-valued hit flag is rejected",
+      "passed": true
+    },
+    {
+      "check": "A malformed chronological query order is rejected",
+      "passed": true
+    },
+    {
+      "check": "A fabricated registered stage count is rejected",
+      "passed": true
+    },
+    {
+      "check": "A default stage outside its saved candidate is rejected",
+      "passed": true
+    },
+    {
+      "check": "A stage assigned to another candidate is rejected",
+      "passed": true
+    },
+    {
+      "check": "A non-finite atomic coordinate is rejected",
+      "passed": true
+    },
+    {
+      "check": "A missing physical site is rejected",
+      "passed": true
+    },
+    {
+      "check": "A mismatched fallback physical atom count is rejected",
+      "passed": true
+    },
+    {
+      "check": "An invalid saved space group is rejected",
+      "passed": true
+    },
+    {
+      "check": "A model energy string is rejected",
+      "passed": true
+    },
+    {
+      "check": "An unknown generator arm is rejected",
+      "passed": true
+    },
+    {
+      "check": "A missing terminal SCF acceptance flag is rejected",
+      "passed": true
+    },
+    {
+      "check": "An unknown DFT evidence level is rejected",
+      "passed": true
+    },
+    {
+      "check": "An empirical coverage over one is rejected",
+      "passed": true
+    },
+    {
+      "check": "A malformed risk coverage row is rejected",
+      "passed": true
+    }
+  ],
+  "scope": "Shipped runtime guards against all recorded public datasets and malformed boundary fixtures; no data export or scientific computation."
+}

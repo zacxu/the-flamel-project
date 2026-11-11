@@ -1,0 +1,119 @@
+{
+  "committed_at_utc": "2026-10-22T01:42:46.483219+00:00",
+  "decisions": [
+    {
+      "calibrated_radius_eV_atom": 0.704589977322248,
+      "diversity_distance_at_selection": 0.3974610589432634,
+      "material_id": "wbm-4-25414",
+      "position": 0,
+      "predicted_mean_eV_atom": -0.08328884093749998,
+      "role": "quality_diversity",
+      "score": 2.8645073482216312
+    },
+    {
+      "calibrated_radius_eV_atom": 0.6946378985339678,
+      "diversity_distance_at_selection": 0.39837997536262076,
+      "material_id": "wbm-4-25326",
+      "position": 1,
+      "predicted_mean_eV_atom": -0.06017467776041666,
+      "role": "quality_diversity",
+      "score": 2.402683542889644
+    },
+    {
+      "calibrated_radius_eV_atom": 0.5277911738626966,
+      "diversity_distance_at_selection": 0.35343484973953576,
+      "material_id": "wbm-4-25677",
+      "position": 2,
+      "predicted_mean_eV_atom": -0.05213386661458332,
+      "role": "quality_diversity",
+      "score": 2.219394757161434
+    },
+    {
+      "calibrated_radius_eV_atom": 0.3834330861475246,
+      "diversity_distance_at_selection": 0.2835587411727208,
+      "material_id": "wbm-2-34764",
+      "position": 3,
+      "predicted_mean_eV_atom": -0.04845685507812502,
+      "role": "quality_diversity",
+      "score": 2.110916472148861
+    },
+    {
+      "calibrated_radius_eV_atom": 0.47830351725172615,
+      "diversity_distance_at_selection": 0.37102811298598226,
+      "material_id": "wbm-4-25525",
+      "position": 4,
+      "predicted_mean_eV_atom": -0.04313299552083334,
+      "role": "quality_diversity",
+      "score": 2.048173966909658
+    },
+    {
+      "calibrated_radius_eV_atom": 0.4697271884328378,
+      "diversity_distance_at_selection": 0.31230119101863285,
+      "material_id": "wbm-3-52123",
+      "position": 5,
+      "predicted_mean_eV_atom": -0.03054914848958336,
+      "role": "quality_diversity",
+      "score": 1.7671335653009836
+    },
+    {
+      "calibrated_radius_eV_atom": 0.06479418477641512,
+      "diversity_distance_at_selection": 0.2678226781765999,
+      "material_id": "wbm-3-56465",
+      "position": 6,
+      "predicted_mean_eV_atom": -0.03061081820312501,
+      "role": "quality_diversity",
+      "score": 1.7461277031508002
+    },
+    {
+      "calibrated_radius_eV_atom": 0.36022284083877565,
+      "diversity_distance_at_selection": 0.34063085421092676,
+      "material_id": "wbm-2-35493",
+      "position": 7,
+      "predicted_mean_eV_atom": -0.028633105572916717,
+      "role": "quality_diversity",
+      "score": 1.7429775385637978
+    },
+    {
+      "calibrated_radius_eV_atom": 0.4962318123281516,
+      "diversity_distance_at_selection": 0.3651765218621931,
+      "material_id": "wbm-4-25682",
+      "position": 8,
+      "predicted_mean_eV_atom": -0.026088776640625054,
+      "role": "quality_diversity",
+      "score": 1.7043637937435974
+    },
+    {
+      "calibrated_radius_eV_atom": 0.6317105941290012,
+      "diversity_distance_at_selection": 0.3072608871472535,
+      "material_id": "wbm-3-52534",
+      "position": 9,
+      "predicted_mean_eV_atom": -0.026957545859375005,
+      "role": "quality_diversity",
+      "score": 1.6927813607611268
+    }
+  ],
+  "known_ids_sha256": "ec312e5198f6d9dd831ee96ada3c220741cdafd9b0307785707ef8ad83842fe2",
+  "material_ids": [
+    "wbm-4-25414",
+    "wbm-4-25326",
+    "wbm-4-25677",
+    "wbm-2-34764",
+    "wbm-4-25525",
+    "wbm-3-52123",
+    "wbm-3-56465",
+    "wbm-2-35493",
+    "wbm-4-25682",
+    "wbm-3-52534"
+  ],
+  "model_training_ids_sha256": "ec312e5198f6d9dd831ee96ada3c220741cdafd9b0307785707ef8ad83842fe2",
+  "oracle_labels_supplied_to_acquisition": 0,
+  "paired_seed": 20261023,
+  "policy": "quality_diversity",
+  "pool_prediction_sha256": "b1200827c13555cfdd67409a19ccb4ce395397323b8fb4eef9facddf01b891a5",
+  "random_seed_sequence": [
+    20261023,
+    2,
+    101
+  ],
+  "round_index": 2
+}

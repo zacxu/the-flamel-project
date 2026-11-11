@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "phase": "Logo outline update",
+  "status": "live_verified",
+  "recordedAt": "2026-10-22T16:05:06.798941+00:00",
+  "localDate": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "url": "https://theflamelproject.42web.io/",
+  "documentRoot": "/htdocs",
+  "uiBuildId": "ui-w6-61a05eb4a69162cc438b",
+  "predecessorUiBuildId": "ui-w6-b9a4161a2557c7e7620c",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "researchManifestSha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d",
+  "uiManifestPath": "release-manifests/ui-w6-61a05eb4a69162cc438b.json",
+  "uiManifestSha256": "d6efa01c80d69a6bc9084936e3efb8254c3bafec9971312127155a020fe1ef35",
+  "change": "Header SVG uses the homepage paper background, copper hexagon/cube linework, and the existing larger radius-4 copper center dot.",
+  "sourceChanges": [
+    "src/App.tsx",
+    "src/generated/uiRelease.ts (automatic build identity)"
+  ],
+  "uploadOrder": [
+    "Three new hashed JavaScript chunks and the new versioned release manifest/CSV uploaded first.",
+    "Exact 1150-byte production index.html published last."
+  ],
+  "immutableFiles": [
+    {
+      "path": "assets/CrystalViewer-DaDGSmb2.js",
+      "bytes": 567490,
+      "sha256": "958adf16222499ef877e08f79bad5b4d7754fed7418910c04d6af7bad19a7c07"
+    },
+    {
+      "path": "assets/ReplayChart-DTnFzR0T.js",
+      "bytes": 374724,
+      "sha256": "db88a635aad402b33f97123df2d098725c6c8fc2f1c98c1d6e94ea3460d76782"
+    },
+    {
+      "path": "assets/index-Jv3_g0Ah.js",
+      "bytes": 428479,
+      "sha256": "3b8177ae49b636b9047e101f55da2850e40d9f4a2c1d11da0e2be22574647381"
+    },
+    {
+      "path": "release-manifests/ui-w6-61a05eb4a69162cc438b.files.csv",
+      "bytes": 17551,
+      "sha256": "27f203693db7ee68ce1c03079ca4ebf9d0499e2afa6921dd1b84ac717ac7a810"
+    },
+    {
+      "path": "release-manifests/ui-w6-61a05eb4a69162cc438b.json",
+      "bytes": 25919,
+      "sha256": "d6efa01c80d69a6bc9084936e3efb8254c3bafec9971312127155a020fe1ef35"
+    }
+  ],
+  "entryLast": {
+    "path": "deployment/logo-outline-update/entry/index.html",
+    "bytes": 1150,
+    "sha256": "f1bbd5b59345dac0e7db1881cb152b6146d824aaf82759c4a473d7b98247d4fa",
+    "remotePath": "index.html"
+  },
+  "localChecksPassed": 832,
+  "browserChecksPassed": 7,
+  "browserChecksFailed": 0,
+  "browserObservations": [
+    {
+      "name": "live_release",
+      "pass": true,
+      "ui_release_id": "ui-w6-61a05eb4a69162cc438b",
+      "recorded_at": "2026-10-22T16:04:23.657Z"
+    },
+    {
+      "name": "desktop_logo",
+      "pass": true,
+      "background": "#f6f2e9",
+      "linework": "#92522f",
+      "centre_dot": "#92522f",
+      "radius": 4,
+      "width": 37,
+      "height": 44,
+      "recorded_at": "2026-10-22T16:04:23.657Z"
+    },
+    {
+      "name": "mobile_logo",
+      "pass": true,
+      "background": "rgb(246, 242, 233)",
+      "dot": "rgb(146, 82, 47)",
+      "dotRadius": "4",
+      "height": 37,
+      "noOverflow": true,
+      "stroke": "rgb(146, 82, 47)",
+      "width": 29,
+      "recorded_at": "2026-10-22T16:04:23.657Z"
+    },
+    {
+      "name": "replay_chart",
+      "pass": true,
+      "recorded_at": "2026-10-22T16:04:23.657Z"
+    },
+    {
+      "name": "crystal_viewer",
+      "pass": true,
+      "recorded_at": "2026-10-22T16:04:23.657Z"
+    },
+    {
+      "name": "console_errors",
+      "pass": true,
+      "errors": [],
+      "recorded_at": "2026-10-22T16:04:23.657Z"
+    },
+    {
+      "name": "live_manifest_hash",
+      "pass": true,
+      "sha256": "d6efa01c80d69a6bc9084936e3efb8254c3bafec9971312127155a020fe1ef35",
+      "recorded_at": "2026-10-22T16:04:23.657Z"
+    }
+  ],
+  "unchanged": [
+    "Frozen research and numerical artifacts",
+    "CSS and responsive logo sizing",
+    "All images and image sidecars",
+    "Hosting .htaccess configurations",
+    "Credentials",
+    "Historical W1-W7 reports and original releases",
+    "Prior faceted-logo reports and release",
+    "Original cached W6 source-input record"
+  ],
+  "rollback": {
+    "entry": "deployment/logo-outline-update/previous-dist/index.html",
+    "uiBuildId": "ui-w6-b9a4161a2557c7e7620c",
+    "sha256": "cd9739f1252c37a738b86f3fc3cd201b48716ea529b5d29a04296fd8735206cc",
+    "instructions": "Upload the saved previous entry to /htdocs/index.html and verify HTTPS. Retain all releases' immutable assets and existing image routing."
+  },
+  "screenshots": [
+    "reports/LOGO_OUTLINE_LIVE_DESKTOP.jpg",
+    "reports/LOGO_OUTLINE_LIVE_MOBILE.jpg",
+    "reports/LOGO_OUTLINE_LIVE_HEADER.jpg"
+  ],
+  "verificationLimit": "Targeted visual update acceptance; the full historical W6/W7 test suite was not rerun."
+}

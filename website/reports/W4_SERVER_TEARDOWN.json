@@ -1,0 +1,16 @@
+{
+  "phase": "W4",
+  "checkedAt": "2026-10-22T11:54:21.5737800Z",
+  "checkedPorts": [
+    5173,
+    4175
+  ],
+  "listeners": [],
+  "ownedServersStopped": true,
+  "developmentSession": 19670,
+  "faultFixtureSession": 62307,
+  "earlierFaultFixtureSessionStopped": 6658,
+  "temporaryQaTabsClosed": true,
+  "viewportOverrideCleared": true,
+  "networkFixtureMode": "ok"
+}

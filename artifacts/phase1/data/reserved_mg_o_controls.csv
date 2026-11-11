@@ -1,0 +1,11 @@
+material_id,formula,chemical_system,n_sites,eligible_metal_oxide,reserved_mg_o_control,exclusion_reasons
+wbm-1-37225,Mg2 O4,Mg-O,6,True,True,
+wbm-1-37226,Mg1 O2,Mg-O,3,True,True,
+wbm-1-37227,Mg1 O2,Mg-O,3,False,True,not_unique_prototype
+wbm-1-39049,Mg2 O3,Mg-O,5,True,True,
+wbm-1-44403,Mg1 O1,Mg-O,2,True,True,
+wbm-1-44404,Mg1 O1,Mg-O,2,False,True,not_unique_prototype
+wbm-1-44405,Mg4 O4,Mg-O,8,False,True,not_unique_prototype
+wbm-3-50560,Mg3 O6,Mg-O,9,False,True,not_unique_prototype
+wbm-3-52113,Mg1 O4,Mg-O,5,True,True,
+wbm-5-15361,Mg1 O4,Mg-O,5,False,True,not_unique_prototype

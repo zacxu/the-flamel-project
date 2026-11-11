@@ -1,0 +1,67 @@
+[
+  {
+    "path": "/htdocs/research/releases/data-v1-2a138b7808f0d12c5151/figures",
+    "rows": [
+      {
+        "name": "..",
+        "text": "..\n-\n-",
+        "type": "dir"
+      },
+      {
+        "name": "structures",
+        "text": "structures\n-\n-\nOct 22 10:05",
+        "type": "dir"
+      },
+      {
+        "name": "generation.59e6ca927809464f.png",
+        "text": "generation.59e6ca927809464f.png\npng\n139.71 KB\nOct 22 09:54",
+        "type": "file"
+      },
+      {
+        "name": "generation.59e6ca927809464f.png.bin",
+        "text": "generation.59e6ca927809464f.png.bin\nbin\n117.23 KB\nOct 22 10:18",
+        "type": "file"
+      },
+      {
+        "name": "model-energies.3fc676c6f4830fc7.png",
+        "text": "model-energies.3fc676c6f4830fc7.png\npng\n152.33 KB\nOct 22 09:54",
+        "type": "file"
+      },
+      {
+        "name": "model-energies.3fc676c6f4830fc7.png.bin",
+        "text": "model-energies.3fc676c6f4830fc7.png.bin\nbin\n125.63 KB\nOct 22 10:18",
+        "type": "file"
+      },
+      {
+        "name": "overview.34c36fc0a433966a.png",
+        "text": "overview.34c36fc0a433966a.png\npng\n551.41 KB\nOct 22 09:54",
+        "type": "file"
+      },
+      {
+        "name": "overview.34c36fc0a433966a.png.bin",
+        "text": "overview.34c36fc0a433966a.png.bin\nbin\n476.18 KB\nOct 22 10:18",
+        "type": "file"
+      },
+      {
+        "name": "structures.5aabdf89e40edca8.png",
+        "text": "structures.5aabdf89e40edca8.png\npng\n277.07 KB\nOct 22 09:54",
+        "type": "file"
+      },
+      {
+        "name": "structures.5aabdf89e40edca8.png.bin",
+        "text": "structures.5aabdf89e40edca8.png.bin\nbin\n246.49 KB\nOct 22 10:18",
+        "type": "file"
+      },
+      {
+        "name": "uncertainty.ecc942c162113844.png",
+        "text": "uncertainty.ecc942c162113844.png\npng\n466.96 KB\nOct 22 09:54",
+        "type": "file"
+      },
+      {
+        "name": "uncertainty.ecc942c162113844.png.bin",
+        "text": "uncertainty.ecc942c162113844.png.bin\nbin\n420.94 KB\nOct 22 10:18",
+        "type": "file"
+      }
+    ]
+  }
+]

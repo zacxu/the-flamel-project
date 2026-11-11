@@ -1,0 +1,26 @@
+2026-10-21T16:31:04.193740+00:00 Phase 1 data audit started offline=False python=3.12.0
+2026-10-21T16:31:09.624389+00:00 registry snapshot verified revision=2b7bff925a6aff10240cf6ef0f59149f51adff7b
+2026-10-21T16:31:09.624389+00:00 download start 2023-12-13-wbm-summary.csv.gz attempt=1
+2026-10-21T16:31:13.697657+00:00 download verified 2023-12-13-wbm-summary.csv.gz size=12745623 sha256=adbdd8b24086d4888195d8894c77f6d5fb29ce33bbb5d7d3898b4d79e964dc54
+2026-10-21T16:31:13.698661+00:00 download start 2022-10-19-wbm-init-structs.jsonl.gz attempt=1
+2026-10-21T16:31:22.026902+00:00 download verified 2022-10-19-wbm-init-structs.jsonl.gz size=49537334 sha256=98d545172c1ea9060f03f40cace6f8173a4ac06f1ee875ccd963765211519b58
+2026-10-21T16:31:26.366556+00:00 summary gzip/schema/population audit complete rows=256963 eligible=8294 groups=1866
+2026-10-21T16:31:32.206152+00:00 initial-structure rows checked=50000
+2026-10-21T16:31:37.050158+00:00 initial-structure rows checked=100000
+2026-10-21T16:31:40.876485+00:00 initial-structure rows checked=150000
+2026-10-21T16:31:44.351128+00:00 initial-structure rows checked=200000
+2026-10-21T16:31:47.397775+00:00 initial-structure rows checked=250000
+2026-10-21T16:31:47.817838+00:00 initial gzip/schema/geometry/join audit complete rows=256963 sites=1994133
+2026-10-21T16:31:47.915857+00:00 Phase 1 data audit PASSED elapsed_seconds=43.722
+2026-10-21T16:32:19.841517+00:00 Phase 1 data audit started offline=True python=3.12.0
+2026-10-21T16:32:19.852521+00:00 registry snapshot verified revision=2b7bff925a6aff10240cf6ef0f59149f51adff7b
+2026-10-21T16:32:19.880440+00:00 verified cached 2023-12-13-wbm-summary.csv.gz
+2026-10-21T16:32:19.983614+00:00 verified cached 2022-10-19-wbm-init-structs.jsonl.gz
+2026-10-21T16:32:23.443039+00:00 summary gzip/schema/population audit complete rows=256963 eligible=8294 groups=1866
+2026-10-21T16:32:26.878825+00:00 initial-structure rows checked=50000
+2026-10-21T16:32:30.847959+00:00 initial-structure rows checked=100000
+2026-10-21T16:32:36.822590+00:00 initial-structure rows checked=150000
+2026-10-21T16:32:40.858187+00:00 initial-structure rows checked=200000
+2026-10-21T16:32:44.920457+00:00 initial-structure rows checked=250000
+2026-10-21T16:32:45.480693+00:00 initial gzip/schema/geometry/join audit complete rows=256963 sites=1994133
+2026-10-21T16:32:45.674826+00:00 Phase 1 data audit PASSED elapsed_seconds=25.834

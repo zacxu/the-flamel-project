@@ -1,0 +1,836 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-22T05:13:36.201785+00:00",
+  "implementation_status": "W1_foundation_implemented",
+  "deployment_status": "not_attempted",
+  "public_target": "https://theflamelproject.42web.io/",
+  "source_path_base": "workspace root, one directory above website/",
+  "scope": "Planning-source inventory and frozen integrity baseline for the W1 read-only exporter. The actual expanded, hash-verified allowlist is recorded in reports/W1_EXPORT.json; public payloads are release-pinned under public/research/. No new experiments, hosting credentials or session URLs.",
+  "baseline_integrity": {
+    "artifacts/phase6/manifest.json": "96229e2109bea6f722db5ea323532c666c45fdfecf93a8b62270ce1b000e217d",
+    "artifacts/phase6/numerical_freeze.json": "7e907477def54d7ab0dfcb95365ca4bf2cb1f20b46a9d324548ac7e076d92816",
+    "artifacts/budget_ledger.json": "53d08b6ccb93952a8677e97a4116259ce50173f40eaa3fc843fadc4311b6d0c6",
+    "artifacts/runtime_budget_events.jsonl": "13e65aaac3f4ca03558d26638579d43664cdae36451355102307cc78a5e06c46"
+  },
+  "verified_study_facts": {
+    "frozen_replay_seeds": [
+      20261022,
+      20261023,
+      20261024,
+      20261025,
+      20261026
+    ],
+    "policies": [
+      "full",
+      "quality",
+      "quality_diversity",
+      "random",
+      "uncertainty"
+    ],
+    "historical_query_events": 1250,
+    "near_stable_hits_at50": {
+      "full": {
+        "max": 34.0,
+        "mean": 29.4,
+        "min": 25.0,
+        "sample_std": 3.646916505762094,
+        "values": [
+          34.0,
+          32.0,
+          25.0,
+          29.0,
+          27.0
+        ]
+      },
+      "quality": {
+        "max": 44.0,
+        "mean": 41.2,
+        "min": 39.0,
+        "sample_std": 2.16794833886788,
+        "values": [
+          43.0,
+          40.0,
+          44.0,
+          39.0,
+          40.0
+        ]
+      },
+      "quality_diversity": {
+        "max": 43.0,
+        "mean": 41.6,
+        "min": 40.0,
+        "sample_std": 1.51657508881031,
+        "values": [
+          43.0,
+          40.0,
+          42.0,
+          40.0,
+          43.0
+        ]
+      },
+      "random": {
+        "max": 15.0,
+        "mean": 11.0,
+        "min": 6.0,
+        "sample_std": 3.872983346207417,
+        "values": [
+          14.0,
+          15.0,
+          12.0,
+          6.0,
+          8.0
+        ]
+      },
+      "uncertainty": {
+        "max": 6.0,
+        "mean": 3.6,
+        "min": 1.0,
+        "sample_std": 2.073644135332772,
+        "values": [
+          4.0,
+          6.0,
+          2.0,
+          5.0,
+          1.0
+        ]
+      }
+    },
+    "generation": {
+      "actual_CrystalFormer_draws": 88,
+      "new_formula_draws": 48,
+      "new_formula_exact_valid": 0,
+      "excluded_larger_cell_diagnostics": 12
+    },
+    "model_selected_structures": 11,
+    "QE_attempts": 19,
+    "accepted_relaxed_QE_geometries": 3,
+    "reference_coverage": {
+      "Ca-Mg-O": {
+        "frozen_entries": 161,
+        "accepted_fresh_compatible_QE": 2,
+        "missing": 159,
+        "full_inventory_complete": false,
+        "missing_spin_review_entries": 15,
+        "missing_elemental_entries": 41
+      },
+      "Mg-O": {
+        "frozen_entries": 57,
+        "accepted_fresh_compatible_QE": 1,
+        "missing": 56,
+        "full_inventory_complete": false,
+        "missing_spin_review_entries": 8,
+        "missing_elemental_entries": 29
+      }
+    },
+    "perturbation_validation_complete": false,
+    "new_stable_material_established": false,
+    "phase6_consolidated_checks_passed": 3587
+  },
+  "sources": [
+    {
+      "id": "phase6_report",
+      "workspace_relative_path": "reports/phase6_report.md",
+      "sha256": "b1c35a3d13bf10d0fbaa23f281ca6eb68f4f59feb7c262ef6835a25e1cf9c438",
+      "bytes": 21974,
+      "purpose": "Frozen narrative and claim limits"
+    },
+    {
+      "id": "phase6_readiness",
+      "workspace_relative_path": "artifacts/phase6/readiness.json",
+      "sha256": "4a8b8f4224b737678d611f2a7de4cce38956b485eda7ff4379bf70a02a311723",
+      "bytes": 2267,
+      "purpose": "Final study status"
+    },
+    {
+      "id": "phase6_manifest",
+      "workspace_relative_path": "artifacts/phase6/manifest.json",
+      "sha256": "96229e2109bea6f722db5ea323532c666c45fdfecf93a8b62270ce1b000e217d",
+      "bytes": 476110,
+      "purpose": "Frozen integrity index"
+    },
+    {
+      "id": "numerical_freeze",
+      "workspace_relative_path": "artifacts/phase6/numerical_freeze.json",
+      "sha256": "7e907477def54d7ab0dfcb95365ca4bf2cb1f20b46a9d324548ac7e076d92816",
+      "bytes": 4565,
+      "purpose": "Final budgets and frozen scope"
+    },
+    {
+      "id": "phase6_audit",
+      "workspace_relative_path": "artifacts/phase6/audit.json",
+      "sha256": "f0501b422569ca5c649a99df64bc71ecd3a980dc380f90606625152e9a006a4f",
+      "bytes": 643894,
+      "purpose": "Consolidated integrity checks"
+    },
+    {
+      "id": "uncertainty_summary",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/summary.json",
+      "sha256": "c58e7d9ca55b81aa94a300efb1b8424229cb5462d05313305a334a11560135b8",
+      "bytes": 51936,
+      "purpose": "Five-seed aggregates and reliability scope"
+    },
+    {
+      "id": "learning_curves",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/learning_curves.csv",
+      "sha256": "4a19d310f80554d9483a785fddb3c041005094e477e4fba881bf01143152cca9",
+      "bytes": 3937,
+      "purpose": "Batch replay curves",
+      "columns": [
+        "seed",
+        "policy",
+        "queries",
+        "near_stable_hits",
+        "reference_hull_hits",
+        "chemical_system_coverage"
+      ],
+      "row_count": 125
+    },
+    {
+      "id": "policy_endpoints",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/policy_endpoints.csv",
+      "sha256": "5faf1692eeabb25ff7fa92d61d4843b812544802b53ef1e30131280609e96d34",
+      "bytes": 1000,
+      "purpose": "Policy endpoint comparisons",
+      "columns": [
+        "seed",
+        "policy",
+        "queries",
+        "near_stable_hits",
+        "reference_hull_hits",
+        "chemical_system_coverage",
+        "precision_at_50"
+      ],
+      "row_count": 25
+    },
+    {
+      "id": "selected_queries",
+      "workspace_relative_path": "artifacts/phase4/replay/query_journal_all_seeds.csv",
+      "sha256": "a17d9075208cd6b61f7801c84cb489a302b6f3f7b80fa437a7f7e8f9c294915c",
+      "bytes": 409796,
+      "purpose": "Existing retrospective query events",
+      "columns": [
+        "seed",
+        "policy",
+        "round",
+        "query_number",
+        "material_id",
+        "label_eV_atom",
+        "role",
+        "score",
+        "predicted_mean_eV_atom",
+        "calibrated_radius_eV_atom",
+        "diversity_at_selection",
+        "decision_utc",
+        "reveal_utc",
+        "decision_sha256",
+        "reveal_sha256"
+      ],
+      "row_count": 1250
+    },
+    {
+      "id": "evaluation_metrics",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/evaluation_metrics.csv",
+      "sha256": "6e9450ccc0cfa55914650c4f8b42e3806f38a96241e944a46ceaf15500b552fb",
+      "bytes": 18692,
+      "purpose": "Saved held-out metrics",
+      "columns": [
+        "seed",
+        "policy",
+        "queries",
+        "n",
+        "MAE_eV_atom",
+        "RMSE_eV_atom",
+        "Spearman_disagreement_absolute_error",
+        "interval_90_empirical_coverage",
+        "mean_interval_width_eV_atom",
+        "calibration_q"
+      ],
+      "row_count": 130
+    },
+    {
+      "id": "risk_coverage",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/risk_coverage.csv",
+      "sha256": "b5aa5f182035a5dfc9f16ff0585476f036bd95f6e9b681f01284e717c93caac3",
+      "bytes": 37781,
+      "purpose": "Saved retained-fraction diagnostics",
+      "columns": [
+        "seed",
+        "policy",
+        "queries",
+        "requested_retained_fraction",
+        "retained_rows",
+        "actual_retained_fraction",
+        "MAE_eV_atom",
+        "all_rows_MAE_eV_atom",
+        "MAE_relative_to_all_rows",
+        "interval_90_empirical_coverage"
+      ],
+      "row_count": 300
+    },
+    {
+      "id": "uncertainty_deciles",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/uncertainty_deciles.csv",
+      "sha256": "76fcf96584a53ba10c1981484bc2da50987cdb7aaacb76a016f8469d6167deec",
+      "bytes": 44867,
+      "purpose": "Optional uncertainty/error deciles",
+      "columns": [
+        "seed",
+        "policy",
+        "queries",
+        "uncertainty_decile",
+        "n",
+        "mean_disagreement_eV_atom",
+        "min_disagreement_eV_atom",
+        "max_disagreement_eV_atom",
+        "MAE_eV_atom",
+        "interval_90_empirical_coverage",
+        "mean_interval_width_eV_atom"
+      ],
+      "row_count": 300
+    },
+    {
+      "id": "role_diagnostics",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/full_policy_role_diagnostics.csv",
+      "sha256": "d3ec42affa457f882c1866647b9f302e91d4d9a6f0f69b3a5e32b300eeb4f45c",
+      "bytes": 1184,
+      "purpose": "Nonrandomized role comparison",
+      "columns": [
+        "seed",
+        "role",
+        "queries",
+        "near_stable_hits",
+        "precision",
+        "reference_hull_hits",
+        "mean_predicted_mean_eV_atom",
+        "mean_calibrated_radius_eV_atom",
+        "mean_diversity_distance"
+      ],
+      "row_count": 10
+    },
+    {
+      "id": "structures_summary",
+      "workspace_relative_path": "artifacts/phase6/structures/summary.json",
+      "sha256": "b3aecafa64aefd28a8e3146022ad9cb84bc3e73c62d4ec27d2e3f8e96b32e931",
+      "bytes": 25206,
+      "purpose": "Generation, novelty and structure checks"
+    },
+    {
+      "id": "generation_cohorts",
+      "workspace_relative_path": "artifacts/phase6/structures/generation_cohorts.csv",
+      "sha256": "a5b009d8a28110fd4d2042906762df29d0c817da02d2dacbff1bc25f82a6701a",
+      "bytes": 817,
+      "purpose": "Separate primary/supplementary cohorts",
+      "columns": [
+        "scope",
+        "kind",
+        "control",
+        "arm",
+        "formula",
+        "draws",
+        "exact_valid",
+        "exact_valid_unique",
+        "valid_requested_spacegroup",
+        "excluded_larger_cell_diagnostics"
+      ],
+      "row_count": 12
+    },
+    {
+      "id": "generation_draws",
+      "workspace_relative_path": "artifacts/phase6/structures/generation_draws.csv",
+      "sha256": "bbf70f9561b48a5841c7078550c5cb1f67f4b4218539b19c1799f9e9f63b00aa",
+      "bytes": 27603,
+      "purpose": "Emitted draw outcomes",
+      "columns": [
+        "candidate_id",
+        "scope",
+        "kind",
+        "control",
+        "arm",
+        "formula",
+        "requested_spacegroup",
+        "measured_spacegroup",
+        "n_atoms",
+        "requested_n_atoms",
+        "actual_counts",
+        "exact_counts_match",
+        "minimum_periodic_distance_angstrom",
+        "geometry_valid",
+        "valid",
+        "duplicate_of",
+        "correct_ratio_geometry_within_cap_diagnostic_only",
+        "different_cell_count_diagnostic_excluded",
+        "larger_cell_diagnostic_excluded",
+        "source_structure",
+        "source_sha256"
+      ],
+      "row_count": 88
+    },
+    {
+      "id": "excluded_diagnostics",
+      "workspace_relative_path": "artifacts/phase6/structures/excluded_larger_cell_diagnostics.csv",
+      "sha256": "9bddb39d5488db34dcd12eb819208f35fdbee101ea318305bdd84dfe49a0b7d0",
+      "bytes": 3936,
+      "purpose": "Larger-cell exclusions",
+      "columns": [
+        "candidate_id",
+        "scope",
+        "kind",
+        "control",
+        "arm",
+        "formula",
+        "requested_spacegroup",
+        "measured_spacegroup",
+        "n_atoms",
+        "requested_n_atoms",
+        "actual_counts",
+        "exact_counts_match",
+        "minimum_periodic_distance_angstrom",
+        "geometry_valid",
+        "valid",
+        "duplicate_of",
+        "correct_ratio_geometry_within_cap_diagnostic_only",
+        "different_cell_count_diagnostic_excluded",
+        "larger_cell_diagnostic_excluded",
+        "source_structure",
+        "source_sha256"
+      ],
+      "row_count": 12
+    },
+    {
+      "id": "prototype_baselines",
+      "workspace_relative_path": "artifacts/phase6/structures/prototype_baselines.csv",
+      "sha256": "37c57c93eec3e9e0d096c672dbaca8e1a690b94d165671497d661031151a0b3d",
+      "bytes": 520,
+      "purpose": "Four method baselines",
+      "columns": [
+        "candidate_id",
+        "parent_material_id",
+        "target_formula",
+        "atoms",
+        "initial_geometry_valid",
+        "CHGNet_converged",
+        "final_spacegroup",
+        "CHGNet_energy_eV_per_atom",
+        "fresh_DFT_submitted",
+        "stable_material_established"
+      ],
+      "row_count": 4
+    },
+    {
+      "id": "relaxed_structures",
+      "workspace_relative_path": "artifacts/phase6/structures/relaxed_structures.csv",
+      "sha256": "8f22e9643d04a40495173a921e9f816dada83ae7866d41196077047966d21296",
+      "bytes": 3213,
+      "purpose": "Eleven model finals",
+      "columns": [
+        "candidate_id",
+        "role",
+        "control",
+        "arm",
+        "actual_atoms",
+        "final_formula",
+        "CHGNet_energy_eV_per_atom",
+        "optimizer_steps",
+        "converged",
+        "filter_fmax_eV_per_angstrom",
+        "final_spacegroup_symprec_0p01",
+        "matches_pinned_MP_same_composition_geometry_ids",
+        "same_composition_MP_geometries_tested",
+        "global_structure_novelty_established",
+        "new_stable_material_established",
+        "source_final_structure",
+        "source_sha256"
+      ],
+      "row_count": 11
+    },
+    {
+      "id": "symmetry_pairs",
+      "workspace_relative_path": "artifacts/phase6/structures/symmetry_energy_pairs.csv",
+      "sha256": "bd7cc5bb5cc243260912cc8902ea7d3ce2dfbbe7a2bf60eec097fc6fdaae7e07",
+      "bytes": 510,
+      "purpose": "One-per-arm model comparison",
+      "columns": [
+        "control",
+        "scope",
+        "quota_per_arm",
+        "nontrivial_candidate_id",
+        "p1_candidate_id",
+        "P1_minus_nontrivial_CHGNet_eV_per_atom",
+        "relaxed_pair_structure_match",
+        "energy_distribution_established",
+        "DFT_stability_comparison"
+      ],
+      "row_count": 2
+    },
+    {
+      "id": "composition_novelty",
+      "workspace_relative_path": "artifacts/phase6/structures/composition_novelty.csv",
+      "sha256": "dd6822ec22ad216466900fc0c3eecec5459f8325e6e7683629cd4d4286436a11",
+      "bytes": 640,
+      "purpose": "Pinned catalog absence",
+      "columns": [
+        "formula",
+        "counts",
+        "mp_matching_composition_records",
+        "wbm_matching_composition_records",
+        "absent_from_both_pinned_snapshots",
+        "global_composition_novelty_established",
+        "generator_pretraining_OOD_established",
+        "DFT_confirmed_stability"
+      ],
+      "row_count": 6
+    },
+    {
+      "id": "figure_provenance",
+      "workspace_relative_path": "artifacts/phase6/structures/figure_provenance.json",
+      "sha256": "a912146c0216fb8abb93b916be7bacce29839098bd937621f860e06b4b19e5a7",
+      "bytes": 1691,
+      "purpose": "Core example geometry sources"
+    },
+    {
+      "id": "evidence_summary",
+      "workspace_relative_path": "artifacts/phase6/evidence/summary.json",
+      "sha256": "33a7c3a56473e29fd0a3b37a0a896e97d79a730da195e395c8c87bc3fbdda8c2",
+      "bytes": 5730,
+      "purpose": "DFT evidence and reference coverage"
+    },
+    {
+      "id": "dft_jobs",
+      "workspace_relative_path": "artifacts/phase6/evidence/fresh_DFT_evidence_table.csv",
+      "sha256": "8b707df822b0649c660def6d2e7db7dcfc990499cbee120e4397be5ca9e4aefa",
+      "bytes": 5059,
+      "purpose": "Every QE attempt and acceptance",
+      "columns": [
+        "job_id",
+        "phase",
+        "role",
+        "formula",
+        "n_atoms",
+        "calculation",
+        "exit_code",
+        "JOB_DONE",
+        "terminal_SCF_accepted",
+        "stationary_at_this_setting",
+        "accepted_with_final_geometry_sensitivity",
+        "energy_eV_per_atom",
+        "max_force_eV_A",
+        "max_full_stress_kbar",
+        "cutoff_Ry",
+        "density_cutoff_Ry",
+        "k_mesh",
+        "elapsed_wall_seconds",
+        "evidence_level",
+        "source_result"
+      ],
+      "row_count": 19
+    },
+    {
+      "id": "reference_inventory",
+      "workspace_relative_path": "artifacts/phase6/evidence/reference_inventory_completeness.csv",
+      "sha256": "e2a07a96078d7ce4aca8b33e55717cc4bc84ad78e5d3d20cf3b17d2c30d91766",
+      "bytes": 31548,
+      "purpose": "Full inventory memberships",
+      "columns": [
+        "inventory_system",
+        "material_id",
+        "formula",
+        "chemical_system",
+        "execution_n_sites",
+        "spin_review_required",
+        "expensive_reference_flag",
+        "elemental_endpoint_entry",
+        "accepted_fresh_compatible_QE",
+        "accepted_job_id",
+        "status",
+        "blocks_full_inventory_hull",
+        "original_source_geometry"
+      ],
+      "row_count": 218
+    },
+    {
+      "id": "missing_references",
+      "workspace_relative_path": "artifacts/phase6/evidence/missing_reference_inventory.csv",
+      "sha256": "93c0bb9e8d73958bb4f175383bd93dfb7e0f223f0fec64c4e4b982d2fe967533",
+      "bytes": 31053,
+      "purpose": "Missing memberships with overlap",
+      "columns": [
+        "inventory_system",
+        "material_id",
+        "formula",
+        "chemical_system",
+        "execution_n_sites",
+        "spin_review_required",
+        "expensive_reference_flag",
+        "elemental_endpoint_entry",
+        "accepted_fresh_compatible_QE",
+        "accepted_job_id",
+        "status",
+        "blocks_full_inventory_hull",
+        "original_source_geometry"
+      ],
+      "row_count": 215
+    },
+    {
+      "id": "claim_matrix",
+      "workspace_relative_path": "artifacts/phase6/evidence/claim_matrix.csv",
+      "sha256": "8fe21f901d512e1af8df16062c249e2f4852c47ba77f6f55977cfc7d0c4d39f0",
+      "bytes": 1906,
+      "purpose": "Supported and unsupported claims",
+      "columns": [
+        "claim",
+        "status",
+        "scope",
+        "limitation"
+      ],
+      "row_count": 10
+    },
+    {
+      "id": "budget_table",
+      "workspace_relative_path": "artifacts/phase6/evidence/budget_reconciliation.csv",
+      "sha256": "fca7d7fd0609d5b87a1aa324cd60c3be6c17a263f1ef47bf7fb6df6600886441",
+      "bytes": 589,
+      "purpose": "Final cost meanings",
+      "columns": [
+        "lane",
+        "cap",
+        "charged",
+        "remaining",
+        "unit",
+        "interpretation"
+      ],
+      "row_count": 4
+    },
+    {
+      "id": "research_overview",
+      "workspace_relative_path": "artifacts/phase6/figures/research_overview.png",
+      "sha256": "34c36fc0a433966a93ebb1d0b4bdf0557a40f1e283d6daa00392d1b06268e9e8",
+      "bytes": 487608,
+      "purpose": "Four-panel overview"
+    },
+    {
+      "id": "uncertainty_figure",
+      "workspace_relative_path": "artifacts/phase6/uncertainty/uncertainty_reliability.png",
+      "sha256": "ecc942c16211384480f2c0002a813374997ded0713578e3172bf6536bef034e4",
+      "bytes": 431041,
+      "purpose": "Uncertainty fallback"
+    },
+    {
+      "id": "structure_figure",
+      "workspace_relative_path": "artifacts/phase6/structures/representative_structures.png",
+      "sha256": "5aabdf89e40edca8cf1e0b2e08d3d07ad2e9a0e6f2e24c6a16a6e942f6a58334",
+      "bytes": 252401,
+      "purpose": "Viewer fallback"
+    },
+    {
+      "id": "primary_generation_figure",
+      "workspace_relative_path": "artifacts/phase4/figures/primary_generation.png",
+      "sha256": "59e6ca927809464fd93e31dc4310525a3c602413ad08c5e2f14d0851966e6104",
+      "bytes": 120046,
+      "purpose": "Primary generation chart"
+    },
+    {
+      "id": "model_energy_figure",
+      "workspace_relative_path": "artifacts/phase5/figures/within_composition_energies.png",
+      "sha256": "3fc676c6f4830fc7939c54851f55ef0d7f17084b701dcf50541b3f7233129c89",
+      "bytes": 128643,
+      "purpose": "Within-composition model energies"
+    },
+    {
+      "id": "selected_row_metadata",
+      "workspace_relative_path": "artifacts/phase2/features/row_metadata.csv",
+      "sha256": "bf25e8f85a5939ae8f2d6b153f6049eb09864719fc43a4f31f362b02a8f6bcb6",
+      "bytes": 623276,
+      "purpose": "Local-only selected-ID metadata join; export needed formula/system fields for 720 queried IDs, not all 8,294 rows",
+      "columns": [
+        "material_id",
+        "formula",
+        "reduced_formula",
+        "chemical_system",
+        "n_sites",
+        "reserved_mg_o_control",
+        "initial_spacegroup",
+        "symmetry_failed",
+        "symmetry_error",
+        "inequivalent_site_count",
+        "missing_atomic_number_atom_fraction",
+        "missing_atomic_mass_atom_fraction",
+        "missing_electronegativity_atom_fraction",
+        "missing_atomic_radius_atom_fraction"
+      ],
+      "row_count": 8294,
+      "raw_table_is_not_a_public_export": true
+    },
+    {
+      "id": "model_selection_plan",
+      "workspace_relative_path": "artifacts/phase5/chgnet/plan.json",
+      "sha256": "3c50412313cebf76a063e2a6f8501fc5cf75c41bfb14eb73a4e76787e06ff256",
+      "bytes": 13752,
+      "purpose": "Discover exact selected initial/model source lineage and hashes for candidate-stage registry"
+    },
+    {
+      "id": "phase3_QE_summary",
+      "workspace_relative_path": "artifacts/phase3/qe/summary.json",
+      "sha256": "726af170b17a48ca980252aa017757399d6a2b8b72aca5124ee7cb3d17e128a9",
+      "bytes": 85019,
+      "purpose": "Accepted generated MgO control and separately executed source-reference geometry identities"
+    },
+    {
+      "id": "phase4_QE_summary",
+      "workspace_relative_path": "artifacts/phase4/qe/summary.json",
+      "sha256": "9a38c1729a935ffba6a86d64535a411e1180653cf6f446b529763eb2b76c4ad1",
+      "bytes": 21212,
+      "purpose": "Accepted CaO source-reference geometry and numerical validation identity"
+    },
+    {
+      "id": "accepted_source_MgO_geometry",
+      "workspace_relative_path": "artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/final_geometry.json",
+      "sha256": "9e0938589db9857d7f3a492160d2852c78b95d327a19d3cccdc96a99d09c9cf6",
+      "bytes": 1553,
+      "purpose": "Two-atom accepted source-reference MgO, distinct from eight-atom model-reference cell"
+    },
+    {
+      "id": "accepted_source_CaO_geometry",
+      "workspace_relative_path": "artifacts/phase4/qe/p4_ref_cao_90_k035/final_geometry.json",
+      "sha256": "1afc45b671163eb62add37737412915e5bdc31a3b05822b5d02c81e768118e98",
+      "bytes": 1577,
+      "purpose": "Accepted source-reference CaO geometry"
+    }
+  ],
+  "core_structure_examples": [
+    {
+      "label": "a  Generated MgO control",
+      "stage": "generated",
+      "actual_atoms": 8,
+      "workspace_relative_path": "artifacts/phase1/generator/structure_000.json",
+      "sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035"
+    },
+    {
+      "label": "b  DFT MgO recovery",
+      "stage": "DFT",
+      "actual_atoms": 8,
+      "workspace_relative_path": "artifacts/phase3/qe/p3_candidate_mgo_fallback_90/final_geometry.json",
+      "sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf"
+    },
+    {
+      "label": "c  CaMg2O3 prototype",
+      "stage": "CHGNet",
+      "actual_atoms": 6,
+      "workspace_relative_path": "artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+      "sha256": "239c24ee68eb9b805688f880eff9c5cc1344b29c95fa41a2aff8b06230d9db8b"
+    },
+    {
+      "label": "d  Excluded CaMg2O3 draw",
+      "stage": "generated_excluded",
+      "actual_atoms": 12,
+      "workspace_relative_path": "artifacts/phase3/generation/early_CaMg2O3/structure_005.json",
+      "sha256": "edd9b0d54ae583a50d1777e86287e48e97938f8ae6a75b1bba9b5e6693bc6b04"
+    }
+  ],
+  "verified_model_final_geometries": [
+    {
+      "candidate_id": "phase1_mgo_attempt_000",
+      "role": "symmetry",
+      "actual_atoms": 8,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase3/chgnet/phase1_mgo_attempt_000/final.json",
+      "sha256": "b1061f40c75055c65981ff7c159de569dcf80d85b06abc261b5760177e21ec88"
+    },
+    {
+      "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "role": "symmetry",
+      "actual_atoms": 8,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/phase4_supplementary_mgo_rocksalt_p1_attempt_010/final.json",
+      "sha256": "4f6347e27693dc01eaf954efd81d21373e37981b8fa3fc7a0da3c82dd511f482"
+    },
+    {
+      "candidate_id": "phase4_tio2_rutile_nontrivial_attempt_000",
+      "role": "symmetry",
+      "actual_atoms": 6,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/phase4_tio2_rutile_nontrivial_attempt_000/final.json",
+      "sha256": "bfa90552c9bb9c76350c0f3aecf150104abd3d410cd04117829a5fbbe89079a6"
+    },
+    {
+      "candidate_id": "phase4_tio2_rutile_p1_attempt_000",
+      "role": "symmetry",
+      "actual_atoms": 6,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/phase4_tio2_rutile_p1_attempt_000/final.json",
+      "sha256": "aec9f8f155b3561901c6127e4bb307a29280ff25cceea060617c7083face6b8e"
+    },
+    {
+      "candidate_id": "prototype_SnSrO2",
+      "role": "prototype",
+      "actual_atoms": 4,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/prototype_SnSrO2/final.json",
+      "sha256": "ef66dbff26e23a170659ad46a47577014a7ad7878ac097189b3975a1cea22715"
+    },
+    {
+      "candidate_id": "prototype_BaSnO2",
+      "role": "prototype",
+      "actual_atoms": 4,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/prototype_BaSnO2/final.json",
+      "sha256": "0231b366983f544c4e3fa05fd7fa164e200ed34779490edc461d14d9f0d6565d"
+    },
+    {
+      "candidate_id": "prototype_CaMg2O3",
+      "role": "prototype",
+      "actual_atoms": 6,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+      "sha256": "239c24ee68eb9b805688f880eff9c5cc1344b29c95fa41a2aff8b06230d9db8b"
+    },
+    {
+      "candidate_id": "prototype_Mg2SrO3",
+      "role": "prototype",
+      "actual_atoms": 6,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/prototype_Mg2SrO3/final.json",
+      "sha256": "a8c85d221ef26cd2fc3929f1fa1fd784df39660d5ac048518c34e2060eba0196"
+    },
+    {
+      "candidate_id": "reference_rocksalt",
+      "role": "same_composition_reference",
+      "actual_atoms": 8,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/reference_rocksalt/final.json",
+      "sha256": "8999cc61f02892bd4565b8faaf0355167232e2d86d4a06e1359a2c70ed1e39b5"
+    },
+    {
+      "candidate_id": "reference_rutile",
+      "role": "same_composition_reference",
+      "actual_atoms": 6,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/reference_rutile/final.json",
+      "sha256": "c20a55c43850b1a2a9880c705b864d7c7244f3bc19a9538288f65928f751478a"
+    },
+    {
+      "candidate_id": "reference_anatase",
+      "role": "same_composition_reference",
+      "actual_atoms": 12,
+      "stage": "CHGNet",
+      "workspace_relative_path": "artifacts/phase5/chgnet/reference_anatase/final.json",
+      "sha256": "85ddec320f31a3188a3360a1a2524d3778e255a7b1c84e117cb2e90c32ec0e62"
+    }
+  ],
+  "hosting_reference_urls": [
+    "https://forum.infinityfree.com/t/can-i-upload-a-full-front-end-react-appliacation/69858",
+    "https://forum.infinityfree.com/t/file-size-and-upload-limits/49308",
+    "https://forum.infinityfree.com/t/browser-security-system-features-and-limitations/49353",
+    "https://forum.infinityfree.com/t/how-to-locate-root-directory/88595"
+  ],
+  "planning_revision": 2,
+  "last_reviewed_utc": "2026-10-22T05:59:58.963372+00:00",
+  "inventory_completeness_note": "Verified planning inputs, not a completed public exporter allowlist. W1 must verify discovered geometry/evidence sources and construct the candidate-stage registry before UI implementation.",
+  "stage_registry_status": "implemented_in_versioned_structures_index; see reports/W1_EXPORT.json",
+  "phased_implementation_plan": "website/PHASED_IMPLEMENTATION_PLAN.md",
+  "review_additions": [
+    "Selected-only metadata join for formula/chemical-system coverage",
+    "Frozen source-plan discovery for original generated, prototype and reference inputs",
+    "Separate accepted source-QE reference geometries; no formula-only lineage inference",
+    "Source hashes and numerical-study baseline remain unchanged"
+  ]
+}

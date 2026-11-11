@@ -1,0 +1,6 @@
+{
+  "name": "cpython-3.11.14+20251028-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+  "size": 25995224,
+  "digest": "sha256:e8e3d35b8a0d1f3151690410397e7aaf76506d392cd7521f647aa8bac8c20343",
+  "browser_download_url": "https://github.com/astral-sh/python-build-standalone/releases/download/20251028/cpython-3.11.14%2B20251028-x86_64-pc-windows-msvc-install_only_stripped.tar.gz"
+}

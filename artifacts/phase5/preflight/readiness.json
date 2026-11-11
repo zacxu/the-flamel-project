@@ -1,0 +1,56 @@
+{
+  "phase": 4,
+  "status": "complete",
+  "completed_utc": "2026-10-22T02:08:01.691992+00:00",
+  "ready_for_phase5": true,
+  "protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "original_fresh_selector_sha256": "b7cbae9c54cdc486bac5d9de743f3e75e2322bf7bf01a3f03f7b92acfa3e8359",
+  "completed_paired_seeds": [
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "retrospective_policy_query_events": 1250,
+  "phase4_new_policy_query_events": 1000,
+  "primary_exact_cell_generated_new_formula_survivors": 0,
+  "diagnostic_reduced_formula_geometry_and_atom_cap_survivors": 12,
+  "actual_CrystalFormer_draws_total": 88,
+  "phase4_actual_and_charged_CF_draws": 72,
+  "primary_symmetry_generation_evidence_complete": true,
+  "symmetry_architecture_causal_benefit_established": false,
+  "fresh_shortlist": "artifacts/phase4/selection/fresh_shortlist.json",
+  "fresh_shortlist_count": 0,
+  "symmetry_selection": "artifacts/phase4/selection/symmetry_relaxation_plan.json",
+  "balanced_symmetry_quotas": {
+    "MgO": 1,
+    "TiO2": 1
+  },
+  "phase5_symmetry_new_CHGNet_jobs_if_cache_verified": 3,
+  "phase5_conditional_cached_symmetry_reuse": 1,
+  "phase5_predeclared_prototypes": 4,
+  "phase5_same_composition_reference_allocation": 4,
+  "phase5_eligible_predeclared_same_composition_references": 3,
+  "phase5_excluded_reference_slot": "Brookite requires at least24 atoms; no eligible saved CIF, no outcome-based replacement",
+  "remaining_generation_slots": 32,
+  "remaining_CHGNet_launches": 31,
+  "remaining_CHGNet_seconds": 14369.710557399998,
+  "remaining_QE_seconds": 19941.518122199996,
+  "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "new_stable_material_established": false,
+  "full_compatible_competition_hull_established": false,
+  "phase5_tasks": [
+    "Implement budgeted Phase5 execution consuming the frozen symmetry selection; verify exact CHG settings before one cached reuse",
+    "Run only the three selected new symmetry relaxations, four predeclared prototypes and three eligible same-composition references within original category/global caps; leave the oversize brookite reference slot unused",
+    "Retain the empty transformer shortlist; do not admit larger cells or invent replacements after outcomes",
+    "Continue permitted reference/numerical work only when useful; compatible anchors alone do not establish a full hull"
+  ],
+  "review_commands": [
+    "Get-Content artifacts/phase4/selection/symmetry_relaxation_plan.json",
+    "Get-Content artifacts/phase4/selection/fresh_shortlist.json",
+    ".envs/analysis/Scripts/python.exe scripts/phase4_finalize.py"
+  ],
+  "review_command_scope": "Inspection and evidence audit only. A Phase5 numerical runner has not yet been implemented; no executable command is invented.",
+  "phase4_end_budget_snapshot": "artifacts/phase4/manifest.json#phase4_end_budget"
+}

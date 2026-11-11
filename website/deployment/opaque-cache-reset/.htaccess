@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.bin -f
+RewriteRule ^(.+\.png)$ $1.bin [L]
+<FilesMatch "\.png\.bin$">
+    ForceType image/png
+</FilesMatch>
+Header always set Clear-Site-Data "\"cache\""

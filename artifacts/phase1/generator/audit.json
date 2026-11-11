@@ -1,0 +1,61 @@
+{
+  "audited_utc": "2026-10-21T16:35:04.225192+00:00",
+  "no_additional_sample_attempts": true,
+  "ledger_consistent": true,
+  "cif_roundtrips": [
+    {
+      "attempt_id": 0,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": true
+    },
+    {
+      "attempt_id": 1,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": true
+    },
+    {
+      "attempt_id": 2,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": true
+    },
+    {
+      "attempt_id": 3,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": false
+    },
+    {
+      "attempt_id": 4,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": true
+    },
+    {
+      "attempt_id": 5,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": true
+    },
+    {
+      "attempt_id": 6,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": true
+    },
+    {
+      "attempt_id": 7,
+      "cif_roundtrip_pass": true,
+      "measured_spacegroup": 225,
+      "exact_count_match": true
+    }
+  ],
+  "checks_passed": true,
+  "notes": [
+    "All eight outputs remain available, including the 12-atom Mg4O8 mismatch.",
+    "Seven exact-count outputs represent one rocksalt topology after structural deduplication.",
+    "This is known-control generation evidence, not energetic or novelty validation."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "new_inference_or_geometry_optimization": false,
+  "panels": [
+    {
+      "actual_atoms": 8,
+      "caption": "CrystalFormer; 8 atoms; SG 225\nKnown composition, before relaxation",
+      "panel": 1,
+      "sha256": "678b364f9b305fe9f17044183e9ffbebd6676b0dce41b31e2183addbc26b6035",
+      "state": "generated",
+      "structure_path": "artifacts/phase1/generator/structure_000.json",
+      "title": "a  Generated MgO control"
+    },
+    {
+      "actual_atoms": 8,
+      "caption": "Accepted PBE result; known rock-salt\nMatches reference; no new material",
+      "panel": 2,
+      "sha256": "790e75c357d84af3fb9c92d954e75a3e9d53dcd963b3df4ae3971803900b88cf",
+      "state": "DFT",
+      "structure_path": "artifacts/phase3/qe/p3_candidate_mgo_fallback_90/final_geometry.json",
+      "title": "b  DFT MgO recovery"
+    },
+    {
+      "actual_atoms": 6,
+      "caption": "CHGNet relaxed; 6 atoms; SG 164\nNo fresh DFT or stability validation",
+      "panel": 3,
+      "sha256": "239c24ee68eb9b805688f880eff9c5cc1344b29c95fa41a2aff8b06230d9db8b",
+      "state": "CHGNet",
+      "structure_path": "artifacts/phase5/chgnet/prototype_CaMg2O3/final.json",
+      "title": "c  CaMg2O3 prototype"
+    },
+    {
+      "actual_atoms": 12,
+      "caption": "Correct ratio; 12 atoms vs 6 required\nExcluded from frozen exact-cell experiment",
+      "panel": 4,
+      "sha256": "edd9b0d54ae583a50d1777e86287e48e97938f8ae6a75b1bba9b5e6693bc6b04",
+      "state": "generated_excluded",
+      "structure_path": "artifacts/phase3/generation/early_CaMg2O3/structure_005.json",
+      "title": "d  Excluded CaMg2O3 draw"
+    }
+  ],
+  "periodic_images_added": false
+}

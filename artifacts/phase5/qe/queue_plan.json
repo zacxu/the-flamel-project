@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "phase": 5,
+  "status": "authorized_before_dispatch",
+  "authorized_at_utc": "2026-10-22T02:18:33.209542+00:00",
+  "authorization": "Root approval of this bounded queue under the user-authorized Phase5 completion",
+  "scope": "Single deterministic local re-relaxation probe of known MgO; not a phonon test, hull test, new candidate or new composition",
+  "additional_phase5_QE_wall_ceiling_seconds": 3600,
+  "maximum_all_allowed_job_watchdogs_seconds": 2520,
+  "global_QE_wall_ceiling_seconds": 21600,
+  "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "frozen_phase2_protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "numerical_protocol_sha256": "f6ade07bde4d73b44eaa6efd3ace923faf4646ed323d0fe0ea5441562b7d59dd",
+  "prior_phase3_runner_sha256": "9801e0b35d69852bb0bf14db6912e77c90ea0dca151569e6babc991df47a004a",
+  "prior_phase4_runner_sha256": "4f8ad8fbd7903324232557d4abd318bde2d5853cdfe5f4b99d69e32af7924918",
+  "initial_source_job": "perturbation",
+  "initial_source_geometry": "artifacts\\phase5\\qe\\perturbation\\final_geometry.json",
+  "initial_source_geometry_sha256": "b510d3b6d0efce6f96a104f102be85fa5fe25c5583cb44cbeaa6404a13f8ad88",
+  "perturbation_manifest": "artifacts\\phase5\\qe\\perturbation\\manifest.json",
+  "perturbation_manifest_sha256": "095d8211cd06e2f6a0a71f068b45fbcd70a88b0e2902ee195fc8f202b1b8ed3b",
+  "original_control_result": "artifacts\\phase3\\qe\\p3_candidate_mgo_fallback_90\\result.json",
+  "original_control_result_sha256": "6ce32a95c693ac7bad1a886755837720dab3c74bb5bcd19f703043e2afad7db8",
+  "execution_cell_policy": "Retain eight-atom control cell; perturb coordinates and cell once before outcomes; no primitive reduction",
+  "external_acceptance": {
+    "SCF_Ry": 1e-08,
+    "max_force_vector_norm_eV_A": 0.0205688269904,
+    "abs_pressure_kbar": 0.5,
+    "max_abs_full_stress_kbar": 0.5,
+    "adjacent_energy_shift_eV_per_atom": 0.005
+  },
+  "rules": [
+    "Run the deterministic seed260022 perturbation once at90/720Ry, kspacing0.35, nosym/noinv and all cell degrees of freedom released.",
+    "Stop on process or SCF failure. If SCF completes but independent final stationarity fails, allow exactly one same-setting continuation.",
+    "At accepted final geometry run75/600Ry cutoff and90/720Ry kspacing0.45 probes; require distinct actual meshes and shifts<=5meV/atom.",
+    "A failed numerical sensitivity remains incomplete; no unplanned refinement, target switch or fresh candidate replacement.",
+    "All jobs charge actual entire subprocess walltime and reserve full watchdog before launch. One QE process and four threads only.",
+    "Compare only with the original known MgO control and known MgO reference. No full-hull, new-material, phonon or synthesis claim."
+  ],
+  "jobs": {
+    "p5_mgo_perturb_90": {
+      "calculation": "vc-relax",
+      "role": "perturbation",
+      "max_seconds": 900,
+      "outer_timeout": 930,
+      "cutoff_multiplier": 1.8,
+      "k_spacing": 0.35,
+      "pressure_threshold": 0.1,
+      "allowed_parent_jobs": [
+        "perturbation"
+      ]
+    },
+    "p5_mgo_perturb_90_cont1": {
+      "calculation": "vc-relax",
+      "role": "perturbation",
+      "max_seconds": 900,
+      "outer_timeout": 930,
+      "cutoff_multiplier": 1.8,
+      "k_spacing": 0.35,
+      "pressure_threshold": 0.1,
+      "allowed_parent_jobs": [
+        "p5_mgo_perturb_90"
+      ]
+    },
+    "p5_mgo_perturb_final_cut75": {
+      "calculation": "scf",
+      "role": "sensitivity",
+      "max_seconds": 300,
+      "outer_timeout": 330,
+      "cutoff_multiplier": 1.5,
+      "k_spacing": 0.35,
+      "pressure_threshold": 0.1,
+      "allowed_parent_jobs": [
+        "p5_mgo_perturb_90",
+        "p5_mgo_perturb_90_cont1"
+      ]
+    },
+    "p5_mgo_perturb_final_k045": {
+      "calculation": "scf",
+      "role": "sensitivity",
+      "max_seconds": 300,
+      "outer_timeout": 330,
+      "cutoff_multiplier": 1.8,
+      "k_spacing": 0.45,
+      "pressure_threshold": 0.1,
+      "allowed_parent_jobs": [
+        "p5_mgo_perturb_90",
+        "p5_mgo_perturb_90_cont1"
+      ]
+    }
+  },
+  "allowed_job_ids": [
+    "p5_mgo_perturb_90",
+    "p5_mgo_perturb_90_cont1",
+    "p5_mgo_perturb_final_cut75",
+    "p5_mgo_perturb_final_k045"
+  ]
+}

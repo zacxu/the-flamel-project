@@ -1,0 +1,13 @@
+scope,kind,control,arm,formula,draws,exact_valid,exact_valid_unique,valid_requested_spacegroup,excluded_larger_cell_diagnostics
+primary_first8,control,mgo_rocksalt,nontrivial,Mg4O4,8,7,1,7,0
+primary_first8,new_composition,,,CaMg2O3,8,0,0,0,2
+primary_first8,control,mgo_rocksalt,p1,Mg4O4,8,0,0,0,1
+primary_first8,control,tio2_rutile,nontrivial,Ti2O4,8,6,1,6,0
+primary_first8,control,tio2_rutile,p1,Ti2O4,8,1,1,1,3
+primary_first8,new_composition,,,SnSrO2,8,0,0,0,5
+primary_first8,new_composition,,,BaSnO2,8,0,0,0,1
+primary_first8,new_composition,,,Mg2SrO3,8,0,0,0,1
+primary_first8,new_composition,,,Ca2ZnO3,8,0,0,0,2
+primary_first8,new_composition,,,Ca2SrO3,8,0,0,0,1
+supplementary_topup_only,control,mgo_rocksalt,nontrivial,Mg4O4,4,4,1,4,0
+supplementary_topup_only,control,mgo_rocksalt,p1,Mg4O4,4,1,1,1,0

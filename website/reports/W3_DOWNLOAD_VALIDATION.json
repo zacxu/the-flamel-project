@@ -1,0 +1,2801 @@
+{
+  "phase": "W3",
+  "status": "passed",
+  "checkedAt": "2026-10-22T11:03:06.109012+00:00",
+  "checksPassed": 687,
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "scope": "Actual browser CSV artifacts compared independently to original frozen journal, metadata and curves.",
+  "aggregateFiles": [
+    "flamel-comparison-aggregate-50queries.csv"
+  ],
+  "pointOriginFiles": [
+    "flamel-comparison-20261022-50queries.csv",
+    "flamel-comparison-aggregate-50queries.csv"
+  ],
+  "queryDownloadVisibilities": [
+    "hidden",
+    "revealed"
+  ],
+  "aggregateMetrics": [
+    "hits",
+    "precision",
+    "chemical-system coverage"
+  ],
+  "files": [
+    {
+      "name": "flamel-comparison-20261022-10queries.csv",
+      "sha256": "6b4085b27bef2560452cb7b578c359241017f6bf6871b3540c83335c8d7473b4",
+      "bytes": 3295
+    },
+    {
+      "name": "flamel-comparison-20261022-50queries.csv",
+      "sha256": "f063526e1fb2810a13eeb87e1598e992483732a04d9720bc597bad864ed62431",
+      "bytes": 2286
+    },
+    {
+      "name": "flamel-comparison-aggregate-50queries.csv",
+      "sha256": "73f7f9175384c2ef3105b918a8483f1ef1bc05597702f0647ca8e05ffb15a48d",
+      "bytes": 5157
+    },
+    {
+      "name": "flamel-queries-20261022-full-batch-1-predictions.csv",
+      "sha256": "44168cdb00921b61b3b5ab916e983c11bc515793c4144db85692d6c8d397011d",
+      "bytes": 5027
+    },
+    {
+      "name": "flamel-queries-20261022-full-batch-1-revealed.csv",
+      "sha256": "3972dabe80bd59990f10f29b2fec2a1c9a2d674703b56fad4bcb273e26145d65",
+      "bytes": 5219
+    }
+  ],
+  "checks": [
+    {
+      "check": "Original source hash: artifacts/phase4/replay/query_journal_all_seeds.csv",
+      "passed": true
+    },
+    {
+      "check": "Original source hash: artifacts/phase2/features/row_metadata.csv",
+      "passed": true
+    },
+    {
+      "check": "Original source hash: artifacts/phase6/uncertainty/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Independent source has all five saved splits, five policies and five boundaries",
+      "passed": true
+    },
+    {
+      "check": "Actual predictions, revealed queries and comparison CSV downloads retained",
+      "passed": true
+    },
+    {
+      "check": "Downloaded CSV has rows: flamel-comparison-20261022-10queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Comparison download has its actual scope and budget in filename: flamel-comparison-20261022-10queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Comparison filename names aggregate or an actual split",
+      "passed": true
+    },
+    {
+      "check": "Comparison CSV has exact metric, fraction and energy-threshold units",
+      "passed": true
+    },
+    {
+      "check": "Comparison selection has no repeated policy/budget rows",
+      "passed": true
+    },
+    {
+      "check": "Comparison contains only real selected policies",
+      "passed": true
+    },
+    {
+      "check": "Comparison includes exactly selected policies and all boundaries through filename budget",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Downloaded CSV has rows: flamel-comparison-20261022-50queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Comparison download has its actual scope and budget in filename: flamel-comparison-20261022-50queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Comparison filename names aggregate or an actual split",
+      "passed": true
+    },
+    {
+      "check": "Comparison CSV has exact metric, fraction and energy-threshold units",
+      "passed": true
+    },
+    {
+      "check": "Comparison selection has no repeated policy/budget rows",
+      "passed": true
+    },
+    {
+      "check": "Comparison contains only real selected policies",
+      "passed": true
+    },
+    {
+      "check": "Comparison includes exactly selected policies and all boundaries through filename budget",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Single-split CSV has no invented split SD",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Downloaded CSV has rows: flamel-comparison-aggregate-50queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Comparison download has its actual scope and budget in filename: flamel-comparison-aggregate-50queries.csv",
+      "passed": true
+    },
+    {
+      "check": "Comparison filename names aggregate or an actual split",
+      "passed": true
+    },
+    {
+      "check": "Comparison CSV has exact metric, fraction and energy-threshold units",
+      "passed": true
+    },
+    {
+      "check": "Comparison selection has no repeated policy/budget rows",
+      "passed": true
+    },
+    {
+      "check": "Comparison contains only real selected policies",
+      "passed": true
+    },
+    {
+      "check": "Comparison includes exactly selected policies and all boundaries through filename budget",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Downloaded zero origin has counts zero, precision unavailable",
+      "passed": true
+    },
+    {
+      "check": "Zero-query aggregate count SD is zero and undefined precision SD is empty",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Browser comparison preserves its selected mode",
+      "passed": true
+    },
+    {
+      "check": "Aggregate seed is blank; single-split seed matches filter",
+      "passed": true
+    },
+    {
+      "check": "Aggregate split count is five; single split has no aggregate count",
+      "passed": true
+    },
+    {
+      "check": "Policy display label agrees with selected policy",
+      "passed": true
+    },
+    {
+      "check": "CSV retains inclusive 0.05 and zero eV/atom historical thresholds",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: historical_near_stable_hits_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: historical_near_stable_hits_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: precision_mean_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: precision_sample_sd_fraction",
+      "passed": true
+    },
+    {
+      "check": "Independently reconstructed browser mean agrees: chemical_system_coverage_mean",
+      "passed": true
+    },
+    {
+      "check": "Independent five-split sample SD (n-1) agrees: chemical_system_coverage_sample_sd",
+      "passed": true
+    },
+    {
+      "check": "Downloaded point origin is explicitly labelled",
+      "passed": true
+    },
+    {
+      "check": "Comparison source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Comparison download states the appropriate variability scope",
+      "passed": true
+    },
+    {
+      "check": "Downloaded CSV has rows: flamel-queries-20261022-full-batch-1-predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Query download has its recorded selection identity in filename: flamel-queries-20261022-full-batch-1-predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Query filename uses a real saved seed/policy",
+      "passed": true
+    },
+    {
+      "check": "Query CSV fields and eV-per-atom unit labels are exact",
+      "passed": true
+    },
+    {
+      "check": "Downloaded batch contains exactly ten selections: flamel-queries-20261022-full-batch-1-predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Query CSV contains exactly its selected batch in original selection order",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "Pre-reveal downloaded targets and both hit flags are empty",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Downloaded CSV has rows: flamel-queries-20261022-full-batch-1-revealed.csv",
+      "passed": true
+    },
+    {
+      "check": "Query download has its recorded selection identity in filename: flamel-queries-20261022-full-batch-1-revealed.csv",
+      "passed": true
+    },
+    {
+      "check": "Query filename uses a real saved seed/policy",
+      "passed": true
+    },
+    {
+      "check": "Query CSV fields and eV-per-atom unit labels are exact",
+      "passed": true
+    },
+    {
+      "check": "Downloaded batch contains exactly ten selections: flamel-queries-20261022-full-batch-1-revealed.csv",
+      "passed": true
+    },
+    {
+      "check": "Query CSV contains exactly its selected batch in original selection order",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Every query row retains exact selected split, policy, batch and reveal filter",
+      "passed": true
+    },
+    {
+      "check": "Query identity and saved batch agree",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: reduced_formula",
+      "passed": true
+    },
+    {
+      "check": "Selected metadata agrees: chemical_system",
+      "passed": true
+    },
+    {
+      "check": "Actual physical atoms agree",
+      "passed": true
+    },
+    {
+      "check": "Saved selection role agrees",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: predicted_mean_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: calibrated_radius_eV_per_atom",
+      "passed": true
+    },
+    {
+      "check": "Full-precision prediction field agrees: diversity_at_selection",
+      "passed": true
+    },
+    {
+      "check": "Recorded score/null preserved",
+      "passed": true
+    },
+    {
+      "check": "CSV reveal state is valid",
+      "passed": true
+    },
+    {
+      "check": "Downloaded historical target agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive near-stable hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Inclusive reference-hull hit agrees",
+      "passed": true
+    },
+    {
+      "check": "Query source/study/release identity retained",
+      "passed": true
+    },
+    {
+      "check": "Query CSV clearly scopes selected records and pedagogical reveal",
+      "passed": true
+    },
+    {
+      "check": "Both predictions-only and revealed actual query downloads are retained",
+      "passed": true
+    },
+    {
+      "check": "At least one final actual comparison CSV includes explicit point_origin",
+      "passed": true
+    },
+    {
+      "check": "Actual aggregate browser CSV is independently verified",
+      "passed": true
+    }
+  ]
+}

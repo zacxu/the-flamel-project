@@ -1,0 +1,14 @@
+{
+  "status": "frozen",
+  "protocol": {
+    "path": "config/phase2_protocol.json",
+    "sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94"
+  },
+  "acquisition_module": {
+    "path": "research_acquisition.py",
+    "sha256": "68374dd88f03cf6f3652c79a46774993bdc3bb936459da214870ddfec07e1f7c"
+  },
+  "synthetic_check_count": 11,
+  "actual_model_fits": 0,
+  "actual_replay_query_reveals": 0
+}

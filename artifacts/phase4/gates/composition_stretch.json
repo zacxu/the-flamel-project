@@ -1,0 +1,22 @@
+{
+  "decided_utc": "2026-10-22T02:04:14.361030+00:00",
+  "decision": "disabled",
+  "enabled": false,
+  "gates": {
+    "all_core_replay_seeds_complete": true,
+    "all_primary_arms_have_a_valid_unique_structure": false,
+    "all_six_default_formulas_have_primary_eligible_structure": false,
+    "DFT_reference_work_on_schedule": true,
+    "sixteen_generation_slots_remain": true,
+    "at_least_30min_original_Phase4_margin_remains": false
+  },
+  "reason": "MgO P1 has zero valid unique primary outputs and none of the six default formulas has an exact-cell eligible structure. The core adequacy gates therefore fail; remaining generation capacity alone does not enable additional formulas.",
+  "original_nominal_Phase4_end_utc": "2026-10-22T02:24:44+00:00",
+  "measured_margin_seconds": 1229.63897,
+  "generation_slots_remaining": 32,
+  "additional_formulas_generated": 0,
+  "new_structure_draws_in_gate_check": 0,
+  "primary_failures_retained": true,
+  "symmetry_supplement_does_not_replace_primary_gate": true,
+  "unchanged_global_generation_ceiling": 128
+}

@@ -1,0 +1,12 @@
+{
+  "attempt_ledger": "artifacts/phase4/generation/phase4_new_BaSnO2/ledger.jsonl",
+  "canonical_generation_charged_attempts": 64,
+  "canonical_generation_remaining_attempts": 64,
+  "emitted_attempt_records": 8,
+  "job_wall_seconds": 69.76246320000064,
+  "output_dir": "artifacts/phase4/generation/phase4_new_BaSnO2",
+  "returncode": 0,
+  "status": "completed",
+  "valid_count": 0,
+  "valid_unique_count": 0
+}

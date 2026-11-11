@@ -1,0 +1,26 @@
+{
+  "candidate_ids": [
+    "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_008",
+    "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_009",
+    "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_010",
+    "phase4_supplementary_mgo_rocksalt_nontrivial_attempt_011"
+  ],
+  "command": [
+    "C:\\Users\\Admin\\Desktop\\bears\\.envs\\generator\\Scripts\\python.exe",
+    "-u",
+    "C:\\Users\\Admin\\Desktop\\bears\\scripts\\phase4_supplementary_generate.py",
+    "--control",
+    "mgo_rocksalt",
+    "--arm",
+    "nontrivial",
+    "--run-id",
+    "phase4_supplementary_mgo_rocksalt_nontrivial",
+    "--output",
+    "artifacts/phase4/generation/supplementary_mgo/nontrivial",
+    "--phase",
+    "4",
+    "--timeout-seconds",
+    "600"
+  ],
+  "utc": "2026-10-22T01:53:28.717063+00:00"
+}

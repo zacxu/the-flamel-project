@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "desktop_propose",
+      "pass": true,
+      "brokenSvgLabels": false,
+      "caption": "Simplified composition and catalog-check diagrams. A formula absent from the two pinned snapshots is new to those references; this does not establish global novelty or exclusion from CrystalFormer pretraining.",
+      "cards": 3,
+      "heading": "Propose",
+      "images": 3,
+      "noOverflow": true,
+      "stage": "propose"
+    },
+    {
+      "name": "desktop_generate",
+      "pass": true,
+      "brokenSvgLabels": false,
+      "caption": "Simplified CrystalFormer mechanism, not its literal layer layout or exact token order. Symmetry conditioning and P1 use the same symmetry-aware pretrained architecture; no new transformer was trained. CrystalFormer implementation ↗",
+      "cards": 3,
+      "heading": "Generate",
+      "images": 3,
+      "noOverflow": true,
+      "stage": "generate"
+    },
+    {
+      "name": "desktop_screen",
+      "pass": true,
+      "brokenSvgLabels": false,
+      "caption": "Simplified eligibility checks grounded in the saved generation audit. The six-formula branch stops at 0/48 eligible draws. The separate known-MgO control and prepared-prototype branches continue independently.",
+      "cards": 3,
+      "heading": "Screen",
+      "images": 3,
+      "noOverflow": true,
+      "stage": "screen"
+    },
+    {
+      "name": "desktop_select",
+      "pass": true,
+      "brokenSvgLabels": false,
+      "caption": "Simplified historical-selector diagram. The five bootstrapped ExtraTrees members are separate from CrystalFormer and CHGNet. The historical replay reveals existing WBM targets; no fresh QE result is fed back into these hull-distance labels. ExtraTrees documentation ↗",
+      "cards": 3,
+      "heading": "Select",
+      "images": 3,
+      "noOverflow": true,
+      "stage": "select"
+    },
+    {
+      "name": "desktop_relax",
+      "pass": true,
+      "brokenSvgLabels": false,
+      "caption": "Simplified CHGNet graph and force diagrams, not saved atomic positions, literal network layers or an observed optimization trajectory. CHGNet energies are model estimates, separate from QE first-principles energies. CHGNet implementation ↗",
+      "cards": 3,
+      "heading": "Relax",
+      "images": 3,
+      "noOverflow": true,
+      "stage": "relax"
+    },
+    {
+      "name": "desktop_validate",
+      "pass": true,
+      "brokenSvgLabels": false,
+      "caption": "Simplified Quantum ESPRESSO validation diagram. Three accepted geometries belong to generated MgO, source-reference MgO and source-reference CaO. Finite cutoff/k-point checks and known-phase recovery do not establish a complete competing-phase hull or a new stable material.",
+      "cards": 3,
+      "heading": "Validate",
+      "images": 3,
+      "noOverflow": true,
+      "stage": "validate"
+    },
+    {
+      "name": "desktop_compare",
+      "pass": true,
+      "brokenSvgLabels": false,
+      "caption": "Historical bars use saved descriptive means across five overlapping chemical-system splits, each with 50 queries per policy. Near-stable means a historical signed hull target ≤0.05 eV/atom. Historical retrieval, model relaxation and fresh DFT remain distinct outcomes.",
+      "cards": 3,
+      "heading": "Compare",
+      "images": 3,
+      "noOverflow": true,
+      "stage": "compare"
+    },
+    {
+      "name": "mobile_propose",
+      "pass": true,
+      "cards": 3,
+      "columns": "251px",
+      "minDiagramWidth": 213,
+      "noOverflow": true,
+      "stage": "propose"
+    },
+    {
+      "name": "mobile_generate",
+      "pass": true,
+      "cards": 3,
+      "columns": "251px",
+      "minDiagramWidth": 213,
+      "noOverflow": true,
+      "stage": "generate"
+    },
+    {
+      "name": "mobile_screen",
+      "pass": true,
+      "cards": 3,
+      "columns": "251px",
+      "minDiagramWidth": 213,
+      "noOverflow": true,
+      "stage": "screen"
+    },
+    {
+      "name": "mobile_select",
+      "pass": true,
+      "cards": 3,
+      "columns": "251px",
+      "minDiagramWidth": 213,
+      "noOverflow": true,
+      "stage": "select"
+    },
+    {
+      "name": "mobile_relax",
+      "pass": true,
+      "cards": 3,
+      "columns": "251px",
+      "minDiagramWidth": 213,
+      "noOverflow": true,
+      "stage": "relax"
+    },
+    {
+      "name": "mobile_validate",
+      "pass": true,
+      "cards": 3,
+      "columns": "251px",
+      "minDiagramWidth": 213,
+      "noOverflow": true,
+      "stage": "validate"
+    },
+    {
+      "name": "mobile_compare",
+      "pass": true,
+      "cards": 3,
+      "columns": "251px",
+      "minDiagramWidth": 213,
+      "noOverflow": true,
+      "stage": "compare"
+    },
+    {
+      "name": "keyboard_stage_selection",
+      "pass": true,
+      "stage": "select"
+    },
+    {
+      "name": "local_console_errors",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "recordedAt": "2026-10-22T16:41:52.421Z"
+}

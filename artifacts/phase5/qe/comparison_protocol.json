@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-10-22T02:22:16.187641+00:00",
+  "source_phase3_summary": "artifacts\\phase3\\qe\\summary.json",
+  "source_phase3_summary_sha256": "726af170b17a48ca980252aa017757399d6a2b8b72aca5124ee7cb3d17e128a9",
+  "matcher_settings": {
+    "ltol": 0.01,
+    "stol": 0.01,
+    "angle_tol_degrees": 0.5,
+    "primitive_cell": true,
+    "scale": false,
+    "attempt_supercell": true
+  },
+  "finite_energy_interpretation_tolerance_eV_per_atom": 0.01,
+  "scope": "Reuse Phase3 known-control matching and10meV comparison resolution, fixed before Phase5 outcome; no local-minimum proof"
+}

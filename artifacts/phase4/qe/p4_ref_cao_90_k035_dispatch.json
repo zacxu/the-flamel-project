@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-22T01:42:29.702951+00:00",
+  "args": {
+    "job_id": "p4_ref_cao_90_k035",
+    "reference_id": null,
+    "geometry": "artifacts\\phase3\\qe\\p3_ref_cao_base\\final_geometry.json",
+    "expected_geometry_sha256": "1d178713169770ec1e3fa0d45d96cccbb6658a61c03f9211fe7eb92ce1b4dce4",
+    "selection_manifest": null,
+    "role": "reference",
+    "calculation": "vc-relax",
+    "cutoff_multiplier": 1.8,
+    "k_spacing": 0.35,
+    "pressure_threshold": 0.1,
+    "max_seconds": 600,
+    "outer_timeout": 630
+  },
+  "queue_plan_sha256": "88f6c91eb9ba418df77729e01cb60c9547b6162e1bdc4b71a6fb44cd3b8cec4e"
+}

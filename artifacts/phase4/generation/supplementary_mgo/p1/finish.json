@@ -1,0 +1,12 @@
+{
+  "attempt_ledger": "artifacts/phase4/generation/supplementary_mgo/p1/ledger.jsonl",
+  "canonical_generation_charged_attempts": 96,
+  "canonical_generation_remaining_attempts": 32,
+  "emitted_attempt_records": 4,
+  "job_wall_seconds": 44.96820730000036,
+  "output_dir": "artifacts/phase4/generation/supplementary_mgo/p1",
+  "returncode": 0,
+  "status": "completed",
+  "valid_count": 1,
+  "valid_unique_count": 1
+}

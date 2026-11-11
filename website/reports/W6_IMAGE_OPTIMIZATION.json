@@ -1,0 +1,28 @@
+{
+  "phase": "W6",
+  "status": "passed",
+  "format": "lossless WebP",
+  "originalFilesUnchanged": true,
+  "derivatives": {
+    "figures/overview.png": {
+      "path": "ui/figures/overview.b8c1b84fa51da27e.webp",
+      "sha256": "b8c1b84fa51da27e69a7cc18e2dca1f3a79332c7d702e54891a39ec379610d34",
+      "bytes": 176368,
+      "originalBytes": 487608,
+      "originalSha256": "34c36fc0a433966a93ebb1d0b4bdf0557a40f1e283d6daa00392d1b06268e9e8",
+      "width": 2523,
+      "height": 1982,
+      "pixelIdentical": true
+    },
+    "figures/uncertainty.png": {
+      "path": "ui/figures/uncertainty.0b3e71f740c64828.webp",
+      "sha256": "0b3e71f740c648283a9f9fd37abe0f878b4b3b7bb77478307917e071fe8e7d4d",
+      "bytes": 157570,
+      "originalBytes": 431041,
+      "originalSha256": "ecc942c16211384480f2c0002a813374997ded0713578e3172bf6536bef034e4",
+      "width": 2420,
+      "height": 1826,
+      "pixelIdentical": true
+    }
+  }
+}

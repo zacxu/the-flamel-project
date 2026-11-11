@@ -1,0 +1,47 @@
+.crystal-viewer { min-width: 0; width: 100%; }
+.crystal-viewport { position: relative; }
+.crystal-viewport-badge { position: absolute; top: 12px; left: 12px; display: flex; align-items: center; gap: 7px; padding: 7px 10px; background: #fffefaed; border: 1px solid #ddd8cc; border-radius: 20px; color: #52606a; font-size: .66rem; pointer-events: none; }
+.crystal-viewport-badge>span { width: 5px; height: 5px; border-radius: 50%; background: #3f785b; }
+.crystal-viewport-badge b { font-weight: 500; padding-left: 7px; border-left: 1px solid #d8d3c8; }
+.crystal-lattice-key { position: absolute; bottom: 12px; left: 12px; display: flex; align-items: center; gap: 10px; background: #fffefaeb; border: 1px solid #ddd8cc; border-radius: 8px; padding: 7px 9px; pointer-events: none; }
+.crystal-lattice-key>span { font-size: .72rem; font-weight: 650; display: inline-flex; align-items: center; gap: 4px; }
+.crystal-lattice-key i { width: 12px; height: 2px; background: currentColor; }
+.crystal-lattice-key small { font-size: .57rem; color: #52606a; }
+.crystal-axis-compass { position: absolute; bottom: 10px; right: 10px; width: 92px; height: 96px; pointer-events: none; }
+.crystal-axis-compass>rect { fill: #fffefaeb; stroke: #ddd8cc; }
+.crystal-axis-compass line { stroke: currentColor; stroke-width: 2; }
+.crystal-axis-compass g circle { fill: currentColor; }
+.crystal-axis-compass g text { fill: currentColor; font: 650 11px system-ui,sans-serif; text-anchor: middle; dominant-baseline: middle; }
+.crystal-compass-origin { fill: #52606a; }
+.crystal-compass-title { fill: #52606a; font: 600 7px system-ui,sans-serif; text-anchor: middle; letter-spacing: .4px; }
+.crystal-compass-note { fill: #52606a; font: 6px system-ui,sans-serif; text-anchor: middle; }
+@media (max-width: 360px) {
+  .crystal-lattice-key { bottom: auto; top: 51px; }
+}
+.crystal-surface { position: relative; width: 100%; height: clamp(280px, 40vw, 440px); overflow: hidden; border: 1px solid var(--line, #d8d4c9); border-radius: 16px; background: #f2efe8; }
+.crystal-canvas { display: block; width: 100%; height: 100%; touch-action: pan-y; outline-offset: -5px; }
+.crystal-canvas:focus-visible { outline: 3px solid var(--copper, #925535); }
+.crystal-render-status { margin: 10px 0; font-size: .81rem; color: var(--muted, #56656d); }
+.crystal-camera-readout { margin: 6px 0; font-size: .76rem; line-height: 1.5; color: var(--muted, #56656d); }
+.crystal-controls { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+.crystal-controls .button { min-height: 44px; min-width: 44px; padding: 8px 12px; }
+.crystal-preferences { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .85rem; }
+.crystal-preferences label { display: flex; align-items: center; gap: 7px; min-height: 44px; cursor: pointer; }
+.crystal-preferences input { accent-color: #925535; width: 18px; height: 18px; }
+.crystal-preferences span { flex-basis: 100%; color: var(--muted, #56656d); }
+.crystal-help { font-size: .78rem; line-height: 1.55; color: var(--muted, #56656d); margin: 10px 0; }
+.crystal-species { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; padding: 0; margin: 12px 0; }
+.crystal-species li { display: flex; gap: 7px; align-items: center; font-size: .86rem; }
+.crystal-species-dot { display: inline-block; width: 14px; height: 14px; border: 1px solid #56656d; border-radius: 50%; }
+.crystal-site-inspection { display: grid; gap: 6px; margin-top: 12px; }
+.crystal-site-inspection label { font-size: .83rem; font-weight: 600; }
+.crystal-site-inspection select { width: 100%; min-width: 0; max-width: 100%; min-height: 44px; padding: 8px 10px; border: 1px solid #b9b8af; border-radius: 7px; background: #fffdf8; color: #28383d; }
+.crystal-site-inspection p { font-size: .8rem; overflow-wrap: anywhere; line-height: 1.55; margin: 2px 0; }
+.crystal-viewer-compact .crystal-surface { height: clamp(250px, 26vw, 360px); }
+.crystal-viewer-compact .crystal-help { font-size: .74rem; }
+@media (max-width: 520px) {
+  .crystal-surface { height: 285px; border-radius: 10px; }
+  .crystal-viewer-compact .crystal-surface { height: 255px; }
+  .crystal-controls { gap: 5px; }
+  .crystal-controls .button { padding: 8px 10px; }
+}

@@ -1,0 +1,3681 @@
+{
+  "phase": 6,
+  "lane": "DFT_budget_and_claim_evidence",
+  "status": "passed",
+  "created_utc": "2026-10-22T02:45:45.767348+00:00",
+  "checks_total": 734,
+  "checks_passed": 734,
+  "failed_checks": [],
+  "checks": [
+    {
+      "name": "protocol_sha256_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase5_end_budget_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase5_end_runtime_events_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "runtime_event_count_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "every_runtime_reservation_finished_once",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_hour18_stop_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3_continuation_batch01:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3_continuation_batch01:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3_continuation_batch01:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase3_early_CaMg2O3_continuation_batch01:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_chgnet_phase1_mgo_attempt_000:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_chgnet_phase1_mgo_attempt_000:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_chgnet_phase1_mgo_attempt_000:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_chgnet_phase1_mgo_attempt_000:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_mgo_rocksalt_p1:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_mgo_rocksalt_p1:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_mgo_rocksalt_p1:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_mgo_rocksalt_p1:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_nontrivial:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_nontrivial:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_nontrivial:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_nontrivial:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_p1:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_p1:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_p1:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_tio2_rutile_p1:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_SnSrO2:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_SnSrO2:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_SnSrO2:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_SnSrO2:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_BaSnO2:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_BaSnO2:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_BaSnO2:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_BaSnO2:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Mg2SrO3:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Mg2SrO3:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Mg2SrO3:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Mg2SrO3:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2ZnO3:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2ZnO3:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2ZnO3:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2ZnO3:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2SrO3:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2SrO3:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2SrO3:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_new_Ca2SrO3:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_nontrivial:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_nontrivial:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_nontrivial:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_nontrivial:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_p1:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_p1:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_p1:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "phase4_supplementary_mgo_rocksalt_p1:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_supplementary_mgo_rocksalt_p1_attempt_010:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_supplementary_mgo_rocksalt_p1_attempt_010:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_supplementary_mgo_rocksalt_p1_attempt_010:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_supplementary_mgo_rocksalt_p1_attempt_010:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_nontrivial_attempt_000:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_nontrivial_attempt_000:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_nontrivial_attempt_000:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_nontrivial_attempt_000:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_p1_attempt_000:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_p1_attempt_000:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_p1_attempt_000:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_phase4_tio2_rutile_p1_attempt_000:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_SnSrO2:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_SnSrO2:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_SnSrO2:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_SnSrO2:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_BaSnO2:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_BaSnO2:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_BaSnO2:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_BaSnO2:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_CaMg2O3:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_CaMg2O3:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_CaMg2O3:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_CaMg2O3:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_Mg2SrO3:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_Mg2SrO3:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_Mg2SrO3:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_prototype_Mg2SrO3:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rocksalt:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rocksalt:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rocksalt:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rocksalt:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rutile:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rutile:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rutile:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_rutile:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_anatase:reservation_precedes_finish",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_anatase:finished_before_original_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_anatase:runtime_fits_reserved_watchdog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_chgnet_reference_anatase:phase_lane_attempts_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "generation_charges_reconstructed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "generation_actual_vs_charged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "generation_remaining_and_cap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prototype_preparations_charged_once",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prototype_SnSrO2:original_prepared_candidate_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prototype_BaSnO2:original_prepared_candidate_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prototype_CaMg2O3:original_prepared_candidate_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prototype_Mg2SrO3:original_prepared_candidate_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_conservative_launch_charges",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_failed_launcher_charges_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_actual_model_relaxations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_entire_subprocess_wall_reconciled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_attempt_and_wall_caps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_category_symmetry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_category_new_composition_shortlist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_category_prototype",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_category_same_composition_reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CHGNet_category_contingency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cached_MgO_reused_without_double_charge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fresh_transformer_shortlist_remains_empty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "generation:no_active_reservations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "chgnet:no_active_reservations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "qe:no_active_reservations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "QE_mutex_absent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_19_QE_attempts_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "QE_entire_job_wall_reconciled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "QE_time_cap_and_remaining",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "single_QE_job_at_a_time",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pilot_stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pilot_input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pilot_XML_energy_and_SCF_reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut60:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut75:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_cut90:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k035:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_k045:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:pseudo_Ca",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_cao_base:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_base:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:pseudo_Ca",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:pseudo_Ca",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:pseudo_Ca",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:stdout_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:input_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:settings_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:source_geometry_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reparse_job_scf_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reparse_job_stationary_at_this_setting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reparse_energy_eV_per_atom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reparse_max_force_vector_norm_eV_per_angstrom",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reparse_max_absolute_residual_stress_component_kbar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:reservation_and_actual_elapsed_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:one_legacy_entry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p5_mgo_perturb_90:four_threads_one_MPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "DFT_evidence_table_contains_every_job_once",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:independent_final_setting_stationarity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:90_720_Ry_spacing035",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:PBE_and_frozen_electronic_threshold",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:unconstrained_nonmagnetic_oxide",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:compatible_accepted_pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_ref_mgo_90_k035_cont1:compatible_accepted_pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:same_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:SCF_accepted_and_shift_under5meV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:same_functional_and_pseudos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_cut75:only_cutoff_probe",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:same_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:SCF_accepted_and_shift_under5meV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:same_functional_and_pseudos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:distinct_actual_mesh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_mgo_final_final_k045:only_k_spacing_probe",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:independent_final_setting_stationarity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:90_720_Ry_spacing035",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:PBE_and_frozen_electronic_threshold",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:unconstrained_nonmagnetic_oxide",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:compatible_accepted_pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_candidate_mgo_fallback_90:compatible_accepted_pseudo_Mg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:same_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:SCF_accepted_and_shift_under5meV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:same_functional_and_pseudos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_cut75:only_cutoff_probe",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:same_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:SCF_accepted_and_shift_under5meV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:same_functional_and_pseudos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:distinct_actual_mesh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p3_fallback_final_final_k045:only_k_spacing_probe",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:independent_final_setting_stationarity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:90_720_Ry_spacing035",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:PBE_and_frozen_electronic_threshold",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:unconstrained_nonmagnetic_oxide",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:compatible_accepted_pseudo_Ca",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_ref_cao_90_k035:compatible_accepted_pseudo_O",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:same_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:SCF_accepted_and_shift_under5meV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:same_functional_and_pseudos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_cut75:only_cutoff_probe",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:same_accepted_final_geometry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:SCF_accepted_and_shift_under5meV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:same_functional_and_pseudos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:distinct_actual_mesh",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "p4_cao_final_k045:only_k_spacing_probe",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "MgO_tiny_difference_reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "MgO_energy_ordering_not_resolved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "MgO_final_known_phase_recovery_reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "invalid_intermediate_MgO_relaxation_not_accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "JOB_DONE_is_not_convergence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "failed_terminal_perturbation_energy_is_not_used",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "SCF_failure_halts_frozen_perturbation_queue",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "failed_perturbation_still_charged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1008498:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1009127:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1009129:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1009490:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1016235:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1016276:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1023508:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1023923:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1024043:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038724:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038760:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038840:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038862:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038866:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038937:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038946:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038953:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038961:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038987:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038991:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1038993:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039028:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039033:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039086:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039108:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039117:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039120:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039142:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039148:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039167:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039199:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039227:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039230:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039233:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039273:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039317:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039318:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039330:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039332:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039340:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039350:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039360:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039368:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039382:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039383:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039385:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039390:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039393:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039397:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039403:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039409:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039411:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039421:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039430:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039439:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039441:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039462:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039467:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039468:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039493:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039528:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039529:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039531:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039536:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039552:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1039570:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1055956:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1056059:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1056351:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1056702:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1056831:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1057818:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1058623:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1062228:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1064227:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1064492:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1065577:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1065697:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1066100:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1067285:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-10683:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1078638:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1079707:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1087546:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094122:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094702:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094734:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094735:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094852:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094857:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094906:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094922:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094989:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1094998:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1095005:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1095016:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1095665:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1096803:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-110:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1101930:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1102442:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1120811:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180008:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180036:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180050:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180064:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180260:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180271:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180312:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1180973:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1181903:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1181909:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1182183:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1182382:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1183430:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1183455:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1183484:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1183532:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1183575:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1184449:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1190533:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1190649:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1191789:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1192043:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1192189:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1227541:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1244902:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1244962:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245039:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245045:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245128:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245143:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245157:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245195:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245200:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245232:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245305:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1245393:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1247180:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1265:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-1265:source_reference_lineage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-132:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-153:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-166:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-21:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-2421172:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-2432:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-2589:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-2605:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-2605:source_reference_lineage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-45:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-545512:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-549706:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-560602:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-607540:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-610917:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-611836:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-634859:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-723285:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-734188:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-775808:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-776911:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ca-Mg-O:mp-973364:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1009127:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1009129:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1009490:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1023923:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1055956:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1056059:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1056351:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1056702:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1056831:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1057818:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1058623:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1065577:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1065697:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1066100:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1087546:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1094122:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1096803:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-110:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1101930:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1102442:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180008:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180036:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180050:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180064:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180260:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180271:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180312:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1180973:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1190533:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1190649:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1191789:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1192043:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1192189:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1244962:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245039:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245045:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245128:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245143:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245157:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245195:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245232:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1245393:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1247180:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1265:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-1265:source_reference_lineage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-153:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-2421172:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-2589:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-549706:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-560602:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-607540:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-610917:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-611836:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-723285:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-734188:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-775808:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-776911:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Mg-O:mp-973364:original_source_geometry_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "primary_coverage_two_of161",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fallback_coverage_one_of57",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_incomplete_entries_explicitly_listed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "O2_and_metals_require_separate_authorization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_original_queue_candidate_left_pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_full_hull_or_new_stable_material_claim",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

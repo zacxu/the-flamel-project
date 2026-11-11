@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "initial_train_only_normalization_reproduced_exactly": true,
+  "calibration_q_recomputed_absolute_difference": 1.7763568394002505e-15,
+  "prediction_rounding_tolerance": 1e-12,
+  "rounding_note": "Parallel tree accumulation can differ at floating-point roundoff; saved pre-query predictions are authoritative decision evidence.",
+  "all_five_128tree_members_verified": true,
+  "immutable_sha256_matches": true
+}

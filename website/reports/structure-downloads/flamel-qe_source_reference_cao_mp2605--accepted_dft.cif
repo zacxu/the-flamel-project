@@ -1,0 +1,53 @@
+# Flamel saved structure; no new optimization or symmetry inference.
+# Explicit physical sites in P1; source symmetry remains separate recorded metadata.
+data_qe_source_reference_cao_mp2605__accepted_dft
+_flamel_study_id 'flamel-frozen-study-20261022'
+_flamel_data_release_id 'data-v1-2a138b7808f0d12c5151'
+_flamel_candidate_id 'qe_source_reference_cao_mp2605'
+_flamel_stage_id 'qe_source_reference_cao_mp2605--accepted_dft'
+_flamel_stage_kind 'accepted_dft'
+_flamel_method 'quantum_espresso'
+_flamel_excluded no
+_flamel_exact_cell_eligible yes
+_flamel_queue_selected yes
+_flamel_source_id 'accepted_source_CaO_geometry'
+_flamel_source_sha256 '1afc45b671163eb62add37737412915e5bdc31a3b05822b5d02c81e768118e98'
+_flamel_physical_sites 2
+_flamel_pbc_a yes
+_flamel_pbc_b yes
+_flamel_pbc_c yes
+_flamel_recorded_spacegroup_number ?
+_flamel_recorded_symprec_angstrom ?
+_flamel_recorded_angle_tolerance_degrees ?
+_flamel_global_novelty_established no
+_flamel_new_stable_material_established no
+_chemical_formula_sum 'Ca1 O1'
+_cell_length_a 3.4156915911324086
+_cell_length_b 3.4156920461561393
+_cell_length_c 3.4156918452909046
+_cell_angle_alpha 60.00000527824042
+_cell_angle_beta 60.00000847537344
+_cell_angle_gamma 60.0000008068897
+_cell_volume 28.178708979435733
+_space_group_name_H-M_alt 'P 1'
+_space_group_IT_number 1
+loop_
+_space_group_symop_operation_xyz
+'x,y,z'
+loop_
+_flamel_lattice_row
+_flamel_lattice_x_angstrom
+_flamel_lattice_y_angstrom
+_flamel_lattice_z_angstrom
+0 -2.415258862014837 -2.4152585110483393 4.4064916882576975e-8
+1 -2.415259044969616 2.2701966128474491e-7 -2.4152589715942927
+2 2.604702773699212e-7 -2.415258727452682 -2.415259005044877
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ca_0 Ca 0.000002697032357596064 1.301748324673153e-7 -0.000002341419344875008 1
+O_1 O 0.49999730296764233 0.49999986982516764 0.5000023414193446 1

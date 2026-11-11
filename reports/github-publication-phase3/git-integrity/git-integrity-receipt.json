@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-10T19:57:02.969438+00:00",
+  "scope": "isolated disposable Git repo only; no source project init/staging/edits; no environment installation",
+  "git_version": "git version 2.51.0.windows.1",
+  "selected_files_checked": 5148,
+  "nongit_files_checked": 100448,
+  "derived_root_rules": 305,
+  "root_ignore_sha256": "a7e065f3ada2ced43a4ecc2ac846cdc47d2e23aeb332b22b53d83915a9ef65da",
+  "attributes_sha256": "4c350cdb818b402bba30b7ab117417138649df8966eecbd2d3dd0bea6b22012f",
+  "expected_nested_upstream_ignore_conflicts": [
+    "vendor/CrystalFormer/crystalformer/data/.gitkeep",
+    "vendor/CrystalFormer/crystalformer/data/wyckoff_list.csv",
+    "vendor/CrystalFormer/crystalformer/data/wyckoff_symbols.csv",
+    "vendor/CrystalFormer/data/atoms.json",
+    "vendor/CrystalFormer/data/mini.csv",
+    "vendor/CrystalFormer/scripts/analysis.ipynb",
+    "vendor/CrystalFormer/scripts/inspect_dataset.ipynb",
+    "vendor/CrystalFormer/scripts/structure_visualization.ipynb"
+  ],
+  "nongit_paths_unignored": [],
+  "selected_conflicts_with_optional_nested_packaging_overrides": [],
+  "future_secret_cache_cases": 9,
+  "future_secret_cache_ignored": 9,
+  "future_small_evidence_cases": 8,
+  "future_small_evidence_conflicts": [],
+  "roundtrip": [
+    {
+      "path": "mixed-lines.txt",
+      "bytes": 24,
+      "sha256": "7d8454120060860b8b0b0548cf4fcf4a2cdbab550599eb153cc9eb5da248ee1a",
+      "text_attribute": "unset",
+      "clean_equals_raw_oid": true,
+      "index_sha256": "7d8454120060860b8b0b0548cf4fcf4a2cdbab550599eb153cc9eb5da248ee1a",
+      "checkout_sha256": "7d8454120060860b8b0b0548cf4fcf4a2cdbab550599eb153cc9eb5da248ee1a",
+      "passed": true
+    },
+    {
+      "path": "lf.txt",
+      "bytes": 4,
+      "sha256": "911169ddaaf146aff539f58c26c489af3b892dff0fe283c1c264c65ae5aa59a2",
+      "text_attribute": "unset",
+      "clean_equals_raw_oid": true,
+      "index_sha256": "911169ddaaf146aff539f58c26c489af3b892dff0fe283c1c264c65ae5aa59a2",
+      "checkout_sha256": "911169ddaaf146aff539f58c26c489af3b892dff0fe283c1c264c65ae5aa59a2",
+      "passed": true
+    },
+    {
+      "path": "crlf.txt",
+      "bytes": 6,
+      "sha256": "58055bdcc73787eb88c78d36f0b4939e9c5dc1c3ad17e25cc85a6833cf1a0cab",
+      "text_attribute": "unset",
+      "clean_equals_raw_oid": true,
+      "index_sha256": "58055bdcc73787eb88c78d36f0b4939e9c5dc1c3ad17e25cc85a6833cf1a0cab",
+      "checkout_sha256": "58055bdcc73787eb88c78d36f0b4939e9c5dc1c3ad17e25cc85a6833cf1a0cab",
+      "passed": true
+    },
+    {
+      "path": "no-final-newline.json",
+      "bytes": 15,
+      "sha256": "a731c36cfa43a3401de75f0f36d37a4183c6a8111f391fe920cf34f47cbae56a",
+      "text_attribute": "unset",
+      "clean_equals_raw_oid": true,
+      "index_sha256": "a731c36cfa43a3401de75f0f36d37a4183c6a8111f391fe920cf34f47cbae56a",
+      "checkout_sha256": "a731c36cfa43a3401de75f0f36d37a4183c6a8111f391fe920cf34f47cbae56a",
+      "passed": true
+    },
+    {
+      "path": "binary.bin",
+      "bytes": 768,
+      "sha256": "f3a25aa93aa2fbba28d79260535bbd6a5eb0fc1c24a8b0f04e12b484c1dfe363",
+      "text_attribute": "unset",
+      "clean_equals_raw_oid": true,
+      "index_sha256": "f3a25aa93aa2fbba28d79260535bbd6a5eb0fc1c24a8b0f04e12b484c1dfe363",
+      "checkout_sha256": "f3a25aa93aa2fbba28d79260535bbd6a5eb0fc1c24a8b0f04e12b484c1dfe363",
+      "passed": true
+    },
+    {
+      "path": ".htaccess",
+      "bytes": 36,
+      "sha256": "add2721c04bb17d61cdcd78f0db57daaa508fec756f52d065d7fedf62b71957b",
+      "text_attribute": "unset",
+      "clean_equals_raw_oid": true,
+      "index_sha256": "add2721c04bb17d61cdcd78f0db57daaa508fec756f52d065d7fedf62b71957b",
+      "checkout_sha256": "add2721c04bb17d61cdcd78f0db57daaa508fec756f52d065d7fedf62b71957b",
+      "passed": true
+    },
+    {
+      "path": "small.pkl",
+      "bytes": 8,
+      "sha256": "e57c72b2584ad8122434a1bd9d9dbb0048d5cae26de4c314c0c9febe55ce500a",
+      "text_attribute": "unset",
+      "clean_equals_raw_oid": true,
+      "index_sha256": "e57c72b2584ad8122434a1bd9d9dbb0048d5cae26de4c314c0c9febe55ce500a",
+      "checkout_sha256": "e57c72b2584ad8122434a1bd9d9dbb0048d5cae26de4c314c0c9febe55ce500a",
+      "passed": true
+    }
+  ],
+  "historical_generator_lock_sha256_before": "6e5d83432f5e10ed8d54fb3a11a68db367b1ebd512ed86bb870afe25b767bc2f",
+  "historical_generator_lock_sha256_after": "6e5d83432f5e10ed8d54fb3a11a68db367b1ebd512ed86bb870afe25b767bc2f",
+  "portable_pin_count": 60,
+  "removed_absolute_local_references": 1,
+  "all_remaining_lock_lines_byte_identical": true,
+  "vendor_original_ignore_sha256": "def82801b533ea347b3d2361f684f3561aad1040c9f8bd21c1eb7ef1c40516ec",
+  "portable_generator_spec_sha256": "f8e5d69d03d5c400e9ae5c52b896d8ac1fb5330eb7989462d4fa7ce9a47918b6",
+  "passed": true
+}

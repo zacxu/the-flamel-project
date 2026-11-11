@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/htdocs/ui/figures",
+    "rows": [
+      {
+        "name": "..",
+        "text": "..\n-\n-",
+        "type": "dir"
+      },
+      {
+        "name": "overview.b8c1b84fa51da27e.webp",
+        "text": "overview.b8c1b84fa51da27e.webp\nwebp\n187.57 KB\nOct 22 09:56",
+        "type": "file"
+      },
+      {
+        "name": "overview.b8c1b84fa51da27e.webp.bin",
+        "text": "overview.b8c1b84fa51da27e.webp.bin\nbin\n172.23 KB\nOct 22 10:18",
+        "type": "file"
+      },
+      {
+        "name": "uncertainty.0b3e71f740c64828.webp",
+        "text": "uncertainty.0b3e71f740c64828.webp\nwebp\n156.96 KB\nOct 22 09:56",
+        "type": "file"
+      },
+      {
+        "name": "uncertainty.0b3e71f740c64828.webp.bin",
+        "text": "uncertainty.0b3e71f740c64828.webp.bin\nbin\n153.88 KB\nOct 22 10:18",
+        "type": "file"
+      }
+    ]
+  }
+]

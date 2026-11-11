@@ -1,0 +1,31 @@
+{
+  "status": "configured_and_verified",
+  "permanentSubmissionUrl": "https://theflamelproject.42web.io/refresh",
+  "submissionPage": "https://scientificintelligence.org/campaigns/osi-hackathon-2026/submissions/7",
+  "entryTarget": "index.html",
+  "cacheControl": "no-store, no-cache, must-revalidate, max-age=0",
+  "hostingPolicy": "deployment/cache-fix/.htaccess",
+  "hostingPolicySha256": "cfec2cddb8cbbf215fbe2ee17593a20f8b470d80071648ddb6d79004a8bbd149",
+  "publicationInstructions": "AGENTS.md",
+  "publicationGuide": "deployment/latest-link/README.md",
+  "publicationGuard": "deployment/latest-link/prepare-publication.mjs",
+  "fixtureTests": {
+    "path": "deployment/latest-link/test.mjs",
+    "passedScenarios": 11,
+    "scope": "Actual publication guard functions with filesystem fixtures, including two successive release identities, stale entries/packages, missing/altered assets, old hosting policy, mutable-pointer classification and protected staging. This is not an Apache or browser cache simulation."
+  },
+  "currentRelease": {
+    "uiBuildId": "ui-w6-351e6182d7af3a9d062d",
+    "package": "reports/CRYSTAL_LAB_RELEASE_PACKAGE.json",
+    "verifiedFiles": 88,
+    "verifiedBytes": 5691844,
+    "stagedPolicy": "deployment/latest-link/staged/ui-w6-351e6182d7af3a9d062d/host/.htaccess",
+    "stagedEntry": "deployment/latest-link/staged/ui-w6-351e6182d7af3a9d062d/entry-last/index.html",
+    "uploadPlan": "deployment/latest-link/staged/ui-w6-351e6182d7af3a9d062d/upload-plan.json"
+  },
+  "liveVerification": "reports/LATEST_LINK_LIVE_VERIFICATION.json",
+  "websiteRebuildOrUploadNeededForThisWorkflowChange": false,
+  "runtimeAndScientificDataChanged": false,
+  "futureAcceptance": "Run the publication guard for the new package, publish new immutable files and changed mutable pointers before the current entry, preserve the accepted hosting policy, and verify the live build and no-store response through the saved submission link after each publication.",
+  "scope": "The stable link follows the currently published entry on a new navigation. A tab that remains open does not automatically replace its running application."
+}

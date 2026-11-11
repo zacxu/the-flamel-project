@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED",
+  "restoration_root": "D:\\bears-phase1-restore-20261111-0140-SGT",
+  "inventory_sha256": "0a224fb688a3bd99825e5e53dd999ad2c4874c42675b8715a6a05e580b6aa17d",
+  "completed_utc": "2026-11-10T18:16:08.376919+00:00",
+  "files": 105551,
+  "directories_including_root": 11077,
+  "bytes": 19209577902,
+  "all_content_sha256_match": true,
+  "all_file_mtimes_match": true,
+  "uses_git_or_network": false
+}

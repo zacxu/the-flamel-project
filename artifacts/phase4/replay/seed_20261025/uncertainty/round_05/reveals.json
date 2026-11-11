@@ -1,0 +1,92 @@
+{
+  "labels_eV_atom": [
+    0.294832,
+    0.20236,
+    0.87737,
+    0.221842,
+    1.219585,
+    0.82977,
+    0.232482,
+    1.241607,
+    0.164546,
+    1.089061
+  ],
+  "material_ids": [
+    "wbm-2-37405",
+    "wbm-1-25809",
+    "wbm-1-37876",
+    "wbm-1-44776",
+    "wbm-2-37536",
+    "wbm-1-44766",
+    "wbm-1-44736",
+    "wbm-1-44193",
+    "wbm-1-44620",
+    "wbm-1-25719"
+  ],
+  "policy": "uncertainty",
+  "prior_decision_sha256": "69ab44048bfaacb188173035d9b3ea4ae89ded817946e972cff5da13821c80c1",
+  "records": [
+    {
+      "label_eV_atom": 0.294832,
+      "material_id": "wbm-2-37405",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.20236,
+      "material_id": "wbm-1-25809",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.87737,
+      "material_id": "wbm-1-37876",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.221842,
+      "material_id": "wbm-1-44776",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 1.219585,
+      "material_id": "wbm-2-37536",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.82977,
+      "material_id": "wbm-1-44766",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.232482,
+      "material_id": "wbm-1-44736",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 1.241607,
+      "material_id": "wbm-1-44193",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 0.164546,
+      "material_id": "wbm-1-44620",
+      "policy": "uncertainty",
+      "round_index": 5
+    },
+    {
+      "label_eV_atom": 1.089061,
+      "material_id": "wbm-1-25719",
+      "policy": "uncertainty",
+      "round_index": 5
+    }
+  ],
+  "revealed_at_utc": "2026-10-22T01:55:24.429766+00:00",
+  "round_index": 5
+}

@@ -1,0 +1,71 @@
+{
+  "phase": "CRYSTAL_LAB",
+  "scope": "local and public InfinityFree browser verification",
+  "actualWebGL": true,
+  "checks": {
+    "cameraRotate": true,
+    "zoomCloserAndReset": true,
+    "positiveLatticePresets": {
+      "a": {
+        "metrics": "Camera distance\n16.638 Å\nAzimuth\n90.0°\nPolar angle\n90.0°",
+        "pressed": "true"
+      },
+      "b": {
+        "metrics": "Camera distance\n16.638 Å\nAzimuth\n-44.7°\nPolar angle\n0.0°",
+        "pressed": "true"
+      },
+      "c": {
+        "metrics": "Camera distance\n16.638 Å\nAzimuth\n0.0°\nPolar angle\n90.0°",
+        "pressed": "true"
+      }
+    },
+    "axesToggle": {
+      "display": "none",
+      "keyVisible": false
+    },
+    "cartesianCompassFollowsCamera": true,
+    "touchOptIn": true,
+    "autoRotateStopsOnReset": true,
+    "keyboardArrowAndHome": true,
+    "savedSiteSelection": "Site 4\nMg · occupancy 1\nf1\nalong a\n0.5\nf2\nalong b\n0.5\nf3\nalong c\n0.5\n\nSaved fractional coordinates · unitless · ≈0 means |f| < 0.000005",
+    "unroundedSavedValues": "Site 4, unrounded saved values:\n(0.5000000283664456, 0.4999999746722544, 0.49999999431944636)",
+    "candidateChangeResetSite": true,
+    "savedFigureFallbackAndReturn": true,
+    "compactOverviewViewer": true,
+    "mobile375": true,
+    "mobile320": true,
+    "controlsMinimum44px": true
+  },
+  "consoleErrors": [],
+  "screenshots": [
+    "CRYSTAL_LAB_LOCAL_DESKTOP.jpg",
+    "CRYSTAL_LAB_LOCAL_320.jpg"
+  ],
+  "live": {
+    "url": "https://theflamelproject.42web.io/#/crystals",
+    "uiBuildId": "ui-w6-351e6182d7af3a9d062d",
+    "manifestSha256": "a9e3551c3c58201e9a6484e84160c9b1686e02412129c23e06a2c2024fab98be",
+    "manifestMatchesPackage": true,
+    "actualWebGL": true,
+    "cameraPresetMetrics": "Camera distance\n16.638 Å\nAzimuth\n0.0°\nPolar angle\n90.0°",
+    "rotateAndZoomMetrics": "Camera distance\n13.865 Å\nAzimuth\n15.0°\nPolar angle\n90.0°",
+    "axesToggle": true,
+    "touchOptIn": "cursor: auto; touch-action: none;",
+    "autoStopsOnReset": true,
+    "atomInspector": true,
+    "mobile": {
+      "build": "ui-w6-351e6182d7af3a9d062d",
+      "client": 360,
+      "minControlHeight": 44,
+      "scroll": 360,
+      "width": 375
+    },
+    "consoleErrors": [],
+    "screenshots": [
+      "CRYSTAL_LAB_LIVE_DESKTOP.jpg",
+      "CRYSTAL_LAB_LIVE_AXES.jpg",
+      "CRYSTAL_LAB_LIVE_CONTROLS.jpg",
+      "CRYSTAL_LAB_LIVE_MOBILE.jpg"
+    ]
+  }
+}

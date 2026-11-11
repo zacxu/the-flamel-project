@@ -1,0 +1,15 @@
+{
+  "status": "PASSED",
+  "input_files": 105566,
+  "input_bytes": 19209861909,
+  "each_input_has_one_destination": true,
+  "release_members_exactly_match_release_inputs": true,
+  "source_paths_sizes_and_metadata_or_hashes_unchanged": true,
+  "required_website_inputs_in_git": 103,
+  "active_sidecars_in_git": 33,
+  "all_retained_sidecars_in_git": 60,
+  "gitignore_unchanged": true,
+  "historical_evidence_rewritten": false,
+  "root_git_initialized": false,
+  "uploads": false
+}

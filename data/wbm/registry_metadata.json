@@ -1,0 +1,11 @@
+{
+  "md5": "ecd77e60c73baaab91efdab3a17da7c9",
+  "path": "data/wbm/data-files-2b7bff925a6aff10240cf6ef0f59149f51adff7b.yml",
+  "repository": "https://github.com/janosh/matbench-discovery",
+  "retrieved_at_utc": "2026-10-21T16:31:09.610388+00:00",
+  "revision": "2b7bff925a6aff10240cf6ef0f59149f51adff7b",
+  "revision_api": "https://api.github.com/repos/janosh/matbench-discovery/commits/main",
+  "sha256": "800adb56ea0d6b17ee7e34a5e0e38b3c757dd4e0ff121533ca941d2490f69f00",
+  "size_bytes": 9182,
+  "url": "https://raw.githubusercontent.com/janosh/matbench-discovery/2b7bff925a6aff10240cf6ef0f59149f51adff7b/matbench_discovery/data-files.yml"
+}

@@ -1,0 +1,11 @@
+# Shared-link entry cache fix
+
+**23 October 2026 (Singapore): deployed and live verified.** The host previously served the bare homepage and `/index.html` with a **30-day HTML cache lifetime** (`max-age=2592000`). A linked visit could therefore reuse an older application after a new release had been published. Both entry addresses now return `Cache-Control: no-store, no-cache, must-revalidate, max-age=0`, `Pragma: no-cache` and a 1970 expiry.
+
+The exact 1,150-byte entry HTML, six local hashed assets and both research manifests remain unchanged. Live JS, research manifest and scientific image samples retain their prior bytes, hashes and cache policies. Actual clicked homepage and Crystal Lab links loaded UI `ui-w6-351e6182d7af3a9d062d`. [Response and integrity evidence](CACHE_FIX_DEPLOYMENT.json) records the headers, hashes and native link results.
+
+For a browser that retained the older homepage before this policy existed, [the fresh entry address](https://theflamelproject.42web.io/refresh) serves the same exact current `index.html` through an internal rewrite. It also returns no-store headers. It keeps the short `/refresh` path in the address and preserves hash-based views; `/refresh/` redirects to `/refresh` so relative assets resolve correctly. Native links through this address loaded the current homepage and Crystal Lab; the lattice b-axis preset worked with no captured console errors. This route bypasses the older root cache without clearing cookies, storage or website files.
+
+Current root hosting configuration: **1230 bytes**, SHA-256 `cfec2cddb8cbbf215fbe2ee17593a20f8b470d80071648ddb6d79004a8bbd149`. Its first **230 bytes** exactly retain the image adapter. Future uploads must preserve [this current configuration](../deployment/cache-fix/.htaccess). [The original 230-byte image-only adapter](../deployment/root-image-adapter/.htaccess) and the intermediate 712-byte HTML policy are historical recovery evidence. No source edit, rebuild, model run or research change was required.
+
+Rollback: restore [the previous root configuration](../deployment/cache-fix/previous-root.htaccess) as `/htdocs/.htaccess`, retaining every application/research asset. This also removes the cache policy and fresh entry alias. [Deployment notes](../deployment/cache-fix/README.md) retain the final metadata, prior attempts and verification limits.

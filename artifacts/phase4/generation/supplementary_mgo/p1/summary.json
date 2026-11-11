@@ -1,0 +1,157 @@
+{
+  "attempts": 4,
+  "batch_timings": [
+    {
+      "batch_index": 2,
+      "kind": "first_call_including_compilation",
+      "sampling_success": true,
+      "seconds": 30.78200840000045
+    }
+  ],
+  "conditioning_formula": "MgO",
+  "formula": "Mg4O4",
+  "primary_attempt_offset": 8,
+  "primary_denominator_unchanged": true,
+  "requested_spacegroup": 1,
+  "results": [
+    {
+      "attempt_id": 0,
+      "batch_index": 2,
+      "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_008",
+      "cif": "artifacts/phase4/generation/supplementary_mgo/p1/cifs/attempt_000.cif",
+      "cif_sha256": "78559bcd650a229469bc8b49644816f8d763c0b45a9c125cc9ce587c06528230",
+      "counts": {
+        "Mg": 3,
+        "O": 3
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 1,
+      "measured_spacegroup_symbol": "P1",
+      "minimum_distinct_site_periodic_distance_angstrom": 0.692761921564809,
+      "minimum_periodic_distance_angstrom": 0.692761921564809,
+      "minimum_self_image_distance_angstrom": 2.8574204444885254,
+      "n_atoms": 6,
+      "raw_json": "artifacts/phase4/generation/supplementary_mgo/p1/raw_attempt_000.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch",
+        "minimum_periodic_distance_below_threshold"
+      ],
+      "structure_json": "artifacts/phase4/generation/supplementary_mgo/p1/structure_000.json",
+      "valid": false,
+      "volume_angstrom3": 72.50732548429717
+    },
+    {
+      "attempt_id": 1,
+      "batch_index": 2,
+      "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_009",
+      "cif": "artifacts/phase4/generation/supplementary_mgo/p1/cifs/attempt_001.cif",
+      "cif_sha256": "039a474dfa229e100c586cb84c2540a2d7facddea686a7139bb28b5280df3a78",
+      "counts": {
+        "Mg": 7,
+        "O": 11
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 1,
+      "measured_spacegroup_symbol": "P1",
+      "minimum_distinct_site_periodic_distance_angstrom": 0.4887921301541287,
+      "minimum_periodic_distance_angstrom": 0.4887921301541287,
+      "minimum_self_image_distance_angstrom": 3.468016147613525,
+      "n_atoms": 18,
+      "raw_json": "artifacts/phase4/generation/supplementary_mgo/p1/raw_attempt_001.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch",
+        "minimum_periodic_distance_below_threshold"
+      ],
+      "structure_json": "artifacts/phase4/generation/supplementary_mgo/p1/structure_001.json",
+      "valid": false,
+      "volume_angstrom3": 269.33377887225936
+    },
+    {
+      "attempt_id": 2,
+      "batch_index": 2,
+      "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "cif": "artifacts/phase4/generation/supplementary_mgo/p1/cifs/attempt_002.cif",
+      "cif_sha256": "0605bac1f9f48bd5f32714e15484fec7a5c1a94a9a1f25cdddac7ec5a872779f",
+      "counts": {
+        "Mg": 4,
+        "O": 4
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 1,
+      "measured_spacegroup_symbol": "P1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.178131077346058,
+      "minimum_periodic_distance_angstrom": 1.178131077346058,
+      "minimum_self_image_distance_angstrom": 2.720530033111572,
+      "n_atoms": 8,
+      "raw_json": "artifacts/phase4/generation/supplementary_mgo/p1/raw_attempt_002.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "valid": true,
+      "volume_angstrom3": 88.93152631647082
+    },
+    {
+      "attempt_id": 3,
+      "batch_index": 2,
+      "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_011",
+      "cif": "artifacts/phase4/generation/supplementary_mgo/p1/cifs/attempt_003.cif",
+      "cif_sha256": "340bc7f2335e2d9bf5e7771e52fe56fdced0822845514b6ae0ab80304e10bc28",
+      "counts": {
+        "Mg": 3,
+        "O": 6
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 1,
+      "measured_spacegroup_symbol": "P1",
+      "minimum_distinct_site_periodic_distance_angstrom": 0.899733250641788,
+      "minimum_periodic_distance_angstrom": 0.899733250641788,
+      "minimum_self_image_distance_angstrom": 2.777099609375,
+      "n_atoms": 9,
+      "raw_json": "artifacts/phase4/generation/supplementary_mgo/p1/raw_attempt_003.json",
+      "rejection_reasons": [
+        "exact_composition_mismatch",
+        "expanded_atom_count_mismatch"
+      ],
+      "structure_json": "artifacts/phase4/generation/supplementary_mgo/p1/structure_003.json",
+      "valid": false,
+      "volume_angstrom3": 118.54214436408776
+    }
+  ],
+  "run_id": "phase4_supplementary_mgo_rocksalt_p1",
+  "sampling_batch_indices": [
+    2
+  ],
+  "source_protocol_sha256": "f384edb4ed908bf3293aad432ce61de791c5cb889801ef5234915d36b8a4bd67",
+  "status": "completed",
+  "supplementary_only": true,
+  "timing_interpretation": "First call includes SG-specific JIT compilation and sampling; later same-shape call is warm. Comparison with Phase 1 SG225 changes group and composition, and is not an isolated formula-change experiment.",
+  "valid_count": 1,
+  "valid_unique_count": 1,
+  "valid_unique_representatives": [
+    {
+      "attempt_id": 2,
+      "batch_index": 2,
+      "candidate_id": "phase4_supplementary_mgo_rocksalt_p1_attempt_010",
+      "cif": "artifacts/phase4/generation/supplementary_mgo/p1/cifs/attempt_002.cif",
+      "cif_sha256": "0605bac1f9f48bd5f32714e15484fec7a5c1a94a9a1f25cdddac7ec5a872779f",
+      "counts": {
+        "Mg": 4,
+        "O": 4
+      },
+      "duplicate_of": null,
+      "measured_spacegroup": 1,
+      "measured_spacegroup_symbol": "P1",
+      "minimum_distinct_site_periodic_distance_angstrom": 1.178131077346058,
+      "minimum_periodic_distance_angstrom": 1.178131077346058,
+      "minimum_self_image_distance_angstrom": 2.720530033111572,
+      "n_atoms": 8,
+      "raw_json": "artifacts/phase4/generation/supplementary_mgo/p1/raw_attempt_002.json",
+      "rejection_reasons": [],
+      "structure_json": "artifacts/phase4/generation/supplementary_mgo/p1/structure_002.json",
+      "valid": true,
+      "volume_angstrom3": 88.93152631647082
+    }
+  ],
+  "worker_wall_seconds": 44.17645160000029
+}

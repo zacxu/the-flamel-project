@@ -1,0 +1,278 @@
+{
+  "phase": "W6",
+  "status": "passed",
+  "checkedAt": "2026-10-22T14:24:39.993Z",
+  "uiBuildId": "ui-w6-62f633585edb6b4dab66",
+  "dataReleaseId": "data-v1-2a138b7808f0d12c5151",
+  "scope": "Fresh actual browser-file to selected projection verification; independent scientific arithmetic is separately hash-bound.",
+  "checksPassed": 34,
+  "expectationsSha256": "36d9d1d4ce6aeae41e11ccafcac757006a534eaaee24e1cafd2470aad5734d58",
+  "downloads": [
+    {
+      "filename": "comparison.csv",
+      "kind": "comparison",
+      "selection": {
+        "hash": "#/replay?mode=seed&seed=20261026&policies=quality%2Cfull%2Cquality_diversity%2Crandom%2Cuncertainty&policy=uncertainty&budget=50&batch=1&revealed=true&candidateId=phase3_early_CaMg2O3_attempt_005&stageId=phase3_early_CaMg2O3_attempt_005--generated_excluded&scope=primary&endpoint=full&retainedFraction=1"
+      },
+      "path": "reports/w6-downloads/comparison.csv",
+      "bytes": 9921,
+      "sha256": "1d63a7f4b0184826844928e024b0f59bcec96bc7c6f2a1c8cfe1b358d8919936",
+      "exactProjectionMatch": true
+    },
+    {
+      "filename": "query-hidden.csv",
+      "kind": "query",
+      "selection": {
+        "seed": 20261026,
+        "policy": "random",
+        "batch": 1,
+        "revealed": false
+      },
+      "path": "reports/w6-downloads/query-hidden.csv",
+      "bytes": 4793,
+      "sha256": "f733a6562ebbdc78d06cab83fc03c3e4cd6256bf596e75c4d60fd5ee4fd37171",
+      "exactProjectionMatch": true
+    },
+    {
+      "filename": "query-revealed.csv",
+      "kind": "query",
+      "selection": {
+        "seed": 20261026,
+        "policy": "random",
+        "batch": 1,
+        "revealed": true
+      },
+      "path": "reports/w6-downloads/query-revealed.csv",
+      "bytes": 4989,
+      "sha256": "82b5244cb2251ba0cde1329b09e385401822c9e520a3b86e5c0488347ccda7b4",
+      "exactProjectionMatch": true
+    },
+    {
+      "filename": "accepted-mgo.cif",
+      "kind": "cif",
+      "selection": {
+        "stageId": "phase1_mgo_attempt_000--accepted_dft"
+      },
+      "path": "reports/w6-downloads/accepted-mgo.cif",
+      "bytes": 2321,
+      "sha256": "8d4e24fffe3098de1bf5a80cfd2c227a83233ed9f90a490d670a5f9cc43f284f",
+      "exactProjectionMatch": true
+    },
+    {
+      "filename": "dft-perturbation.csv",
+      "kind": "dft",
+      "selection": {
+        "filters": {
+          "role": "perturbation"
+        }
+      },
+      "origin": {
+        "phase": "W5",
+        "path": "reports/analysis-downloads/flamel-qe-perturbation.csv",
+        "sha256": "d44694678ee028a185e785489de072d241ee6414ffbaff343ae8248f51efbef1",
+        "scope": "Retained actual browser export revalidated against unchanged current W6 projection"
+      },
+      "path": "reports/w6-downloads/dft-perturbation.csv",
+      "bytes": 907,
+      "sha256": "d44694678ee028a185e785489de072d241ee6414ffbaff343ae8248f51efbef1",
+      "exactProjectionMatch": true
+    },
+    {
+      "filename": "symmetry-primary.csv",
+      "kind": "cohort",
+      "selection": {
+        "scope": "primary",
+        "control": "mgo_rocksalt"
+      },
+      "origin": {
+        "phase": "W5",
+        "path": "reports/analysis-downloads/flamel-symmetry-primary-mgo_rocksalt.csv",
+        "sha256": "562997623a79afbba0315204671479d8c3bf8f9d341f2f7ef8e024d44c56286e",
+        "scope": "Retained actual browser export revalidated against unchanged current W6 projection"
+      },
+      "path": "reports/w6-downloads/symmetry-primary.csv",
+      "bytes": 1074,
+      "sha256": "562997623a79afbba0315204671479d8c3bf8f9d341f2f7ef8e024d44c56286e",
+      "exactProjectionMatch": true
+    },
+    {
+      "filename": "risk.csv",
+      "kind": "risk",
+      "selection": {
+        "seed": 20261022,
+        "endpoint": "full",
+        "retainedFraction": 0.1
+      },
+      "origin": {
+        "phase": "W5",
+        "path": "reports/analysis-downloads/flamel-retention-20261022-full.csv",
+        "sha256": "8830830e83eb5dced5bcff2ea0315eb4569cc2f22903408cba9351765682a4b3",
+        "scope": "Retained actual browser export revalidated against unchanged current W6 projection"
+      },
+      "path": "reports/w6-downloads/risk.csv",
+      "bytes": 5556,
+      "sha256": "8830830e83eb5dced5bcff2ea0315eb4569cc2f22903408cba9351765682a4b3",
+      "exactProjectionMatch": true
+    }
+  ],
+  "independentReports": [
+    {
+      "path": "reports/W6_REPLAY_VALIDATION.json",
+      "sha256": "78088924f0ed29e40997473384b2a6cb25d823d6b698ab2e4de8bd88c04a6e85"
+    },
+    {
+      "path": "reports/W6_GEOMETRY_VALIDATION.json",
+      "sha256": "93d731b01a1d224c50799f0e51ffc0ead4839a5a19dfe4e205e92d00b1e8dad5"
+    },
+    {
+      "path": "reports/W6_GENERATION_VALIDATION.json",
+      "sha256": "67193b46dad39af4f4e9b909b780346c0a7f8cae96f4ab4fc5444c59ceeeef79"
+    },
+    {
+      "path": "reports/W6_UNCERTAINTY_VALIDATION.json",
+      "sha256": "7d8b05c6008d8a6edfa38d90e2de5466d9ddafbf3fc30c4df78f60533a59e974"
+    },
+    {
+      "path": "reports/W6_EVIDENCE_VALIDATION.json",
+      "sha256": "45b74f1af3991e1a5c18b9650867545bc81c2632d13a8d1fe66927224b299292"
+    }
+  ],
+  "checks": [
+    {
+      "name": "REPLAY_VALIDATION current read-only acceptance passed",
+      "passed": true
+    },
+    {
+      "name": "GEOMETRY_VALIDATION current read-only acceptance passed",
+      "passed": true
+    },
+    {
+      "name": "GENERATION_VALIDATION current read-only acceptance passed",
+      "passed": true
+    },
+    {
+      "name": "UNCERTAINTY_VALIDATION current read-only acceptance passed",
+      "passed": true
+    },
+    {
+      "name": "EVIDENCE_VALIDATION current read-only acceptance passed",
+      "passed": true
+    },
+    {
+      "name": "Browser bytes match current selected comparison: reports/w6-downloads/comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "Export identifies pinned data release: reports/w6-downloads/comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "Export is nonempty: reports/w6-downloads/comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "Browser bytes match current selected query: reports/w6-downloads/query-hidden.csv",
+      "passed": true
+    },
+    {
+      "name": "Export identifies pinned data release: reports/w6-downloads/query-hidden.csv",
+      "passed": true
+    },
+    {
+      "name": "Export is nonempty: reports/w6-downloads/query-hidden.csv",
+      "passed": true
+    },
+    {
+      "name": "Browser bytes match current selected query: reports/w6-downloads/query-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "Export identifies pinned data release: reports/w6-downloads/query-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "Export is nonempty: reports/w6-downloads/query-revealed.csv",
+      "passed": true
+    },
+    {
+      "name": "CIF stage exists in frozen registry",
+      "passed": true
+    },
+    {
+      "name": "Browser bytes match current selected cif: reports/w6-downloads/accepted-mgo.cif",
+      "passed": true
+    },
+    {
+      "name": "Export identifies pinned data release: reports/w6-downloads/accepted-mgo.cif",
+      "passed": true
+    },
+    {
+      "name": "Export is nonempty: reports/w6-downloads/accepted-mgo.cif",
+      "passed": true
+    },
+    {
+      "name": "Browser bytes match current selected dft: reports/w6-downloads/dft-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "Export identifies pinned data release: reports/w6-downloads/dft-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "Export is nonempty: reports/w6-downloads/dft-perturbation.csv",
+      "passed": true
+    },
+    {
+      "name": "Browser bytes match current selected cohort: reports/w6-downloads/symmetry-primary.csv",
+      "passed": true
+    },
+    {
+      "name": "Export identifies pinned data release: reports/w6-downloads/symmetry-primary.csv",
+      "passed": true
+    },
+    {
+      "name": "Export is nonempty: reports/w6-downloads/symmetry-primary.csv",
+      "passed": true
+    },
+    {
+      "name": "Browser bytes match current selected risk: reports/w6-downloads/risk.csv",
+      "passed": true
+    },
+    {
+      "name": "Export identifies pinned data release: reports/w6-downloads/risk.csv",
+      "passed": true
+    },
+    {
+      "name": "Export is nonempty: reports/w6-downloads/risk.csv",
+      "passed": true
+    },
+    {
+      "name": "Actual comparison download exercised",
+      "passed": true
+    },
+    {
+      "name": "Actual query download exercised",
+      "passed": true
+    },
+    {
+      "name": "Actual cif download exercised",
+      "passed": true
+    },
+    {
+      "name": "Actual dft download exercised",
+      "passed": true
+    },
+    {
+      "name": "Actual risk download exercised",
+      "passed": true
+    },
+    {
+      "name": "Actual cohort download exercised",
+      "passed": true
+    },
+    {
+      "name": "Hidden and revealed query files both exercised",
+      "passed": true
+    }
+  ]
+}

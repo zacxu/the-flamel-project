@@ -1,0 +1,10 @@
+{
+  "tests": 25,
+  "passed": 24,
+  "skipped": 1,
+  "failed": 0,
+  "skip_reason": "Windows denied creating a real symlink; simulated reparse-point rejection test passed",
+  "script": "scripts/github_publication/test_verify_phase3.py",
+  "scope": "Tamper, exact selection, path safety, complete external seal, missing controls, wrong seal digest, reviewed exceptions and literal pathspec",
+  "source_experiments_run": false
+}

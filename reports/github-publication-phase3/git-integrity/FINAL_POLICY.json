@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-11-10T20:16:05.868388+00:00",
+  "scope": "final selected paths, source metadata copied to isolated Git fixture only",
+  "source_git_initialized": false,
+  "selected_paths": 5200,
+  "nongit_paths": 100449,
+  "intentional_nested_conflicts": [
+    "vendor/CrystalFormer/crystalformer/data/.gitkeep",
+    "vendor/CrystalFormer/crystalformer/data/wyckoff_list.csv",
+    "vendor/CrystalFormer/crystalformer/data/wyckoff_symbols.csv",
+    "vendor/CrystalFormer/data/atoms.json",
+    "vendor/CrystalFormer/data/mini.csv",
+    "vendor/CrystalFormer/scripts/analysis.ipynb",
+    "vendor/CrystalFormer/scripts/inspect_dataset.ipynb",
+    "vendor/CrystalFormer/scripts/structure_visualization.ipynb"
+  ],
+  "exact_reviewed_exceptions_match": true,
+  "nongit_paths_unignored": [],
+  "future_private_cache_cases": 11,
+  "future_private_cache_cases_unignored": [],
+  "future_small_evidence_cases": 9,
+  "future_small_evidence_conflicts": [],
+  "selected_text_attribute_failures": [],
+  "root_ignore_sha256": "ca8ebb8da0ce8963ccea5362fcb0c0a1aebdef69c8907435528e706d3797a9bb",
+  "attributes_sha256": "4c350cdb818b402bba30b7ab117417138649df8966eecbd2d3dd0bea6b22012f",
+  "allowlist_sha256": "55e25b6d6e0a5f65a01b83c796129a1174944974dee295807dd15aba105cd3d8",
+  "passed": true
+}

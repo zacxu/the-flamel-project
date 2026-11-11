@@ -1,0 +1,59 @@
+{
+  "setup_at_utc": "2026-10-21T16:29:15.661292+00:00",
+  "library": "SSSP_1.3.0_PBE_efficiency",
+  "official_record": "https://archive.materialscloud.org/record/2023.65",
+  "metadata_archive": {
+    "source": "https://archive.materialscloud.org/records/rcyfm-68h65/files/SSSP_1.3.0_PBE_efficiency.json?download=1&phase1_nonce=1792600141157537900",
+    "path": "data\\pseudopotentials\\SSSP_1.3.0_PBE_efficiency.json",
+    "bytes": 22376,
+    "sha256": "2c8642a70308ecd072a209a30c160bf51423560bb202116cb31fd5275eff814a",
+    "verified_algorithm": "md5",
+    "expected_digest": "3153c4b20fc90a44fba0236627525644",
+    "observed_digest": "3153c4b20fc90a44fba0236627525644",
+    "checked_at_utc": "2026-10-21T16:29:02.913631+00:00",
+    "setup_elapsed_seconds": 1.754848000000493
+  },
+  "pseudopotential_archive": {
+    "source": "https://archive.materialscloud.org/records/rcyfm-68h65/files/SSSP_1.3.0_PBE_efficiency.tar.gz?download=1&phase1_nonce=1792600141157537900",
+    "path": "data\\pseudopotentials\\SSSP_1.3.0_PBE_efficiency.tar.gz",
+    "bytes": 59513522,
+    "sha256": "7a85b71fa3d68df1b5ed33c55c7057681fbf10377ae3b3eac9392924d9189f12",
+    "verified_algorithm": "md5",
+    "expected_digest": "a58f1b3373f330179fd0832c48bb9a52",
+    "observed_digest": "a58f1b3373f330179fd0832c48bb9a52",
+    "checked_at_utc": "2026-10-21T16:29:14.181566+00:00",
+    "setup_elapsed_seconds": 11.267889899998409
+  },
+  "pseudopotentials": [
+    {
+      "element": "Mg",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "path": "data\\pseudopotentials\\Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1013584,
+      "sha256": "f057a22e5d8484686a1b3fe3724aa01af4236fe8a845e5c2f772c472f107639f",
+      "md5": "24ecedc7f3e3cbe212e682f4413594e4",
+      "sssp_metadata": {
+        "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "md5": "24ecedc7f3e3cbe212e682f4413594e4",
+        "pseudopotential": "031PAW",
+        "cutoff_wfc": 30.0,
+        "cutoff_rho": 240.0
+      }
+    },
+    {
+      "element": "O",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "path": "data\\pseudopotentials\\O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 930566,
+      "sha256": "7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa",
+      "md5": "0234752ac141de4415c5fc33072bef88",
+      "sssp_metadata": {
+        "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+        "md5": "0234752ac141de4415c5fc33072bef88",
+        "pseudopotential": "031PAW",
+        "cutoff_wfc": 50.0,
+        "cutoff_rho": 400.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "repository": "zacxu/the-flamel-project",
+  "release_tag_planned": "research-baseline-2026-11-11",
+  "publication_status": "local_prepared_unpublished_pending_phase3",
+  "max_git_file_bytes": 52428800,
+  "archive_target_bytes": 805306368,
+  "asset_limit_bytes": 1073741824,
+  "git_lfs_selected": false,
+  "git_lfs_reason": "All large selected files are frozen evidence; versioned release archives provide optional hydration. No LFS pointers or billing configuration are needed for this baseline.",
+  "keep_website_validation_reports_in_git": true,
+  "phase2_control_paths": [
+    "GITHUB_CICD_PUBLICATION_PLAN.md",
+    "publication/",
+    "reports/GITHUB_PUBLICATION_PHASE2.md",
+    "reports/github-publication-phase2/",
+    "scripts/github_publication/prepare_storage.py",
+    "scripts/github_publication/artifact_io.py",
+    "scripts/github_publication/test_artifact_io.py",
+    "reports/BACKUP_RELOCATION.md",
+    "reports/github-publication-phase1/RECOVERY.md",
+    "reports/GITHUB_PUBLICATION_PHASE1.md"
+  ],
+  "phase3_gates": [
+    "credential and sensitive-data review of every Git/release candidate",
+    "third-party redistribution review, particularly checkpoint licence and pseudopotentials",
+    "line-ending and Git-ignore policy review before first staging"
+  ],
+  "pinned_retrieval": [
+    {
+      "id": "crystalformer-source",
+      "target": "vendor/CrystalFormer-31bb734a.tar.gz",
+      "url": "https://codeload.github.com/deepmodeling/CrystalFormer/tar.gz/31bb734a3fd006af49a021921839061e6184cbf1",
+      "bytes": 2212229,
+      "sha256": "1f440e96fd598139067c9d7eb2c4cbd8204a9bf79505e4fcdabe8dc2b372e975",
+      "revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+      "note": "86 required original source files are also selected for Git; upstream local .env stays private."
+    },
+    {
+      "id": "qe-runtime",
+      "target": "vendor/quantum_espresso/qe-7.5-win-oneapi-msmpi.zip",
+      "url": "https://github.com/QMatSuite/quantum-espresso-windows-exe/releases/download/qe-7.5-win-oneapi-msmpi/qe-7.5-win-oneapi-msmpi.zip",
+      "bytes": 400430691,
+      "sha256": "e50ec7368a5b7a964eb5084e0a13464ba2628d4e147c16227e876002ea34fdf7",
+      "note": "Retain all distribution notices in Git. Runtime redistribution is not approved; retrieve the pinned upstream distribution."
+    },
+    {
+      "id": "sssp-archive",
+      "target": "data/pseudopotentials/SSSP_1.3.0_PBE_efficiency.tar.gz",
+      "url": "https://archive.materialscloud.org/records/rcyfm-68h65/files/SSSP_1.3.0_PBE_efficiency.tar.gz?download=1",
+      "bytes": 59513522,
+      "sha256": "7a85b71fa3d68df1b5ed33c55c7057681fbf10377ae3b3eac9392924d9189f12",
+      "note": "Exact individual input UPFs are selected for research-input release archives; the bulk upstream distribution can be retrieved."
+    }
+  ],
+  "third_party": [
+    {
+      "id": "crystalformer",
+      "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+      "source_licence_observed": "Apache-2.0; retain original LICENSE",
+      "checkpoint_revision": "b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+      "checkpoint_path": "alex20s/multi/epoch_044000.pkl",
+      "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+      "checkpoint_licence_status": "not established by local model card; Phase3 review required"
+    },
+    {
+      "id": "qe-runtime",
+      "observed_notices": "GPL-2.0-or-later plus component-specific Intel/MSMPI/library notices; no blanket binary licence inferred"
+    },
+    {
+      "id": "historical-datasets",
+      "observed_record": "Figshare metadata records CC BY 4.0 and DOI 10.6084/m9.figshare.22715158.v39; retain registry and citation records",
+      "pinned_registry_revision": "2b7bff925a6aff10240cf6ef0f59149f51adff7b"
+    }
+  ]
+}

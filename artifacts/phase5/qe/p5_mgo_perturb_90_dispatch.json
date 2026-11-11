@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-22T02:18:49.031874+00:00",
+  "args": {
+    "job_id": "p5_mgo_perturb_90",
+    "reference_id": null,
+    "geometry": "artifacts\\phase5\\qe\\perturbation\\final_geometry.json",
+    "expected_geometry_sha256": "b510d3b6d0efce6f96a104f102be85fa5fe25c5583cb44cbeaa6404a13f8ad88",
+    "selection_manifest": null,
+    "role": "perturbation",
+    "calculation": "vc-relax",
+    "cutoff_multiplier": 1.8,
+    "k_spacing": 0.35,
+    "pressure_threshold": 0.1,
+    "max_seconds": 900,
+    "outer_timeout": 930
+  },
+  "queue_plan_sha256": "492c017933ab5dc448034ef72df8d2dbe2405282ff99b539d7c0480f780ef5e4"
+}

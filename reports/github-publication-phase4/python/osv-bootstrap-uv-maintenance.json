@@ -1,0 +1,10 @@
+{
+  "query": {
+    "package": {
+      "ecosystem": "PyPI",
+      "name": "uv"
+    },
+    "version": "0.13.7"
+  },
+  "response": {}
+}

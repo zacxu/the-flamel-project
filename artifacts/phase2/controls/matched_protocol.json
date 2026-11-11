@@ -1,0 +1,74 @@
+{
+  "batch_size": 4,
+  "checkpoint_revision": "b203f4273158d95b49b60a13433bf1dcc4ccf5d9",
+  "checkpoint_sha256": "847e8f3962226d0539722c851bd615479d9c7fc2d5be9112898c1cdd2b7b700a",
+  "controls": [
+    {
+      "chemical_system": "Mg-O",
+      "comparison_spacegroup": 1,
+      "conditioning_formula": "MgO",
+      "entry_id": "mp-1265-GGA",
+      "evaluated_formula": "Mg4O4",
+      "evaluated_n_atoms": 8,
+      "exact_element_counts": {
+        "Mg": 4,
+        "O": 4
+      },
+      "label": "mgo_rocksalt",
+      "material_id": "mp-1265",
+      "nontrivial_spacegroup": 225,
+      "note": "MgO's exact SG225/eight-atom setting yields one rocksalt topology; do not count lattice strain as distinct phases.",
+      "reference_cif": "artifacts/phase2/controls/mgo_rocksalt_reference.cif",
+      "reference_json": "artifacts/phase2/controls/mgo_rocksalt_reference.json",
+      "selection_rule": "Composition, detected group, conventional cell count; then source site count and numeric material ID. No energy used.",
+      "source_raw_index": "25584"
+    },
+    {
+      "chemical_system": "O-Ti",
+      "comparison_spacegroup": 1,
+      "conditioning_formula": "TiO2",
+      "entry_id": "mp-2657-GGA",
+      "evaluated_formula": "Ti2O4",
+      "evaluated_n_atoms": 6,
+      "exact_element_counts": {
+        "O": 4,
+        "Ti": 2
+      },
+      "label": "tio2_rutile",
+      "material_id": "mp-2657",
+      "nontrivial_spacegroup": 136,
+      "note": "Rutile has an internal oxygen-coordinate degree of freedom; this does not guarantee several distinct polymorphs.",
+      "reference_cif": "artifacts/phase2/controls/tio2_rutile_reference.cif",
+      "reference_json": "artifacts/phase2/controls/tio2_rutile_reference.json",
+      "selection_rule": "Composition, detected group, conventional cell count; then source site count and numeric material ID. No energy used.",
+      "source_raw_index": "27560"
+    }
+  ],
+  "interpretation": "Sampling/conditioning contrast within same trained architecture; no generator-architecture causal claim.",
+  "phase1_mgo_nontrivial_attempts_already_consumed": 8,
+  "primary_attempts_per_arm_per_formula": 8,
+  "relaxation_selection": "Seeded random selection among valid unique outputs before energies; balanced within-formula quota. MgO at most one unique topology per arm; rutile up to four. No extra attempts in Phase 2.",
+  "remaining_primary_attempts": 24,
+  "seed": 20261022,
+  "source_revision": "31bb734a3fd006af49a021921839061e6184cbf1",
+  "supplementary_topups": "Both arms equally, before final random relaxation selection; separate from first-eight primary yield denominator and within global 128 attempts.",
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "total_primary_attempts": 32,
+  "validation": {
+    "angle_tolerance_degrees": 5.0,
+    "deduplication": {
+      "angle_tol": 5.0,
+      "attempt_supercell": false,
+      "ltol": 0.05,
+      "primitive_cell": true,
+      "scale": true,
+      "stol": 0.1
+    },
+    "exact_expanded_element_counts": true,
+    "expanded_atom_cap": 20,
+    "minimum_distance_angstrom": 0.75,
+    "symprec_angstrom": 0.01
+  },
+  "version": "phase2-symmetry-controls-v1"
+}

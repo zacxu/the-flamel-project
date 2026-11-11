@@ -1,0 +1,7 @@
+{"name":"live_release","pass":true,"ui_release_id":"ui-w6-61a05eb4a69162cc438b","recorded_at":"2026-10-22T16:04:23.657Z"}
+{"name":"desktop_logo","pass":true,"background":"#f6f2e9","linework":"#92522f","centre_dot":"#92522f","radius":4,"width":37,"height":44,"recorded_at":"2026-10-22T16:04:23.657Z"}
+{"name":"mobile_logo","pass":true,"background":"rgb(246, 242, 233)","dot":"rgb(146, 82, 47)","dotRadius":"4","height":37,"noOverflow":true,"stroke":"rgb(146, 82, 47)","width":29,"recorded_at":"2026-10-22T16:04:23.657Z"}
+{"name":"replay_chart","pass":true,"recorded_at":"2026-10-22T16:04:23.657Z"}
+{"name":"crystal_viewer","pass":true,"recorded_at":"2026-10-22T16:04:23.657Z"}
+{"name":"console_errors","pass":true,"errors":[],"recorded_at":"2026-10-22T16:04:23.657Z"}
+{"name":"live_manifest_hash","pass":true,"sha256":"d6efa01c80d69a6bc9084936e3efb8254c3bafec9971312127155a020fe1ef35","recorded_at":"2026-10-22T16:04:23.657Z"}

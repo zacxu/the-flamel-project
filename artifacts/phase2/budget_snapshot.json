@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "as_of_utc": "2026-10-21T17:21:13.847435+00:00",
+  "phase": 2,
+  "generation": {
+    "ceiling_attempts": 128,
+    "charged_attempts": 12,
+    "remaining_attempts": 116,
+    "cumulative_sampling_seconds": 38.38882739999826,
+    "cumulative_run_seconds_including_initialization_and_conversion": 55.423395199999504,
+    "source_ledgers": [
+      "artifacts/phase1/generator/ledger.jsonl",
+      "artifacts/phase2/budgets/prototype_attempts.jsonl"
+    ],
+    "CrystalFormer_sample_attempts": 8,
+    "deterministic_prototype_attempts": 4
+  },
+  "chgnet": {
+    "ceiling_attempts": 40,
+    "charged_attempts": 8,
+    "remaining_attempts": 32,
+    "actual_relaxations": 4,
+    "pre_model_launcher_rejections": 4,
+    "ceiling_seconds": 14400,
+    "charged_wall_seconds": 23.862674800002424,
+    "remaining_seconds": 14376.137325199998,
+    "charging_rule": "Conservatively count every launch, including four guard rejections before model imports; charge entire subprocess walltime, including imports, load and relaxation.",
+    "source_ledgers": [
+      "artifacts/phase1/chgnet/ledger.jsonl",
+      "artifacts/phase1/chgnet_relaxation/ledger.jsonl"
+    ]
+  },
+  "qe": {
+    "ceiling_seconds": 21600,
+    "charged_wall_seconds": 2.103912800001126,
+    "remaining_seconds": 21597.8960872,
+    "completed_jobs": 1,
+    "source_ledgers": [
+      "artifacts/phase1/qe/qe_jobs.jsonl"
+    ]
+  },
+  "project_started_utc": "2026-10-21T16:24:44+00:00",
+  "numerical_stop_utc": "2026-10-22T10:24:44+00:00",
+  "all_caps_remain_binding": true,
+  "note": "Phase2 adds four deterministic prototype candidates under the broad128structure ceiling. All later sampling/baseline attempts require explicit registered ledgers. Historical finalizers must not reset cumulative accounting.",
+  "workflow_phase_completed": 2,
+  "phase2_CrystalFormer_attempts_added": 0,
+  "phase2_prototype_attempts_added": 4,
+  "remaining_chgnet_reallocation": {
+    "global_ceiling": 40,
+    "already_charged_including_failed_launches": 8,
+    "remaining_ceiling": 32,
+    "symmetry_max": 10,
+    "symmetry_reason": "MgO at most1uniqueperarm=2; secondcontrol atmost4perarm=8; always q=min(4,nvalidSG,nvalidP1)",
+    "new_composition_shortlist_and_DFT_prerelax_max": 12,
+    "prototype_substitution_max": 4,
+    "same_composition_reference_max": 4,
+    "explicit_retry_contingency_max": 2,
+    "remaining_suballocations_sum": 32,
+    "unused_slots_not_automatically_spent": true,
+    "per_job": {
+      "model": "0.3.0",
+      "package": "0.4.2",
+      "steps_max": 200,
+      "fmax_eV_A": 0.05,
+      "relax_cell": true,
+      "imposed_symmetry": false
+    },
+    "global_time_seconds": 14400,
+    "already_charged_seconds": 23.862674800002424
+  }
+}

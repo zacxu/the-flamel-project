@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "kind": "flamel-upstream-upfs-v1",
+  "upstream_archive": {
+    "name": "SSSP_1.3.0_PBE_efficiency.tar.gz",
+    "url": "https://archive.materialscloud.org/records/rcyfm-68h65/files/SSSP_1.3.0_PBE_efficiency.tar.gz?download=1",
+    "bytes": 59513522,
+    "sha256": "7a85b71fa3d68df1b5ed33c55c7057681fbf10377ae3b3eac9392924d9189f12"
+  },
+  "source_record": "https://archive.materialscloud.org/records/rcyfm-68h65",
+  "family_licence_source": "https://archive.materialscloud.org/records/rcyfm-68h65/files/LICENSE.txt?download=1",
+  "not_republished": true,
+  "original_upf_member_count": 77,
+  "exact_input_copy_paths": 41,
+  "serialized_scratch_upfs": 36,
+  "scope": "Download pinned upstream archive directly and place exact3used raw UPFs. Optional41exact recorded input placements are reconstructible.36QE-serialized .save scratch representations and other withheld scratch/restart results remain private and are not reconstructed.",
+  "files": [
+    {
+      "filename": "Ca_pbe_v1.uspp.F.UPF",
+      "element": "Ca",
+      "bytes": 575920,
+      "sha256": "5887acb75823f7f92df1b3117fece4e43498cafccaaaf9cfa653615af1a20d6e",
+      "upstream_metadata_md5": "403a4c14b9e4d4dfdc3024c9a3812218",
+      "licence": "GPL-3.0",
+      "family": "GBRV-1.2",
+      "licence_basis": "Exact SSSP record LICENSE.txt family mapping retained at publication/third-party/SSSP-LICENSE.txt",
+      "restore_paths": [
+        "artifacts/phase3/qe/p3_ref_cao_base/pseudo/Ca_pbe_v1.uspp.F.UPF",
+        "artifacts/phase4/qe/p4_cao_final_cut75/pseudo/Ca_pbe_v1.uspp.F.UPF",
+        "artifacts/phase4/qe/p4_cao_final_k045/pseudo/Ca_pbe_v1.uspp.F.UPF",
+        "artifacts/phase4/qe/p4_ref_cao_90_k035/pseudo/Ca_pbe_v1.uspp.F.UPF",
+        "data/pseudopotentials/Ca_pbe_v1.uspp.F.UPF"
+      ]
+    },
+    {
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "element": "Mg",
+      "bytes": 1013584,
+      "sha256": "f057a22e5d8484686a1b3fe3724aa01af4236fe8a845e5c2f772c472f107639f",
+      "upstream_metadata_md5": "24ecedc7f3e3cbe212e682f4413594e4",
+      "licence": "GPL-2.0-or-later",
+      "family": "031PAW",
+      "licence_basis": "Exact SSSP record LICENSE.txt family mapping retained at publication/third-party/SSSP-LICENSE.txt",
+      "restore_paths": [
+        "artifacts/phase1/qe/mgo_scf_pilot/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_candidate_mgo_fallback_90/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_fallback_final_final_cut75/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_fallback_final_final_k045/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_mgo_cut60/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_mgo_cut75/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_mgo_cut90/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_mgo_final_final_cut75/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_mgo_final_final_k045/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_mgo_k035/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_mgo_k045/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_ref_mgo_90_k035/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase3/qe/p3_ref_mgo_base/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "artifacts/phase5/qe/p5_mgo_perturb_90/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+        "data/pseudopotentials/Mg.pbe-n-kjpaw_psl.0.3.0.UPF"
+      ]
+    },
+    {
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "element": "O",
+      "bytes": 930566,
+      "sha256": "7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa",
+      "upstream_metadata_md5": "0234752ac141de4415c5fc33072bef88",
+      "licence": "GPL-2.0-or-later",
+      "family": "031PAW",
+      "licence_basis": "Exact SSSP record LICENSE.txt family mapping retained at publication/third-party/SSSP-LICENSE.txt",
+      "restore_paths": [
+        "artifacts/phase1/qe/mgo_scf_pilot/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_candidate_mgo_fallback_90/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_fallback_final_final_cut75/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_fallback_final_final_k045/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_mgo_cut60/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_mgo_cut75/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_mgo_cut90/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_mgo_final_final_cut75/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_mgo_final_final_k045/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_mgo_k035/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_mgo_k045/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_ref_cao_base/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_ref_mgo_90_k035/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase3/qe/p3_ref_mgo_base/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase4/qe/p4_cao_final_cut75/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase4/qe/p4_cao_final_k045/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase4/qe/p4_ref_cao_90_k035/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "artifacts/phase5/qe/p5_mgo_perturb_90/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+        "data/pseudopotentials/O.pbe-n-kjpaw_psl.0.1.UPF"
+      ]
+    }
+  ],
+  "nonreconstructible_serialized_scratch_members": [
+    {
+      "path": "artifacts/phase1/qe/mgo_scf_pilot/scratch/mgo_phase1.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase1/qe/mgo_scf_pilot/scratch/mgo_phase1.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_candidate_mgo_fallback_90/scratch/p3_candidate_mgo_fallback_90.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_candidate_mgo_fallback_90/scratch/p3_candidate_mgo_fallback_90.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_fallback_final_final_cut75/scratch/p3_fallback_final_final_cut75.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_fallback_final_final_cut75/scratch/p3_fallback_final_final_cut75.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_fallback_final_final_k045/scratch/p3_fallback_final_final_k045.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_fallback_final_final_k045/scratch/p3_fallback_final_final_k045.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_cut60/scratch/p3_mgo_cut60.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_cut60/scratch/p3_mgo_cut60.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_cut75/scratch/p3_mgo_cut75.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_cut75/scratch/p3_mgo_cut75.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_cut90/scratch/p3_mgo_cut90.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_cut90/scratch/p3_mgo_cut90.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_final_final_cut75/scratch/p3_mgo_final_final_cut75.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_final_final_cut75/scratch/p3_mgo_final_final_cut75.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_final_final_k045/scratch/p3_mgo_final_final_k045.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_final_final_k045/scratch/p3_mgo_final_final_k045.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_k035/scratch/p3_mgo_k035.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_k035/scratch/p3_mgo_k035.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-001.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_k045/scratch/p3_mgo_k045.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_mgo_k045/scratch/p3_mgo_k045.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_cao_base/scratch/p3_ref_cao_base.save/Ca_pbe_v1.uspp.F.UPF",
+      "filename": "Ca_pbe_v1.uspp.F.UPF",
+      "bytes": 583554,
+      "sha256": "7d715eef9a1aab9d9223dce51c457bee68682e7d9e74c5c7cc0284cbef36333d",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_cao_base/scratch/p3_ref_cao_base.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_mgo_90_k035/scratch/p3_ref_mgo_90_k035.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_mgo_90_k035/scratch/p3_ref_mgo_90_k035.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/scratch/p3_ref_mgo_90_k035_cont1.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_mgo_90_k035_cont1/scratch/p3_ref_mgo_90_k035_cont1.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_mgo_base/scratch/p3_ref_mgo_base.save/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "filename": "Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1024275,
+      "sha256": "efdc41c00617936f1ef3e76e0280df0dfd056192f1735a1288ddf6cf293d99e7",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase3/qe/p3_ref_mgo_base/scratch/p3_ref_mgo_base.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase4/qe/p4_cao_final_cut75/scratch/p4_cao_final_cut75.save/Ca_pbe_v1.uspp.F.UPF",
+      "filename": "Ca_pbe_v1.uspp.F.UPF",
+      "bytes": 583554,
+      "sha256": "7d715eef9a1aab9d9223dce51c457bee68682e7d9e74c5c7cc0284cbef36333d",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase4/qe/p4_cao_final_cut75/scratch/p4_cao_final_cut75.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase4/qe/p4_cao_final_k045/scratch/p4_cao_final_k045.save/Ca_pbe_v1.uspp.F.UPF",
+      "filename": "Ca_pbe_v1.uspp.F.UPF",
+      "bytes": 583554,
+      "sha256": "7d715eef9a1aab9d9223dce51c457bee68682e7d9e74c5c7cc0284cbef36333d",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase4/qe/p4_cao_final_k045/scratch/p4_cao_final_k045.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase4/qe/p4_ref_cao_90_k035/scratch/p4_ref_cao_90_k035.save/Ca_pbe_v1.uspp.F.UPF",
+      "filename": "Ca_pbe_v1.uspp.F.UPF",
+      "bytes": 583554,
+      "sha256": "7d715eef9a1aab9d9223dce51c457bee68682e7d9e74c5c7cc0284cbef36333d",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    },
+    {
+      "path": "artifacts/phase4/qe/p4_ref_cao_90_k035/scratch/p4_ref_cao_90_k035.save/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "filename": "O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 940370,
+      "sha256": "273ed3281e13e8fc8fc4b816acebdbb4928313c55b47abaaf1eb9e9a5aa4c1a6",
+      "source_private_archive": "flamel-qe-scratch-002.zip",
+      "reason": "QE-serialized .save scratch representation differs from canonical upstream input; retained privately, never replaced with a byte-different raw file."
+    }
+  ]
+}

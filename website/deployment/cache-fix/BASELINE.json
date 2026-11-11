@@ -1,0 +1,63 @@
+{
+  "recordedAt": "2026-10-22T18:49:51.347Z",
+  "uiBuildId": "ui-w6-351e6182d7af3a9d062d",
+  "entry": {
+    "path": "website/dist/index.html",
+    "bytes": 1150,
+    "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68"
+  },
+  "assets": [
+    {
+      "path": "website/dist/assets/CrystalViewer-BkPovndm.css",
+      "bytes": 13236,
+      "sha256": "a18b7388b91fb8f5ca89745da521b8470c5fa87309a23d0158d61dc535b50e81"
+    },
+    {
+      "path": "website/dist/assets/CrystalViewer-D6QrqYuJ.js",
+      "bytes": 588299,
+      "sha256": "e8eb1d8dfb4aeb92afea197196377aaeb9c82bcbfac116211e5995b0c0ea5552"
+    },
+    {
+      "path": "website/dist/assets/ReplayChart-Cu8ZDifc.css",
+      "bytes": 1977,
+      "sha256": "11d344708228c81d85f3cd86a73984e2e90a6948cdcd3318aa931954d31fc2ad"
+    },
+    {
+      "path": "website/dist/assets/ReplayChart-Dv-DkF9p.js",
+      "bytes": 374724,
+      "sha256": "55ff7cde8cc4a837a4eaa9d0574602a027fcd3a2a9361613e3614c2c2ff5d1c9"
+    },
+    {
+      "path": "website/dist/assets/index-BI21S9xT.css",
+      "bytes": 48401,
+      "sha256": "c562c1504721ab23cb6a74d277d5b9fd0a928aaa444fb886b17c7c7ed8bc8690"
+    },
+    {
+      "path": "website/dist/assets/index-BiMRMsvf.js",
+      "bytes": 464737,
+      "sha256": "dfd9ce683cc2bb3bf91a1bdc352b03280a454ba3ca2b7caeeb414556eeb0a68f"
+    }
+  ],
+  "researchManifests": [
+    {
+      "path": "website/public/research/manifest.json",
+      "bytes": 22605,
+      "sha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d"
+    },
+    {
+      "path": "website/dist/research/manifest.json",
+      "bytes": 22605,
+      "sha256": "3b55f64687a8dd270482b3a2dfc9395672dbbce836fd90041712d2750e228e3d"
+    }
+  ],
+  "originalRootConfiguration": {
+    "path": "website/deployment/root-image-adapter/.htaccess",
+    "bytes": 230,
+    "sha256": "383707b105ac4286f66595968d735aded9a3e5796f4d98bceac2588d0955d9fc"
+  },
+  "generatedIdentity": {
+    "path": "website/src/generated/uiRelease.ts",
+    "bytes": 838,
+    "sha256": "6011155e7dd26c8b6fb4350a53d53d822d21ffb69bf46e5a20a51cd4b3080717"
+  }
+}

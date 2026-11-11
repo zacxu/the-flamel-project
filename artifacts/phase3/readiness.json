@@ -1,0 +1,37 @@
+{
+  "phase": 3,
+  "status": "complete",
+  "completed_utc": "2026-10-21T18:11:31.882891+00:00",
+  "ready_for_phase4": true,
+  "protocol_sha256": "b71724ad4e9a940de090d4163bc6a23a10ed9bfb957fb656b50222b884d36c94",
+  "completed_paired_seeds": [
+    20261022
+  ],
+  "remaining_paired_seeds": [
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "retrospective_queries": 250,
+  "primary_exact_cell_generated_survivors": 0,
+  "actual_new_CrystalFormer_draws": 8,
+  "phase3_charged_generation_attempts": 12,
+  "phase3_engineering_overhead_attempts": 4,
+  "fresh_DFT_candidate_scope": "Predeclared known MgO control; no primary CaMg2O3 survivor",
+  "qe_summary": "artifacts/phase3/qe/summary.json",
+  "qe_result_scope": "Known MgO control: frozen eight-atom generated/CHGNet-pre-relaxed structure versus original-source-cell two-atom rock-salt MgO reference; no new material/composition discovery",
+  "remaining_generation_attempts": 104,
+  "remaining_chgnet_launches": 31,
+  "remaining_QE_seconds": 20392.807158099997,
+  "all_caps_unchanged": true,
+  "new_stable_material_established": false,
+  "symmetry_benefit_established": false,
+  "phase4_requirements": [
+    "Complete other four frozen paired replay seeds without retuning",
+    "Complete matched nontrivial-group versus P1 sampling on both reserved controls",
+    "Generate the other five default new-composition cohorts using their frozen seeds",
+    "Retain zero/partial yields and use frozen initial selector for later fresh shortlist",
+    "Continue bounded DFT/reference work; require complete compatible competition before any hull claim"
+  ]
+}
