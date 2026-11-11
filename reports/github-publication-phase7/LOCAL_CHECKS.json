@@ -665,5 +665,22 @@
   },
   "phase7_policy_fixtures": 5,
   "scientific_experiments": 0,
-  "hosting_changed": false
+  "hosting_changed": false,
+  "transport_draft_lookup_fix": {
+    "status": "PASS",
+    "tests": 21,
+    "skipped": 0,
+    "scientific_experiments": 0,
+    "network_mutations": 0,
+    "helper_sha256": "a337316d9f76604fb1987a43657e12d0304f5ff728de9e5ec9d6b885cccc7839",
+    "test_sha256": "c35b24857d7dace8ba4fcd70131c5716839629c932ab4001e89a47b6ef50030e",
+    "log_sha256": "bd8edc96104a25743d8b1c57097d1be4342da902f7201a6170d2c07a65e36141",
+    "scope": "Includes real by-tag-404 to bounded same-repository draft-list fallback, published fast path, ambiguous/wrong-scope/published fallback rejection and missing-release behavior."
+  },
+  "rejected_candidate": {
+    "source_commit": "0d2d90304af99df49218802c234bf08ae7132e7b",
+    "reason": "GitHub by-tag API omits draft releases; rejected before any asset transfer/publication.",
+    "shipping_evidence_preserved": true,
+    "only_owned_empty_draft_and_tentative_tag_removed": true
+  }
 }
