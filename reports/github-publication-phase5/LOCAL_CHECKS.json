@@ -32,5 +32,20 @@
     }
   ],
   "scientific_experiments": 0,
-  "not_a_remote_ci_result": true
+  "not_a_remote_ci_result": true,
+  "staged_website_build": {
+    "passed": true,
+    "build_files_verified": 86,
+    "frozen_build_bytes_match": true,
+    "staged_website_files_exported": 293,
+    "full_source_export": false,
+    "research_experiments": 0,
+    "powershell_modules": "Standard Windows PowerShell5.1 modules only; inherited app/PowerShell7 module paths removed in test child"
+  },
+  "posix_fixture_fix": {
+    "production_code_changed": false,
+    "fix": "Forward *args/**kwargs from the lstat mock so POSIX TemporaryDirectory cleanup can pass dir_fd",
+    "local_asset_safety_tests": 34,
+    "passed": 34
+  }
 }

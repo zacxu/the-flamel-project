@@ -1,6 +1,6 @@
 # Publication storage decisions
 
-> Current source publication: [Phase 5](../reports/GITHUB_PUBLICATION_PHASE5.md). Git source and initial CI are being imported; optional release assets remain local and unpublished. Use the Phase 4 public selector for future asset distribution.
+> Current source publication: [Phase 5](../reports/GITHUB_PUBLICATION_PHASE5.md). Git source and initial CI are published in the private repository; optional release assets remain local and unpublished. Use the Phase 4 public selector for future asset distribution.
 
 <!-- phase4-current:start -->
 > **Current reproduction:** [Installation guide](../INSTALLATION.md), [Phase 4 report](../reports/GITHUB_PUBLICATION_PHASE4.md), [public asset instructions](phase4/ASSETS.md) and [current public selector](phase4/public-assets.json). The new tool verifies/hydrates the permitted 11 originals plus notice ZIP and retrieves exact upstream inputs. The older 14-archive commands below remain full private-recovery instructions.

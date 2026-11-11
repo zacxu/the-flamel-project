@@ -1,6 +1,8 @@
 {
-  "status": "PREPARED_FOR_EXACT_INDEX_VERIFICATION",
-  "selected_paths": 5278,
-  "reviewed_upstream_exceptions": 8,
-  "method": "Every index blob will be compared with source/candidate seal before commit; final measured receipt remains external to avoid self-reference."
+  "status": "INITIAL_COMMIT_INDEX_AND_TREE_VERIFIED",
+  "paths": 5278,
+  "initial_commit": "1c9a9cdcc2fa0a96c8714a6845edd28d43f72421",
+  "initial_candidate_seal_sha256": "1405ca2ddc3a1eb026b8fc92c934c947a7b0443027a23d6f90c3d6b897c988e8",
+  "byte_verification": "Every index and committed blob matched source; independent remote clone matched the same external seal.",
+  "final_closeout": "The current index/commit is reverified externally before and after push. It cannot store its own Git hash inside this file."
 }

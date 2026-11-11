@@ -293,10 +293,11 @@ class SafetyTests(unittest.TestCase):
     def test_reparse_asset_ancestor_rejected(self):
         original = tool.legacy.os.lstat
         asset_absolute = tool.legacy._absolute(self.assets)
-        def guarded(path):
-            if tool.legacy._absolute(path) == asset_absolute:
+        def guarded(path, *args, **kwargs):
+            # POSIX TemporaryDirectory cleanup calls lstat with dir_fd.
+            if not args and kwargs.get("dir_fd") is None and tool.legacy._absolute(path) == asset_absolute:
                 return SimpleNamespace(st_mode=stat.S_IFDIR | 0o755, st_file_attributes=0x400)
-            return original(path)
+            return original(path, *args, **kwargs)
         with mock.patch.object(tool.legacy.os, "lstat", side_effect=guarded):
             with self.assertRaises(tool.ArtifactError):
                 self.verify()

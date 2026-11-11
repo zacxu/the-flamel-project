@@ -1,4 +1,4 @@
-Created **[zacxu/the-flamel-project](https://github.com/zacxu/the-flamel-project)** as a **private repository**, with `main` as its default branch. It is currently empty. No project code has been pushed.
+Repository: **[zacxu/the-flamel-project](https://github.com/zacxu/the-flamel-project)** is private. Audited research and production website source is published on main. See [the publication report](reports/GITHUB_PUBLICATION_PHASE5.md) for initial commit, clone and CI verification.
 
 <!-- backup-relocation-current:start -->
 > **Current backup:** D:\Backups\TheFlamelProject. See [current recovery and cleanup status](reports/BACKUP_RELOCATION.md).
@@ -120,7 +120,7 @@ Because the remote is empty, this initial commit establishes the baseline. Subse
 
 **Completion condition:** GitHub's commit SHA matches the local commit, and a fresh clone preserves the expected file hashes.
 
-**Phase 5 status: IN PROGRESS.** [Publication report](reports/GITHUB_PUBLICATION_PHASE5.md). The audited source and initial CI are prepared; remote push and independent clone verification are not yet recorded.
+**Phase 5 status: COMPLETE - 11 November 2026.** [Publication report](reports/GITHUB_PUBLICATION_PHASE5.md). The initial commit was pushed to the private repository and independently cloned with all 5,278 source files verified. Initial CI includes source/evidence checks and the byte-identical website build. The final closeout head and CI results are bound in the external completion receipt. Release assets and hosting remain unchanged.
 
 **6. Add CI appropriate to this project**
 
@@ -182,6 +182,6 @@ Private-repository branch protection and deployment approval features depend on 
 
 **Completion condition:** production serves the intended release, the permanent submission link works, and rollback is documented and tested.
 
-The empty private remote is ready. Phases 1-4 preserve the original baseline, audit its publication scope and verify standalone installation from a clean source export. Git initialization and the first actual clone verification remain Phase 5.
+Phases 1-5 preserve the original baseline, audit its scope, verify standalone installation and publish the audited source to the private main branch. Subsequent changes should use branches and pull requests.
 
-**Current implementation status:** Phases 1-4 are complete. Phase 5 is in progress: first Git import, initial CI, remote publication and independent clone verification. Release assets and hosting remain unchanged.
+**Current implementation status:** Phases 1-5 are complete. Next: Phase 6, extend the initial CI into the planned research/evidence/release workflows. The source repository is published; release assets and hosting remain unchanged.

@@ -1,6 +1,6 @@
 # GitHub publication Phase 5
 
-Status: prepared for first publication. Repository: https://github.com/zacxu/the-flamel-project (private).
+Status: COMPLETE. Repository: https://github.com/zacxu/the-flamel-project (private).
 
 The completed Phase 4 seal was verified before changes: 5,260 selected files. This phase adds the initial CI workflow, exact Git index/tree byte verification, and a publication overlay. Historical scientific inputs, environments, locks, website source and archived assets remain unchanged.
 
@@ -13,7 +13,7 @@ The completed Phase 4 seal was verified before changes: 5,260 selected files. Th
 5. Resolve the remote commit and independently clone it with Windows long-path handling. Verify every selected file against the external candidate seal and the committed Git tree.
 6. Record the first successful import/clone and then publish a closeout documentation commit. Final commit/clone/seal hashes live in external PHASE5_COMPLETION.json, avoiding a commit containing its own hash.
 
-Current per-step receipts are in reports/github-publication-phase5 and D:/Backups/TheFlamelProject/phase5-20261111-publication. A prepared record is not a claim that a push or remote CI run has succeeded.
+Recorded per-step receipts are in reports/github-publication-phase5 and D:/Backups/TheFlamelProject/phase5-20261111-publication. The initial push and independent clone succeeded for commit 1c9a9cdcc2fa0a96c8714a6845edd28d43f72421. GitHub's main ref, local commit and cloned commit matched; all 5,278 files matched the candidate seal. The hosted Windows website job passed. The first Linux run exposed a fixture callback that omitted os.lstat's POSIX dir_fd keyword during temporary-directory cleanup; this closeout forwards the original call arguments. The actual asset guard correctly rejected the mocked reparse directory. All 34 asset safety fixtures pass locally after the fix. Final closeout CI status is recorded externally after publication.
 
 ## Initial CI
 

@@ -572,11 +572,12 @@
     "historical_manifest_unchanged": true
   },
   "phase5": {
-    "status": "PREPARED",
+    "status": "SOURCE_PUBLISHED",
     "git_selected_files": 5278,
     "new_files": 18,
-    "controls": 28,
+    "controls": 29,
     "repository": "zacxu/the-flamel-project",
-    "archives_uploaded": false
+    "archives_uploaded": false,
+    "initial_verified_commit": "1c9a9cdcc2fa0a96c8714a6845edd28d43f72421"
   }
 }

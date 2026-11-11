@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "CURRENT",
   "first_applied_utc": "2026-11-10T19:31:47.832683+00:00",
-  "last_updated_utc": "2026-11-11T04:22:36.887044+00:00",
+  "last_updated_utc": "2026-11-11T05:10:42.781055+00:00",
   "backup_root": "D:\\Backups\\TheFlamelProject",
   "phase1_backup_root": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
   "phase2_work_root": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT",
@@ -10,7 +10,7 @@
   "original_snapshot_tree": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\project-snapshot\\bears",
   "archive_dir": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\archives",
   "production_recovery_tree": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\production\\htdocs",
-  "current_control_seal": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\current-controls.json",
+  "current_control_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\current-controls.json",
   "historical_phase2_control_seal": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\control-files.json",
   "legacy_prefix_map": [
     {
@@ -59,10 +59,11 @@
     "cleanup": "D:\\Backups\\TheFlamelProject\\relocations\\20261111-to-D\\CLEANUP_COMPLETE.json",
     "initial_path_update": "D:\\Backups\\TheFlamelProject\\relocations\\20261111-to-D\\PATH_UPDATE_VERIFICATION.json",
     "phase3_completion": "D:\\Backups\\TheFlamelProject\\phase3-20261111-audit\\PHASE3_COMPLETION.json",
-    "phase4_completion": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\PHASE4_COMPLETION.json"
+    "phase4_completion": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\PHASE4_COMPLETION.json",
+    "phase5_completion": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\PHASE5_COMPLETION.json"
   },
   "git_selected_files_current": 5278,
-  "current_control_files": 147,
+  "current_control_files": 165,
   "modified_frozen_input_overrides": [
     "reports/github-publication-phase1/RECOVERY.md",
     "reports/GITHUB_PUBLICATION_PHASE1.md"
@@ -79,7 +80,7 @@
   "phase3_new_git_files": 53,
   "phase3_withheld_originals": 1,
   "phase3_status": "COMPLETE_SCOPED_SOURCE_AND_RELEASE_SELECTION_AUDIT",
-  "current_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\selected-files.json",
+  "current_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\selected-files.json",
   "phase3_clearance_scope": {
     "git_files": 5200,
     "release_candidates": 11,
@@ -89,7 +90,7 @@
     "no_security_clean_environment_claim": true,
     "report": "reports/GITHUB_PUBLICATION_PHASE3.md"
   },
-  "current_integrity_verifier": "scripts/github_publication/verify_phase4.py",
+  "current_integrity_verifier": "scripts/github_publication/verify_phase5.py",
   "phase3_recovery_copy_verification": "External PHASE3_COMPLETION.json verifies every current control recovery copy; historical relocation verification remains scoped to its earlier seal.",
   "phase4_status": "COMPLETE_CLEAN_INSTALLATION_AND_SCOPED_RETRIEVAL",
   "phase4_work_root": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction",
@@ -107,10 +108,17 @@
     "no_remote_clone_claim": true,
     "report": "reports/GITHUB_PUBLICATION_PHASE4.md"
   },
-  "phase5_status": "PREPARED_FOR_FIRST_GIT_IMPORT",
+  "phase5_status": "SOURCE_PUBLISHED_AND_INITIAL_CLONE_VERIFIED",
   "phase5_work_root": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication",
   "phase5_new_git_files": 18,
-  "phase5_control_files": 28,
-  "phase5_current_seal_pending": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\current-controls.json",
-  "phase5_selected_seal_pending": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\selected-files.json"
+  "phase5_control_files": 29,
+  "historical_phase4_control_seal": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\current-controls.json",
+  "historical_phase4_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\selected-files.json",
+  "github_publication": {
+    "repository": "zacxu/the-flamel-project",
+    "visibility": "private",
+    "branch": "main",
+    "initial_verified_commit": "1c9a9cdcc2fa0a96c8714a6845edd28d43f72421",
+    "final_current_commit": "Recorded externally in PHASE5_COMPLETION.json; source cannot contain its own commit hash."
+  }
 }

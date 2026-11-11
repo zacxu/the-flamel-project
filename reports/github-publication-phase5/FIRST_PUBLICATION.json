@@ -1,4 +1,19 @@
 {
-  "status": "PREPARED_NOT_YET_PUBLISHED",
-  "phase": 5
+  "status": "FIRST_PUSH_AND_CLONE_VERIFIED",
+  "repository": "zacxu/the-flamel-project",
+  "visibility": "private",
+  "branch": "main",
+  "initial_commit": "1c9a9cdcc2fa0a96c8714a6845edd28d43f72421",
+  "initial_tree": "3b1e30006470304388624257c7d353544e4573d3",
+  "remote_sha_matched": true,
+  "clone_sha_matched": true,
+  "clone_files_verified": 5278,
+  "candidate_seal_sha256": "1405ca2ddc3a1eb026b8fc92c934c947a7b0443027a23d6f90c3d6b897c988e8",
+  "initial_workflow": {
+    "run_id": 42963546450,
+    "url": "https://github.com/zacxu/the-flamel-project/actions/runs/42963546450",
+    "windows_website": "success",
+    "linux_baseline": "One test-mock cleanup signature failed; production guard correctly rejected the fixture. The closeout fixes forwarding of POSIX lstat dir_fd; all34 local asset tests pass."
+  },
+  "final_head_policy": "The final current commit/clone/CI receipt is external to avoid embedding a commit's own hash."
 }

@@ -1,7 +1,7 @@
 {
   "passed": true,
   "prior_selected_files": 5260,
-  "declared_modified_metadata": [
+  "declared_modified_prior_files": [
     "GITHUB_CICD_PUBLICATION_PLAN.md",
     "INSTALLATION.md",
     "README.md",
@@ -11,8 +11,10 @@
     "publication/generated-control-paths.json",
     "publication/git-files.txt",
     "publication/git-pathspec.nul",
-    "publication/storage-summary.json"
+    "publication/storage-summary.json",
+    "scripts/github_publication/test_public_assets.py"
   ],
   "all_other_prior_inputs_unchanged": true,
-  "website_source_scientific_inputs_and_historical_locks_unchanged": true
+  "test_only_portability_fix": "scripts/github_publication/test_public_assets.py: forward POSIX lstat dir_fd arguments in mock cleanup",
+  "website_source_scientific_inputs_original_environments_and_historical_locks_preserved": true
 }

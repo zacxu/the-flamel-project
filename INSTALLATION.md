@@ -2,10 +2,10 @@
 
 This guide is separate from the frozen research protocol. Use a fresh checkout or disposable source copy. Keep the original research evidence unchanged. Current Windows x64 setup uses Python 3.11.14, Node 24.22.1 and npm 12.2.1 without Codex, global Node/npm or an existing project environment.
 
-Phase 4 validated a checksum-verified source export. Phase 5 publishes and verifies the source clone in the private repository. After publication, clone with your normal GitHub authentication:
+Phase 4 validated a checksum-verified source export. Phase 5 has published and independently verified the source clone in the private repository. Clone with your normal GitHub authentication:
 
 ~~~powershell
-git -c core.longpaths=true -c core.autocrlf=false clone https://github.com/zacxu/the-flamel-project.git
+git clone -c core.longpaths=true -c core.autocrlf=false https://github.com/zacxu/the-flamel-project.git
 ~~~
 
 See [the source publication record](reports/GITHUB_PUBLICATION_PHASE5.md) for actual verification status. Release assets remain local/unpublished until their later release phase.
@@ -130,4 +130,4 @@ Use scripts/github_publication/verify_phase5.py to validate the baseline/declare
 
 Root .gitattributes preserves exact bytes. Git for Windows must use core.longpaths=true and core.autocrlf=false before staging; eight original vendor files retain their exact reviewed ignore exceptions. [The GitHub publication plan](GITHUB_CICD_PUBLICATION_PLAN.md) covers staging, remote verification, CI, releases and guarded hosting.
 
-Phase 4 does not initialize the root repository, push code, publish archives or change production hosting.
+Source publication and verified cloning are recorded in Phase 5. Release archives and production hosting remain separate later phases.

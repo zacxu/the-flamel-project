@@ -170,7 +170,7 @@
   ],
   "self_hash_policy": "Historical Phase2/relocation/Phase3 seals remain unchanged. Phase4 current controls and complete selection use new external seals, avoiding self-reference.",
   "external_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\current-controls.json",
-  "current_upload_status": "Phase5 prepared; first push not yet verified",
+  "current_upload_status": "Source published privately on main; current closeout verification recorded externally; release assets not uploaded",
   "historical_phase2_external_seal": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\control-files.json",
   "relocation_registry": "publication/backup-paths.json",
   "historical_relocation_external_seal": "D:\\Backups\\TheFlamelProject\\relocations\\20261111-to-D\\current-controls.json",

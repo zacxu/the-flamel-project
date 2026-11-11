@@ -26,6 +26,7 @@
     "reports/github-publication-phase5/SECRET_SCAN.json",
     "reports/github-publication-phase5/SOURCE_PRESERVATION.json",
     "scripts/github_publication/test_git_publication.py",
+    "scripts/github_publication/test_public_assets.py",
     "scripts/github_publication/verify_git_publication.py",
     "scripts/github_publication/verify_phase5.py",
     "scripts/github_publication/verify_website_build.py"
@@ -40,7 +41,8 @@
     "publication/generated-control-paths.json",
     "publication/git-files.txt",
     "publication/git-pathspec.nul",
-    "publication/storage-summary.json"
+    "publication/storage-summary.json",
+    "scripts/github_publication/test_public_assets.py"
   ],
   "withheld_private_paths": [],
   "prior_complete_selection_sha256": "1de4455c5dd2bdd85988e34ebcd1c9b5d2f43bf851a6b3a045342d7028c3191b",
