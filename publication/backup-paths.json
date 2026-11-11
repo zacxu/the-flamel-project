@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "CURRENT",
   "first_applied_utc": "2026-11-10T19:31:47.832683+00:00",
-  "last_updated_utc": "2026-11-11T08:28:10.286185+00:00",
+  "last_updated_utc": "2026-11-11T08:34:07.747673+00:00",
   "backup_root": "D:\\Backups\\TheFlamelProject",
   "phase1_backup_root": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
   "phase2_work_root": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT",

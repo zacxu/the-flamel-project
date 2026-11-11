@@ -56,7 +56,9 @@ For a fresh browser smoke, run the retained browser_smoke.mjs helper with the pi
 
 flamel-website-v0.1.0.zip is a seven-file handoff bundle containing payload.zip, package-record.json, upload-plan.json, host/.htaccess, entry-last/index.html, provenance.json and SHA256SUMS. Extract only into a new external folder after validating the outer archive; use the existing Phase 6 manual_ci.py verify-package gate with the exact source commit and package directory to verify its payload and staged host policy.
 
-The compatibility provenance.json inside this seven-file bundle retains the Phase 6 schema. For a local build its run fields say local; the fixed workflow-name field is not evidence of a GitHub Actions build. The canonical release record and attached Phase 7 release-preparation.json identify the actual local disposable build, exact source/tree and single successful build.\n\nThe separate predecessor support ZIP contains only the files pinned by website/reports/W6_BASELINE.json. It enables the complete historical compatibility validator from a fresh clone rather than depending on the original workstation cache.
+The compatibility provenance.json inside this seven-file bundle retains the Phase 6 schema. For a local build its run fields say local; the fixed workflow-name field is not evidence of a GitHub Actions build. The canonical release record and attached Phase 7 release-preparation.json identify the actual local disposable build, exact source/tree and single successful build.
+
+The separate predecessor support ZIP contains only the files pinned by website/reports/W6_BASELINE.json. It enables the complete historical compatibility validator from a fresh clone rather than depending on the original workstation cache.
 
 Release-validation evidence includes the full gate results and source/build identities. [The Phase 7 report](reports/GITHUB_PUBLICATION_PHASE7.md) records actual publication and fresh retrieval acceptance; in-progress records must not be treated as completed releases.
 
