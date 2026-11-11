@@ -1,0 +1,87 @@
+name: Production deployment preparation
+on:
+  workflow_dispatch:
+    inputs:
+      package_run_id:
+        description: 'Successful manual Release packaging run ID from main'
+        type: string
+        required: true
+      source_commit:
+        description: 'Exact source SHA packaged in that run'
+        type: string
+        required: true
+  workflow_call:
+    inputs:
+      package_run_id:
+        description: 'Blank uses a same-run package after successful needs dependency'
+        type: string
+        default: ''
+      source_commit:
+        type: string
+        required: true
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: production-deployment-preparation
+  cancel-in-progress: false
+jobs:
+  prepare:
+    name: Verify exact deployment handoff (NOT_DEPLOYED)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PACKAGE_RUN_ID: ${{ inputs.package_run_id }}
+      SOURCE_COMMIT: ${{ inputs.source_commit }}
+    steps:
+      - name: Preserve checkout bytes
+        run: git config --global core.autocrlf false
+      - name: Checkout verification helpers
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Python 3.11.14
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11.14'
+      - name: Verify source and immutable source input
+        run: |
+          python -I -B scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B -c 'import os,re; assert re.fullmatch("[a-f0-9]{40}",os.environ["SOURCE_COMMIT"]), "Use an immutable full SHA"'
+      - name: Verify successful same-repository producing run
+        if: inputs.package_run_id != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -I -B scripts/github_publication/phase6/manual_ci.py check-run --run-id "$PACKAGE_RUN_ID" --report "$RUNNER_TEMP/producer-run.json"
+      - name: Download current-run immutable package
+        if: inputs.package_run_id == ''
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: flamel-package-${{ inputs.source_commit }}
+          path: ${{ runner.temp }}/flamel-package
+      - name: Download validated earlier-run immutable package
+        if: inputs.package_run_id != ''
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: flamel-package-${{ inputs.source_commit }}
+          path: ${{ runner.temp }}/flamel-package
+          github-token: ${{ github.token }}
+          repository: zacxu/the-flamel-project
+          run-id: ${{ inputs.package_run_id }}
+      - name: Verify exact ZIP, source binding, entry and policy
+        run: |
+          producer="$PACKAGE_RUN_ID"
+          if [ -z "$producer" ]; then producer="$GITHUB_RUN_ID"; fi
+          python -I -B scripts/github_publication/phase6/manual_ci.py verify-package --package-dir "$RUNNER_TEMP/flamel-package" --source-commit "$SOURCE_COMMIT" --producer-run-id "$producer" --report "$RUNNER_TEMP/deployment-preparation.json"
+          python -I -B scripts/github_publication/verify_phase6.py --require-clean
+      - name: Retain validation receipt
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: deployment-preparation-${{ github.run_id }}
+          path: ${{ runner.temp }}/deployment-preparation.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: State actual result
+        run: |
+          echo '## Verified deployment handoff: NOT_DEPLOYED' >> "$GITHUB_STEP_SUMMARY"
+          echo 'The exact package, entry, accepted .htaccess and immutable-first plan passed. Phase 6 configures no hosting credentials or transport. Phase 8 performs upload, index-last publication and live /refresh/browser acceptance.' >> "$GITHUB_STEP_SUMMARY"

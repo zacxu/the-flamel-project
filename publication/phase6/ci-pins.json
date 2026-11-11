@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "phase": 6,
+  "official_actions": [
+    {
+      "action": "actions/checkout",
+      "commit": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "version": "v7.0.1",
+      "source": "https://github.com/actions/checkout/tree/3d3c42e5aac5ba805825da76410c181273ba90b1"
+    },
+    {
+      "action": "actions/setup-python",
+      "commit": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+      "version": "v7.1.0",
+      "source": "https://github.com/actions/setup-python/tree/6d4fd22b20465ccc0f7354476588e8df7c9ca0e0"
+    },
+    {
+      "action": "actions/upload-artifact",
+      "commit": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "version": "v4",
+      "source": "https://api.github.com/repos/actions/upload-artifact/git/ref/tags/v4"
+    },
+    {
+      "action": "actions/download-artifact",
+      "commit": "d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "version": "v4",
+      "source": "https://api.github.com/repos/actions/download-artifact/git/ref/tags/v4"
+    }
+  ],
+  "tools": {
+    "actionlint": {
+      "version": "1.7.12",
+      "release": "https://github.com/rhysd/actionlint/releases/tag/v1.7.12",
+      "windows_x64_sha256": "6e7241b51e6817ea6a047693d8e6fed13b31819c9a0dd6c5a726e1592d22f6e9",
+      "linux_x64_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8"
+    },
+    "python": "3.11.14",
+    "numpy": "2.2.6",
+    "node": "24.22.1",
+    "npm": "12.2.1",
+    "python_windows": "Phase 4 hash-pinned standalone bootstrap; setup-python exact version is Linux only"
+  },
+  "permissions": {
+    "routine": "contents:read",
+    "manual_package": "contents:read",
+    "deployment_preparation": "contents:read, actions:read",
+    "hosting_credentials": "none in Phase 6"
+  },
+  "docs": [
+    "https://docs.github.com/en/actions/reference/security/secure-use",
+    "https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow"
+  ]
+}

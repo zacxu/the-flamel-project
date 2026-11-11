@@ -1,0 +1,87 @@
+name: Release packaging
+on:
+  workflow_dispatch:
+    inputs:
+      source_commit:
+        description: 'Full lowercase 40-character commit SHA already on main'
+        type: string
+        required: true
+  workflow_call:
+    inputs:
+      source_commit:
+        type: string
+        required: true
+    outputs:
+      artifact_name:
+        description: 'Exact verified static package artifact name'
+        value: ${{ jobs.package.outputs.artifact_name }}
+permissions:
+  contents: read
+concurrency:
+  group: release-package-${{ inputs.source_commit }}
+  cancel-in-progress: false
+jobs:
+  package:
+    name: Build verified static package (manual)
+    runs-on: windows-2025
+    timeout-minutes: 30
+    outputs:
+      artifact_name: flamel-package-${{ inputs.source_commit }}
+    env:
+      SOURCE_COMMIT: ${{ inputs.source_commit }}
+    steps:
+      - name: Configure Windows byte/path handling
+        shell: pwsh
+        run: |
+          git config --global core.autocrlf false
+          git config --global core.longpaths true
+      - name: Checkout workflow controller
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: controller
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Validate immutable published source
+        shell: pwsh
+        run: |
+          python -I -B controller/scripts/github_publication/verify_phase6.py --require-clean
+          if ($LASTEXITCODE -ne 0) { throw 'Controller verification failed.' }
+          python -I -B controller/scripts/github_publication/phase6/manual_ci.py resolve-source --root controller --source-commit "$env:SOURCE_COMMIT"
+          if ($LASTEXITCODE -ne 0) { throw 'Source commit is outside permitted published/acceptance scope.' }
+      - name: Checkout selected source into disposable candidate
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ inputs.source_commit }}
+          path: candidate
+          persist-credentials: false
+      - name: Build, package, guard and verify exact bytes
+        shell: pwsh
+        run: |
+          $arguments = @{
+            CandidateRoot = (Join-Path $env:GITHUB_WORKSPACE 'candidate')
+            ToolchainRoot = (Join-Path $env:RUNNER_TEMP 'flamel-package-tools')
+            OutputDirectory = (Join-Path $env:RUNNER_TEMP 'flamel-package')
+            SourceCommit = $env:SOURCE_COMMIT
+            PythonExe = (Get-Command python -CommandType Application).Source
+          }
+          & ./controller/scripts/github_publication/phase6/manual_package.ps1 @arguments
+          if ($LASTEXITCODE -ne 0) { throw 'Package gate failed.' }
+      - name: Verify workflow source remained unchanged
+        if: always()
+        shell: pwsh
+        run: |
+          python -I -B controller/scripts/github_publication/verify_phase6.py --require-clean
+          if ($LASTEXITCODE -ne 0) { throw 'Controller source changed.' }
+      - name: Retain exact package and staging instructions
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: flamel-package-${{ inputs.source_commit }}
+          path: ${{ runner.temp }}/flamel-package/
+          # Only this new exact allowlisted bundle contains the accepted host/.htaccess.
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14
+      - name: Explain publication boundary
+        shell: pwsh
+        run: |
+          'Verified downloadable Actions package. NOT_DEPLOYED. No GitHub Release created. Phase 7 completes release acceptance; Phase 8 integrates hosting transport.' | Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY

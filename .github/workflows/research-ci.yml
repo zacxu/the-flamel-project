@@ -1,0 +1,88 @@
+name: Research CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research_*.py'
+      - 'scripts/phase*.py'
+      - 'scripts/github_publication/**'
+      - 'config/**'
+      - 'requirements/**'
+      - 'artifacts/**'
+      - 'data/**'
+      - 'publication/**'
+      - '.github/workflows/**'
+      - '.gitattributes'
+      - '.gitignore'
+  pull_request:
+    paths:
+      - 'research_*.py'
+      - 'scripts/phase*.py'
+      - 'scripts/github_publication/**'
+      - 'config/**'
+      - 'requirements/**'
+      - 'artifacts/**'
+      - 'data/**'
+      - 'publication/**'
+      - '.github/workflows/**'
+      - '.gitattributes'
+      - '.gitignore'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: research-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  research:
+    name: Deterministic research and evidence checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+    steps:
+      - name: Preserve checkout bytes
+        run: git config --global core.autocrlf false
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Python 3.11.14
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11.14'
+      - name: Lint all GitHub workflows with pinned actionlint
+        run: python -I -B scripts/github_publication/phase6/lint_workflows.py --tool-root "$RUNNER_TEMP/flamel-actionlint"
+      - name: Verify source and saved evidence before tests
+        run: |
+          python -I -B scripts/github_publication/verify_phase6.py --require-clean
+          python -I -B scripts/github_publication/audit_saved_evidence.py
+      - name: Install only frozen NumPy wheel
+        run: >-
+          python -I -m pip install --no-deps --only-binary=:all:
+          --require-hashes -r scripts/github_publication/phase6/research-requirements.txt
+      - name: Selection, budgets, gates and streaming parser fixtures
+        run: >-
+          python -I -B scripts/github_publication/phase6/test_research_ci.py
+          --scratch "$RUNNER_TEMP" --report "$RUNNER_TEMP/research-ci.json"
+      - name: Integrity and Git safety fixtures
+        run: |
+          python -I -B scripts/github_publication/phase6/test_phase6_policy.py
+          python -I -B scripts/github_publication/phase6/test_manual_ci.py
+          python -I -B scripts/github_publication/test_verify_phase3.py
+          python -I -B scripts/github_publication/test_git_publication.py
+          python -I -B scripts/github_publication/test_audit_saved_evidence.py --scratch "$RUNNER_TEMP"
+      - name: Artifact rejection fixtures without downloads
+        run: |
+          python -I -B scripts/github_publication/test_artifact_io.py --output-root "$RUNNER_TEMP/flamel-private-fixtures"
+          python -I -B scripts/github_publication/test_public_assets.py --output-root "$RUNNER_TEMP/flamel-public-fixtures"
+      - name: Verify accepted evidence and tracked source stayed unchanged
+        if: always()
+        run: |
+          python -I -B scripts/github_publication/audit_saved_evidence.py
+          python -I -B scripts/github_publication/verify_phase6.py --require-clean

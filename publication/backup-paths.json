@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "CURRENT",
   "first_applied_utc": "2026-11-10T19:31:47.832683+00:00",
-  "last_updated_utc": "2026-11-11T05:10:42.781055+00:00",
+  "last_updated_utc": "2026-11-11T05:57:54.050679+00:00",
   "backup_root": "D:\\Backups\\TheFlamelProject",
   "phase1_backup_root": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
   "phase2_work_root": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT",
@@ -10,7 +10,7 @@
   "original_snapshot_tree": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\project-snapshot\\bears",
   "archive_dir": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\archives",
   "production_recovery_tree": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\production\\htdocs",
-  "current_control_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\current-controls.json",
+  "current_control_seal": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\current-controls.json",
   "historical_phase2_control_seal": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\control-files.json",
   "legacy_prefix_map": [
     {
@@ -60,15 +60,16 @@
     "initial_path_update": "D:\\Backups\\TheFlamelProject\\relocations\\20261111-to-D\\PATH_UPDATE_VERIFICATION.json",
     "phase3_completion": "D:\\Backups\\TheFlamelProject\\phase3-20261111-audit\\PHASE3_COMPLETION.json",
     "phase4_completion": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction\\PHASE4_COMPLETION.json",
-    "phase5_completion": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\PHASE5_COMPLETION.json"
+    "phase5_completion": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\PHASE5_COMPLETION.json",
+    "phase6_completion": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\PHASE6_COMPLETION.json"
   },
-  "git_selected_files_current": 5278,
-  "current_control_files": 165,
+  "git_selected_files_current": 5308,
+  "current_control_files": 363,
   "modified_frozen_input_overrides": [
     "reports/github-publication-phase1/RECOVERY.md",
     "reports/GITHUB_PUBLICATION_PHASE1.md"
   ],
-  "source_files_current_from_declared_cutoff": 105727,
+  "source_files_current_from_declared_cutoff": 105757,
   "secret_licence_clearance": true,
   "pointer_correction": {
     "transaction": "D:\\Backups\\TheFlamelProject\\relocations\\20261111-to-D\\corrections\\20261111-current-pointer",
@@ -80,7 +81,7 @@
   "phase3_new_git_files": 53,
   "phase3_withheld_originals": 1,
   "phase3_status": "COMPLETE_SCOPED_SOURCE_AND_RELEASE_SELECTION_AUDIT",
-  "current_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\selected-files.json",
+  "current_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\selected-files.json",
   "phase3_clearance_scope": {
     "git_files": 5200,
     "release_candidates": 11,
@@ -90,7 +91,7 @@
     "no_security_clean_environment_claim": true,
     "report": "reports/GITHUB_PUBLICATION_PHASE3.md"
   },
-  "current_integrity_verifier": "scripts/github_publication/verify_phase5.py",
+  "current_integrity_verifier": "scripts/github_publication/verify_phase6.py",
   "phase3_recovery_copy_verification": "External PHASE3_COMPLETION.json verifies every current control recovery copy; historical relocation verification remains scoped to its earlier seal.",
   "phase4_status": "COMPLETE_CLEAN_INSTALLATION_AND_SCOPED_RETRIEVAL",
   "phase4_work_root": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction",
@@ -120,5 +121,11 @@
     "branch": "main",
     "initial_verified_commit": "1c9a9cdcc2fa0a96c8714a6845edd28d43f72421",
     "final_current_commit": "Recorded externally in PHASE5_COMPLETION.json; source cannot contain its own commit hash."
-  }
+  },
+  "phase6_work_root": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci",
+  "phase6_status": "CI_IMPLEMENTED_PENDING_HOSTED_ACCEPTANCE",
+  "phase6_new_git_files": 30,
+  "phase6_control_files": 228,
+  "historical_phase5_control_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\current-controls.json",
+  "historical_phase5_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\selected-files.json"
 }

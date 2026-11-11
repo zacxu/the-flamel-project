@@ -7,9 +7,9 @@ Repository: **[zacxu/the-flamel-project](https://github.com/zacxu/the-flamel-pro
 
 I inspected your project at `D:\bears`. The plan below covers the research code, production website, saved scientific evidence, and future CI/CD.
 
-**The main findings affecting the plan**
+**Original inspection findings (before Phases 1-5)**
 
-- The project folder currently has **no root Git repository**.
+- The project folder initially had **no root Git repository**; Phase 5 initialized and published it.
 - `artifacts/` contains approximately **5.08 GB**, including **3.32 GB of saved models**.
 - The CrystalFormer checkpoint is approximately **166 MB**.
 - The website has existing build, validation, packaging, and deployment safeguards.
@@ -132,7 +132,7 @@ Use separate workflows so routine website changes do not download gigabytes of r
 | Research CI | Pull requests affecting research code | Small deterministic checks for selection, budgets, gates, and parsing |
 | Evidence audit | Manual run | Retrieve frozen artifacts and verify historical provenance |
 | Release packaging | Selected commit/tag | Produce and verify downloadable production/research packages |
-| Production deployment | Manual initially | Publish an already verified website package |
+| Production deployment preparation | Manual initially | Verify/stage an exact package in Phase 6; connect hosting upload in Phase 8 |
 
 Reuse the actual website commands in [package.json](D:/bears/website/package.json:8), including `typecheck`, W6 integration validators, tour checks, and the publication-guard tests.
 
@@ -143,6 +143,8 @@ Keep full model generation, CHGNet relaxation, and DFT outside routine CI.
 Use minimal workflow permissions, reviewed action versions, and isolated deployment credentials. [GitHub Actions security guidance](https://docs.github.com/en/actions/reference/security/secure-use).
 
 **Completion condition:** a fresh GitHub runner validates the code without changing accepted evidence or launching costly experiments.
+
+**Phase 6 status: IMPLEMENTING.** [CI guide](CI.md) | [Completion report](reports/GITHUB_PUBLICATION_PHASE6.md). The website is already deployed on InfinityFree; this phase adds validation and package preparation, with hosting transport integration in Phase 8.
 
 **7. Create a reproducible release**
 

@@ -579,5 +579,15 @@
     "repository": "zacxu/the-flamel-project",
     "archives_uploaded": false,
     "initial_verified_commit": "1c9a9cdcc2fa0a96c8714a6845edd28d43f72421"
+  },
+  "phase6": {
+    "status": "CI_IMPLEMENTED_PENDING_HOSTED_ACCEPTANCE",
+    "git_selected_files": 5308,
+    "new_files": 30,
+    "declared_controls": 228,
+    "actual_modified_baseline_files": 11,
+    "repository": "zacxu/the-flamel-project",
+    "release_assets_uploaded": false,
+    "hosting_modified": false
   }
 }

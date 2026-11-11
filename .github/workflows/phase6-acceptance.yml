@@ -1,0 +1,34 @@
+name: Phase 6 acceptance
+
+on:
+  push:
+    branches: [ci/phase6]
+    paths:
+      - '.github/workflows/**'
+      - 'scripts/github_publication/phase6/**'
+      - 'scripts/github_publication/verify_phase6.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: phase6-acceptance-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  evidence:
+    name: Manual evidence workflow acceptance
+    uses: ./.github/workflows/evidence-audit.yml
+  package:
+    name: Manual packaging workflow acceptance
+    uses: ./.github/workflows/release-packaging.yml
+    with:
+      source_commit: ${{ github.sha }}
+  handoff:
+    name: Manual deployment preparation acceptance
+    needs: package
+    uses: ./.github/workflows/production-deployment.yml
+    with:
+      source_commit: ${{ github.sha }}

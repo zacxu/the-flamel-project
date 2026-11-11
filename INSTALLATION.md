@@ -10,6 +10,10 @@ git clone -c core.longpaths=true -c core.autocrlf=false https://github.com/zacxu
 
 See [the source publication record](reports/GITHUB_PUBLICATION_PHASE5.md) for actual verification status. Release assets remain local/unpublished until their later release phase.
 
+## GitHub CI
+
+See [CI.md](CI.md) for fresh-run website/research checks, hash-pinned parser dependencies, manual evidence auditing and package preparation. The current source gate is scripts/github_publication/verify_phase6.py --require-clean; historical Phase 3-5 gates retain their original baseline scope. No model execution is part of routine CI.
+
 ## View and build the website
 
 From the fresh project root:
