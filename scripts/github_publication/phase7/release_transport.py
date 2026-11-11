@@ -179,11 +179,27 @@ class GitHub:
         raise ValueError("Excessive tag indirection")
     def release(self, tag, missing=False):
         require(TAG.fullmatch(tag), "Unsafe release tag")
-        result = self.api("repos/" + REPOSITORY + "/releases/tags/" + tag, missing=missing)
+        # The by-tag endpoint can omit drafts even for a writer. Search only the
+        # bounded same-repository release listing before deciding a tag is absent.
+        result = self.api("repos/" + REPOSITORY + "/releases/tags/" + tag, missing=True)
+        if result is None:
+            releases = self.api("repos/" + REPOSITORY + "/releases?per_page=100")
+            require(isinstance(releases, list) and len(releases) <= 100 and
+                    all(isinstance(row, dict) for row in releases), "Invalid bounded release listing")
+            matches = [row for row in releases if row.get("tag_name") == tag]
+            require(len(matches) <= 1, "Ambiguous draft tag in release listing")
+            if matches:
+                result = matches[0]
+                require(result.get("draft") is True, "Fallback must identify an unpublished draft")
+            elif not missing:
+                raise ValueError("Release tag was not found")
         if result is not None:
-            require(result.get("tag_name") == tag and type(result.get("id")) is int,
+            require(result.get("tag_name") == tag and type(result.get("id")) is int and result["id"] > 0,
                     "Release identity mismatch")
-            require(len(result.get("assets", [])) < 100, "Release exceeds bounded API asset inventory")
+            require(result.get("url") == "https://api.github.com/repos/" + REPOSITORY + "/releases/" + str(result["id"]),
+                    "Release response is outside the intended repository")
+            require(isinstance(result.get("assets"), list) and len(result["assets"]) < 100,
+                    "Release exceeds bounded API asset inventory")
         return result
 
 def release_result(release, inventory):

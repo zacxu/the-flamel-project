@@ -140,6 +140,40 @@ class ReleaseTransportTests(unittest.TestCase):
             for gh,source in [(FakeGH(self.payloads,draft=True),SOURCE),(FakeGH(self.payloads),"f"*40)]:
                 with self.subTest(draft=gh.draft),self.assertRaises(ValueError):
                     tool.bootstrap(gh,TAG,ROOT,Path(parent)/"downloads",source)
+    def test_published_release_uses_normal_tag_endpoint_only(self):
+        gh=object.__new__(tool.GitHub);calls=[]
+        row={"id":7,"tag_name":TAG,"draft":False,"assets":[],
+             "url":"https://api.github.com/repos/"+tool.REPOSITORY+"/releases/7"}
+        def api(path,missing=False):
+            calls.append(path);self.assertTrue(missing);return row
+        gh.api=api
+        self.assertEqual(gh.release(TAG),row)
+        self.assertEqual(calls,["repos/"+tool.REPOSITORY+"/releases/tags/"+TAG])
+    def test_tag_404_falls_back_to_unique_same_repository_draft(self):
+        gh=object.__new__(tool.GitHub);calls=[]
+        row={"id":7,"tag_name":TAG,"draft":True,"assets":[],
+             "url":"https://api.github.com/repos/"+tool.REPOSITORY+"/releases/7"}
+        def api(path,missing=False):
+            calls.append(path)
+            return None if "/tags/" in path else [row]
+        gh.api=api
+        self.assertEqual(gh.release(TAG),row)
+        self.assertEqual(calls[-1],"repos/"+tool.REPOSITORY+"/releases?per_page=100")
+    def test_fallback_rejects_ambiguous_wrong_scope_or_published_rows(self):
+        row={"id":7,"tag_name":TAG,"draft":True,"assets":[],
+             "url":"https://api.github.com/repos/"+tool.REPOSITORY+"/releases/7"}
+        for rows in [[row,dict(row,id=8)],
+                     [dict(row,url="https://api.github.com/repos/other/repository/releases/7")],
+                     [dict(row,draft=False)],
+                     [dict(row)]*101]:
+            gh=object.__new__(tool.GitHub)
+            gh.api=lambda path,missing=False: None if "/tags/" in path else rows
+            with self.subTest(rows=len(rows)),self.assertRaises(ValueError):gh.release(TAG)
+    def test_absent_release_is_optional_only_when_explicit(self):
+        gh=object.__new__(tool.GitHub)
+        gh.api=lambda path,missing=False: None if "/tags/" in path else []
+        self.assertIsNone(gh.release(TAG,missing=True))
+        with self.assertRaises(ValueError):gh.release(TAG)
     def test_new_output_never_reuses_or_writes_into_source(self):
         with self.assertRaises(ValueError):tool.new_output(ROOT/"new-download",ROOT)
         with tempfile.TemporaryDirectory() as parent:
