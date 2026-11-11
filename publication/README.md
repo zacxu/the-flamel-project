@@ -1,10 +1,12 @@
+> Current release: [private v0.1.0](https://github.com/zacxu/the-flamel-project/releases/tag/v0.1.0) | [Reproduction guide](../RELEASE.md) | [Phase 7 acceptance](../reports/GITHUB_PUBLICATION_PHASE7.md). All seventeen assets were retrieved and the website independently rebuilt with matching bytes. Historical records below retain their original scope.
+
 > Reproducible release: [Phase 7](../reports/GITHUB_PUBLICATION_PHASE7.md) | [Release guide](../RELEASE.md). Existing release availability is verified in the Phase 7 completion record; historical manifests below keep their original scope.
 
 # Publication storage decisions
 
 > Current CI implementation: [Phase 6](../reports/GITHUB_PUBLICATION_PHASE6.md) and [CI guide](../CI.md). The Phase 6 overlay pins the complete published Phase 5 baseline; current recovery seals remain independent of Git. The permitted-archive policy and existing hosting are unchanged.
 
-> Current source publication: [Phase 5](../reports/GITHUB_PUBLICATION_PHASE5.md). Git source and initial CI are published in the private repository; optional release assets remain local and unpublished. Use the Phase 4 public selector for future asset distribution.
+> Current source publication: [Phase 5](../reports/GITHUB_PUBLICATION_PHASE5.md). Git source and CI are published in the private repository. Current permitted assets are published in v0.1.0; use the Phase 7 selector. The older Phase 4 selector remains historical.
 
 <!-- phase4-current:start -->
 > **Current reproduction:** [Installation guide](../INSTALLATION.md), [Phase 4 report](../reports/GITHUB_PUBLICATION_PHASE4.md), [public asset instructions](phase4/ASSETS.md) and [current public selector](phase4/public-assets.json). The new tool verifies/hydrates the permitted 11 originals plus notice ZIP and retrieves exact upstream inputs. The older 14-archive commands below remain full private-recovery instructions.

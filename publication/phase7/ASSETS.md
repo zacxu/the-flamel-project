@@ -1,3 +1,5 @@
+> v0.1.0 is published privately. All seventeen release assets were downloaded and verified, research/production recovery passed, and independent local/GitHub-runner builds matched the published payload. See [the completed release report](../../reports/GITHUB_PUBLICATION_PHASE7.md). Historical preparation notes below retain their original scope.
+
 # Versioned research assets
 
 The Phase 7 selector is [public-assets.json](public-assets.json). It describes the eleven original archives permitted by the Phase 3 audit plus the mandatory third-party notice ZIP for tag v0.1.0. Its member inventories and archive hashes remain identical to the historical Phase 4 selector; the earlier manifests and original archives are unchanged.

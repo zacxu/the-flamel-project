@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "CURRENT",
   "first_applied_utc": "2026-11-10T19:31:47.832683+00:00",
-  "last_updated_utc": "2026-11-11T09:02:33.399524+00:00",
+  "last_updated_utc": "2026-11-11T10:16:33.819414+00:00",
   "backup_root": "D:\\Backups\\TheFlamelProject",
   "phase1_backup_root": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
   "phase2_work_root": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT",
@@ -64,13 +64,13 @@
     "phase6_completion": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\PHASE6_COMPLETION.json",
     "phase7_completion": "D:\\Backups\\TheFlamelProject\\phase7-20261111-release\\PHASE7_COMPLETION.json"
   },
-  "git_selected_files_current": 5332,
-  "current_control_files": 387,
+  "git_selected_files_current": 5333,
+  "current_control_files": 388,
   "modified_frozen_input_overrides": [
     "reports/github-publication-phase1/RECOVERY.md",
     "reports/GITHUB_PUBLICATION_PHASE1.md"
   ],
-  "source_files_current_from_declared_cutoff": 105781,
+  "source_files_current_from_declared_cutoff": 105782,
   "secret_licence_clearance": true,
   "pointer_correction": {
     "transaction": "D:\\Backups\\TheFlamelProject\\relocations\\20261111-to-D\\corrections\\20261111-current-pointer",
@@ -130,15 +130,19 @@
   "historical_phase5_control_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\current-controls.json",
   "historical_phase5_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\selected-files.json",
   "phase7_work_root": "D:\\Backups\\TheFlamelProject\\phase7-20261111-release",
-  "phase7_status": "RELEASE_IMPLEMENTED_PENDING_PUBLICATION_ACCEPTANCE",
-  "phase7_new_git_files": 24,
-  "phase7_control_files": 240,
+  "phase7_status": "COMPLETE_PUBLISHED_RELEASE_RETRIEVED_AND_REBUILT",
+  "phase7_new_git_files": 25,
+  "phase7_control_files": 241,
   "historical_phase6_control_seal": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\current-controls.json",
   "historical_phase6_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\selected-files.json",
   "phase7_release": {
     "tag": "v0.1.0",
     "url": "https://github.com/zacxu/the-flamel-project/releases/tag/v0.1.0",
-    "actual_publication_verified": false,
-    "hosting_changed": false
+    "actual_publication_verified": true,
+    "hosting_changed": false,
+    "source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+    "source_tree": "4e59b829f4ea23b7c8f4833f5c1e23e9cffd0d55",
+    "release_id": 441459014,
+    "canonical_record_sha256": "8f0a9bd6c65bf377aff12d7578b311571b10eab551d82c5edad4b74abc10ee45"
   }
 }

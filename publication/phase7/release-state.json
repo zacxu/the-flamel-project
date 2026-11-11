@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "status": "PUBLISHED_RETRIEVED_AND_REBUILT",
+  "repository": "zacxu/the-flamel-project",
+  "repository_private": true,
+  "tag": "v0.1.0",
+  "source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+  "source_tree": "4e59b829f4ea23b7c8f4833f5c1e23e9cffd0d55",
+  "release_id": 441459014,
+  "release_url": "https://github.com/zacxu/the-flamel-project/releases/tag/v0.1.0",
+  "published_at": "2026-11-11T09:38:40Z",
+  "immutable_api_flag": false,
+  "ui_build_id": "ui-w6-351e6182d7af3a9d062d",
+  "production_payload_sha256": "668b9a7767e283f5a2a47e82b90f3a16cf571b3bd770332ef25eb2ac9636af4c",
+  "production_bundle_sha256": "a97a4b6411e044d29d5fca545b767c4bf5480494757d047a3acc445aed248bf9",
+  "canonical_record_sha256": "8f0a9bd6c65bf377aff12d7578b311571b10eab551d82c5edad4b74abc10ee45",
+  "assets": [
+    {
+      "id": 734897988,
+      "name": "flamel-active-production-001.zip",
+      "bytes": 8510319,
+      "sha256": "5927d463cc2ad586bad6b4bac83cd8e5c4d73fff625f62f77ffafa55eda3b155",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-active-production-001.zip"
+    },
+    {
+      "id": 734898203,
+      "name": "flamel-composition-catalogs-001.zip",
+      "bytes": 61558121,
+      "sha256": "2dd58d6cb0ce8e750bf19327fa2d862e9641b8f04b43857e7f5dc07c28e5ea31",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-composition-catalogs-001.zip"
+    },
+    {
+      "id": 734898945,
+      "name": "flamel-crystalformer-checkpoint-001.zip",
+      "bytes": 166094303,
+      "sha256": "efd0a1caf4b1e6c43ba7071572eea7a2d952e00306e32f5187a3342609a87cfa",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-crystalformer-checkpoint-001.zip"
+    },
+    {
+      "id": 734900583,
+      "name": "flamel-historical-datasets-001.zip",
+      "bytes": 241635204,
+      "sha256": "393e6fe4fc524d9d13181504bbd129177268e6c4bdc2b316da044749d8c7c618",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-historical-datasets-001.zip"
+    },
+    {
+      "id": 734932621,
+      "name": "flamel-predecessor-v0.1.0.zip",
+      "bytes": 2743450,
+      "sha256": "24ed7e551669d53a10eef4920b6f0ff5ecf6659aa2f14d28accfceaf0505add4",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-predecessor-v0.1.0.zip"
+    },
+    {
+      "id": 734902520,
+      "name": "flamel-qe-scratch-003.zip",
+      "bytes": 239904254,
+      "sha256": "37e8143b5eeeadd4f67792c4f1f7a5416305dc5a4bf6da14783819cfd8303d1a",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-qe-scratch-003.zip"
+    },
+    {
+      "id": 734933063,
+      "name": "flamel-release-v0.1.0.json",
+      "bytes": 5720,
+      "sha256": "8f0a9bd6c65bf377aff12d7578b311571b10eab551d82c5edad4b74abc10ee45",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-release-v0.1.0.json"
+    },
+    {
+      "id": 734904600,
+      "name": "flamel-research-models-001.zip",
+      "bytes": 791135064,
+      "sha256": "ff7f61ce5c4fb207e1025bf03739ac86ebf707b090a11069a011d8e08d46bc77",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-research-models-001.zip"
+    },
+    {
+      "id": 734910992,
+      "name": "flamel-research-models-002.zip",
+      "bytes": 790600275,
+      "sha256": "6aa783d52cddd55d010e50da39c817e61c59f69b0dab6510f86c926f51cfe716",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-research-models-002.zip"
+    },
+    {
+      "id": 734918005,
+      "name": "flamel-research-models-003.zip",
+      "bytes": 790731084,
+      "sha256": "f135aed7384dad7df65870958d2ba6006e61cfcc8f77c00676c04ca1f4c8baa3",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-research-models-003.zip"
+    },
+    {
+      "id": 734923799,
+      "name": "flamel-research-models-004.zip",
+      "bytes": 790882986,
+      "sha256": "df46571daea5dad738a3f26b8d0c1272d94f4a69685c7eec83a79eba9290e566",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-research-models-004.zip"
+    },
+    {
+      "id": 734929487,
+      "name": "flamel-research-models-005.zip",
+      "bytes": 153282397,
+      "sha256": "820b020cc654bb085e18187933b8349c86136aa987afd4ed3e942695d4c505ec",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-research-models-005.zip"
+    },
+    {
+      "id": 734932245,
+      "name": "flamel-third-party-notices-20261111.zip",
+      "bytes": 26664,
+      "sha256": "e5b23c290d6c163a68e615a210204299d7ca7ece443ce02d841d820537b3fe19",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-third-party-notices-20261111.zip"
+    },
+    {
+      "id": 734932865,
+      "name": "flamel-validation-v0.1.0.zip",
+      "bytes": 4634367,
+      "sha256": "b76dbf6ed06138b8437a76897811913f959664099331797db45b539d7d295e55",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-validation-v0.1.0.zip"
+    },
+    {
+      "id": 734930871,
+      "name": "flamel-website-builds-001.zip",
+      "bytes": 123418694,
+      "sha256": "7eb744a319f6400406477408c5f1158103f609116429dc591efb10468dff70c9",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-website-builds-001.zip"
+    },
+    {
+      "id": 734932375,
+      "name": "flamel-website-v0.1.0.zip",
+      "bytes": 3112494,
+      "sha256": "a97a4b6411e044d29d5fca545b767c4bf5480494757d047a3acc445aed248bf9",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/flamel-website-v0.1.0.zip"
+    },
+    {
+      "id": 734933252,
+      "name": "SHA256SUMS",
+      "bytes": 1579,
+      "sha256": "1487d816f85b237297ddf11d8f122476597d531aa05844d1fe258c58bdebae1a",
+      "state": "uploaded",
+      "url": "https://github.com/zacxu/the-flamel-project/releases/download/v0.1.0/SHA256SUMS"
+    }
+  ],
+  "acceptance": {
+    "status": "PASS",
+    "release_identity": {
+      "source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+      "source_tree": "4e59b829f4ea23b7c8f4833f5c1e23e9cffd0d55",
+      "release_id": 441459014,
+      "canonical_record_sha256": "8f0a9bd6c65bf377aff12d7578b311571b10eab551d82c5edad4b74abc10ee45"
+    },
+    "published_assets": 17,
+    "downloaded_bytes": 4168276975,
+    "archive_members_verified": 907,
+    "research_files_restored": 777,
+    "raw_upf_placements": 41,
+    "production_recovery_files": 140,
+    "offline_capture_files_verified": 123,
+    "offline_research_payloads_verified": 75,
+    "release_checks_each_build": 1098,
+    "fresh_browser_checks_each_build": 99,
+    "published_payload_files": 88,
+    "rebuild_payload_inventory_matches": true,
+    "rebuild_zip_matches": true,
+    "shipping_original_unchanged": true,
+    "shipping_successful_builds": 1,
+    "independent_verification_builds": 1,
+    "website_changed": false,
+    "scientific_experiments": 0
+  },
+  "hosting_changed": false,
+  "scope": "Private release of audited source/evidence; three private UPF archives and serialized scratch remain excluded. No live deployment or new scientific result.",
+  "off_workstation_acceptance": {
+    "status": "PASS",
+    "workflows": [
+      {
+        "id": 43000978144,
+        "name": "Release packaging",
+        "status": "completed",
+        "conclusion": "success",
+        "event": "workflow_dispatch",
+        "controller_commit": "412ef472280ee1a4080a5d071362450c6612afdc",
+        "url": "https://github.com/zacxu/the-flamel-project/actions/runs/43000978144"
+      },
+      {
+        "id": 43000973414,
+        "name": "Evidence audit",
+        "status": "completed",
+        "conclusion": "success",
+        "event": "workflow_dispatch",
+        "controller_commit": "412ef472280ee1a4080a5d071362450c6612afdc",
+        "url": "https://github.com/zacxu/the-flamel-project/actions/runs/43000973414"
+      }
+    ],
+    "packaging_artifacts": [
+      {
+        "id": 13845902484,
+        "name": "flamel-package-84115354ef9d1acad65401869ade392e9039da16",
+        "bytes": 3112232,
+        "digest": "sha256:fbcb4ee43c2d1fafcba1d077789c709aa21cd7cc2f7716d14b32c45da9aff634",
+        "expired": false
+      }
+    ],
+    "scope": "Independent GitHub-hosted Linux asset retrieval/upstream audit and Windows full release validation; validation output never replaces the published shipping archive."
+  },
+  "off_workstation_payload_comparison": {
+    "status": "REMOTE_WINDOWS_REBUILD_PAYLOAD_MATCHES_RELEASE",
+    "source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+    "ui_build_id": "ui-w6-351e6182d7af3a9d062d",
+    "payload_files": 88,
+    "payload_sha256": "668b9a7767e283f5a2a47e82b90f3a16cf571b3bd770332ef25eb2ac9636af4c",
+    "hosting_deployed": false,
+    "github_release_published": false,
+    "producer_run_id": 43000978144,
+    "controller_commit": "412ef472280ee1a4080a5d071362450c6612afdc",
+    "published_release_unchanged": true,
+    "validation_artifact_only": true
+  }
+}

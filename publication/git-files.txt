@@ -3755,6 +3755,7 @@ publication/phase7/baseline-inputs.json
 publication/phase7/control-paths.json
 publication/phase7/public-assets.json
 publication/phase7/release-layout.json
+publication/phase7/release-state.json
 publication/pinned-upstreams.json
 publication/storage-policy.json
 publication/storage-summary.json
