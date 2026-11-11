@@ -1,4 +1,4 @@
-> CI implementation: [CI guide](CI.md) and [Phase 6 report](reports/GITHUB_PUBLICATION_PHASE6.md). Routine website/research checks preserve accepted evidence; manual workflows prepare verified packages. The live website remains hosted on InfinityFree.
+> Phase 6 CI complete: [CI guide](CI.md) and [Phase 6 report](reports/GITHUB_PUBLICATION_PHASE6.md). Routine website/research checks preserve accepted evidence; manual workflows prepare verified packages. The live website remains hosted on InfinityFree.
 
 # Crystal discovery hackathon prototype
 Repository: [zacxu/the-flamel-project](https://github.com/zacxu/the-flamel-project) (private). [Publication verification](reports/GITHUB_PUBLICATION_PHASE5.md).

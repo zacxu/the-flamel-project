@@ -581,7 +581,7 @@
     "initial_verified_commit": "1c9a9cdcc2fa0a96c8714a6845edd28d43f72421"
   },
   "phase6": {
-    "status": "CI_IMPLEMENTED_PENDING_HOSTED_ACCEPTANCE",
+    "status": "COMPLETE",
     "git_selected_files": 5308,
     "new_files": 30,
     "declared_controls": 228,

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "CURRENT",
   "first_applied_utc": "2026-11-10T19:31:47.832683+00:00",
-  "last_updated_utc": "2026-11-11T06:03:46.195519+00:00",
+  "last_updated_utc": "2026-11-11T06:11:43.550983+00:00",
   "backup_root": "D:\\Backups\\TheFlamelProject",
   "phase1_backup_root": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT",
   "phase2_work_root": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT",
@@ -123,7 +123,7 @@
     "final_current_commit": "Recorded externally in PHASE5_COMPLETION.json; source cannot contain its own commit hash."
   },
   "phase6_work_root": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci",
-  "phase6_status": "CI_IMPLEMENTED_PENDING_HOSTED_ACCEPTANCE",
+  "phase6_status": "COMPLETE_FRESH_RUNNER_CI_VERIFIED",
   "phase6_new_git_files": 30,
   "phase6_control_files": 228,
   "historical_phase5_control_seal": "D:\\Backups\\TheFlamelProject\\phase5-20261111-publication\\current-controls.json",

@@ -144,7 +144,7 @@ Use minimal workflow permissions, reviewed action versions, and isolated deploym
 
 **Completion condition:** a fresh GitHub runner validates the code without changing accepted evidence or launching costly experiments.
 
-**Phase 6 status: IMPLEMENTING.** [CI guide](CI.md) | [Completion report](reports/GITHUB_PUBLICATION_PHASE6.md). The website is already deployed on InfinityFree; this phase adds validation and package preparation, with hosting transport integration in Phase 8.
+**Phase 6 status: COMPLETE - 11 November 2026.** [CI guide](CI.md) | [Completion report](reports/GITHUB_PUBLICATION_PHASE6.md). All five workflow paths passed fresh GitHub-runner acceptance, including separate-run package download and byte verification. Accepted evidence stays unchanged. The website is already deployed on InfinityFree; this phase adds CI and package preparation, with hosting transport integration in Phase 8.
 
 **7. Create a reproducible release**
 
@@ -184,6 +184,6 @@ Private-repository branch protection and deployment approval features depend on 
 
 **Completion condition:** production serves the intended release, the permanent submission link works, and rollback is documented and tested.
 
-Phases 1-5 preserve the original baseline, audit its scope, verify standalone installation and publish the audited source to the private main branch. Subsequent changes should use branches and pull requests.
+Phases 1-6 preserve the original baseline, audit its scope, verify standalone installation, publish the audited source and validate it on fresh GitHub runners. Subsequent changes should use branches and pull requests.
 
-**Current implementation status:** Phases 1-5 are complete. Next: Phase 6, extend the initial CI into the planned research/evidence/release workflows. The source repository is published; release assets and hosting remain unchanged.
+**Current implementation status:** Phases 1-6 are complete. Next: Phase 7, create and independently retrieve a verified release. Separate routine website/research CI and manual evidence/package/handoff workflows passed hosted acceptance. Release assets remain unpublished; the existing InfinityFree website is unchanged.
