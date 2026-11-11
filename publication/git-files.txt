@@ -12,6 +12,7 @@ CI.md
 GITHUB_CICD_PUBLICATION_PLAN.md
 INSTALLATION.md
 README.md
+RELEASE.md
 THIRD_PARTY_NOTICES.md
 artifacts/budget_ledger.json
 artifacts/phase1/artifact_inventory.json
@@ -3748,6 +3749,12 @@ publication/phase6/README.md
 publication/phase6/baseline-inputs.json
 publication/phase6/ci-pins.json
 publication/phase6/control-paths.json
+publication/phase7/ASSETS.md
+publication/phase7/README.md
+publication/phase7/baseline-inputs.json
+publication/phase7/control-paths.json
+publication/phase7/public-assets.json
+publication/phase7/release-layout.json
 publication/pinned-upstreams.json
 publication/storage-policy.json
 publication/storage-summary.json
@@ -3767,6 +3774,7 @@ reports/GITHUB_PUBLICATION_PHASE3.md
 reports/GITHUB_PUBLICATION_PHASE4.md
 reports/GITHUB_PUBLICATION_PHASE5.md
 reports/GITHUB_PUBLICATION_PHASE6.md
+reports/GITHUB_PUBLICATION_PHASE7.md
 reports/github-publication-phase1/BACKUP_VERIFICATION.json
 reports/github-publication-phase1/COMPLETION.json
 reports/github-publication-phase1/COMPLETION.sha256
@@ -3851,6 +3859,12 @@ reports/github-publication-phase6/SOURCE_PRESERVATION.json
 reports/github-publication-phase6/manual-design.md
 reports/github-publication-phase6/research-design.md
 reports/github-publication-phase6/website-design.md
+reports/github-publication-phase7/LOCAL_CHECKS.json
+reports/github-publication-phase7/SECRET_SCAN.json
+reports/github-publication-phase7/SOURCE_PRESERVATION.json
+reports/github-publication-phase7/assets-design.md
+reports/github-publication-phase7/transport-design.md
+reports/github-publication-phase7/website-design.md
 reports/phase1_report.md
 reports/phase2_report.md
 reports/phase3_report.md
@@ -3892,6 +3906,15 @@ scripts/github_publication/phase6/test_manual_ci.py
 scripts/github_publication/phase6/test_phase6_policy.py
 scripts/github_publication/phase6/test_research_ci.py
 scripts/github_publication/phase6/website-parsers-lock.txt
+scripts/github_publication/phase7/browser_smoke.mjs
+scripts/github_publication/phase7/prepare_release.ps1
+scripts/github_publication/phase7/release_transport.py
+scripts/github_publication/phase7/research_assets.py
+scripts/github_publication/phase7/test_phase7_policy.py
+scripts/github_publication/phase7/test_release_transport.py
+scripts/github_publication/phase7/test_research_assets.py
+scripts/github_publication/phase7/test_website_predecessor.py
+scripts/github_publication/phase7/website_predecessor.py
 scripts/github_publication/prepare_storage.py
 scripts/github_publication/project_snapshot.py
 scripts/github_publication/public_assets.py
@@ -3908,6 +3931,7 @@ scripts/github_publication/verify_phase3.py
 scripts/github_publication/verify_phase4.py
 scripts/github_publication/verify_phase5.py
 scripts/github_publication/verify_phase6.py
+scripts/github_publication/verify_phase7.py
 scripts/github_publication/verify_production.ps1
 scripts/github_publication/verify_python_environment.py
 scripts/github_publication/verify_website_build.py

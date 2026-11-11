@@ -1,4 +1,6 @@
-> Current source/CI verification: [Phase 6 CI guide](../CI.md). Use scripts/github_publication/verify_phase6.py for the current selected checkout. The older verification and archive commands below retain their declared historical scope.
+> Reproducible release: [Phase 7](../reports/GITHUB_PUBLICATION_PHASE7.md) | [Release guide](../RELEASE.md). Existing release availability is verified in the Phase 7 completion record; historical manifests below keep their original scope.
+
+> Current source/CI verification: [Phase 6 CI guide](../CI.md). Use scripts/github_publication/verify_phase7.py for the current selected checkout. The older verification and archive commands below retain their declared historical scope.
 
 # Retrieve, verify and restore publication assets
 

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "repository": "zacxu/the-flamel-project",
+  "tag": "v0.1.0",
+  "research_selector": "publication/phase7/public-assets.json",
+  "research_archives_including_notices": 12,
+  "production_bundle": "flamel-website-v0.1.0.zip",
+  "predecessor_support": "flamel-predecessor-v0.1.0.zip",
+  "validation_evidence": "flamel-validation-v0.1.0.zip",
+  "release_record": "flamel-release-v0.1.0.json",
+  "checksum_file": "SHA256SUMS",
+  "total_assets": 17,
+  "self_reference_policy": "Release record lists fifteen payloads; SHA256SUMS lists those payloads and the record. Neither hashes itself. Remote API digests authenticate both metadata files during bootstrap.",
+  "repository_access": "Private; normal authenticated GitHub access is required."
+}

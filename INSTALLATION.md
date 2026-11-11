@@ -1,3 +1,5 @@
+> Reproducible release: [Phase 7](reports/GITHUB_PUBLICATION_PHASE7.md) | [Release guide](RELEASE.md). Existing release availability is verified in the Phase 7 completion record; historical manifests below keep their original scope.
+
 # Standalone installation and use
 
 This guide is separate from the frozen research protocol. Use a fresh checkout or disposable source copy. Keep the original research evidence unchanged. Current Windows x64 setup uses Python 3.11.14, Node 24.22.1 and npm 12.2.1 without Codex, global Node/npm or an existing project environment.
@@ -12,7 +14,7 @@ See [the source publication record](reports/GITHUB_PUBLICATION_PHASE5.md) for ac
 
 ## GitHub CI
 
-See [CI.md](CI.md) for fresh-run website/research checks, hash-pinned parser dependencies, manual evidence auditing and package preparation. The current source gate is scripts/github_publication/verify_phase6.py --require-clean; historical Phase 3-5 gates retain their original baseline scope. No model execution is part of routine CI.
+See [CI.md](CI.md) for fresh-run website/research checks, hash-pinned parser dependencies, manual evidence auditing and package preparation. The current source gate is scripts/github_publication/verify_phase7.py --require-clean; historical Phase 3-5 gates retain their original baseline scope. No model execution is part of routine CI.
 
 ## View and build the website
 
