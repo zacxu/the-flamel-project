@@ -1,6 +1,115 @@
 {
-  "status": "PASS_PROTOTYPE_AND_BOUNDARY_CHECKS",
-  "shipping_build": "PENDING_SELECTED_PASSING_SOURCE",
+  "status": "PASS_RELEASE_PUBLICATION_AND_INDEPENDENT_ACCEPTANCE",
+  "shipping_build": {
+    "status": "PASS",
+    "shipping_source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+    "shipping_source_tree": "4e59b829f4ea23b7c8f4833f5c1e23e9cffd0d55",
+    "actual_producer": {
+      "kind": "LOCAL",
+      "helper": "scripts/github_publication/phase7/prepare_release.ps1",
+      "successful_builds": 1
+    },
+    "release_preparation": {
+      "schema_version": 1,
+      "status": "VERIFIED_RELEASE_PACKAGE_NOT_DEPLOYED",
+      "source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+      "source_tree": "4e59b829f4ea23b7c8f4833f5c1e23e9cffd0d55",
+      "ui_build_id": "ui-w6-351e6182d7af3a9d062d",
+      "payload_files": 88,
+      "payload_bytes": 5691844,
+      "archive_sha256": "668b9a7767e283f5a2a47e82b90f3a16cf571b3bd770332ef25eb2ac9636af4c",
+      "archive_bytes": 3110793,
+      "successful_builds": 1,
+      "legacy_release_checks": 1098,
+      "legacy_release_failed": 0,
+      "predecessor_files": 84,
+      "loopback_http_responses": 94,
+      "candidate_mutated_paths": [
+        "website/reports/CRYSTAL_LAB_ORIENTATION_VALIDATION.json",
+        "website/reports/SHORT_URL_COMPACT_URL_VALIDATION.json",
+        "website/reports/W6_DATA_GUARDS.json",
+        "website/reports/W6_DOWNLOAD_VALIDATION.json",
+        "website/reports/W6_EVIDENCE_VALIDATION.json",
+        "website/reports/W6_GENERATION_VALIDATION.json",
+        "website/reports/W6_GEOMETRY_VALIDATION.json",
+        "website/reports/W6_INTEGRATION_VALIDATION.json",
+        "website/reports/W6_LOADER_VALIDATION.json",
+        "website/reports/W6_PLAYBACK_VALIDATION.json",
+        "website/reports/W6_RELEASE_PACKAGE.json",
+        "website/reports/W6_RELEASE_VALIDATION.json",
+        "website/reports/W6_REPLAY_VALIDATION.json",
+        "website/reports/W6_RESEARCH_VALIDATION.json",
+        "website/reports/W6_STATE_VALIDATION.json",
+        "website/reports/W6_TOUR_VALIDATION.json",
+        "website/reports/W6_UNCERTAINTY_VALIDATION.json",
+        "website/reports/W6_VIEWER_VALIDATION.json"
+      ],
+      "mutations_confined_to_disposable_reports_and_generated_identity": true,
+      "scientific_experiments": 0,
+      "hosting_changed": false,
+      "browser_interactions_changed": false,
+      "browser_scope": "Existing frontend interactions preserved; no new live browser or production acceptance claimed."
+    },
+    "browser_smoke": {
+      "status": "PASS",
+      "check_count": 99,
+      "passed": 99,
+      "browser": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/157.0.8103.39",
+        "revision": "@9a31f0acec1854d44e49a73fbf8017598151a583",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "jsVersion": "15.7.112.23"
+      },
+      "loopback_server_closed": true,
+      "browser_closed": true,
+      "page_errors": [],
+      "console_errors": [],
+      "request_failures": [],
+      "observed_http_requests": 18
+    },
+    "package_files": [
+      {
+        "path": "entry-last/index.html",
+        "bytes": 1150,
+        "sha256": "49fb03717c0efe8f037ade093072b35f5d90c90f1db50938bcfe2233b701ef68"
+      },
+      {
+        "path": "host/.htaccess",
+        "bytes": 1230,
+        "sha256": "cfec2cddb8cbbf215fbe2ee17593a20f8b470d80071648ddb6d79004a8bbd149"
+      },
+      {
+        "path": "package-record.json",
+        "bytes": 21981,
+        "sha256": "16faf71c638a6e728c73dbbf0359b8e5b1bd13816664b0c06fbb7c75723b7151"
+      },
+      {
+        "path": "payload.zip",
+        "bytes": 3110793,
+        "sha256": "668b9a7767e283f5a2a47e82b90f3a16cf571b3bd770332ef25eb2ac9636af4c"
+      },
+      {
+        "path": "provenance.json",
+        "bytes": 1485,
+        "sha256": "bd6e7dc0c0ac465f13451f8924d69cedcd5a6646ff8b6510eebdacb5dcb27ba2"
+      },
+      {
+        "path": "SHA256SUMS",
+        "bytes": 498,
+        "sha256": "26d3fdd8a1708d546b50ecf14d953533f2035b304adcceec802b853471bb6f1f"
+      },
+      {
+        "path": "upload-plan.json",
+        "bytes": 44031,
+        "sha256": "0789dbbdac3a5207b0c14ece7ad679ba09dca3bf01379ba0e3534f4b584ab2be"
+      }
+    ],
+    "shipping_payload_sha256": "668b9a7767e283f5a2a47e82b90f3a16cf571b3bd770332ef25eb2ac9636af4c",
+    "hosting_changed": false,
+    "scientific_experiments": 0,
+    "scope": "One build from final corrected selected source. Previous rejected build is separate audit evidence. The Phase6 compatibility provenance names its workflow contract; actual execution here is local, not a GitHub producer workflow."
+  },
   "allowed_archives": {
     "status": "VERIFIED",
     "tool_version": "1.0.0",
@@ -682,5 +791,78 @@
     "reason": "GitHub by-tag API omits draft releases; rejected before any asset transfer/publication.",
     "shipping_evidence_preserved": true,
     "only_owned_empty_draft_and_tentative_tag_removed": true
+  },
+  "independent_acceptance": {
+    "status": "PASS",
+    "release_identity": {
+      "source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+      "source_tree": "4e59b829f4ea23b7c8f4833f5c1e23e9cffd0d55",
+      "release_id": 441459014,
+      "canonical_record_sha256": "8f0a9bd6c65bf377aff12d7578b311571b10eab551d82c5edad4b74abc10ee45"
+    },
+    "published_assets": 17,
+    "downloaded_bytes": 4168276975,
+    "archive_members_verified": 907,
+    "research_files_restored": 777,
+    "raw_upf_placements": 41,
+    "production_recovery_files": 140,
+    "offline_capture_files_verified": 123,
+    "offline_research_payloads_verified": 75,
+    "release_checks_each_build": 1098,
+    "fresh_browser_checks_each_build": 99,
+    "published_payload_files": 88,
+    "rebuild_payload_inventory_matches": true,
+    "rebuild_zip_matches": true,
+    "shipping_original_unchanged": true,
+    "shipping_successful_builds": 1,
+    "independent_verification_builds": 1,
+    "website_changed": false,
+    "scientific_experiments": 0
+  },
+  "off_workstation_acceptance": {
+    "status": "PASS",
+    "workflows": [
+      {
+        "id": 43000978144,
+        "name": "Release packaging",
+        "status": "completed",
+        "conclusion": "success",
+        "event": "workflow_dispatch",
+        "controller_commit": "412ef472280ee1a4080a5d071362450c6612afdc",
+        "url": "https://github.com/zacxu/the-flamel-project/actions/runs/43000978144"
+      },
+      {
+        "id": 43000973414,
+        "name": "Evidence audit",
+        "status": "completed",
+        "conclusion": "success",
+        "event": "workflow_dispatch",
+        "controller_commit": "412ef472280ee1a4080a5d071362450c6612afdc",
+        "url": "https://github.com/zacxu/the-flamel-project/actions/runs/43000973414"
+      }
+    ],
+    "packaging_artifacts": [
+      {
+        "id": 13845902484,
+        "name": "flamel-package-84115354ef9d1acad65401869ade392e9039da16",
+        "bytes": 3112232,
+        "digest": "sha256:fbcb4ee43c2d1fafcba1d077789c709aa21cd7cc2f7716d14b32c45da9aff634",
+        "expired": false
+      }
+    ],
+    "scope": "Independent GitHub-hosted Linux asset retrieval/upstream audit and Windows full release validation; validation output never replaces the published shipping archive."
+  },
+  "off_workstation_payload_comparison": {
+    "status": "REMOTE_WINDOWS_REBUILD_PAYLOAD_MATCHES_RELEASE",
+    "source_commit": "84115354ef9d1acad65401869ade392e9039da16",
+    "ui_build_id": "ui-w6-351e6182d7af3a9d062d",
+    "payload_files": 88,
+    "payload_sha256": "668b9a7767e283f5a2a47e82b90f3a16cf571b3bd770332ef25eb2ac9636af4c",
+    "hosting_deployed": false,
+    "github_release_published": false,
+    "producer_run_id": 43000978144,
+    "controller_commit": "412ef472280ee1a4080a5d071362450c6612afdc",
+    "published_release_unchanged": true,
+    "validation_artifact_only": true
   }
 }

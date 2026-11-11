@@ -163,7 +163,7 @@ Existing download checks validate retained browser files; they do **not** establ
 
 **Completion condition:** another machine can retrieve, verify, and build the release using only the repository and declared assets.
 
-**Phase 7 status: IMPLEMENTING.** [Release guide](RELEASE.md) | [Completion report](reports/GITHUB_PUBLICATION_PHASE7.md). The selected source must pass CI, the full release gates and independent authenticated retrieval/build before completion. Existing hosting is unchanged.
+**Phase 7 status: COMPLETE - 11 November 2026.** [Release guide](RELEASE.md) | [Completion report](reports/GITHUB_PUBLICATION_PHASE7.md). Private v0.1.0 is published with seventeen verified assets. Fresh authenticated retrieval, research/production recovery, exact upstream inputs and an independent byte-identical website rebuild passed. Existing hosting is unchanged.
 
 **8. Connect deployment to InfinityFree**
 
@@ -186,6 +186,6 @@ Private-repository branch protection and deployment approval features depend on 
 
 **Completion condition:** production serves the intended release, the permanent submission link works, and rollback is documented and tested.
 
-Phases 1-6 preserve the original baseline, audit its scope, verify standalone installation, publish the audited source and validate it on fresh GitHub runners. Subsequent changes should use branches and pull requests.
+Phases 1-7 preserve the original baseline, audit its scope, verify standalone installation, publish source, validate CI and publish an independently retrieved/rebuilt release. Subsequent changes should use branches and pull requests.
 
-**Current implementation status:** Phases 1-6 are complete. Next: Phase 7, create and independently retrieve a verified release. Separate routine website/research CI and manual evidence/package/handoff workflows passed hosted acceptance. Release assets remain unpublished; the existing InfinityFree website is unchanged.
+**Current implementation status:** Phases 1-7 are complete. Private v0.1.0 and all seventeen assets are published and independently verified/rebuilt. Next: Phase 8, automate verified updates to the existing InfinityFree website and complete live acceptance/rollback. The live site remains unchanged by Phase 7.

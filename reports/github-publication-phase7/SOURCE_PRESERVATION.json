@@ -32,6 +32,7 @@
     "publication/phase7/control-paths.json",
     "publication/phase7/public-assets.json",
     "publication/phase7/release-layout.json",
+    "publication/phase7/release-state.json",
     "reports/GITHUB_PUBLICATION_PHASE7.md",
     "reports/github-publication-phase7/LOCAL_CHECKS.json",
     "reports/github-publication-phase7/SECRET_SCAN.json",

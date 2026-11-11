@@ -1,3 +1,5 @@
+> v0.1.0 is published privately. All seventeen release assets were downloaded and verified, research/production recovery passed, and independent local/GitHub-runner builds matched the published payload. See [the completed release report](../../reports/GITHUB_PUBLICATION_PHASE7.md). Historical preparation notes below retain their original scope.
+
 # Reproducible release
 
 Phase 7 creates the private v0.1.0 GitHub Release. Publication and independent retrieval must succeed before the phase is marked complete. See [the release guide](../../RELEASE.md) and [completion report](../../reports/GITHUB_PUBLICATION_PHASE7.md).

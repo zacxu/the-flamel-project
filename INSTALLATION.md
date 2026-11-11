@@ -1,3 +1,5 @@
+> Current release: [private v0.1.0](https://github.com/zacxu/the-flamel-project/releases/tag/v0.1.0) | [Reproduction guide](RELEASE.md) | [Phase 7 acceptance](reports/GITHUB_PUBLICATION_PHASE7.md). All seventeen assets were retrieved and the website independently rebuilt with matching bytes. Historical records below retain their original scope.
+
 > Reproducible release: [Phase 7](reports/GITHUB_PUBLICATION_PHASE7.md) | [Release guide](RELEASE.md). Existing release availability is verified in the Phase 7 completion record; historical manifests below keep their original scope.
 
 # Standalone installation and use
@@ -10,7 +12,7 @@ Phase 4 validated a checksum-verified source export. Phase 5 has published and i
 git clone -c core.longpaths=true -c core.autocrlf=false https://github.com/zacxu/the-flamel-project.git
 ~~~
 
-See [the source publication record](reports/GITHUB_PUBLICATION_PHASE5.md) for actual verification status. Release assets remain local/unpublished until their later release phase.
+See [the source publication record](reports/GITHUB_PUBLICATION_PHASE5.md) for actual verification status. The permitted v0.1.0 assets are now published privately; use the release guide for authenticated retrieval.
 
 ## GitHub CI
 

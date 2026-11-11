@@ -1,3 +1,5 @@
+> Phase 7 complete: [private v0.1.0](https://github.com/zacxu/the-flamel-project/releases/tag/v0.1.0) passed full validation, actual retrieval/recovery and an independent byte-identical rebuild. See [the release guide](RELEASE.md).
+
 > Current release work: [Phase 7](reports/GITHUB_PUBLICATION_PHASE7.md) and [release guide](RELEASE.md). The Phase 7 integrity overlay supersedes the current checkout gate; prior phase records remain historical.
 
 # Continuous integration
@@ -21,7 +23,7 @@ Open the repository's Actions tab, choose the workflow and select Run workflow. 
 
 | Workflow | Default and outputs | Boundary |
 | --- | --- | --- |
-| Evidence audit | Verify committed saved provenance without bulk downloads; optional declared public assets or exact upstream UPFs | Public archive retrieval fails preflight while manifests are unpublished; three private UPF-containing archives never become public candidates |
+| Evidence audit | Verify committed saved provenance without bulk downloads; optional declared public assets or exact upstream UPFs | Authenticated retrieval verifies the published Phase 7 selector; three private UPF-containing archives stay excluded |
 | Release packaging | Build a selected accepted commit in a disposable copy, package it, verify ZIP/payload/source provenance and run publication --stage; downloadable Actions artifact | Does not publish a GitHub Release or assert a new browser session |
 | Production deployment preparation | Download and verify the exact package artifact and stage the hosting handoff | Reports NOT_DEPLOYED; InfinityFree upload and live acceptance belong to Phase 8 |
 
@@ -31,11 +33,11 @@ The previous initial-ci.yml is a manual historical audit of the fixed Phase 5 co
 
 ## Evidence and release limits
 
-The read-only saved-evidence audit checks retained inputs and payloads; it does not rerun historical experiments or claim a new scientific result. Optional external asset retrieval uses the scoped Phase 4 public selector, exact hashes and upstream policy. Actual permitted-asset upload and fresh release retrieval are Phase 7 work.
+The read-only saved-evidence audit checks retained inputs and payloads; it does not rerun historical experiments or claim a new scientific result. Optional external asset retrieval uses the scoped Phase 4 public selector, exact hashes and upstream policy. Actual permitted-asset upload and fresh release retrieval passed in Phase 7.
 
 Package verification enforces the selected source SHA, producing run, payload inventory, staged entry and hosting policy. The recorded source_tree and producer_workflow_commit fields are producer assertions in this phase, rather than separate independently authenticated claims. Phase 7 can strengthen release attestations.
 
-The legacy website release validator requires the historical .cache/w6-previous-dist predecessor, which is intentionally absent from normal Git checkouts. CI package verification independently checks the current package and staged entry bytes. It does not label the unavailable predecessor/coexistence or fresh browser checks as passed. Phase 7 must supply the approved predecessor package and complete those release acceptance checks.
+The full website release validator needs the historical predecessor omitted from Git. Phase 7 supplies the eighty-four-file support ZIP; manual packaging retrieves and validates it before running the full gate. Fresh shipping/rebuild Chrome smoke passed separately. Future changed interactions still require an appropriate fresh browser check; no live deployment is inferred.
 
 ## Integrity and review
 
@@ -55,4 +57,4 @@ Official action and tool pins, permissions, triggers and acceptance boundaries a
 
 ## Later phases
 
-Phase 7 publishes and retrieves a verified release with the permitted research assets. Phase 8 connects the accepted package to InfinityFree's verified upload transport, preserves old assets and sidecars, publishes index.html last, checks /refresh and the submission link, and verifies rollback. Hosting secrets belong only to that isolated deployment path.
+Phase 7 published and independently retrieved/rebuilt v0.1.0 with the permitted assets. Phase 8 connects the accepted package to InfinityFree's verified upload transport, preserves old assets and sidecars, publishes index.html last, checks /refresh and the submission link, and verifies rollback. Hosting secrets belong only to that isolated deployment path.
