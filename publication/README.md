@@ -1,5 +1,7 @@
 # Publication storage decisions
 
+> Current CI implementation: [Phase 6](../reports/GITHUB_PUBLICATION_PHASE6.md) and [CI guide](../CI.md). The Phase 6 overlay pins the complete published Phase 5 baseline; current recovery seals remain independent of Git. The permitted-archive policy and existing hosting are unchanged.
+
 > Current source publication: [Phase 5](../reports/GITHUB_PUBLICATION_PHASE5.md). Git source and initial CI are published in the private repository; optional release assets remain local and unpublished. Use the Phase 4 public selector for future asset distribution.
 
 <!-- phase4-current:start -->

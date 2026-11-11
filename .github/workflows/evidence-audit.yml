@@ -1,0 +1,63 @@
+name: Evidence audit
+on:
+  workflow_dispatch:
+    inputs:
+      retrieve_public_archives:
+        description: 'Retrieve 11 permitted archives + notice ZIP (requires published Phase 7 manifest)'
+        type: boolean
+        default: false
+      retrieve_upstream_upfs:
+        description: 'Retrieve pinned SSSP and verify 3 UPFs / 41 canonical placements'
+        type: boolean
+        default: false
+  workflow_call:
+    inputs:
+      retrieve_public_archives:
+        type: boolean
+        default: false
+      retrieve_upstream_upfs:
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: evidence-audit-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  audit:
+    name: Frozen evidence audit (manual)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Preserve checkout bytes
+        run: git config --global core.autocrlf false
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Python 3.11.14
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11.14'
+      - name: Verify source before audit
+        run: python -I -B scripts/github_publication/verify_phase6.py --require-clean
+      - name: Audit saved evidence and explicitly requested retrieval
+        env:
+          RETRIEVE_PUBLIC: ${{ inputs.retrieve_public_archives }}
+          RETRIEVE_UPFS: ${{ inputs.retrieve_upstream_upfs }}
+        run: |
+          args=(evidence --root "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/flamel-evidence-audit")
+          if [ "$RETRIEVE_PUBLIC" = true ]; then args+=(--download-public); fi
+          if [ "$RETRIEVE_UPFS" = true ]; then args+=(--upstream-upfs); fi
+          python -I -B scripts/github_publication/phase6/manual_ci.py "${args[@]}"
+      - name: Verify accepted evidence unchanged
+        if: always()
+        run: python -I -B scripts/github_publication/verify_phase6.py --require-clean
+      - name: Retain audit receipts only
+        if: success()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: evidence-audit-${{ github.run_id }}
+          path: ${{ runner.temp }}/flamel-evidence-audit/*.json
+          if-no-files-found: error
+          retention-days: 14

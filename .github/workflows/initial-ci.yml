@@ -1,9 +1,6 @@
-name: Initial publication checks
+name: Historical Phase 5 checks (manual, pinned baseline)
 
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -24,6 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: f592e0c13888bfc62ff55413c91dc0721b6b35cb
           persist-credentials: false
       - name: Python 3.11.14
         uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
@@ -58,6 +56,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: f592e0c13888bfc62ff55413c91dc0721b6b35cb
           persist-credentials: false
       - name: Install pinned Node/npm and build
         shell: pwsh

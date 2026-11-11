@@ -1,3 +1,5 @@
+> Current source/CI verification: [Phase 6 CI guide](../CI.md). Use scripts/github_publication/verify_phase6.py for the current selected checkout. The older verification and archive commands below retain their declared historical scope.
+
 # Retrieve, verify and restore publication assets
 
 > Current source publication: [Phase 5](../reports/GITHUB_PUBLICATION_PHASE5.md). Git source and initial CI are published in the private repository; optional release assets remain local and unpublished. Use the Phase 4 public selector for future asset distribution.

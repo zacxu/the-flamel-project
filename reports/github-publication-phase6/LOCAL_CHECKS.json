@@ -1,0 +1,120 @@
+{
+  "status": "PASS_LOCAL_CHECKS",
+  "not_a_hosted_result": true,
+  "scientific_jobs_dispatched": 0,
+  "research": {
+    "status": "PASS",
+    "tests": 27,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "numpy": "2.2.6",
+    "tracked_research_inputs_verified": 3774,
+    "historical_inputs_unchanged": true,
+    "model_imports": [],
+    "scientific_jobs_dispatched": 0,
+    "fixture_scope": "Synthetic acquisition, budget, composition-stretch, formula and streamed JSON only"
+  },
+  "mutable_policy": {
+    "status": "PASS",
+    "tests": 9,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "runtime": "CPython 3.11.14",
+    "test_sha256": "9d52836fa390986cd2e10cd7a8e9398d50c2d027562db03db2a446978ccb20aa",
+    "verifier_sha256": "53c06cb9a989a8ff6ecfd0cdca18b7261edf24a7d8994cb216c0c380df985ee6",
+    "source_files_edited_by_tests": 0,
+    "scope": "Mutable-source policy and frozen-evidence exemption rejection"
+  },
+  "website": {
+    "schema_version": 1,
+    "status": "PASS",
+    "source_commit": "f592e0c13888bfc62ff55413c91dc0721b6b35cb",
+    "disposable_source": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\website-local\\source",
+    "original_checkout_unchanged": true,
+    "toolchain_root": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\website-local\\website-tools",
+    "runtime_python": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\website-local\\python-parsers\\runtime\\python\\python.exe",
+    "parser_python": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\website-local\\python-parsers\\envs\\website-parsers\\Scripts\\python.exe",
+    "node": "24.22.1",
+    "npm": "12.2.1",
+    "python": "3.11.14",
+    "integration_checks": 384,
+    "source_regression_checks": 224507,
+    "tour_checks": 123,
+    "retained_download_checks": 34,
+    "regression_reports_replaced_only_in_disposable_copy": true,
+    "research_archives_downloaded": false,
+    "model_packages_installed": false,
+    "scientific_experiments": 0,
+    "hosting_accessed": false,
+    "limits": "Source/lifecycle/CIF and retained browser-file checks; no fresh browser session or production acceptance is asserted.",
+    "publication_guard_scenarios": 11,
+    "short_url_checks": 76491,
+    "orientation_checks": 330,
+    "retained_download_files": 7,
+    "parser_installation": {
+      "status": "PASS",
+      "runtime_python": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\website-local\\python-parsers\\runtime\\python\\python.exe",
+      "parser_python": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\website-local\\python-parsers\\envs\\website-parsers\\Scripts\\python.exe",
+      "python_version": "3.11.14",
+      "uv_version": "0.13.7",
+      "lock_sha256": "805b5e716537f80d12d6358b95c14b5e392796368f97198262b302bdd96ba78b",
+      "package_count": 40,
+      "model_packages_installed": false,
+      "model_experiments_run": false
+    },
+    "report_hashes": {
+      "source/website/reports/W6_INTEGRATION_VALIDATION.json": "1fb8c8e38428799851b23396d96b9f5ab12492bcc6978a624747e6ff5c5e65cc",
+      "source/website/reports/W6_TOUR_VALIDATION.json": "b351759483fcaca6063c1bef978dfbe1a2058c6c625a4c5a8960ab4ae74c2d24",
+      "source/website/reports/W6_DOWNLOAD_VALIDATION.json": "7b36f3044577353bdcb3145df3980bd3b4bece934e6f04624d0685ed3cab6fa5",
+      "website-tools/website-installation.json": "6cb490ab719ff74a2e1e57013a6f36d6ac649712ba03fb087f7adcdca5d7b6d7",
+      "python-parsers/website-parsers-installation.json": "265e2bb141644d56e47b68dbc8357818fb5fb317016fbe5e41c4dbddd385d97f",
+      "website-ci.json": "92e36f70925a2eb352ebd2af255870b84b08c4a14485b7a3a52fc66343c22c87"
+    },
+    "local_helper_revision_note": "The executing initial helper summarized the tour with a nonexistent checksPassed property. Current helper uses actual checkCount; this summary binds the actual successful tour report. Current helper also removes only its own temporary source.tar after successful extraction. Regression commands unchanged."
+  },
+  "website_guards": [
+    {
+      "Name": "Website audit refuses existing evidence directory",
+      "Passed": true
+    },
+    {
+      "Name": "Website audit refuses source directory destination",
+      "Passed": true
+    },
+    {
+      "Name": "Parser installer refuses existing evidence directory",
+      "Passed": true
+    },
+    {
+      "Name": "Parser installer refuses source directory destination",
+      "Passed": true
+    }
+  ],
+  "workflow_lint": {
+    "version": "1.7.12",
+    "url": "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_windows_amd64.zip",
+    "archive_sha256": "6e7241b51e6817ea6a047693d8e6fed13b31819c9a0dd6c5a726e1592d22f6e9",
+    "binary_sha256": "54ca21be3de4c7cfa26914aa8b61bd76bf573ef3caac5f80d110558cdf241718",
+    "tool_destination": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\actionlint\\actionlint.exe"
+  },
+  "manual_safety": {
+    "tests": 15,
+    "passed": 13,
+    "windows_symlink_skips": 2,
+    "log": "manual-tests/fixture-tests.log",
+    "linux_expected_skips": 0
+  },
+  "real_package": {
+    "status": "VERIFIED_PACKAGE_NOT_DEPLOYED",
+    "source_commit": "f592e0c13888bfc62ff55413c91dc0721b6b35cb",
+    "ui_build_id": "ui-w6-351e6182d7af3a9d062d",
+    "payload_files": 88,
+    "zip_sha256": "668b9a7767e283f5a2a47e82b90f3a16cf571b3bd770332ef25eb2ac9636af4c",
+    "log": "manual-tests/package-build-fixed.log",
+    "existing_guard_apis_used": true,
+    "fresh_external_stage": true,
+    "historical_stage_preserved": true
+  }
+}
