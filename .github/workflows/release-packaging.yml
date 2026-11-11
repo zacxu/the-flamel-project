@@ -62,7 +62,7 @@ jobs:
             ToolchainRoot = (Join-Path $env:RUNNER_TEMP 'flamel-package-tools')
             OutputDirectory = (Join-Path $env:RUNNER_TEMP 'flamel-package')
             SourceCommit = $env:SOURCE_COMMIT
-            PythonExe = (Get-Command python -CommandType Application).Source
+            PythonExe = (Get-Command python -CommandType Application | Select-Object -First 1).Source
           }
           & ./controller/scripts/github_publication/phase6/manual_package.ps1 @arguments
           if ($LASTEXITCODE -ne 0) { throw 'Package gate failed.' }
