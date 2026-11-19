@@ -23,4 +23,11 @@ On a local explicit FTPS server, the client verified a TLS 1.3 connection and en
 
 The independent local browser receipt and screenshots are in `D:\Backups\TheFlamelProject\phase8-20261120-deployment\live-production`. The receipt SHA-256 is `5c10938b1bc8abed291f8570518006c72da5b5770440691adad5c16df3997241`. The comparison against the Phase 7 rebuild is retained alongside it under `live-release-comparison`.
 
-The [deployment and rollback guide](../DEPLOYMENT.md) describes the workflow operations and snapshot retention. Authenticated host verification is pending.
+## GitHub Actions and recovery
+
+- The read-only [host inspection](https://github.com/zacxu/the-flamel-project/actions/runs/44588016161) authenticated to the actual InfinityFree account. It found zero missing immutable files and zero changes to the research pointer, root policy or HTML entry.
+- The [deployment run](https://github.com/zacxu/the-flamel-project/actions/runs/44588807648) retrieved the original package, ran the publication guard and rehearsed rollback. It captured and encrypted the live predecessor before comparing the host again. The transport recorded **zero writes**. A fresh browser on the runner then passed the submission, entry, 88-file inventory, Crystal Lab and download checks.
+- The encrypted snapshot was downloaded from GitHub and independently opened using the local Windows recovery key. Its 88 public files and root hosting policy matched the verified production release. The GitHub artifact contains only encrypted snapshot bytes. The operator guide covers retention and recovery.
+- The first remote run stopped during release lookup because the Phase 7 publisher expected a private repository. Phase 8 verifies repository ID 1452978137, the tagged commit, release and asset identities, and content hashes. A subsequent run stopped before login on an incorrect FTP hostname. The successful checks used the certificate-verified hostname `ftpupload.net`. Both earlier runs stopped before any hosting write.
+
+**Phase 8 complete.** Deployment and rollback instructions are in the [operator guide](../DEPLOYMENT.md). The live production run exercised the already-current case. The test that changed and restored files ran on an isolated explicit FTPS server with the two archived production packages.

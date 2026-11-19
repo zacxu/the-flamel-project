@@ -188,4 +188,6 @@ Private-repository branch protection and deployment approval features depend on 
 
 Phases 1-7 preserve the original baseline, audit its scope, verify standalone installation, publish source, validate CI and publish an independently retrieved/rebuilt release. Subsequent changes should use branches and pull requests.
 
-**Phase 8 status (20 November 2026):** The original production package passed all 88 live file comparisons after opening the permanent link in submission 7. The authenticated transport check is pending. See the [deployment guide](DEPLOYMENT.md) and [Phase 8 verification report](reports/GITHUB_PUBLICATION_PHASE8.md).
+**Phase 8 status: COMPLETE — 20 November 2026.** Authenticated production inspection and the deployment workflow both confirmed the existing site matched the intended original package. The deployment wrote zero files and retained a verified encrypted rollback snapshot. Following the saved submission link passed the cache, payload, Crystal Lab and download checks. A deployment and rollback rehearsal restored the preceding production release. [Verification report](reports/GITHUB_PUBLICATION_PHASE8.md) · [Deployment and rollback guide](DEPLOYMENT.md)
+
+**Current implementation status:** Phases 1–8 are complete.
