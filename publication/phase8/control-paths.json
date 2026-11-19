@@ -478,7 +478,8 @@
     "publication/backup-paths.json",
     "publication/generated-control-paths.json",
     "publication/git-files.txt",
-    "publication/git-pathspec.nul"
+    "publication/git-pathspec.nul",
+    "publication/storage-summary.json"
   ],
   "withheld_private_paths": [],
   "new_paths": [

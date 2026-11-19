@@ -601,5 +601,14 @@
     "release_tag": "v0.1.0",
     "release_uploaded_and_retrieved": true,
     "hosting_changed": false
+  },
+  "phase8": {
+    "status": "COMPLETE",
+    "hosting_build_id": "ui-w6-351e6182d7af3a9d062d",
+    "hosting_payload_sha256": "ccff9618e0c74d9c98ac3c378b7e361876e18befdd32640b7e64bf6cdec19ca5",
+    "public_files": 88,
+    "deployment_run_id": 44588807648,
+    "changed_hosting_files": 0,
+    "rollback_snapshot_verified": true
   }
 }
