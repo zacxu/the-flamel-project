@@ -60,7 +60,7 @@ jobs:
         run: python -I -B scripts/github_publication/phase6/lint_workflows.py --tool-root "$RUNNER_TEMP/flamel-actionlint"
       - name: Verify source and saved evidence before tests
         run: |
-          python -I -B scripts/github_publication/verify_phase7.py --require-clean
+          python -I -B scripts/github_publication/verify_phase8.py --require-clean
           python -I -B scripts/github_publication/audit_saved_evidence.py
       - name: Install only frozen NumPy wheel
         run: >-
@@ -75,6 +75,7 @@ jobs:
           python -I -B scripts/github_publication/phase6/test_phase6_policy.py
           python -I -B scripts/github_publication/phase7/test_phase7_policy.py
           python -I -B scripts/github_publication/phase7/test_research_assets.py
+          python -I -B scripts/github_publication/phase8/test_transport.py
           python -I -B scripts/github_publication/phase7/test_release_transport.py
           python -I -B scripts/github_publication/phase7/test_website_predecessor.py
           python -I -B scripts/github_publication/phase6/test_manual_ci.py
@@ -89,4 +90,4 @@ jobs:
         if: always()
         run: |
           python -I -B scripts/github_publication/audit_saved_evidence.py
-          python -I -B scripts/github_publication/verify_phase7.py --require-clean
+          python -I -B scripts/github_publication/verify_phase8.py --require-clean

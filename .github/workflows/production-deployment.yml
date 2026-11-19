@@ -1,32 +1,198 @@
-name: Production deployment preparation
+name: Production deployment
+
 on:
   workflow_dispatch:
     inputs:
+      operation:
+        description: 'Stage and rehearse, inspect the host, deploy the recorded release, or restore a snapshot'
+        type: choice
+        options: [prepare, inspect, deploy, rollback]
+        default: prepare
+      expected_entry_sha256:
+        description: 'SHA-256 of the current production HTML, required for inspect and deploy'
+        type: string
+      rollback_run_id:
+        description: 'Deployment workflow run that captured the snapshot to restore'
+        type: string
+      rollback_attempt:
+        description: 'Attempt of the deployment run that captured the snapshot'
+        type: string
+        default: '1'
       package_run_id:
-        description: 'Successful manual Release packaging run ID from main'
+        description: 'For legacy preparation only, successful Release packaging run ID'
         type: string
-        required: true
       source_commit:
-        description: 'Exact source SHA packaged in that run'
+        description: 'For legacy preparation only, exact source SHA from the packaging run'
         type: string
-        required: true
   workflow_call:
     inputs:
       package_run_id:
-        description: 'Blank uses a same-run package after successful needs dependency'
         type: string
         default: ''
       source_commit:
         type: string
         required: true
+
 permissions:
   contents: read
   actions: read
+
 concurrency:
-  group: production-deployment-preparation
+  group: flamel-production
   cancel-in-progress: false
+
 jobs:
-  prepare:
+  stage:
+    if: inputs.source_commit == '' && github.event_name == 'workflow_dispatch'
+    name: Stage published website and rehearse rollback
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    outputs:
+      source: ${{ steps.metadata.outputs.source }}
+    env:
+      OPERATION: ${{ inputs.operation }}
+      EXPECTED_ENTRY: ${{ inputs.expected_entry_sha256 }}
+      ROLLBACK_RUN: ${{ inputs.rollback_run_id }}
+      ROLLBACK_ATTEMPT: ${{ inputs.rollback_attempt }}
+      LEGACY_RUN: ${{ inputs.package_run_id }}
+    steps:
+      - name: Check dispatch inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$GITHUB_REF" == refs/heads/main && "$GITHUB_REPOSITORY" == zacxu/the-flamel-project ]]
+          [[ -z "$LEGACY_RUN" ]]
+          case "$OPERATION" in
+            prepare) [[ -z "$ROLLBACK_RUN" ]];;
+            inspect|deploy) [[ -z "$ROLLBACK_RUN" && "$EXPECTED_ENTRY" =~ ^[a-f0-9]{64}$ ]];;
+            rollback) [[ "$ROLLBACK_RUN" =~ ^[1-9][0-9]{0,19}$ && "$ROLLBACK_ATTEMPT" =~ ^[1-9][0-9]{0,5}$ ]];;
+            *) exit 2;;
+          esac
+      - run: git config --global core.autocrlf false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24.22.1'
+      - name: Verify controller and retrieve the published production ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -I -B scripts/github_publication/verify_phase8.py --require-clean
+          python3 -I -B scripts/github_publication/phase8/prepare_deployment.py --work-dir "$RUNNER_TEMP/stage" --rollback-run-id "$ROLLBACK_RUN"
+      - name: Rehearse ordered writes and rollback
+        id: metadata
+        run: |
+          source_sha=$(jq -er .source_commit "$RUNNER_TEMP/stage/preparation.json")
+          echo "source=$source_sha" >> "$GITHUB_OUTPUT"
+          predecessor=()
+          if [[ -f "$RUNNER_TEMP/stage/predecessor.zip" ]]; then predecessor=(--predecessor-zip "$RUNNER_TEMP/stage/predecessor.zip"); fi
+          python3 -I -B scripts/github_publication/phase8/transport.py rehearse "${predecessor[@]}" --package-dir "$RUNNER_TEMP/stage/package" --source-commit "$source_sha" --state-dir "$RUNNER_TEMP/rehearsal"
+          cp "$RUNNER_TEMP/rehearsal/rehearsal.json" "$RUNNER_TEMP/stage/rehearsal.json"
+      - name: Retain exact package and staging checks
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verified-website-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/stage/package
+            ${{ runner.temp }}/stage/preparation.json
+            ${{ runner.temp }}/stage/rehearsal.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14
+
+  production:
+    needs: stage
+    if: inputs.operation != 'prepare' && github.ref == 'refs/heads/main'
+    name: InfinityFree ${{ inputs.operation }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    environment: production
+    env:
+      SOURCE_COMMIT: ${{ needs.stage.outputs.source }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Download this run's verified package
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: verified-website-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/flamel-handoff
+      - name: Download the previous run's verified snapshot
+        if: inputs.operation == 'rollback'
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: infinityfree-snapshot-${{ inputs.rollback_run_id }}-${{ inputs.rollback_attempt }}
+          path: ${{ runner.temp }}/state
+          github-token: ${{ github.token }}
+          repository: zacxu/the-flamel-project
+          run-id: ${{ inputs.rollback_run_id }}
+      - name: Snapshot the existing host or inspect its contents
+        if: inputs.operation != 'rollback'
+        env:
+          INFINITYFREE_FTP_HOST: ${{ secrets.INFINITYFREE_FTP_HOST }}
+          INFINITYFREE_FTP_USERNAME: ${{ secrets.INFINITYFREE_FTP_USERNAME }}
+          INFINITYFREE_FTP_PASSWORD: ${{ secrets.INFINITYFREE_FTP_PASSWORD }}
+          INFINITYFREE_EXPECTED_ENTRY_SHA256: ${{ inputs.expected_entry_sha256 }}
+          OPERATION: ${{ inputs.operation }}
+        run: |
+          command=inspect
+          if [[ "$OPERATION" == deploy ]]; then command=snapshot; fi
+          python3 -I -B scripts/github_publication/phase8/transport.py "$command" --package-dir "$RUNNER_TEMP/flamel-handoff/package" --source-commit "$SOURCE_COMMIT" --state-dir "$RUNNER_TEMP/state"
+      - name: Preserve rollback bytes before the first hosting write
+        if: inputs.operation == 'deploy'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: infinityfree-snapshot-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/state
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90
+      - name: Apply the verified operation
+        if: inputs.operation == 'deploy' || inputs.operation == 'rollback'
+        env:
+          INFINITYFREE_FTP_HOST: ${{ secrets.INFINITYFREE_FTP_HOST }}
+          INFINITYFREE_FTP_USERNAME: ${{ secrets.INFINITYFREE_FTP_USERNAME }}
+          INFINITYFREE_FTP_PASSWORD: ${{ secrets.INFINITYFREE_FTP_PASSWORD }}
+          INFINITYFREE_EXPECTED_ENTRY_SHA256: ${{ inputs.expected_entry_sha256 }}
+          OPERATION: ${{ inputs.operation }}
+        run: |
+          python3 -I -B scripts/github_publication/phase8/transport.py "$OPERATION" --package-dir "$RUNNER_TEMP/flamel-handoff/package" --source-commit "$SOURCE_COMMIT" --state-dir "$RUNNER_TEMP/state"
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        if: inputs.operation != 'inspect'
+        with:
+          node-version: '24.22.1'
+      - name: Install the browser driver for live verification
+        if: inputs.operation != 'inspect'
+        run: npm install --prefix "$RUNNER_TEMP/browser-deps" --ignore-scripts --no-audit --no-fund --package-lock=false playwright-core@1.62.1
+      - name: Open the saved submission link and verify the live release
+        if: inputs.operation != 'inspect'
+        env:
+          OPERATION: ${{ inputs.operation }}
+        run: |
+          export CHROME_PATH="$(command -v google-chrome)"
+          export NODE_PATH="$RUNNER_TEMP/browser-deps/node_modules"
+          options=(--package-record "$RUNNER_TEMP/flamel-handoff/package/package-record.json")
+          if [[ "$OPERATION" == rollback ]]; then
+            options=(--rollback --package-record "$RUNNER_TEMP/state/restored-package.json")
+          fi
+          node scripts/github_publication/phase8/live_acceptance.cjs "${options[@]}" --output "$RUNNER_TEMP/live-evidence"
+      - name: Retain transport receipts and browser results
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: infinityfree-result-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/state/*.json
+            ${{ runner.temp }}/live-evidence
+          if-no-files-found: warn
+          retention-days: 30
+
+  legacy_handoff:
+    if: inputs.source_commit != '' && (inputs.operation == '' || inputs.operation == 'prepare')
     name: Verify exact deployment handoff (NOT_DEPLOYED)
     runs-on: ubuntu-24.04
     timeout-minutes: 15
@@ -46,7 +212,7 @@ jobs:
           python-version: '3.11.14'
       - name: Verify source and immutable source input
         run: |
-          python -I -B scripts/github_publication/verify_phase7.py --require-clean
+          python -I -B scripts/github_publication/verify_phase8.py --require-clean
           python -I -B -c 'import os,re; assert re.fullmatch("[a-f0-9]{40}",os.environ["SOURCE_COMMIT"]), "Use an immutable full SHA"'
       - name: Verify successful same-repository producing run
         if: inputs.package_run_id != ''
@@ -73,7 +239,7 @@ jobs:
           producer="$PACKAGE_RUN_ID"
           if [ -z "$producer" ]; then producer="$GITHUB_RUN_ID"; fi
           python -I -B scripts/github_publication/phase6/manual_ci.py verify-package --package-dir "$RUNNER_TEMP/flamel-package" --source-commit "$SOURCE_COMMIT" --producer-run-id "$producer" --report "$RUNNER_TEMP/deployment-preparation.json"
-          python -I -B scripts/github_publication/verify_phase7.py --require-clean
+          python -I -B scripts/github_publication/verify_phase8.py --require-clean
       - name: Retain validation receipt
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
@@ -84,4 +250,4 @@ jobs:
       - name: State actual result
         run: |
           echo '## Verified deployment handoff: NOT_DEPLOYED' >> "$GITHUB_STEP_SUMMARY"
-          echo 'The exact package, entry, accepted .htaccess and immutable-first plan passed. Phase 6 configures no hosting credentials or transport. Phase 8 performs upload, index-last publication and live /refresh/browser acceptance.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'The exact package, entry, accepted .htaccess and immutable-first plan passed. Use a manual Production deployment dispatch to deploy the published release.' >> "$GITHUB_STEP_SUMMARY"

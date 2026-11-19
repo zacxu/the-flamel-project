@@ -188,4 +188,4 @@ Private-repository branch protection and deployment approval features depend on 
 
 Phases 1-7 preserve the original baseline, audit its scope, verify standalone installation, publish source, validate CI and publish an independently retrieved/rebuilt release. Subsequent changes should use branches and pull requests.
 
-**Current implementation status:** Phases 1-7 are complete. Private v0.1.0 and all seventeen assets are published and independently verified/rebuilt. Next: Phase 8, automate verified updates to the existing InfinityFree website and complete live acceptance/rollback. The live site remains unchanged by Phase 7.
+**Phase 8 status (20 November 2026):** The original production package passed all 88 live file comparisons after opening the permanent link in submission 7. The authenticated transport check is pending. See the [deployment guide](DEPLOYMENT.md) and [Phase 8 verification report](reports/GITHUB_PUBLICATION_PHASE8.md).
