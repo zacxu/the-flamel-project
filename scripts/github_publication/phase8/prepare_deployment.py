@@ -61,7 +61,8 @@ def selected_release(rollback_run_id):
     if not re.fullmatch(r"[1-9][0-9]{0,19}", rollback_run_id):
         raise ValueError("Invalid rollback run ID")
     run = github().api(f"repos/{package.REPO}/actions/runs/{rollback_run_id}")
-    if not (run["repository"]["full_name"] == package.REPO and run["event"] == "workflow_dispatch"
+    if not (run["repository"]["id"] == 1452978137 and run["repository"]["full_name"] == package.REPO
+            and run["event"] == "workflow_dispatch"
             and run["head_branch"] == "main" and run["path"] == ".github/workflows/production-deployment.yml"
             and run["status"] == "completed"):
         raise ValueError("Snapshot must come from a completed production dispatch on main")
@@ -79,7 +80,9 @@ def github():
 
 def download_release(state, destination, name):
     gh = github()
-    gh.repository()
+    repo = gh.api(f"repos/{package.REPO}")
+    if repo.get("full_name") != package.REPO or repo.get("id") != 1452978137:
+        raise ValueError("GitHub repository identity differs from the recorded release")
     gh.tag(state["tag"], state["source_commit"])
     release = gh.release(state["tag"])
     if release["draft"] or release["prerelease"] or release["id"] != state["release_id"]:
