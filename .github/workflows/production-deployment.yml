@@ -126,10 +126,18 @@ jobs:
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: infinityfree-snapshot-${{ inputs.rollback_run_id }}-${{ inputs.rollback_attempt }}
-          path: ${{ runner.temp }}/state
+          path: ${{ runner.temp }}/encrypted-recovery
           github-token: ${{ github.token }}
           repository: zacxu/the-flamel-project
           run-id: ${{ inputs.rollback_run_id }}
+      - name: Authenticate and open the rollback snapshot
+        if: inputs.operation == 'rollback'
+        env:
+          FLAMEL_ROLLBACK_KEY: ${{ secrets.FLAMEL_ROLLBACK_KEY }}
+          ORIGINAL_RUN: ${{ inputs.rollback_run_id }}
+          ORIGINAL_ATTEMPT: ${{ inputs.rollback_attempt }}
+        run: |
+          node scripts/github_publication/phase8/snapshot-crypto.cjs open "$RUNNER_TEMP/state" "$RUNNER_TEMP/encrypted-recovery/snapshot.bin" "$SOURCE_COMMIT" "$ORIGINAL_RUN" "$ORIGINAL_ATTEMPT"
       - name: Snapshot the existing host or inspect its contents
         if: inputs.operation != 'rollback'
         env:
@@ -142,13 +150,20 @@ jobs:
           command=inspect
           if [[ "$OPERATION" == deploy ]]; then command=snapshot; fi
           python3 -I -B scripts/github_publication/phase8/transport.py "$command" --package-dir "$RUNNER_TEMP/flamel-handoff/package" --source-commit "$SOURCE_COMMIT" --state-dir "$RUNNER_TEMP/state"
-      - name: Preserve rollback bytes before the first hosting write
+      - name: Encrypt the rollback snapshot
+        if: inputs.operation == 'deploy'
+        env:
+          FLAMEL_ROLLBACK_KEY: ${{ secrets.FLAMEL_ROLLBACK_KEY }}
+        run: |
+          node scripts/github_publication/phase8/snapshot-crypto.cjs seal "$RUNNER_TEMP/state" "$RUNNER_TEMP/snapshot.bin" "$SOURCE_COMMIT" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT"
+          node scripts/github_publication/phase8/snapshot-crypto.cjs open "$RUNNER_TEMP/verified-snapshot" "$RUNNER_TEMP/snapshot.bin" "$SOURCE_COMMIT" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT"
+          diff -qr "$RUNNER_TEMP/state" "$RUNNER_TEMP/verified-snapshot" > /dev/null
+      - name: Preserve encrypted rollback bytes before the first hosting write
         if: inputs.operation == 'deploy'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: infinityfree-snapshot-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/state
-          include-hidden-files: true
+          path: ${{ runner.temp }}/snapshot.bin
           if-no-files-found: error
           retention-days: 90
       - name: Apply the verified operation
@@ -180,13 +195,30 @@ jobs:
             options=(--rollback --package-record "$RUNNER_TEMP/state/restored-package.json")
           fi
           node scripts/github_publication/phase8/live_acceptance.cjs "${options[@]}" --output "$RUNNER_TEMP/live-evidence"
-      - name: Retain transport receipts and browser results
+      - name: Record the public transport result
+        if: always()
+        env:
+          OPERATION: ${{ inputs.operation }}
+        run: |
+          case "$OPERATION" in
+            inspect)
+              if [[ -f "$RUNNER_TEMP/state/inspect.json" ]]; then
+                jq '{operation:"inspect",missingImmutableFiles:(.new_immutable_files | length),changedMutableFiles:(.changed_mutable_files | length)}' "$RUNNER_TEMP/state/inspect.json" > "$RUNNER_TEMP/public-result.json"
+              fi
+              ;;
+            deploy|rollback)
+              if [[ -f "$RUNNER_TEMP/state/$OPERATION.json" ]]; then
+                jq --arg op "$OPERATION" '{operation:$op,verifiedReadback:(.status == "VERIFIED_FTPS_READBACK"),changedFiles:(.written_paths | length)}' "$RUNNER_TEMP/state/$OPERATION.json" > "$RUNNER_TEMP/public-result.json"
+              fi
+              ;;
+          esac
+      - name: Retain sanitized counts and public browser results
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: infinityfree-result-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
-            ${{ runner.temp }}/state/*.json
+            ${{ runner.temp }}/public-result.json
             ${{ runner.temp }}/live-evidence
           if-no-files-found: warn
           retention-days: 30

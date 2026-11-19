@@ -3923,6 +3923,7 @@ scripts/github_publication/phase7/test_website_predecessor.py
 scripts/github_publication/phase7/website_predecessor.py
 scripts/github_publication/phase8/live_acceptance.cjs
 scripts/github_publication/phase8/prepare_deployment.py
+scripts/github_publication/phase8/snapshot-crypto.cjs
 scripts/github_publication/phase8/test_transport.py
 scripts/github_publication/phase8/transport.py
 scripts/github_publication/prepare_storage.py

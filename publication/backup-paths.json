@@ -64,8 +64,8 @@
     "phase6_completion": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\PHASE6_COMPLETION.json",
     "phase7_completion": "D:\\Backups\\TheFlamelProject\\phase7-20261111-release\\PHASE7_COMPLETION.json"
   },
-  "git_selected_files_current": 5343,
-  "current_control_files": 398,
+  "git_selected_files_current": 5344,
+  "current_control_files": 399,
   "modified_frozen_input_overrides": [
     "reports/github-publication-phase1/RECOVERY.md",
     "reports/GITHUB_PUBLICATION_PHASE1.md"
