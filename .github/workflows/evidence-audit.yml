@@ -40,7 +40,7 @@ jobs:
         with:
           python-version: '3.11.14'
       - name: Verify source before audit
-        run: python -I -B scripts/github_publication/verify_phase7.py --require-clean
+        run: python -I -B scripts/github_publication/verify_phase8.py --require-clean
       - name: Audit saved evidence and explicitly requested retrieval
         env:
           RETRIEVE_PUBLIC: ${{ inputs.retrieve_public_archives }}
@@ -55,7 +55,7 @@ jobs:
           fi
       - name: Verify accepted evidence unchanged
         if: always()
-        run: python -I -B scripts/github_publication/verify_phase7.py --require-clean
+        run: python -I -B scripts/github_publication/verify_phase8.py --require-clean
       - name: Retain audit receipts only
         if: success()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

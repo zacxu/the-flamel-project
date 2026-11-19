@@ -44,7 +44,7 @@ jobs:
       - name: Validate immutable published source
         shell: pwsh
         run: |
-          python -I -B controller/scripts/github_publication/verify_phase7.py --require-clean
+          python -I -B controller/scripts/github_publication/verify_phase8.py --require-clean
           if ($LASTEXITCODE -ne 0) { throw 'Controller verification failed.' }
           python -I -B controller/scripts/github_publication/phase6/manual_ci.py resolve-source --root controller --source-commit "$env:SOURCE_COMMIT"
           if ($LASTEXITCODE -ne 0) { throw 'Source commit is outside permitted published/acceptance scope.' }
@@ -79,7 +79,7 @@ jobs:
         if: always()
         shell: pwsh
         run: |
-          python -I -B controller/scripts/github_publication/verify_phase7.py --require-clean
+          python -I -B controller/scripts/github_publication/verify_phase8.py --require-clean
           if ($LASTEXITCODE -ne 0) { throw 'Controller source changed.' }
       - name: Retain exact package and staging instructions
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

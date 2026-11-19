@@ -10,7 +10,7 @@
   "original_snapshot_tree": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\project-snapshot\\bears",
   "archive_dir": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\archives",
   "production_recovery_tree": "D:\\Backups\\TheFlamelProject\\phase1-20261111-0140-SGT\\production\\htdocs",
-  "current_control_seal": "D:\\Backups\\TheFlamelProject\\phase7-20261111-release\\current-controls.json",
+  "current_control_seal": "D:\\Backups\\TheFlamelProject\\phase8-20261120-deployment\\current-controls.json",
   "historical_phase2_control_seal": "D:\\Backups\\TheFlamelProject\\phase2-20261111-0225-SGT\\control-files.json",
   "legacy_prefix_map": [
     {
@@ -64,8 +64,8 @@
     "phase6_completion": "D:\\Backups\\TheFlamelProject\\phase6-20261111-ci\\PHASE6_COMPLETION.json",
     "phase7_completion": "D:\\Backups\\TheFlamelProject\\phase7-20261111-release\\PHASE7_COMPLETION.json"
   },
-  "git_selected_files_current": 5333,
-  "current_control_files": 388,
+  "git_selected_files_current": 5343,
+  "current_control_files": 398,
   "modified_frozen_input_overrides": [
     "reports/github-publication-phase1/RECOVERY.md",
     "reports/GITHUB_PUBLICATION_PHASE1.md"
@@ -82,7 +82,7 @@
   "phase3_new_git_files": 53,
   "phase3_withheld_originals": 1,
   "phase3_status": "COMPLETE_SCOPED_SOURCE_AND_RELEASE_SELECTION_AUDIT",
-  "current_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase7-20261111-release\\selected-files.json",
+  "current_complete_selection_seal": "D:\\Backups\\TheFlamelProject\\phase8-20261120-deployment\\selected-files.json",
   "phase3_clearance_scope": {
     "git_files": 5200,
     "release_candidates": 11,
@@ -92,7 +92,7 @@
     "no_security_clean_environment_claim": true,
     "report": "reports/GITHUB_PUBLICATION_PHASE3.md"
   },
-  "current_integrity_verifier": "scripts/github_publication/verify_phase7.py",
+  "current_integrity_verifier": "scripts/github_publication/verify_phase8.py",
   "phase3_recovery_copy_verification": "External PHASE3_COMPLETION.json verifies every current control recovery copy; historical relocation verification remains scoped to its earlier seal.",
   "phase4_status": "COMPLETE_CLEAN_INSTALLATION_AND_SCOPED_RETRIEVAL",
   "phase4_work_root": "D:\\Backups\\TheFlamelProject\\phase4-20261111-reproduction",
@@ -144,5 +144,6 @@
     "source_tree": "4e59b829f4ea23b7c8f4833f5c1e23e9cffd0d55",
     "release_id": 441459014,
     "canonical_record_sha256": "8f0a9bd6c65bf377aff12d7578b311571b10eab551d82c5edad4b74abc10ee45"
-  }
+  },
+  "phase8_work_root": "D:\\Backups\\TheFlamelProject\\phase8-20261120-deployment"
 }
